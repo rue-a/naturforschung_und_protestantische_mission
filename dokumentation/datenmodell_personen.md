@@ -1,4 +1,4 @@
-# Herrnhut Botanik Datenmodell – Personen
+# Datenmodell – Personen
 
 ## Präambel
 
