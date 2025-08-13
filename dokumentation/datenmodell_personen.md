@@ -52,7 +52,7 @@ Die hier beschreibene Tabelle hat zwei Funktionen: 1) Arbeitswerkzeug zur Sammlu
 - **`Period_ISO8601-2`**: Angabe einer Zeitspanne, welche mithilfe zweier *Date_ISO8601-2* Strings konstruiert wird. Die beiden *Date_ISO8601-2* Strings repräsentieren den Anfang und das Ende der Zeitspanne und werden durch ein Solidus Symbol `/` (ohne umgebende Leerzeichen) getrennt.
 	- `1872-06-06/1827-06-12?` ⇾ vom 6. Juni 1872 bis etwa 12. Juni 1872.
 	- `1899/1907` ⇾ von 1899 bis 1907
-	- `1698/02.04.1702` ⇾ Zeitspanne beginnt irgendwann im Jahr 1698 und endet am 2. April 1702.
+	- `1698/1702-04-02` ⇾ Zeitspanne beginnt irgendwann im Jahr 1698 und endet am 2. April 1702.
 
 - **`Temporal_ISO8601-2`**: In diesem Feld sind *Date_ISO8601-2* und *Period_ISO8601-2* Strings erlaubt.
  
