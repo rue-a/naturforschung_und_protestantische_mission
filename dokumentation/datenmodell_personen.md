@@ -136,9 +136,11 @@ Freitextfeld für Notizen in Bezug auf den Namen, z.B. weitere Informationen zu 
 | Code        | Beschreibung                                                                                                   |
 | ----------- | -------------------------------------------------------------------------------------------------------------- |
 | `ja(a)`     | qua Geburt und Erziehung, in einer Herrnhuter Gemeinschaft bzw. von Herrnhuter Eltern geboren und aufgewachsen |
-| `ja(b)`     | Übernahme von Funktionen und Ausübung von Ämtern innerhalb der Brüdergemeine                                   |
-| `nein(a)`   | aber wichtig im Netzwerk                                                                                       |
-| `nein(b)`   | um Verwechslung auszuschließen                                                                                 |
+| `ja(b)`     | als Erwachsene aufgenommen, z.B. Konvertitien oder Missionierte |
+| `ja(c)`     | Übernahme von Funktionen und Ausübung von Ämtern innerhalb der Brüdergemeine                                   |
+| `nein(a)`   | ausgetreten                                                                                       |
+| `nein(b)`   | aber wichtig im Netzwerk                                                                                       |
+| `nein(c)`   | um Verwechslung auszuschließen                                                                                 |
 | `unbekannt` | Zugehörigkeit kann nicht ausgeschlossen werden.                                                                |
 - `ja(a)`
 - `nein(a) | nein (b)`
