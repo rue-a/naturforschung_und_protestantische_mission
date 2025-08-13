@@ -10,11 +10,46 @@ Beschreibung der Datentypen, welche in den Datenschemata verwendet werden.
 
 ## Spezielle Datentypen
 
-- **`ID`**: Eine ID ist ein alphanumerischer, innerhalb dieses Projekts eindeutiger, Identifikator für Objekte (Zeilen) in Tabellen dieses Objekts. Die Vergabe dieser Identifikatoren erlaubt eindeutige Link zwischen Tabellen. Jede *ID* beginnt mit einem Großbuchstaben, welcher die Tabelle in der die zu identifizierenden Objekte stehen anzeigt, danach folgt eine, innerhalb der entsprechenden Tabelle einmalige, Zahl unbestimmter Länge.
-	- `P1035` (ID in der Personentabelle)
-	- `R1` (ID in der Literaturquellentabelle)
-	- `L105` (ID in der Ortstabelle)
-    - `C28` (ID in der Sammlungstabelle)
+- **`ID`**: Eine ID ist ein alphanumerischer, innerhalb dieses Projekts eindeutiger, Identifikator für Objekte (Zeilen) in Tabellen dieses Objekts. Die Vergabe dieser Identifikatoren erlaubt eindeutige Link zwischen Tabellen. Jede *ID* beginnt mit einem Großbuchstaben, welcher die Tabelle in der die zu identifizierenden Objekte stehen anzeigt, danach folgt eine, innerhalb der entsprechenden Tabelle einmalige, Zahl mit 7 Ziffern.
+	- `P1035000` (ID in der Personentabelle)
+	- `R0010000` (ID in der Literaturquellentabelle)
+	- `L0010500` (ID in der Ortstabelle)
+    - `C0028000` (ID in der Sammlungstabelle)
+Die Vergabe der IDs basiert auf der Idee des _Frational Indexing_.
+
+> [!TIP]
+> **Fractional Indexing Variante mit Ganzzahlen**
+> Ein Verfahren zur Vergabe von Positionswerten (IDs) in einer sortierten Liste, bei dem initial große Abstände zwischen den Werten gelassen werden (z. B. 1000, 2000, 3000). Beim Einfügen neuer Einträge wird ein Wert zwischen zwei bestehenden gewählt – nicht zwingend der arithmetische Mittelwert, sondern ein beliebiger Wert innerhalb des freien Intervalls –, um die Reihenfolge beizubehalten, ohne bestehende IDs neu zu vergeben.
+>
+> _Strategie zur Wertvergabe:_
+>
+> Zwischen zwei bestehenden IDs wird zunächst das größte noch freie Intervall in Zehntelschritten genutzt. Sobald diese Zehntelschritte ausgeschöpft sind, wird rekursiv auf kleinere Einheiten innerhalb des verbleibenden Intervalls gewechselt (z. B. Hundertstel, Tausendstel). So wird der Zahlenraum planvoll von grob zu fein aufgeteilt, was langfristig viele Einfügungen ohne Umnummerierung erlaubt.
+>
+> _Beispiel, alphabetisch geoordnete Liste von Namen:_
+> - 1000 – Albert
+> - 2000 – Boris.
+>
+> Es soll der Name Almut zwischen Albert und Boris eingefügt werden.
+> Es kann hier einfach der Mittelwert 1500 gewählt werden, _oder besser_, ein Wert näher an 1000 als an 2000, da Almut lexikographisch näher an Albert liegt als an Boris, z.B. 1200 oder 1300:
+> - 1000 – Albert
+> - 1200 – Almut
+> - 2000 – Boris.
+>
+> Falls danach Alma zwischen Albert (1000) und Almut (1200) eingefügt werden soll, wird der nächste Zehntelschritt 1100 gewählt:
+> - 1000 – Albert
+> - 1100 – Alma
+> - 1200 – Almut
+> - 2000 – Boris.
+>
+> Soll nun ein weiter Name, Alda, zwischen Albert und Alma eingefügt werden soll, sind die Zehntelschritte zwischen diesen beiden Namen aufgebraucht und die ID im Bereich der Hundertstelschritte zwischen 1000 und 1100 gewählt:
+> - 1000 – Albert
+> - 1030 – Alda
+> - 1100 – Alma
+> - 1200 – Almut
+> - 2000 – Boris.
+>
+> Sind die Hundertstelschritte zwischen zwei Werten auch aufgebraucht, geht es in Tausendstelschritten weiter. Im vorliegenden Beispiel schlägt das System an nach dem Auschöpfen der Tausendstelschritte fehl. Um das zu vermeiden, sollten Stellenzahl und Startabstände der initialen IDs so großzügig gewählt werden, dass ein späteres Ausschöpfen des Bereichs sehr unwahrscheinlich ist. Der Vorteil der Ganzzahl-Variante bleibt die gute Lesbarkeit und die einfache manuelle Handhabung.
+
 
 - **`Date`**: Taggenaue Angabe eines Datums im Format `YYYY-MM-DD` (ISO 8601).
 	- `YYYY`: Jahr mit vier Ziffern
