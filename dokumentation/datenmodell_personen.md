@@ -26,6 +26,7 @@ Die hier beschreibene Tabelle hat zwei Funktionen: 1) Arbeitswerkzeug zur Sammlu
 	- `P1035` (ID in der Personentabelle)
 	- `R1` (ID in der Literaturquellentabelle)
 	- `L105` (ID in der Ortstabelle)
+    - `C28` (ID in der Sammlungstabelle)
 
 - **`Date`**: Taggenaue Angabe eines Datums im Format `YYYY-MM-DD` (ISO 8601).
 	- `YYYY`: Jahr mit vier Ziffern
