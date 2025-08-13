@@ -58,7 +58,7 @@ Die hier beschreibene Tabelle hat zwei Funktionen: 1) Arbeitswerkzeug zur Sammlu
  
 - **`URL`**: Ein strukturierter String gemäß [RFC3986](https://datatracker.ietf.org/doc/html/rfc3986), aber eingeschränkt auf das Schema `https` (oder notfalls `http`). URLs sollten immer aus der Browserleiste in das Dokument kopiert und nie per Hand eingetragen werden.
 
-- **`Reference-Printed`**: Dient dem Nachweis eines Sachverhalts, mittels eines gedruckten Werks unter Angabe der Seiten auf welchen der Nachweis zu finden ist. Der Nachweisstring ist wie folgt strukturiert `<ID aus Literaturquellentabelle, <Angabe der Seiten>`, d.h. die Quelle und die Angabe der Seiten sind durch *ein Komma und ein Leerzeichen* voneinander getrennt.
+- **`Reference-analog`**: Dient dem Nachweis eines Sachverhalts, mittels eines gedruckten Werks unter Angabe der Seiten auf welchen der Nachweis zu finden ist. Der Nachweisstring ist wie folgt strukturiert `<ID aus Literaturquellentabelle, <Angabe der Seiten>`, d.h. die Quelle und die Angabe der Seiten sind durch *ein Komma und ein Leerzeichen* voneinander getrennt.
 	-  `R13, p237ff` (Schriftliche Quelle, erfasst unter der *ID* R13, gesuchter Nachweis auf Seiten 237 und folgende)
 
 - **`Reference`** In diesem Feld sind *URL* und *Reference-Printet*  Strings erlaubt.
