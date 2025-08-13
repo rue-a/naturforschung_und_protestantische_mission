@@ -68,7 +68,6 @@ Freitextfeld für Anmerkungen in Bezug auf den Namen, z.B. weitere Informationen
 ### Zugehörigkeit Herrnhuter Brüdergemeine
 *List of String from Codelist*
 
-> Die Codelist ist noch zu definieren, Vorschlag:
 
 | Code        | Beschreibung                                                                                                   |
 | ----------- | -------------------------------------------------------------------------------------------------------------- |
