@@ -63,7 +63,7 @@ Dient der Darstellung, z.B. auf der Website.
 ### Name - Anmerkungen
 *String*
 
-Freitextfeld für Notizen in Bezug auf den Namen, z.B. weitere Informationen zu alternativen Schreibweisen oder Auflösung von Abkürzungen.
+Freitextfeld für Anmerkungen in Bezug auf den Namen, z.B. weitere Informationen zu alternativen Schreibweisen oder Auflösung von Abkürzungen.
 
 ### Zugehörigkeit Herrnhuter Brüdergemeine
 *List of String from Codelist*
@@ -126,7 +126,7 @@ Liste möglicher Geburtsdaten der Person. Die Geburtsdaten sind in absteigender 
 
 Liste der Quellen der Geburtsdaten in der Reihenfolge der entsprechenden Geburtsdaten.
 
-### Geburt - Datum - Notizen
+### Geburt - Datum - Anmerkungen
 *String*
 
 ### Geburt - Ort - Geburtsorte
@@ -139,7 +139,7 @@ Liste möglicher Geburtsorte der Person. Die Geburtsorte sind in absteigender Pl
 
 Liste der Quellen der Geburtsorte in der Reihenfolge der entsprechenden Geburtsorte.
 
-### Geburt - Ort - Notizen
+### Geburt - Ort - Anmerkungen
 *String*
 
 ### Tod - Datum - Todesdaten
@@ -152,7 +152,7 @@ Liste möglicher Todesdaten der Person. Die Todesdaten sind in absteigender Plau
 
 Liste der Quellen der Todesdaten in der Reihenfolge der entsprechenden Todesdaten.
 
-### Tod - Datum - Notizen
+### Tod - Datum - Anmerkungen
 *String*
 
 ### Tod - Ort - Todesorte
@@ -165,7 +165,7 @@ Liste möglicher Todesorte der Person. Die Todesorte sind in absteigender Plausi
 
 Liste der Quellen der Todesorte in der Reihenfolge der entsprechenden Todesorte.
 
-### Tod - Ort - Notizen
+### Tod - Ort - Anmerkungen
 *String*
 
 ### Tätigkeiten
