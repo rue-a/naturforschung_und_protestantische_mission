@@ -122,7 +122,7 @@ Dient der Darstellung, z.B. auf der Website.
 - `Dr. August Herrmann Francke`
 - `Constantin Theodor Glitsch`
 
-### Name - Notizen
+### Name - Anmerkungen
 *String*
 
 Freitextfeld für Notizen in Bezug auf den Namen, z.B. weitere Informationen zu alternativen Schreibweisen oder Auflösung von Abkürzungen.
