@@ -6,6 +6,7 @@
 
 Die hier beschreibene Tabelle hat zwei Funktionen: 1) Arbeitswerkzeug zur Sammlung übergeordneter Informationen zu relevanten Personen und 2) Quelle zur Erzeugung einer Website, welche relevante Teile der gesammelten Informationen für eine breite Öffentlichkeit zugänglich darstellt. Alle Informationen, die dem zweiten Zweck dienen, müssen strukturiert erfasst werden. Dieses Dokument beschreibt alle Spalten, welche diesem zweiten Zweck dienen.
 
+Sofern nicht anders angegeben gilt für jedes Feld die _**Open World Assumption**_, d.h. das Nicht-Vorhandensein einer Information bedeuten _nicht_, dass es keine Informationen gibt (1) **und** das Vorhandensein von Informationen bedeutet nicht, dass die Informationen vollständig sind (2). Bsp.: (1) Sind im Feld _Angehörige - Eheparner_ keine Informationen eingetragen, heißt das nicht, dass die Person nicht verheiratet war. Oder: Ist das Feld _Geburt - Ort - Geburtsorte_ leer, heißt das nicht, dass es keinen Geburtsort gibt. (2) Ist im Feld _Angehörige - Kinder_ eine Liste mit drei Werten eingetragen, heisst das nciht, dass die Person nur drei Kinder hatte, sondern, dass sie mindestens diese drei Kinder hatte.
 
 > Farbkodierung der Spalten:
 > - weiß: Informationen werden auf der Website präsentiert
@@ -64,6 +65,26 @@ Dient der Darstellung, z.B. auf der Website.
 *String*
 
 Freitextfeld für Anmerkungen in Bezug auf den Namen, z.B. weitere Informationen zu alternativen Schreibweisen oder Auflösung von Abkürzungen.
+
+### Angehörige - Geschwister
+*List of ID*
+
+Ungeordnete Liste der (für das Projekt) relevanten Geschwistern der Person. Die Angabe der Geschwister erfolgt mittels einer Personen-ID, d.h. die Geschwister müssen in dieser Tabelle erfasst sein.
+
+### Angehörige - Ehepartner
+*List of ID*
+
+Geordnete Liste der Ehepartner der Person entsprechend der zeitl. Abfolge der Heiraten. Die Angabe der Ehepartner erfolgt mittels einer Personen-ID, d.h. die Ehepartner müssen in dieser Tabelle erfasst sein.
+
+### Angehörige - Kinder
+*List of ID*
+
+Ungeordnete Liste der (für das Projekt) relevanten Kinder der Person. Die Angabe der Kinder erfolgt mittels einer Personen-ID, d.h. die Kinder müssen in dieser Tabelle erfasst sein.
+
+### Angehörige - Anmerkungen
+*String*
+
+Freitextfeld für Anmerkungen in Bezug auf die Angehörigen, z.B. Gründe für mehrere Ehepartner.
 
 ### Zugehörigkeit Herrnhuter Brüdergemeine
 *List of String from Codelist*
