@@ -76,8 +76,8 @@ Die Vergabe der IDs basiert auf der Idee des _Frational Indexing_.
 	- `1872-06-06/1827-06-12?` ⇾ vom 6. Juni 1872 bis etwa 12. Juni 1872.
 	- `1899/1907` ⇾ von 1899 bis 1907
 	- `1698/1702-04-02` ⇾ Zeitspanne beginnt irgendwann im Jahr 1698 und endet am 2. April 1702.
- 	- `/1700` ⇾ Zeitspanne endet 1700, Beginn unbekannt.
-    - `1700/` ⇾ Zeitspanne beginnt 1700, Ende unbekannt.
+ 	- `/1700` ⇾ Zeitspanne endet irgendwann im Jahr 1700, Beginn unbekannt.
+    - `1700/` ⇾ Zeitspanne beginnt irgendwann im Jahr 1700, Ende unbekannt.
 
 - **`ISO8601-2_Temporal`**: In diesem Feld sind *ISO8601-2_Date* und *ISO8601-2_Period* Strings erlaubt.
  
