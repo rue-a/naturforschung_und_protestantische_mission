@@ -57,7 +57,7 @@ Die Vergabe der IDs basiert auf der Idee des _Frational Indexing_.
 	- `DD`: Tag mit zwei Ziffern    
 	- z. B.: `2025-04-08`
 
-- **`Date_ISO8601-2`**: 
+- **`ISO8601-2_Date`**: 
 	Angabe eines tag- bis jahrgenauen Zeitpunkts gemäß ISO 8601-1 ( [de](https://katalog.slub-dresden.de/id/211-DE30087040), [en](https://katalog.slub-dresden.de/id/211-IX30556316) ) und unter Verwendung der in ISO 8601-2 ([en](https://katalog.slub-dresden.de/id/211-IX30556317), Abschnitt 4.5) definierten Affixe zur Angabe von Unsicherheiten. 
 	Die in ISO 8601-1 definierten Regeln werden eingeschränkt auf tag-, monat- und jahrgenau Angabe eines Zeitpunkts. Somit sind folgende Stringformate gültig:
 	- `YYYY-MM-DD`, z.B. `2025-04-08` ⇾ ein Zeitpunkt am 8. April 2025,
@@ -72,12 +72,12 @@ Die Vergabe der IDs basiert auf der Idee des _Frational Indexing_.
 	- `1872-06?-12` ⇾ `?` suffixiert: der Monat Juni ist eine unsichere Angabe (z.B. nur implizit gegeben).
 	- `1872-0?6-12` ⇾ `?` präfixiert: die zweite Ziffer in der Monatsangabe ist unsicher (z.B. im Original kaum lesbar)
 	
-- **`Period_ISO8601-2`**: Angabe einer Zeitspanne, welche mithilfe zweier *Date_ISO8601-2* Strings konstruiert wird. Die beiden *Date_ISO8601-2* Strings repräsentieren den Anfang und das Ende der Zeitspanne und werden durch ein Solidus Symbol `/` (ohne umgebende Leerzeichen) getrennt.
+- **`ISO8601-2_Period`**: Angabe einer Zeitspanne, welche mithilfe zweier *ISO8601-2_Date* Strings konstruiert wird. Die beiden *ISO8601-2_Date* Strings repräsentieren den Anfang und das Ende der Zeitspanne und werden durch ein Solidus Symbol `/` (ohne umgebende Leerzeichen) getrennt.
 	- `1872-06-06/1827-06-12?` ⇾ vom 6. Juni 1872 bis etwa 12. Juni 1872.
 	- `1899/1907` ⇾ von 1899 bis 1907
 	- `1698/1702-04-02` ⇾ Zeitspanne beginnt irgendwann im Jahr 1698 und endet am 2. April 1702.
 
-- **`Temporal_ISO8601-2`**: In diesem Feld sind *Date_ISO8601-2* und *Period_ISO8601-2* Strings erlaubt.
+- **`Temporal_ISO8601-2`**: In diesem Feld sind *ISO8601-2_Date* und *ISO8601-2_Period* Strings erlaubt.
  
 - **`URL`**: Ein strukturierter String gemäß [RFC3986](https://datatracker.ietf.org/doc/html/rfc3986), aber eingeschränkt auf das Schema `https` (oder notfalls `http`). URLs sollten immer aus der Browserleiste in das Dokument kopiert und nie per Hand eingetragen werden.
 
