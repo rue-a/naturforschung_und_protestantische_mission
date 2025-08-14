@@ -5,6 +5,7 @@ Beschreibung der Datentypen, welche in den Datenschemata verwendet werden.
 ## Generische Datentypen
 
 - **`Integer`**: Eine ganze Zahl ohne Dezimal- oder Bruchteile.
+- **`Decimal`**: Eine Dezimalzahl.
 - **`String`**: Eine Abfolge von nicht näher bestimmten Zeichen.
 - **`Structured String`**: Eine Zeichenkette, die einem bestimmten, vorhersehbaren Muster zur Darstellung von Informationen folgt (der unten beschriebene _Date_-Datentyp ist ein solcher strukturierter String). In mehreren Feldern verwendete Strukturierte Strings sind unter **Spezielle Datentypen** definiert, andernfalls erfolgt die Definition direkt in der Dokumentation des entsprechenden Feldes.
 
