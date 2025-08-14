@@ -87,7 +87,7 @@ Die Vergabe der IDs basiert auf der Idee des _Frational Indexing_.
 - **`Literature`**: Dient dem Nachweis eines Sachverhalts, mittels eines publizierten Werks unter Angabe der Seiten auf welchen der Nachweis zu finden ist. Der Nachweisstring ist wie folgt strukturiert `<ID aus Literaturtabelle, <Angabe der Seiten>`, d.h. die Quelle und die Angabe der Seiten sind durch *ein Komma und ein Leerzeichen* voneinander getrennt.
 	-  `R13, p237ff` (Schriftliche Quelle, erfasst unter der *ID* R13, gesuchter Nachweis auf Seiten 237 und folgende)
 
-- **`Source`**: Dient dem Nachweis eines Sachverhalts mittels einer (Primär)Quelle, z.B. handschriftliche Manuskripte in Archiven. Der Nachweisstring ist wie folgt strukturiert `<ID aus Quellentabelle, <Angabe der Signatur>`, d.h. die Quelle und die Angabe der Signatur sind durch *ein Komma und ein Leerzeichen* voneinander getrennt.
+- **`Source`**: ID aus der Quellentabelle. Dient dem Nachweis eines Sachverhalts mittels einer (Primär)Quelle, z.B. handschriftliche Manuskripte in Archiven. 
 
 - **`Reference`** In diesem Feld sind *URL*, *Literature* und *Source*  Strings erlaubt.
 
