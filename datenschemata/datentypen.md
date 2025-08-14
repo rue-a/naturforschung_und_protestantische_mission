@@ -72,10 +72,12 @@ Die Vergabe der IDs basiert auf der Idee des _Frational Indexing_.
 	- `1872-06?-12` ⇾ `?` suffixiert: der Monat Juni ist eine unsichere Angabe (z.B. nur implizit gegeben).
 	- `1872-0?6-12` ⇾ `?` präfixiert: die zweite Ziffer in der Monatsangabe ist unsicher (z.B. im Original kaum lesbar)
 	
-- **`ISO8601-2_Period`**: Angabe einer Zeitspanne, welche mithilfe zweier *ISO8601-2_Date* Strings konstruiert wird. Die beiden *ISO8601-2_Date* Strings repräsentieren den Anfang und das Ende der Zeitspanne und werden durch ein Solidus Symbol `/` (ohne umgebende Leerzeichen) getrennt.
+- **`ISO8601-2_Period`**: Angabe einer Zeitspanne, welche mithilfe zweier *ISO8601-2_Date* Strings konstruiert wird. Die beiden *ISO8601-2_Date* Strings repräsentieren den Anfang und das Ende der Zeitspanne und werden durch ein Solidus Symbol `/` (ohne umgebende Leerzeichen) getrennt. Ist der Beginn oder das Ende einer Zeitspanne unbekannt, wird der entsprechende unbekannte Teil weggelassen.
 	- `1872-06-06/1827-06-12?` ⇾ vom 6. Juni 1872 bis etwa 12. Juni 1872.
 	- `1899/1907` ⇾ von 1899 bis 1907
 	- `1698/1702-04-02` ⇾ Zeitspanne beginnt irgendwann im Jahr 1698 und endet am 2. April 1702.
+ 	- `/1700` ⇾ Zeitspanne endet 1700, Beginn unbekannt.
+    - `1700/` ⇾ Zeitspanne beginnt 1700, Ende unbekannt.
 
 - **`ISO8601-2_Temporal`**: In diesem Feld sind *ISO8601-2_Date* und *ISO8601-2_Period* Strings erlaubt.
  
