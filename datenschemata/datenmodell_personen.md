@@ -26,6 +26,16 @@ In diesem Schema sind nur die Felder _ID_ und _Name - Vorzugsname_ erforderlich,
 Eindeutiger Identifier der Person. Beginnt mit dem Buchstaben `P` (Person) und ist gefolgt von sieben Ziffern. 
 - `P0012000`
 
+### Name - Vorzugsname
+*String*, **erforderlich**
+
+Dient der Darstellung, z.B. auf der Website.
+- `Johann Baptist von Albertini`.
+- `Alexander Becker` 
+- `Carl Gustav von Brinkmann`
+- `Dr. August Herrmann Francke`
+- `Constantin Theodor Glitsch`
+
 ### Name - Nachname(n)
 *String*
 
@@ -35,8 +45,6 @@ Nachname(n) der Person inkl. Adels-/Namenszusatz. Verschiedene Schreibweisen ein
 - `von Brinkmann/Brinckmann`
 - `Francke`
 - `Glitsch`
-
-
 
 ### Name - Vornamen(n)
 *String*
@@ -53,16 +61,6 @@ Vorname(n) der Person. Verschiedene Schreibweisen eines Namens sind durch `/` (o
 
 Etwaige Titel der Personen (abgekürzt).
 - `Dr.`
-
-### Name - Vorzugsname
-*String*, **erforderlich**
-
-Dient der Darstellung, z.B. auf der Website.
-- `Johann Baptist von Albertini`.
-- `Alexander Becker` 
-- `Carl Gustav von Brinkmann`
-- `Dr. August Herrmann Francke`
-- `Constantin Theodor Glitsch`
 
 ### Name - Anmerkungen
 *String*
