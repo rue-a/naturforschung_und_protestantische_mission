@@ -8,6 +8,8 @@ Die hier beschreibene Tabelle hat zwei Funktionen: 1) Arbeitswerkzeug zur Sammlu
 
 Sofern nicht anders angegeben gilt für jedes Feld die _**Open World Assumption**_, d.h. das Nicht-Vorhandensein einer Information bedeuten _nicht_, dass es keine Informationen gibt (1) **und** das Vorhandensein von Informationen bedeutet nicht, dass die Informationen vollständig sind (2). Bsp.: (1) Sind im Feld _Angehörige - Eheparner_ keine Informationen eingetragen, heißt das nicht, dass die Person nicht verheiratet war. Oder: Ist das Feld _Geburt - Ort - Geburtsorte_ leer, heißt das nicht, dass es keinen Geburtsort gibt. (2) Ist im Feld _Angehörige - Kinder_ eine Liste mit drei Werten eingetragen, heisst das nciht, dass die Person nur drei Kinder hatte, sondern, dass sie mindestens diese drei Kinder hatte.
 
+In diesem Schema sind nur die Felder _ID_ und _Name - Vorzugsname_ erforderlich, alle anderen sind optional. Jedoch gilt immer: Je mehr Felder ausgefüllt sind, desto besser.
+
 > Farbkodierung der Spalten:
 > - weiß: Informationen werden auf der Website präsentiert
 > - rot-orange: wird gelöscht, enthält aber noch Informationen für andere Spalten
@@ -18,7 +20,7 @@ Sofern nicht anders angegeben gilt für jedes Feld die _**Open World Assumption*
 ## Felder (Spalten)
 
 
-### ID
+### ID (erforderlich)
 *ID*
 
 Eindeutiger Identifier der Person.
@@ -51,7 +53,7 @@ Vorname(n) der Person. Verschiedene Schreibweisen eines Namens sind durch `/` (o
 Etwaige Titel der Personen (abgekürzt).
 - `Dr.`
 
-### Name - Vorzugsname
+### Name - Vorzugsname (erforderlich)
 *String*
 
 Dient der Darstellung, z.B. auf der Website.
