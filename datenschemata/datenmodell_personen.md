@@ -68,17 +68,17 @@ Etwaige Titel der Personen (abgekürzt).
 Freitextfeld für Anmerkungen in Bezug auf den Namen, z.B. weitere Informationen zu alternativen Schreibweisen oder Auflösung von Abkürzungen.
 
 ### Angehörige - Geschwister
-*List of ID*
+*List of IDs*
 
 Ungeordnete Liste der (für das Projekt) relevanten Geschwistern der Person. Die Angabe der Geschwister erfolgt mittels einer Personen-ID, d.h. die Geschwister müssen in dieser Tabelle erfasst sein.
 
 ### Angehörige - Ehepartner
-*List of ID*
+*List of IDs*
 
 Geordnete Liste der Ehepartner der Person entsprechend der zeitl. Abfolge der Heiraten. Die Angabe der Ehepartner erfolgt mittels einer Personen-ID, d.h. die Ehepartner müssen in dieser Tabelle erfasst sein.
 
 ### Angehörige - Kinder
-*List of ID*
+*List of IDs*
 
 Ungeordnete Liste der (für das Projekt) relevanten Kinder der Person. Die Angabe der Kinder erfolgt mittels einer Personen-ID, d.h. die Kinder müssen in dieser Tabelle erfasst sein.
 
@@ -88,7 +88,7 @@ Ungeordnete Liste der (für das Projekt) relevanten Kinder der Person. Die Angab
 Freitextfeld für Anmerkungen in Bezug auf die Angehörigen, z.B. Gründe für mehrere Ehepartner.
 
 ### Zugehörigkeit Herrnhuter Brüdergemeine
-*List of String from Codelist*
+*List of Strings from Codelist*
 
 
 | Code        | Beschreibung                                                                                                   |
@@ -138,12 +138,12 @@ Link zum Eintrag der Person in Säbi. Die URL beginnt immer mit `https://saebi.i
 Link zum Lebenslauf der Person in Unitätsarchiv. Wenn nichts eingetragen ist, heißt das, dass es keinen (öffentlich zugänglichen) Eintrag im Unitätsarchiv gibt.
 
 ### Geburt - Datum - Geburtsdaten
-*List of Date_ISO8601-2*
+*List of ISO8601-2_Dates*
 
 Liste möglicher Geburtsdaten der Person. Die Geburtsdaten sind in absteigender Plausibilität zu ordnen.
 
 ### Geburt - Datum - Quellen
-*List of Reference*
+*List of References*
 
 Liste der Quellen der Geburtsdaten in der Reihenfolge der entsprechenden Geburtsdaten.
 
@@ -151,12 +151,12 @@ Liste der Quellen der Geburtsdaten in der Reihenfolge der entsprechenden Geburts
 *String*
 
 ### Geburt - Ort - Geburtsorte
-*List of ID*
+*List of IDs*
 
 Liste möglicher Geburtsorte der Person. Die Geburtsorte sind in absteigender Plausibilität zu ordnen. Die Angabe der Orte erfolgt mittels Verweis auf einen Eintrag in der Gazetteer-Tabelle, d.h. über eine *ID*, welche mit dem Buchstaben *L* beginnt.
 
 ### Geburt - Ort - Quellen
-*List of Reference*
+*List of References*
 
 Liste der Quellen der Geburtsorte in der Reihenfolge der entsprechenden Geburtsorte.
 
@@ -164,12 +164,12 @@ Liste der Quellen der Geburtsorte in der Reihenfolge der entsprechenden Geburtso
 *String*
 
 ### Tod - Datum - Todesdaten
-*List of Date_ISO8601-2*
+*List of ISO8601-2_Dates*
 
 Liste möglicher Todesdaten der Person. Die Todesdaten sind in absteigender Plausibilität zu ordnen.
 
 ### Tod - Datum - Quellen
-*List of Reference*
+*List of References*
 
 Liste der Quellen der Todesdaten in der Reihenfolge der entsprechenden Todesdaten.
 
@@ -177,12 +177,12 @@ Liste der Quellen der Todesdaten in der Reihenfolge der entsprechenden Todesdate
 *String*
 
 ### Tod - Ort - Todesorte
-*List of ID*
+*List of IDs*
 
 Liste möglicher Todesorte der Person. Die Todesorte sind in absteigender Plausibilität zu ordnen. Die Angabe der Orte erfolgt mittels Verweis auf einen Eintrag in der Gazetteer-Tabelle, d.h. über eine *ID*, welche mit dem Buchstaben *L* beginnt.
 
 ### Tod - Ort - Quellen
-*List of Reference*
+*List of References*
 
 Liste der Quellen der Todesorte in der Reihenfolge der entsprechenden Todesorte.
 
@@ -190,30 +190,30 @@ Liste der Quellen der Todesorte in der Reihenfolge der entsprechenden Todesorte.
 *String*
 
 ### Tätigkeiten
-*List of String*
+*List of Strings*
 
 Ungeordnete Liste von Tätigkeiten, die die Person im Laufe Ihres Lebens ausgeführt hat. Dieses Feld dient dem allgemeinen Überblick, genauere Angaben zum Kontext der Tätigkeiten (wo, wann, warum, etc.), werden im Lebenslauf der Person angegeben.
 
 > Hier gilt es zu überlegen, ob die Verwendung einer Codelist nötig ist. Grundsätzlich soll sie vermeiden, dass bei der einen Person *Dichter* und bei der anderen *Lyriker* oder *Versschmied* steht. 
 
 ### Foki
-*List of String*
+*List of Strings*
 
 Ungeordnete Liste von Fachgebieten, etc. denen sich die Person in besonderem Maße widmete.
 
 ### Literatur - Zitationen
-*List of ID*
+*List of IDs*
 
 Ungeordnete Liste von IDs aus der Literaturquellentabelle. Dient der Angabe, in welchen Werken die Person (Publikationen der Person) zitiert wurde. 
 
 
 ### Literatur - Publikationen
-*List of ID*
+*List of IDs*
 
 Ungeordnete Liste von IDs aus der Literaturquellentabelle. Dient der Erfassung von publizierten (wissenschaftlichen) Texterzeugnissen der Person.
 
 ### Literatur - Manuskripte
-*List of ID*
+*List of IDs*
 
 Ungeordnete Liste von IDs aus der Literaturquellentabelle. Dient der Erfassung von unpublizierten (wissenschaftlichen) Texterzeugnissen der Person.
 
@@ -222,17 +222,17 @@ Ungeordnete Liste von IDs aus der Literaturquellentabelle. Dient der Erfassung v
 
 
 ### Sammlung - Exiccatenwerke
-*List of ID*
+*List of IDs*
 
 Ungeordnete Liste von IDs aus der Sammlungen-Tabelle. Dient der Erfassung von Exiccatenwerken der Person.
 
 > Es ist zu prüfen ob in die Spalten Exiccaten werke, Herbarien und Sontige Sammlungen etwas eingetragen werden muss. Theorethisch sollten in der Sammlungstabelle für jede Sammlung die Autoren über eine ID in diese Quelle erfasst werden. Damit sind die Sammlung implizit bekannt
 ### Sammlung - Herbarien
-*List of ID*
+*List of IDs*
 
 Ungeordnete Liste von IDs aus der Sammlungen-Tabelle. Dient der Erfassung von Herbarien der Person.
 
 ### Sammlung - Sonstige Sammlungen
-*List of ID*
+*List of IDs*
 
 Ungeordnete Liste von IDs aus der Sammlungen-Tabelle. Dient der Erfassung von sonstigen Sammlungen der Person.
