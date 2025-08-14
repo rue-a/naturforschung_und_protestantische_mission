@@ -90,7 +90,7 @@ Die Vergabe der IDs basiert auf der Idee des _Frational Indexing_.
 
 Wenn der Wertebereich eines Feldes Liste (`List`) ist, bedeutet das, dass mehrere Werte erlaubt sind. Die Werte müssen durch das Pipe Symbol, umgeben von zwei Leerzeichen getrennt werden (`a | b | c`). 
 
-Wenn der Wertebereich eines Feldes `List of <datatype>` ist, müssen die Werte der Liste den obigen Definitionen entsprechen, z.B.: `List of Integer`.
+Wenn der Wertebereich eines Feldes `List of <datatype>` ist, müssen die Werte der Liste den obigen Definitionen entsprechen, z.B.: `List of Integers`.
 
 Listen müssen nicht immer mehrere Elemente enthalten.
 
