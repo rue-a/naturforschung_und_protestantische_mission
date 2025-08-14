@@ -20,10 +20,11 @@ In diesem Schema sind nur die Felder _ID_ und _Name - Vorzugsname_ erforderlich,
 ## Felder (Spalten)
 
 
-### ID (erforderlich)
-*ID*
+### ID 
+*ID*, **erforderlich**
 
-Eindeutiger Identifier der Person.
+Eindeutiger Identifier der Person. Beginnt mit dem Buchstaben `P` (Person) und ist gefolgt von sieben Ziffern. 
+- `P0012000`
 
 ### Name - Nachname(n)
 *String*
@@ -53,8 +54,8 @@ Vorname(n) der Person. Verschiedene Schreibweisen eines Namens sind durch `/` (o
 Etwaige Titel der Personen (abgekürzt).
 - `Dr.`
 
-### Name - Vorzugsname (erforderlich)
-*String*
+### Name - Vorzugsname
+*String*, **erforderlich**
 
 Dient der Darstellung, z.B. auf der Website.
 - `Johann Baptist von Albertini`.
