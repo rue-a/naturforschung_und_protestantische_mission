@@ -77,7 +77,7 @@ Die Vergabe der IDs basiert auf der Idee des _Frational Indexing_.
 	- `1899/1907` ⇾ von 1899 bis 1907
 	- `1698/1702-04-02` ⇾ Zeitspanne beginnt irgendwann im Jahr 1698 und endet am 2. April 1702.
 
-- **`Temporal_ISO8601-2`**: In diesem Feld sind *ISO8601-2_Date* und *ISO8601-2_Period* Strings erlaubt.
+- **`ISO8601-2_Temporal`**: In diesem Feld sind *ISO8601-2_Date* und *ISO8601-2_Period* Strings erlaubt.
  
 - **`URL`**: Ein strukturierter String gemäß [RFC3986](https://datatracker.ietf.org/doc/html/rfc3986), aber eingeschränkt auf das Schema `https` (oder notfalls `http`). URLs sollten immer aus der Browserleiste in das Dokument kopiert und nie per Hand eingetragen werden.
 
