@@ -190,11 +190,11 @@ Liste der Quellen der Todesorte in der Reihenfolge der entsprechenden Todesorte.
 *String*
 
 ### Tätigkeiten
-*List of Strings*
+*List of Structured Strings*
 
-Ungeordnete Liste von Tätigkeiten, die die Person im Laufe Ihres Lebens ausgeführt hat. Dieses Feld dient dem allgemeinen Überblick, genauere Angaben zum Kontext der Tätigkeiten (wo, wann, warum, etc.), werden im Lebenslauf der Person angegeben.
+Ungeordnete Liste von Tätigkeiten, die die Person im Laufe Ihres Lebens ausgeführt hat. Dieses Feld dient dem allgemeinen Überblick, genauere Angaben zum Kontext der Tätigkeiten (wo, wann, warum, etc.), werden im Lebenslauf der Person angegeben. Für jede Tätigkeit sollte in Klammern die Quelle angegeben werden. Die Quellen entsprechen dem Datentyp _References_, d.h. IDs aus der Literaturtabelle (beginnend mit `R`, IDs aus der Manuskriptetabelle (beginnend mit `S`) oder permanente URLs.
 
-> Hier gilt es zu überlegen, ob die Verwendung einer Codelist nötig ist. Grundsätzlich soll sie vermeiden, dass bei der einen Person *Dichter* und bei der anderen *Lyriker* oder *Versschmied* steht. 
+- `Theologe (R0000015) | Erzieher (S0000250) | Lehrer (S0000250) | Seminardirektor (https://www.bsp.org/)`
 
 ### Foki
 *List of Strings*
