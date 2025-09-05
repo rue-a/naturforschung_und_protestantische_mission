@@ -82,12 +82,12 @@ Die Vergabe der IDs basiert auf der Idee des _Frational Indexing_.
 
 - **`ISO8601-2_Temporal`**: In diesem Feld sind *ISO8601-2_Date* und *ISO8601-2_Period* Strings erlaubt.
  
-- **`URL`**: Ein strukturierter String gemäß [RFC3986](https://datatracker.ietf.org/doc/html/rfc3986), aber eingeschränkt auf das Schema `https` (oder notfalls `http`). URLs sollten immer aus der Browserleiste in das Dokument kopiert und nie per Hand eingetragen werden.
+- **`URL`**: Ein strukturierter String gemäß [RFC3986](https://datatracker.ietf.org/doc/html/rfc3986), aber eingeschränkt auf das Schema `https` (oder notfalls `http`). URLs sollten immer aus der Browserleiste in das Dokument kopiert und nie per Hand eingetragen werden. 
 
-- **`Literature`**: Dient dem Nachweis eines Sachverhalts, mittels eines publizierten Werks unter Angabe der Seiten auf welchen der Nachweis zu finden ist. Der Nachweisstring ist wie folgt strukturiert `<ID aus Literaturtabelle, <Angabe der Seiten>`, d.h. die Quelle und die Angabe der Seiten sind durch *ein Komma und ein Leerzeichen* voneinander getrennt.
+- **`Literature`**: Dient dem Nachweis eines Sachverhalts, mittels eines Druckwerks unter Angabe der Seiten auf welchen der Nachweis zu finden ist. Der Nachweisstring ist wie folgt strukturiert `<ID aus Literaturtabelle, <Angabe der Seiten>`, d.h. die Quelle und die Angabe der Seiten sind durch *ein Komma und ein Leerzeichen* voneinander getrennt.
 	-  `R13, p237ff` (Schriftliche Quelle, erfasst unter der *ID* R13, gesuchter Nachweis auf Seiten 237 und folgende)
 
-- **`Source`**: ID aus der Quellentabelle. Dient dem Nachweis eines Sachverhalts mittels einer (Primär)Quelle, z.B. handschriftliche Manuskripte in Archiven. 
+- **`Source`**: ID aus der Manuskriptetabelle. Dient dem Nachweis eines Sachverhalts mittels einer (Primär)Quelle, z.B. handschriftliche Manuskripte in Archiven. 
 
 - **`Reference`** In diesem Feld sind *URL*, *Literature* und *Source*  Strings erlaubt.
 
