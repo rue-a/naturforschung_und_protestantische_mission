@@ -1,4 +1,4 @@
-# Datenmodell – Gazetteer
+# Datenmodell – Orte
 
 ## Präambel
 
@@ -240,4 +240,5 @@ Spätestes relevantes Datum.
 *String*
 
 Kurzer beschreibender Text zum Ort.
+
 
