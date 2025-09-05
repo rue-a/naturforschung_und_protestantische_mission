@@ -128,7 +128,7 @@ Link zum Eintrag der Person in Bionomia. Die URL beginnt immer mit `https://bion
 ### Links - Säbi
 *URL*
 
-Link zum Eintrag der Person in Säbi. Die URL beginnt immer mit `https://saebi.isgv.de/biografie/`. Wenn nichts eingetragen ist, heißt das, dass es keinen Säbi-Eintrag gibt.
+Link zum Eintrag der Person in Säbi. Die URL beginnt immer mit `https://saebi.isgv.de/person/`. Wenn nichts eingetragen ist, heißt das, dass es keinen Säbi-Eintrag gibt.
 
 ### Links - Lebenslauf Unitätsarchiv
 *URL*
