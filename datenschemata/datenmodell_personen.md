@@ -130,12 +130,10 @@ Link zum Eintrag der Person in Bionomia. Die URL beginnt immer mit `https://bion
 
 Link zum Eintrag der Person in Säbi. Die URL beginnt immer mit `https://saebi.isgv.de/person/`. Wenn nichts eingetragen ist, heißt das, dass es keinen Säbi-Eintrag gibt.
 
-### Links - Lebenslauf Unitätsarchiv
-*URL*
+### Links - Lebenslauf Brüdergemeine
+*Reference*
 
-> zu prüfen ob URL der richtige Datentyp ist.
-
-Link zum Lebenslauf der Person in Unitätsarchiv. Wenn nichts eingetragen ist, heißt das, dass es keinen (öffentlich zugänglichen) Eintrag im Unitätsarchiv gibt.
+Für jeden Herrenhuter wurde ein Lebenslauf angefertigt. Diese Lebensläufe liegen i.d.R. als handschriftliche Manuskripte vor, d.h. in den meisten Fällen ist eine Manuskript-ID (beginnend mit `S`) einzutragen.  
 
 ### Geburt - Datum - Geburtsdaten
 *List of ISO8601-2_Dates*
