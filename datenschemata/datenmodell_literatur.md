@@ -1,5 +1,9 @@
 # Datenmodell – Literaturquellen
 
+## Datentypen
+
+[Die Datentypen sind hier definiert](./datentypen.md)
+
 ## Felder (Spalten)
 
 ### ID
@@ -29,3 +33,4 @@ Vollständige bibliographische Angabe (ohne URL).
 *URL*
 
 Stabiler Link zur Publikation.
+
