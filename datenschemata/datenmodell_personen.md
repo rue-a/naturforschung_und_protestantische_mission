@@ -190,47 +190,47 @@ Liste der Quellen der Todesorte in der Reihenfolge der entsprechenden Todesorte.
 ### Tätigkeiten
 *List of Structured Strings*
 
-Ungeordnete Liste von Tätigkeiten, die die Person im Laufe Ihres Lebens ausgeführt hat. Dieses Feld dient dem allgemeinen Überblick, genauere Angaben zum Kontext der Tätigkeiten (wo, wann, warum, etc.), werden im Lebenslauf der Person angegeben. Für jede Tätigkeit sollte in Klammern die Quelle angegeben werden. Die Quellen entsprechen dem Datentyp _References_, d.h. IDs aus der Literaturtabelle (beginnend mit `R`, IDs aus der Manuskriptetabelle (beginnend mit `S`) oder permanente URLs.
+Ungeordnete Liste von Tätigkeiten, die die Person im Laufe Ihres Lebens ausgeführt hat. Dieses Feld dient dem allgemeinen Überblick, genauere Angaben zum Kontext der Tätigkeiten (wo, wann, warum, etc.), werden im Lebenslauf der Person angegeben. Für jede Tätigkeit sollte in Klammern die Quelle angegeben werden. Die Quellen entsprechen dem Datentyp _References_, d.h. IDs aus der Literatur-Tabelle (beginnend mit `R`, IDs aus der Manuskripte-Tabelle (beginnend mit `S`) oder permanente URLs.
 
 - `Theologe (R0000015) | Erzieher (S0000250) | Lehrer (S0000250) | Seminardirektor (https://www.bsp.org/)`
 
-### Foki
+### Botanik - Foki
 *List of Strings*
 
-Ungeordnete Liste von Fachgebieten, etc. denen sich die Person in besonderem Maße widmete.
+Ungeordnete Liste von Themen mit Botanikbezug denen sich die Person in besonderem Maße widmete.
 
-### Literatur - Zitationen
+### Botanik - Manuskripte
 *List of IDs*
 
-Ungeordnete Liste von IDs aus der Literaturquellentabelle. Dient der Angabe, in welchen Werken die Person (Publikationen der Person) zitiert wurde. 
+Ungeordnete Liste von IDs von Manuskripten mit Botanikbezug aus der Manuskripte-Tabelle deren Autor die Person ist. 
 
-
-### Literatur - Publikationen
+### Botanik - Druckwerke
 *List of IDs*
 
-Ungeordnete Liste von IDs aus der Literaturquellentabelle. Dient der Erfassung von publizierten (wissenschaftlichen) Texterzeugnissen der Person.
+Ungeordnete Liste von IDs von Druckwerken mit Botanikbezug aus der Literatur-Tabelle deren Autor die Person ist. 
 
-### Literatur - Manuskripte
+### Botanik - Beitrag zu Sammlungen
 *List of IDs*
 
-Ungeordnete Liste von IDs aus der Literaturquellentabelle. Dient der Erfassung von unpublizierten (wissenschaftlichen) Texterzeugnissen der Person.
-
-> hier ist zu prüfen, ob Manuskripte sinnvoll in der Literaturquellentabelle erfasst werden können.
+Ungeordnete Liste von IDs aus der Sammlungen-Tabelle. Die Person lieferte einen Beitrag zu den referenzierten Sammlungen.
 
 
-
-### Sammlung - Exiccatenwerke
+### Botanik - Erwähnung in Manuskripten
 *List of IDs*
 
-Ungeordnete Liste von IDs aus der Sammlungen-Tabelle. Dient der Erfassung von Exiccatenwerken der Person.
+Ungeordnete Liste von IDs von Manuskripten mit Botanikbezug aus der Manuskripte-Tabelle in denen die Person erwähnt ist.
 
-> Es ist zu prüfen ob in die Spalten Exiccaten werke, Herbarien und Sontige Sammlungen etwas eingetragen werden muss. Theorethisch sollten in der Sammlungstabelle für jede Sammlung die Autoren über eine ID in diese Quelle erfasst werden. Damit sind die Sammlung implizit bekannt
-### Sammlung - Herbarien
+### Botanik - Erwähnung in Druckwerken
 *List of IDs*
 
-Ungeordnete Liste von IDs aus der Sammlungen-Tabelle. Dient der Erfassung von Herbarien der Person.
+Ungeordnete Liste von IDs von Druckwerken mit Botanikbezug aus der Literatur-Tabelle in denen die Person erwähnt ist.
 
-### Sammlung - Sonstige Sammlungen
+### Nicht-Botanische Werke
 *List of IDs*
 
-Ungeordnete Liste von IDs aus der Sammlungen-Tabelle. Dient der Erfassung von sonstigen Sammlungen der Person.
+Ungeordnete Liste von IDs aus der Manuskripte- oder Literaturtabelle deren Autor die Person ist, welche aber keinen Botanikbezug aufweisen.
+
+### Nicht-Botanische Erwähnungen
+*List of IDs*
+
+Ungeordnete Liste von IDs aus der Manuskripte- oder Literaturtabelle in welchen die Person erwähnt ist, welche aber keinen Botanikbezug aufweisen.
