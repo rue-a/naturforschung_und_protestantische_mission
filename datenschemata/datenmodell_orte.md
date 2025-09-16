@@ -4,6 +4,10 @@
 
 Das Datenmodell für den Gazeteer basiert weitestgehend auf dem Linked Places Format in der tabellarischen Variante ([LP-TSV v0.5](https://github.com/LinkedPasts/linked-places-format/blob/main/tsv_0.5.md)). Dieses Modell wird um einige zusätzliche Felder ergänzt. Die Bezeichnung der Originalfelder aus LP-TSV v0.5 werden in englischer Sprache beibehalten und um weitere projektspezifische Felder in deutscher Sprache ergänzt. 
 
+## Datentypen
+
+[Die Datentypen sind hier definiert](./datentypen.md)
+
 ## Felder (Spalten)
 
 ### id 
@@ -240,5 +244,6 @@ Spätestes relevantes Datum.
 *String*
 
 Kurzer beschreibender Text zum Ort.
+
 
 
