@@ -17,6 +17,10 @@ In diesem Schema sind nur die Felder _ID_ und _Name - Vorzugsname_ erforderlich,
 > - blau: Information ist implizit in anderen Tabellen enthalten, kann gelöscht werden, wenn sonst nicht notwendig. Kann auch als Arbeitsspalte umfunktioniert werden. 
 > - grau: Arbeitsspalte, wird nirgends mit angezeigt oder ausgewertet. Kann beliebig befüllt werden.
 
+## Datentypen
+
+[Die Datentypen sind hier definiert](./datentypen.md)
+
 ## Felder (Spalten)
 
 
