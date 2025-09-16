@@ -12,10 +12,11 @@ Beschreibung der Datentypen, welche in den Datenschemata verwendet werden.
 ## Spezielle Datentypen
 
 - **`ID`**: Eine ID ist ein alphanumerischer, innerhalb dieses Projekts eindeutiger, Identifikator für Objekte (Zeilen) in Tabellen dieses Objekts. Die Vergabe dieser Identifikatoren erlaubt eindeutige Link zwischen Tabellen. Jede *ID* beginnt mit einem Großbuchstaben, welcher die Tabelle in der die zu identifizierenden Objekte stehen anzeigt, danach folgt eine, innerhalb der entsprechenden Tabelle einmalige, Zahl mit 7 Ziffern.
-	- `P1035000` (ID in der Personentabelle)
-	- `R0010000` (ID in der Literaturquellentabelle)
-	- `L0010500` (ID in der Ortstabelle)
-    - `C0028000` (ID in der Sammlungstabelle)
+	- `P1035000` (ID in der Personen-Tabelle)
+	- `R0010000` (ID in der Literatur-Tabelle)
+	- `L0010500` (ID in der Orte-Tabelle)
+    - `C0028000` (ID in der Sammlungen-Tabelle)
+    - `M0013000` (ID in der Manuskripte-Tabelle)
 Die Vergabe der IDs basiert auf der Idee des _Frational Indexing_.
 
 > [!TIP]
@@ -84,7 +85,7 @@ Die Vergabe der IDs basiert auf der Idee des _Frational Indexing_.
  
 - **`URL`**: Ein strukturierter String gemäß [RFC3986](https://datatracker.ietf.org/doc/html/rfc3986), aber eingeschränkt auf das Schema `https` (oder notfalls `http`). URLs sollten immer aus der Browserleiste in das Dokument kopiert und nie per Hand eingetragen werden. 
 
-- **`Literature`**: Dient dem Nachweis eines Sachverhalts, mittels eines Druckwerks unter Angabe der Seiten auf welchen der Nachweis zu finden ist. Der Nachweisstring ist wie folgt strukturiert `<ID aus Literaturtabelle, <Angabe der Seiten>`, d.h. die Quelle und die Angabe der Seiten sind durch *ein Komma und ein Leerzeichen* voneinander getrennt.
+- **`Literature`**: Dient dem Nachweis eines Sachverhalts, mittels eines Druckwerks unter Angabe der Seiten auf welchen der Nachweis zu finden ist. Der Nachweisstring ist wie folgt strukturiert `<ID aus Literatur-Tabelle, <Angabe der Seiten>`, d.h. die Quelle und die Angabe der Seiten sind durch *ein Komma und ein Leerzeichen* voneinander getrennt.
 	-  `R13, p237ff` (Schriftliche Quelle, erfasst unter der *ID* R13, gesuchter Nachweis auf Seiten 237 und folgende)
 
 - **`Source`**: ID aus der Manuskriptetabelle. Dient dem Nachweis eines Sachverhalts mittels einer (Primär)Quelle, z.B. handschriftliche Manuskripte in Archiven. 
