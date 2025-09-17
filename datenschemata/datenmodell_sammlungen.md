@@ -4,7 +4,9 @@
 
 > So hervorgehobene Textteile sind Kommentare.
 
-In diesem Schema sind nur die Felder *ID- und *Name der Sammlung- erforderlich, alle anderen sind optional. Jedoch gilt immer: Je mehr Felder ausgefüllt sind, desto besser.
+Diese Tabelle beschreibt die Spalten des Tabellenblatts _Sammlungen_, welches der Erfassung von Sammlungen dient, in denen welchen Herbarbelege, die im Zuge der Herrnhutschen Mission angefertigt wurden, aufbewahrt werden. 
+
+__In diesem Schema sind nur die Felder *ID* und *Name der Sammlung* erforderlich, alle anderen sind optional. Jedoch gilt immer: Je mehr Felder ausgefüllt sind, desto besser.__
 
 ## Datentypen
 
@@ -47,7 +49,7 @@ Name der Sammlung oder des Herbars.
 
 *List of Strings*
 
-Name(n) der Institution(en), zu der/denen die Sammlung gehört oder gehörte. Mehrere Werte sind durch `|` getrennt.
+Name(n) der Institution(en), zu der/denen die Sammlung gehört. Mehrere Werte sind durch `|` getrennt.
 
 - `ZE Botanischer Garten und Botanisches Museum, Freie Universität Berlin`
 - `Institut für Botanik, Technische Universität Dresden`
@@ -67,7 +69,9 @@ Offizielle Webseite der Sammlung oder der Institution.
 
 *List of Strings from Codelist*
 
-Liste der Charaktere der Institution, welche die Sammlung trägt oder getragen hat. Die zulässigen Werte sind in der folgenden Codeliste definiert. 
+Liste zur Erfassung des Charakters/Zwecks der Sammlung. Die zulässigen Werte sind in der folgenden Codeliste definiert. 
+
+> Die Codeliste ist noch unvollständig.
 
 | Code        | Beschreibung                                                                                            |
 | ----------- | ------------------------------------------------------------------------------------------------------- |
@@ -79,5 +83,6 @@ Liste der Charaktere der Institution, welche die Sammlung trägt oder getragen h
 *String*
 
 Freitextfeld für ergänzende Hinweise oder Kontextinformationen.
+
 
 
