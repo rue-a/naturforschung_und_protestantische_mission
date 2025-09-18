@@ -4,7 +4,7 @@
 
 ## Datenmodell
 
-- [Datentypen](datenschemata/datentypen.md)
+_[Datentypen](datenschemata/datentypen.md)_
 - [Personen](datenschemata/datenmodell_personen.md)
 - [Literatur](datenschemata/datenmodell_literatur.md)
 - [Manuskripte](datenschemata/datenmodell_manuskripte.md)
