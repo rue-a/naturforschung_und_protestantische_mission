@@ -1,4 +1,12 @@
-# Datenmodell – Literaturquellen
+# Datenmodell – Literatur
+
+## Präambel
+
+> So hervorgehobene Textteile sind Kommentare.
+
+Diese Tabelle beschreibt die Spalten des Tabellenblatts *Literatur*, welches der Erfassung von gedruckten Werken dient, die im Zusammenhang mit den in der Personentabelle erfassten Personen stehen.
+
+**In diesem Schema sind nur die Felder *ID* und *Titel* erforderlich, alle anderen sind optional. Jedoch gilt immer: Je mehr Felder ausgefüllt sind, desto besser.**
 
 ## Datentypen
 
@@ -7,30 +15,38 @@
 ## Felder (Spalten)
 
 ### ID
+
 *ID*, **erforderlich**
 
-Eindeutiger Identifier der Literaturquelle. Beginnt mit dem Buchstaben `Q` (Quelle) und ist gefolgt von sieben Ziffern.  
-- `Q0000001`
+Eindeutiger Identifier des Werkes. Beginnt mit dem Buchstaben `R` (Literature Reference) und ist gefolgt von sieben Ziffern.
 
+* `R0010000`
+* `R0020000`
+* `R0030000`
 
-### Kurzform
-*String*
+### Titel
 
-Kurze zitierfähige Referenzform, wie in der Forschung üblich.  
-- `Becker 2005`  
-- `Scholler 1774`
-
-
-### Langform
 *String*, **erforderlich**
 
-Vollständige bibliographische Angabe (ohne URL).  
-- `Ludwig Becker: "Die Pflege der Naturwissenschaften in der Herrnhuter Brüdergemeine", in: Unitas Fratrum 55/56 (2005), S. 17–51.`  
-- `E. R. Meyer: Schleiermachers und C.G. von Brinkmanns Gang durch die Brüdergemeine, Leipzig: Jansa 1905.`
+Titel des Werkes in zitierfähiger Form. Hier soll ein in den historisch arbeitenden Fächern gängiger Zitierstil verwendet werden (Z.B. Chicago Manual of Style), der eine eindeutige Identifizierung ermöglicht.
 
+* `Carl von Linné: Species Plantarum. Stockholm: Laurentius Salvius, 1753.`
+* `John Smith: A History of Botany. London: Academic Press, 1890.`
 
-### Link
+### ISBN
+
+*String*
+
+Internationale Standardbuchnummer, sofern vorhanden. Dient der eindeutigen Identifikation moderner Druckwerke.
+
+### Permalink
+
 *URL*
 
-Stabiler Link zur Publikation.
+Stabile URL zu einem Digitalisat oder bibliografischen Nachweis des Werkes.
 
+### Beschreibung
+
+*String*
+
+Freitextfeld für ergänzende Hinweise oder Kontextinformationen.
