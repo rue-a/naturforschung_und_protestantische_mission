@@ -22,7 +22,7 @@ __In diesem Schema sind die Felder *ID* und *Archiv* und *Signatur* erforderlich
 *ID*, **erforderlich**  
 
 Eindeutiger Identifier. Beginnt mit dem Buchstaben `M` (Manuscript) und ist gefolgt von sieben Ziffern.  
-- `M0010000`  
+- `M0000010`  
 - `M0020000`
 
 ### Archiv
@@ -54,7 +54,7 @@ Vollständige Bezeichnung der Quelle. Kann Autor:innen, Entstehungsort und Datum
 
 Stabiler Link zu einem Digitalisat oder Katalogeintrag, falls verfügbar.  
 
-### Anmerkungen
+### Beschreibung
 *String*
 
-Weitere Informationen zur Quelle.
+Weitere Informationen zur Quelle. Was ist ihr Inhalt? Weist sie Besonderheiten auf? Gibt es vielleicht Abschriften?
