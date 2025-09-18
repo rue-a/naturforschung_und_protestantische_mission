@@ -87,7 +87,7 @@ Die Vergabe der IDs basiert auf der Idee des _Frational Indexing_.
 - **`URL`**: Ein strukturierter String gemäß [RFC3986](https://datatracker.ietf.org/doc/html/rfc3986), aber eingeschränkt auf das Schema `https` (oder notfalls `http`). URLs sollten immer aus der Browserleiste in das Dokument kopiert und nie per Hand eingetragen werden. 
 
 - **`Literature`**: Dient dem Nachweis eines Sachverhalts, mittels eines Druckwerks unter Angabe der Seiten auf welchen der Nachweis zu finden ist. Der Nachweisstring ist wie folgt strukturiert `<ID aus Literatur-Tabelle (<Angabe der Seiten>)`. 
-	-  `R13 (p237ff)` (Schriftliche Quelle, erfasst unter der *ID* R13, gesuchter Nachweis auf Seiten 237 und folgende)
+	-  `R0000013 (p237ff)` (Schriftliche Quelle, erfasst unter der *ID* R0000013, gesuchter Nachweis auf Seiten 237 und folgende)
 
 - **`Manuscript`**: ID aus der Manuskripte-Tabelle. Dient dem Nachweis eines Sachverhalts mittels eines handschriftlichen Manuskripts. 
 
