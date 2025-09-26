@@ -148,7 +148,7 @@ Liste der Quellen der Geburtsdaten in der Reihenfolge der entsprechenden Geburts
 ### Geburt - Ort - Geburtsorte
 *List of IDs*
 
-Liste möglicher Geburtsorte der Person. Die Geburtsorte sind in absteigender Plausibilität zu ordnen. Die Angabe der Orte erfolgt mittels Verweis auf einen Eintrag in der Orte-Tabelle, d.h. über eine *ID*, welche mit dem Buchstaben *L* beginnt.
+Liste möglicher Geburtsorte der Person. Die Geburtsorte sind in absteigender Plausibilität zu ordnen. Die Angabe der Orte erfolgt mittels Verweis auf einen Eintrag in der Orte-Tabelle, d.h. über eine *ID*, welche mit dem Buchstaben `L` beginnt.
 
 ### Geburt - Ort - Quellen
 *List of References*
@@ -174,7 +174,7 @@ Liste der Quellen der Todesdaten in der Reihenfolge der entsprechenden Todesdate
 ### Tod - Ort - Todesorte
 *List of IDs*
 
-Liste möglicher Todesorte der Person. Die Todesorte sind in absteigender Plausibilität zu ordnen. Die Angabe der Orte erfolgt mittels Verweis auf einen Eintrag in der Orte-Tabelle, d.h. über eine *ID*, welche mit dem Buchstaben *L* beginnt.
+Liste möglicher Todesorte der Person. Die Todesorte sind in absteigender Plausibilität zu ordnen. Die Angabe der Orte erfolgt mittels Verweis auf einen Eintrag in der Orte-Tabelle, d.h. über eine *ID*, welche mit dem Buchstaben `L` beginnt.
 
 ### Tod - Ort - Quellen
 *List of References*
