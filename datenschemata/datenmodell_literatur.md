@@ -33,11 +33,6 @@ Titel des Werkes in zitierfähiger Form. Hier soll ein in den historisch arbeite
 * `Carl von Linné: Species Plantarum. Stockholm: Laurentius Salvius, 1753.`
 * `John Smith: A History of Botany. London: Academic Press, 1890.`
 
-### ISBN
-
-*String*
-
-Internationale Standardbuchnummer, sofern vorhanden. Dient der eindeutigen Identifikation moderner Druckwerke.
 
 ### Permalink
 
@@ -50,3 +45,4 @@ Stabile URL zu einem Digitalisat oder bibliografischen Nachweis des Werkes.
 *String*
 
 Freitextfeld für ergänzende Hinweise oder Kontextinformationen.
+
