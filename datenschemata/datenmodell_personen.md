@@ -130,7 +130,7 @@ Link zum Eintrag der Person in Säbi. Die URL beginnt immer mit `https://saebi.i
 ### Links - Lebenslauf Brüdergemeine
 *Reference*
 
-Für jeden Herrenhuter wurde ein Lebenslauf angefertigt. Diese Lebensläufe liegen i.d.R. als handschriftliche Manuskripte vor, d.h. in den meisten Fällen ist eine Manuskript-ID (beginnend mit `S`) einzutragen.  
+Für jeden Herrenhuter wurde ein Lebenslauf angefertigt. Diese Lebensläufe liegen i.d.R. als handschriftliche Manuskripte vor, d.h. in den meisten Fällen ist eine Manuskript-ID (beginnend mit `M`) einzutragen.  
 
 ### Geburt - Datum - Geburtsdaten
 *List of ISO8601-2_Dates*
