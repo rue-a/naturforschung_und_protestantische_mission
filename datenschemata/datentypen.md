@@ -17,6 +17,7 @@ Beschreibung der Datentypen, welche in den Datenschemata verwendet werden.
 	- `L0010500` (ID in der Orte-Tabelle)
     - `C0028000` (ID in der Sammlungen-Tabelle)
     - `M0013000` (ID in der Manuskripte-Tabelle)
+    - `A0003000` (ID in der Archive-Tabelle)
       
 Die Vergabe der IDs basiert auf der Idee des _Frational Indexing_.
 
