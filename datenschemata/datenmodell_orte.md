@@ -2,7 +2,7 @@
 
 ## Präambel
 
-Das Datenmodell für den Gazeteer basiert weitestgehend auf dem Linked Places Format in der tabellarischen Variante ([LP-TSV v0.5](https://github.com/LinkedPasts/linked-places-format/blob/main/tsv_0.5.md)). Dieses Modell wird um einige zusätzliche Felder ergänzt. Die Bezeichnung der Originalfelder aus LP-TSV v0.5 werden in englischer Sprache beibehalten und um weitere projektspezifische Felder in deutscher Sprache ergänzt. 
+Das Datenmodell für den Gazeteer basiert auf dem Linked Places Format in der tabellarischen Variante ([LP-TSV v0.5](https://github.com/LinkedPasts/linked-places-format/blob/main/tsv_0.5.md)). **Die Felder _ID_ und _Name_ sowie entweder _GeoNames-Typ_ oder _AAT-Typ_ sind verpflichtend.**
 
 ## Datentypen
 
@@ -10,47 +10,34 @@ Das Datenmodell für den Gazeteer basiert weitestgehend auf dem Linked Places Fo
 
 ## Felder (Spalten)
 
-### id 
-*ID*, **erforderlich**
+### ID
+*ID*, **erforderlich\***
 
 Eindeutiger Identifier des Ortes. Beginnt mit dem Buchstaben `L` (Location) und ist gefolgt von sieben Ziffern. 
 - `L0012000`
 
 
-### title
-*String*, **erforderlich**
+### Name
+*String*, **erforderlich\***
 
 Ein einzelner _bevorzugter_ Ortsname, der als Titel für den Datensatz dient.
 
+- `Sansibar`
 
-### title_source
-*String*, **bedingt erforderlich**
+### Varianten
+*List of Structured Strings*
 
-_Erforderlich, wenn **Titelquelle** keien Wert enthält_
+Namens- und/oder Sprachvarianten nach BCP 47-Standard:  
+`{Name}@Sprache[-Schrift][-Region][-Variante]`  
 
-Bezeichnung oder kurze Quellenangabe für die Herkunft des Titel-Typonyms, in beliebigem Zitierstil.  
 Beispiele:  
-- `An Historical Atlas of Central Asia (Bregel, 2003)`  
-- `The Historical Sample of the Netherlands (https://iisg.amsterdam/nl/hsn)`
-
-### attestation_year
-*Structured String*, **bedingt erforderlich**
-
-_Jede Zeile muss mindestens ein **attestation_year** oder einen **start**-Wert oder einen **ISO8601-2_Period**-Wert enthalten._
-
-Veröffentlichungsjahr der **title_source** im Format YYYY.
+- `Zanzibar@sw | Zanzíbar@es-ES | Sansibar@de-DE-1901 | 蒙巴萨@zh-Hans-CN`
 
 
-### Quelle
-*Reference*
+### GeoNames-Typ
+*List of Strings from Codelist*, **bedingt erforderlich°**
 
-Angabe der Quelle nach Projektschema, also Verweis in die Quellentabellen.
-
-
-### fclasses 
-*List of Strings from Codelist*, **bedingt erforderlich**
-
-_Jede Zeile muss entweder einen **fclasses**-Wert oder einen **aat_types**-Wert enthalten._
+_Jede Zeile muss entweder einen **GeoNames-Typ**-Wert oder einen **AAT-Typ**-Wert enthalten._
 
 Ein oder mehrere der sieben einbuchstabigen *GeoNames Feature Classes*.  
 - `P`
@@ -68,134 +55,81 @@ Ein oder mehrere der sieben einbuchstabigen *GeoNames Feature Classes*.
 
 
 
-### aat_types 
-*List of Integers from Codelist*, **bedingt erforderlich**
+### AAT-Typ
+*List of Integers from Codelist*, **bedingt erforderlich°**
 
-_Jede Zeile muss entweder einen **fclasses**-Wert oder einen **aat_types**-Wert enthalten._
+_Jede Zeile muss entweder einen **GeoNames-Typ**-Wert oder einen **AAT-Typ**-Wert enthalten._
 
-Ein oder mehrere AAT-Integer-IDs aus der WHG-Teilliste von 176 Orts-Typkonzepten (Tabellenblatt `AAT-Codelist`).  
+Ein oder mehrere AAT-Integer-IDs aus der WHG-Teilliste von 176 Orts-Typkonzepten (**Tabellenblatt `AAT-Codelist`**).  
 
-**Regeln:**  
-- Ein Datensatz kann einen **types**-Wert ohne zugehörigen **aat_types**-Wert haben, aber nicht umgekehrt.  
-- Für jeden Wert in **aat_types** muss es einen entsprechenden Wert in **type** geben (1:1).  
-- Wenn für einen **type** kein **aat_type** existiert, die Position leer lassen.  
-- Keine AAT-Hierarchien duplizieren – nur den spezifischen Typ verwenden.
-
-### types
-*List of Strings*
-
-Ein oder mehrere Begriffe für den Ortstyp, in der Regel wortwörtlich aus der Quelle übernommen.  
+- `300387272`
+- `300120599 | 300008372`
 
 
-### start
-*Structured String*, **bedingt erforderlich**
-
-_Jede Zeile muss mindestens einen **attestation_year**-Wert, einen **start**-Wert oder einen **Dauer**-Wert enthalten._
-
-Die Felder **start** und **end** geben den bekannten Gültigkeitszeitraum des Ortsnamens an.  
-Die Werte müssen im ISO-8601-Format angegeben werden (YYYY-MM-DD), Monat und Tag dürfen weggelassen werden.  
-
-> **Hinweise:**  
-> - **start** + **end** kennzeichnen einen vollständigen Zeitraum.  
-> - Nur **start** bedeutet „ab“, Ende unbekannt oder heute.
+### Beginn
+*ISO8601-2_Date*
 
 
-### end
-*Structured String*
+Die Felder **Start** und **Ende** geben den bekannten Gültigkeitszeitraum des Ortsnamens an. 
+
+> [!TIP]
+> - **Start** + **Ende** kennzeichnen einen vollständigen Zeitraum.  
+> - Nur **start** bedeutet „ab“, existiert bis heute.
+> - Das [ISO8601-2_Date](https://github.com/rue-a/naturforschung_und_protestantische_mission/blob/main/datenschemata/datentypen.md#iso8601-2_date) Format erlaubt auch sehr grobe/ungenau Schätzungen.
+
+
+### Ende
+*ISO8601-2_Date*
 
 Die Felder **start** und **end** geben den bekannten Gültigkeitszeitraum des Ortsnamens an.  
 Die Werte müssen im ISO-8601-Format angegeben werden (YYYY-MM-DD), Monat und Tag dürfen weggelassen werden.  
 
-> **Hinweise:**  
-> - **start** + **end** kennzeichnen einen vollständigen Zeitraum.  
-> - Nur **start** bedeutet „ab“, Ende unbekannt oder heute.
-
-### Dauer
-*ISO8601-2_Period*
-
-Zeitraum über den der Ort existierte.
-
-### title_uri
-*URL*
-
-Permanenter Link zur Quelle des Titel-Typonyms, z. B.:  
-- `http://www.worldcat.org/oclc/890934416`  
-- `https://doi.org/10.7910/DVN/AMPGMW`  
-- `https://www.davidrumsey.com/luna/servlet/s/em7n8q`
+> [!TIP]
+> - **Start** + **End** kennzeichnen einen vollständigen Zeitraum.  
+> - Nur **Ende** bedeutet „bis“, Beginn unbekannt.
+> - Das [ISO8601-2_Date](https://github.com/rue-a/naturforschung_und_protestantische_mission/blob/main/datenschemata/datentypen.md#iso8601-2_date) Format erlaubt auch sehr grobe/ungenau Schätzungen.
 
 
-### ccodes
-*List of Strings from Codelist*
 
-Ein oder mehrere [ISO 3166 Alpha-2](https://www.iso.org/iso-3166-country-codes.html) Ländercodes (https://www.iso.org/obp/ui/#search), die den Ort abdecken oder schneiden.
+### Links
+*List of URL*
 
----
+Ein oder mehrere URLs zu übereinstimmenden Datensätzen in Ortsnamenautoritäten.  
 
-### matches
-*List of Structured Strings*
-
-Ein oder mehrere URIs zu übereinstimmenden Datensätzen in Ortsnamenautoritäten.  
-Die Kurzpräfixe laut WHG müssen anstelle der vollen Basis-URIs verwendet werden, z. B.:  
-- `wd:Q5684` (Wikidata, Babylon)
-
-Unterstützte Präfixe:  
-```
-    {"bnf": Bibliothèque nationale de France, "https://data.bnf.fr/"}
-    {"cerl": Consortium of European Research Libraries, "https://data.cerl.org/thesaurus/"}
-    {"dbp": DBpedia, "http://dbpedia.org/resource/"}
-    {"gn": GeoNames, "http://www.geonames.org/"}
-    {"gnd": Deutschen Nationalbibliothek, "http://d-nb.info/gnd/"}
-    {"gov": The Geneaological Gazetteer, "http://gov.genealogy.net/" }
-    {"loc": Library of Congress, "http://id.loc.gov/authorities/subjects/"}
-    {"pl": Pleiades, "https://pleiades.stoa.org/places/"}
-    {"tgn": Getty Thesaurus of Geographic Names, "http://vocab.getty.edu/page/tgn/"}
-    {"viaf": Virtual International Authority File, "http://viaf.org/viaf/"}
-    {"wd": Wikidata, "https://www.wikidata.org/wiki/"}
-    {"wp": Wikipedia, "https://wikipedia.org/wiki/"}
-```
-
-### variants
-*List of Structured Strings*
-
-Namens- und/oder Sprachvarianten nach BCP 47-Standard:  
-`{Name}@Sprache[-Schrift][-Region][-Variante]`  
-Mehrere Namen durch Semikolon trennen.
-
-Beispiele:  
-- `Zanzibar@sw`  
-- `زنجبار@ar`  
-- `Zanzíbar@es-ES`  
-- `Sansibar@de-DE-1901`  
-- `蒙巴萨@zh-Hans-CN`
+> [!TIP]
+> **Bekannte Ortsnamenautoritäten:**
+> - Bibliothèque nationale de France, "https://data.bnf.fr/"
+> - Consortium of European Research Libraries, "https://data.cerl.org/thesaurus/"
+> - DBpedia, "http://dbpedia.org/resource/"
+> - GeoNames, "http://www.geonames.org/"
+> - Deutschen Nationalbibliothek, "http://d-nb.info/gnd/"
+> - The Geneaological Gazetteer, "http://gov.genealogy.net/"
+> - Library of Congress, "http://id.loc.gov/authorities/subjects/"
+> - Pleiades, "https://pleiades.stoa.org/places/"
+> - Getty Thesaurus of Geographic Names, "http://vocab.getty.edu/page/tgn/"
+> - Virtual International Authority File, "http://viaf.org/viaf/"
+> - Wikidata, "https://www.wikidata.org/wiki/"
+> - Wikipedia, "https://wikipedia.org/wiki/"
 
 
-### parent_name
-*String*
 
-Übergeordnete Verwaltungseinheit oder Region (z. B. Provinz, Land).  
-Für jedes `parent_name` muss auch ein `parent_id` angegeben werden.
-
-
-### parent_id
-*URL*
-
-URI zu einem veröffentlichten Datensatz, der den `parent_name` beschreibt.  
-Darf nicht ohne zugehöriges `parent_name` vorkommen.
-
----
-
-### lon
+### Longitude
 *Decimal*
 
 Längengrad in WGS84 (EPSG:4326), z. B. `85.3214` oder `-112.4536`.
 
-### lat
+> [!TIP]
+> Bei Längen- und Breitengraden in WGS84 entsprechen 3 Nachkommastellen einer Genauigkeit der Ortsangabe auf etwa 100 Meter, 4 Nachkommastellen einer Genauigkeit auf etwa 10 Meter und 5 Nachkommastellen einer Genauigkeit auf etwa 1 Meter. Die Zur Verortung von Siedlungen reichen 4 Nachkommastellen vollkommen aus, i.d.R. auch 3. Insbesondere, wenn Koordinaten aus georeferenzierten alten Karten bestimmt werden, sollten nicht mehr Kommastellen angegeben werden, als man an Genauigkeit in der Karte ablesen kann.
+
+### Latitude
 *Decimal*
 
 Breitengrad in WGS84 (EPSG:4326), z. B. `59.3345` oder `-12.7658`.
 
+> [!TIP]
+> Bei Längen- und Breitengraden in WGS84 entsprechen 3 Nachkommastellen einer Genauigkeit der Ortsangabe auf etwa 100 Meter, 4 Nachkommastellen einer Genauigkeit auf etwa 10 Meter und 5 Nachkommastellen einer Genauigkeit auf etwa 1 Meter. Die Zur Verortung von Siedlungen reichen 4 Nachkommastellen vollkommen aus, i.d.R. auch 3. Insbesondere, wenn Koordinaten aus georeferenzierten alten Karten bestimmt werden, sollten nicht mehr Kommastellen angegeben werden, als man an Genauigkeit in der Karte ablesen kann.
 
-### geowkt
+### Geometrie
 *Structured String*
 
 Geometrie im [OGC-WKT-Format](https://www.ogc.org/standards/wkt-crs/). Insbesondere für Nicht-Punkt-Geometrien (Linien, Polygone)
@@ -215,35 +149,26 @@ Geometrie im [OGC-WKT-Format](https://www.ogc.org/standards/wkt-crs/). Insbesond
 
 ---
 
-### geo_source
+### Geometriequelle
+*Reference*
+
+L- oder M-ID aus der Literatur- oder Manuskripte-Tabelle; oder URL zur Quelle der Koordinaten/Geometrie.
+
+
+### Qualität der Ortsangabe
 *String*
 
-Quellenangabe der Geometrie, z. B. `GeoNames` oder `digitalisierte <title_source> Karte`.
+Möglichst ausführliche Angaben zur Qualität der Koordinatenangabe. Insbesondere wenn die Angabe in irgendeiner Art und Weise unsicher ist.
+- Ort liegt im Umkreis von etwa 10 km um die genannten Koordinaten
+- Der Ortsname war auf der Quellkarte schlecht zu lesen. Die ermittelten Koordinaten also gehören eventuell nicht zum hier aufgeführten Ort.
 
 
-### geo_id
-*URL*
 
-URI zur Quelle der Geometrie.
-
-
-### approximation
-*String oder Decimal*
-
-- URI zur Angabe einer Ungenauigkeit, z. B. `gvp:containedWithin`  
-- oder Wert in Kilometern als Toleranz für `gvp:approximateLocation`.
-
-
-### end
-*Date_ISO8601*
-
-Spätestes relevantes Datum.
-
-
-### description
+### Beschreibung
 *String*
 
 Kurzer beschreibender Text zum Ort.
+
 
 
 
