@@ -92,7 +92,7 @@ Die Vergabe der IDs basiert auf der Idee des _Frational Indexing_.
 
 - **`Manuscript`**: ID aus der Manuskripte-Tabelle. Dient dem Nachweis eines Sachverhalts mittels eines handschriftlichen Manuskripts. 
 
-- **`Reference`** In diesem Feld sind *URL*, *Literature* und *Manuscript*  Strings erlaubt. Hier eingetragene URLs müssen Permalinks sein.
+- **`Reference`** In diesem Feld sind *URL*, *Literature* (L-ID) und *Manuscript* (M-ID)  Strings erlaubt. Hier eingetragene URLs müssen Permalinks sein.
 
 ## Listen
 
