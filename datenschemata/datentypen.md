@@ -11,7 +11,8 @@ Beschreibung der Datentypen, welche in den Datenschemata verwendet werden.
 
 ## Spezielle Datentypen
 
-- **`ID`**: Eine ID ist ein alphanumerischer, innerhalb dieses Projekts eindeutiger, Identifikator für Objekte (Zeilen) in Tabellen dieses Objekts. Die Vergabe dieser Identifikatoren erlaubt eindeutige Link zwischen Tabellen. Jede *ID* beginnt mit einem Großbuchstaben, welcher die Tabelle in der die zu identifizierenden Objekte stehen anzeigt, danach folgt eine, innerhalb der entsprechenden Tabelle einmalige, Zahl mit 7 Ziffern.
+### **`ID`** 
+Eine ID ist ein alphanumerischer, innerhalb dieses Projekts eindeutiger, Identifikator für Objekte (Zeilen) in Tabellen dieses Objekts. Die Vergabe dieser Identifikatoren erlaubt eindeutige Link zwischen Tabellen. Jede *ID* beginnt mit einem Großbuchstaben, welcher die Tabelle in der die zu identifizierenden Objekte stehen anzeigt, danach folgt eine, innerhalb der entsprechenden Tabelle einmalige, Zahl mit 7 Ziffern.
 	- `P1035000` (ID in der Personen-Tabelle)
 	- `R0010000` (ID in der Literatur-Tabelle)
 	- `L0010500` (ID in der Orte-Tabelle)
@@ -55,44 +56,54 @@ Die Vergabe der IDs basiert auf der Idee des _Frational Indexing_.
 > Sind die Hundertstelschritte zwischen zwei Werten auch aufgebraucht, geht es in Tausendstelschritten weiter. Im vorliegenden Beispiel schlägt das System an nach dem Auschöpfen der Tausendstelschritte fehl. Um das zu vermeiden, sollten Stellenzahl und Startabstände der initialen IDs so großzügig gewählt werden, dass ein späteres Ausschöpfen des Bereichs sehr unwahrscheinlich ist. Der Vorteil der Ganzzahl-Variante bleibt die gute Lesbarkeit und die einfache manuelle Handhabung.
 
 
-- **`Date`**: Taggenaue Angabe eines Datums im Format `YYYY-MM-DD` (ISO 8601).
+### **`Date`**
+Taggenaue Angabe eines Datums im Format `YYYY-MM-DD` (ISO 8601).
 	- `YYYY`: Jahr mit vier Ziffern
 	- `MM`: Monat mit zwei Ziffern
 	- `DD`: Tag mit zwei Ziffern    
 	- z. B.: `2025-04-08`
 
-- **`ISO8601-2_Date`**: 
-	Angabe eines tag- bis jahrgenauen Zeitpunkts gemäß ISO 8601-1 ( [de](https://katalog.slub-dresden.de/id/211-DE30087040), [en](https://katalog.slub-dresden.de/id/211-IX30556316) ) und unter Verwendung der in ISO 8601-2 ([en](https://katalog.slub-dresden.de/id/211-IX30556317), Abschnitt 4.5) definierten Affixe zur Angabe von Unsicherheiten. 
-	Die in ISO 8601-1 definierten Regeln werden eingeschränkt auf tag-, monat- und jahrgenau Angabe eines Zeitpunkts. Somit sind folgende Stringformate gültig:
-	- `YYYY-MM-DD`, z.B. `2025-04-08` ⇾ ein Zeitpunkt am 8. April 2025,
-	- `YYYY-MM`, z.B. `2025-04` ⇾ ein Zeitpunkt im April 2025,
-	- `YYYY`, z.B. `2025` ⇾ ein Zeitpunkt im Jahr 2025.
-	ISO 8601-2 definiert drei Affixe zur Angabe von Unsicherheiten bei der Angabe von Zeitpunkten:
-	- `~`: Angabe geschätzt,
-	- `?`: Angabe unsicher,
-	- `%`: Angabe geschätzt und unsicher.
-	Diese Symbole können entweder als Suffix verwendet, also an die einzelnen Elemente (Tag, Monat, Jahr) eines Zeitpunkts angehängt werden oder unter Verwendung als Präfix nur auf die folgende Ziffer.
-	- `1872-06-12~` ⇾ `~` suffixiert: der Tag (12.) ist geschätzt (z.B. über Reisegeschwindigkeit). 
-	- `1872-06?-12` ⇾ `?` suffixiert: der Monat Juni ist eine unsichere Angabe (z.B. nur implizit gegeben).
-	- `1872-0?6-12` ⇾ `?` präfixiert: die zweite Ziffer in der Monatsangabe ist unsicher (z.B. im Original kaum lesbar)
+### **`ISO8601-2_Date`**
+Angabe eines tag- bis jahrgenauen Zeitpunkts gemäß ISO 8601-1 ( [de](https://katalog.slub-dresden.de/id/211-DE30087040), [en](https://katalog.slub-dresden.de/id/211-IX30556316) ) und unter Verwendung der in ISO 8601-2 ([en](https://katalog.slub-dresden.de/id/211-IX30556317), Abschnitt 4.5) definierten Affixe zur Angabe von Unsicherheiten. 
 	
-- **`ISO8601-2_Period`**: Angabe einer Zeitspanne, welche mithilfe zweier *ISO8601-2_Date* Strings konstruiert wird. Die beiden *ISO8601-2_Date* Strings repräsentieren den Anfang und das Ende der Zeitspanne und werden durch ein Solidus Symbol `/` (ohne umgebende Leerzeichen) getrennt. Ist der Beginn oder das Ende einer Zeitspanne unbekannt, wird der entsprechende unbekannte Teil weggelassen.
-	- `1872-06-06/1827-06-12?` ⇾ vom 6. Juni 1872 bis etwa 12. Juni 1872.
-	- `1899/1907` ⇾ von 1899 bis 1907
-	- `1698/1702-04-02` ⇾ Zeitspanne beginnt irgendwann im Jahr 1698 und endet am 2. April 1702.
- 	- `/1700` ⇾ Zeitspanne endet irgendwann im Jahr 1700, Beginn unbekannt.
-    - `1700/` ⇾ Zeitspanne beginnt irgendwann im Jahr 1700, Ende unbekannt.
+Die in ISO 8601-1 definierten Regeln werden eingeschränkt auf tag-, monat- und jahrgenau Angabe eines Zeitpunkts. Somit sind folgende Stringformate gültig:
+- `YYYY-MM-DD`, z.B. `2025-04-08` ⇾ ein Zeitpunkt am 8. April 2025,
+- `YYYY-MM`, z.B. `2025-04` ⇾ ein Zeitpunkt im April 2025,
+- `YYYY`, z.B. `2025` ⇾ ein Zeitpunkt im Jahr 2025.
+	
+ISO 8601-2 definiert drei Affixe zur Angabe von Unsicherheiten bei der Angabe von Zeitpunkten:
+- `~`: Angabe geschätzt,
+- `?`: Angabe unsicher,
+- `%`: Angabe geschätzt und unsicher.
+	
+Diese Symbole können entweder als Suffix verwendet, also an die einzelnen Elemente (Tag, Monat, Jahr) eines Zeitpunkts angehängt werden oder unter Verwendung als Präfix nur auf die folgende Ziffer.
+- `1872-06-12~` ⇾ `~` suffixiert: der Tag (12.) ist geschätzt (z.B. über Reisegeschwindigkeit). 
+- `1872-06?-12` ⇾ `?` suffixiert: der Monat Juni ist eine unsichere Angabe (z.B. nur implizit gegeben).
+- `1872-0?6-12` ⇾ `?` präfixiert: die zweite Ziffer in der Monatsangabe ist unsicher (z.B. im Original kaum lesbar)
+	
+### **`ISO8601-2_Period`**
+Angabe einer Zeitspanne, welche mithilfe zweier *ISO8601-2_Date* Strings konstruiert wird. Die beiden *ISO8601-2_Date* Strings repräsentieren den Anfang und das Ende der Zeitspanne und werden durch ein Solidus Symbol `/` (ohne umgebende Leerzeichen) getrennt. Ist der Beginn oder das Ende einer Zeitspanne unbekannt, wird der entsprechende unbekannte Teil weggelassen.
+- `1872-06-06/1827-06-12?` ⇾ vom 6. Juni 1872 bis etwa 12. Juni 1872.
+- `1899/1907` ⇾ von 1899 bis 1907
+- `1698/1702-04-02` ⇾ Zeitspanne beginnt irgendwann im Jahr 1698 und endet am 2. April 1702.
+- `/1700` ⇾ Zeitspanne endet irgendwann im Jahr 1700, Beginn unbekannt.
+- `1700/` ⇾ Zeitspanne beginnt irgendwann im Jahr 1700, Ende unbekannt.
 
-- **`ISO8601-2_Temporal`**: In diesem Feld sind *ISO8601-2_Date* und *ISO8601-2_Period* Strings erlaubt.
+### **`ISO8601-2_Temporal`**
+In diesem Feld sind *ISO8601-2_Date* und *ISO8601-2_Period* Strings erlaubt.
  
-- **`URL`**: Ein strukturierter String gemäß [RFC3986](https://datatracker.ietf.org/doc/html/rfc3986), aber eingeschränkt auf das Schema `https` (oder notfalls `http`). URLs sollten immer aus der Browserleiste in das Dokument kopiert und nie per Hand eingetragen werden. 
+### **`URL`** 
+Ein strukturierter String gemäß [RFC3986](https://datatracker.ietf.org/doc/html/rfc3986), aber eingeschränkt auf das Schema `https` (oder notfalls `http`). URLs sollten immer aus der Browserleiste in das Dokument kopiert und nie per Hand eingetragen werden. 
 
-- **`Literature`**: Dient dem Nachweis eines Sachverhalts, mittels eines Druckwerks unter Angabe der Seiten auf welchen der Nachweis zu finden ist. Der Nachweisstring ist wie folgt strukturiert `<ID aus Literatur-Tabelle (<Angabe der Seiten>)`. 
-	-  `R0000013 (p237ff)` (Schriftliche Quelle, erfasst unter der *ID* R0000013, gesuchter Nachweis auf Seiten 237 und folgende)
+### **`Literature`** 
+Dient dem Nachweis eines Sachverhalts, mittels eines Druckwerks unter Angabe der Seiten auf welchen der Nachweis zu finden ist. Der Nachweisstring ist wie folgt strukturiert `<ID aus Literatur-Tabelle (<Angabe der Seiten>)`. 
+-  `R0000013 (p237ff)` (Schriftliche Quelle, erfasst unter der *ID* R0000013, gesuchter Nachweis auf Seiten 237 und folgende)
 
-- **`Manuscript`**: ID aus der Manuskripte-Tabelle. Dient dem Nachweis eines Sachverhalts mittels eines handschriftlichen Manuskripts. 
+### **`Manuscript`** 
+ID aus der Manuskripte-Tabelle. Dient dem Nachweis eines Sachverhalts mittels eines handschriftlichen Manuskripts. 
 
-- **`Reference`** In diesem Feld sind *URL*, *Literature* (L-ID) und *Manuscript* (M-ID)  Strings erlaubt. Hier eingetragene URLs müssen Permalinks sein.
+### **`Reference`** 
+In diesem Feld sind *URL*, *Literature* (L-ID) und *Manuscript* (M-ID)  Strings erlaubt. Hier eingetragene URLs müssen Permalinks sein.
 
 ## Listen
 
