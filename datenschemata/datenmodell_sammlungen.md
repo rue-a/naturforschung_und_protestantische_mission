@@ -45,7 +45,15 @@ Name der Sammlung oder des Herbars.
 - `Herbarium Dresdense`
 - `Herbarium of the University of Coimbra`
 
-### Name der Institution
+### Teilsammlung von
+
+*ID*
+
+ID (aus der Sammlungen-Tabelle) der übergeordneten Sammlung, falls diese Sammlung Teil einer anderen Sammlung ist.
+- `C0040000`
+
+
+### Sammlunhshaltende Institution
 
 *List of Strings*
 
@@ -83,6 +91,7 @@ Liste zur Erfassung des Charakters/Zwecks der Sammlung. Die zulässigen Werte si
 *String*
 
 Freitextfeld für ergänzende Hinweise oder Kontextinformationen.
+
 
 
 
