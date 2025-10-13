@@ -26,7 +26,7 @@ Eindeutiger Identifier. Beginnt mit dem Buchstaben `M` (Manuscript) und ist gefo
 - `M0020000`
 
 ### Archiv
-*String*, **erforderlich**
+*ID*, **erforderlich**
 
 ID (aus er Archive-Tabelle) des Archivs, in dem das Manuskript aufbewahrt wird. 
 - `A0001000`
