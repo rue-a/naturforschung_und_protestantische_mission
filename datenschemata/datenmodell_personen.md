@@ -227,7 +227,7 @@ Ungeordnete Liste von IDs von Druckwerken mit Botanikbezug aus der Literatur-Tab
 
 Ungeordnete Liste von IDs aus der Manuskripte- oder Literaturtabelle deren Autor die Person ist, welche aber keinen Botanikbezug aufweisen.
 
-### Nicht-Botanische Erwähnungen
+### Erwähnungen in Nicht-Botanische Werken
 *List of IDs*
 
 Ungeordnete Liste von IDs aus der Manuskripte- oder Literaturtabelle in welchen die Person erwähnt ist, welche aber keinen Botanikbezug aufweisen.
