@@ -70,24 +70,19 @@ Ein oder mehrere AAT-Integer-IDs aus der WHG-Teilliste von 176 Orts-Typkonzepten
 *ISO8601-2_Date*
 
 
-Die Felder **Start** und **Ende** geben den bekannten Gültigkeitszeitraum des Ortsnamens an. 
+Die Felder **Start** und **Ende** geben den bekannten Gültigkeitszeitraum des Ortsnamens an. **Beginn** + **Ende** kennzeichnen einen vollständigen Zeitraum. Nur **Beginn** bedeutet „ab“, existiert bis heute.
 
 > [!TIP]
-> - **Start** + **Ende** kennzeichnen einen vollständigen Zeitraum.  
-> - Nur **start** bedeutet „ab“, existiert bis heute.
-> - Das [ISO8601-2_Date](https://github.com/rue-a/naturforschung_und_protestantische_mission/blob/main/datenschemata/datentypen.md#iso8601-2_date) Format erlaubt auch sehr grobe/ungenau Schätzungen.
+> - Das [ISO8601-2_Date](https://github.com/rue-a/naturforschung_und_protestantische_mission/blob/main/datenschemata/datentypen.md#iso8601-2_date) Format erlaubt auch sehr grobe/ungenaue Schätzungen.
 
 
 ### Ende
 *ISO8601-2_Date*
 
-Die Felder **start** und **end** geben den bekannten Gültigkeitszeitraum des Ortsnamens an.  
-Die Werte müssen im ISO-8601-Format angegeben werden (YYYY-MM-DD), Monat und Tag dürfen weggelassen werden.  
+Die Felder **Start** und **Ende** geben den bekannten Gültigkeitszeitraum des Ortsnamens an. **Beginn** + **Ende** kennzeichnen einen vollständigen Zeitraum. Nur **Ende** bedeutet „bis“, Beginn unbekannt.
 
 > [!TIP]
-> - **Start** + **End** kennzeichnen einen vollständigen Zeitraum.  
-> - Nur **Ende** bedeutet „bis“, Beginn unbekannt.
-> - Das [ISO8601-2_Date](https://github.com/rue-a/naturforschung_und_protestantische_mission/blob/main/datenschemata/datentypen.md#iso8601-2_date) Format erlaubt auch sehr grobe/ungenau Schätzungen.
+> - Das [ISO8601-2_Date](https://github.com/rue-a/naturforschung_und_protestantische_mission/blob/main/datenschemata/datentypen.md#iso8601-2_date) Format erlaubt auch sehr grobe/ungenaue Schätzungen.
 
 
 
@@ -168,6 +163,7 @@ Möglichst ausführliche Angaben zur Qualität der Koordinatenangabe. Insbesonde
 *String*
 
 Kurzer beschreibender Text zum Ort.
+
 
 
 
