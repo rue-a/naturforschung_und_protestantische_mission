@@ -28,10 +28,8 @@ Eindeutiger Identifier. Beginnt mit dem Buchstaben `M` (Manuscript) und ist gefo
 ### Archiv
 *String*, **erforderlich**
 
-Bezeichnung der Institution, in der die Quelle aufbewahrt wird. Die Struktur der Archivbezeichung ist nicht vorgegeben, jedoch gilt folgende Empfehlung: `<ausgeschriebener Name> (<Abkürzung>)`. 
-Es ist darauf zu achten, dass die Bezeichung ein und desselben Archivs in verschiedenen Einträgen konsistent ist. 
-- `Unitätsarchiv Herrnhut (UAH)`
-- `Moravian Archives, Winston-Salem, N.C.`
+ID (aus er Archive-Tabelle) des Archivs, in dem das Manuskript aufbewahrt wird. 
+- `A0001000`
 
 ### Signatur
 *String*, **erforderlich**
