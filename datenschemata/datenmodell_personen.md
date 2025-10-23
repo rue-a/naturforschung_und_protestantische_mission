@@ -98,7 +98,7 @@ Freitextfeld für Anmerkungen in Bezug auf die Angehörigen, z.B. Gründe für m
 | `nein(c)`   | um Verwechslung auszuschließen                                                                                 |
 | `unbekannt` | Zugehörigkeit kann nicht ausgeschlossen werden.                                                                |
 - `ja(a)`
-- `nein(a) | nein (b)`
+- `nein(a) | nein(b)`
 
 ### Links - Wikidata
 *URL*
