@@ -12,13 +12,14 @@ Beschreibung der Datentypen, welche in den Datenschemata verwendet werden.
 ## Spezielle Datentypen
 
 ### **`ID`** 
-Eine ID ist ein alphanumerischer, innerhalb dieses Projekts eindeutiger, Identifikator für Objekte (Zeilen) in Tabellen dieses Objekts. Die Vergabe dieser Identifikatoren erlaubt eindeutige Link zwischen Tabellen. Jede *ID* beginnt mit einem Großbuchstaben, welcher die Tabelle in der die zu identifizierenden Objekte stehen anzeigt, danach folgt eine, innerhalb der entsprechenden Tabelle einmalige, Zahl mit 7 Ziffern.
+Eine ID ist ein alphanumerischer, innerhalb dieses Projekts eindeutiger, Identifikator für Objekte (Zeilen) in Tabellen dieses Objekts. Die Vergabe dieser Identifikatoren erlaubt eindeutige Links zwischen Tabellen. Jede *ID* beginnt mit einem Großbuchstaben, welcher die Tabelle in der die zu identifizierenden Objekte stehen anzeigt, meist danach folgt eine, innerhalb der entsprechenden Tabelle einmalige, Zahl mit 7 Ziffern.
 	- `P1035000` (ID in der Personen-Tabelle)
 	- `R0010000` (ID in der Literatur-Tabelle)
 	- `L0010500` (ID in der Orte-Tabelle)
-    - `C0028000` (ID in der Sammlungen-Tabelle)
     - `M0013000` (ID in der Manuskripte-Tabelle)
     - `A0003000` (ID in der Archive-Tabelle)
+
+Die IDs der Sammlungstablle beginnen mit dem Präfix `C-`, gefolgt von einer Buchstabenkombination.
       
 Die Vergabe der IDs basiert auf der Idee des _Frational Indexing_.
 
