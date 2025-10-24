@@ -32,7 +32,7 @@ Eindeutiger Identifier der Sammlung. Beginnt mit dem Präfix `C-` (Collection) g
 Sammlungs- oder Herbarcode, sofern vorhanden. Dieser dient der eindeutigen Identifikation in internationalen Registern.
 Die Codes werden vom New York Botanical Garden (NYBG) vergeben und sind im [Index Herbariorum](https://sweetgum.nybg.org/science/ih/) nachschlagbar.
 
-- ``
+- ` `
 - `B`
 - `DR`
 - `COI`
@@ -82,6 +82,7 @@ Offizielle Webseite der Sammlung oder der Institution.
 *String*
 
 Freitextfeld für ergänzende Hinweise oder Kontextinformationen.
+
 
 
 
