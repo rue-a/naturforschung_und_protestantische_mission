@@ -53,7 +53,7 @@ ID (aus der Sammlungen-Tabelle) der übergeordneten Sammlung, falls diese Sammlu
 - `C0040000`
 
 
-### Sammlunhshaltende Institution
+### Sammlungshaltende Institution
 
 *List of Strings*
 
@@ -73,24 +73,13 @@ Offizielle Webseite der Sammlung oder der Institution.
 - `https://tu-dresden.de/mn/biologie/botanik/herbarium`
 - `https://coicatalogue.uc.pt/`
 
-### Charakter der Sammlung
-
-*List of Strings from Codelist*
-
-Liste zur Erfassung des Charakters/Zwecks der Sammlung. Die zulässigen Werte sind in der folgenden Codeliste definiert. 
-
-> Die Codeliste ist noch unvollständig.
-
-| Code        | Beschreibung                                                                                            |
-| ----------- | ------------------------------------------------------------------------------------------------------- |
-| `Bildung`   | Die Sammlung dient(e) vorwiegend der Ausbildung und Lehre (z. B. Seminare, Pädagogien).              |
-| `Sammlung`  | Die Sammlung dient(e) vorwiegend dem Aufbau und der Pflege von Herbarbelegen (z. B. Herbarien, Museen). |
 
 ### Anmerkungen
 
 *String*
 
 Freitextfeld für ergänzende Hinweise oder Kontextinformationen.
+
 
 
 
