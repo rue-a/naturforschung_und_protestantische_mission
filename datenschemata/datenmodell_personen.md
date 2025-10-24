@@ -92,7 +92,8 @@ Freitextfeld für Anmerkungen in Bezug auf die Angehörigen, z.B. Gründe für m
 | ----------- | -------------------------------------------------------------------------------------------------------------- |
 | `ja(a)`     | qua Geburt und Erziehung, in einer Herrnhuter Gemeinschaft bzw. von Herrnhuter Eltern geboren und aufgewachsen |
 | `ja(b)`     | als Erwachsene aufgenommen, z.B. Konvertitien oder Missionierte |
-| `ja(c)`     | Übernahme von Funktionen und Ausübung von Ämtern innerhalb der Brüdergemeine                                   |
+| `ja(c)`     | Übernahme von kirchlichen Ämtern innerhalb der Brüdergemeine                                   |
+| `ja(d)`     | Übernahme von Ämtern im Erziehungswesen der Brüdergemeine                                  |
 | `nein(a)`   | ausgetreten                                                                                       |
 | `nein(b)`   | aber wichtig im Netzwerk                                                                                       |
 | `nein(c)`   | um Verwechslung auszuschließen                                                                                 |
