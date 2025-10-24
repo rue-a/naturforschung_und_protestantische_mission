@@ -18,11 +18,12 @@ __In diesem Schema sind nur die Felder *ID* und *Name der Sammlung* erforderlich
 
 *ID*, **erforderlich**
 
-Eindeutiger Identifier der Sammlung. Beginnt mit dem Buchstaben `C` (Collection) und ist gefolgt von sieben Ziffern.
+Eindeutiger Identifier der Sammlung. Beginnt mit dem Präfix `C-` (Collection) gefolgt von einer Buchstabenkombination. Ist die betreffende Sammlung im NYBG indexiert (2. Spalte), ist die Buchstabenkombination gleich dem NYBG Herbarcode (alles Großbuchstaben). Ist die Sammlung jedoch nicht im NYBG indexiert und somit kein NYBG Herbarcode vorhanden, wird stattdessen eine beliebige, in der Tabelle einzigartige, Folge von Kleinbuchstaben verwendet, z.B. `hz` für Herrnhuter Zoologische Sammlung.
 
-- `C0040000`
-- `C0080000`
-- `C0130000`
+- `C-hz`
+- `C-B`
+- `C-DR`
+- `C-COI`
 
 ### NYBG Herbarcode
 
@@ -31,6 +32,7 @@ Eindeutiger Identifier der Sammlung. Beginnt mit dem Buchstaben `C` (Collection)
 Sammlungs- oder Herbarcode, sofern vorhanden. Dieser dient der eindeutigen Identifikation in internationalen Registern.
 Die Codes werden vom New York Botanical Garden (NYBG) vergeben und sind im [Index Herbariorum](https://sweetgum.nybg.org/science/ih/) nachschlagbar.
 
+- ``
 - `B`
 - `DR`
 - `COI`
@@ -41,6 +43,7 @@ Die Codes werden vom New York Botanical Garden (NYBG) vergeben und sind im [Inde
 
 Name der Sammlung oder des Herbars.
 
+- `Herrnhuter Zoologische Sammlung (aus Barby)`
 - `Herbarium Berolinense`
 - `Herbarium Dresdense`
 - `Herbarium of the University of Coimbra`
@@ -50,7 +53,7 @@ Name der Sammlung oder des Herbars.
 *ID*
 
 ID (aus der Sammlungen-Tabelle) der übergeordneten Sammlung, falls diese Sammlung Teil einer anderen Sammlung ist.
-- `C0040000`
+- `C-ANSP`
 
 
 ### Sammlungshaltende Institution
@@ -79,6 +82,7 @@ Offizielle Webseite der Sammlung oder der Institution.
 *String*
 
 Freitextfeld für ergänzende Hinweise oder Kontextinformationen.
+
 
 
 
