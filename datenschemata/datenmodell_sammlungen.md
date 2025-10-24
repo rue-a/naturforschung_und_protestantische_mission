@@ -18,9 +18,9 @@ __In diesem Schema sind nur die Felder *ID* und *Name der Sammlung* erforderlich
 
 *ID*, **erforderlich**
 
-Eindeutiger Identifier der Sammlung. Beginnt mit dem Präfix `C-` (Collection) gefolgt von einer Buchstabenkombination. Ist die betreffende Sammlung im NYBG indexiert (2. Spalte), ist die Buchstabenkombination gleich dem NYBG Herbarcode (alles Großbuchstaben). Ist die Sammlung jedoch nicht im NYBG indexiert und somit kein NYBG Herbarcode vorhanden, wird stattdessen eine beliebige, in der Tabelle einzigartige, Folge von Kleinbuchstaben verwendet, z.B. `hz` für Herrnhuter Zoologische Sammlung.
+Eindeutiger Identifier der Sammlung. Beginnt mit dem Präfix `C-` (Collection) gefolgt von einer Buchstabenkombination. Ist die betreffende Sammlung im NYBG indexiert (2. Spalte), ist die Buchstabenkombination gleich dem NYBG Herbarcode (alles Großbuchstaben). Ist die Sammlung jedoch nicht im NYBG indexiert und somit kein NYBG Herbarcode vorhanden, wird stattdessen eine beliebige, in der Tabelle einzigartige, Folge von Kleinbuchstaben verwendet, z.B. `hzoo` für Herrnhuter Zoologische Sammlung.
 
-- `C-hz`
+- `C-hzoo`
 - `C-B`
 - `C-DR`
 - `C-COI`
@@ -82,6 +82,7 @@ Offizielle Webseite der Sammlung oder der Institution.
 *String*
 
 Freitextfeld für ergänzende Hinweise oder Kontextinformationen.
+
 
 
 
