@@ -50,6 +50,11 @@ Nachname(n) der Person inkl. Adels-/Namenszusatz. Verschiedene Schreibweisen ein
 - `Francke`
 - `Glitsch`
 
+### Name - Geburtsname(n)
+*String*
+
+Nur für weibliche Personen auszufüllen. Geburtsname(n) der Person inkl. Adels-/Namenszusatz. Verschiedene Schreibweisen eines Namens sind durch `/` (ohne umgebende Leerzeichen) anzuzeigen, wobei die relevanteste Schreibweise vorn stehen sollte. Abkürzungen sind erlaubt (auch als relevanteste Schreibweise). 
+
 ### Name - Vornamen(n)
 *String*
 
