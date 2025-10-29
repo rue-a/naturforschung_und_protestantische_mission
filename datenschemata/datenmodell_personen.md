@@ -208,9 +208,11 @@ Ungeordnete Liste von IDs von Manuskripten mit Botanikbezug aus der Manuskripte-
 Ungeordnete Liste von IDs von Druckwerken mit Botanikbezug aus der Literatur-Tabelle deren Autor die Person ist. 
 
 ### Botanik - Beitrag zu Sammlungen
-*List of IDs*
+*List of Structured Strings*
 
-Ungeordnete Liste von IDs aus der Sammlungen-Tabelle. Die Person lieferte einen Beitrag zu den referenzierten Sammlungen.
+Die Person lieferte mindestens einem Beitrag zu den referenzierten Sammlungen. Jede referenzierte Sammlung ist mit **einem** Objekt zu belegen. Der Beleg erfolgt mit der Angabe einer URL, die zu einer Webrepräsentation eines Objekts führt, welches Teil der zu belegenden Sammlung ist und von der Person beigetragen wurde. Wenn möglich ist ein permanenter Link als URL anzugeben. Einträge in die Liste sind nach folgendem Muster zu strukturieren: `<ID-aus-der-Sammlungstabelle> (URL-zu-ausgewähltem-Beleg)`
+
+- `GJO (https://www.gbif.org/occurrence/1935675557)`
 
 
 ### Botanik - Erwähnung in Manuskripten
