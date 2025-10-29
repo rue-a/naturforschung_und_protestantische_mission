@@ -4,7 +4,7 @@ Beschreibung der Datentypen, welche in den Datenschemata verwendet werden.
 
 ## Generische Datentypen
 
--**``Boolean**: `ja` oder `nein`
+- **`Boolean`**: `ja` oder `nein`
 - **`Integer`**: Eine ganze Zahl ohne Dezimal- oder Bruchteile.
 - **`Decimal`**: Eine Dezimalzahl.
 - **`String`**: Eine Abfolge von nicht näher bestimmten Zeichen.
