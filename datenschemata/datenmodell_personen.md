@@ -23,6 +23,13 @@ __In diesem Schema sind nur die Felder _ID_ und _Name - Vorzugsname_ erforderlic
 Eindeutiger Identifier der Person. Beginnt mit dem Buchstaben `P` (Person) und ist gefolgt von sieben Ziffern. 
 - `P0012000`
 
+### Übernahme in Personenlexikon
+*Boolean*, **erforderlich**
+
+Gibt an ob die Person in das Online-Personenlexikon als eigener Eintrag auftaucht, also an der botanischen Wissensproduktion beteiligt war (dann `ja`), oder ob die Person im Kontext dieses Projekts nur eine Netzwerkabbildungsrolle inne hat (dann `nein`).
+- `ja`
+- `nein`
+
 ### Name - Vorzugsname
 *String*, **erforderlich**
 
