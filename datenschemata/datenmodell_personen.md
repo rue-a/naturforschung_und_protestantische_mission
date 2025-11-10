@@ -140,7 +140,7 @@ Link zum Eintrag der Person in Bionomia. Die URL beginnt immer mit `https://bion
 
 Link zum Eintrag der Person in Säbi. Die URL beginnt immer mit `https://saebi.isgv.de/person/`. Wenn nichts eingetragen ist, heißt das, dass es keinen Säbi-Eintrag gibt.
 
-### Handschriftlicher Brüdergemeine
+### Handschriftlicher Lebenslauf
 *ID*
 
 Für jeden Herrenhuter wurde ein Lebenslauf angefertigt. Diese Lebensläufe liegen i.d.R. als handschriftliche Manuskripte vor, d.h. es ist eine Manuskript-ID (beginnend mit `M`) einzutragen.  
