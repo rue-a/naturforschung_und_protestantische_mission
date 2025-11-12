@@ -179,7 +179,7 @@ Todesort der Person mit Quellenangabe (_Reference_) in Klammern. Orte sind mitte
 *String*
 
 ### Tätigkeiten
-*List of Structured Strings*
+*List of Structured Strings: \<String\> (\<Reference\>)*
 
 Ungeordnete Liste von Tätigkeiten, die die Person im Laufe Ihres Lebens ausgeführt hat. Dieses Feld dient dem allgemeinen Überblick, genauere Angaben zum Kontext der Tätigkeiten (wo, wann, warum, etc.), werden im Lebenslauf der Person angegeben. Für jede Tätigkeit sollte in Klammern die Quelle angegeben werden. Die Quellen entsprechen dem Datentyp _References_, d.h. IDs aus der Literatur-Tabelle (beginnend mit `R`, IDs aus der Manuskripte-Tabelle (beginnend mit `M`) oder permanente URLs.
 
@@ -201,7 +201,7 @@ Ungeordnete Liste von IDs von Manuskripten mit Botanikbezug aus der Manuskripte-
 Ungeordnete Liste von IDs von Druckwerken mit Botanikbezug aus der Literatur-Tabelle deren Autor die Person ist. 
 
 ### Botanik - Beitrag zu Sammlungen
-*List of Structured Strings*
+*List of Structured Strings: \<C-ID\> (\<URL\>)*
 
 Die Person lieferte mindestens einem Beitrag zu den referenzierten Sammlungen. Jede referenzierte Sammlung ist mit **einem** Objekt zu belegen. Der Beleg erfolgt mit der Angabe einer URL, die zu einer Webrepräsentation eines Objekts führt, welches Teil der zu belegenden Sammlung ist und von der Person beigetragen wurde. Wenn möglich ist ein permanenter Link als URL anzugeben. Einträge in die Liste sind nach folgendem Muster zu strukturieren: `<ID-aus-der-Sammlungstabelle> (URL-zu-ausgewähltem-Beleg)`
 
