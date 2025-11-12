@@ -146,34 +146,34 @@ Link zum Eintrag der Person in Säbi. Die URL beginnt immer mit `https://saebi.i
 Für jeden Herrenhuter wurde ein Lebenslauf angefertigt. Diese Lebensläufe liegen i.d.R. als handschriftliche Manuskripte vor, d.h. es ist eine Manuskript-ID (beginnend mit `M`) einzutragen.  
 
 ### Geburt - Datum
-*Structured String: \<ISO8601-2_Date\> (\<Reference\>)*
+*List of Structured Strings: \<ISO8601-2_Date\> (\<Reference\>)*
 
-Geburtsdatum der Person mit Quellenangabe (_Reference_) in Klammern. Quellen können IDs aus anderen Tabellen oder URLs sein.
+Geburtsdatum der Person mit Quellenangabe (_Reference_) in Klammern. Quellen können IDs aus anderen Tabellen oder URLs sein. Bei mehreren widersprüchlichen Geburtsdaten sind die Geburtsdaten mit Quellenangabe in absteigender Plausibilität als Liste zu ordnern.
 
 
 ### Geburt - Datum - Anmerkungen
 *String*
 
 ### Geburt - Ort
-*Structured String: \<L-ID\> (\<Reference\>)*
+*List of Structured Strings: \<L-ID\> (\<Reference\>)*
 
-Geburtsort der Person mit Quellenangabe (_Reference_) in Klammern. Orte sind mittels ID in der Orte-Tabelle zu identifizieren (L-ID). Quellen können IDs aus anderen Tabellen oder URLs sein.
+Geburtsort der Person mit Quellenangabe (_Reference_) in Klammern. Orte sind mittels ID in der Orte-Tabelle zu identifizieren (L-ID). Quellen können IDs aus anderen Tabellen oder URLs sein. Bei mehreren widersprüchlichen Geburtsorten sind die Geburtsorte mit Quellenangabe in absteigender Plausibilität als Liste zu ordnern.
 
 ### Geburt - Ort - Anmerkungen
 *String*
 
 ### Tod - Datum
-*Structured String: \<ISO8601-2_Date\> (\<Reference\>)*
+*List of Structured Strings: \<ISO8601-2_Date\> (\<Reference\>)*
 
-Todessdatum der Person mit Quellenangabe (_Reference_) in Klammern. Quellen können IDs aus anderen Tabellen oder URLs sein.
+Todessdatum der Person mit Quellenangabe (_Reference_) in Klammern. Quellen können IDs aus anderen Tabellen oder URLs sein. Bei mehreren widersprüchlichen Todessdaten sind die Todesdaten mit Quellenangabe in absteigender Plausibilität als Liste zu ordnern.
 
 ### Tod - Datum - Anmerkungen
 *String*
 
 ### Tod - Ort
-*Structured String: \<L-ID\> (\<Reference\>)*
+*List of Structured Strings: \<L-ID\> (\<Reference\>)*
 
-Todesort der Person mit Quellenangabe (_Reference_) in Klammern. Orte sind mittels ID in der Orte-Tabelle zu identifizieren (L-ID). Quellen können IDs aus anderen Tabellen oder URLs sein.
+Todesort der Person mit Quellenangabe (_Reference_) in Klammern. Orte sind mittels ID in der Orte-Tabelle zu identifizieren (L-ID). Quellen können IDs aus anderen Tabellen oder URLs sein. Bei mehreren widersprüchlichen Todesorten sind die Todesorte mit Quellenangabe in absteigender Plausibilität als Liste zu ordnern.
 
 ### Tod - Ort - Anmerkungen
 *String*
