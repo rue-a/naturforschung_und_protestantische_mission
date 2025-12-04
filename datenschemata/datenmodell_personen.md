@@ -200,12 +200,36 @@ Ungeordnete Liste von IDs von Manuskripten mit Botanikbezug aus der Manuskripte-
 
 Ungeordnete Liste von IDs von Druckwerken mit Botanikbezug aus der Literatur-Tabelle deren Autor die Person ist. 
 
-### Botanik - Beitrag zu Sammlungen
-*List of Structured Strings: \<C-ID\> (\<URL\>)*
+### Botanik – Beitrag zu Sammlungen (Objektnachweis)
+*List of Structured Strings*
 
-Die Person lieferte mindestens einem Beitrag zu den referenzierten Sammlungen. Jede referenzierte Sammlung ist mit **einem** Objekt zu belegen. Der Beleg erfolgt mit der Angabe einer URL, die zu einer Webrepräsentation eines Objekts führt, welches Teil der zu belegenden Sammlung ist und von der Person beigetragen wurde. Wenn möglich ist ein permanenter Link als URL anzugeben. Einträge in die Liste sind nach folgendem Muster zu strukturieren: `<ID-aus-der-Sammlungstabelle> (URL-zu-ausgewähltem-Beleg)`
+Persistenter Link zu einem konkreten Objekt, das von der Person gesammelt wurde und Teil der referenzierten Sammlung ist. Jede referenzierte Sammlung muss mit genau einem Objekt nachgewiesen werden. Einträge folgen diesem Muster: `<ID-aus-der-Sammlungstabelle> (<persistenter-Link-zum-Objekt>)`.
 
-- `C-GJO (https://www.gbif.org/occurrence/1935675557)`
+- `C-DR (https://dr.jacq.org/DR086086)`: Das von Albertini gesammelte Objekt, zu finden unter https://dr.jacq.org/DR086086, weist nach, dass Albertini zur Sammlung C-DR (DR, Herbarium Dresdense) beigetragen hat.
+
+
+### Botanik – Beitrag zu Sammlungen (Datenbanknachweis)
+*List of Structured Strings*
+
+Persistenter Link zu einem Personeneintrag in einer Datenbank, in dem vermerkt ist, zu welchen Sammlungen die Person beigetragen hat. Einträge folgen diesem Muster: `<ID-aus-der-Sammlungstabelle> (<persistenter-Link-zur-Datenbankseite>)`.
+
+- `C-B (https://www.tropicos.org/person/791) | C-M (https://www.tropicos.org/person/791)`: Unter https://www.tropicos.org/person/791 ist vermerkt (bei _Speciality_), dass Albertini zu den Sammlungen C-B (B, Herbarium Berolinense), und C-M (M, Herbarium der Staatlichen Naturwissenschaftlichen Sammlungen Bayerns) beigetragen hat.
+
+
+
+### Botanik – Beitrag zu Sammlungen (Literaturnachweis)
+*List of Structured Strings*
+
+Verweis auf eine Literaturquelle, in der explizit erwähnt ist, dass die Person zu einer Sammlung beigetragen hat. Einträge folgen diesem Muster: `<ID-aus-der-Sammlungstabelle> (<ID-aus-der-Literaturtabelle>)`.
+
+
+
+
+### Botanik – Beitrag zu Sammlungen – Anmerkungen
+*String*
+
+Freitextfeld für Hinweise zur Nachweisführung, z. B. mehrere mögliche Objektnachweise, Unsicherheiten zur Zuordnung oder Erläuterungen bei widersprüchlichen Quellen.
+
 
 
 ### Botanik - Erwähnung der Person in Manuskripten durch Andere
