@@ -217,7 +217,7 @@ Ungeordnete Liste von IDs von Manuskripten mit Botanikbezug aus der Manuskripte-
 Ungeordnete Liste von IDs von Druckwerken mit Botanikbezug aus der Literatur-Tabelle deren Autor die Person ist. 
 
 ### Botanik – Beitrag zu Sammlungen (Objektnachweis)
-*List of Structured Strings*
+*List of Structured Strings: \<C-ID\> (\<URL\>)*
 
 Persistenter Link zu einem konkreten Objekt, das von der Person gesammelt wurde und Teil der referenzierten Sammlung ist. Jede referenzierte Sammlung muss mit genau einem Objekt nachgewiesen werden. Einträge folgen diesem Muster: `<ID-aus-der-Sammlungstabelle> (<persistenter-Link-zum-Objekt>)`.
 
@@ -225,7 +225,7 @@ Persistenter Link zu einem konkreten Objekt, das von der Person gesammelt wurde 
 
 
 ### Botanik – Beitrag zu Sammlungen (Datenbanknachweis)
-*List of Structured Strings*
+*List of Structured Strings: \<C-ID\> (\<URL\>)*
 
 Persistenter Link zu einem Personeneintrag in einer Datenbank, in dem vermerkt ist, zu welchen Sammlungen die Person beigetragen hat. Einträge folgen diesem Muster: `<ID-aus-der-Sammlungstabelle> (<persistenter-Link-zur-Datenbankseite>)`.
 
@@ -234,7 +234,7 @@ Persistenter Link zu einem Personeneintrag in einer Datenbank, in dem vermerkt i
 
 
 ### Botanik – Beitrag zu Sammlungen (Literaturnachweis)
-*List of Structured Strings*
+*List of Structured Strings: \<C-ID\> (\<R-ID\>)*
 
 Verweis auf eine Literaturquelle, in der explizit erwähnt ist, dass die Person zu einer Sammlung beigetragen hat. Einträge folgen diesem Muster: `<ID-aus-der-Sammlungstabelle> (<ID-aus-der-Literaturtabelle>)`.
 
