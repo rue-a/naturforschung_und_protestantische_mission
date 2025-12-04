@@ -190,12 +190,12 @@ Ungeordnete Liste von Tätigkeiten, die die Person im Laufe Ihres Lebens ausgef�
 
 Ungeordnete Liste von Themen mit Botanikbezug denen sich die Person in besonderem Maße widmete.
 
-### Botanik - Manuskripte
+### Botanik - Manuskripte der Person
 *List of IDs*
 
 Ungeordnete Liste von IDs von Manuskripten mit Botanikbezug aus der Manuskripte-Tabelle deren Autor die Person ist. 
 
-### Botanik - Druckwerke
+### Botanik - Druckwerke der Person
 *List of IDs*
 
 Ungeordnete Liste von IDs von Druckwerken mit Botanikbezug aus der Literatur-Tabelle deren Autor die Person ist. 
@@ -208,22 +208,22 @@ Die Person lieferte mindestens einem Beitrag zu den referenzierten Sammlungen. J
 - `C-GJO (https://www.gbif.org/occurrence/1935675557)`
 
 
-### Botanik - Erwähnung in Manuskripten
+### Botanik - Erwähnung der Person in Manuskripten durch Andere
 *List of IDs*
 
 Ungeordnete Liste von IDs von Manuskripten mit Botanikbezug aus der Manuskripte-Tabelle in denen die Person erwähnt ist.
 
-### Botanik - Erwähnung in Druckwerken
+### Botanik - Erwähnung der Person in Druckwerken durch Andere
 *List of IDs*
 
 Ungeordnete Liste von IDs von Druckwerken mit Botanikbezug aus der Literatur-Tabelle in denen die Person erwähnt ist.
 
-### Nicht-Botanische Werke
+### Nicht-Botanische Werke der Person
 *List of IDs*
 
 Ungeordnete Liste von IDs aus der Manuskripte- oder Literaturtabelle deren Autor die Person ist, welche aber keinen Botanikbezug aufweisen.
 
-### Erwähnungen in Nicht-Botanische Werken
+### Erwähnungen der Person in Nicht-Botanische Werken durch Andere
 *List of IDs*
 
 Ungeordnete Liste von IDs aus der Manuskripte- oder Literaturtabelle in welchen die Person erwähnt ist, welche aber keinen Botanikbezug aufweisen.
