@@ -105,7 +105,7 @@ Dient dem Nachweis eines Sachverhalts, mittels eines Druckwerks unter Angabe der
 ID aus der Manuskripte-Tabelle. Dient dem Nachweis eines Sachverhalts mittels eines handschriftlichen Manuskripts. 
 
 ### **`Reference`** 
-In diesem Feld sind *URL*, *Literature* (L-ID) und *Manuscript* (M-ID)  Strings erlaubt. Hier eingetragene URLs müssen Permalinks sein.
+In diesem Feld sind *URL*, *Literature* (R-ID) und *Manuscript* (M-ID)  Strings erlaubt. Hier eingetragene URLs müssen Permalinks sein.
 
 ## Listen
 

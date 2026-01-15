@@ -258,12 +258,12 @@ Ungeordnete Liste von IDs von Manuskripten mit Botanikbezug aus der Manuskripte-
 
 Ungeordnete Liste von IDs von Druckwerken mit Botanikbezug aus der Literatur-Tabelle in denen die Person erwähnt ist.
 
-### Nicht-Botanische Werke der Person
+### Wichtige Werke der Person ohne botanischen Kontext
 *List of IDs*
 
 Ungeordnete Liste von IDs aus der Manuskripte- oder Literaturtabelle deren Autor die Person ist, welche aber keinen Botanikbezug aufweisen.
 
-### Erwähnungen der Person in Nicht-Botanische Werken durch Andere
+### Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere
 *List of IDs*
 
 Ungeordnete Liste von IDs aus der Manuskripte- oder Literaturtabelle in welchen die Person erwähnt ist, welche aber keinen Botanikbezug aufweisen.
