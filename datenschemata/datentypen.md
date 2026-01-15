@@ -58,7 +58,7 @@ Die Vergabe der IDs basiert auf der Idee des _Frational Indexing_.
 > Sind die Hundertstelschritte zwischen zwei Werten auch aufgebraucht, geht es in Tausendstelschritten weiter. Im vorliegenden Beispiel schlägt das System an nach dem Auschöpfen der Tausendstelschritte fehl. Um das zu vermeiden, sollten Stellenzahl und Startabstände der initialen IDs so großzügig gewählt werden, dass ein späteres Ausschöpfen des Bereichs sehr unwahrscheinlich ist. Der Vorteil der Ganzzahl-Variante bleibt die gute Lesbarkeit und die einfache manuelle Handhabung.
 
 
-### **`Date`**
+### **`ISO_Date`**
 Taggenaue Angabe eines Datums im Format `YYYY-MM-DD` (ISO 8601).
 	- `YYYY`: Jahr mit vier Ziffern
 	- `MM`: Monat mit zwei Ziffern
@@ -97,15 +97,8 @@ In diesem Feld sind *ISO8601-2_Date* und *ISO8601-2_Period* Strings erlaubt.
 ### **`URL`** 
 Ein strukturierter String gemäß [RFC3986](https://datatracker.ietf.org/doc/html/rfc3986), aber eingeschränkt auf das Schema `https` (oder notfalls `http`). URLs sollten immer aus der Browserleiste in das Dokument kopiert und nie per Hand eingetragen werden. 
 
-### **`Literature`** 
-Dient dem Nachweis eines Sachverhalts, mittels eines Druckwerks unter Angabe der Seiten auf welchen der Nachweis zu finden ist. Der Nachweisstring ist wie folgt strukturiert `<ID aus Literatur-Tabelle (<Angabe der Seiten>)`. 
--  `R0000013 (p237ff)` (Schriftliche Quelle, erfasst unter der *ID* R0000013, gesuchter Nachweis auf Seiten 237 und folgende)
-
-### **`Manuscript`** 
-ID aus der Manuskripte-Tabelle. Dient dem Nachweis eines Sachverhalts mittels eines handschriftlichen Manuskripts. 
-
 ### **`Reference`** 
-In diesem Feld sind *URL*, *Literature* (R-ID) und *Manuscript* (M-ID)  Strings erlaubt. Hier eingetragene URLs müssen Permalinks sein.
+In diesem Feld sind *URL*, *Literature* (R-ID) und *Manuscript* (M-ID) Strings erlaubt. Hier eingetragene URLs müssen Permalinks sein.
 
 ## Listen
 
