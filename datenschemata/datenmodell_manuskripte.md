@@ -41,10 +41,16 @@ Signatur/Bestandsangabe, unter der die Quelle im Archiv auffindbar ist.
 ### Titel
 *String*, **erforderlich**
 
-Vollständige Bezeichnung der Quelle. Kann Autor:innen, Entstehungsort und Datum enthalten. Die Struktur des Titels ist nicht vorgegeben, jedoch gilt folgende Empfehlung: 
-`<Autor:innen (Vornamen Nachnamen), semikolongetrennt>: <Titel>, <Entstehungsort> (<Entstehungsdatum>)`.
+Vollständige Bezeichnung der Quelle. Kann Autor:innen, Entstehungsort und Datum enthalten. Die Struktur des Titels ist nicht vorgegeben, jedoch gelten folgende Empfehlung: 
+`<Autor:innen (Vornamen Nachnamen), kommagetrennt>: <Titel>, <Entstehungsort> (<Entstehungsdatum>)`.
 - `Johann Jakob Bossart: Tagebuch Botanischer Exkursionen (1766)`
 - `Philip Christian Gottlieb Reuter: Hortus Medicus (1761)`
+
+oder bei Briefen:
+`Brief(e): <Absender:innen (Vornamen Nachnamen), Kommagetrennt> an <Adressat:innen (Vornamen Nachnamen), Kommagetrennt> (<Datum>)`
+- `Brief: Johann Jakob Bossart an Philip Christian Gottlieb Reuter (1767-04-01)`
+
+Datumsangaben bestenfalls gemäß [ISO 8601-2](https://github.com/rue-a/naturforschung_und_protestantische_mission/blob/main/datenschemata/datentypen.md#iso8601-2_date).
 
 
 ### Permalink
