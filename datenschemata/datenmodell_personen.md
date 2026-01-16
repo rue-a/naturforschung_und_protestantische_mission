@@ -140,10 +140,10 @@ Link zum Eintrag der Person in Bionomia. Die URL beginnt immer mit `https://bion
 
 Link zum Eintrag der Person in Säbi. Die URL beginnt immer mit `https://saebi.isgv.de/person/`. Wenn nichts eingetragen ist, heißt das, dass es keinen Säbi-Eintrag gibt.
 
-### Handschriftlicher Lebenslauf
-*ID*
+### Herrnhuter Lebenslauf
+*ID: \<M-ID/R-ID\>* 
 
-Für jeden Herrenhuter wurde ein Lebenslauf angefertigt. Diese Lebensläufe liegen i.d.R. als handschriftliche Manuskripte vor, d.h. es ist eine Manuskript-ID (beginnend mit `M`) einzutragen.  
+Für jeden Herrenhuter wurde ein Lebenslauf angefertigt. Diese Lebensläufe liegen als handschriftliche Manuskripte oder Drucke vor, d.h. es ist eine Manuskript-ID (beginnend mit `M`) oder Literatur-ID (beginnend mit `R`) einzutragen.  
 
 ### Geburt - Datum
 *List of Structured Strings: \<ISO8601-2_Date\> (\<Reference\>)*
@@ -178,6 +178,42 @@ Todesort der Person mit Quellenangabe (_Reference_) in Klammern. Orte sind mitte
 ### Tod - Ort - Anmerkungen
 *String*
 
+### Wirkungsorte
+*List of Structured Strings: \<ISO8601_2_Temporal\>; \<L-ID\>; \<String (Einrichtung)\>; \<String (Funktion)\> (\<Reference\>)*
+
+Liste mit Wirkungsorten der Person. Ein Wirkungsort besteht aus: Datum/Zeitraum am Ort ([ISO8601-2 Temporal](https://github.com/rue-a/naturforschung_und_protestantische_mission/blob/main/datenschemata/datentypen.md#iso8601-2_temporal)), dem Ort selbst (L-ID), der Einrichtung an der die Person wirkte, ihrer Funktion, und der Quelle aus der diese Informationen stammen. Die Werte Zeitangabe, Ort, Einrichtung und Funktion werden mit Semikolons getrennt, die Quelle Folgt in Klammern. **Sollte eine der Teilinformationen nicht vorhanden sein, muss dennnoch ein Semikolon gesetzt werden!**
+
+
+**Einzelbesipiele:**
+- `1773/1782; Lxxxxxxx; Knabenanstalt; Schüler (Rxxxxxxx)` (vollständig)
+- `1782/1785; Lxxxxxxx [Niesky]; Pädagogium; Schüler (Rxxxxxxx)` (Hinweis welcher Ort sich hinter der L-ID verbirgt in eckigen Klammern hinzugefügt -> siehe Tip unten)
+- `1785/1788; Lxxxxxxx; ;Schüler (Rxxxxxxx)` (Einrichtung unbekannt)
+- `1789/; Lxxxxxxx; Pädagogium; (Rxxxxxxx)` (offener Zeitraum ab 1789, Funktion unbekannt)
+- `1796/1808; Lxxxxxxx; Seminar; Dozent, Inspektor, Prediger (Rxxxxxxx)` (mehrere Funktionen können z.B. mit Kommata getrennt werden)
+
+
+**Beispielliste:**
+```
+1773/1782; Lxxxxxxx [Neuwied]; Knabenanstalt; Schüler (Rxxxxxxx) |
+1782/1785; Lxxxxxxx [Niesky]; Pädagogium; Schüler (Rxxxxxxx) |
+1785/1788; Lxxxxxxx [Barby]; ;Schüler (Rxxxxxxx) |
+1789/; Lxxxxxxx [Barby]; Pädagogium; (Rxxxxxxx) |
+1796/1808; Lxxxxxxx [Niesky]; Seminar; Dozent, Inspektor, Prediger (Rxxxxxxx)
+```
+
+> [!TIP]
+>
+> Man kann also Zusatzinfos in eckige Klammern schreiben und Zeilenumbrüche zur besseren Übersicht verwenden. Bei Auslesen der Tabelle werden alle Zeilenumbrüche innerhalb von Feldern entfernt, genauso wird mit allen Informationen in eckigen Klammern und eckigen Klammern selbst verfahren.
+> ```
+> 1773/1782; Lxxxxxxx [Neuwied]; Knabenanstalt; Schüler (Rxxxxxxx) |
+> 1782/1785; Lxxxxxxx [Niesky]; Pädagogium; Schüler (Rxxxxxxx)
+> ```
+> 
+> wird zu
+> 
+> `1773/1782; Lxxxxxxx; Knabenanstalt; Schüler (Rxxxxxxx) | 1782/1785; Lxxxxxxx; Pädagogium; Schüler (Rxxxxxxx)`
+
+
 ### Tätigkeiten
 *List of Structured Strings: \<String\> (\<Reference\>)*
 
@@ -186,19 +222,20 @@ Ungeordnete Liste von Tätigkeiten, die die Person im Laufe Ihres Lebens ausgef�
 - `Theologe (R0000015) | Erzieher (M0000250) | Lehrer (M0000250) | Seminardirektor (https://www.bsp-permalink.org/)`
 
 ### Kontakt – Mit Herrnhutern
-*List of Structured Strings: \<P-ID\> (\<Reference\>)*
+*List of Structured Strings: \<P-ID\>; \<ISO8601_2_Temporal\> (\<Reference\>)*
 
-Ungeordnete Liste von Personen-IDs innerhalb der Herrnhuter Brüdergemeine, mit denen diese Person nachweislich in Kontakt stand. Zu jedem Kontakt ist eine Quelle in Klammern anzugeben. Die Quellen entsprechen dem Datentyp *References*, d. h. IDs aus der Literatur-Tabelle (beginnend mit `R`), IDs aus der Manuskripte-Tabelle (beginnend mit `M`) oder permanente URLs.
+Ungeordnete Liste von Personen-IDs innerhalb der Herrnhuter Brüdergemeine, mit denen diese Person nachweislich in Kontakt stand. Optional, kann, getrennt durch Semikolon, ein Zeitraum oder Zeitpunkt in/zu dem der Kontakt stattfand angegeben werden (-> `ISO8601_2_Temporal`). Zu jedem Kontakt ist eine Quelle in Klammern anzugeben. Die Quellen entsprechen dem Datentyp *References*, d. h. IDs aus der Literatur-Tabelle (beginnend mit `R`), IDs aus der Manuskripte-Tabelle (beginnend mit `M`) oder permanente URLs.
 
-- `P0000123 (R0000456) | P0000789 (M0000102)`
+- `P0000123 (R0000456) | P0000789; 1806-04 (M0000102) |  P0000789; 1806/1809 (M0000102)`
 
 
 ### Kontakt – Mit Nicht-Herrnhutern
-*List of Structured Strings: \<P-ID\> (\<Reference\>)*
+*List of Structured Strings: \<P-ID\>; \<ISO8601_2_Temporal\> (\<Reference\>)*
 
-Ungeordnete Liste von Personen-IDs außerhalb der Herrnhuter Brüdergemeine, mit denen diese Person nachweislich in Kontakt stand. Zu jedem Kontakt ist eine Quelle in Klammern anzugeben. Die Quellen entsprechen dem Datentyp *References*, d. h. IDs aus der Literatur-Tabelle (beginnend mit `R`), IDs aus der Manuskripte-Tabelle (beginnend mit `M`) oder permanente URLs.
+Ungeordnete Liste von Personen-IDs außerhalb der Herrnhuter Brüdergemeine, mit denen diese Person nachweislich in Kontakt stand. Optional, kann, getrennt durch Semikolon, ein Zeitraum oder Zeitpunkt in/zu dem der Kontakt stattfand angegeben werden (-> `ISO8601_2_Temporal`). Zu jedem Kontakt ist eine Quelle in Klammern anzugeben. Die Quellen entsprechen dem Datentyp *References*, d. h. IDs aus der Literatur-Tabelle (beginnend mit `R`), IDs aus der Manuskripte-Tabelle (beginnend mit `M`) oder permanente URLs.
 
 - `P0000234 (https://www.example.org/permalink)`
+- siehe auch `Kontakt - Mit Herrnhutern`
 
 
 ### Botanik - Foki
@@ -206,15 +243,6 @@ Ungeordnete Liste von Personen-IDs außerhalb der Herrnhuter Brüdergemeine, mit
 
 Ungeordnete Liste von Themen mit Botanikbezug denen sich die Person in besonderem Maße widmete.
 
-### Botanik - Manuskripte der Person
-*List of IDs*
-
-Ungeordnete Liste von IDs von Manuskripten mit Botanikbezug aus der Manuskripte-Tabelle deren Autor die Person ist. 
-
-### Botanik - Druckwerke der Person
-*List of IDs*
-
-Ungeordnete Liste von IDs von Druckwerken mit Botanikbezug aus der Literatur-Tabelle deren Autor die Person ist. 
 
 ### Botanik – Beitrag zu Sammlungen (Objektnachweis)
 *List of Structured Strings: \<C-ID\> (\<URL\>)*
@@ -247,16 +275,21 @@ Verweis auf eine Literaturquelle, in der explizit erwähnt ist, dass die Person 
 Freitextfeld für Hinweise zur Nachweisführung, z. B. mehrere mögliche Objektnachweise, Unsicherheiten zur Zuordnung oder Erläuterungen bei widersprüchlichen Quellen.
 
 
-
-### Botanik - Erwähnung der Person in Manuskripten durch Andere
+### Botanik - Manuskripte der Person
 *List of IDs*
 
-Ungeordnete Liste von IDs von Manuskripten mit Botanikbezug aus der Manuskripte-Tabelle in denen die Person erwähnt ist.
+Ungeordnete Liste von IDs von Manuskripten mit Botanikbezug aus der Manuskripte-Tabelle deren Autor die Person ist. 
 
-### Botanik - Erwähnung der Person in Druckwerken durch Andere
+### Botanik - Druckwerke der Person
 *List of IDs*
 
-Ungeordnete Liste von IDs von Druckwerken mit Botanikbezug aus der Literatur-Tabelle in denen die Person erwähnt ist.
+Ungeordnete Liste von IDs von Druckwerken mit Botanikbezug aus der Literatur-Tabelle deren Autor die Person ist. 
+
+### Botanik - Erwähnung der Person durch Andere
+*List of IDs: \<M-ID/R-ID\>*
+
+Ungeordnete Liste von IDs von Manuskripten oder Druckwerken mit Botanikbezug in denen die Person erwähnt wird.
+
 
 ### Wichtige Werke der Person ohne botanischen Kontext
 *List of IDs*
