@@ -186,19 +186,20 @@ Ungeordnete Liste von Tätigkeiten, die die Person im Laufe Ihres Lebens ausgef�
 - `Theologe (R0000015) | Erzieher (M0000250) | Lehrer (M0000250) | Seminardirektor (https://www.bsp-permalink.org/)`
 
 ### Kontakt – Mit Herrnhutern
-*List of Structured Strings: \<P-ID\> (\<Reference\>)*
+*List of Structured Strings: \<P-ID\>; \<ISO8601_2_Temporal\> (\<Reference\>)*
 
-Ungeordnete Liste von Personen-IDs innerhalb der Herrnhuter Brüdergemeine, mit denen diese Person nachweislich in Kontakt stand. Zu jedem Kontakt ist eine Quelle in Klammern anzugeben. Die Quellen entsprechen dem Datentyp *References*, d. h. IDs aus der Literatur-Tabelle (beginnend mit `R`), IDs aus der Manuskripte-Tabelle (beginnend mit `M`) oder permanente URLs.
+Ungeordnete Liste von Personen-IDs innerhalb der Herrnhuter Brüdergemeine, mit denen diese Person nachweislich in Kontakt stand. Optional, kann, getrennt durch Semikolon, ein Zeitraum oder Zeitpunkt in/zu dem der Kontakt stattfand angegeben werden (-> `ISO8601_2_Temporal`). Zu jedem Kontakt ist eine Quelle in Klammern anzugeben. Die Quellen entsprechen dem Datentyp *References*, d. h. IDs aus der Literatur-Tabelle (beginnend mit `R`), IDs aus der Manuskripte-Tabelle (beginnend mit `M`) oder permanente URLs.
 
-- `P0000123 (R0000456) | P0000789 (M0000102)`
+- `P0000123 (R0000456) | P0000789; 1806-04 (M0000102) |  P0000789; 1806/1809 (M0000102)`
 
 
 ### Kontakt – Mit Nicht-Herrnhutern
-*List of Structured Strings: \<P-ID\> (\<Reference\>)*
+*List of Structured Strings: \<P-ID\>; \<ISO8601_2_Temporal\> (\<Reference\>)*
 
-Ungeordnete Liste von Personen-IDs außerhalb der Herrnhuter Brüdergemeine, mit denen diese Person nachweislich in Kontakt stand. Zu jedem Kontakt ist eine Quelle in Klammern anzugeben. Die Quellen entsprechen dem Datentyp *References*, d. h. IDs aus der Literatur-Tabelle (beginnend mit `R`), IDs aus der Manuskripte-Tabelle (beginnend mit `M`) oder permanente URLs.
+Ungeordnete Liste von Personen-IDs außerhalb der Herrnhuter Brüdergemeine, mit denen diese Person nachweislich in Kontakt stand. Optional, kann, getrennt durch Semikolon, ein Zeitraum oder Zeitpunkt in/zu dem der Kontakt stattfand angegeben werden (-> `ISO8601_2_Temporal`). Zu jedem Kontakt ist eine Quelle in Klammern anzugeben. Die Quellen entsprechen dem Datentyp *References*, d. h. IDs aus der Literatur-Tabelle (beginnend mit `R`), IDs aus der Manuskripte-Tabelle (beginnend mit `M`) oder permanente URLs.
 
 - `P0000234 (https://www.example.org/permalink)`
+- siehe auch `Kontakt - Mit Herrnhutern`
 
 
 ### Botanik - Foki
