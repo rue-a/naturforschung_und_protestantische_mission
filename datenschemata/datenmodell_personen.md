@@ -207,15 +207,6 @@ Ungeordnete Liste von Personen-IDs außerhalb der Herrnhuter Brüdergemeine, mit
 
 Ungeordnete Liste von Themen mit Botanikbezug denen sich die Person in besonderem Maße widmete.
 
-### Botanik - Manuskripte der Person
-*List of IDs*
-
-Ungeordnete Liste von IDs von Manuskripten mit Botanikbezug aus der Manuskripte-Tabelle deren Autor die Person ist. 
-
-### Botanik - Druckwerke der Person
-*List of IDs*
-
-Ungeordnete Liste von IDs von Druckwerken mit Botanikbezug aus der Literatur-Tabelle deren Autor die Person ist. 
 
 ### Botanik – Beitrag zu Sammlungen (Objektnachweis)
 *List of Structured Strings: \<C-ID\> (\<URL\>)*
@@ -248,16 +239,21 @@ Verweis auf eine Literaturquelle, in der explizit erwähnt ist, dass die Person 
 Freitextfeld für Hinweise zur Nachweisführung, z. B. mehrere mögliche Objektnachweise, Unsicherheiten zur Zuordnung oder Erläuterungen bei widersprüchlichen Quellen.
 
 
-
-### Botanik - Erwähnung der Person in Manuskripten durch Andere
+### Botanik - Manuskripte der Person
 *List of IDs*
 
-Ungeordnete Liste von IDs von Manuskripten mit Botanikbezug aus der Manuskripte-Tabelle in denen die Person erwähnt ist.
+Ungeordnete Liste von IDs von Manuskripten mit Botanikbezug aus der Manuskripte-Tabelle deren Autor die Person ist. 
 
-### Botanik - Erwähnung der Person in Druckwerken durch Andere
+### Botanik - Druckwerke der Person
 *List of IDs*
 
-Ungeordnete Liste von IDs von Druckwerken mit Botanikbezug aus der Literatur-Tabelle in denen die Person erwähnt ist.
+Ungeordnete Liste von IDs von Druckwerken mit Botanikbezug aus der Literatur-Tabelle deren Autor die Person ist. 
+
+### Botanik - Erwähnung der Person durch Andere
+*List of IDs: \<M-ID/R-ID\>*
+
+Ungeordnete Liste von IDs von Manuskripten oder Druckwerken mit Botanikbezug in denen die Person erwähnt wird.
+
 
 ### Wichtige Werke der Person ohne botanischen Kontext
 *List of IDs*
