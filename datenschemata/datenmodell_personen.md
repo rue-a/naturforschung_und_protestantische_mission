@@ -185,17 +185,21 @@ Liste mit Wirkungsorten der Person. Ein Wirkungsort besteht aus: Datum/Zeitraum 
 
 
 **Einzelbesipiele:**
-- `1773/1782; Lxxxxxxx [Neuwied]; Knabenanstalt; Schüler (Rxxxxxxx)` (vollständig)
-- `1785/1788; Lxxxxxxx [Barby]; ;Schüler (Rxxxxxxx)` (Einrichtung unbekannt)
-- `1789/; Lxxxxxxx [Barby]; Pädagogium; (Rxxxxxxx)` (Funktion unbekannt)
-- `1796/1808; Lxxxxxxx [Niesky]; Seminar; Dozent, Inspektor, Prediger (Rxxxxxxx)` (mehrere Funktionen können z.B. mit Kommata getrennt werden)
+- `1773/1782; Lxxxxxxx; Knabenanstalt; Schüler (Rxxxxxxx)` (vollständig)
+- `1782/1785; Lxxxxxxx [Niesky]; Pädagogium; Schüler (Rxxxxxxx)` (Hinweis welcher Ort sich hinter der L-ID verbirgt in eckigen Klammern hinzugefügt -> siehe Tip unten)
+- `1785/1788; Lxxxxxxx; ;Schüler (Rxxxxxxx)` (Einrichtung unbekannt)
+- `1789/; Lxxxxxxx; Pädagogium; (Rxxxxxxx)` (offener Zeitraum ab 1789, Funktion unbekannt)
+- `1796/1808; Lxxxxxxx; Seminar; Dozent, Inspektor, Prediger (Rxxxxxxx)` (mehrere Funktionen können z.B. mit Kommata getrennt werden)
+
 
 **Beispielliste:**
-```1773/1782; Lxxxxxxx [Neuwied]; Knabenanstalt; Schüler (Rxxxxxxx) |
+```
+1773/1782; Lxxxxxxx [Neuwied]; Knabenanstalt; Schüler (Rxxxxxxx) |
 1782/1785; Lxxxxxxx [Niesky]; Pädagogium; Schüler (Rxxxxxxx) |
 1785/1788; Lxxxxxxx [Barby]; ;Schüler (Rxxxxxxx) |
 1789/; Lxxxxxxx [Barby]; Pädagogium; (Rxxxxxxx) |
-1796/1808; Lxxxxxxx [Niesky]; Seminar; Dozent, Inspektor, Prediger (Rxxxxxxx)```
+1796/1808; Lxxxxxxx [Niesky]; Seminar; Dozent, Inspektor, Prediger (Rxxxxxxx)
+```
 
 > [!TIP]
 >
