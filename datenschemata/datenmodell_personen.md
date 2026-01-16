@@ -178,6 +178,38 @@ Todesort der Person mit Quellenangabe (_Reference_) in Klammern. Orte sind mitte
 ### Tod - Ort - Anmerkungen
 *String*
 
+### Wirkungsorte
+*List of Structured Strings: \<ISO8601_2_Temporal\>; \<L-ID\>; \<String (Einrichtung)\>; \<String (Funktion)\> (\<Reference\>)*
+
+Liste mit Wirkungsorten der Person. Ein Wirkungsort besteht aus: Datum/Zeitraum am Ort ([ISO8601-2 Temporal](https://github.com/rue-a/naturforschung_und_protestantische_mission/blob/main/datenschemata/datentypen.md#iso8601-2_temporal)), dem Ort selbst (L-ID), der Einrichtung an der die Person wirkte, ihrer Funktion, und der Quelle aus der diese Informationen stammen. Die Werte Zeitangabe, Ort, Einrichtung und Funktion werden mit Semikolons getrennt, die Quelle Folgt in Klammern. **Sollte eine der Teilinformationen nicht vorhanden sein, muss dennnoch ein Semikolon gesetzt werden!**
+
+
+**Einzelbesipiele:**
+- `1773/1782; Lxxxxxxx [Neuwied]; Knabenanstalt; Schüler (Rxxxxxxx)` (vollständig)
+- `1785/1788; Lxxxxxxx [Barby]; ;Schüler (Rxxxxxxx)` (Einrichtung unbekannt)
+- `1789/; Lxxxxxxx [Barby]; Pädagogium; (Rxxxxxxx)` (Funktion unbekannt)
+- `1796/1808; Lxxxxxxx [Niesky]; Seminar; Dozent, Inspektor, Prediger (Rxxxxxxx)` (mehrere Funktionen können z.B. mit Kommata getrennt werden)
+
+**Beispielliste:**
+```1773/1782; Lxxxxxxx [Neuwied]; Knabenanstalt; Schüler (Rxxxxxxx) |
+1782/1785; Lxxxxxxx [Niesky]; Pädagogium; Schüler (Rxxxxxxx) |
+1785/1788; Lxxxxxxx [Barby]; ;Schüler (Rxxxxxxx) |
+1789/; Lxxxxxxx [Barby]; Pädagogium; (Rxxxxxxx) |
+1796/1808; Lxxxxxxx [Niesky]; Seminar; Dozent, Inspektor, Prediger (Rxxxxxxx)```
+
+> [!TIP]
+>
+> Man kann also Zusatzinfos in eckige Klammern schreiben und Zeilenumbrüche zur besseren Übersicht verwenden. Bei Auslesen der Tabelle werden alle Zeilenumbrüche innerhalb von Feldern entfernt, genauso wird mit allen Informationen in eckigen Klammern und eckigen Klammern selbst verfahren.
+> ```
+> 1773/1782; Lxxxxxxx [Neuwied]; Knabenanstalt; Schüler (Rxxxxxxx) |
+> 1782/1785; Lxxxxxxx [Niesky]; Pädagogium; Schüler (Rxxxxxxx)
+> ```
+> 
+> wird zu
+> 
+> `1773/1782; Lxxxxxxx; Knabenanstalt; Schüler (Rxxxxxxx) | 1782/1785; Lxxxxxxx; Pädagogium; Schüler (Rxxxxxxx)`
+
+
 ### Tätigkeiten
 *List of Structured Strings: \<String\> (\<Reference\>)*
 
