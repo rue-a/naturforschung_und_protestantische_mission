@@ -21,12 +21,16 @@ class ParserSpec:
 
 def clean_field(raw: str) -> str:
     """Normalize field before parsing:
+    - Remove all newlines
     - Remove all spaces around '|'
     - Collapse multiple spaces elsewhere into one
     - Trim leading/trailing spaces
     """
     if not raw:
         return ""
+
+    # Step 0: remove all newlines
+    raw = raw.replace("\n", "")
 
     # Step 1: remove all spaces around pipes
     raw = re.sub(r"\s*\|\s*", "|", raw)
