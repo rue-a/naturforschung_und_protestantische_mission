@@ -62,3 +62,9 @@ Stabiler Link zu einem Digitalisat oder Katalogeintrag, falls verfügbar.
 *String*
 
 Weitere Informationen zur Quelle. Was ist ihr Inhalt? Weist sie Besonderheiten auf? Gibt es vielleicht Abschriften?
+
+### Wikidata ID
+*String*
+
+Wikidata ID des Objekts.
+
