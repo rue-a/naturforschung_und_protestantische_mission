@@ -9,6 +9,7 @@ from new_datatypes import (
     ISO8601_2_Date,
     ISO8601_2_Period,
     ISO8601_2_Temporal,
+    ComplexType,
 )
 
 
@@ -29,16 +30,19 @@ def clean_field(raw: str) -> str:
     if not raw:
         return ""
 
-    # Step 0: remove all newlines
+    # remove all newlines
     raw = raw.replace("\n", "")
 
-    # Step 1: remove all spaces around pipes
+    # remove square brackets and their content
+    raw = re.sub(r"\[.*?\]", "", raw)
+
+    # remove all spaces around pipes
     raw = re.sub(r"\s*\|\s*", "|", raw)
 
-    # Step 2: collapse multiple spaces elsewhere
+    # collapse multiple spaces elsewhere
     raw = re.sub(r"\s+", " ", raw)
 
-    # Step 3: strip leading/trailing spaces
+    # strip leading/trailing spaces
     raw = raw.strip()
 
     return raw
@@ -80,6 +84,22 @@ CODELISTS = {
     }
 }
 
+kontakt_parser = ComplexType(
+    parts=[
+        ID,  # 0: P-ID (required)
+        ISO8601_2_Temporal,  # 1: optional temporal
+    ],
+    separator=";",  # separator between P-ID and temporal
+    validators={
+        0: lambda v: (
+            None
+            if isinstance(v, ID) and v.type == "person"
+            else (_ for _ in ()).throw(
+                ValueError(f"Expected P-ID (person), got {v.value!r}")
+            )
+        ),
+    },
+)
 
 PARSERS_PERSONEN = {
     # --- Pflichtfelder ---
@@ -116,11 +136,40 @@ PARSERS_PERSONEN = {
     "Geburt - Ort": ParserSpec(parser=ID, is_list=True),  # L-ID
     "Tod - Datum": ParserSpec(parser=ISO8601_2_Date, is_list=True),
     "Tod - Ort": ParserSpec(parser=ID, is_list=True),  # L-ID
+    # --- Wirkungsorte ---
+    # --- Wirkungsorte ---
+    "Wirkungsorte": ParserSpec(
+        parser=ComplexType(
+            parts=[
+                ISO8601_2_Temporal,  # Zeitraum
+                ID,  # Ort (must be L-ID)
+                str,  # Einrichtung
+                str,  # Funktion
+            ],
+            validators={
+                1: lambda v: (
+                    None
+                    if isinstance(v, ID) and v.type == "location"
+                    else (_ for _ in ()).throw(
+                        ValueError(f"Expected L-ID (location), got {v.value!r}")
+                    )
+                ),
+            },
+        ),
+        is_list=True,
+    ),
     # --- Tätigkeiten ---
     "Tätigkeiten": ParserSpec(parser=str, is_list=True),
     # --- Kontakte ---
-    "Kontakt – Mit Herrnhutern": ParserSpec(parser=ID, is_list=True),
-    "Kontakt – Mit Nicht-Herrnhutern": ParserSpec(parser=ID, is_list=True),
+    # --- ParserSpec entries ---
+    "KONTAKT – Mit Herrnhutern": ParserSpec(
+        parser=kontakt_parser,
+        is_list=True,
+    ),
+    "KONTAKT – Mit Nicht-Herrnhutern": ParserSpec(
+        parser=kontakt_parser,
+        is_list=True,
+    ),
     # --- Botanik ---
     "Botanik - Foki": ParserSpec(parser=str, is_list=True),
     "Botanik - Manuskripte der Person": ParserSpec(parser=ID, is_list=True),
