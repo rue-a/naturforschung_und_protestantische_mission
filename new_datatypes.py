@@ -5,6 +5,7 @@ from abc import ABC, abstractmethod
 
 
 class Attestable(ABC):
+    # get string in parantheses
     STRUCTURED_PATTERN = re.compile(r"^(.*?)\s*\((.*?)\)$")
 
     @abstractmethod
@@ -69,7 +70,7 @@ class URL:
     value: str
 
     def __post_init__(self):
-        if not re.fullmatch(r"^https?://", self.value):
+        if not re.match(r"^https?://", self.value):
             raise ValueError(
                 f"URL must start with 'http://' or 'https://': {self.value!r}"
             )
@@ -243,8 +244,10 @@ class ComplexType:
         self.reference = reference
         self.allow_missing = allow_missing
         self.validators = validators or {}
+        # print(parts)
 
     def __call__(self, raw: str):
+        # print(raw)
         raw = raw.strip()
         if not raw:
             raise ValueError("Cannot parse empty complex value")
@@ -261,7 +264,9 @@ class ComplexType:
         chunks = [c.strip() for c in raw.split(self.separator)]
 
         if len(chunks) != len(self.parts):
-            raise ValueError(f"Expected {len(self.parts)} parts, got {len(chunks)}")
+            raise ValueError(
+                f"Expected {len(self.parts) - 1} separators, got {len(chunks) - 1} (separator: '{self.separator}', input: {raw})"
+            )
 
         values = []
         for idx, (parser, chunk) in enumerate(zip(self.parts, chunks)):

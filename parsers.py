@@ -45,34 +45,36 @@ def clean_field(raw: str) -> str:
     # strip leading/trailing spaces
     raw = raw.strip()
 
+    # print(f"cleaned: {raw}")
+
     return raw
 
 
 def parse_field(
-    raw: str,
+    cleaned_raw: str,
     *,
     parser,
     is_list: bool = False,
     codelist: set[str] | None = None,
 ):
-    raw = clean_field(raw)  # <<< CLEAN BEFORE PARSING
 
     def parse_one(value: str):
+
         if codelist is not None:
             if value not in codelist:
                 raise ValueError(f"{value!r} not in codelist")
         return parser(value)
 
     if is_list:
-        if not raw:
+        if not cleaned_raw:
             return []
-        return [parse_one(v) for v in raw.split("|")]
+        return [parse_one(v) for v in cleaned_raw.split("|")]
 
-    return parse_one(raw)
+    return parse_one(cleaned_raw)
 
 
 CODELISTS = {
-    "member_of_moravians": {
+    "member_of_moravians": [
         "ja(a)",
         "ja(b)",
         "ja(c)",
@@ -81,7 +83,7 @@ CODELISTS = {
         "nein(b)",
         "nein(c)",
         "unbekannt",
-    }
+    ]
 }
 
 kontakt_parser = ComplexType(
@@ -105,13 +107,13 @@ PARSERS_PERSONEN = {
     # --- Pflichtfelder ---
     "ID": ParserSpec(parser=ID),
     "Übernahme in Personenlexikon": ParserSpec(
-        parser=lambda v: ({"ja": True, "nein": False}[clean_field(v).lower()])
+        parser=lambda v: {"ja": True, "nein": False}[clean_field(v).lower()]
     ),
     "Name - Vorzugsname": ParserSpec(parser=str),
     # --- Namen ---
     "Name - Nachname(n)": ParserSpec(parser=str),
     "Name - Geburtsname(n)": ParserSpec(parser=str),
-    "Name - Vornamen(n)": ParserSpec(parser=str),
+    "Name - Vorname(n)": ParserSpec(parser=str),
     "Name - Titel": ParserSpec(parser=str),
     "Name - Anmerkungen": ParserSpec(parser=str),
     # --- Angehörige ---
@@ -137,7 +139,6 @@ PARSERS_PERSONEN = {
     "Tod - Datum": ParserSpec(parser=ISO8601_2_Date, is_list=True),
     "Tod - Ort": ParserSpec(parser=ID, is_list=True),  # L-ID
     # --- Wirkungsorte ---
-    # --- Wirkungsorte ---
     "Wirkungsorte": ParserSpec(
         parser=ComplexType(
             parts=[
@@ -162,11 +163,11 @@ PARSERS_PERSONEN = {
     "Tätigkeiten": ParserSpec(parser=str, is_list=True),
     # --- Kontakte ---
     # --- ParserSpec entries ---
-    "KONTAKT – Mit Herrnhutern": ParserSpec(
+    "Kontakt – Mit Herrnhutern": ParserSpec(
         parser=kontakt_parser,
         is_list=True,
     ),
-    "KONTAKT – Mit Nicht-Herrnhutern": ParserSpec(
+    "Kontakt – Mit Nicht-Herrnhutern": ParserSpec(
         parser=kontakt_parser,
         is_list=True,
     ),
