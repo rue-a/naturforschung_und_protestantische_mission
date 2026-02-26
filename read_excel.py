@@ -1,7 +1,7 @@
 # %%
 from parsers import PARSERS_PERSONEN, parse_field, clean_field
 import pandas as pd
-
+import json
 
 personen_df = pd.read_excel(
     "data/Herrnhuter NaturkundlerInnen.xlsx",
@@ -32,6 +32,7 @@ def parse_table(df: pd.DataFrame, specs: dict):
         person_surname = row.get("Name - Nachname(n)", "<unknown>")
 
         parsed_data[person_id] = {}
+        current_person = parsed_data[person_id]
         for col_name, spec in specs.items():
             # col_name with spec has to exist in df cols
             if col_name not in df.columns:
@@ -57,7 +58,7 @@ def parse_table(df: pd.DataFrame, specs: dict):
 
                 keys = [k.strip() for k in col_name.split("-")]
 
-                current_level = parsed_data
+                current_level = current_person
 
                 # Traverse/create nested dictionaries
                 for key in keys[:-1]:
@@ -69,17 +70,23 @@ def parse_table(df: pd.DataFrame, specs: dict):
                 current_level[keys[-1]] = parsed_field
 
             except Exception as e:
-                error = f"__{person_id} ({person_surname})__, _{col_name}_:\n {e}"
+                error = f"__{person_id} ({person_surname}), {col_name}__:\n _{e}_"
                 # print(f"ERROR {error}")
-                errors.append(f"- [ ] {error}\n")
+                errors.append(
+                    f"- [ ] {error}\n> {raw[:].replace('\n', '\n> ')}{'...' if len(raw) > 150 else ''}\n\n"
+                )
 
     return parsed_data, errors
 
 
 # --- run  ---
-personen, person_errors = parse_table(personen_df, PARSERS_PERSONEN)
+persons, person_errors = parse_table(personen_df, PARSERS_PERSONEN)
 with open("todo/person_errors.md", "w", encoding="utf-8") as f:
     f.write("# Parsing Errors\n\n")
     for err in person_errors:
         f.write(err)
+
+
+# with open("data/persons.json", "w", encoding="utf-8") as f:
+#     json.dump(persons, f, ensure_ascii=False, indent=4)
 # %%

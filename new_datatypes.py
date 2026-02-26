@@ -47,12 +47,13 @@ class Reference:
 
         # Try ID validation
         try:
-            ID(self.value)
-            # Additional validation: IDs must start with M- or R-
-            if not (self.value.startswith("M") or self.value.startswith("R")):
-                raise ValueError(
-                    f"Invalid ID format: {self.value!r} (must start with M or R)"
-                )
+            LiteratureID(self.value)
+            return
+        except ValueError:
+            pass
+
+        try:
+            ManuscriptID(self.value)
             return
         except ValueError:
             pass
@@ -78,33 +79,53 @@ class URL:
 
 # ID type (attestable)
 # -----------------------
-class ID(Attestable):
-    """An alphanumeric, unique identifier for objects within this project"""
+
+
+class BaseID(Attestable, ABC):
+    PREFIX: str = None
+    PATTERN: str = None
 
     def _validate_value(self, value: str):
-        # Pattern: persons P + 7 digits, literature R + 7 digits, collections C-...
-        pattern = r"(?:^[PRLMA]\d{7}$)|(?:^C-.+$)"
-        if not re.fullmatch(pattern, value):
-            raise ValueError(f"Invalid ID format: {value!r}")
+        if self.PREFIX is None:
+            raise NotImplementedError("Subclasses must define PREFIX")
 
-    def __init__(self, raw: str):
-        # Initialize the parent class first
-        super().__init__(raw)
-        # Now we can safely access self.value and set the type
-        if self.value.startswith("P"):
-            self.type = "person"
-        elif self.value.startswith("R"):
-            self.type = "literature"
-        elif self.value.startswith("L"):
-            self.type = "location"
-        elif self.value.startswith("M"):
-            self.type = "manuscript"
-        elif self.value.startswith("A"):
-            self.type = "archive"
-        elif self.value.startswith("C"):
-            self.type = "collection"
-        else:
-            raise ValueError(f"Unknown ID type for: {self.value!r}")
+        if not value.startswith(self.PREFIX):
+            raise ValueError(
+                f"{self.__class__.__name__} must start with '{self.PREFIX}'"
+            )
+
+        if self.PATTERN and not re.fullmatch(self.PATTERN, value):
+            raise ValueError(f"Invalid format for {self.__class__.__name__}: {value!r}")
+
+
+class PersonID(BaseID):
+    PREFIX = "P"
+    PATTERN = r"^P\d{7}$"
+
+
+class LiteratureID(BaseID):
+    PREFIX = "R"
+    PATTERN = r"^R\d{7}$"
+
+
+class LocationID(BaseID):
+    PREFIX = "L"
+    PATTERN = r"^L\d{7}$"
+
+
+class ManuscriptID(BaseID):
+    PREFIX = "M"
+    PATTERN = r"^M\d{7}$"
+
+
+class ArchiveID(BaseID):
+    PREFIX = "A"
+    PATTERN = r"^A\d{7}$"
+
+
+class CollectionID(BaseID):
+    PREFIX = "C"
+    PATTERN = r"^C-.+$"
 
 
 # -----------------------

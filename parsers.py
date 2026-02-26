@@ -1,9 +1,14 @@
 from dataclasses import dataclass
-from typing import Callable, Optional
+from typing import Callable, Optional, List
 import re
 
 from new_datatypes import (
-    ID,
+    PersonID,
+    LiteratureID,
+    LocationID,
+    ManuscriptID,
+    ArchiveID,
+    CollectionID,
     URL,
     ISO_Date,
     ISO8601_2_Date,
@@ -15,7 +20,7 @@ from new_datatypes import (
 
 @dataclass(frozen=True)
 class ParserSpec:
-    parser: Callable  # z.B. ID, ISO8601_2_Date, str
+    parser: Callable | List[Callable]  # z.B. ID, ISO8601_2_Date, str
     is_list: bool = False
     codelist: Optional[list] = None  # the codelist
 
@@ -53,17 +58,26 @@ def clean_field(raw: str) -> str:
 def parse_field(
     cleaned_raw: str,
     *,
-    parser,
+    parser: Callable | List[Callable],
     is_list: bool = False,
     codelist: set[str] | None = None,
 ):
 
     def parse_one(value: str):
 
-        if codelist is not None:
-            if value not in codelist:
-                raise ValueError(f"{value!r} not in codelist")
-        return parser(value)
+        # Single parser
+        if callable(parser):
+            return parser(value)
+
+        # Multiple parsers (fallback chain)
+        last_error = None
+        for p in parser:
+            try:
+                return p(value)
+            except Exception as e:
+                last_error = e
+
+        raise ValueError("No parser accepted value!") from last_error
 
     if is_list:
         if not cleaned_raw:
@@ -88,24 +102,15 @@ CODELISTS = {
 
 kontakt_parser = ComplexType(
     parts=[
-        ID,  # 0: P-ID (required)
+        PersonID,  # 0: P-ID (required)
         ISO8601_2_Temporal,  # 1: optional temporal
     ],
     separator=";",  # separator between P-ID and temporal
-    validators={
-        0: lambda v: (
-            None
-            if isinstance(v, ID) and v.type == "person"
-            else (_ for _ in ()).throw(
-                ValueError(f"Expected P-ID (person), got {v.value!r}")
-            )
-        ),
-    },
 )
 
 PARSERS_PERSONEN = {
     # --- Pflichtfelder ---
-    "ID": ParserSpec(parser=ID),
+    "ID": ParserSpec(parser=PersonID),
     "Übernahme in Personenlexikon": ParserSpec(
         parser=lambda v: {"ja": True, "nein": False}[clean_field(v).lower()]
     ),
@@ -117,9 +122,9 @@ PARSERS_PERSONEN = {
     "Name - Titel": ParserSpec(parser=str),
     "Name - Anmerkungen": ParserSpec(parser=str),
     # --- Angehörige ---
-    "Angehörige - Geschwister": ParserSpec(parser=ID, is_list=True),
-    "Angehörige - Ehepartner": ParserSpec(parser=ID, is_list=True),
-    "Angehörige - Kinder": ParserSpec(parser=ID, is_list=True),
+    "Angehörige - Geschwister": ParserSpec(parser=PersonID, is_list=True),
+    "Angehörige - Ehepartner": ParserSpec(parser=PersonID, is_list=True),
+    "Angehörige - Kinder": ParserSpec(parser=PersonID, is_list=True),
     "Angehörige - Anmerkungen": ParserSpec(parser=str),
     # --- Zugehörigkeit ---
     "Zugehörigkeit Herrnhuter Brüdergemeine": ParserSpec(
@@ -132,30 +137,21 @@ PARSERS_PERSONEN = {
     "Links - Bionomia": ParserSpec(parser=URL),
     "Links - Säbi": ParserSpec(parser=URL),
     # --- Lebenslauf / IDs ---
-    "Handschriftlicher Lebenslauf": ParserSpec(parser=ID),
+    "Herrnhuter Lebenslauf": ParserSpec(parser=[LiteratureID, ManuscriptID]),
     # --- Geburt / Tod (structured!) ---
     "Geburt - Datum": ParserSpec(parser=ISO8601_2_Date, is_list=True),
-    "Geburt - Ort": ParserSpec(parser=ID, is_list=True),  # L-ID
+    "Geburt - Ort": ParserSpec(parser=LocationID, is_list=True),  # L-ID
     "Tod - Datum": ParserSpec(parser=ISO8601_2_Date, is_list=True),
-    "Tod - Ort": ParserSpec(parser=ID, is_list=True),  # L-ID
+    "Tod - Ort": ParserSpec(parser=LocationID, is_list=True),  # L-ID
     # --- Wirkungsorte ---
     "Wirkungsorte": ParserSpec(
         parser=ComplexType(
             parts=[
                 ISO8601_2_Temporal,  # Zeitraum
-                ID,  # Ort (must be L-ID)
+                LocationID,  # Ort (must be L-ID)
                 str,  # Einrichtung
                 str,  # Funktion
             ],
-            validators={
-                1: lambda v: (
-                    None
-                    if isinstance(v, ID) and v.type == "location"
-                    else (_ for _ in ()).throw(
-                        ValueError(f"Expected L-ID (location), got {v.value!r}")
-                    )
-                ),
-            },
         ),
         is_list=True,
     ),
@@ -173,19 +169,16 @@ PARSERS_PERSONEN = {
     ),
     # --- Botanik ---
     "Botanik - Foki": ParserSpec(parser=str, is_list=True),
-    "Botanik - Manuskripte der Person": ParserSpec(parser=ID, is_list=True),
-    "Botanik - Druckwerke der Person": ParserSpec(parser=ID, is_list=True),
-    "Botanik - Erwähnung der Person in Manuskripten durch Andere": ParserSpec(
-        parser=ID, is_list=True
-    ),
-    "Botanik - Erwähnung der Person in Druckwerken durch Andere": ParserSpec(
-        parser=ID, is_list=True
+    "Botanik - Manuskripte der Person": ParserSpec(parser=ManuscriptID, is_list=True),
+    "Botanik - Druckwerke der Person": ParserSpec(parser=LiteratureID, is_list=True),
+    "Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere": ParserSpec(
+        parser=[LiteratureID, ManuscriptID], is_list=True
     ),
     "Wichtige Werke der Person ohne botanischen Kontext": ParserSpec(
-        parser=ID, is_list=True
+        parser=[LiteratureID, ManuscriptID], is_list=True
     ),
     "Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere": ParserSpec(
-        parser=ID, is_list=True
+        parser=[LiteratureID, ManuscriptID], is_list=True
     ),
 }
 
