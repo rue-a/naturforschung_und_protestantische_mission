@@ -1,5 +1,9 @@
 # Parsing Errors
 
+- [ ] __P0010000 (Albertini), Zugehörigkeit Herrnhuter Brüdergemeine__:
+ _'ja (c)' not in codelist_
+> ja(a) | ja(b) | ja (c)
+
 - [ ] __P0010000 (Albertini), Tod - Ort__:
  _LocationID must start with 'L'_
 > Berthelsdorf

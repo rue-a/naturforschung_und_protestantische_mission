@@ -57,13 +57,17 @@ def clean_field(raw: str) -> str:
 
 def parse_field(
     cleaned_raw: str,
-    *,
     parser: Callable | List[Callable],
     is_list: bool = False,
-    codelist: set[str] | None = None,
+    codelist: List[str] = [],
 ):
 
     def parse_one(value: str):
+
+        # codelist validation
+        if codelist:
+            if value not in codelist:
+                raise ValueError(f"{value!r} not in codelist")
 
         # Single parser
         if callable(parser):
