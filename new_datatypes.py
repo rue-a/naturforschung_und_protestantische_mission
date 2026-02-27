@@ -13,7 +13,7 @@ class Attestable(ABC):
         """Validate the raw value. Must be implemented by subclasses."""
         pass
 
-    def __init__(self, raw: str):
+    def __init__(self, raw: str, require_source=False):
         raw = raw.strip()
         if not raw:
             raise ValueError("Cannot parse empty string")
@@ -26,34 +26,68 @@ class Attestable(ABC):
             value_str = raw
             self.source = None
 
+        if require_source and not self.source:
+            raise ValueError(
+                f"Statement ({raw}) requires attestation, however no source was provided!"
+            )
+
         self._validate_value(value_str)
         self.value = value_str
+
+    # -------------------------
+    # PRINT SERIALIZATION
+    # -------------------------
+
+    def __str__(self) -> str:
+        if self.source:
+            return f"{self.value} ({self.source})"
+        return self.value
+
+    def __repr__(self) -> str:
+        return f"{self.__class__.__name__}({str(self)!r})"
+
+    # -------------------------
+    # JSON SERIALIZATION
+    # -------------------------
+
+    def to_dict(self) -> dict:
+        if self.source:
+            return {
+                "type": self.__class__.__name__,
+                "value": self.value,
+                "source": self.source.to_dict(),
+            }
+
+        return {
+            "type": self.__class__.__name__,
+            "value": self.value,
+        }
 
 
 # -----------------------
 # Reference type
 # -----------------------
-@dataclass(frozen=True)
+@dataclass
 class Reference:
     value: str
 
     def __post_init__(self):
         # Try URL first
         try:
-            URL(self.value)
+            self.value = URL(self.value)
             return
         except ValueError:
             pass
 
         # Try ID validation
         try:
-            LiteratureID(self.value)
+            self.value = LiteratureID(self.value)
             return
         except ValueError:
             pass
 
         try:
-            ManuscriptID(self.value)
+            self.value = ManuscriptID(self.value)
             return
         except ValueError:
             pass
@@ -61,6 +95,26 @@ class Reference:
         raise ValueError(
             f"Invalid Reference value: {self.value!r} (should be URL, R-ID, or M-ID)"
         )
+
+    # -------------------------
+    # PRINT
+    # -------------------------
+
+    def __str__(self) -> str:
+        return self.value
+
+    def __repr__(self) -> str:
+        return f"Reference({self.value!r})"
+
+    # -------------------------
+    # JSON
+    # -------------------------
+
+    def to_dict(self) -> dict:
+        return {
+            "type": "Reference",
+            "value": self.value,
+        }
 
 
 # -----------------------
@@ -75,6 +129,16 @@ class URL:
             raise ValueError(
                 f"URL must start with 'http://' or 'https://': {self.value!r}"
             )
+
+    # -------------------------
+    # JSON
+    # -------------------------
+
+    def to_dict(self) -> dict:
+        return {
+            "type": "URL",
+            "value": self.value,
+        }
 
 
 # ID type (attestable)
@@ -126,6 +190,16 @@ class ArchiveID(BaseID):
 class CollectionID(BaseID):
     PREFIX = "C"
     PATTERN = r"^C-.+$"
+
+
+class AttestableString(Attestable):
+    """A string that can optionally carry a source (attestation)."""
+
+    def _validate_value(self, value: str):
+        # For a generic string, we accept anything
+        if not isinstance(value, str):
+            raise ValueError("Value must be a string")
+        # You could add extra checks here if needed, e.g., non-empty
 
 
 # -----------------------

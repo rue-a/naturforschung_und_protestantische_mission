@@ -71,15 +71,17 @@ def parse_table(df: pd.DataFrame, specs: dict):
 
             except Exception as e:
                 error = f"__{person_id} ({person_surname}), {col_name}__:\n _{e}_"
-                # print(f"ERROR {error}")
+                print(f"ERROR {error}")
                 errors.append(
-                    f"- [ ] {error}\n> {raw[:].replace('\n', '\n> ')}{'...' if len(raw) > 150 else ''}\n\n"
+                    f"- [ ] {error}\n> {raw[:250].replace('\n', '\n> ')}{'...' if len(raw) > 150 else ''}\n\n"
                 )
 
     return parsed_data, errors
 
 
 # --- run  ---
+
+
 persons, person_errors = parse_table(personen_df, PARSERS_PERSONEN)
 with open("todo/person_errors.md", "w", encoding="utf-8") as f:
     f.write("# Parsing Errors\n\n")
@@ -87,6 +89,14 @@ with open("todo/person_errors.md", "w", encoding="utf-8") as f:
         f.write(err)
 
 
-# with open("data/persons.json", "w", encoding="utf-8") as f:
-#     json.dump(persons, f, ensure_ascii=False, indent=4)
+# This automatically converts any object that has to_dict().
+class DomainEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if hasattr(obj, "to_dict"):
+            return obj.to_dict()
+        return super().default(obj)
+
+
+with open("data/persons.json", "w", encoding="utf-8") as f:
+    json.dump(persons, f, ensure_ascii=False, indent=4, cls=DomainEncoder)
 # %%

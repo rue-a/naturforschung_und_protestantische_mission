@@ -1,3 +1,503 @@
 {
     "P0010000": {
-        "ID": 
+        "ID": {
+            "type": "PersonID",
+            "value": "P0010000"
+        },
+        "Übernahme in Personenlexikon": true,
+        "Name": {
+            "Vorzugsname": "Johann Baptist von Albertini",
+            "Nachname(n)": "Albertini",
+            "Vorname(n)": "Johann Baptist von"
+        },
+        "Angehörige": {
+            "Ehepartner": [
+                {
+                    "type": "PersonID",
+                    "value": "P0010000"
+                }
+            ]
+        },
+        "Links": {
+            "Wikidata": {
+                "type": "URL",
+                "value": "https://www.wikidata.org/wiki/Q62241"
+            },
+            "GND": {
+                "type": "URL",
+                "value": "https://d-nb.info/gnd/10041463X"
+            },
+            "FactGrid": {
+                "type": "URL",
+                "value": "https://database.factgrid.de/wiki/Item:Q703529"
+            },
+            "Bionomia": {
+                "type": "URL",
+                "value": "https://bionomia.net/Q62241"
+            },
+            "Säbi": {
+                "type": "URL",
+                "value": "https://saebi.isgv.de/person/snr/108"
+            }
+        },
+        "Herrnhuter Lebenslauf": {
+            "type": "LiteratureID",
+            "value": "R0001500"
+        },
+        "Geburt": {
+            "Datum": [
+                {
+                    "type": "ISO8601_2_Date",
+                    "value": "1769-02-17",
+                    "source": {
+                        "type": "Reference",
+                        "value": {
+                            "type": "LiteratureID",
+                            "value": "R0001500"
+                        }
+                    }
+                }
+            ],
+            "Ort": [
+                {
+                    "type": "LocationID",
+                    "value": "L0022000",
+                    "source": {
+                        "type": "Reference",
+                        "value": {
+                            "type": "LiteratureID",
+                            "value": "R0001500"
+                        }
+                    }
+                }
+            ]
+        },
+        "Tod": {
+            "Datum": [
+                {
+                    "type": "ISO8601_2_Date",
+                    "value": "1831-12-06",
+                    "source": {
+                        "type": "Reference",
+                        "value": {
+                            "type": "LiteratureID",
+                            "value": "R0001500"
+                        }
+                    }
+                }
+            ]
+        },
+        "Wirkungsorte": [
+            {
+                "values": [
+                    {
+                        "type": "ISO8601_2_Temporal",
+                        "value": "1773/1782"
+                    },
+                    {
+                        "type": "LocationID",
+                        "value": "L0022000"
+                    },
+                    "Knabenanstalt",
+                    "Schüler"
+                ],
+                "source": {
+                    "type": "Reference",
+                    "value": {
+                        "type": "LiteratureID",
+                        "value": "R0000000"
+                    }
+                }
+            },
+            {
+                "values": [
+                    {
+                        "type": "ISO8601_2_Temporal",
+                        "value": "1782/1785"
+                    },
+                    {
+                        "type": "LocationID",
+                        "value": "L0022500"
+                    },
+                    "Pädagogium",
+                    "Schüler"
+                ],
+                "source": {
+                    "type": "Reference",
+                    "value": {
+                        "type": "LiteratureID",
+                        "value": "R0000000"
+                    }
+                }
+            },
+            {
+                "values": [
+                    {
+                        "type": "ISO8601_2_Temporal",
+                        "value": "1785/1788"
+                    },
+                    {
+                        "type": "LocationID",
+                        "value": "L0002000"
+                    },
+                    "Seminar",
+                    "Schüler"
+                ],
+                "source": {
+                    "type": "Reference",
+                    "value": {
+                        "type": "LiteratureID",
+                        "value": "R0000000"
+                    }
+                }
+            },
+            {
+                "values": [
+                    {
+                        "type": "ISO8601_2_Temporal",
+                        "value": "1788/1789"
+                    },
+                    {
+                        "type": "LocationID",
+                        "value": "L0022500"
+                    },
+                    "Kinderanstalt",
+                    "Lehrer"
+                ],
+                "source": {
+                    "type": "Reference",
+                    "value": {
+                        "type": "LiteratureID",
+                        "value": "R0000000"
+                    }
+                }
+            },
+            {
+                "values": [
+                    {
+                        "type": "ISO8601_2_Temporal",
+                        "value": "1789/"
+                    },
+                    {
+                        "type": "LocationID",
+                        "value": "L0002000"
+                    },
+                    "Pädagogium",
+                    "Lehrer"
+                ],
+                "source": {
+                    "type": "Reference",
+                    "value": {
+                        "type": "LiteratureID",
+                        "value": "R0000000"
+                    }
+                }
+            },
+            {
+                "values": [
+                    {
+                        "type": "ISO8601_2_Temporal",
+                        "value": "1796/1808"
+                    },
+                    {
+                        "type": "LocationID",
+                        "value": "L0022500"
+                    },
+                    "Seminar",
+                    "Dozent, Inspektor, Prediger"
+                ],
+                "source": {
+                    "type": "Reference",
+                    "value": {
+                        "type": "LiteratureID",
+                        "value": "R0000000"
+                    }
+                }
+            },
+            {
+                "values": [
+                    {
+                        "type": "ISO8601_2_Temporal",
+                        "value": "1814"
+                    },
+                    {
+                        "type": "LocationID",
+                        "value": "L0010000"
+                    },
+                    "Mädchenanstalt",
+                    "Prediger, Lehrer"
+                ],
+                "source": {
+                    "type": "Reference",
+                    "value": {
+                        "type": "LiteratureID",
+                        "value": "R0000000"
+                    }
+                }
+            },
+            {
+                "values": [
+                    {
+                        "type": "ISO8601_2_Temporal",
+                        "value": "1818"
+                    },
+                    {
+                        "type": "LocationID",
+                        "value": "L0011000"
+                    },
+                    null,
+                    "Prediger"
+                ],
+                "source": {
+                    "type": "Reference",
+                    "value": {
+                        "type": "LiteratureID",
+                        "value": "R0000000"
+                    }
+                }
+            },
+            {
+                "values": [
+                    {
+                        "type": "ISO8601_2_Temporal",
+                        "value": "1821"
+                    },
+                    {
+                        "type": "LocationID",
+                        "value": "L0004000"
+                    },
+                    null,
+                    "Mitglied Ältestenkonferenz"
+                ],
+                "source": {
+                    "type": "Reference",
+                    "value": {
+                        "type": "LiteratureID",
+                        "value": "R0000000"
+                    }
+                }
+            }
+        ],
+        "Botanik": {
+            "Foki": [
+                "Pilze",
+                "Farne",
+                "Orchideen",
+                "Asperifolien der Oberlausitz"
+            ],
+            "Beitrag zu Sammlungen (Datenbanknachweis)": [
+                {
+                    "type": "CollectionID",
+                    "value": "C-B",
+                    "source": {
+                        "type": "Reference",
+                        "value": {
+                            "type": "URL",
+                            "value": "https://www.tropicos.org/person/791"
+                        }
+                    }
+                },
+                {
+                    "type": "CollectionID",
+                    "value": "C-M",
+                    "source": {
+                        "type": "Reference",
+                        "value": {
+                            "type": "URL",
+                            "value": "https://www.tropicos.org/person/791"
+                        }
+                    }
+                }
+            ]
+        },
+        "Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere": [
+            {
+                "type": "LiteratureID",
+                "value": "R0001000"
+            }
+        ]
+    },
+    "P0170000": {
+        "ID": {
+            "type": "PersonID",
+            "value": "P0170000"
+        },
+        "Übernahme in Personenlexikon": true,
+        "Name": {
+            "Vorzugsname": "Johann Jacob/Jakob Bossart",
+            "Nachname(n)": "Bossart",
+            "Vorname(n)": "Johann Jacob/Jakob"
+        },
+        "Zugehörigkeit Herrnhuter Brüdergemeine": [
+            "ja(b)",
+            "ja(d)"
+        ],
+        "Links": {
+            "Wikidata": {
+                "type": "URL",
+                "value": "https://www.wikidata.org/wiki/Q55874791"
+            },
+            "GND": {
+                "type": "URL",
+                "value": "https://d-nb.info/gnd/12842026X"
+            },
+            "Bionomia": {
+                "type": "URL",
+                "value": "https://bionomia.net/Q55874791"
+            }
+        },
+        "Botanik": {
+            "Foki": [
+                "BarbyerNaturalienkabinett aufseinen Vorschlag hinangelegt"
+            ]
+        }
+    },
+    "P0220000": {
+        "ID": {
+            "type": "PersonID",
+            "value": "P0220000"
+        },
+        "Übernahme in Personenlexikon": true,
+        "Name": {
+            "Vorzugsname": "Johann Christian Breutel",
+            "Nachname(n)": "Breutel",
+            "Vorname(n)": "Johann Christian"
+        },
+        "Zugehörigkeit Herrnhuter Brüdergemeine": [
+            "ja(a)",
+            "ja(c)"
+        ],
+        "Links": {
+            "Wikidata": {
+                "type": "URL",
+                "value": "https://www.wikidata.org/wiki/Q21415674"
+            },
+            "Bionomia": {
+                "type": "URL",
+                "value": "https://de.bionomia.net/Q21415674"
+            }
+        },
+        "Botanik": {
+            "Foki": [
+                "Moosforschung",
+                "Kryptogamenkunde",
+                "Bryologie"
+            ],
+            "Beitrag zu Sammlungen (Literaturnachweis)": [
+                {
+                    "type": "CollectionID",
+                    "value": "C-REG",
+                    "source": {
+                        "type": "Reference",
+                        "value": {
+                            "type": "LiteratureID",
+                            "value": "R0001300"
+                        }
+                    }
+                },
+                {
+                    "type": "CollectionID",
+                    "value": "C-LZ",
+                    "source": {
+                        "type": "Reference",
+                        "value": {
+                            "type": "LiteratureID",
+                            "value": "R0001900"
+                        }
+                    }
+                },
+                {
+                    "type": "CollectionID",
+                    "value": "C-BM",
+                    "source": {
+                        "type": "Reference",
+                        "value": {
+                            "type": "LiteratureID",
+                            "value": "R0001900"
+                        }
+                    }
+                },
+                {
+                    "type": "CollectionID",
+                    "value": "C-FH",
+                    "source": {
+                        "type": "Reference",
+                        "value": {
+                            "type": "LiteratureID",
+                            "value": "R0001900"
+                        }
+                    }
+                },
+                {
+                    "type": "CollectionID",
+                    "value": "C-HBG",
+                    "source": {
+                        "type": "Reference",
+                        "value": {
+                            "type": "LiteratureID",
+                            "value": "R0001900"
+                        }
+                    }
+                },
+                {
+                    "type": "CollectionID",
+                    "value": "C-L",
+                    "source": {
+                        "type": "Reference",
+                        "value": {
+                            "type": "LiteratureID",
+                            "value": "R0001900"
+                        }
+                    }
+                },
+                {
+                    "type": "CollectionID",
+                    "value": "C-LE",
+                    "source": {
+                        "type": "Reference",
+                        "value": {
+                            "type": "LiteratureID",
+                            "value": "R0001900"
+                        }
+                    }
+                },
+                {
+                    "type": "CollectionID",
+                    "value": "C-NY",
+                    "source": {
+                        "type": "Reference",
+                        "value": {
+                            "type": "LiteratureID",
+                            "value": "R0001900"
+                        }
+                    }
+                },
+                {
+                    "type": "CollectionID",
+                    "value": "C-PC",
+                    "source": {
+                        "type": "Reference",
+                        "value": {
+                            "type": "LiteratureID",
+                            "value": "R0001900"
+                        }
+                    }
+                },
+                {
+                    "type": "CollectionID",
+                    "value": "C-S",
+                    "source": {
+                        "type": "Reference",
+                        "value": {
+                            "type": "LiteratureID",
+                            "value": "R0001900"
+                        }
+                    }
+                }
+            ],
+            "Beitrag zu Sammlungen": {
+                "Anmerkungen": "als Sammler im Herbarium der TU Dresden bekannt|in der Sammlung (Moose) gibt es auch von Breutel gesammeltes Material; in diesen Fällen ist jeweils Breutel auf den Konvoluten als Sammler vermerkt. Auch von Albertini ist ein Beleg vorhanden. Bei einigen Belegen beigefügte mikroskopische Zeichnungen von morphologischen Details könnten von Breutel angefertigt worden sein, da die Beschriftung der Zeichnungen nicht die Handschrift Curie’s trägt https://dr.jacq.org/DR086260|\"1858 Görlitz kauft 400 Arten Frankräuter aus Afrika und Westindien (Julia Hammerschmidt: 200 Jahre Naturforschende Gesellschaft und Museum für Naturkunde Görlitz, hg. v. Willi E. R. Xylander, 2. überarbeitete. Aufl. 2018, 122)|über 100 im Flechtenherbar: https://www.senckenberg.de/de/institute/senckenberg-museum-fuer-naturkunde-goerlitz/abt-botanik/sekt-lichenes-und-bryophyta/sammlung/die-sammler-des-flechtenherbars/\""
+            }
+        }
+    }
+}

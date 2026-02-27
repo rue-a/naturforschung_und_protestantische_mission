@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 from typing import Callable, Optional, List
+from functools import partial
 import re
 
 from new_datatypes import (
@@ -10,6 +11,7 @@ from new_datatypes import (
     ArchiveID,
     CollectionID,
     URL,
+    AttestableString,
     ISO_Date,
     ISO8601_2_Date,
     ISO8601_2_Period,
@@ -23,6 +25,7 @@ class ParserSpec:
     parser: Callable | List[Callable]  # z.B. ID, ISO8601_2_Date, str
     is_list: bool = False
     codelist: Optional[list] = None  # the codelist
+    require_source: bool = False
 
 
 def clean_field(raw: str) -> str:
@@ -143,10 +146,18 @@ PARSERS_PERSONEN = {
     # --- Lebenslauf / IDs ---
     "Herrnhuter Lebenslauf": ParserSpec(parser=[LiteratureID, ManuscriptID]),
     # --- Geburt / Tod (structured!) ---
-    "Geburt - Datum": ParserSpec(parser=ISO8601_2_Date, is_list=True),
-    "Geburt - Ort": ParserSpec(parser=LocationID, is_list=True),  # L-ID
-    "Tod - Datum": ParserSpec(parser=ISO8601_2_Date, is_list=True),
-    "Tod - Ort": ParserSpec(parser=LocationID, is_list=True),  # L-ID
+    "Geburt - Datum": ParserSpec(
+        parser=partial(ISO8601_2_Date, require_source=True), is_list=True
+    ),
+    "Geburt - Ort": ParserSpec(
+        parser=partial(LocationID, require_source=True), is_list=True
+    ),  # L-ID
+    "Tod - Datum": ParserSpec(
+        parser=partial(ISO8601_2_Date, require_source=True), is_list=True
+    ),
+    "Tod - Ort": ParserSpec(
+        parser=partial(LocationID, require_source=True), is_list=True
+    ),  # L-ID
     # --- Wirkungsorte ---
     "Wirkungsorte": ParserSpec(
         parser=ComplexType(
@@ -160,19 +171,31 @@ PARSERS_PERSONEN = {
         is_list=True,
     ),
     # --- Tätigkeiten ---
-    "Tätigkeiten": ParserSpec(parser=str, is_list=True),
+    "Tätigkeiten": ParserSpec(
+        parser=partial(AttestableString, require_source=True), is_list=True
+    ),
     # --- Kontakte ---
     # --- ParserSpec entries ---
     "Kontakt – Mit Herrnhutern": ParserSpec(
-        parser=kontakt_parser,
+        parser=partial(kontakt_parser, require_source=True),
         is_list=True,
     ),
     "Kontakt – Mit Nicht-Herrnhutern": ParserSpec(
-        parser=kontakt_parser,
+        parser=partial(kontakt_parser, require_source=True),
         is_list=True,
     ),
     # --- Botanik ---
     "Botanik - Foki": ParserSpec(parser=str, is_list=True),
+    "Botanik - Beitrag zu Sammlungen (Objektnachweis)": ParserSpec(
+        parser=partial(CollectionID, require_source=True), is_list=True
+    ),
+    "Botanik - Beitrag zu Sammlungen (Datenbanknachweis)": ParserSpec(
+        parser=partial(CollectionID, require_source=True), is_list=True
+    ),
+    "Botanik - Beitrag zu Sammlungen (Literaturnachweis)": ParserSpec(
+        parser=partial(CollectionID, require_source=True), is_list=True
+    ),
+    "Botanik - Beitrag zu Sammlungen - Anmerkungen": ParserSpec(parser=str),
     "Botanik - Manuskripte der Person": ParserSpec(parser=ManuscriptID, is_list=True),
     "Botanik - Druckwerke der Person": ParserSpec(parser=LiteratureID, is_list=True),
     "Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere": ParserSpec(
