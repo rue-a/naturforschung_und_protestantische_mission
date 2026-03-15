@@ -14,10 +14,15 @@
             "Ehepartner": [
                 {
                     "type": "PersonID",
-                    "value": "P0010000"
+                    "value": "P0011000"
                 }
             ]
         },
+        "Zugehörigkeit Herrnhuter Brüdergemeine": [
+            "ja(a)",
+            "ja(b)",
+            "ja(c)"
+        ],
         "Links": {
             "Wikidata": {
                 "type": "URL",
@@ -76,6 +81,16 @@
                         "value": "R0001500"
                     }
                 }
+            ],
+            "Ort": [
+                {
+                    "type": "LocationID",
+                    "value": "L0004000",
+                    "source": {
+                        "type": "LiteratureID",
+                        "value": "R0001500"
+                    }
+                }
             ]
         },
         "Wirkungsorte": [
@@ -94,7 +109,7 @@
                 ],
                 "source": {
                     "type": "LiteratureID",
-                    "value": "R0000000"
+                    "value": "R0001500"
                 }
             },
             {
@@ -112,7 +127,7 @@
                 ],
                 "source": {
                     "type": "LiteratureID",
-                    "value": "R0000000"
+                    "value": "R0001500"
                 }
             },
             {
@@ -130,7 +145,7 @@
                 ],
                 "source": {
                     "type": "LiteratureID",
-                    "value": "R0000000"
+                    "value": "R0001500"
                 }
             },
             {
@@ -148,7 +163,7 @@
                 ],
                 "source": {
                     "type": "LiteratureID",
-                    "value": "R0000000"
+                    "value": "R0001500"
                 }
             },
             {
@@ -166,7 +181,7 @@
                 ],
                 "source": {
                     "type": "LiteratureID",
-                    "value": "R0000000"
+                    "value": "R0001500"
                 }
             },
             {
@@ -184,7 +199,7 @@
                 ],
                 "source": {
                     "type": "LiteratureID",
-                    "value": "R0000000"
+                    "value": "R0001500"
                 }
             },
             {
@@ -202,7 +217,7 @@
                 ],
                 "source": {
                     "type": "LiteratureID",
-                    "value": "R0000000"
+                    "value": "R0001500"
                 }
             },
             {
@@ -220,7 +235,7 @@
                 ],
                 "source": {
                     "type": "LiteratureID",
-                    "value": "R0000000"
+                    "value": "R0001500"
                 }
             },
             {
@@ -238,7 +253,7 @@
                 ],
                 "source": {
                     "type": "LiteratureID",
-                    "value": "R0000000"
+                    "value": "R0001500"
                 }
             }
         ],
@@ -248,6 +263,40 @@
                 "Farne",
                 "Orchideen",
                 "Asperifolien der Oberlausitz"
+            ],
+            "Beitrag zu Sammlungen (Objektnachweis)": [
+                {
+                    "type": "CollectionID",
+                    "value": "C-MEL",
+                    "source": {
+                        "type": "URL",
+                        "value": "https://www.gbif.org/occurrence/2439357615"
+                    }
+                },
+                {
+                    "type": "CollectionID",
+                    "value": "C-PH",
+                    "source": {
+                        "type": "URL",
+                        "value": "https://mycoportal.org/portal/collections/individual/index.php?occid=6053170"
+                    }
+                },
+                {
+                    "type": "CollectionID",
+                    "value": "C-L",
+                    "source": {
+                        "type": "URL",
+                        "value": "https://bioportal.naturalis.nl/nl/specimen/L%20%200119238"
+                    }
+                },
+                {
+                    "type": "CollectionID",
+                    "value": "C-DR",
+                    "source": {
+                        "type": "URL",
+                        "value": "https://dr.jacq.org/DR086086"
+                    }
+                }
             ],
             "Beitrag zu Sammlungen (Datenbanknachweis)": [
                 {
@@ -265,6 +314,20 @@
                         "type": "URL",
                         "value": "https://www.tropicos.org/person/791"
                     }
+                }
+            ],
+            "Erwähnungen der Person in Werken mit botanischen Kontext durch Andere": [
+                {
+                    "type": "LiteratureID",
+                    "value": "R0001700"
+                },
+                {
+                    "type": "LiteratureID",
+                    "value": "R0002700"
+                },
+                {
+                    "type": "LiteratureID",
+                    "value": "R0003200"
                 }
             ]
         },
@@ -304,11 +367,43 @@
                 "value": "https://bionomia.net/Q55874791"
             }
         },
+        "Geburt": {
+            "Datum": [
+                {
+                    "type": "ISO8601_2_Date",
+                    "value": "1721-04-17",
+                    "source": {
+                        "type": "ManuscriptID",
+                        "value": "M0004000"
+                    }
+                }
+            ],
+            "Ort": [
+                {
+                    "type": "LocationID",
+                    "value": "L0003000",
+                    "source": {
+                        "type": "ManuscriptID",
+                        "value": "M0004000"
+                    }
+                }
+            ]
+        },
         "Botanik": {
             "Foki": [
                 "BarbyerNaturalienkabinett aufseinen Vorschlag hinangelegt"
             ]
-        }
+        },
+        "Wichtige Werke der Person ohne botanischen Kontext": [
+            {
+                "type": "ManuscriptID",
+                "value": "M0004300"
+            },
+            {
+                "type": "ManuscriptID",
+                "value": "M0004400"
+            }
+        ]
     },
     "P0220000": {
         "ID": {
@@ -334,6 +429,44 @@
                 "type": "URL",
                 "value": "https://de.bionomia.net/Q21415674"
             }
+        },
+        "Herrnhuter Lebenslauf": {
+            "type": "LiteratureID",
+            "value": "R0002500"
+        },
+        "Geburt": {
+            "Datum": [
+                {
+                    "type": "ISO8601_2_Date",
+                    "value": "1788-01-21",
+                    "source": {
+                        "type": "LiteratureID",
+                        "value": "R0002500"
+                    }
+                }
+            ],
+            "Ort": [
+                {
+                    "type": "LocationID",
+                    "value": "L0022500",
+                    "source": {
+                        "type": "LiteratureID",
+                        "value": "R0002500"
+                    }
+                }
+            ]
+        },
+        "Tod": {
+            "Datum": [
+                {
+                    "type": "ISO8601_2_Date",
+                    "value": "1875-02-18",
+                    "source": {
+                        "type": "LiteratureID",
+                        "value": "R0002500"
+                    }
+                }
+            ]
         },
         "Botanik": {
             "Foki": [
@@ -423,9 +556,26 @@
                     }
                 }
             ],
-            "Beitrag zu Sammlungen": {
-                "Anmerkungen": "als Sammler im Herbarium der TU Dresden bekannt|in der Sammlung (Moose) gibt es auch von Breutel gesammeltes Material; in diesen Fällen ist jeweils Breutel auf den Konvoluten als Sammler vermerkt. Auch von Albertini ist ein Beleg vorhanden. Bei einigen Belegen beigefügte mikroskopische Zeichnungen von morphologischen Details könnten von Breutel angefertigt worden sein, da die Beschriftung der Zeichnungen nicht die Handschrift Curie’s trägt https://dr.jacq.org/DR086260|\"1858 Görlitz kauft 400 Arten Frankräuter aus Afrika und Westindien (Julia Hammerschmidt: 200 Jahre Naturforschende Gesellschaft und Museum für Naturkunde Görlitz, hg. v. Willi E. R. Xylander, 2. überarbeitete. Aufl. 2018, 122)|über 100 im Flechtenherbar: https://www.senckenberg.de/de/institute/senckenberg-museum-fuer-naturkunde-goerlitz/abt-botanik/sekt-lichenes-und-bryophyta/sammlung/die-sammler-des-flechtenherbars/\""
+            "Erwähnungen der Person in Werken mit botanischen Kontext durch Andere": [
+                {
+                    "type": "LiteratureID",
+                    "value": "R0002200"
+                },
+                {
+                    "type": "ManuscriptID",
+                    "value": "M0004600"
+                },
+                {
+                    "type": "LiteratureID",
+                    "value": "R0003200"
+                }
+            ]
+        },
+        "Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere": [
+            {
+                "type": "ManuscriptID",
+                "value": "M0004600"
             }
-        }
+        ]
     }
 }

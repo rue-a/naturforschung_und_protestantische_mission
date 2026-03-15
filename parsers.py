@@ -115,6 +115,79 @@ kontakt_parser = ComplexType(
     separator=";",  # separator between P-ID and temporal
 )
 
+
+PARSERS_ARCHIVE = {
+    # --- Pflichtfelder ---
+    "ID": ParserSpec(parser=ArchiveID),
+    "Name": ParserSpec(parser=str),
+    # --- Metadaten ---
+    "Abkürzungen": ParserSpec(parser=str, is_list=True),
+    # --- Link ---
+    "Link": ParserSpec(parser=URL),
+}
+
+PARSERS_LITERATUR = {
+    # --- Pflichtfelder ---
+    "ID": ParserSpec(parser=LiteratureID),
+    "Titel": ParserSpec(parser=str),
+    # --- Links ---
+    "Permalink": ParserSpec(parser=URL),
+    # --- Freitext ---
+    "Beschreibung": ParserSpec(parser=str),
+}
+
+PARSERS_MANUSKRIPTE = {
+    # --- Pflichtfelder ---
+    "ID": ParserSpec(parser=ManuscriptID),
+    "Archiv": ParserSpec(parser=ArchiveID),
+    "Signatur": ParserSpec(parser=str),
+    "Titel": ParserSpec(parser=str),
+    # --- Links ---
+    "Permalink": ParserSpec(parser=URL),
+    # --- Beschreibung ---
+    "Beschreibung": ParserSpec(parser=str),
+    # --- Identifiers ---
+    "Wikidata ID": ParserSpec(parser=str),
+}
+
+PARSERS_ORTE = {
+    # --- Pflichtfelder ---
+    "ID": ParserSpec(parser=LocationID),
+    "Name": ParserSpec(parser=str),
+    # --- Namensvarianten ---
+    "Varianten": ParserSpec(
+        parser=ComplexType(
+            parts=[
+                str,  # name
+                str,  # BCP47 language tag
+            ],
+            separator="@",
+        ),
+        is_list=True,
+    ),
+    # --- Typklassifikation ---
+    "GeoNames-Typ": ParserSpec(
+        parser=str,
+        is_list=True,
+        codelist=["A", "H", "L", "P", "R", "S", "T"],
+    ),
+    "AAT-Typ": ParserSpec(parser=int, is_list=True),
+    # --- Zeitlicher Gültigkeitsbereich ---
+    "Beginn": ParserSpec(parser=ISO8601_2_Date),
+    "Ende": ParserSpec(parser=ISO8601_2_Date),
+    # --- Authority Links ---
+    "Links": ParserSpec(parser=URL, is_list=True),
+    # --- Koordinaten ---
+    "Longitude": ParserSpec(parser=float),
+    "Latitude": ParserSpec(parser=float),
+    # --- Geometrie ---
+    "Geometrie": ParserSpec(parser=str),
+    "Geometriequelle": ParserSpec(parser=[LiteratureID, ManuscriptID, URL]),
+    # --- Metadaten ---
+    "Qualität der Ortsangabe": ParserSpec(parser=str),
+    "Beschreibung": ParserSpec(parser=str),
+}
+
 PARSERS_PERSONEN = {
     # --- Pflichtfelder ---
     "ID": ParserSpec(parser=PersonID),
@@ -213,38 +286,18 @@ PARSERS_PERSONEN = {
     ),
 }
 
-
-#
-# CODELISTS = {
-#     "Nadelbäume": {"Fichte", "Tanne", "Kiefer", "Lärche"},
-# }
-# # default
-# print(parse_field("2025-01-15", parser=ISO_Date))
-
-# # list
-# print(
-#     parse_field(
-#         "2025-01-15 | 2026-01-01",
-#         parser=ISO_Date,
-#         is_list=True,
-#     )
-# )
-
-# # from codelist
-# print(
-#     parse_field(
-#         "Fichte",
-#         parser=str,
-#         codelist=CODELISTS["Nadelbäume"],
-#     )
-# )
-
-# # list from codelist
-# print(
-#     parse_field(
-#         "Fichte | Tanne",
-#         parser=str,
-#         is_list=True,
-#         codelist=CODELISTS["Nadelbäume"],
-#     )
-# )
+PARSERS_SAMMLUNGEN = {
+    # --- Pflichtfelder ---
+    "ID": ParserSpec(parser=CollectionID),
+    "Name der Sammlung": ParserSpec(parser=str),
+    # --- Metadaten ---
+    "NYBG Herbarcode": ParserSpec(parser=str),
+    # --- Hierarchie ---
+    "Teilsammlung von": ParserSpec(parser=CollectionID),
+    # --- Institution ---
+    "Sammlungshaltende Institution": ParserSpec(parser=str, is_list=True),
+    # --- Links ---
+    "Webseite": ParserSpec(parser=URL),
+    # --- Freitext ---
+    "Anmerkungen": ParserSpec(parser=str),
+}

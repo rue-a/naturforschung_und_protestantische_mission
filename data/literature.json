@@ -1,0 +1,463 @@
+{
+    "R0000100": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0000100"
+        },
+        "Titel": "Ludwig Becker: \"Die Pflege der Naturwissenschaften in der Herrnhuter Brüdergemeine\", in: Unitas Fratrum 55/56 (2005), S. 17-51."
+    },
+    "R0000200": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0000200"
+        },
+        "Titel": "E. R. Meyer: Schleiermachers und C.G. von Brinkmanns Gang durch die Brüdergemeine, Leipzig: Jansa 1905."
+    },
+    "R0000300": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0000300"
+        },
+        "Titel": "Matthias Breitfeld; Eduard Hertel: \"Das Herbarium Reichel im Naturalienkabinett Waldenburg und Bemerkungen zur Situation der Botanischen Sammlungen im 19. Jahrhundert\", in: Sächsische Floristische Mitteilungen 15 (2012/13), S. 51-98.",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://sachsen.nabu.de/imperia/md/content/sachsen/170928-nabu-sfm-heft-15.pdf"
+        },
+        "Beschreibung": "erwähnt Samuel Petrus Kleinschmidt und Johann Christian Breutel als Sammler in Labrador(Herbarium Reichel in Waldenburg)"
+    },
+    "R0000400": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0000400"
+        },
+        "Titel": "James R. Troyer: \"Early American Moravian Botanists in North Carolina and elsewhere \", in: Journal of the North Carolina Academy of Science 125 (2009), Nr. 1, S. 1-6."
+    },
+    "R0000500": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0000500"
+        },
+        "Titel": "Hans-Jürgen Hardtke; Klenke Friedemann; Manfred Ranft (Hg.): Biographien sächsischer Botaniker, n Berichte der Arbeitsgemeinschaft sächsische Botaniker 19 (2004)."
+    },
+    "R0000600": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0000600"
+        },
+        "Titel": "James Pringle: Contributions by Moravian missionaries to the knowledge of the flora of Labrador. Canadian Horticultural History. 2(4) (1991): 187–222.",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://www.biodiversitylibrary.org/item/123823#page/5/mode/1up"
+        }
+    },
+    "R0000700": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0000700"
+        },
+        "Titel": "Jacques Cayouette, Stephen J. Darbyshire: Taxa described by Steudel from the Labrador plants collected by the Moravian missionary Albrecht and distributed by Hohenacker in: Taxon 43 (1994): 169-180.",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://doi.org/10.2307/1222875"
+        },
+        "Beschreibung": "Erwähnung der Kontakte der sammelnden Labrador-Missionare"
+    },
+    "R0000800": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0000800"
+        }
+    },
+    "R0000900": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0000900"
+        },
+        "Titel": "P. Lorenz: Johann Baptist von Albertini: ein Lebensbild (1894)",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://books.google.de/books?id=JahRpKlMip0C&hl=de&pg=PP6#v=onepage&q&f=false"
+        }
+    },
+    "R0001000": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0001000"
+        },
+        "Titel": "Seidel: Johann Baptista von Albertini und Ludwig David von SchweinitzZwei Lebensbilder. In Zeitschrift der Pilzkunde 1923",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://www.zobodat.at/pdf/Z-Pilzkunde_2_1923_0221-0225.pdf"
+        }
+    },
+    "R0001100": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0001100"
+        },
+        "Titel": "Dyer, William Turner Thiselton 1874. Protolog Aloe barberae Dyer The Gardeners' chronicle : a weekly illustrated journal of horticulture and allied subjects",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://www.biodiversitylibrary.org/item/84203#page/580/mode/1up"
+        }
+    },
+    "R0001200": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0001200"
+        },
+        "Titel": "Lebenslauf des am 23. September 1858 in Lichtenfels in Grönland heimgegangenen Bruders Johann Friedrich David Tietzen",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1860.pdf"
+        },
+        "Beschreibung": "Lebenslauf Seite 246-259"
+    },
+    "R0001300": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0001300"
+        },
+        "Titel": "Ulrich Teuber 2023: \"Zur Geschichte des Passauer Moosherbars\"",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://www.zobodat.at/pdf/DerBayerischeWald_36_1-2_0028-0043.pdf"
+        },
+        "Beschreibung": "Artikel, Erfassungsliste bei SW"
+    },
+    "R0001400": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0001400"
+        },
+        "Titel": "Morten P. Porsild: \"On some herbaria from Greenland and Labrador collected by the Moravian brethren\", in: Meddelelser om Grønland 93 (1935), Nr. 3, S. 84-94."
+    },
+    "R0001500": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0001500"
+        },
+        "Titel": "Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171.",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf"
+        },
+        "Beschreibung": "anonymer Lebenslauf"
+    },
+    "R0001600": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0001600"
+        },
+        "Titel": "Johannes Wilhelm Stolz: \"Bibliographie der naturwissenschaftlichen Arbeiten aus dem Kreise der Brüdergemeine\", in: Zeitschrift für Brüdergeschichte 10 (1916), S. 107-127."
+    },
+    "R0001700": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0001700"
+        },
+        "Titel": "Jason M. Karakehian; Thomas Rödel; Ulrike Damm; Donald H. Pfister; Andrew N. Milkler; Camille Truong; Tom W. May (Hg.): \"Specimens in the National Herbarium of Victoria, Australia (MEL) and in Naturalis Biodiversity Center of Leiden, Netherlands (L) associated with Albertini and Schweinitz’s Conspectus fungorum in Lusatiae superioris\", in: Taxon 74 (2025), Nr. 1, S. 174-190.",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://doi.org/10.1002%2Ftax.13239"
+        },
+        "Beschreibung": "S. 188, Auflistung der in M0003700 enthaltenen einzelnen Manuskripte von J.B.v. Albertini sowie angabe weiterer Quellen von Albertini, letztere leider ohne Signaturen"
+    },
+    "": {},
+    "R0001900": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0001900"
+        },
+        "Titel": "Frans Stafleu & Richard Cowans: Taxonomic literature: a selective guide to botanical publications and collections with dates, commentaries and types. all volumes (1976-1988) & supplements",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://doi.org/10.5962/bhl.title.48631"
+        }
+    },
+    "R0002000": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0002000"
+        },
+        "Titel": "Joseph Schröter: Beiträge zur Kenntniss der nordischen Pilze (1888): in Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Cultur.",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://www.biodiversitylibrary.org/item/114195"
+        },
+        "Beschreibung": "Erwähnung Wenck und Tietzen"
+    },
+    "R0002100": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0002100"
+        },
+        "Titel": "Sørensen, T. (1935) Bodenformen und Pflanzendecke in Nordostgrönland. Beiträge zur Theorie der polaren Bodenversetzungen auf Grund von Beobachtungen über deren Einfluss auf die Vegetation in Nordostgrönland. Meddelelser om Grønland 93 (4).",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://www.google.de/books/edition/Bodenformen_und_pflanzendecke_in_Nordost/vpYlLRfyuLIC?hl=de&gbpv=1&bsq=Tietzen&dq=flora%20arctica%20tietzen%20gr%C3%B6nland&printsec=frontcover"
+        },
+        "Beschreibung": "Erwähnung Tietzen"
+    },
+    "R0002200": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0002200"
+        },
+        "Titel": "Ignaz Urban (1916): Geschichte des Königlichen Botanischen Museums zu Berlin-Dahlem (1815 - 1913)",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://digital.slub-dresden.de/werkansicht/dlf/263658/1"
+        },
+        "Beschreibung": "Auflistung der Eingänge ins Berliner Herbarium"
+    },
+    "R0002300": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0002300"
+        },
+        "Titel": "Wilhelm Hans: \"Botanischer Ausflug in das mährische Gesenke im Juli 1867\", in: Österreichische Botanische Zeitschrift 18 (1868), Nr. 11, S. 352-363.",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://www.jstor.org/stable/pdf/43804213.pdf"
+        }
+    },
+    "R0002400": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0002400"
+        },
+        "Titel": "Gaston R. Demarèe et al (2025): Johann August Miertsching and his circum-continental Travel Johann August Miertsching and his circum-continental Travel as Inuit Language Interpreter on Board H.M.S. Investigator, in Okhotsk Sea and Polar Oceans Research, volume 9, pages 1-7",
+        "Permalink": {
+            "type": "URL",
+            "value": "http://www.okhotsk-mombetsu.jp/okhsympo/_userdata/2025Gaston%20Demare%CC%81e.pdf"
+        }
+    },
+    "R0002500": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0002500"
+        },
+        "Titel": ": Lebenslauf Johann Christian Breutel In: Nachrichten aus der Brüder-Gemeine (9), 1875, S. 755-788",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://collections.mun.ca/digital/collection/nachrichten/id/1119/rec/1"
+        }
+    },
+    "R0002600": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0002600"
+        },
+        "Titel": "Johann Baptist von Albertini; Lewis David von Schweinitz: Conspectus fungorum in Lusatiae Superioris agro Niskiensi crescentium, e methodo Persooniana, Lipsiae: Sumtibus Kummerianis 1805.",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://doi.org/10.5962/bhl.title.3601"
+        },
+        "Beschreibung": "enthält u.a. die Protologe zu von Abertini und Schweinitz beschriebenen Arten, z.B. Peziza clavus Alb. & Schwein. (https://www.biodiversitylibrary.org/page/2892580)"
+    },
+    "R0002700": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0002700"
+        },
+        "Titel": "James Miers 1981: Guide to Plant Collectors Represented in the Herbarium of the Academy of Natural Sciences of Philadelphia",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://www.ansp.org/~/media/Files/ans/research/sys-botany/Mears1981.ashx?la=en"
+        }
+    },
+    "R0002800": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0002800"
+        },
+        "Titel": "Petra Gebauer, Hans-Werner Otto: \"Friedrich Wilhelm Kölbing – ein Botaniker aus der Herrnhuter Brüdergemeine\", in: Berichte der Naturforschenden Gesellschaft der Oberlausitz 11 (2004), S. 115-125.",
+        "Beschreibung": "Erwähnung von F.W. Kölbing, M. Wetschky, P.F. Curie"
+    },
+    "R0002900": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0002900"
+        },
+        "Titel": "Karl Gustav Limpricht: \"Nachträge zu den Laub- und Lebermoosen\", in: Ferdinand Cohn, Kryptogamen-Flora von Schlesien, Beslau: J.U. Kern's Verlag 1876, S. 413-444.",
+        "Beschreibung": "Beleg von M0005000"
+    },
+    "R0003000": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0003000"
+        },
+        "Titel": "Körber: \"Verzeichniss der dem Henschel'schen Globus aggregirten botanischen Manuscript-Sammlung der Schlesischen Gesellschaft\", in: Bericht über die Thätigkeit der Botanischen Section der Schlesischen Gesellschaft für Vaterländische Kultur, 1871, S. 88-93.",
+        "Beschreibung": "Beleg von M0005000"
+    },
+    "R0003100": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0003100"
+        },
+        "Titel": "Peter Friedrich Cürie: Anleitung die im mittleren und nördlichen wildwachsenden Pflanzen auf eine leichte und sichere Weise durch eigene Untersuchung zu bestimmen, Kittlitz in der Oberlausitz: C. G. Zobel vierte sehr vermehrte. Aufl. 1840."
+    },
+    "R0003200": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0003200"
+        },
+        "Titel": "Hildegard Funke: Beiträge zur Geschichte der Floristik in Sachsen, in Berichte der Arbeitsgemeinschaft Sächsischer Botaniker. Band V/VI 1963/64",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://www.hs-nb.de/storages/hs-neubrandenburg/institute/iugr/Zeitschriften/PDF-Scans/Sachsen/Berichte_der_Arbeitsgemeinschaft_Saechsischer_Botaniker/1963_1964__Neue_Folge__Band_5_6__Heft_1.pdf"
+        }
+    },
+    "R0003300": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0003300"
+        },
+        "Titel": "Richard Glasser: David Wiemann. Zu seinem 10-jährigen Todestag. In: Pfälzer Heimat. Band 9, 1958, S. 110–111",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://www.pollichia.de/publikationen.html?task=download.send&id=601:pfaelzer-heimat-9-1958-2&catid=38"
+        },
+        "Beschreibung": "mit Foto und vollständigem Verzeichnis seiner Publikationen"
+    },
+    "R0003400": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0003400"
+        },
+        "Titel": "Volker John: Zum 100. Geburtstag David Wiemanns. In: Pollichia-Kurier. Band 1, 1985, S. 46.",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://www.pollichia.de/publikationen.html?task=download.send&id=8:pollichia-kurier-1-1985-2-3&catid=31"
+        },
+        "Beschreibung": "Infos zum Nachlass"
+    },
+    "R0003500": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0003500"
+        },
+        "Titel": "Alfred Blaufuss: Aus dem Leben und Werk David Wie-manns, in Mitt. POLLICHIA I. Reihe 20 Band. (1973): s. 64 — 77",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://www.pollichia.de/publikationen.html?task=download.send&id=251:mitteilungen-der-pollichia-iii-reihe-band-20-fuer-1973&catid=30"
+        }
+    },
+    "R0003600": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0003600"
+        },
+        "Titel": "Theodor C. Bechler: \"Beiträge der Brüdergemeine zur Pflege der Wissenschaften und Kunst in zwei Jahrhunderten\", in: Jahrbuch der Brüdergemeine 35 (1941/42), S. 4-48.",
+        "Beschreibung": "Ersterwähnung der Herrnhuter Botaniker Friedrich Erdmann (Labrador) und Franz Langerfeld (Suriname)"
+    },
+    "R0003700": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0003700"
+        },
+        "Titel": "Rudolf Roser: Naturhistorische und medicinische Beobachtungen über Gnadenthal in Süd-Afrika, Tübingen: Steinkopf in Stuttgart 1856 (med. Dissertation).",
+        "Beschreibung": "seine med. Dissertation zum Herrnhuter Missionsfeld mit viel Botanik und einer Lokalflora"
+    },
+    "R0003800": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0003800"
+        },
+        "Titel": "Manfred Niehuis: Anmerkungen zu faunistischen Unterlagen von David Wiemann (*5. Juni 1885 - 8. Mai 1948)",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://www.zobodat.at/pdf/Fauna-Flora-Rheinland-Pfalz_14_1583-1599.pdf"
+        },
+        "Beschreibung": "Fotos, Handschrift, Kontakt zu Otto Uttendörfer"
+    },
+    "R0003900": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0003900"
+        },
+        "Titel": "Friedrich Erdmann: Eskimoisches Wörterbuch gesammelt von den Missionaren in Labrador. Bautzen 1864",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://hdl.handle.net/2027/aeu.ark:/13960/t7sn1bd3r"
+        }
+    },
+    "R0004000": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0004000"
+        },
+        "Titel": "Karl Thom: Friedrich Erdmann, Missionar in Labrador. Ein Beitrag zur Geschichte der Brüdermission und der Gemeinde Ihmert, in: Die Fibel, Band 3.",
+        "Beschreibung": "nicht eingesehen"
+    },
+    "R0004100": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0004100"
+        },
+        "Titel": "Hans J. Rollmann: Christian Gottlob Barth and the Moravian Inuktitut Book Culture of Labrador, in: Newfoundland and Labrador Studies Volume 32, numéro 2, fall 2017, p. 265-548 (2017)",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://id.erudit.org/iderudit/nflds32_2art05"
+        },
+        "Beschreibung": "Über Samuel Weiz, August Ribbach, Friedrich Erdmann"
+    },
+    "R0004200": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0004200"
+        },
+        "Titel": "R. Schlechter: Orchidaceae Stolzianae. Ein Beitrag zur Ochideenkunde des Nyassalandes, in: Botanische Jahrbücher für Systematik, Pflanzengeschichte und Pflanzengeographie 53 (1915), S. 477-605.",
+        "Beschreibung": "Zu A. Stolz, Wullschlägel, Breutel und die Verbindung vom Herrnhuter Missionsdirektor Henning zu A. Stolz und zur Botanik"
+    },
+    "R0004300": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0004300"
+        }
+    },
+    "R0004400": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0004400"
+        },
+        "Titel": "Jacques Cayouette: Contribution des moraves à la bryologie du Labrador, in: Carnets de bryologie 3 ( 2013), 1-12.",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://www.societequebecoisedebryologie.org/Carnets/Carnets_3_Cayouette_Moraves_Labrador.pdf"
+        },
+        "Beschreibung": "über die bryologischen Funde der Labrador-Missionare"
+    },
+    "R0004500": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0004500"
+        },
+        "Titel": "Theodor C. Bechler: Heinrich August Jäschke der geniale Sprachforscher der Mission der Brüdergemeine unter den Tibetern im westlichen Himalaya. Eine Studie, Herrnhut: Missionsbuchhandlung 1930 .",
+        "Beschreibung": "S. 38f. Zusammenfassung von Jäschkes botanischen Aktivitäten aus anderen Publikationen"
+    },
+    "R0004600": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0004600"
+        },
+        "Titel": "S. Kurz: \"GENTIANA JAESCHKEI re-established as anew genus of GENTIANACEAE\", in: Journal of the Asiatic Society of Bengal 39 (1870), S. 229-230."
+    },
+    "R0004700": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0004700"
+        },
+        "Titel": "Anton Joseph Kerner von Marilaun: \"Novae plantarum species in Himalajae montibus a cl. Jaeschke collectae\", in: Berichte des naturwissenschaftlich-medicinischen Vereins in Innsbruck 1 (1870), S. 97-121.",
+        "Beschreibung": "Neue Arten von Jäschke und Erwähnung von W. Hans als Lieferaten"
+    },
+    "R0004800": {
+        "ID": {
+            "type": "LiteratureID",
+            "value": "R0004800"
+        },
+        "Titel": "James Edward Tierney Aitchison: \"Lahul, its Flora and Vegetable productsc. From Communication received from the Rev. Heinrich Jaeschke of the Moravian Church\", in: Botanical Journal of the Linnean Society 10 (1869), S. 69-101.",
+        "Beschreibung": "Eine Flora auf Grundlage von Jäschke, und W. Heyde"
+    }
+}

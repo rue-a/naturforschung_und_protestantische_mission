@@ -1,4 +1,4 @@
-# Datenmodell – Manuskripte
+# Datenmodell – Archive
 
 ## Präambel
 

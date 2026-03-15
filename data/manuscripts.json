@@ -1,0 +1,752 @@
+{
+    "M0000100": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0000100"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "ThS.A.132.a",
+        "Titel": "Johann Jakob Bossart: Tagebuch Botanischer Exkursionen (1766)"
+    },
+    "M0000200": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0000200"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "Cim.V.4.",
+        "Titel": "Johann Jakob Bossart: Verzeichniß der Naturalien aus dem Thier=Reich nach dem Linné (1173)"
+    },
+    "M0000300": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0000300"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "Cim.V.5.",
+        "Titel": "Johann Jakob Bossart: Catalogus der Kunstsachen (1775)"
+    },
+    "M0000400": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0000400"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "Cim.II.4",
+        "Beschreibung": "enthält: „Index alphabeticus Generum Plantarum es quibus sicca Speciminain Collectione Musei Academia Fratrum servantur“; „Index Plantarum siccarum Systematicus eo ordine, quo sunt in Fasciculis dispositae“ und „Catalogus über dem was in dem Saamen Schranck befindlich“"
+    },
+    "M0000500": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0000500"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000200"
+        },
+        "Signatur": "0239",
+        "Beschreibung": "pen and ink on paper"
+    },
+    "M0000600": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0000600"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000200"
+        },
+        "Signatur": "1944"
+    },
+    "M0000700": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0000700"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000400"
+        },
+        "Signatur": "5588",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://www.alvin-portal.org/alvin/view.jsf?pid=alvin-record%3A233631&dswid=-5588"
+        }
+    },
+    "M0000800": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0000800"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000500"
+        },
+        "Signatur": "KADC3987",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kadc3987"
+        },
+        "Beschreibung": "\"Baur thanks MacOwan for his letter of Jan 9th and talks of the work he is doing. He collected plants from his area, Ingtu and Shawbury including an Erica, a Verbena similar to the sweetscented Verbena, some Grammitis lanceolata. He describes Aloe trees, of which he encloses sketches, and the Tsitsa falls. Baur thanks MacOwan for some seeds of Ipomopsis coronopifolia and sends seeds of the Ebencuti bush and a climbing shrub like a Tecoma collected in Shawbury.\"",
+        "Wikidata ID": "Q137426024"
+    },
+    "M0000900": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0000900"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000600"
+        },
+        "Signatur": "KLDC10263",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kldc10263"
+        },
+        "Beschreibung": "\"Wullschlaegel explains his wish to pursue botany. As superintendent of the Moravian Mission at Fairfield, Manchester, Jamaica, he provides an account of his previous work in the discipline, and offers to send botanical specimens from Jamaica and Antigua to London in exchange for botanical works. He provides suggested prices for his specimens and a list of requested works including Linnaea's SYSTEMA VEGETABILIUM. As referees, he names Thomas Nicholson, St John's, Antigua; Reverend Peter La Trobe, Secretary of the Moravian Mission, 27 Ely Place, London; and Messrs W Mallalieu & Co, 97 Hatton Garden, London.\""
+    },
+    "M0001000": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0001000"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000700"
+        },
+        "Signatur": "KUSDC3648",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3648"
+        },
+        "Beschreibung": "\"Pemsel thanks Hemsley for his letter of 15 June respecting the dried plants from Labrador . He has ascertained that the plants were collected at their station, Okak, on the eastern coast of Labrador, a little below 60 degrees north latitude. The location is between their Nain and Hebron stations. The owner of the plants, Samuel Weiz, had a similar small collection sent over from Okak with a list, and Pemsel has requested that this is to be sent to Hemsley. Pemsel will accept whatever Hemsley thinks is the right payment for the specimens. Annotated as list received, but plants not wanted except the specimen of Ranunculus baurii. Pemsel was asked for the address to which the second book is to be returned.\""
+    },
+    "M0001100": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0001100"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000800"
+        },
+        "Signatur": "KLDC9989",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kldc9989"
+        },
+        "Beschreibung": "erwähnt Jacob Wolle als Zuträger"
+    },
+    "M0001200": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0001200"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000900"
+        },
+        "Signatur": "KUSDC3647",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3647"
+        },
+        "Beschreibung": "The Moravian Church and Mission Agency, 32 Fetter Lane, London, über Samuel Weiz"
+    },
+    "M0001300": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0001300"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0001000"
+        },
+        "Signatur": "KUSDC3613",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3613"
+        },
+        "Beschreibung": "über Referend Martin"
+    },
+    "M0001400": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0001400"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0001100"
+        },
+        "Signatur": "KUSDC3664",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3664"
+        },
+        "Beschreibung": "über Pflanzensendungen aus Kleinwelka nach Kew (Baur)"
+    },
+    "M0001500": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0001500"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0001200"
+        },
+        "Signatur": "KADC4000",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kadc4000"
+        }
+    },
+    "M0001600": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0001600"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0001300"
+        },
+        "Signatur": "KADC3986",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kadc3986"
+        }
+    },
+    "M0001700": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0001700"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0001400"
+        },
+        "Signatur": "KADC3991",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kadc3991"
+        }
+    },
+    "M0001800": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0001800"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0001500"
+        },
+        "Signatur": "BRMT0054",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.brmt0054"
+        }
+    },
+    "M0001900": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0001900"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0001600"
+        },
+        "Signatur": "BRMT0086",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.brmt0086"
+        }
+    },
+    "M0002000": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0002000"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0001700"
+        },
+        "Signatur": "BRMT0057",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.brmt0057"
+        }
+    },
+    "M0002100": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0002100"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0001800"
+        },
+        "Signatur": "BRMT0004",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.brmt0004"
+        },
+        "Beschreibung": "Summarisches Verzeichniss derjemigen Pflanzen aus Surinam, welche in den Jahren 1849 u. 50 von dem Herrn Superintendenten Wullschlaegel daselbst gesammelt und mir im Tausche gegen Bücher zugesendet worden s. Erhalten im Monat September 1851"
+    },
+    "M0002200": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0002200"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0001900"
+        },
+        "Signatur": "BRMT0004",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.brmt0004"
+        },
+        "Beschreibung": "Handschriftlicher Brief"
+    },
+    "M0002300": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0002300"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0002000"
+        },
+        "Signatur": "KMDC1163",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kmdc1163"
+        }
+    },
+    "M0002400": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0002400"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0002100"
+        },
+        "Signatur": "BRMT0083",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.brmt0083"
+        }
+    },
+    "M0002500": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0002500"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0002200"
+        },
+        "Signatur": "BRMT0089",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.brmt0089"
+        }
+    },
+    "M0002600": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0002600"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0002300"
+        },
+        "Signatur": "BRMT 0084",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.brmt0084"
+        }
+    },
+    "M0002700": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0002700"
+        },
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.brmt0005"
+        }
+    },
+    "M0002800": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0002800"
+        },
+        "Signatur": "KUSDC3610",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3610"
+        },
+        "Beschreibung": "\"MacGregor is sending Mosses and Lichens from Nain, collected by Bishop Martin of the Moravian Mission. He also sends a similar collection from Hopedale, collected by the Revered Hettasch of the same Mission. There may be some new species amongst these and if so, MacGregor would like specimens of them returned. It appears from Bishop Martin's specimens that the most prevalent is the Cladonia rangiferina, which is precisely what they want.\""
+    },
+    "M0002900": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0002900"
+        },
+        "Signatur": "KUSDC3618",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3618"
+        },
+        "Beschreibung": "\"...MacGregor thanks Prain for his note, the plants returned and the list. He is sending the latter to the local ROYAL GAZETTE for publication. He hopes to take the specimens to Mr Hettasch next summer and to supplement them on Labrador....\""
+    },
+    "M0003000": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0003000"
+        },
+        "Signatur": "KUSDC611",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc611"
+        },
+        "Beschreibung": "\"...The most valuable plants to him, however, were the Indian plants of Heyne and Roth. It may interest Dr Hooker to know that the pretty Indian plant collected by him on Amaranthus and other weeds, and named C. arabica by Wight and C. oxypetala by Boissier, is the real C. hyalina of Heyne and Roth, which had been erroneously referred to C. chinensis. Englemann leaves Europe with great thanks to those who have shown him so much unexpected and unmerited kindness....\""
+    },
+    "M0003100": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0003100"
+        },
+        "Signatur": "KDCAS4988",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kdcas4988"
+        },
+        "Beschreibung": "\"...He has collected species quite lost in the Calcutta Herbarium and re-found several from collections in the north of Kashmir by Drs Stoliczka and Jaeschke. He used a manuscript list of Compositae at Calcutta, drawn up by Dr Thomson for his COMPOSITAE....\""
+    },
+    "M0003200": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0003200"
+        },
+        "Signatur": "KDCAS5632",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kdcas5632"
+        },
+        "Beschreibung": "\"... He has not, therefore, done any botany, but has got some sticks of willow for Hooker and the fibre of an Astragalus with a very large taproot used extensively in paper making. He believes it must be what Jaeschke mentions as a Desmodium for paper....\""
+    },
+    "M0003300": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0003300"
+        },
+        "Signatur": "LINNSOC-JES-ADD-99",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/stable/10.5555/al.ap.visual.linnsoc-jes-add-99"
+        }
+    },
+    "M0003400": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0003400"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "NB.VI.63.i.",
+        "Beschreibung": "Handschrift, 69 S.entspricht wohl: Johann Baptist von Albertini: Plantae rariores in itinere ad nonnnllos Bohemiae montes a nobis observatae diebus 6.-11. Juni 1797, erwähnt in: R0001600"
+    },
+    "M0003500": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0003500"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "Cim.II.19"
+    },
+    "M0003600": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0003600"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "Cim.II.20"
+    },
+    "M0003700": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0003700"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "Cim.II8",
+        "Beschreibung": "enthält nach R0001700 mindestens 6 Manuskripte: “I. Fungi Nieskienses collecti per quarter ultimos menses anni 1801”|“II. Fungi Nieskienses collecti per quindecim menses 1 Sept. 1801 ad 1 Dec. 1802”|“III. Fungi Niskienses collecti per XXVII menses 1 Sept. 1801 ad 1 Dec. 1803”|“Catalogus fungorum novorum|“Ad Catalogum II. Fungorum Niskiensium A. B.”|“Ad Catalogum III. Fungorum Niskiensium A. B.”|"
+    },
+    "M0003800": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0003800"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "Cim.II9",
+        "Titel": "J.B.v. Albertini, L.D.v. Schweinitz: „Icones Fungorum Nieskiensis“. Bd. 1. und 2., o.O., (1801-1803)",
+        "Beschreibung": "getusche Zeichnungen von Pilzen von J.B.v. Albertini und L.D.v. Schweinitz, höchstwahrscheinlich die Vorarbeiten zum Conspectus Fungorum (1805) (R0002600)"
+    },
+    "M0003900": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0003900"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000600"
+        },
+        "Signatur": "Mscr.Dresd.App.2789, Bl.142r",
+        "Permalink": {
+            "type": "URL",
+            "value": "http://kalliope-verbund.info/DE-611-HS-2419424"
+        },
+        "Beschreibung": "1796.12.06: J.B.v. Albertini: Stammbucheintrag Niesky, in: Herrnhuter Stammbuch des Bruders Lind aus der Brüdergemeine Sarepta im Unterwolgagebiet Pädagogium Barby, 1795-1814"
+    },
+    "M0004000": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0004000"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "R.22.27.07"
+    },
+    "M0004100": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0004100"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "NadB.1861.I.1075-1095"
+    },
+    "M0004200": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0004200"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "R.15 .N.08.1.c"
+    },
+    "M0004300": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0004300"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "TS . Bd.22.9",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://www.unitaetsarchiv.findbuch.net/php/view.php?link=5453x1959"
+        },
+        "Beschreibung": "von Bossart kopierter Plan"
+    },
+    "M0004400": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0004400"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "TS . Mp.32.15",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://www.unitaetsarchiv.findbuch.net/php/view.php?link=5453x3083"
+        },
+        "Beschreibung": "von Bossart gezeichnete Ansicht von Bertelsdorf"
+    },
+    "M0004500": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0004500"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "Cim.II.11",
+        "Titel": "J.B.v. Albertini: Fungi nostrates, inchoati, 1. Sept. 1801 (1807)",
+        "Beschreibung": "J.B.v. Albertini: Fungi nostrates, inchoati, 1. Sept. 1801. o.O. 1807. Hs. 29 Lagen oktav"
+    },
+    "M0004600": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0004600"
+        },
+        "Titel": "NICHT ZITIERÄHIG!! Volker Otte: \"Exotische Flechten aus der Sammlungstätigkeit der Herrnhuter Brüdergemeine im Görlitzer Herbarium \", in: (Hg.), Sammelband zu Botanik in und um Görlitz und Herrnhuter zu einer Tagung von 2005, nicht erschienen"
+    },
+    "M0004700": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0004700"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "Cim.II.22",
+        "Titel": "J.B.v. Albertini: Vorwort. In: : Flora Nieskiensis, o.O., 1815",
+        "Beschreibung": "Vorwort von J.B.v. Albertini. In: : Flora Nieskiensis, o.O. 1815, Hs., 755 Nummern (R0001600, 112 unsichere Zuschreibung komplett zu Albertini)"
+    },
+    "M0004800": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0004800"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Titel": "J.B.v. Albertini : Verzeichnis der auf einer Reise durch einen Teil des Leitmeritzer Kreises beobachteten Pflanzen. 10.-23. Juni 1808, o.O., 1808",
+        "Beschreibung": "unidentifiziertes Manuskript unsicher zugeschrieben zu Albertini durch R0001600, R0002800: J.B.v. Albertini : Verzeichnis der auf einer Reise durch einen Teil des Leitmeritzer Kreises beobachteten Pflanzen. 10.-23. Juni 1808, o.O., 1808"
+    },
+    "M0004900": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0004900"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "Cim.II.14",
+        "Titel": "J.B.v. Albertini: Flora Montis Gratiarum , o.O, 1814-1817",
+        "Beschreibung": "Albertini: Flora Montis Gratiarum , o.O, 1814-1817, 2 Hefte. H. 1: 74 S., H. 2: neue Zählung (R0001600, 111). Kopie unter M0005000"
+    },
+    "M0005000": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0005000"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000800"
+        },
+        "Titel": "J.B.v. Albertini: Flora Montis Gratiarum , o.O, 1814-1817, 28.11.1819",
+        "Beschreibung": "Albertini: Flora montis Gratiarum. 1814—1817. o.O. 28. Nov. 1819. Mit einem lateinisch geschriebenen kurzen Vorwort. Nicht identifiziertes Ms. erwähnt in R0002900, 444; R0003000, 88. Kopie von M00049000 und M0005100"
+    },
+    "M0005100": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0005100"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "Cim.II.15",
+        "Titel": "J.B.v. Albertini: Adnota ad Floram Montis Gratiarum , o.O, 1814ff",
+        "Beschreibung": "Albertini: Adnota ad Floram Montis Gratiarum. , o.O, 1814ff., 2 Hefte. H. 1: 74 S., H. 2: 122 S. (R0001600, 111). Kopie unter M0005000"
+    },
+    "M0005200": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0005200"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "NB.VI.185.7",
+        "Titel": ": Albertini’s Flora Gnadenfrei’s . in: : Res Botanicae, o.O.,",
+        "Beschreibung": "Abschrift von M0005300 (Albertini’s Flora Gnadenfrei’s). in: : Res Botanicae, o.O., aus dem Nachlass von P1600000"
+    },
+    "M0005300": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0005300"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "Cim.II.16",
+        "Titel": "J.B.v. Albertini: Flora Gnadenfreisensis, o.O.,",
+        "Beschreibung": "Albertinis: Flora Gnadenfreiensis, 1819-1821, 3 Hefte, die in R0001600, 112 t.w. einzeln genannt werden: a: Albertini: FLORA GNADENFREIENSIS, Inde a vere 1819; b: Albertini: NOTAMINA ad Floram Gnadenfreiensem. Inde a vere 1819; c: Albertini: FLORA GNADENFREYENSIS 1819. 1820. pp."
+    },
+    "M0005400": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0005400"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "NB.VI.185.8",
+        "Titel": ": Flora Albertini Gnadenfreyensis (Verändert nach Cur. 4. Aufl. 1840.), o.O.,",
+        "Beschreibung": "anonyme Abschrift von M0005300 (Albertini’s Flora Gnadenfrei’s) nach 1840 in Neuordnung entsprechend R0003100 aus dem Nachlass von P1600000"
+    },
+    "M0005500": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0005500"
+        },
+        "Signatur": "God's Acre Cemetery",
+        "Titel": ": Lebensbeschreibung von Samuel Gottlieb Kramsch, o.O.,",
+        "Permalink": {
+            "type": "URL",
+            "value": "https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/kramsch-samuel-gottlieb/26981"
+        },
+        "Beschreibung": "maschienengeschriebene Kopie einer Lebensbeschreibung von P0980000",
+        "Wikidata ID": "https://www.wikidata.org/wiki/Q137780980"
+    },
+    "M0006000": {
+        "ID": {
+            "type": "ManuscriptID",
+            "value": "M0006000"
+        },
+        "Archiv": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Signatur": "R.22.50.17",
+        "Titel": ": Lebensbeschreibung von Heinrich August Jäschke"
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "A0000100": {
+        "ID": {
+            "type": "ArchiveID",
+            "value": "A0000100"
+        },
+        "Name": "Unitätsarchiv Herrnhut (Germany)",
+        "Abkürzungen": [
+            "UA"
+        ],
+        "Link": {
+            "type": "URL",
+            "value": "https://www.unitaetsarchiv.de/"
+        }
+    },
+    "A0000200": {
+        "ID": {
+            "type": "ArchiveID",
+            "value": "A0000200"
+        },
+        "Name": "Moravian Church Archives (Bethlehem/USA)",
+        "Link": {
+            "type": "URL",
+            "value": "https://www.moravianchurcharchives.org/"
+        }
+    },
+    "A0000300": {
+        "ID": {
+            "type": "ArchiveID",
+            "value": "A0000300"
+        },
+        "Name": "Moravian Archives Southern Province (Winston-Salem, N.C. / USA",
+        "Link": {
+            "type": "URL",
+            "value": "https://moravianarchivesdigital.quartexcollections.com/"
+        }
+    },
+    "A0000400": {
+        "ID": {
+            "type": "ArchiveID",
+            "value": "A0000400"
+        },
+        "Name": "Linnean Society (London / GB)",
+        "Link": {
+            "type": "URL",
+            "value": "https://www.linnean.org/research-collections"
+        }
+    },
+    "A0000500": {
+        "ID": {
+            "type": "ArchiveID",
+            "value": "A0000500"
+        },
+        "Name": "National Botanic Garden of Belgium/ Meise (BR)",
+        "Link": {
+            "type": "URL",
+            "value": "https://plants.jstor.org/collection/MARTII"
+        }
+    },
+    "A0000600": {
+        "ID": {
+            "type": "ArchiveID",
+            "value": "A0000600"
+        },
+        "Name": "Sächsische Landesbibliothek - Staats- und Universitätsbibliothek (Germany)",
+        "Abkürzungen": [
+            "SLUB"
+        ],
+        "Link": {
+            "type": "URL",
+            "value": "http://www.slub-dresden.de/"
+        }
+    },
+    "A0000700": {
+        "ID": {
+            "type": "ArchiveID",
+            "value": "A0000700"
+        },
+        "Name": "Senckenberg Museum Görlitz"
+    },
+    "A0000800": {
+        "ID": {
+            "type": "ArchiveID",
+            "value": "A0000800"
+        },
+        "Name": "Schlesische Gesellschaft für vaterländische Kultur (Breslau - heute Universität Wrozlaw) Restbestände von Archiv und Bibliothek"
+    }
+}

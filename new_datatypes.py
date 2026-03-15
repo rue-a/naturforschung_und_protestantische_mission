@@ -28,7 +28,7 @@ class Attestable(ABC):
 
         if require_source and not self.source:
             raise ValueError(
-                f"Statement ({raw}) requires attestation, however no source was provided!"
+                f"Statement ({raw}) requires attestation (no source was provided)!"
             )
 
         self._validate_value(value_str)
