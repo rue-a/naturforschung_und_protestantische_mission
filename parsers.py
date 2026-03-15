@@ -149,15 +149,19 @@ PARSERS_PERSONEN = {
     "Geburt - Datum": ParserSpec(
         parser=partial(ISO8601_2_Date, require_source=True), is_list=True
     ),
+    "Geburt - Datum - Anmerkungen": ParserSpec(parser=str),
     "Geburt - Ort": ParserSpec(
         parser=partial(LocationID, require_source=True), is_list=True
-    ),  # L-ID
+    ),
+    "Geburt - Ort - Anmerkungen": ParserSpec(parser=str),
     "Tod - Datum": ParserSpec(
         parser=partial(ISO8601_2_Date, require_source=True), is_list=True
     ),
+    "Tod - Datum - Anmerkungen": ParserSpec(parser=str),
     "Tod - Ort": ParserSpec(
         parser=partial(LocationID, require_source=True), is_list=True
-    ),  # L-ID
+    ),
+    "Tod - Ort - Anmerkungen": ParserSpec(parser=str),
     # --- Wirkungsorte ---
     "Wirkungsorte": ParserSpec(
         parser=ComplexType(

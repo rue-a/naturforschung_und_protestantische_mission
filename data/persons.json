@@ -50,11 +50,8 @@
                     "type": "ISO8601_2_Date",
                     "value": "1769-02-17",
                     "source": {
-                        "type": "Reference",
-                        "value": {
-                            "type": "LiteratureID",
-                            "value": "R0001500"
-                        }
+                        "type": "LiteratureID",
+                        "value": "R0001500"
                     }
                 }
             ],
@@ -63,11 +60,8 @@
                     "type": "LocationID",
                     "value": "L0022000",
                     "source": {
-                        "type": "Reference",
-                        "value": {
-                            "type": "LiteratureID",
-                            "value": "R0001500"
-                        }
+                        "type": "LiteratureID",
+                        "value": "R0001500"
                     }
                 }
             ]
@@ -78,11 +72,8 @@
                     "type": "ISO8601_2_Date",
                     "value": "1831-12-06",
                     "source": {
-                        "type": "Reference",
-                        "value": {
-                            "type": "LiteratureID",
-                            "value": "R0001500"
-                        }
+                        "type": "LiteratureID",
+                        "value": "R0001500"
                     }
                 }
             ]
@@ -102,11 +93,8 @@
                     "Schüler"
                 ],
                 "source": {
-                    "type": "Reference",
-                    "value": {
-                        "type": "LiteratureID",
-                        "value": "R0000000"
-                    }
+                    "type": "LiteratureID",
+                    "value": "R0000000"
                 }
             },
             {
@@ -123,11 +111,8 @@
                     "Schüler"
                 ],
                 "source": {
-                    "type": "Reference",
-                    "value": {
-                        "type": "LiteratureID",
-                        "value": "R0000000"
-                    }
+                    "type": "LiteratureID",
+                    "value": "R0000000"
                 }
             },
             {
@@ -144,11 +129,8 @@
                     "Schüler"
                 ],
                 "source": {
-                    "type": "Reference",
-                    "value": {
-                        "type": "LiteratureID",
-                        "value": "R0000000"
-                    }
+                    "type": "LiteratureID",
+                    "value": "R0000000"
                 }
             },
             {
@@ -165,11 +147,8 @@
                     "Lehrer"
                 ],
                 "source": {
-                    "type": "Reference",
-                    "value": {
-                        "type": "LiteratureID",
-                        "value": "R0000000"
-                    }
+                    "type": "LiteratureID",
+                    "value": "R0000000"
                 }
             },
             {
@@ -186,11 +165,8 @@
                     "Lehrer"
                 ],
                 "source": {
-                    "type": "Reference",
-                    "value": {
-                        "type": "LiteratureID",
-                        "value": "R0000000"
-                    }
+                    "type": "LiteratureID",
+                    "value": "R0000000"
                 }
             },
             {
@@ -207,11 +183,8 @@
                     "Dozent, Inspektor, Prediger"
                 ],
                 "source": {
-                    "type": "Reference",
-                    "value": {
-                        "type": "LiteratureID",
-                        "value": "R0000000"
-                    }
+                    "type": "LiteratureID",
+                    "value": "R0000000"
                 }
             },
             {
@@ -228,11 +201,8 @@
                     "Prediger, Lehrer"
                 ],
                 "source": {
-                    "type": "Reference",
-                    "value": {
-                        "type": "LiteratureID",
-                        "value": "R0000000"
-                    }
+                    "type": "LiteratureID",
+                    "value": "R0000000"
                 }
             },
             {
@@ -249,11 +219,8 @@
                     "Prediger"
                 ],
                 "source": {
-                    "type": "Reference",
-                    "value": {
-                        "type": "LiteratureID",
-                        "value": "R0000000"
-                    }
+                    "type": "LiteratureID",
+                    "value": "R0000000"
                 }
             },
             {
@@ -270,11 +237,8 @@
                     "Mitglied Ältestenkonferenz"
                 ],
                 "source": {
-                    "type": "Reference",
-                    "value": {
-                        "type": "LiteratureID",
-                        "value": "R0000000"
-                    }
+                    "type": "LiteratureID",
+                    "value": "R0000000"
                 }
             }
         ],
@@ -290,22 +254,16 @@
                     "type": "CollectionID",
                     "value": "C-B",
                     "source": {
-                        "type": "Reference",
-                        "value": {
-                            "type": "URL",
-                            "value": "https://www.tropicos.org/person/791"
-                        }
+                        "type": "URL",
+                        "value": "https://www.tropicos.org/person/791"
                     }
                 },
                 {
                     "type": "CollectionID",
                     "value": "C-M",
                     "source": {
-                        "type": "Reference",
-                        "value": {
-                            "type": "URL",
-                            "value": "https://www.tropicos.org/person/791"
-                        }
+                        "type": "URL",
+                        "value": "https://www.tropicos.org/person/791"
                     }
                 }
             ]
@@ -388,110 +346,80 @@
                     "type": "CollectionID",
                     "value": "C-REG",
                     "source": {
-                        "type": "Reference",
-                        "value": {
-                            "type": "LiteratureID",
-                            "value": "R0001300"
-                        }
+                        "type": "LiteratureID",
+                        "value": "R0001300"
                     }
                 },
                 {
                     "type": "CollectionID",
                     "value": "C-LZ",
                     "source": {
-                        "type": "Reference",
-                        "value": {
-                            "type": "LiteratureID",
-                            "value": "R0001900"
-                        }
+                        "type": "LiteratureID",
+                        "value": "R0001900"
                     }
                 },
                 {
                     "type": "CollectionID",
                     "value": "C-BM",
                     "source": {
-                        "type": "Reference",
-                        "value": {
-                            "type": "LiteratureID",
-                            "value": "R0001900"
-                        }
+                        "type": "LiteratureID",
+                        "value": "R0001900"
                     }
                 },
                 {
                     "type": "CollectionID",
                     "value": "C-FH",
                     "source": {
-                        "type": "Reference",
-                        "value": {
-                            "type": "LiteratureID",
-                            "value": "R0001900"
-                        }
+                        "type": "LiteratureID",
+                        "value": "R0001900"
                     }
                 },
                 {
                     "type": "CollectionID",
                     "value": "C-HBG",
                     "source": {
-                        "type": "Reference",
-                        "value": {
-                            "type": "LiteratureID",
-                            "value": "R0001900"
-                        }
+                        "type": "LiteratureID",
+                        "value": "R0001900"
                     }
                 },
                 {
                     "type": "CollectionID",
                     "value": "C-L",
                     "source": {
-                        "type": "Reference",
-                        "value": {
-                            "type": "LiteratureID",
-                            "value": "R0001900"
-                        }
+                        "type": "LiteratureID",
+                        "value": "R0001900"
                     }
                 },
                 {
                     "type": "CollectionID",
                     "value": "C-LE",
                     "source": {
-                        "type": "Reference",
-                        "value": {
-                            "type": "LiteratureID",
-                            "value": "R0001900"
-                        }
+                        "type": "LiteratureID",
+                        "value": "R0001900"
                     }
                 },
                 {
                     "type": "CollectionID",
                     "value": "C-NY",
                     "source": {
-                        "type": "Reference",
-                        "value": {
-                            "type": "LiteratureID",
-                            "value": "R0001900"
-                        }
+                        "type": "LiteratureID",
+                        "value": "R0001900"
                     }
                 },
                 {
                     "type": "CollectionID",
                     "value": "C-PC",
                     "source": {
-                        "type": "Reference",
-                        "value": {
-                            "type": "LiteratureID",
-                            "value": "R0001900"
-                        }
+                        "type": "LiteratureID",
+                        "value": "R0001900"
                     }
                 },
                 {
                     "type": "CollectionID",
                     "value": "C-S",
                     "source": {
-                        "type": "Reference",
-                        "value": {
-                            "type": "LiteratureID",
-                            "value": "R0001900"
-                        }
+                        "type": "LiteratureID",
+                        "value": "R0001900"
                     }
                 }
             ],

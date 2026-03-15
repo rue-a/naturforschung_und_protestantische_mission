@@ -55,7 +55,7 @@ Nachname(n) der Person inkl. Adels-/Namenszusatz. Verschiedene Schreibweisen ein
 
 Nur für weibliche Personen auszufüllen. Geburtsname(n) der Person inkl. Adels-/Namenszusatz. Verschiedene Schreibweisen eines Namens sind durch `/` (ohne umgebende Leerzeichen) anzuzeigen, wobei die relevanteste Schreibweise vorn stehen sollte. Abkürzungen sind erlaubt (auch als relevanteste Schreibweise). 
 
-### Name - Vornamen(n)
+### Name - Vorname(n)
 *String*
 
 Vorname(n) der Person. Verschiedene Schreibweisen eines Namens sind durch `/` (ohne umgebende Leerzeichen) zu trennen, wobei die relevanteste Schreibweise vorn stehen sollte. Abkürzungen sind erlaubt.
@@ -285,7 +285,7 @@ Ungeordnete Liste von IDs von Manuskripten mit Botanikbezug aus der Manuskripte-
 
 Ungeordnete Liste von IDs von Druckwerken mit Botanikbezug aus der Literatur-Tabelle deren Autor die Person ist. 
 
-### Botanik - Erwähnung der Person durch Andere
+### Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere
 *List of IDs: \<M-ID/R-ID\>*
 
 Ungeordnete Liste von IDs von Manuskripten oder Druckwerken mit Botanikbezug in denen die Person erwähnt wird.

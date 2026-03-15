@@ -111,10 +111,8 @@ class Reference:
     # -------------------------
 
     def to_dict(self) -> dict:
-        return {
-            "type": "Reference",
-            "value": self.value,
-        }
+        # delegate to wrapped object
+        return self.value.to_dict()
 
 
 # -----------------------
