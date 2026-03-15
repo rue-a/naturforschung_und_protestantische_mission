@@ -1,0 +1,995 @@
+{
+    "P0010000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "PersonID",
+                "value": "P0010000"
+            }
+        },
+        "include_in_person_lexicon": {
+            "label": "Übernahme in Personenlexikon",
+            "value": {
+                "type": "Boolean",
+                "value": true
+            }
+        },
+        "name": {
+            "preferred": {
+                "label": "Name - Vorzugsname",
+                "value": {
+                    "type": "String",
+                    "value": "Johann Baptist von Albertini"
+                }
+            },
+            "surname": {
+                "label": "Name - Nachname(n)",
+                "value": {
+                    "type": "String",
+                    "value": "Albertini"
+                }
+            },
+            "given_name": {
+                "label": "Name - Vorname(n)",
+                "value": {
+                    "type": "String",
+                    "value": "Johann Baptist von"
+                }
+            }
+        },
+        "relatives": {
+            "spouses": {
+                "label": "Angehörige - Ehepartner",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "PersonID",
+                            "value": "P0011000"
+                        }
+                    ]
+                }
+            }
+        },
+        "member_of_moravians": {
+            "label": "Zugehörigkeit Herrnhuter Brüdergemeine",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "ja(a)"
+                    },
+                    {
+                        "type": "String",
+                        "value": "ja(b)"
+                    },
+                    {
+                        "type": "String",
+                        "value": "ja(c)"
+                    }
+                ]
+            }
+        },
+        "links": {
+            "wikidata": {
+                "label": "Links - Wikidata",
+                "value": {
+                    "type": "URL",
+                    "value": "https://www.wikidata.org/wiki/Q62241"
+                }
+            },
+            "gnd": {
+                "label": "Links - GND",
+                "value": {
+                    "type": "URL",
+                    "value": "https://d-nb.info/gnd/10041463X"
+                }
+            },
+            "factgrid": {
+                "label": "Links - FactGrid",
+                "value": {
+                    "type": "URL",
+                    "value": "https://database.factgrid.de/wiki/Item:Q703529"
+                }
+            },
+            "bionomia": {
+                "label": "Links - Bionomia",
+                "value": {
+                    "type": "URL",
+                    "value": "https://bionomia.net/Q62241"
+                }
+            },
+            "saebi": {
+                "label": "Links - Säbi",
+                "value": {
+                    "type": "URL",
+                    "value": "https://saebi.isgv.de/person/snr/108"
+                }
+            }
+        },
+        "moravian_curriculum_vitae": {
+            "label": "Herrnhuter Lebenslauf",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0001500"
+            }
+        },
+        "birth": {
+            "date": {
+                "label": "Geburt - Datum",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "ISO8601_2_Date",
+                            "value": "1769-02-17",
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001500"
+                            }
+                        }
+                    ]
+                }
+            },
+            "location": {
+                "label": "Geburt - Ort",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "LocationID",
+                            "value": "L0022000",
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001500"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "death": {
+            "date": {
+                "label": "Tod - Datum",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "ISO8601_2_Date",
+                            "value": "1831-12-06",
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001500"
+                            }
+                        }
+                    ]
+                }
+            },
+            "location": {
+                "label": "Tod - Ort",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "LocationID",
+                            "value": "L0004000",
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001500"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "places_of_activity": {
+            "label": "Wirkungsorte",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1773/1782"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L0022000"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Knabenanstalt"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Schüler"
+                                }
+                            ],
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001500"
+                            }
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1782/1785"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L0022500"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Pädagogium"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Schüler"
+                                }
+                            ],
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001500"
+                            }
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1785/1788"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L0002000"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Seminar"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Schüler"
+                                }
+                            ],
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001500"
+                            }
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1788/1789"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L0022500"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Kinderanstalt"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Lehrer"
+                                }
+                            ],
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001500"
+                            }
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1789/"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L0002000"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Pädagogium"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Lehrer"
+                                }
+                            ],
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001500"
+                            }
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1796/1808"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L0022500"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Seminar"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Dozent, Inspektor, Prediger"
+                                }
+                            ],
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001500"
+                            }
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1814"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L0010000"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Mädchenanstalt"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Prediger, Lehrer"
+                                }
+                            ],
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001500"
+                            }
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1818"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L0011000"
+                                },
+                                {
+                                    "type": "Null",
+                                    "value": null
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Prediger"
+                                }
+                            ],
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001500"
+                            }
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1821"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L0004000"
+                                },
+                                {
+                                    "type": "Null",
+                                    "value": null
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Mitglied Ältestenkonferenz"
+                                }
+                            ],
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001500"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "botany": {
+            "focuses": {
+                "label": "Botanik - Foki",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "String",
+                            "value": "Pilze"
+                        },
+                        {
+                            "type": "String",
+                            "value": "Farne"
+                        },
+                        {
+                            "type": "String",
+                            "value": "Orchideen"
+                        },
+                        {
+                            "type": "String",
+                            "value": "Asperifolien der Oberlausitz"
+                        }
+                    ]
+                }
+            },
+            "contribution_to_collections_object_evidence": {
+                "label": "Botanik - Beitrag zu Sammlungen (Objektnachweis)",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "CollectionID",
+                            "value": "C-MEL",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://www.gbif.org/occurrence/2439357615"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-PH",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://mycoportal.org/portal/collections/individual/index.php?occid=6053170"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-L",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://bioportal.naturalis.nl/nl/specimen/L%20%200119238"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-DR",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://dr.jacq.org/DR086086"
+                            }
+                        }
+                    ]
+                }
+            },
+            "contribution_to_collections_database_evidence": {
+                "label": "Botanik - Beitrag zu Sammlungen (Datenbanknachweis)",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "CollectionID",
+                            "value": "C-B",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://www.tropicos.org/person/791"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-M",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://www.tropicos.org/person/791"
+                            }
+                        }
+                    ]
+                }
+            },
+            "mentions_in_botanical_works_by_others": {
+                "label": "Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "LiteratureID",
+                            "value": "R0001700"
+                        },
+                        {
+                            "type": "LiteratureID",
+                            "value": "R0002700"
+                        },
+                        {
+                            "type": "LiteratureID",
+                            "value": "R0003200"
+                        }
+                    ]
+                }
+            }
+        },
+        "mentions_in_non_botanical_works_by_others": {
+            "label": "Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "LiteratureID",
+                        "value": "R0001000"
+                    }
+                ]
+            }
+        }
+    },
+    "P0170000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "PersonID",
+                "value": "P0170000"
+            }
+        },
+        "include_in_person_lexicon": {
+            "label": "Übernahme in Personenlexikon",
+            "value": {
+                "type": "Boolean",
+                "value": true
+            }
+        },
+        "name": {
+            "preferred": {
+                "label": "Name - Vorzugsname",
+                "value": {
+                    "type": "String",
+                    "value": "Johann Jacob/Jakob Bossart"
+                }
+            },
+            "surname": {
+                "label": "Name - Nachname(n)",
+                "value": {
+                    "type": "String",
+                    "value": "Bossart"
+                }
+            },
+            "given_name": {
+                "label": "Name - Vorname(n)",
+                "value": {
+                    "type": "String",
+                    "value": "Johann Jacob/Jakob"
+                }
+            }
+        },
+        "member_of_moravians": {
+            "label": "Zugehörigkeit Herrnhuter Brüdergemeine",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "ja(b)"
+                    },
+                    {
+                        "type": "String",
+                        "value": "ja(d)"
+                    }
+                ]
+            }
+        },
+        "links": {
+            "wikidata": {
+                "label": "Links - Wikidata",
+                "value": {
+                    "type": "URL",
+                    "value": "https://www.wikidata.org/wiki/Q55874791"
+                }
+            },
+            "gnd": {
+                "label": "Links - GND",
+                "value": {
+                    "type": "URL",
+                    "value": "https://d-nb.info/gnd/12842026X"
+                }
+            },
+            "bionomia": {
+                "label": "Links - Bionomia",
+                "value": {
+                    "type": "URL",
+                    "value": "https://bionomia.net/Q55874791"
+                }
+            }
+        },
+        "birth": {
+            "date": {
+                "label": "Geburt - Datum",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "ISO8601_2_Date",
+                            "value": "1721-04-17",
+                            "source": {
+                                "type": "ManuscriptID",
+                                "value": "M0004000"
+                            }
+                        }
+                    ]
+                }
+            },
+            "location": {
+                "label": "Geburt - Ort",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "LocationID",
+                            "value": "L0003000",
+                            "source": {
+                                "type": "ManuscriptID",
+                                "value": "M0004000"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "botany": {
+            "focuses": {
+                "label": "Botanik - Foki",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "String",
+                            "value": "BarbyerNaturalienkabinett aufseinen Vorschlag hinangelegt"
+                        }
+                    ]
+                }
+            }
+        },
+        "important_works_without_botanical_context": {
+            "label": "Wichtige Werke der Person ohne botanischen Kontext",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "ManuscriptID",
+                        "value": "M0004300"
+                    },
+                    {
+                        "type": "ManuscriptID",
+                        "value": "M0004400"
+                    }
+                ]
+            }
+        }
+    },
+    "P0220000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "PersonID",
+                "value": "P0220000"
+            }
+        },
+        "include_in_person_lexicon": {
+            "label": "Übernahme in Personenlexikon",
+            "value": {
+                "type": "Boolean",
+                "value": true
+            }
+        },
+        "name": {
+            "preferred": {
+                "label": "Name - Vorzugsname",
+                "value": {
+                    "type": "String",
+                    "value": "Johann Christian Breutel"
+                }
+            },
+            "surname": {
+                "label": "Name - Nachname(n)",
+                "value": {
+                    "type": "String",
+                    "value": "Breutel"
+                }
+            },
+            "given_name": {
+                "label": "Name - Vorname(n)",
+                "value": {
+                    "type": "String",
+                    "value": "Johann Christian"
+                }
+            }
+        },
+        "member_of_moravians": {
+            "label": "Zugehörigkeit Herrnhuter Brüdergemeine",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "ja(a)"
+                    },
+                    {
+                        "type": "String",
+                        "value": "ja(c)"
+                    }
+                ]
+            }
+        },
+        "links": {
+            "wikidata": {
+                "label": "Links - Wikidata",
+                "value": {
+                    "type": "URL",
+                    "value": "https://www.wikidata.org/wiki/Q21415674"
+                }
+            },
+            "bionomia": {
+                "label": "Links - Bionomia",
+                "value": {
+                    "type": "URL",
+                    "value": "https://de.bionomia.net/Q21415674"
+                }
+            },
+            "gnd": {
+                "label": "Links - GND",
+                "value": {
+                    "type": "URL",
+                    "value": "https://d-nb.info/gnd/116493763"
+                }
+            },
+            "factgrid": {
+                "label": "Links - FactGrid",
+                "value": {
+                    "type": "URL",
+                    "value": "https://database.factgrid.de/wiki/Item:Q703514"
+                }
+            },
+            "saebi": {
+                "label": "Links - Säbi",
+                "value": {
+                    "type": "URL",
+                    "value": "https://saebi.isgv.de/gnd/116493763"
+                }
+            }
+        },
+        "moravian_curriculum_vitae": {
+            "label": "Herrnhuter Lebenslauf",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0002500"
+            }
+        },
+        "birth": {
+            "date": {
+                "label": "Geburt - Datum",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "ISO8601_2_Date",
+                            "value": "1788-01-21",
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0002500"
+                            }
+                        }
+                    ]
+                }
+            },
+            "location": {
+                "label": "Geburt - Ort",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "LocationID",
+                            "value": "L0022500",
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0002500"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "death": {
+            "date": {
+                "label": "Tod - Datum",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "ISO8601_2_Date",
+                            "value": "1875-02-18",
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0002500"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "botany": {
+            "focuses": {
+                "label": "Botanik - Foki",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "String",
+                            "value": "Moosforschung"
+                        },
+                        {
+                            "type": "String",
+                            "value": "Kryptogamenkunde"
+                        },
+                        {
+                            "type": "String",
+                            "value": "Bryologie"
+                        }
+                    ]
+                }
+            },
+            "contribution_to_collections_literature_evidence": {
+                "label": "Botanik - Beitrag zu Sammlungen (Literaturnachweis)",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "CollectionID",
+                            "value": "C-REG",
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001300"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-LZ",
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001900"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-BM",
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001900"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-FH",
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001900"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-HBG",
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001900"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-L",
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001900"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-LE",
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001900"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-NY",
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001900"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-PC",
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001900"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-S",
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0001900"
+                            }
+                        }
+                    ]
+                }
+            },
+            "mentions_in_botanical_works_by_others": {
+                "label": "Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "LiteratureID",
+                            "value": "R0002200"
+                        },
+                        {
+                            "type": "ManuscriptID",
+                            "value": "M0004600"
+                        },
+                        {
+                            "type": "LiteratureID",
+                            "value": "R0003200"
+                        }
+                    ]
+                }
+            }
+        },
+        "mentions_in_non_botanical_works_by_others": {
+            "label": "Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "ManuscriptID",
+                        "value": "M0004600"
+                    }
+                ]
+            }
+        }
+    }
+}
