@@ -1,739 +1,2029 @@
 {
     "C-hzoo": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-hzoo"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-hzoo"
+            }
         },
-        "Name der Sammlung": "Herrnhuter Zoologische Sammlung (aus Barby)",
-        "Sammlungshaltende Institution": [
-            "Akademie der Brüderunität, Barby (-)",
-            "Pädagogium der Brüder-Unität, Barby (-)",
-            "Pädagogium der Brüderunität, Niesky (-)",
-            "Museum Niesky (-)"
-        ]
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herrnhuter Zoologische Sammlung (aus Barby)"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Akademie der Brüderunität, Barby (-)"
+                    },
+                    {
+                        "type": "String",
+                        "value": "Pädagogium der Brüder-Unität, Barby (-)"
+                    },
+                    {
+                        "type": "String",
+                        "value": "Pädagogium der Brüderunität, Niesky (-)"
+                    },
+                    {
+                        "type": "String",
+                        "value": "Museum Niesky (-)"
+                    }
+                ]
+            }
+        }
     },
     "C-hethno": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-hethno"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-hethno"
+            }
         },
-        "Name der Sammlung": "Herrnhuter Ethnographische Sammlung (aus Barby)",
-        "Sammlungshaltende Institution": [
-            "Akademie der Brüderunität, Barby (-)",
-            "Pädagogium der Brüder-Unität, Barby (-)",
-            "Pädagogium der Brüderunität, Niesky (-)",
-            "Museum, Niesky (-)",
-            "Museum Herrnhut (-)"
-        ]
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herrnhuter Ethnographische Sammlung (aus Barby)"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Akademie der Brüderunität, Barby (-)"
+                    },
+                    {
+                        "type": "String",
+                        "value": "Pädagogium der Brüder-Unität, Barby (-)"
+                    },
+                    {
+                        "type": "String",
+                        "value": "Pädagogium der Brüderunität, Niesky (-)"
+                    },
+                    {
+                        "type": "String",
+                        "value": "Museum, Niesky (-)"
+                    },
+                    {
+                        "type": "String",
+                        "value": "Museum Herrnhut (-)"
+                    }
+                ]
+            }
+        }
     },
     "C-barby": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-barby"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-barby"
+            }
         },
-        "Name der Sammlung": "Herbarium Barbiensis",
-        "Teilsammlung von": {
-            "type": "CollectionID",
-            "value": "C-DR"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium Barbiensis"
+            }
         },
-        "Sammlungshaltende Institution": [
-            "Akademie der Brüderunität, Barby (-)",
-            "Pädagogium der Brüder-Unität, Barby (-)",
-            "Pädagogium der Brüderunität, Niesky (-)",
-            "Museum, Niesky (-)",
-            "TU Dresden (-)"
-        ]
+        "part_of_collection": {
+            "label": "Teilsammlung von",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-DR"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Akademie der Brüderunität, Barby (-)"
+                    },
+                    {
+                        "type": "String",
+                        "value": "Pädagogium der Brüder-Unität, Barby (-)"
+                    },
+                    {
+                        "type": "String",
+                        "value": "Pädagogium der Brüderunität, Niesky (-)"
+                    },
+                    {
+                        "type": "String",
+                        "value": "Museum, Niesky (-)"
+                    },
+                    {
+                        "type": "String",
+                        "value": "TU Dresden (-)"
+                    }
+                ]
+            }
+        }
     },
     "C-kleinwelka": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-kleinwelka"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-kleinwelka"
+            }
         },
-        "Name der Sammlung": "Herbarium Kleinwelka",
-        "Teilsammlung von": {
-            "type": "CollectionID",
-            "value": "C-GLM"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium Kleinwelka"
+            }
         },
-        "Sammlungshaltende Institution": [
-            "Senckenberg Gesellschaft für Naturforschung: Senckenberg Museum für Naturkunde Görlitz"
-        ],
-        "Anmerkungen": "siehe Datenbankauszug zur Wenck & Curie; Beispiel https://id.senckenberg.de/object/sesam-1468906"
+        "part_of_collection": {
+            "label": "Teilsammlung von",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-GLM"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Senckenberg Gesellschaft für Naturforschung: Senckenberg Museum für Naturkunde Görlitz"
+                    }
+                ]
+            }
+        },
+        "notes": {
+            "label": "Anmerkungen",
+            "value": {
+                "type": "String",
+                "value": "siehe Datenbankauszug zur Wenck & Curie; Beispiel https://id.senckenberg.de/object/sesam-1468906"
+            }
+        }
     },
     "C-A": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-A"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-A"
+            }
         },
-        "Name der Sammlung": "Herbarium Harvard University",
-        "NYBG Herbarcode": "A",
-        "Anmerkungen": "wie Unterscheidung A und GH?"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium Harvard University"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "A"
+            }
+        },
+        "notes": {
+            "label": "Anmerkungen",
+            "value": {
+                "type": "String",
+                "value": "wie Unterscheidung A und GH?"
+            }
+        }
     },
     "C-ANSP": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-ANSP"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-ANSP"
+            }
         },
-        "Name der Sammlung": "Diatom Herbarium",
-        "NYBG Herbarcode": "ANSP",
-        "Sammlungshaltende Institution": [
-            "Academy of Natural Sciences of Drexel University"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "https://ansp.org/research/systematics-evolution/diatom-herbarium/"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Diatom Herbarium"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "ANSP"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Academy of Natural Sciences of Drexel University"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "https://ansp.org/research/systematics-evolution/diatom-herbarium/"
+            }
         }
     },
     "C-B": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-B"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-B"
+            }
         },
-        "Name der Sammlung": "Herbarium Berolinense",
-        "NYBG Herbarcode": "B",
-        "Sammlungshaltende Institution": [
-            "ZE Botanischer Garten und Botanisches Museum, Freie Universität Berlin"
-        ]
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium Berolinense"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "B"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "ZE Botanischer Garten und Botanisches Museum, Freie Universität Berlin"
+                    }
+                ]
+            }
+        }
     },
     "C-AWH": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-AWH"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-AWH"
+            }
         },
-        "Name der Sammlung": "Dr. Henri Van Heurck Museum",
-        "NYBG Herbarcode": "AWH",
-        "Sammlungshaltende Institution": [
-            "Herbarium Royal Zoological Society of Antwerp"
-        ],
-        "Anmerkungen": "nach BR in 2014"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Dr. Henri Van Heurck Museum"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "AWH"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Herbarium Royal Zoological Society of Antwerp"
+                    }
+                ]
+            }
+        },
+        "notes": {
+            "label": "Anmerkungen",
+            "value": {
+                "type": "String",
+                "value": "nach BR in 2014"
+            }
+        }
     },
     "C-BM": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-BM"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-BM"
+            }
         },
-        "Name der Sammlung": "Herbarium NHM London",
-        "NYBG Herbarcode": "BM",
-        "Sammlungshaltende Institution": [
-            "The Natural History Museum London"
-        ]
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium NHM London"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "BM"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "The Natural History Museum London"
+                    }
+                ]
+            }
+        }
     },
     "C-BP": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-BP"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-BP"
+            }
         },
-        "NYBG Herbarcode": "BP",
-        "Sammlungshaltende Institution": [
-            "Hungarian Natural History Museum"
-        ]
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "BP"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Hungarian Natural History Museum"
+                    }
+                ]
+            }
+        }
     },
     "C-BR": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-BR"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-BR"
+            }
         },
-        "NYBG Herbarcode": "BR",
-        "Sammlungshaltende Institution": [
-            "Meise Botanic Garden"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "http://www.botanicalcollections.be"
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "BR"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Meise Botanic Garden"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "http://www.botanicalcollections.be"
+            }
         }
     },
     "C-BRNU": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-BRNU"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-BRNU"
+            }
         },
-        "NYBG Herbarcode": "BRNU",
-        "Sammlungshaltende Institution": [
-            "Masaryk University Brno-Bohunice"
-        ]
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "BRNU"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Masaryk University Brno-Bohunice"
+                    }
+                ]
+            }
+        }
     },
     "C-BREM": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-BREM"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-BREM"
+            }
         },
-        "NYBG Herbarcode": "BREM",
-        "Sammlungshaltende Institution": [
-            "Übersee-Museum Bremen"
-        ]
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "BREM"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Übersee-Museum Bremen"
+                    }
+                ]
+            }
+        }
     },
     "C-BRSL": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-BRSL"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-BRSL"
+            }
         },
-        "Name der Sammlung": "siehe WRSL",
-        "NYBG Herbarcode": "BRSL"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "siehe WRSL"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "BRSL"
+            }
+        }
     },
     "C-C": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-C"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-C"
+            }
         },
-        "NYBG Herbarcode": "C",
-        "Sammlungshaltende Institution": [
-            "University of Copenhagen"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "http://samlinger.snm.ku.dk/en/dry-and-wet-collections/botany/"
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "C"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "University of Copenhagen"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "http://samlinger.snm.ku.dk/en/dry-and-wet-collections/botany/"
+            }
         }
     },
     "C-COI": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-COI"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-COI"
+            }
         },
-        "Name der Sammlung": "Herbarium of the University of Coimbra",
-        "NYBG Herbarcode": "COI",
-        "Sammlungshaltende Institution": [
-            "Herbarium of the University of Coimbra, Department of Life Sciences"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "http://coicatalogue.uc.pt"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium of the University of Coimbra"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "COI"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Herbarium of the University of Coimbra, Department of Life Sciences"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "http://coicatalogue.uc.pt"
+            }
         }
     },
     "C-DR": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-DR"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-DR"
+            }
         },
-        "Name der Sammlung": "Herbarium Dresdense",
-        "NYBG Herbarcode": "DR",
-        "Sammlungshaltende Institution": [
-            "Institut für Botanik, Technische Universität Dresden"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "https://tu-dresden.de/mn/biologie/botanik/herbarium"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium Dresdense"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "DR"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Institut für Botanik, Technische Universität Dresden"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "https://tu-dresden.de/mn/biologie/botanik/herbarium"
+            }
         }
     },
     "C-ERE": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-ERE"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-ERE"
+            }
         },
-        "NYBG Herbarcode": "ERE",
-        "Sammlungshaltende Institution": [
-            "Institute of Botany of the National Academy of Sciences of Armenia"
-        ]
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "ERE"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Institute of Botany of the National Academy of Sciences of Armenia"
+                    }
+                ]
+            }
+        }
     },
     "C-FH": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-FH"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-FH"
+            }
         },
-        "NYBG Herbarcode": "FH",
-        "Sammlungshaltende Institution": [
-            "Harvard University"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "http://www.huh.harvard.edu"
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "FH"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Harvard University"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "http://www.huh.harvard.edu"
+            }
         }
     },
     "C-FI": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-FI"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-FI"
+            }
         },
-        "NYBG Herbarcode": "FI",
-        "Sammlungshaltende Institution": [
-            "Natural History Museum, Firenze"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "http://parlatore.msn.unifi.it/hci_italy_web.html"
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "FI"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Natural History Museum, Firenze"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "http://parlatore.msn.unifi.it/hci_italy_web.html"
+            }
         }
     },
     "C-FR": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-FR"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-FR"
+            }
         },
-        "Name der Sammlung": "Herbarium Frankfurt",
-        "NYBG Herbarcode": "FR"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium Frankfurt"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "FR"
+            }
+        }
     },
     "C-G": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-G"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-G"
+            }
         },
-        "Name der Sammlung": "Herbarium G",
-        "NYBG Herbarcode": "G",
-        "Sammlungshaltende Institution": [
-            "Conservatoire et Jardin botaniques de la Ville de Genève"
-        ],
-        "Anmerkungen": "n Bionomia unter CJBG"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium G"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "G"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Conservatoire et Jardin botaniques de la Ville de Genève"
+                    }
+                ]
+            }
+        },
+        "notes": {
+            "label": "Anmerkungen",
+            "value": {
+                "type": "String",
+                "value": "n Bionomia unter CJBG"
+            }
+        }
     },
     "C-GH": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-GH"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-GH"
+            }
         },
-        "Name der Sammlung": "Herbarium Harvard University",
-        "NYBG Herbarcode": "GH"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium Harvard University"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "GH"
+            }
+        }
     },
     "C-GJO": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-GJO"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-GJO"
+            }
         },
-        "NYBG Herbarcode": "GJO",
-        "Sammlungshaltende Institution": [
-            "Universalmuseum Joanneum, Graz"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "http://www.museum-joanneum.at/botanik"
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "GJO"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Universalmuseum Joanneum, Graz"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "http://www.museum-joanneum.at/botanik"
+            }
         }
     },
     "C-GLM": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-GLM"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-GLM"
+            }
         },
-        "NYBG Herbarcode": "GLM",
-        "Sammlungshaltende Institution": [
-            "Senckenberg Gesellschaft für Naturforschung: Senckenberg Museum für Naturkunde Görlitz"
-        ]
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "GLM"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Senckenberg Gesellschaft für Naturforschung: Senckenberg Museum für Naturkunde Görlitz"
+                    }
+                ]
+            }
+        }
     },
     "C-H": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-H"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-H"
+            }
         },
-        "NYBG Herbarcode": "H",
-        "Sammlungshaltende Institution": [
-            "Finnish Museum of Natural History - Botany and Mycology Unit"
-        ]
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "H"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Finnish Museum of Natural History - Botany and Mycology Unit"
+                    }
+                ]
+            }
+        }
     },
     "C-HBG": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-HBG"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-HBG"
+            }
         },
-        "NYBG Herbarcode": "HBG",
-        "Sammlungshaltende Institution": [
-            "University of Hamburg"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "https://www.biologie.uni-hamburg.de/HBG"
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "HBG"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "University of Hamburg"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "https://www.biologie.uni-hamburg.de/HBG"
+            }
         }
     },
     "C-HEID": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-HEID"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-HEID"
+            }
         },
-        "NYBG Herbarcode": "HEID",
-        "Sammlungshaltende Institution": [
-            "University of Heidelberg"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "https://www.botgart.cos.uni-heidelberg.de/de/sammlungen-archive/herbarium-heid"
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "HEID"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "University of Heidelberg"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "https://www.botgart.cos.uni-heidelberg.de/de/sammlungen-archive/herbarium-heid"
+            }
         }
     },
     "C-IBF": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-IBF"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-IBF"
+            }
         },
-        "NYBG Herbarcode": "IBF",
-        "Sammlungshaltende Institution": [
-            "Tiroler Landesmuseum"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "https://www.uibk.ac.at/microbiology/mycological-collection/"
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "IBF"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Tiroler Landesmuseum"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "https://www.uibk.ac.at/microbiology/mycological-collection/"
+            }
         }
     },
     "C-J": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-J"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-J"
+            }
         },
-        "NYBG Herbarcode": "J"
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "J"
+            }
+        }
     },
     "C-K": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-K"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-K"
+            }
         },
-        "Name der Sammlung": "Herbarium Royal Botanic Gardens Kew, London",
-        "NYBG Herbarcode": "K"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium Royal Botanic Gardens Kew, London"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "K"
+            }
+        }
     },
     "C-KIEL": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-KIEL"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-KIEL"
+            }
         },
-        "NYBG Herbarcode": "KIEL",
-        "Sammlungshaltende Institution": [
-            "Christian-Albrechts-Universität zu Kiel"
-        ]
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "KIEL"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Christian-Albrechts-Universität zu Kiel"
+                    }
+                ]
+            }
+        }
     },
     "C-KFTA": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-KFTA"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-KFTA"
+            }
         },
-        "NYBG Herbarcode": "KFTA",
-        "Sammlungshaltende Institution": [
-            "Saint Petersburg S. M. Kirov Forestry Academy"
-        ]
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "KFTA"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Saint Petersburg S. M. Kirov Forestry Academy"
+                    }
+                ]
+            }
+        }
     },
     "C-L": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-L"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-L"
+            }
         },
-        "NYBG Herbarcode": "L",
-        "Sammlungshaltende Institution": [
-            "Naturalis Biodiversity Center"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "https://bioportal.naturalis.nl/nl"
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "L"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Naturalis Biodiversity Center"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "https://bioportal.naturalis.nl/nl"
+            }
         }
     },
     "C-LE": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-LE"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-LE"
+            }
         },
-        "Name der Sammlung": "Herbarium Komarov Botanical Institute",
-        "NYBG Herbarcode": "LE",
-        "Sammlungshaltende Institution": [
-            "Russian Academy of Sciences"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "https://www.binran.ru/en/"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium Komarov Botanical Institute"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "LE"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Russian Academy of Sciences"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "https://www.binran.ru/en/"
+            }
         }
     },
     "C-LZ": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-LZ"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-LZ"
+            }
         },
-        "NYBG Herbarcode": "LZ",
-        "Sammlungshaltende Institution": [
-            "University of Leipzig"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "http://www.biphaps.uni-leipzig.de/de/sysbot/herbarium.html"
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "LZ"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "University of Leipzig"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "http://www.biphaps.uni-leipzig.de/de/sysbot/herbarium.html"
+            }
         }
     },
     "C-LUB": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-LUB"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-LUB"
+            }
         },
-        "NYBG Herbarcode": "LUB",
-        "Sammlungshaltende Institution": [
-            "Museum für Natur und Umwelt, Lübeck"
-        ]
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "LUB"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Museum für Natur und Umwelt, Lübeck"
+                    }
+                ]
+            }
+        }
     },
     "C-M": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-M"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-M"
+            }
         },
-        "NYBG Herbarcode": "M",
-        "Sammlungshaltende Institution": [
-            "Staatliche Naturwissenschaftliche Sammlungen Bayerns (SNSB)"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "http://www.botanischestaatssammlung.de"
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "M"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Staatliche Naturwissenschaftliche Sammlungen Bayerns (SNSB)"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "http://www.botanischestaatssammlung.de"
+            }
         }
     },
     "C-MEL": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-MEL"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-MEL"
+            }
         },
-        "NYBG Herbarcode": "MEL",
-        "Sammlungshaltende Institution": [
-            "Royal Botanic Gardens Victoria (Melbourne/Australia)"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "https://avh.ala.org.au/occurrences/search?q=collection_uid%3Aco54#tab_recordsView"
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "MEL"
+            }
         },
-        "Anmerkungen": "Objekte bei GBIF und AVH http://avh.ala.org.au/occurrences/search?q=collection_uid:co54, aber keine urls für Objekte, deswegen Invetnarnummern in Personentabelle verwendet"
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Royal Botanic Gardens Victoria (Melbourne/Australia)"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "https://avh.ala.org.au/occurrences/search?q=collection_uid%3Aco54#tab_recordsView"
+            }
+        },
+        "notes": {
+            "label": "Anmerkungen",
+            "value": {
+                "type": "String",
+                "value": "Objekte bei GBIF und AVH http://avh.ala.org.au/occurrences/search?q=collection_uid:co54, aber keine urls für Objekte, deswegen Invetnarnummern in Personentabelle verwendet"
+            }
+        }
     },
     "C-nhmd": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-nhmd"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-nhmd"
+            }
         },
-        "Name der Sammlung": "Natural History Museum of Denmark",
-        "Sammlungshaltende Institution": [
-            "University of Copenhagen"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "https://samlinger.snm.ku.dk/en/dry-and-wet-collections/botany/"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Natural History Museum of Denmark"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "University of Copenhagen"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "https://samlinger.snm.ku.dk/en/dry-and-wet-collections/botany/"
+            }
         }
     },
     "C-NY": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-NY"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-NY"
+            }
         },
-        "NYBG Herbarcode": "NY",
-        "Sammlungshaltende Institution": [
-            "The New York Botanical Garden"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "http://www.nybg.org"
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "NY"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "The New York Botanical Garden"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "http://www.nybg.org"
+            }
         }
     },
     "C-P": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-P"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-P"
+            }
         },
-        "Name der Sammlung": "Herbarium - MNHN - Museum national d'Histoire naturelle",
-        "NYBG Herbarcode": "P",
-        "Sammlungshaltende Institution": [
-            "Muséum National d'Histoire Naturelle"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "http://colhelper.mnhn.fr/"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium - MNHN - Museum national d'Histoire naturelle"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "P"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Muséum National d'Histoire Naturelle"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "http://colhelper.mnhn.fr/"
+            }
         }
     },
     "C-PC": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-PC"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-PC"
+            }
         },
-        "NYBG Herbarcode": "PC",
-        "Sammlungshaltende Institution": [
-            "Muséum National d'Histoire Naturelle"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "http://colhelper.mnhn.fr/"
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "PC"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Muséum National d'Histoire Naturelle"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "http://colhelper.mnhn.fr/"
+            }
         }
     },
     "C-PI": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-PI"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-PI"
+            }
         },
-        "Name der Sammlung": "Herbarium Horti Botanici Pisani",
-        "NYBG Herbarcode": "PI",
-        "Sammlungshaltende Institution": [
-            "Dipartimento di Biologia, Università di Pisa"
-        ]
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium Horti Botanici Pisani"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "PI"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Dipartimento di Biologia, Università di Pisa"
+                    }
+                ]
+            }
+        }
     },
     "C-PRC": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-PRC"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-PRC"
+            }
         },
-        "NYBG Herbarcode": "PRC",
-        "Sammlungshaltende Institution": [
-            "Charles University, Prague"
-        ]
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "PRC"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Charles University, Prague"
+                    }
+                ]
+            }
+        }
     },
     "C-S": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-S"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-S"
+            }
         },
-        "NYBG Herbarcode": "S",
-        "Sammlungshaltende Institution": [
-            "Swedish Museum of Natural History"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "https://www.nrm.se/en/forskningochsamlingar/botanik.8999708.html"
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "S"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Swedish Museum of Natural History"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "https://www.nrm.se/en/forskningochsamlingar/botanik.8999708.html"
+            }
         }
     },
     "C-STU": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-STU"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-STU"
+            }
         },
-        "Name der Sammlung": "Herbarium Stuttgart",
-        "NYBG Herbarcode": "STU"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium Stuttgart"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "STU"
+            }
+        }
     },
     "C-TENN": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-TENN"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-TENN"
+            }
         },
-        "Name der Sammlung": "University of Tennessee Herbarium",
-        "NYBG Herbarcode": "TENN",
-        "Sammlungshaltende Institution": [
-            "University of Tennessee"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "https://herbarium.utk.edu/"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "University of Tennessee Herbarium"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "TENN"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "University of Tennessee"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "https://herbarium.utk.edu/"
+            }
         }
     },
     "C-TU": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-TU"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-TU"
+            }
         },
-        "Name der Sammlung": "Herbarium Tartu",
-        "NYBG Herbarcode": "TU",
-        "Sammlungshaltende Institution": [
-            "University of Tartu"
-        ]
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium Tartu"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "TU"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "University of Tartu"
+                    }
+                ]
+            }
+        }
     },
     "C-UPS": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-UPS"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-UPS"
+            }
         },
-        "NYBG Herbarcode": "UPS",
-        "Sammlungshaltende Institution": [
-            "Suzhou Teachers College, Suzhou, Anhui"
-        ]
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "UPS"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Suzhou Teachers College, Suzhou, Anhui"
+                    }
+                ]
+            }
+        }
     },
     "C-US": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-US"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-US"
+            }
         },
-        "Name der Sammlung": "Herbarium Smithsonian Institution",
-        "NYBG Herbarcode": "US",
-        "Sammlungshaltende Institution": [
-            "National Museum of Natural History, Smithsonian Institution"
-        ]
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium Smithsonian Institution"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "US"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "National Museum of Natural History, Smithsonian Institution"
+                    }
+                ]
+            }
+        }
     },
     "C-WRSL": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-WRSL"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-WRSL"
+            }
         },
-        "Name der Sammlung": "Herbarium Wroclaw University",
-        "NYBG Herbarcode": "WRSL",
-        "Webseite": {
-            "type": "URL",
-            "value": "http://www.muzeum-przyrodnicze.uni.wroc.pl/en/index.php?go=kolekcje-herbarium"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium Wroclaw University"
+            }
         },
-        "Anmerkungen": "https://www.gbif.org/occurrence/search?dataset_key=f76bfff0-17a0-11de-9d16-b8a03c50a862&dataset_key=cef8bb20-149a-11de-bab0-b8a03c50a862&dataset_key=139c8540-af9e-11db-ad75-b8a03c50a862&dataset_key=524e7fdf-b700-4650-8050-70166c6348f9&dataset_key=af088739-6329-413e-867b-dccd58844522&dataset_key=238532ed-d700-4f0c-beda-89a0033f53f1&occurrence_status=present"
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "WRSL"
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "http://www.muzeum-przyrodnicze.uni.wroc.pl/en/index.php?go=kolekcje-herbarium"
+            }
+        },
+        "notes": {
+            "label": "Anmerkungen",
+            "value": {
+                "type": "String",
+                "value": "https://www.gbif.org/occurrence/search?dataset_key=f76bfff0-17a0-11de-9d16-b8a03c50a862&dataset_key=cef8bb20-149a-11de-bab0-b8a03c50a862&dataset_key=139c8540-af9e-11db-ad75-b8a03c50a862&dataset_key=524e7fdf-b700-4650-8050-70166c6348f9&dataset_key=af088739-6329-413e-867b-dccd58844522&dataset_key=238532ed-d700-4f0c-beda-89a0033f53f1&occurrence_status=present"
+            }
+        }
     },
     "C-uttendoerfer": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-uttendoerfer"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-uttendoerfer"
+            }
         },
-        "Name der Sammlung": "Herbarium Otto Uttendörfer",
-        "Teilsammlung von": {
-            "type": "CollectionID",
-            "value": "C-DR"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium Otto Uttendörfer"
+            }
+        },
+        "part_of_collection": {
+            "label": "Teilsammlung von",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-DR"
+            }
         }
     },
     "C-hans": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-hans"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-hans"
+            }
         },
-        "Name der Sammlung": "Herbarium W. Hans",
-        "Teilsammlung von": {
-            "type": "CollectionID",
-            "value": "C-DR"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium W. Hans"
+            }
+        },
+        "part_of_collection": {
+            "label": "Teilsammlung von",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-DR"
+            }
         }
     },
     "C-PH": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-PH"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-PH"
+            }
         },
-        "Name der Sammlung": "Herbarium PH",
-        "NYBG Herbarcode": "PH",
-        "Sammlungshaltende Institution": [
-            "Academy of Natural Sciences of Drexel University"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "https://ansp.org/research/systematics-evolution/botany/botany-collections/"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium PH"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "PH"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Academy of Natural Sciences of Drexel University"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "https://ansp.org/research/systematics-evolution/botany/botany-collections/"
+            }
         }
     },
     "C-Z": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-Z"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-Z"
+            }
         },
-        "Name der Sammlung": "Herbarium der Universität Zürich",
-        "NYBG Herbarcode": "Z"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium der Universität Zürich"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "Z"
+            }
+        }
     },
     "C-passauGefäß": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-passauGefäß"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-passauGefäß"
+            }
         },
-        "Name der Sammlung": "Herbarium des Naturwissenschaftlichen Verein Passau",
-        "Anmerkungen": "zunächst Herbarium des Vereins, später unter Prof. HelmutFürsch in den Räumen des Institutes für Didaktik der Biologiean der Universität Passau Bei Schließung des Lehrstuhls im Jahr 2011 wurde das Herbarium wohl vernichtet (siehe Teuber 2023)."
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium des Naturwissenschaftlichen Verein Passau"
+            }
+        },
+        "notes": {
+            "label": "Anmerkungen",
+            "value": {
+                "type": "String",
+                "value": "zunächst Herbarium des Vereins, später unter Prof. HelmutFürsch in den Räumen des Institutes für Didaktik der Biologiean der Universität Passau Bei Schließung des Lehrstuhls im Jahr 2011 wurde das Herbarium wohl vernichtet (siehe Teuber 2023)."
+            }
+        }
     },
     "C-passauMoos": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-passauMoos"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-passauMoos"
+            }
         },
-        "Name der Sammlung": "Herbarium des Naturwissenschaftlichen Verein Passau",
-        "Teilsammlung von": {
-            "type": "CollectionID",
-            "value": "C-rbg"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium des Naturwissenschaftlichen Verein Passau"
+            }
         },
-        "Anmerkungen": "zunächst Herbarium des Vereins, später unter Prof. HelmutFürsch in den Räumen des Institutes für Didaktik der Biologiean der Universität Passau. Nach Schließung des Lehrstuhls seit 2021 in Moosherbar der RegensburgischenBotanischen Gesellschaft (siehe Teuber 2023)"
+        "part_of_collection": {
+            "label": "Teilsammlung von",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-rbg"
+            }
+        },
+        "notes": {
+            "label": "Anmerkungen",
+            "value": {
+                "type": "String",
+                "value": "zunächst Herbarium des Vereins, später unter Prof. HelmutFürsch in den Räumen des Institutes für Didaktik der Biologiean der Universität Passau. Nach Schließung des Lehrstuhls seit 2021 in Moosherbar der RegensburgischenBotanischen Gesellschaft (siehe Teuber 2023)"
+            }
+        }
     },
     "C-REG": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-REG"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-REG"
+            }
         },
-        "Name der Sammlung": "Herbarium der Regensburgischen Botanischen Gesellschaft",
-        "NYBG Herbarcode": "REG",
-        "Webseite": {
-            "type": "URL",
-            "value": "https://www.rbg1790.de/einrichtungen.html"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium der Regensburgischen Botanischen Gesellschaft"
+            }
         },
-        "Anmerkungen": "GBIF: https://doi.org/10.15468/rv6kzy"
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "REG"
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "https://www.rbg1790.de/einrichtungen.html"
+            }
+        },
+        "notes": {
+            "label": "Anmerkungen",
+            "value": {
+                "type": "String",
+                "value": "GBIF: https://doi.org/10.15468/rv6kzy"
+            }
+        }
     },
     "C-MW": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-MW"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-MW"
+            }
         },
-        "NYBG Herbarcode": "MW",
-        "Sammlungshaltende Institution": [
-            "Moscow University Herbarium hostet by; Lomonosov Moscow State University"
-        ],
-        "Webseite": {
-            "type": "URL",
-            "value": "https://www.gbif.org/dataset/902c8fe7-8f38-45b0-854e-c324fed36303"
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "MW"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Moscow University Herbarium hostet by; Lomonosov Moscow State University"
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "https://www.gbif.org/dataset/902c8fe7-8f38-45b0-854e-c324fed36303"
+            }
         }
     },
     "C-POLL": {
-        "ID": {
-            "type": "CollectionID",
-            "value": "C-POLL"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-POLL"
+            }
         },
-        "Name der Sammlung": "Pfalzmuseum für Naturkunde, Bad Dürkheim",
-        "NYBG Herbarcode": "POLL",
-        "Webseite": {
-            "type": "URL",
-            "value": "https://www.pfalzmuseum.de/"
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Pfalzmuseum für Naturkunde, Bad Dürkheim"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "POLL"
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "https://www.pfalzmuseum.de/"
+            }
         }
     }
 }

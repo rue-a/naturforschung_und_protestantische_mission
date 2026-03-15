@@ -22,10 +22,30 @@ from new_datatypes import (
 
 @dataclass(frozen=True)
 class ParserSpec:
+    label: str
     parser: Callable | List[Callable]  # z.B. ID, ISO8601_2_Date, str
     is_list: bool = False
     codelist: Optional[list] = None  # the codelist
     require_source: bool = False
+
+
+def flatten_parser_specs(spec_tree: dict, path: tuple[str, ...] = ()) -> dict[str, tuple[tuple[str, ...], ParserSpec]]:
+    flat_specs = {}
+
+    for key, value in spec_tree.items():
+        current_path = path + (key,)
+
+        if isinstance(value, ParserSpec):
+            flat_specs[value.label] = (current_path, value)
+            continue
+
+        if isinstance(value, dict):
+            flat_specs.update(flatten_parser_specs(value, current_path))
+            continue
+
+        raise TypeError(f"Unsupported parser spec node at {current_path}: {type(value)!r}")
+
+    return flat_specs
 
 
 def clean_field(raw: str) -> str:
@@ -94,19 +114,6 @@ def parse_field(
     return parse_one(cleaned_raw)
 
 
-CODELISTS = {
-    "member_of_moravians": [
-        "ja(a)",
-        "ja(b)",
-        "ja(c)",
-        "ja(d)",
-        "nein(a)",
-        "nein(b)",
-        "nein(c)",
-        "unbekannt",
-    ]
-}
-
 kontakt_parser = ComplexType(
     parts=[
         PersonID,  # 0: P-ID (required)
@@ -118,44 +125,45 @@ kontakt_parser = ComplexType(
 
 PARSERS_ARCHIVE = {
     # --- Pflichtfelder ---
-    "ID": ParserSpec(parser=ArchiveID),
-    "Name": ParserSpec(parser=str),
+    "id": ParserSpec(label="ID", parser=ArchiveID),
+    "name": ParserSpec(label="Name", parser=str),
     # --- Metadaten ---
-    "Abkürzungen": ParserSpec(parser=str, is_list=True),
+    "abbreviations": ParserSpec(label="Abkürzungen", parser=str, is_list=True),
     # --- Link ---
-    "Link": ParserSpec(parser=URL),
+    "link": ParserSpec(label="Link", parser=URL),
 }
 
 PARSERS_LITERATUR = {
     # --- Pflichtfelder ---
-    "ID": ParserSpec(parser=LiteratureID),
-    "Titel": ParserSpec(parser=str),
+    "id": ParserSpec(label="ID", parser=LiteratureID),
+    "title": ParserSpec(label="Titel", parser=str),
     # --- Links ---
-    "Permalink": ParserSpec(parser=URL),
+    "permalink": ParserSpec(label="Permalink", parser=URL),
     # --- Freitext ---
-    "Beschreibung": ParserSpec(parser=str),
+    "description": ParserSpec(label="Beschreibung", parser=str),
 }
 
 PARSERS_MANUSKRIPTE = {
     # --- Pflichtfelder ---
-    "ID": ParserSpec(parser=ManuscriptID),
-    "Archiv": ParserSpec(parser=ArchiveID),
-    "Signatur": ParserSpec(parser=str),
-    "Titel": ParserSpec(parser=str),
+    "id": ParserSpec(label="ID", parser=ManuscriptID),
+    "archive": ParserSpec(label="Archiv", parser=ArchiveID),
+    "signature": ParserSpec(label="Signatur", parser=str),
+    "title": ParserSpec(label="Titel", parser=str),
     # --- Links ---
-    "Permalink": ParserSpec(parser=URL),
+    "permalink": ParserSpec(label="Permalink", parser=URL),
     # --- Beschreibung ---
-    "Beschreibung": ParserSpec(parser=str),
+    "description": ParserSpec(label="Beschreibung", parser=str),
     # --- Identifiers ---
-    "Wikidata ID": ParserSpec(parser=str),
+    "wikidata_id": ParserSpec(label="Wikidata ID", parser=str),
 }
 
 PARSERS_ORTE = {
     # --- Pflichtfelder ---
-    "ID": ParserSpec(parser=LocationID),
-    "Name": ParserSpec(parser=str),
+    "id": ParserSpec(label="ID", parser=LocationID),
+    "name": ParserSpec(label="Name", parser=str),
     # --- Namensvarianten ---
-    "Varianten": ParserSpec(
+    "variants": ParserSpec(
+        label="Varianten",
         parser=ComplexType(
             parts=[
                 str,  # name
@@ -166,77 +174,120 @@ PARSERS_ORTE = {
         is_list=True,
     ),
     # --- Typklassifikation ---
-    "GeoNames-Typ": ParserSpec(
+    "geonames_type": ParserSpec(
+        label="GeoNames-Typ",
         parser=str,
         is_list=True,
         codelist=["A", "H", "L", "P", "R", "S", "T"],
     ),
-    "AAT-Typ": ParserSpec(parser=int, is_list=True),
+    "aat_type": ParserSpec(label="AAT-Typ", parser=int, is_list=True),
     # --- Zeitlicher Gültigkeitsbereich ---
-    "Beginn": ParserSpec(parser=ISO8601_2_Date),
-    "Ende": ParserSpec(parser=ISO8601_2_Date),
+    "start": ParserSpec(label="Beginn", parser=ISO8601_2_Date),
+    "end": ParserSpec(label="Ende", parser=ISO8601_2_Date),
     # --- Authority Links ---
-    "Links": ParserSpec(parser=URL, is_list=True),
+    "links": ParserSpec(label="Links", parser=URL, is_list=True),
     # --- Koordinaten ---
-    "Longitude": ParserSpec(parser=float),
-    "Latitude": ParserSpec(parser=float),
+    "longitude": ParserSpec(label="Longitude", parser=float),
+    "latitude": ParserSpec(label="Latitude", parser=float),
     # --- Geometrie ---
-    "Geometrie": ParserSpec(parser=str),
-    "Geometriequelle": ParserSpec(parser=[LiteratureID, ManuscriptID, URL]),
+    "geometry": ParserSpec(label="Geometrie", parser=str),
+    "geometry_source": ParserSpec(
+        label="Geometriequelle", parser=[LiteratureID, ManuscriptID, URL]
+    ),
     # --- Metadaten ---
-    "Qualität der Ortsangabe": ParserSpec(parser=str),
-    "Beschreibung": ParserSpec(parser=str),
+    "location_accuracy": ParserSpec(label="Qualität der Ortsangabe", parser=str),
+    "description": ParserSpec(label="Beschreibung", parser=str),
 }
 
 PARSERS_PERSONEN = {
     # --- Pflichtfelder ---
-    "ID": ParserSpec(parser=PersonID),
-    "Übernahme in Personenlexikon": ParserSpec(
-        parser=lambda v: {"ja": True, "nein": False}[clean_field(v).lower()]
+    "id": ParserSpec(label="ID", parser=PersonID),
+    "include_in_person_lexicon": ParserSpec(
+        label="Übernahme in Personenlexikon",
+        parser=lambda v: {"ja": True, "nein": False}[clean_field(v).lower()],
     ),
-    "Name - Vorzugsname": ParserSpec(parser=str),
     # --- Namen ---
-    "Name - Nachname(n)": ParserSpec(parser=str),
-    "Name - Geburtsname(n)": ParserSpec(parser=str),
-    "Name - Vorname(n)": ParserSpec(parser=str),
-    "Name - Titel": ParserSpec(parser=str),
-    "Name - Anmerkungen": ParserSpec(parser=str),
+    "name": {
+        "preferred": ParserSpec(label="Name - Vorzugsname", parser=str),
+        "surname": ParserSpec(label="Name - Nachname(n)", parser=str),
+        "birth_name": ParserSpec(label="Name - Geburtsname(n)", parser=str),
+        "given_name": ParserSpec(label="Name - Vorname(n)", parser=str),
+        "title": ParserSpec(label="Name - Titel", parser=str),
+        "notes": ParserSpec(label="Name - Anmerkungen", parser=str),
+    },
     # --- Angehörige ---
-    "Angehörige - Geschwister": ParserSpec(parser=PersonID, is_list=True),
-    "Angehörige - Ehepartner": ParserSpec(parser=PersonID, is_list=True),
-    "Angehörige - Kinder": ParserSpec(parser=PersonID, is_list=True),
-    "Angehörige - Anmerkungen": ParserSpec(parser=str),
+    "relatives": {
+        "siblings": ParserSpec(
+            label="Angehörige - Geschwister", parser=PersonID, is_list=True
+        ),
+        "spouses": ParserSpec(
+            label="Angehörige - Ehepartner", parser=PersonID, is_list=True
+        ),
+        "children": ParserSpec(
+            label="Angehörige - Kinder", parser=PersonID, is_list=True
+        ),
+        "notes": ParserSpec(label="Angehörige - Anmerkungen", parser=str),
+    },
     # --- Zugehörigkeit ---
-    "Zugehörigkeit Herrnhuter Brüdergemeine": ParserSpec(
-        parser=str, is_list=True, codelist=CODELISTS["member_of_moravians"]
+    "member_of_moravians": ParserSpec(
+        label="Zugehörigkeit Herrnhuter Brüdergemeine",
+        parser=str,
+        is_list=True,
+        codelist=[
+            "ja(a)",
+            "ja(b)",
+            "ja(c)",
+            "ja(d)",
+            "nein(a)",
+            "nein(b)",
+            "nein(c)",
+            "unbekannt",
+        ],
     ),
     # --- Links ---
-    "Links - Wikidata": ParserSpec(parser=URL),
-    "Links - GND": ParserSpec(parser=URL),
-    "Links - FactGrid": ParserSpec(parser=URL),
-    "Links - Bionomia": ParserSpec(parser=URL),
-    "Links - Säbi": ParserSpec(parser=URL),
+    "links": {
+        "wikidata": ParserSpec(label="Links - Wikidata", parser=URL),
+        "gnd": ParserSpec(label="Links - GND", parser=URL),
+        "factgrid": ParserSpec(label="Links - FactGrid", parser=URL),
+        "bionomia": ParserSpec(label="Links - Bionomia", parser=URL),
+        "saebi": ParserSpec(label="Links - Säbi", parser=URL),
+    },
     # --- Lebenslauf / IDs ---
-    "Herrnhuter Lebenslauf": ParserSpec(parser=[LiteratureID, ManuscriptID]),
+    "moravian_curriculum_vitae": ParserSpec(
+        label="Herrnhuter Lebenslauf", parser=[LiteratureID, ManuscriptID]
+    ),
     # --- Geburt / Tod (structured!) ---
-    "Geburt - Datum": ParserSpec(
-        parser=partial(ISO8601_2_Date, require_source=True), is_list=True
-    ),
-    "Geburt - Datum - Anmerkungen": ParserSpec(parser=str),
-    "Geburt - Ort": ParserSpec(
-        parser=partial(LocationID, require_source=True), is_list=True
-    ),
-    "Geburt - Ort - Anmerkungen": ParserSpec(parser=str),
-    "Tod - Datum": ParserSpec(
-        parser=partial(ISO8601_2_Date, require_source=True), is_list=True
-    ),
-    "Tod - Datum - Anmerkungen": ParserSpec(parser=str),
-    "Tod - Ort": ParserSpec(
-        parser=partial(LocationID, require_source=True), is_list=True
-    ),
-    "Tod - Ort - Anmerkungen": ParserSpec(parser=str),
+    "birth": {
+        "date": ParserSpec(
+            label="Geburt - Datum",
+            parser=partial(ISO8601_2_Date, require_source=True),
+            is_list=True,
+        ),
+        "date_notes": ParserSpec(label="Geburt - Datum - Anmerkungen", parser=str),
+        "location": ParserSpec(
+            label="Geburt - Ort",
+            parser=partial(LocationID, require_source=True),
+            is_list=True,
+        ),
+        "location_notes": ParserSpec(label="Geburt - Ort - Anmerkungen", parser=str),
+    },
+    "death": {
+        "date": ParserSpec(
+            label="Tod - Datum",
+            parser=partial(ISO8601_2_Date, require_source=True),
+            is_list=True,
+        ),
+        "date_notes": ParserSpec(label="Tod - Datum - Anmerkungen", parser=str),
+        "location": ParserSpec(
+            label="Tod - Ort",
+            parser=partial(LocationID, require_source=True),
+            is_list=True,
+        ),
+        "location_notes": ParserSpec(label="Tod - Ort - Anmerkungen", parser=str),
+    },
     # --- Wirkungsorte ---
-    "Wirkungsorte": ParserSpec(
+    "places_of_activity": ParserSpec(
+        label="Wirkungsorte",
         parser=ComplexType(
             parts=[
                 ISO8601_2_Temporal,  # Zeitraum
@@ -248,56 +299,84 @@ PARSERS_PERSONEN = {
         is_list=True,
     ),
     # --- Tätigkeiten ---
-    "Tätigkeiten": ParserSpec(
+    "activities": ParserSpec(
+        label="Tätigkeiten",
         parser=partial(AttestableString, require_source=True), is_list=True
     ),
     # --- Kontakte ---
-    # --- ParserSpec entries ---
-    "Kontakt – Mit Herrnhutern": ParserSpec(
-        parser=partial(kontakt_parser, require_source=True),
-        is_list=True,
-    ),
-    "Kontakt – Mit Nicht-Herrnhutern": ParserSpec(
-        parser=partial(kontakt_parser, require_source=True),
-        is_list=True,
-    ),
+    "contact": {
+        "with_moravians": ParserSpec(
+            label="Kontakt – Mit Herrnhutern",
+            parser=partial(kontakt_parser, require_source=True),
+            is_list=True,
+        ),
+        "with_non_moravians": ParserSpec(
+            label="Kontakt – Mit Nicht-Herrnhutern",
+            parser=partial(kontakt_parser, require_source=True),
+            is_list=True,
+        ),
+    },
     # --- Botanik ---
-    "Botanik - Foki": ParserSpec(parser=str, is_list=True),
-    "Botanik - Beitrag zu Sammlungen (Objektnachweis)": ParserSpec(
-        parser=partial(CollectionID, require_source=True), is_list=True
-    ),
-    "Botanik - Beitrag zu Sammlungen (Datenbanknachweis)": ParserSpec(
-        parser=partial(CollectionID, require_source=True), is_list=True
-    ),
-    "Botanik - Beitrag zu Sammlungen (Literaturnachweis)": ParserSpec(
-        parser=partial(CollectionID, require_source=True), is_list=True
-    ),
-    "Botanik - Beitrag zu Sammlungen - Anmerkungen": ParserSpec(parser=str),
-    "Botanik - Manuskripte der Person": ParserSpec(parser=ManuscriptID, is_list=True),
-    "Botanik - Druckwerke der Person": ParserSpec(parser=LiteratureID, is_list=True),
-    "Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere": ParserSpec(
+    "botany": {
+        "focuses": ParserSpec(label="Botanik - Foki", parser=str, is_list=True),
+        "contribution_to_collections_object_evidence": ParserSpec(
+            label="Botanik - Beitrag zu Sammlungen (Objektnachweis)",
+            parser=partial(CollectionID, require_source=True),
+            is_list=True,
+        ),
+        "contribution_to_collections_database_evidence": ParserSpec(
+            label="Botanik - Beitrag zu Sammlungen (Datenbanknachweis)",
+            parser=partial(CollectionID, require_source=True),
+            is_list=True,
+        ),
+        "contribution_to_collections_literature_evidence": ParserSpec(
+            label="Botanik - Beitrag zu Sammlungen (Literaturnachweis)",
+            parser=partial(CollectionID, require_source=True),
+            is_list=True,
+        ),
+        "contribution_to_collections_notes": ParserSpec(
+            label="Botanik - Beitrag zu Sammlungen - Anmerkungen", parser=str
+        ),
+        "manuscripts_by_person": ParserSpec(
+            label="Botanik - Manuskripte der Person",
+            parser=ManuscriptID,
+            is_list=True,
+        ),
+        "printed_works_by_person": ParserSpec(
+            label="Botanik - Druckwerke der Person",
+            parser=LiteratureID,
+            is_list=True,
+        ),
+        "mentions_in_botanical_works_by_others": ParserSpec(
+            label="Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere",
+            parser=[LiteratureID, ManuscriptID],
+            is_list=True,
+        ),
+    },
+    "important_works_without_botanical_context": ParserSpec(
+        label="Wichtige Werke der Person ohne botanischen Kontext",
         parser=[LiteratureID, ManuscriptID], is_list=True
     ),
-    "Wichtige Werke der Person ohne botanischen Kontext": ParserSpec(
-        parser=[LiteratureID, ManuscriptID], is_list=True
-    ),
-    "Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere": ParserSpec(
+    "mentions_in_non_botanical_works_by_others": ParserSpec(
+        label="Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere",
         parser=[LiteratureID, ManuscriptID], is_list=True
     ),
 }
 
 PARSERS_SAMMLUNGEN = {
     # --- Pflichtfelder ---
-    "ID": ParserSpec(parser=CollectionID),
-    "Name der Sammlung": ParserSpec(parser=str),
+    "id": ParserSpec(label="ID", parser=CollectionID),
+    "collection_name": ParserSpec(label="Name der Sammlung", parser=str),
     # --- Metadaten ---
-    "NYBG Herbarcode": ParserSpec(parser=str),
+    "nybg_herbarium_code": ParserSpec(label="NYBG Herbarcode", parser=str),
     # --- Hierarchie ---
-    "Teilsammlung von": ParserSpec(parser=CollectionID),
+    "part_of_collection": ParserSpec(label="Teilsammlung von", parser=CollectionID),
     # --- Institution ---
-    "Sammlungshaltende Institution": ParserSpec(parser=str, is_list=True),
+    "holding_institution": ParserSpec(
+        label="Sammlungshaltende Institution", parser=str, is_list=True
+    ),
     # --- Links ---
-    "Webseite": ParserSpec(parser=URL),
+    "website": ParserSpec(label="Webseite", parser=URL),
     # --- Freitext ---
-    "Anmerkungen": ParserSpec(parser=str),
+    "notes": ParserSpec(label="Anmerkungen", parser=str),
 }

@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-from parsers import clean_field, parse_field
+from parsers import clean_field, parse_field, flatten_parser_specs
 
 
 class DomainEncoder(json.JSONEncoder):
@@ -13,10 +13,68 @@ class DomainEncoder(json.JSONEncoder):
         return super().default(obj)
 
 
+def serialize_typed_value(value):
+    if hasattr(value, "to_dict"):
+        return value.to_dict()
+
+    if isinstance(value, bool):
+        return {
+            "type": "Boolean",
+            "value": value,
+        }
+
+    if isinstance(value, str):
+        return {
+            "type": "String",
+            "value": value,
+        }
+
+    if isinstance(value, int):
+        return {
+            "type": "Integer",
+            "value": value,
+        }
+
+    if isinstance(value, float):
+        return {
+            "type": "Decimal",
+            "value": value,
+        }
+
+    if value is None:
+        return {
+            "type": "Null",
+            "value": None,
+        }
+
+    if isinstance(value, (list, tuple)):
+        return {
+            "type": "List",
+            "value": [serialize_typed_value(item) for item in value],
+        }
+
+    if isinstance(value, dict):
+        if set(value.keys()) == {"values", "source"}:
+            return {
+                "type": "ComplexType",
+                "value": {
+                    "values": [serialize_typed_value(item) for item in value["values"]],
+                    "source": serialize_typed_value(value["source"]),
+                },
+            }
+
+        return {
+            "type": "Object",
+            "value": {key: serialize_typed_value(item) for key, item in value.items()},
+        }
+
+    raise TypeError(f"Cannot serialize typed value of type {type(value)!r}")
+
+
 class TableParser:
     def __init__(self, sheet_name, parser_specs, excel_file):
         self.sheet_name = sheet_name
-        self.specs = parser_specs
+        self.specs = flatten_parser_specs(parser_specs)
         self.excel_file = excel_file
 
     # ---------- Loading ----------
@@ -49,7 +107,7 @@ class TableParser:
             parsed_data[row_id] = {}
             current_row = parsed_data[row_id]
 
-            for col_name, spec in self.specs.items():
+            for col_name, (path, spec) in self.specs.items():
                 if col_name not in df.columns:
                     continue
 
@@ -67,14 +125,15 @@ class TableParser:
                         codelist=spec.codelist,
                     )
 
-                    keys = [k.strip() for k in col_name.split("-")]
-
                     level = current_row
 
-                    for key in keys[:-1]:
+                    for key in path[:-1]:
                         level = level.setdefault(key, {})
 
-                    level[keys[-1]] = parsed_value
+                    level[path[-1]] = {
+                        "label": spec.label,
+                        "value": serialize_typed_value(parsed_value),
+                    }
 
                 except Exception as e:
                     error = f"__{row_id}, {col_name}__:\n _{e}_"

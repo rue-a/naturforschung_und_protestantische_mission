@@ -1,236 +1,440 @@
 {
     "L0001000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0001000"
-        },
-        "Name": "Akunnaat",
-        "Beginn": {
-            "type": "ISO8601_2_Date",
-            "value": "1758"
-        },
-        "Ende": {
-            "type": "ISO8601_2_Date",
-            "value": "1950"
-        },
-        "Links": [
-            {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q423740"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0001000"
             }
-        ]
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Akunnaat"
+            }
+        },
+        "start": {
+            "label": "Beginn",
+            "value": {
+                "type": "ISO8601_2_Date",
+                "value": "1758"
+            }
+        },
+        "end": {
+            "label": "Ende",
+            "value": {
+                "type": "ISO8601_2_Date",
+                "value": "1950"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q423740"
+                    }
+                ]
+            }
+        }
     },
     "L0002000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0002000"
-        },
-        "Name": "Barby",
-        "Links": [
-            {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q530185"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0002000"
             }
-        ]
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Barby"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q530185"
+                    }
+                ]
+            }
+        }
     },
     "L0003000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0003000"
-        },
-        "Name": "Basel",
-        "Links": [
-            {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q78"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0003000"
             }
-        ]
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Basel"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q78"
+                    }
+                ]
+            }
+        }
     },
     "L0004000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0004000"
-        },
-        "Name": "Berthelsdorf",
-        "Links": [
-            {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q502553"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0004000"
             }
-        ]
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Berthelsdorf"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q502553"
+                    }
+                ]
+            }
+        }
     },
     "L0005000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0005000"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0005000"
+            }
         }
     },
     "L0006000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0006000"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0006000"
+            }
         }
     },
     "L0007000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0007000"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0007000"
+            }
         }
     },
     "L0008000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0008000"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0008000"
+            }
         }
     },
     "L0009000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0009000"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0009000"
+            }
         }
     },
     "L0010000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0010000"
-        },
-        "Name": "Gnadenberg",
-        "Links": [
-            {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q65162110"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0010000"
             }
-        ]
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Gnadenberg"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q65162110"
+                    }
+                ]
+            }
+        }
     },
     "L0011000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0011000"
-        },
-        "Name": "Gnadenfrei",
-        "Links": [
-            {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q986091"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0011000"
             }
-        ]
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Gnadenfrei"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q986091"
+                    }
+                ]
+            }
+        }
     },
     "L0011100": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0011100"
-        },
-        "Name": "Hebron",
-        "Links": [
-            {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q5695991"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0011100"
             }
-        ]
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Hebron"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q5695991"
+                    }
+                ]
+            }
+        }
     },
     "L0012000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0012000"
-        },
-        "Name": "Hopedal",
-        "Links": [
-            {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q11338369"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0012000"
             }
-        ]
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Hopedal"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q11338369"
+                    }
+                ]
+            }
+        }
     },
     "L0013000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0013000"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0013000"
+            }
         }
     },
     "L0014000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0014000"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0014000"
+            }
         }
     },
     "L0015000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0015000"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0015000"
+            }
         }
     },
     "L0016000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0016000"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0016000"
+            }
         }
     },
     "L0017000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0017000"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0017000"
+            }
         }
     },
     "L0018000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0018000"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0018000"
+            }
         }
     },
     "L0019000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0019000"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0019000"
+            }
         }
     },
     "L0020000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0020000"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0020000"
+            }
         }
     },
     "L0021000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0021000"
-        },
-        "Name": "Nain",
-        "Links": [
-            {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q3335210"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0021000"
             }
-        ]
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Nain"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q3335210"
+                    }
+                ]
+            }
+        }
     },
     "L0022000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0022000"
-        },
-        "Name": "Neuwied",
-        "Links": [
-            {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q3967"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0022000"
             }
-        ]
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Neuwied"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q3967"
+                    }
+                ]
+            }
+        }
     },
     "L0022500": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0022500"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0022500"
+            }
         }
     },
     "L0022600": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0022600"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0022600"
+            }
         }
     },
     "L0023000": {
-        "ID": {
-            "type": "LocationID",
-            "value": "L0023000"
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0023000"
+            }
         }
     }
 }
