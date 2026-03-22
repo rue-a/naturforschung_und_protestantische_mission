@@ -19,7 +19,7 @@
         "name": {
             "preferred": {
                 "excel-column-name": "Name - Vorzugsname",
-                "label": "Name - Vorzugsname",
+                "label": "Bevorzugter Name",
                 "value": {
                     "type": "String",
                     "value": "Johann Baptist von Albertini"
@@ -27,7 +27,7 @@
             },
             "surname": {
                 "excel-column-name": "Name - Nachname(n)",
-                "label": "Name - Nachname(n)",
+                "label": "Nachname",
                 "value": {
                     "type": "String",
                     "value": "Albertini"
@@ -35,7 +35,7 @@
             },
             "given_name": {
                 "excel-column-name": "Name - Vorname(n)",
-                "label": "Name - Vorname(n)",
+                "label": "Vorname",
                 "value": {
                     "type": "String",
                     "value": "Johann Baptist von"
@@ -45,7 +45,7 @@
         "relatives": {
             "spouses": {
                 "excel-column-name": "Angehörige - Ehepartner",
-                "label": "Angehörige - Ehepartner",
+                "label": "Ehepartner",
                 "value": {
                     "type": "List",
                     "value": [
@@ -602,7 +602,7 @@
         "name": {
             "preferred": {
                 "excel-column-name": "Name - Vorzugsname",
-                "label": "Name - Vorzugsname",
+                "label": "Bevorzugter Name",
                 "value": {
                     "type": "String",
                     "value": "Johann Jakob Bossart"
@@ -610,7 +610,7 @@
             },
             "surname": {
                 "excel-column-name": "Name - Nachname(n)",
-                "label": "Name - Nachname(n)",
+                "label": "Nachname",
                 "value": {
                     "type": "String",
                     "value": "Bossart"
@@ -618,7 +618,7 @@
             },
             "given_name": {
                 "excel-column-name": "Name - Vorname(n)",
-                "label": "Name - Vorname(n)",
+                "label": "Vorname",
                 "value": {
                     "type": "String",
                     "value": "Johann Jakob Bossart"
@@ -626,7 +626,7 @@
             },
             "notes": {
                 "excel-column-name": "Name - Anmerkungen",
-                "label": "Name - Anmerkungen",
+                "label": "Anmerkungen",
                 "value": {
                     "type": "String",
                     "value": "auch Jacob"
@@ -853,7 +853,7 @@
         "name": {
             "preferred": {
                 "excel-column-name": "Name - Vorzugsname",
-                "label": "Name - Vorzugsname",
+                "label": "Bevorzugter Name",
                 "value": {
                     "type": "String",
                     "value": "Johann Christian Breutel"
@@ -861,7 +861,7 @@
             },
             "surname": {
                 "excel-column-name": "Name - Nachname(n)",
-                "label": "Name - Nachname(n)",
+                "label": "Nachname",
                 "value": {
                     "type": "String",
                     "value": "Breutel"
@@ -869,7 +869,7 @@
             },
             "given_name": {
                 "excel-column-name": "Name - Vorname(n)",
-                "label": "Name - Vorname(n)",
+                "label": "Vorname",
                 "value": {
                     "type": "String",
                     "value": "Johann Christian"
@@ -908,27 +908,6 @@
                 "value": {
                     "type": "URL",
                     "value": "https://de.bionomia.net/Q21415674"
-                }
-            },
-            "gnd": {
-                "label": "Links - GND",
-                "value": {
-                    "type": "URL",
-                    "value": "https://d-nb.info/gnd/116493763"
-                }
-            },
-            "factgrid": {
-                "label": "Links - FactGrid",
-                "value": {
-                    "type": "URL",
-                    "value": "https://database.factgrid.de/wiki/Item:Q703514"
-                }
-            },
-            "saebi": {
-                "label": "Links - Säbi",
-                "value": {
-                    "type": "URL",
-                    "value": "https://saebi.isgv.de/gnd/116493763"
                 }
             }
         },

@@ -211,14 +211,17 @@ function renderSelectedPerson() {
 function renderMetadata(person) {
   const record = person.record;
   const metadataItems = [
-    ["Bevorzugter Name", person.name],
-    ["ID", person.id],
-    ["Nachname", getTypedValue(record.name?.surname)],
-    ["Vorname", getTypedValue(record.name?.given_name)],
-    ["Mitgliedschaft", formatTypedValue(record.member_of_moravians?.value)],
-    ["Geburt", formatLifeEvent(record.life?.birth)],
-    ["Tod", formatLifeEvent(record.life?.death)],
-  ].filter(([, value]) => value);
+    [record.name?.preferred?.label, person.name],
+    [record.id?.label, person.id],
+    [record.name?.surname?.label, getTypedValue(record.name?.surname)],
+    [record.name?.given_name?.label, getTypedValue(record.name?.given_name)],
+    [
+      record.member_of_moravians?.label,
+      formatTypedValue(record.member_of_moravians?.value),
+    ],
+    [getLifeEventLabel(record.life?.birth), formatLifeEvent(record.life?.birth)],
+    [getLifeEventLabel(record.life?.death), formatLifeEvent(record.life?.death)],
+  ].filter(([label, value]) => label && value);
 
   DOM.metadata.innerHTML = metadataItems
     .map(
@@ -324,6 +327,24 @@ function formatLinkKey(key) {
     .filter(Boolean)
     .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
     .join(" ");
+}
+
+function getLifeEventLabel(eventObject) {
+  if (!eventObject) {
+    return "";
+  }
+
+  const sourceLabel =
+    eventObject.date?.label ||
+    eventObject.date?.["excel-column-name"] ||
+    eventObject.location?.label ||
+    eventObject.location?.["excel-column-name"];
+
+  if (!sourceLabel) {
+    return "";
+  }
+
+  return sourceLabel.split(" - ")[0] || "";
 }
 
 function renderMapForPerson(person) {

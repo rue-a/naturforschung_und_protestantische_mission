@@ -222,31 +222,50 @@ PARSERS_PERSONEN = {
     ),
     # --- Namen ---
     "name": {
-        "preferred": ParserSpec(excel_column_name="Name - Vorzugsname", parser=str),
-        "surname": ParserSpec(excel_column_name="Name - Nachname(n)", parser=str),
-        "birth_name": ParserSpec(excel_column_name="Name - Geburtsname(n)", parser=str),
-        "given_name": ParserSpec(excel_column_name="Name - Vorname(n)", parser=str),
-        "title": ParserSpec(excel_column_name="Name - Titel", parser=str),
-        "notes": ParserSpec(excel_column_name="Name - Anmerkungen", parser=str),
+        "preferred": ParserSpec(
+            excel_column_name="Name - Vorzugsname", label="Bevorzugter Name", parser=str
+        ),
+        "surname": ParserSpec(
+            excel_column_name="Name - Nachname(n)", label="Nachname", parser=str
+        ),
+        "birth_name": ParserSpec(
+            excel_column_name="Name - Geburtsname(n)", label="Geburtsname", parser=str
+        ),
+        "given_name": ParserSpec(
+            excel_column_name="Name - Vorname(n)", label="Vorname", parser=str
+        ),
+        "title": ParserSpec(
+            excel_column_name="Name - Titel", label="Titel", parser=str
+        ),
+        "notes": ParserSpec(
+            excel_column_name="Name - Anmerkungen", label="Anmerkungen", parser=str
+        ),
     },
     # --- Angehörige ---
     "relatives": {
         "siblings": ParserSpec(
             excel_column_name="Angehörige - Geschwister",
+            label="Geschwister",
             parser=PersonID,
             is_list=True,
         ),
         "spouses": ParserSpec(
             excel_column_name="Angehörige - Ehepartner",
+            label="Ehepartner",
             parser=PersonID,
             is_list=True,
         ),
         "children": ParserSpec(
             excel_column_name="Angehörige - Kinder",
+            label="Kinder",
             parser=PersonID,
             is_list=True,
         ),
-        "notes": ParserSpec(excel_column_name="Angehörige - Anmerkungen", parser=str),
+        "notes": ParserSpec(
+            excel_column_name="Angehörige - Anmerkungen",
+            label="Anmerkungen",
+            parser=str,
+        ),
     },
     # --- Zugehörigkeit ---
     "member_of_moravians": ParserSpec(
