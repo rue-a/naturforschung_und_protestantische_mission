@@ -115,323 +115,325 @@
                 "value": "R0001500"
             }
         },
-        "birth": {
-            "date": {
-                "label": "Geburt - Datum",
-                "value": {
-                    "type": "List",
-                    "value": [
-                        {
-                            "type": "ISO8601_2_Date",
-                            "value": "1769-02-17",
-                            "source": {
-                                "type": "LiteratureID",
-                                "value": "R0001500"
-                            }
-                        }
-                    ]
-                }
-            },
-            "location": {
-                "label": "Geburt - Ort",
-                "value": {
-                    "type": "List",
-                    "value": [
-                        {
-                            "type": "LocationID",
-                            "value": "L0022000",
-                            "source": {
-                                "type": "LiteratureID",
-                                "value": "R0001500"
-                            }
-                        }
-                    ]
-                }
-            }
-        },
-        "death": {
-            "date": {
-                "label": "Tod - Datum",
-                "value": {
-                    "type": "List",
-                    "value": [
-                        {
-                            "type": "ISO8601_2_Date",
-                            "value": "1831-12-06",
-                            "source": {
-                                "type": "LiteratureID",
-                                "value": "R0001500"
-                            }
-                        }
-                    ]
-                }
-            },
-            "location": {
-                "label": "Tod - Ort",
-                "value": {
-                    "type": "List",
-                    "value": [
-                        {
-                            "type": "LocationID",
-                            "value": "L0004000",
-                            "source": {
-                                "type": "LiteratureID",
-                                "value": "R0001500"
-                            }
-                        }
-                    ]
-                }
-            }
-        },
-        "places_of_activity": {
-            "label": "Wirkungsorte",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "ComplexType",
-                        "value": {
-                            "values": [
-                                {
-                                    "type": "ISO8601_2_Temporal",
-                                    "value": "1773/1782"
-                                },
-                                {
-                                    "type": "LocationID",
-                                    "value": "L0022000"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Knabenanstalt"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Schüler"
+        "life": {
+            "birth": {
+                "date": {
+                    "label": "Geburt - Datum",
+                    "value": {
+                        "type": "List",
+                        "value": [
+                            {
+                                "type": "ISO8601_2_Date",
+                                "value": "1769-02-17",
+                                "source": {
+                                    "type": "LiteratureID",
+                                    "value": "R0001500"
                                 }
-                            ],
-                            "source": {
-                                "type": "LiteratureID",
-                                "value": "R0001500"
                             }
-                        }
-                    },
-                    {
-                        "type": "ComplexType",
-                        "value": {
-                            "values": [
-                                {
-                                    "type": "ISO8601_2_Temporal",
-                                    "value": "1782/1785"
-                                },
-                                {
-                                    "type": "LocationID",
-                                    "value": "L0022500"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Pädagogium"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Schüler"
-                                }
-                            ],
-                            "source": {
-                                "type": "LiteratureID",
-                                "value": "R0001500"
-                            }
-                        }
-                    },
-                    {
-                        "type": "ComplexType",
-                        "value": {
-                            "values": [
-                                {
-                                    "type": "ISO8601_2_Temporal",
-                                    "value": "1785/1788"
-                                },
-                                {
-                                    "type": "LocationID",
-                                    "value": "L0002000"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Seminar"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Schüler"
-                                }
-                            ],
-                            "source": {
-                                "type": "LiteratureID",
-                                "value": "R0001500"
-                            }
-                        }
-                    },
-                    {
-                        "type": "ComplexType",
-                        "value": {
-                            "values": [
-                                {
-                                    "type": "ISO8601_2_Temporal",
-                                    "value": "1788/1789"
-                                },
-                                {
-                                    "type": "LocationID",
-                                    "value": "L0022500"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Kinderanstalt"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Lehrer"
-                                }
-                            ],
-                            "source": {
-                                "type": "LiteratureID",
-                                "value": "R0001500"
-                            }
-                        }
-                    },
-                    {
-                        "type": "ComplexType",
-                        "value": {
-                            "values": [
-                                {
-                                    "type": "ISO8601_2_Temporal",
-                                    "value": "1789/"
-                                },
-                                {
-                                    "type": "LocationID",
-                                    "value": "L0002000"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Pädagogium"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Lehrer"
-                                }
-                            ],
-                            "source": {
-                                "type": "LiteratureID",
-                                "value": "R0001500"
-                            }
-                        }
-                    },
-                    {
-                        "type": "ComplexType",
-                        "value": {
-                            "values": [
-                                {
-                                    "type": "ISO8601_2_Temporal",
-                                    "value": "1796/1808"
-                                },
-                                {
-                                    "type": "LocationID",
-                                    "value": "L0022500"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Seminar"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Dozent, Inspektor, Prediger"
-                                }
-                            ],
-                            "source": {
-                                "type": "LiteratureID",
-                                "value": "R0001500"
-                            }
-                        }
-                    },
-                    {
-                        "type": "ComplexType",
-                        "value": {
-                            "values": [
-                                {
-                                    "type": "ISO8601_2_Temporal",
-                                    "value": "1814"
-                                },
-                                {
-                                    "type": "LocationID",
-                                    "value": "L0010000"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Mädchenanstalt"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Prediger, Lehrer"
-                                }
-                            ],
-                            "source": {
-                                "type": "LiteratureID",
-                                "value": "R0001500"
-                            }
-                        }
-                    },
-                    {
-                        "type": "ComplexType",
-                        "value": {
-                            "values": [
-                                {
-                                    "type": "ISO8601_2_Temporal",
-                                    "value": "1818"
-                                },
-                                {
-                                    "type": "LocationID",
-                                    "value": "L0011000"
-                                },
-                                {
-                                    "type": "Null",
-                                    "value": null
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Prediger"
-                                }
-                            ],
-                            "source": {
-                                "type": "LiteratureID",
-                                "value": "R0001500"
-                            }
-                        }
-                    },
-                    {
-                        "type": "ComplexType",
-                        "value": {
-                            "values": [
-                                {
-                                    "type": "ISO8601_2_Temporal",
-                                    "value": "1821"
-                                },
-                                {
-                                    "type": "LocationID",
-                                    "value": "L0004000"
-                                },
-                                {
-                                    "type": "Null",
-                                    "value": null
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Mitglied Ältestenkonferenz"
-                                }
-                            ],
-                            "source": {
-                                "type": "LiteratureID",
-                                "value": "R0001500"
-                            }
-                        }
+                        ]
                     }
-                ]
+                },
+                "location": {
+                    "label": "Geburt - Ort",
+                    "value": {
+                        "type": "List",
+                        "value": [
+                            {
+                                "type": "LocationID",
+                                "value": "L0022000",
+                                "source": {
+                                    "type": "LiteratureID",
+                                    "value": "R0001500"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "death": {
+                "date": {
+                    "label": "Tod - Datum",
+                    "value": {
+                        "type": "List",
+                        "value": [
+                            {
+                                "type": "ISO8601_2_Date",
+                                "value": "1831-12-06",
+                                "source": {
+                                    "type": "LiteratureID",
+                                    "value": "R0001500"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "location": {
+                    "label": "Tod - Ort",
+                    "value": {
+                        "type": "List",
+                        "value": [
+                            {
+                                "type": "LocationID",
+                                "value": "L0004000",
+                                "source": {
+                                    "type": "LiteratureID",
+                                    "value": "R0001500"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "places_of_effect": {
+                "label": "Wirkungsorte",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "ComplexType",
+                            "value": {
+                                "values": [
+                                    {
+                                        "type": "ISO8601_2_Temporal",
+                                        "value": "1773/1782"
+                                    },
+                                    {
+                                        "type": "LocationID",
+                                        "value": "L0022000"
+                                    },
+                                    {
+                                        "type": "String",
+                                        "value": "Knabenanstalt"
+                                    },
+                                    {
+                                        "type": "String",
+                                        "value": "Schüler"
+                                    }
+                                ],
+                                "source": {
+                                    "type": "LiteratureID",
+                                    "value": "R0001500"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ComplexType",
+                            "value": {
+                                "values": [
+                                    {
+                                        "type": "ISO8601_2_Temporal",
+                                        "value": "1782/1785"
+                                    },
+                                    {
+                                        "type": "LocationID",
+                                        "value": "L0022500"
+                                    },
+                                    {
+                                        "type": "String",
+                                        "value": "Pädagogium"
+                                    },
+                                    {
+                                        "type": "String",
+                                        "value": "Schüler"
+                                    }
+                                ],
+                                "source": {
+                                    "type": "LiteratureID",
+                                    "value": "R0001500"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ComplexType",
+                            "value": {
+                                "values": [
+                                    {
+                                        "type": "ISO8601_2_Temporal",
+                                        "value": "1785/1788"
+                                    },
+                                    {
+                                        "type": "LocationID",
+                                        "value": "L0002000"
+                                    },
+                                    {
+                                        "type": "String",
+                                        "value": "Seminar"
+                                    },
+                                    {
+                                        "type": "String",
+                                        "value": "Schüler"
+                                    }
+                                ],
+                                "source": {
+                                    "type": "LiteratureID",
+                                    "value": "R0001500"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ComplexType",
+                            "value": {
+                                "values": [
+                                    {
+                                        "type": "ISO8601_2_Temporal",
+                                        "value": "1788/1789"
+                                    },
+                                    {
+                                        "type": "LocationID",
+                                        "value": "L0022500"
+                                    },
+                                    {
+                                        "type": "String",
+                                        "value": "Kinderanstalt"
+                                    },
+                                    {
+                                        "type": "String",
+                                        "value": "Lehrer"
+                                    }
+                                ],
+                                "source": {
+                                    "type": "LiteratureID",
+                                    "value": "R0001500"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ComplexType",
+                            "value": {
+                                "values": [
+                                    {
+                                        "type": "ISO8601_2_Temporal",
+                                        "value": "1789/"
+                                    },
+                                    {
+                                        "type": "LocationID",
+                                        "value": "L0002000"
+                                    },
+                                    {
+                                        "type": "String",
+                                        "value": "Pädagogium"
+                                    },
+                                    {
+                                        "type": "String",
+                                        "value": "Lehrer"
+                                    }
+                                ],
+                                "source": {
+                                    "type": "LiteratureID",
+                                    "value": "R0001500"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ComplexType",
+                            "value": {
+                                "values": [
+                                    {
+                                        "type": "ISO8601_2_Temporal",
+                                        "value": "1796/1808"
+                                    },
+                                    {
+                                        "type": "LocationID",
+                                        "value": "L0022500"
+                                    },
+                                    {
+                                        "type": "String",
+                                        "value": "Seminar"
+                                    },
+                                    {
+                                        "type": "String",
+                                        "value": "Dozent, Inspektor, Prediger"
+                                    }
+                                ],
+                                "source": {
+                                    "type": "LiteratureID",
+                                    "value": "R0001500"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ComplexType",
+                            "value": {
+                                "values": [
+                                    {
+                                        "type": "ISO8601_2_Temporal",
+                                        "value": "1814"
+                                    },
+                                    {
+                                        "type": "LocationID",
+                                        "value": "L0010000"
+                                    },
+                                    {
+                                        "type": "String",
+                                        "value": "Mädchenanstalt"
+                                    },
+                                    {
+                                        "type": "String",
+                                        "value": "Prediger, Lehrer"
+                                    }
+                                ],
+                                "source": {
+                                    "type": "LiteratureID",
+                                    "value": "R0001500"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ComplexType",
+                            "value": {
+                                "values": [
+                                    {
+                                        "type": "ISO8601_2_Temporal",
+                                        "value": "1818"
+                                    },
+                                    {
+                                        "type": "LocationID",
+                                        "value": "L0011000"
+                                    },
+                                    {
+                                        "type": "Null",
+                                        "value": null
+                                    },
+                                    {
+                                        "type": "String",
+                                        "value": "Prediger"
+                                    }
+                                ],
+                                "source": {
+                                    "type": "LiteratureID",
+                                    "value": "R0001500"
+                                }
+                            }
+                        },
+                        {
+                            "type": "ComplexType",
+                            "value": {
+                                "values": [
+                                    {
+                                        "type": "ISO8601_2_Temporal",
+                                        "value": "1821"
+                                    },
+                                    {
+                                        "type": "LocationID",
+                                        "value": "L0004000"
+                                    },
+                                    {
+                                        "type": "Null",
+                                        "value": null
+                                    },
+                                    {
+                                        "type": "String",
+                                        "value": "Mitglied Ältestenkonferenz"
+                                    }
+                                ],
+                                "source": {
+                                    "type": "LiteratureID",
+                                    "value": "R0001500"
+                                }
+                            }
+                        }
+                    ]
+                }
             }
         },
         "botany": {
@@ -577,7 +579,7 @@
                 "label": "Name - Vorzugsname",
                 "value": {
                     "type": "String",
-                    "value": "Johann Jacob/Jakob Bossart"
+                    "value": "Johann Jakob Bossart"
                 }
             },
             "surname": {
@@ -591,7 +593,14 @@
                 "label": "Name - Vorname(n)",
                 "value": {
                     "type": "String",
-                    "value": "Johann Jacob/Jakob"
+                    "value": "Johann Jakob Bossart"
+                }
+            },
+            "notes": {
+                "label": "Name - Anmerkungen",
+                "value": {
+                    "type": "String",
+                    "value": "auch Jacob"
                 }
             }
         },
@@ -634,37 +643,73 @@
                 }
             }
         },
-        "birth": {
-            "date": {
-                "label": "Geburt - Datum",
-                "value": {
-                    "type": "List",
-                    "value": [
-                        {
-                            "type": "ISO8601_2_Date",
-                            "value": "1721-04-17",
-                            "source": {
-                                "type": "ManuscriptID",
-                                "value": "M0004000"
+        "life": {
+            "birth": {
+                "date": {
+                    "label": "Geburt - Datum",
+                    "value": {
+                        "type": "List",
+                        "value": [
+                            {
+                                "type": "ISO8601_2_Date",
+                                "value": "1721-04-17",
+                                "source": {
+                                    "type": "ManuscriptID",
+                                    "value": "M0004000"
+                                }
                             }
-                        }
-                    ]
+                        ]
+                    }
+                },
+                "location": {
+                    "label": "Geburt - Ort",
+                    "value": {
+                        "type": "List",
+                        "value": [
+                            {
+                                "type": "LocationID",
+                                "value": "L0003000",
+                                "source": {
+                                    "type": "ManuscriptID",
+                                    "value": "M0004000"
+                                }
+                            }
+                        ]
+                    }
                 }
             },
-            "location": {
-                "label": "Geburt - Ort",
-                "value": {
-                    "type": "List",
-                    "value": [
-                        {
-                            "type": "LocationID",
-                            "value": "L0003000",
-                            "source": {
-                                "type": "ManuscriptID",
-                                "value": "M0004000"
+            "death": {
+                "date": {
+                    "label": "Tod - Datum",
+                    "value": {
+                        "type": "List",
+                        "value": [
+                            {
+                                "type": "ISO8601_2_Date",
+                                "value": "1789-11-13",
+                                "source": {
+                                    "type": "ManuscriptID",
+                                    "value": "M0004000"
+                                }
                             }
-                        }
-                    ]
+                        ]
+                    }
+                },
+                "location": {
+                    "label": "Tod - Ort",
+                    "value": {
+                        "type": "List",
+                        "value": [
+                            {
+                                "type": "LocationID",
+                                "value": "L0002000",
+                                "source": {
+                                    "type": "ManuscriptID",
+                                    "value": "M0004000"
+                                }
+                            }
+                        ]
+                    }
                 }
             }
         },
@@ -676,7 +721,54 @@
                     "value": [
                         {
                             "type": "String",
-                            "value": "BarbyerNaturalienkabinett aufseinen Vorschlag hinangelegt"
+                            "value": "Barby Lokalflora"
+                        }
+                    ]
+                }
+            },
+            "contribution_to_collections_literature_evidence": {
+                "label": "Botanik - Beitrag zu Sammlungen (Literaturnachweis)",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "CollectionID",
+                            "value": "C-barby",
+                            "source": {
+                                "type": "LiteratureID",
+                                "value": "R0005100"
+                            }
+                        }
+                    ]
+                }
+            },
+            "contribution_to_collections_notes": {
+                "label": "Botanik - Beitrag zu Sammlungen - Anmerkungen",
+                "value": {
+                    "type": "String",
+                    "value": "Kurator C-Barby"
+                }
+            },
+            "manuscripts_by_person": {
+                "label": "Botanik - Manuskripte der Person",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "ManuscriptID",
+                            "value": "M0000100"
+                        },
+                        {
+                            "type": "ManuscriptID",
+                            "value": "M0000200"
+                        },
+                        {
+                            "type": "ManuscriptID",
+                            "value": "M0000300"
+                        },
+                        {
+                            "type": "ManuscriptID",
+                            "value": "M0000400"
                         }
                     ]
                 }
@@ -797,55 +889,57 @@
                 "value": "R0002500"
             }
         },
-        "birth": {
-            "date": {
-                "label": "Geburt - Datum",
-                "value": {
-                    "type": "List",
-                    "value": [
-                        {
-                            "type": "ISO8601_2_Date",
-                            "value": "1788-01-21",
-                            "source": {
-                                "type": "LiteratureID",
-                                "value": "R0002500"
+        "life": {
+            "birth": {
+                "date": {
+                    "label": "Geburt - Datum",
+                    "value": {
+                        "type": "List",
+                        "value": [
+                            {
+                                "type": "ISO8601_2_Date",
+                                "value": "1788-01-21",
+                                "source": {
+                                    "type": "LiteratureID",
+                                    "value": "R0002500"
+                                }
                             }
-                        }
-                    ]
+                        ]
+                    }
+                },
+                "location": {
+                    "label": "Geburt - Ort",
+                    "value": {
+                        "type": "List",
+                        "value": [
+                            {
+                                "type": "LocationID",
+                                "value": "L0025000",
+                                "source": {
+                                    "type": "LiteratureID",
+                                    "value": "R0002500"
+                                }
+                            }
+                        ]
+                    }
                 }
             },
-            "location": {
-                "label": "Geburt - Ort",
-                "value": {
-                    "type": "List",
-                    "value": [
-                        {
-                            "type": "LocationID",
-                            "value": "L0022500",
-                            "source": {
-                                "type": "LiteratureID",
-                                "value": "R0002500"
+            "death": {
+                "date": {
+                    "label": "Tod - Datum",
+                    "value": {
+                        "type": "List",
+                        "value": [
+                            {
+                                "type": "ISO8601_2_Date",
+                                "value": "1875-02-18",
+                                "source": {
+                                    "type": "LiteratureID",
+                                    "value": "R0002500"
+                                }
                             }
-                        }
-                    ]
-                }
-            }
-        },
-        "death": {
-            "date": {
-                "label": "Tod - Datum",
-                "value": {
-                    "type": "List",
-                    "value": [
-                        {
-                            "type": "ISO8601_2_Date",
-                            "value": "1875-02-18",
-                            "source": {
-                                "type": "LiteratureID",
-                                "value": "R0002500"
-                            }
-                        }
-                    ]
+                        ]
+                    }
                 }
             }
         },

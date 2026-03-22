@@ -55,7 +55,7 @@
             "label": "Titel",
             "value": {
                 "type": "String",
-                "value": "Johann Jakob Bossart: Verzeichniß der Naturalien aus dem Thier=Reich nach dem Linné (1173)"
+                "value": "Johann Jakob Bossart: Verzeichniß der Naturalien aus dem Thier=Reich nach dem Linné (vor 1773)"
             }
         }
     },
@@ -111,11 +111,11 @@
                 "value": "Cim.II.4"
             }
         },
-        "description": {
-            "label": "Beschreibung",
+        "title": {
+            "label": "Titel",
             "value": {
                 "type": "String",
-                "value": "enthält: „Index alphabeticus Generum Plantarum es quibus sicca Speciminain Collectione Musei Academia Fratrum servantur“; „Index Plantarum siccarum Systematicus eo ordine, quo sunt in Fasciculis dispositae“ und „Catalogus über dem was in dem Saamen Schranck befindlich“"
+                "value": "Johann Jakob Bossart: Verzeichnis des Herbariums Barbiense (-); enthält: „Index alphabeticus Generum Plantarum es quibus sicca Speciminain Collectione Musei Academia Fratrum servantur“; „Index Plantarum siccarum Systematicus eo ordine, quo sunt in Fasciculis dispositae“ und „Catalogus über dem was in dem Saamen Schranck befindlich“"
             }
         }
     },
@@ -139,6 +139,13 @@
             "value": {
                 "type": "String",
                 "value": "0239"
+            }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Philip Christian Gottlieb Reuter: Der UpLand Gartten (1759), Karte"
             }
         },
         "description": {
@@ -169,6 +176,13 @@
             "value": {
                 "type": "String",
                 "value": "1944"
+            }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Philip Christian Gottlieb Reuter: Hortus Medicus (1761), Karte"
             }
         }
     },
@@ -214,7 +228,7 @@
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
-                "value": "A0000500"
+                "value": "A0001100"
             }
         },
         "signature": {
@@ -258,7 +272,7 @@
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
-                "value": "A0000600"
+                "value": "A0001100"
             }
         },
         "signature": {
@@ -295,7 +309,7 @@
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
-                "value": "A0000700"
+                "value": "A0001100"
             }
         },
         "signature": {
@@ -332,7 +346,7 @@
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
-                "value": "A0000800"
+                "value": "A0001100"
             }
         },
         "signature": {
@@ -369,7 +383,7 @@
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
-                "value": "A0000900"
+                "value": "A0001100"
             }
         },
         "signature": {
@@ -406,7 +420,7 @@
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
-                "value": "A0001000"
+                "value": "A0001100"
             }
         },
         "signature": {
@@ -480,7 +494,7 @@
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
-                "value": "A0001200"
+                "value": "A0001100"
             }
         },
         "signature": {
@@ -510,7 +524,7 @@
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
-                "value": "A0001300"
+                "value": "A0001100"
             }
         },
         "signature": {
@@ -540,7 +554,7 @@
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
-                "value": "A0001400"
+                "value": "A0001100"
             }
         },
         "signature": {
@@ -570,7 +584,7 @@
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
-                "value": "A0001500"
+                "value": "A0000500"
             }
         },
         "signature": {
@@ -600,7 +614,7 @@
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
-                "value": "A0001600"
+                "value": "A0000500"
             }
         },
         "signature": {
@@ -630,7 +644,7 @@
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
-                "value": "A0001700"
+                "value": "A0000500"
             }
         },
         "signature": {
@@ -660,7 +674,7 @@
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
-                "value": "A0001800"
+                "value": "A0000500"
             }
         },
         "signature": {
@@ -681,7 +695,7 @@
             "label": "Beschreibung",
             "value": {
                 "type": "String",
-                "value": "Summarisches Verzeichniss derjemigen Pflanzen aus Surinam, welche in den Jahren 1849 u. 50 von dem Herrn Superintendenten Wullschlaegel daselbst gesammelt und mir im Tausche gegen Bücher zugesendet worden s. Erhalten im Monat September 1851"
+                "value": "Summarisches Verzeichniss derjemigen Pflanzen aus Surinam, welche in den Jahren 1849 u. 50 von dem Herrn Superintendenten Wullschlaegel daselbst gesammelt und mir im Tausche gegen Bücher zugesendet worden s. Erhalten im Monat September 1851. Dieses Verzeichnis listet die Nummern, die sich auch auf Herbarbelegen, z.B. in GLM befinden"
             }
         }
     },
@@ -697,7 +711,7 @@
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
-                "value": "A0001900"
+                "value": "A0000500"
             }
         },
         "signature": {
@@ -718,7 +732,7 @@
             "label": "Beschreibung",
             "value": {
                 "type": "String",
-                "value": "Handschriftlicher Brief"
+                "value": "Handschriftliche Korrespondenz ab Digitalisatseite 72"
             }
         }
     },
@@ -734,7 +748,7 @@
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
-                "value": "A0002000"
+                "value": "A0001100"
             }
         },
         "signature": {
@@ -764,7 +778,7 @@
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
-                "value": "A0002100"
+                "value": "A0000500"
             }
         },
         "signature": {
@@ -794,7 +808,7 @@
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
-                "value": "A0002200"
+                "value": "A0000500"
             }
         },
         "signature": {
@@ -824,7 +838,7 @@
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
-                "value": "A0002300"
+                "value": "A0000500"
             }
         },
         "signature": {
@@ -850,6 +864,13 @@
                 "value": "M0002700"
             }
         },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000500"
+            }
+        },
         "permalink": {
             "label": "Permalink",
             "value": {
@@ -864,6 +885,13 @@
             "value": {
                 "type": "ManuscriptID",
                 "value": "M0002800"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0001100"
             }
         },
         "signature": {
@@ -896,6 +924,13 @@
                 "value": "M0002900"
             }
         },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0001100"
+            }
+        },
         "signature": {
             "label": "Signatur",
             "value": {
@@ -924,6 +959,13 @@
             "value": {
                 "type": "ManuscriptID",
                 "value": "M0003000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0001100"
             }
         },
         "signature": {
@@ -956,6 +998,13 @@
                 "value": "M0003100"
             }
         },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0001100"
+            }
+        },
         "signature": {
             "label": "Signatur",
             "value": {
@@ -986,6 +1035,13 @@
                 "value": "M0003200"
             }
         },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0001100"
+            }
+        },
         "signature": {
             "label": "Signatur",
             "value": {
@@ -1014,6 +1070,13 @@
             "value": {
                 "type": "ManuscriptID",
                 "value": "M0003300"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000400"
             }
         },
         "signature": {
@@ -1196,6 +1259,13 @@
                 "value": "Mscr.Dresd.App.2789, Bl.142r"
             }
         },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Albertinis Eintrag im Stammbuch von Lind aus der Brüdergemeine Sarepta"
+            }
+        },
         "permalink": {
             "label": "Permalink",
             "value": {
@@ -1232,6 +1302,20 @@
                 "type": "String",
                 "value": "R.22.27.07"
             }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Lebenslauf Johann Jacob Bossart"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "Lebenslauf von Bossart, etwas ausführlicher als M0004100"
+            }
         }
     },
     "M0004100": {
@@ -1253,7 +1337,28 @@
             "label": "Signatur",
             "value": {
                 "type": "String",
-                "value": "NadB.1861.I.1075-1095"
+                "value": "GN.A.256"
+            }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "http://digital.slub-dresden.de/id1789541689/508"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "Lebenslauf von Bossart, weitgehend idetnisch mit M0004000"
             }
         }
     },
@@ -1276,7 +1381,21 @@
             "label": "Signatur",
             "value": {
                 "type": "String",
-                "value": "R.15 .N.08.1.c"
+                "value": "R.15.N.08.1.c"
+            }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Schriftwechsel mit Christian Jacob Protten|UA, R.15.N.8.1.c, no. 22.: 1762 Mart. 3. Prottens nachricht von einigen mitgebrachten2 u. übergebenen africanischen sachen"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "genauer Angabe der Briefe etc., wenn das ein Beleg des Kontaktes mit Bossart ist!|eine Liste der von Protten mitgebrachten botanischen Objekte mit Beschreibung de rindigenen Nutzung verfasst von?"
             }
         }
     },
@@ -1299,7 +1418,7 @@
             "label": "Signatur",
             "value": {
                 "type": "String",
-                "value": "TS . Bd.22.9"
+                "value": "TS.Bd.22.9"
             }
         },
         "permalink": {
@@ -1336,7 +1455,7 @@
             "label": "Signatur",
             "value": {
                 "type": "String",
-                "value": "TS . Mp.32.15"
+                "value": "TS.Mp.32.15"
             }
         },
         "permalink": {
@@ -1760,6 +1879,1028 @@
             "value": {
                 "type": "String",
                 "value": ": Lebensbeschreibung von Heinrich August Jäschke"
+            }
+        }
+    },
+    "M0007000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0007000"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "God's Acre Cemetery"
+            }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": ": Lebensbeschreibung von Christian Friedrich Denke, o.O., 1838"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/denke-christian-friedrich/18449"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "maschienengeschriebene Kopie einer Lebensbeschreibung von P0320000"
+            }
+        },
+        "wikidata_id": {
+            "label": "Wikidata ID",
+            "value": {
+                "type": "String",
+                "value": "https://www.wikidata.org/wiki/Q138682931"
+            }
+        }
+    },
+    "M0008000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0008000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000900"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "Mss.B.M891"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://diglib.amphilsoc.org/islandora/object/text%3A191063"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "handschriftlicher Brief von Denke an Mühlenberg"
+            }
+        }
+    },
+    "M0009000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0009000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000900"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "Mss.B.M891"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://diglib.amphilsoc.org/islandora/object/text%3A191064"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "handschriftlicher Brief von Denke an Mühlenberg"
+            }
+        }
+    },
+    "M0010000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0010000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000900"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "Mss.B.M891"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://diglib.amphilsoc.org/islandora/object/text%3A191193"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "handschriftlicher Brief von Denke an Mühlenberg"
+            }
+        }
+    },
+    "M0011000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0011000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000900"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "Mss.B.M891"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://diglib.amphilsoc.org/islandora/object/text%3A191066"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "handschriftlicher Brief von Denke an Mühlenberg"
+            }
+        }
+    },
+    "M0012000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0012000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000900"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "Mss.B.M891"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://diglib.amphilsoc.org/islandora/object/text%3A191167"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "handschriftlicher Brief von Denke an Mühlenberg"
+            }
+        }
+    },
+    "M0013000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0013000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000900"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "Mss.B.M891"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://diglib.amphilsoc.org/islandora/object/text%3A191194"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "handschriftlicher Brief von Denke an Mühlenberg"
+            }
+        }
+    },
+    "M0014000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0014000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000900"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "Mss.B.M891"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://diglib.amphilsoc.org/islandora/object/text%3A191057"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "handschriftlicher Brief von Denke an Mühlenberg"
+            }
+        }
+    },
+    "M0015000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0015000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000900"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "Mss.B.M891"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://diglib.amphilsoc.org/islandora/object/text%3A191062"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "handschriftlicher Brief von Denke an Mühlenberg"
+            }
+        }
+    },
+    "M0016000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0016000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000900"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "Mss.B.M891"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://diglib.amphilsoc.org/islandora/object/text%3A191166"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "handschriftlicher Brief von Denke an Mühlenberg"
+            }
+        }
+    },
+    "M0017000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0017000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000900"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "Mss.B.M891"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://diglib.amphilsoc.org/islandora/object/text%3A191163"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "handschriftlicher Brief von Denke an Mühlenberg"
+            }
+        }
+    },
+    "M0018000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0018000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000900"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "Mss.B.M891"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://diglib.amphilsoc.org/islandora/object/text%3A191164"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "handschriftlicher Brief von Denke an Mühlenberg"
+            }
+        }
+    },
+    "M0019000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0019000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000900"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "Mss.B.M891"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://diglib.amphilsoc.org/islandora/object/text%3A191208"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "handschriftlicher Brief von Denke an Mühlenberg"
+            }
+        }
+    },
+    "M0020000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0020000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000900"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "Mss.B.M891"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://diglib.amphilsoc.org/islandora/object/text%3A191195"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "handschriftlicher Brief von Denke an Mühlenberg"
+            }
+        }
+    },
+    "M0021000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0021000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000900"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "Mss.B.M891"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://diglib.amphilsoc.org/islandora/object/text%3A191090"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "handschriftlicher Brief von Denke an Mühlenberg"
+            }
+        }
+    },
+    "M0022000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0022000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000900"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "Mss.B.M891"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://diglib.amphilsoc.org/islandora/object/text%3A191065"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "handschriftlicher Brief von Denke an Mühlenberg"
+            }
+        }
+    },
+    "M0023000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0023000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000900"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "Mss.B.M891"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://diglib.amphilsoc.org/islandora/object/text%3A191165"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "handschriftlicher Brief von Denke an Mühlenberg"
+            }
+        }
+    },
+    "M0024000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0024000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000900"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "Mss.B.M891"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://diglib.amphilsoc.org/islandora/object/text%3A191084"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "handschriftlicher Brief von Denke an Mühlenberg"
+            }
+        }
+    },
+    "M0025000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0025000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000900"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "Mss.B.M891"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://diglib.amphilsoc.org/islandora/object/text%3A191087"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "handschriftlicher Brief von Denke an Mühlenberg"
+            }
+        }
+    },
+    "M0026000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0026000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000900"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "Mss.B.M891"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://diglib.amphilsoc.org/islandora/object/text%3A299261"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "hier werden Fr. Kramsch (S. 86, 95 164) und Fr. Denke (S. 166? 168) nd Fr. Hubner (S. 107) und D. Kampman (S.108, 109, 129) als Zulieferer erwähnt"
+            }
+        }
+    },
+    "M0027000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0027000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000200"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "MemBeth 0238"
+            }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Philipp Christian Gottlieb Reuter: 1758"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://www.moravianchurcharchives.findbuch.net/pics/X.._Memoirs._~MemBeth._~MemBeth_238_1001.jpg"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "handschriftlicher Lebenslauf"
+            }
+        }
+    },
+    "M0028000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0028000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000100"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "R.3.B.94"
+            }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Dienerverzeichnis der Brüder Unität, Bd. 1"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "\"Verzeichniß der Diener und Dienerinnen der Europäisch=festländischen Provinz der Brüder=Unität. Erster Band\""
+            }
+        }
+    },
+    "M0029000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0029000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000100"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "Dienerblätter Se-U"
+            }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "biographsche Angaben unter Benutzung von M0028000"
+            }
+        }
+    },
+    "M0030000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0030000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000100"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "TS.Bd.21.51"
+            }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Franz Ferdinand Thrän: \"Spring Gardens die Missionsgebäude in St. John's. 1832\""
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://www.unitaetsarchiv.findbuch.net/pics/B.._Grafik%20f%C3%BCr%20Augias._~TS%20f%C3%BCr%20Augias._~Bd_21_051-.jpg"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "Ansicht der Missionsgebäude in St. John's auf Antigua, 1832, Aquarell"
+            }
+        }
+    },
+    "M0031000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0031000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000100"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "TS.Mp.261.8.b"
+            }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Franz Ferdinand Thrän: \"The Church at Spring Gardens, Antigua as at present. April 1853\""
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://www.unitaetsarchiv.findbuch.net/pics/B.._Grafik%20f%C3%BCr%20Augias._~TS%20f%C3%BCr%20Augias._~MP_261_08b-.jpg"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "Entwurf für einen Umbau des Kirchensaales in St. John's auf Antigua, Westindische Inseln, 1853, Ansicht des Kirchensaales vor dem Umbau"
+            }
+        }
+    },
+    "M0032000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0032000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000100"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "TS.Mp.261.8.b"
+            }
+        }
+    },
+    "M0033000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0033000"
+            }
+        },
+        "archive": {
+            "label": "Archiv",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0001000"
+            }
+        },
+        "signature": {
+            "label": "Signatur",
+            "value": {
+                "type": "String",
+                "value": "PA. II. R. 7.13. Lebensläufe T-V. Lebenslauf Heinrich Gottlieb Thrän"
+            }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Lebensbeschreibung Thrän, Heinrich Gottlieb"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "verfasst von seiner Frau"
+            }
+        }
+    },
+    "M0034000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ManuscriptID",
+                "value": "M0034000"
             }
         }
     }

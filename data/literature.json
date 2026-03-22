@@ -153,6 +153,20 @@
                 "type": "LiteratureID",
                 "value": "R0000800"
             }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Philipp, Guntram: \"Herrnhuter Apotheker. Pioniere homöopathischer Arzneimittelherstellung\", in: Medizin, Gesellschaft und Geschichte Jahrbuch des Instituts für Geschichte der Medizin der Robert Bosch Stiftung 22 (2004), S. 89-147"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "umfassend zur Homöopathi und der Apotheker der Brüdergemeine"
+            }
         }
     },
     "R0000900": {
@@ -985,6 +999,13 @@
                 "type": "LiteratureID",
                 "value": "R0004300"
             }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Anonym: Heinrich Gottlieb Thrän\", in: Neuer Nekrolog der Deutschen 5. Jg. 1827 (1829), 2.Theil, S. 1037-1039."
+            }
         }
     },
     "R0004400": {
@@ -1099,6 +1120,194 @@
             "value": {
                 "type": "String",
                 "value": "Eine Flora auf Grundlage von Jäschke, und W. Heyde"
+            }
+        }
+    },
+    "R0004900": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0004900"
+            }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Adelaide Fries: Records of the Moravians in North Carolina. Volume VI: 1793-1808. 1943, Raleigh : The North Carolina Historical Commission."
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://archive.org/details/recordsofthemora06frie/mode/2up"
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "Erwähnung Dahlman (P0310000)"
+            }
+        }
+    },
+    "R0005000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0005000"
+            }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Anonym: Lebenslauf des am 28. December 1860 in Gnadenthal selig entschlafenen Bruders Carl Rudolph Kölbing, in: Nachrichten aus der Brüdergemeine, 1861, S. 1075-1095."
+            }
+        }
+    },
+    "R0005100": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0005100"
+            }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Richard Ehrlacher; Frank Müller; Sarah T. Wagner; Thomas Ruhland; Lena Frenzke: \"Barby und die botanische Praxis der Herrnhuter Brüdergemeine im 18. Jahrhundert. Sammeln, Verwahren und Auswerten – das Herbarium Barbiense, ein Exkursionstagebuch von 1766 und Friedrich Adam Schollers Flora Barbiensis (1775/87)\", in: Mitteilungen zur floristischen Kartierung Sachsen-Anhalt Sonderheft 6 (2024)"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://doi.org/10.21248/mfk.444"
+            }
+        }
+    },
+    "R0005200": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0005200"
+            }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Johann Jakob Bossart: Kurze Anweisung Naturalien zu samlen, Barby: o.V. 1774."
+            }
+        }
+    },
+    "R0005300": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0005300"
+            }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Friedrich Adam Scholler; Johann Christian Daniel Schreber: Supplementum Florae Barbiensis Auctore Frider. Adam. Scholler cum tabula aenea, hg. v. Bossart, Johann Jakob, Barbii: typis Spellenbergianis 1787."
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "Scholler, hg. Bossart unter Mirarbeit von Schreber"
+            }
+        }
+    },
+    "R0005400": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0005400"
+            }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Christian Georg Andreas Oldendorp: Geschichte der Mission der evangelischen Brüder auf den caraibischen Inseln S. Thomas, S. Croix und S. Jan, hg. v. Bossart, Johann Jakob, Barby und Leipzig: Christian Friedrich Laux und in Commision bey Weidmanns Erben und Reich 1777 (2 Teile)."
+            }
+        }
+    },
+    "R0005500": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0005500"
+            }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Stephan Augustin: \"Herrnhut und Göttingen im 18. Jahrhundert - wissenschaftsgeschichtliche Aspekte der Beziehungen zwischen Mission und Universität\", in: Abhandlungen und Berichte des Staatlichen Museums für Völkerkunde Dresden 49 (1997), S. 159-180."
+            }
+        },
+        "description": {
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "Erwähnung von Bossart und Blumenbach u.a."
+            }
+        }
+    },
+    "R0005600": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0005600"
+            }
+        },
+        "title": {
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Door Klaas-Jan Boer: De kerkgeschiedenis van Groenland, het leven van Hans Egede en fragmenten uit het dagboek van Hans Egede Saabije (2023)"
+            }
+        },
+        "permalink": {
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://theologienet.nl/bestanden/boer-klaas-jan-kerkgeschiedenis-groenland.pdf"
+            }
+        }
+    },
+    "R0005700": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0005700"
+            }
+        }
+    },
+    "R0005800": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0005800"
             }
         }
     }

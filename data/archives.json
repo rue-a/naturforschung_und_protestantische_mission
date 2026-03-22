@@ -192,5 +192,129 @@
                 "value": "Schlesische Gesellschaft für vaterländische Kultur (Breslau - heute Universität Wrozlaw) Restbestände von Archiv und Bibliothek"
             }
         }
+    },
+    "A0000900": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0000900"
+            }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Library American Philosophical Society"
+            }
+        },
+        "abbreviations": {
+            "label": "Abkürzungen",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "APS"
+                    }
+                ]
+            }
+        },
+        "link": {
+            "label": "Link",
+            "value": {
+                "type": "URL",
+                "value": "https://diglib.amphilsoc.org/"
+            }
+        }
+    },
+    "A0001000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0001000"
+            }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Archiv der Brüdergemeine Neudietendorf"
+            }
+        },
+        "abbreviations": {
+            "label": "Abkürzungen",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "ABNdf"
+                    }
+                ]
+            }
+        }
+    },
+    "A0001100": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0001100"
+            }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Library and Archives at Royal Botanic Gardens, Kew"
+            }
+        }
+    },
+    "A0001200": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0001200"
+            }
+        }
+    },
+    "A0001300": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0001300"
+            }
+        }
+    },
+    "A0001400": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0001400"
+            }
+        }
+    },
+    "A0001500": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0001500"
+            }
+        }
+    },
+    "A0001600": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "ArchiveID",
+                "value": "A0001600"
+            }
+        }
     }
 }

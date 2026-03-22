@@ -29,7 +29,9 @@ class ParserSpec:
     require_source: bool = False
 
 
-def flatten_parser_specs(spec_tree: dict, path: tuple[str, ...] = ()) -> dict[str, tuple[tuple[str, ...], ParserSpec]]:
+def flatten_parser_specs(
+    spec_tree: dict, path: tuple[str, ...] = ()
+) -> dict[str, tuple[tuple[str, ...], ParserSpec]]:
     flat_specs = {}
 
     for key, value in spec_tree.items():
@@ -43,7 +45,9 @@ def flatten_parser_specs(spec_tree: dict, path: tuple[str, ...] = ()) -> dict[st
             flat_specs.update(flatten_parser_specs(value, current_path))
             continue
 
-        raise TypeError(f"Unsupported parser spec node at {current_path}: {type(value)!r}")
+        raise TypeError(
+            f"Unsupported parser spec node at {current_path}: {type(value)!r}"
+        )
 
     return flat_specs
 
@@ -257,52 +261,57 @@ PARSERS_PERSONEN = {
         label="Herrnhuter Lebenslauf", parser=[LiteratureID, ManuscriptID]
     ),
     # --- Geburt / Tod (structured!) ---
-    "birth": {
-        "date": ParserSpec(
-            label="Geburt - Datum",
-            parser=partial(ISO8601_2_Date, require_source=True),
+    "life": {
+        "birth": {
+            "date": ParserSpec(
+                label="Geburt - Datum",
+                parser=partial(ISO8601_2_Date, require_source=True),
+                is_list=True,
+            ),
+            "date_notes": ParserSpec(label="Geburt - Datum - Anmerkungen", parser=str),
+            "location": ParserSpec(
+                label="Geburt - Ort",
+                parser=partial(LocationID, require_source=True),
+                is_list=True,
+            ),
+            "location_notes": ParserSpec(
+                label="Geburt - Ort - Anmerkungen", parser=str
+            ),
+        },
+        "death": {
+            "date": ParserSpec(
+                label="Tod - Datum",
+                parser=partial(ISO8601_2_Date, require_source=True),
+                is_list=True,
+            ),
+            "date_notes": ParserSpec(label="Tod - Datum - Anmerkungen", parser=str),
+            "location": ParserSpec(
+                label="Tod - Ort",
+                parser=partial(LocationID, require_source=True),
+                is_list=True,
+            ),
+            "location_notes": ParserSpec(label="Tod - Ort - Anmerkungen", parser=str),
+        },
+        # --- Wirkungsorte ---
+        "places_of_effect": ParserSpec(
+            label="Wirkungsorte",
+            parser=ComplexType(
+                parts=[
+                    ISO8601_2_Temporal,  # Zeitraum
+                    LocationID,  # Ort (must be L-ID)
+                    str,  # Einrichtung
+                    str,  # Funktion
+                ],
+            ),
             is_list=True,
         ),
-        "date_notes": ParserSpec(label="Geburt - Datum - Anmerkungen", parser=str),
-        "location": ParserSpec(
-            label="Geburt - Ort",
-            parser=partial(LocationID, require_source=True),
+        # --- Tätigkeiten ---
+        "activities": ParserSpec(
+            label="Tätigkeiten",
+            parser=partial(AttestableString, require_source=True),
             is_list=True,
         ),
-        "location_notes": ParserSpec(label="Geburt - Ort - Anmerkungen", parser=str),
     },
-    "death": {
-        "date": ParserSpec(
-            label="Tod - Datum",
-            parser=partial(ISO8601_2_Date, require_source=True),
-            is_list=True,
-        ),
-        "date_notes": ParserSpec(label="Tod - Datum - Anmerkungen", parser=str),
-        "location": ParserSpec(
-            label="Tod - Ort",
-            parser=partial(LocationID, require_source=True),
-            is_list=True,
-        ),
-        "location_notes": ParserSpec(label="Tod - Ort - Anmerkungen", parser=str),
-    },
-    # --- Wirkungsorte ---
-    "places_of_activity": ParserSpec(
-        label="Wirkungsorte",
-        parser=ComplexType(
-            parts=[
-                ISO8601_2_Temporal,  # Zeitraum
-                LocationID,  # Ort (must be L-ID)
-                str,  # Einrichtung
-                str,  # Funktion
-            ],
-        ),
-        is_list=True,
-    ),
-    # --- Tätigkeiten ---
-    "activities": ParserSpec(
-        label="Tätigkeiten",
-        parser=partial(AttestableString, require_source=True), is_list=True
-    ),
     # --- Kontakte ---
     "contact": {
         "with_moravians": ParserSpec(
@@ -355,11 +364,13 @@ PARSERS_PERSONEN = {
     },
     "important_works_without_botanical_context": ParserSpec(
         label="Wichtige Werke der Person ohne botanischen Kontext",
-        parser=[LiteratureID, ManuscriptID], is_list=True
+        parser=[LiteratureID, ManuscriptID],
+        is_list=True,
     ),
     "mentions_in_non_botanical_works_by_others": ParserSpec(
         label="Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere",
-        parser=[LiteratureID, ManuscriptID], is_list=True
+        parser=[LiteratureID, ManuscriptID],
+        is_list=True,
     ),
 }
 

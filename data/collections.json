@@ -649,6 +649,41 @@
             }
         }
     },
+    "C-F": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-F"
+            }
+        },
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium Field Museum of Natural History"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "F"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Field Museum of Natural History, Chicago, Illinois, USA"
+                    }
+                ]
+            }
+        }
+    },
     "C-FH": {
         "id": {
             "label": "ID",
@@ -1660,21 +1695,7 @@
             }
         }
     },
-    "C-UPS": {
-        "id": {
-            "label": "ID",
-            "value": {
-                "type": "CollectionID",
-                "value": "C-UPS"
-            }
-        },
-        "nybg_herbarium_code": {
-            "label": "NYBG Herbarcode",
-            "value": {
-                "type": "String",
-                "value": "UPS"
-            }
-        },
+    "c-suzhou": {
         "holding_institution": {
             "label": "Sammlungshaltende Institution",
             "value": {
@@ -2023,6 +2044,48 @@
             "value": {
                 "type": "URL",
                 "value": "https://www.pfalzmuseum.de/"
+            }
+        }
+    },
+    "C-UPS": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-UPS"
+            }
+        },
+        "collection_name": {
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Herbarium des Museum of Evolution Uppsala"
+            }
+        },
+        "nybg_herbarium_code": {
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "UPS"
+            }
+        },
+        "holding_institution": {
+            "label": "Sammlungshaltende Institution",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Museum of Evolution, Sweden. Uppsala."
+                    }
+                ]
+            }
+        },
+        "website": {
+            "label": "Webseite",
+            "value": {
+                "type": "URL",
+                "value": "https://databas.evolutionsmuseet.uu.se/botanik/findrecords.php"
             }
         }
     }

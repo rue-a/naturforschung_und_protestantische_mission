@@ -30,36 +30,31 @@
 
 - [ ] __P0170000, Herrnhuter Lebenslauf__:
  _No parser accepted value!_
-> M0004000 |
-> NadB.1861.I.1075-1095
-
-- [ ] __P0170000, Tod - Datum__:
- _Statement (1789-11-13 ()) requires attestation (no source was provided)!_
-> 1789-11-13 ()
-
-- [ ] __P0170000, Tod - Ort__:
- _Statement (L0002000 ()) requires attestation (no source was provided)!_
-> L0002000 ()
+> M0004000| M0004100
 
 - [ ] __P0170000, Wirkungsorte__:
- _Invalid Reference value: '' (should be URL, R-ID, or M-ID)_
-> L0002000; Pädagogium; Lehrer ()
+ _Invalid Temporal value: '1736-1739'_
+> 1736-1739; L0003000; Universität; Student (M0004100) |
+> 1747-1749; L0018000; Seminar; Lehrer; (M0004100) |
+> 1749-1750; L0002000; Seminar; ; (M0004100) |
+> 1750-1760; L0011035; Pädagogium; Lehrer (M0004100) |
+> 1760-1764; L0022000; Knabenanstalt; Inspektor 
 
 - [ ] __P0170000, Tätigkeiten__:
- _Statement (Professor Seminar Barby, Inspektor Naturalien Cabinet Barby, Botaniker, Sammler,) requires attestation (no source was provided)!_
-> Professor Seminar Barby, Inspektor Naturalien Cabinet Barby, Botaniker, Sammler,
+ _Statement (Botaniker, Sammler,) requires attestation (no source was provided)!_
+> Lehrer, Inspektor Naturalienkabinet und Bibliothek Barby (M0004100) |
+> Botaniker, Sammler,
 > 
 
-- [ ] __P0170000, Botanik - Manuskripte der Person__:
- _Invalid Reference value: 'UA ThS.A.132.a' (should be URL, R-ID, or M-ID)_
-> 1766: Tagebuch Botanischer Exkursionen (UA ThS.A.132.a) | vor 1773: Verzeichniß der Naturalien aus dem Thier=Reich nach dem Linné (UA, Cim.V.4.) | 1775:  Catalogus der Kunstsachen (UA, Cim.V.5.) | ohne Jahr: Verzeichnis des Herbariums Barbiense; enth
+- [ ] __P0170000, Botanik - Beitrag zu Sammlungen (Objektnachweis)__:
+ _Statement (C-barby) requires attestation (no source was provided)!_
+> C-barby 
 
 - [ ] __P0170000, Botanik - Druckwerke der Person__:
- _LiteratureID must start with 'R'_
-> 1787: Ergänzungen in
-> Scholler's Flora in
-> Neuerscheinung |
-> 1774: Anweisung Naturalien zu sammeln | 1777: Herausgeber von C. G. A. Oldendorps Geschichte der Mission der evangelischen Brüder auf den caraibischen Inseln S. Thomas, S. Croix und S. Jan
+ _Cannot parse empty string_
+> R0005200 [1774: Anweisung Naturalien zu sammeln] |
+> R0005400 [1777: Herausgeber von C. G. A. Oldendorps Geschichte der Mission der evangelischen Brüder auf den caraibischen Inseln S. Thomas, S. Croix und S. Jan] |
+> R0005300 [1787: Friedrich Adam Scholl
 
 - [ ] __P0220000, Tod - Ort__:
  _Invalid Reference value: 'wkd), Herrnhut (gnd' (should be URL, R-ID, or M-ID)_

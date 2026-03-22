@@ -188,6 +188,39 @@
                 "type": "LocationID",
                 "value": "L0005000"
             }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Bethlehem"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q164380"
+                    }
+                ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": -75.375555555556
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 40.626111111111
+            }
         }
     },
     "L0006000": {
@@ -196,6 +229,39 @@
             "value": {
                 "type": "LocationID",
                 "value": "L0006000"
+            }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Christiansfeld (Dänemark)"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q3197288"
+                    }
+                ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 9.483056
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 55.356667
             }
         }
     },
@@ -215,6 +281,39 @@
                 "type": "LocationID",
                 "value": "L0008000"
             }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Ebersdorf"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q1279760"
+                    }
+                ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 11.6672
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 50.4847
+            }
         }
     },
     "L0009000": {
@@ -223,6 +322,13 @@
             "value": {
                 "type": "LocationID",
                 "value": "L0009000"
+            }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Cedarhall/Antigua"
             }
         }
     },
@@ -310,6 +416,106 @@
             }
         }
     },
+    "L0011020": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0011020"
+            }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Gracehill/Antigua"
+            }
+        }
+    },
+    "L0011035": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0011035"
+            }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Großhennerdorf"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q502696"
+                    }
+                ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 14.793333333333
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 50.990833333333
+            }
+        }
+    },
+    "L0011050": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0011050"
+            }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Goshen"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q5587251"
+                    }
+                ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": -84.163
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 39.23
+            }
+        }
+    },
     "L0011100": {
         "id": {
             "label": "ID",
@@ -349,6 +555,90 @@
             "value": {
                 "type": "Decimal",
                 "value": 58.2
+            }
+        }
+    },
+    "L0011150": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0011150"
+            }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Herrnhaag"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q1614322"
+                    }
+                ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 9.08333
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 50.2639
+            }
+        }
+    },
+    "L0011200": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0011200"
+            }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Herrnhut"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q165140"
+                    }
+                ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 14.741666666667
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 51.016666666667
             }
         }
     },
@@ -401,6 +691,13 @@
                 "type": "LocationID",
                 "value": "L0013000"
             }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Jgdlorpait"
+            }
         }
     },
     "L0014000": {
@@ -419,6 +716,81 @@
                 "type": "LocationID",
                 "value": "L0015000"
             }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Kleinwelka"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q159916"
+                    }
+                ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 14.3946
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 51.21079
+            }
+        }
+    },
+    "L0015500": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0015500"
+            }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Königsfeld (Schwarzwald)"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q81421"
+                    }
+                ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 8.4213888888889
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 48.138333333333
+            }
         }
     },
     "L0016000": {
@@ -427,6 +799,39 @@
             "value": {
                 "type": "LocationID",
                 "value": "L0016000"
+            }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Lichtenau"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q1016295"
+                    }
+                ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": -45.5378
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 60.5072
             }
         }
     },
@@ -446,6 +851,13 @@
                 "type": "LocationID",
                 "value": "L0018000"
             }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Marienborn (Wetterau)"
+            }
         }
     },
     "L0019000": {
@@ -455,6 +867,39 @@
                 "type": "LocationID",
                 "value": "L0019000"
             }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Michelstadt"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q516517"
+                    }
+                ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 9.0041666666667
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 49.678611111111
+            }
         }
     },
     "L0020000": {
@@ -463,6 +908,39 @@
             "value": {
                 "type": "LocationID",
                 "value": "L0020000"
+            }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Nazareth"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q1022937"
+                    }
+                ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": -75.311111111111
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 40.74
             }
         }
     },
@@ -508,6 +986,48 @@
             }
         }
     },
+    "L0021500": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0021500"
+            }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Neudietendorf"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q701263"
+                    }
+                ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 10.913333333333
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 50.9125
+            }
+        }
+    },
     "L0022000": {
         "id": {
             "label": "ID",
@@ -550,12 +1070,46 @@
             }
         }
     },
+    "": {},
     "L0022500": {
         "id": {
             "label": "ID",
             "value": {
                 "type": "LocationID",
                 "value": "L0022500"
+            }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Niesky"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q165160"
+                    }
+                ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 14.83
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 51.289722222222
             }
         }
     },
@@ -566,6 +1120,55 @@
                 "type": "LocationID",
                 "value": "L0022600"
             }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Okak"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q7081733"
+                    }
+                ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": -61.98425
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 57.562389
+            }
+        }
+    },
+    "L0022700": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0022700"
+            }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Salem"
+            }
         }
     },
     "L0023000": {
@@ -574,6 +1177,167 @@
             "value": {
                 "type": "LocationID",
                 "value": "L0023000"
+            }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Silo"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.geonames.org/955607/silo.html"
+                    }
+                ]
+            }
+        }
+    },
+    "L0023500": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0023500"
+            }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Saint John (Amerikanische Jungferninsel)"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q849441"
+                    }
+                ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": -64.7495816
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 18.3396764
+            }
+        }
+    },
+    "L0024000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0024000"
+            }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "St. John's (Antigua)"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q36262"
+                    }
+                ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": -61.844722222222
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 17.121111111111
+            }
+        }
+    },
+    "L0025000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0025000"
+            }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Weißenburg in Bayern"
+            }
+        },
+        "links": {
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q44500"
+                    }
+                ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 10.971944444444
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 49.030555555556
+            }
+        }
+    },
+    "L0026000": {
+        "id": {
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0026000"
+            }
+        },
+        "name": {
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Meisenheim am Glan"
             }
         }
     }
