@@ -1,6 +1,7 @@
 {
     "C-hzoo": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -8,6 +9,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -15,6 +17,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -41,6 +44,7 @@
     },
     "C-hethno": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -48,6 +52,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -55,6 +60,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -85,6 +91,7 @@
     },
     "C-barby": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -92,6 +99,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -99,6 +107,7 @@
             }
         },
         "part_of_collection": {
+            "excel-column-name": "Teilsammlung von",
             "label": "Teilsammlung von",
             "value": {
                 "type": "CollectionID",
@@ -106,6 +115,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -136,6 +146,7 @@
     },
     "C-kleinwelka": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -143,6 +154,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -150,6 +162,7 @@
             }
         },
         "part_of_collection": {
+            "excel-column-name": "Teilsammlung von",
             "label": "Teilsammlung von",
             "value": {
                 "type": "CollectionID",
@@ -157,6 +170,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -169,6 +183,7 @@
             }
         },
         "notes": {
+            "excel-column-name": "Anmerkungen",
             "label": "Anmerkungen",
             "value": {
                 "type": "String",
@@ -178,6 +193,7 @@
     },
     "C-A": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -185,6 +201,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -192,6 +209,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -199,6 +217,7 @@
             }
         },
         "notes": {
+            "excel-column-name": "Anmerkungen",
             "label": "Anmerkungen",
             "value": {
                 "type": "String",
@@ -208,6 +227,7 @@
     },
     "C-ANSP": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -215,6 +235,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -222,6 +243,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -229,6 +251,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -241,6 +264,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -250,6 +274,7 @@
     },
     "C-B": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -257,6 +282,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -264,6 +290,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -271,6 +298,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -285,6 +313,7 @@
     },
     "C-AWH": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -292,6 +321,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -299,6 +329,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -306,6 +337,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -318,6 +350,7 @@
             }
         },
         "notes": {
+            "excel-column-name": "Anmerkungen",
             "label": "Anmerkungen",
             "value": {
                 "type": "String",
@@ -327,6 +360,7 @@
     },
     "C-BM": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -334,6 +368,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -341,6 +376,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -348,6 +384,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -362,6 +399,7 @@
     },
     "C-BP": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -369,6 +407,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -376,6 +415,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -390,6 +430,7 @@
     },
     "C-BR": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -397,6 +438,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -404,6 +446,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -416,6 +459,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -425,6 +469,7 @@
     },
     "C-BRNU": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -432,6 +477,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -439,6 +485,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -453,6 +500,7 @@
     },
     "C-BREM": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -460,6 +508,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -467,6 +516,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -481,6 +531,7 @@
     },
     "C-BRSL": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -488,6 +539,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -495,6 +547,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -504,6 +557,7 @@
     },
     "C-C": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -511,6 +565,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -518,6 +573,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -530,6 +586,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -539,6 +596,7 @@
     },
     "C-COI": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -546,6 +604,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -553,6 +612,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -560,6 +620,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -572,6 +633,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -581,6 +643,7 @@
     },
     "C-DR": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -588,6 +651,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -595,6 +659,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -602,6 +667,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -614,6 +680,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -623,6 +690,7 @@
     },
     "C-ERE": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -630,6 +698,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -637,6 +706,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -651,6 +721,7 @@
     },
     "C-F": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -658,6 +729,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -665,6 +737,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -672,6 +745,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -686,6 +760,7 @@
     },
     "C-FH": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -693,6 +768,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -700,6 +776,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -712,6 +789,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -721,6 +799,7 @@
     },
     "C-FI": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -728,6 +807,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -735,6 +815,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -747,6 +828,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -756,6 +838,7 @@
     },
     "C-FR": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -763,6 +846,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -770,6 +854,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -779,6 +864,7 @@
     },
     "C-G": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -786,6 +872,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -793,6 +880,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -800,6 +888,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -812,6 +901,7 @@
             }
         },
         "notes": {
+            "excel-column-name": "Anmerkungen",
             "label": "Anmerkungen",
             "value": {
                 "type": "String",
@@ -821,6 +911,7 @@
     },
     "C-GH": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -828,6 +919,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -835,6 +927,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -844,6 +937,7 @@
     },
     "C-GJO": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -851,6 +945,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -858,6 +953,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -870,6 +966,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -879,6 +976,7 @@
     },
     "C-GLM": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -886,6 +984,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -893,6 +992,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -907,6 +1007,7 @@
     },
     "C-H": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -914,6 +1015,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -921,6 +1023,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -935,6 +1038,7 @@
     },
     "C-HBG": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -942,6 +1046,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -949,6 +1054,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -961,6 +1067,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -970,6 +1077,7 @@
     },
     "C-HEID": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -977,6 +1085,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -984,6 +1093,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -996,6 +1106,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -1005,6 +1116,7 @@
     },
     "C-IBF": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1012,6 +1124,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1019,6 +1132,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -1031,6 +1145,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -1040,6 +1155,7 @@
     },
     "C-J": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1047,6 +1163,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1056,6 +1173,7 @@
     },
     "C-K": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1063,6 +1181,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -1070,6 +1189,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1079,6 +1199,7 @@
     },
     "C-KIEL": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1086,6 +1207,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1093,6 +1215,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -1107,6 +1230,7 @@
     },
     "C-KFTA": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1114,6 +1238,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1121,6 +1246,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -1135,6 +1261,7 @@
     },
     "C-L": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1142,6 +1269,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1149,6 +1277,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -1161,6 +1290,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -1170,6 +1300,7 @@
     },
     "C-LE": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1177,6 +1308,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -1184,6 +1316,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1191,6 +1324,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -1203,6 +1337,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -1212,6 +1347,7 @@
     },
     "C-LZ": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1219,6 +1355,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1226,6 +1363,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -1238,6 +1376,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -1247,6 +1386,7 @@
     },
     "C-LUB": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1254,6 +1394,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1261,6 +1402,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -1275,6 +1417,7 @@
     },
     "C-M": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1282,6 +1425,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1289,6 +1433,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -1301,6 +1446,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -1310,6 +1456,7 @@
     },
     "C-MEL": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1317,6 +1464,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1324,6 +1472,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -1336,6 +1485,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -1343,6 +1493,7 @@
             }
         },
         "notes": {
+            "excel-column-name": "Anmerkungen",
             "label": "Anmerkungen",
             "value": {
                 "type": "String",
@@ -1352,6 +1503,7 @@
     },
     "C-nhmd": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1359,6 +1511,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -1366,6 +1519,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -1378,6 +1532,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -1387,6 +1542,7 @@
     },
     "C-NY": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1394,6 +1550,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1401,6 +1558,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -1413,6 +1571,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -1422,6 +1581,7 @@
     },
     "C-P": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1429,6 +1589,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -1436,6 +1597,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1443,6 +1605,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -1455,6 +1618,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -1464,6 +1628,7 @@
     },
     "C-PC": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1471,6 +1636,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1478,6 +1644,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -1490,6 +1657,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -1499,6 +1667,7 @@
     },
     "C-PI": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1506,6 +1675,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -1513,6 +1683,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1520,6 +1691,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -1534,6 +1706,7 @@
     },
     "C-PRC": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1541,6 +1714,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1548,6 +1722,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -1562,6 +1737,7 @@
     },
     "C-S": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1569,6 +1745,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1576,6 +1753,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -1588,6 +1766,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -1597,6 +1776,7 @@
     },
     "C-STU": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1604,6 +1784,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -1611,6 +1792,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1620,6 +1802,7 @@
     },
     "C-TENN": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1627,6 +1810,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -1634,6 +1818,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1641,6 +1826,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -1653,6 +1839,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -1662,6 +1849,7 @@
     },
     "C-TU": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1669,6 +1857,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -1676,6 +1865,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1683,6 +1873,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -1697,6 +1888,7 @@
     },
     "c-suzhou": {
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -1711,6 +1903,7 @@
     },
     "C-US": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1718,6 +1911,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -1725,6 +1919,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1732,6 +1927,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -1746,6 +1942,7 @@
     },
     "C-WRSL": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1753,6 +1950,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -1760,6 +1958,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1767,6 +1966,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -1774,6 +1974,7 @@
             }
         },
         "notes": {
+            "excel-column-name": "Anmerkungen",
             "label": "Anmerkungen",
             "value": {
                 "type": "String",
@@ -1783,6 +1984,7 @@
     },
     "C-uttendoerfer": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1790,6 +1992,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -1797,6 +2000,7 @@
             }
         },
         "part_of_collection": {
+            "excel-column-name": "Teilsammlung von",
             "label": "Teilsammlung von",
             "value": {
                 "type": "CollectionID",
@@ -1806,6 +2010,7 @@
     },
     "C-hans": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1813,6 +2018,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -1820,6 +2026,7 @@
             }
         },
         "part_of_collection": {
+            "excel-column-name": "Teilsammlung von",
             "label": "Teilsammlung von",
             "value": {
                 "type": "CollectionID",
@@ -1829,6 +2036,7 @@
     },
     "C-PH": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1836,6 +2044,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -1843,6 +2052,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1850,6 +2060,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -1862,6 +2073,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -1871,6 +2083,7 @@
     },
     "C-Z": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1878,6 +2091,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -1885,6 +2099,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1894,6 +2109,7 @@
     },
     "C-passauGefäß": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1901,6 +2117,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -1908,6 +2125,7 @@
             }
         },
         "notes": {
+            "excel-column-name": "Anmerkungen",
             "label": "Anmerkungen",
             "value": {
                 "type": "String",
@@ -1917,6 +2135,7 @@
     },
     "C-passauMoos": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1924,6 +2143,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -1931,6 +2151,7 @@
             }
         },
         "part_of_collection": {
+            "excel-column-name": "Teilsammlung von",
             "label": "Teilsammlung von",
             "value": {
                 "type": "CollectionID",
@@ -1938,6 +2159,7 @@
             }
         },
         "notes": {
+            "excel-column-name": "Anmerkungen",
             "label": "Anmerkungen",
             "value": {
                 "type": "String",
@@ -1947,6 +2169,7 @@
     },
     "C-REG": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1954,6 +2177,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -1961,6 +2185,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1968,6 +2193,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -1975,6 +2201,7 @@
             }
         },
         "notes": {
+            "excel-column-name": "Anmerkungen",
             "label": "Anmerkungen",
             "value": {
                 "type": "String",
@@ -1984,6 +2211,7 @@
     },
     "C-MW": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -1991,6 +2219,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -1998,6 +2227,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -2010,6 +2240,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -2019,6 +2250,7 @@
     },
     "C-POLL": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -2026,6 +2258,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -2033,6 +2266,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -2040,6 +2274,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",
@@ -2049,6 +2284,7 @@
     },
     "C-UPS": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "CollectionID",
@@ -2056,6 +2292,7 @@
             }
         },
         "collection_name": {
+            "excel-column-name": "Name der Sammlung",
             "label": "Name der Sammlung",
             "value": {
                 "type": "String",
@@ -2063,6 +2300,7 @@
             }
         },
         "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
             "label": "NYBG Herbarcode",
             "value": {
                 "type": "String",
@@ -2070,6 +2308,7 @@
             }
         },
         "holding_institution": {
+            "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
             "value": {
                 "type": "List",
@@ -2082,6 +2321,7 @@
             }
         },
         "website": {
+            "excel-column-name": "Webseite",
             "label": "Webseite",
             "value": {
                 "type": "URL",

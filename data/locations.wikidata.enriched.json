@@ -1,6 +1,7 @@
 {
     "L0001000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -8,6 +9,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -15,6 +17,7 @@
             }
         },
         "start": {
+            "excel-column-name": "Beginn",
             "label": "Beginn",
             "value": {
                 "type": "ISO8601_2_Date",
@@ -22,6 +25,7 @@
             }
         },
         "end": {
+            "excel-column-name": "Ende",
             "label": "Ende",
             "value": {
                 "type": "ISO8601_2_Date",
@@ -29,6 +33,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -57,6 +62,7 @@
     },
     "L0002000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -64,6 +70,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -71,6 +78,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -99,6 +107,7 @@
     },
     "L0003000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -106,6 +115,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -113,6 +123,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -141,6 +152,7 @@
     },
     "L0004000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -148,6 +160,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -155,6 +168,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -183,6 +197,7 @@
     },
     "L0005000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -190,6 +205,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -197,6 +213,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -225,6 +242,7 @@
     },
     "L0006000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -232,6 +250,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -239,6 +258,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -267,6 +287,7 @@
     },
     "L0007000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -276,6 +297,7 @@
     },
     "L0008000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -283,6 +305,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -290,6 +313,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -318,6 +342,7 @@
     },
     "L0009000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -325,6 +350,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -334,6 +360,7 @@
     },
     "L0010000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -341,6 +368,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -348,6 +376,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -376,6 +405,7 @@
     },
     "L0011000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -383,6 +413,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -390,6 +421,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -418,6 +450,7 @@
     },
     "L0011020": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -425,6 +458,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -434,6 +468,7 @@
     },
     "L0011035": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -441,6 +476,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -448,6 +484,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -476,6 +513,7 @@
     },
     "L0011050": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -483,6 +521,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -490,6 +529,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -518,6 +558,7 @@
     },
     "L0011100": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -525,6 +566,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -532,6 +574,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -560,6 +603,7 @@
     },
     "L0011150": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -567,6 +611,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -574,6 +619,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -602,6 +648,7 @@
     },
     "L0011200": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -609,6 +656,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -616,6 +664,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -644,6 +693,7 @@
     },
     "L0012000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -651,6 +701,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -658,6 +709,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -686,6 +738,7 @@
     },
     "L0013000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -693,6 +746,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -702,6 +756,7 @@
     },
     "L0014000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -711,6 +766,7 @@
     },
     "L0015000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -718,6 +774,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -725,6 +782,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -753,6 +811,7 @@
     },
     "L0015500": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -760,6 +819,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -767,6 +827,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -795,6 +856,7 @@
     },
     "L0016000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -802,6 +864,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -809,6 +872,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -837,6 +901,7 @@
     },
     "L0017000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -846,6 +911,7 @@
     },
     "L0018000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -853,6 +919,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -862,6 +929,7 @@
     },
     "L0019000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -869,6 +937,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -876,6 +945,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -904,6 +974,7 @@
     },
     "L0020000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -911,6 +982,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -918,6 +990,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -946,6 +1019,7 @@
     },
     "L0021000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -953,6 +1027,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -960,6 +1035,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -988,6 +1064,7 @@
     },
     "L0021500": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -995,6 +1072,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -1002,6 +1080,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -1030,6 +1109,7 @@
     },
     "L0022000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -1037,6 +1117,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -1044,6 +1125,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -1073,6 +1155,7 @@
     "": {},
     "L0022500": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -1080,6 +1163,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -1087,6 +1171,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -1115,6 +1200,7 @@
     },
     "L0022600": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -1122,6 +1208,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -1129,6 +1216,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -1157,6 +1245,7 @@
     },
     "L0022700": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -1164,6 +1253,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -1173,6 +1263,7 @@
     },
     "L0023000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -1180,6 +1271,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -1187,6 +1279,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -1201,6 +1294,7 @@
     },
     "L0023500": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -1208,6 +1302,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -1215,6 +1310,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -1243,6 +1339,7 @@
     },
     "L0024000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -1250,6 +1347,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -1257,6 +1355,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -1285,6 +1384,7 @@
     },
     "L0025000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -1292,6 +1392,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",
@@ -1299,6 +1400,7 @@
             }
         },
         "links": {
+            "excel-column-name": "Links",
             "label": "Links",
             "value": {
                 "type": "List",
@@ -1327,6 +1429,7 @@
     },
     "L0026000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
@@ -1334,6 +1437,7 @@
             }
         },
         "name": {
+            "excel-column-name": "Name",
             "label": "Name",
             "value": {
                 "type": "String",

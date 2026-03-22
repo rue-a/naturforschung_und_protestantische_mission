@@ -131,6 +131,7 @@ class TableParser:
                         level = level.setdefault(key, {})
 
                     level[path[-1]] = {
+                        "excel-column-name": spec.excel_column_name,
                         "label": spec.label,
                         "value": serialize_typed_value(parsed_value),
                     }

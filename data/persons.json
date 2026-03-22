@@ -1,6 +1,7 @@
 {
     "P0010000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "PersonID",
@@ -8,6 +9,7 @@
             }
         },
         "include_in_person_lexicon": {
+            "excel-column-name": "Übernahme in Personenlexikon",
             "label": "Übernahme in Personenlexikon",
             "value": {
                 "type": "Boolean",
@@ -16,6 +18,7 @@
         },
         "name": {
             "preferred": {
+                "excel-column-name": "Name - Vorzugsname",
                 "label": "Name - Vorzugsname",
                 "value": {
                     "type": "String",
@@ -23,6 +26,7 @@
                 }
             },
             "surname": {
+                "excel-column-name": "Name - Nachname(n)",
                 "label": "Name - Nachname(n)",
                 "value": {
                     "type": "String",
@@ -30,6 +34,7 @@
                 }
             },
             "given_name": {
+                "excel-column-name": "Name - Vorname(n)",
                 "label": "Name - Vorname(n)",
                 "value": {
                     "type": "String",
@@ -39,6 +44,7 @@
         },
         "relatives": {
             "spouses": {
+                "excel-column-name": "Angehörige - Ehepartner",
                 "label": "Angehörige - Ehepartner",
                 "value": {
                     "type": "List",
@@ -52,6 +58,7 @@
             }
         },
         "member_of_moravians": {
+            "excel-column-name": "Zugehörigkeit Herrnhuter Brüdergemeine",
             "label": "Zugehörigkeit Herrnhuter Brüdergemeine",
             "value": {
                 "type": "List",
@@ -73,35 +80,40 @@
         },
         "links": {
             "wikidata": {
-                "label": "Links - Wikidata",
+                "excel-column-name": "Links - Wikidata",
+                "label": "Wikidata",
                 "value": {
                     "type": "URL",
                     "value": "https://www.wikidata.org/wiki/Q62241"
                 }
             },
             "gnd": {
-                "label": "Links - GND",
+                "excel-column-name": "Links - GND",
+                "label": "GND",
                 "value": {
                     "type": "URL",
                     "value": "https://d-nb.info/gnd/10041463X"
                 }
             },
             "factgrid": {
-                "label": "Links - FactGrid",
+                "excel-column-name": "Links - FactGrid",
+                "label": "FactGrid",
                 "value": {
                     "type": "URL",
                     "value": "https://database.factgrid.de/wiki/Item:Q703529"
                 }
             },
             "bionomia": {
-                "label": "Links - Bionomia",
+                "excel-column-name": "Links - Bionomia",
+                "label": "Bionomia",
                 "value": {
                     "type": "URL",
                     "value": "https://bionomia.net/Q62241"
                 }
             },
             "saebi": {
-                "label": "Links - Säbi",
+                "excel-column-name": "Links - Säbi",
+                "label": "Sächsische Biografie",
                 "value": {
                     "type": "URL",
                     "value": "https://saebi.isgv.de/person/snr/108"
@@ -109,6 +121,7 @@
             }
         },
         "moravian_curriculum_vitae": {
+            "excel-column-name": "Herrnhuter Lebenslauf",
             "label": "Herrnhuter Lebenslauf",
             "value": {
                 "type": "LiteratureID",
@@ -118,6 +131,7 @@
         "life": {
             "birth": {
                 "date": {
+                    "excel-column-name": "Geburt - Datum",
                     "label": "Geburt - Datum",
                     "value": {
                         "type": "List",
@@ -134,6 +148,7 @@
                     }
                 },
                 "location": {
+                    "excel-column-name": "Geburt - Ort",
                     "label": "Geburt - Ort",
                     "value": {
                         "type": "List",
@@ -152,6 +167,7 @@
             },
             "death": {
                 "date": {
+                    "excel-column-name": "Tod - Datum",
                     "label": "Tod - Datum",
                     "value": {
                         "type": "List",
@@ -168,6 +184,7 @@
                     }
                 },
                 "location": {
+                    "excel-column-name": "Tod - Ort",
                     "label": "Tod - Ort",
                     "value": {
                         "type": "List",
@@ -185,6 +202,7 @@
                 }
             },
             "places_of_effect": {
+                "excel-column-name": "Wirkungsorte",
                 "label": "Wirkungsorte",
                 "value": {
                     "type": "List",
@@ -438,6 +456,7 @@
         },
         "botany": {
             "focuses": {
+                "excel-column-name": "Botanik - Foki",
                 "label": "Botanik - Foki",
                 "value": {
                     "type": "List",
@@ -462,6 +481,7 @@
                 }
             },
             "contribution_to_collections_object_evidence": {
+                "excel-column-name": "Botanik - Beitrag zu Sammlungen (Objektnachweis)",
                 "label": "Botanik - Beitrag zu Sammlungen (Objektnachweis)",
                 "value": {
                     "type": "List",
@@ -502,6 +522,7 @@
                 }
             },
             "contribution_to_collections_database_evidence": {
+                "excel-column-name": "Botanik - Beitrag zu Sammlungen (Datenbanknachweis)",
                 "label": "Botanik - Beitrag zu Sammlungen (Datenbanknachweis)",
                 "value": {
                     "type": "List",
@@ -526,6 +547,7 @@
                 }
             },
             "mentions_in_botanical_works_by_others": {
+                "excel-column-name": "Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere",
                 "label": "Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere",
                 "value": {
                     "type": "List",
@@ -547,6 +569,7 @@
             }
         },
         "mentions_in_non_botanical_works_by_others": {
+            "excel-column-name": "Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere",
             "label": "Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere",
             "value": {
                 "type": "List",
@@ -561,6 +584,7 @@
     },
     "P0170000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "PersonID",
@@ -568,6 +592,7 @@
             }
         },
         "include_in_person_lexicon": {
+            "excel-column-name": "Übernahme in Personenlexikon",
             "label": "Übernahme in Personenlexikon",
             "value": {
                 "type": "Boolean",
@@ -576,6 +601,7 @@
         },
         "name": {
             "preferred": {
+                "excel-column-name": "Name - Vorzugsname",
                 "label": "Name - Vorzugsname",
                 "value": {
                     "type": "String",
@@ -583,6 +609,7 @@
                 }
             },
             "surname": {
+                "excel-column-name": "Name - Nachname(n)",
                 "label": "Name - Nachname(n)",
                 "value": {
                     "type": "String",
@@ -590,6 +617,7 @@
                 }
             },
             "given_name": {
+                "excel-column-name": "Name - Vorname(n)",
                 "label": "Name - Vorname(n)",
                 "value": {
                     "type": "String",
@@ -597,6 +625,7 @@
                 }
             },
             "notes": {
+                "excel-column-name": "Name - Anmerkungen",
                 "label": "Name - Anmerkungen",
                 "value": {
                     "type": "String",
@@ -605,6 +634,7 @@
             }
         },
         "member_of_moravians": {
+            "excel-column-name": "Zugehörigkeit Herrnhuter Brüdergemeine",
             "label": "Zugehörigkeit Herrnhuter Brüdergemeine",
             "value": {
                 "type": "List",
@@ -622,21 +652,24 @@
         },
         "links": {
             "wikidata": {
-                "label": "Links - Wikidata",
+                "excel-column-name": "Links - Wikidata",
+                "label": "Wikidata",
                 "value": {
                     "type": "URL",
                     "value": "https://www.wikidata.org/wiki/Q55874791"
                 }
             },
             "gnd": {
-                "label": "Links - GND",
+                "excel-column-name": "Links - GND",
+                "label": "GND",
                 "value": {
                     "type": "URL",
                     "value": "https://d-nb.info/gnd/12842026X"
                 }
             },
             "bionomia": {
-                "label": "Links - Bionomia",
+                "excel-column-name": "Links - Bionomia",
+                "label": "Bionomia",
                 "value": {
                     "type": "URL",
                     "value": "https://bionomia.net/Q55874791"
@@ -646,6 +679,7 @@
         "life": {
             "birth": {
                 "date": {
+                    "excel-column-name": "Geburt - Datum",
                     "label": "Geburt - Datum",
                     "value": {
                         "type": "List",
@@ -662,6 +696,7 @@
                     }
                 },
                 "location": {
+                    "excel-column-name": "Geburt - Ort",
                     "label": "Geburt - Ort",
                     "value": {
                         "type": "List",
@@ -680,6 +715,7 @@
             },
             "death": {
                 "date": {
+                    "excel-column-name": "Tod - Datum",
                     "label": "Tod - Datum",
                     "value": {
                         "type": "List",
@@ -696,6 +732,7 @@
                     }
                 },
                 "location": {
+                    "excel-column-name": "Tod - Ort",
                     "label": "Tod - Ort",
                     "value": {
                         "type": "List",
@@ -715,6 +752,7 @@
         },
         "botany": {
             "focuses": {
+                "excel-column-name": "Botanik - Foki",
                 "label": "Botanik - Foki",
                 "value": {
                     "type": "List",
@@ -727,6 +765,7 @@
                 }
             },
             "contribution_to_collections_literature_evidence": {
+                "excel-column-name": "Botanik - Beitrag zu Sammlungen (Literaturnachweis)",
                 "label": "Botanik - Beitrag zu Sammlungen (Literaturnachweis)",
                 "value": {
                     "type": "List",
@@ -743,6 +782,7 @@
                 }
             },
             "contribution_to_collections_notes": {
+                "excel-column-name": "Botanik - Beitrag zu Sammlungen - Anmerkungen",
                 "label": "Botanik - Beitrag zu Sammlungen - Anmerkungen",
                 "value": {
                     "type": "String",
@@ -750,6 +790,7 @@
                 }
             },
             "manuscripts_by_person": {
+                "excel-column-name": "Botanik - Manuskripte der Person",
                 "label": "Botanik - Manuskripte der Person",
                 "value": {
                     "type": "List",
@@ -775,6 +816,7 @@
             }
         },
         "important_works_without_botanical_context": {
+            "excel-column-name": "Wichtige Werke der Person ohne botanischen Kontext",
             "label": "Wichtige Werke der Person ohne botanischen Kontext",
             "value": {
                 "type": "List",
@@ -793,6 +835,7 @@
     },
     "P0220000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "PersonID",
@@ -800,6 +843,7 @@
             }
         },
         "include_in_person_lexicon": {
+            "excel-column-name": "Übernahme in Personenlexikon",
             "label": "Übernahme in Personenlexikon",
             "value": {
                 "type": "Boolean",
@@ -808,6 +852,7 @@
         },
         "name": {
             "preferred": {
+                "excel-column-name": "Name - Vorzugsname",
                 "label": "Name - Vorzugsname",
                 "value": {
                     "type": "String",
@@ -815,6 +860,7 @@
                 }
             },
             "surname": {
+                "excel-column-name": "Name - Nachname(n)",
                 "label": "Name - Nachname(n)",
                 "value": {
                     "type": "String",
@@ -822,6 +868,7 @@
                 }
             },
             "given_name": {
+                "excel-column-name": "Name - Vorname(n)",
                 "label": "Name - Vorname(n)",
                 "value": {
                     "type": "String",
@@ -830,6 +877,7 @@
             }
         },
         "member_of_moravians": {
+            "excel-column-name": "Zugehörigkeit Herrnhuter Brüdergemeine",
             "label": "Zugehörigkeit Herrnhuter Brüdergemeine",
             "value": {
                 "type": "List",
@@ -847,14 +895,16 @@
         },
         "links": {
             "wikidata": {
-                "label": "Links - Wikidata",
+                "excel-column-name": "Links - Wikidata",
+                "label": "Wikidata",
                 "value": {
                     "type": "URL",
                     "value": "https://www.wikidata.org/wiki/Q21415674"
                 }
             },
             "bionomia": {
-                "label": "Links - Bionomia",
+                "excel-column-name": "Links - Bionomia",
+                "label": "Bionomia",
                 "value": {
                     "type": "URL",
                     "value": "https://de.bionomia.net/Q21415674"
@@ -862,6 +912,7 @@
             }
         },
         "moravian_curriculum_vitae": {
+            "excel-column-name": "Herrnhuter Lebenslauf",
             "label": "Herrnhuter Lebenslauf",
             "value": {
                 "type": "LiteratureID",
@@ -871,6 +922,7 @@
         "life": {
             "birth": {
                 "date": {
+                    "excel-column-name": "Geburt - Datum",
                     "label": "Geburt - Datum",
                     "value": {
                         "type": "List",
@@ -887,6 +939,7 @@
                     }
                 },
                 "location": {
+                    "excel-column-name": "Geburt - Ort",
                     "label": "Geburt - Ort",
                     "value": {
                         "type": "List",
@@ -905,6 +958,7 @@
             },
             "death": {
                 "date": {
+                    "excel-column-name": "Tod - Datum",
                     "label": "Tod - Datum",
                     "value": {
                         "type": "List",
@@ -924,6 +978,7 @@
         },
         "botany": {
             "focuses": {
+                "excel-column-name": "Botanik - Foki",
                 "label": "Botanik - Foki",
                 "value": {
                     "type": "List",
@@ -944,6 +999,7 @@
                 }
             },
             "contribution_to_collections_literature_evidence": {
+                "excel-column-name": "Botanik - Beitrag zu Sammlungen (Literaturnachweis)",
                 "label": "Botanik - Beitrag zu Sammlungen (Literaturnachweis)",
                 "value": {
                     "type": "List",
@@ -1032,6 +1088,7 @@
                 }
             },
             "mentions_in_botanical_works_by_others": {
+                "excel-column-name": "Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere",
                 "label": "Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere",
                 "value": {
                     "type": "List",
@@ -1053,6 +1110,7 @@
             }
         },
         "mentions_in_non_botanical_works_by_others": {
+            "excel-column-name": "Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere",
             "label": "Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere",
             "value": {
                 "type": "List",

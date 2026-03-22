@@ -1,6 +1,7 @@
 {
     "R0000100": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -8,6 +9,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -17,6 +19,7 @@
     },
     "R0000200": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -24,6 +27,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -33,6 +37,7 @@
     },
     "R0000300": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -40,6 +45,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -47,6 +53,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -54,6 +61,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -63,6 +71,7 @@
     },
     "R0000400": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -70,6 +79,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -79,6 +89,7 @@
     },
     "R0000500": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -86,6 +97,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -95,6 +107,7 @@
     },
     "R0000600": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -102,6 +115,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -109,6 +123,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -118,6 +133,7 @@
     },
     "R0000700": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -125,6 +141,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -132,6 +149,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -139,6 +157,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -148,6 +167,7 @@
     },
     "R0000800": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -155,6 +175,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -162,6 +183,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -171,6 +193,7 @@
     },
     "R0000900": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -178,6 +201,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -185,6 +209,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -194,6 +219,7 @@
     },
     "R0001000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -201,6 +227,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -208,6 +235,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -217,6 +245,7 @@
     },
     "R0001100": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -224,6 +253,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -231,6 +261,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -240,6 +271,7 @@
     },
     "R0001200": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -247,6 +279,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -254,6 +287,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -261,6 +295,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -270,6 +305,7 @@
     },
     "R0001300": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -277,6 +313,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -284,6 +321,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -291,6 +329,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -300,6 +339,7 @@
     },
     "R0001400": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -307,6 +347,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -316,6 +357,7 @@
     },
     "R0001500": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -323,6 +365,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -330,6 +373,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -337,6 +381,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -346,6 +391,7 @@
     },
     "R0001600": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -353,6 +399,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -362,6 +409,7 @@
     },
     "R0001700": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -369,6 +417,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -376,6 +425,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -383,6 +433,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -393,6 +444,7 @@
     "": {},
     "R0001900": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -400,6 +452,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -407,6 +460,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -416,6 +470,7 @@
     },
     "R0002000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -423,6 +478,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -430,6 +486,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -437,6 +494,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -446,6 +504,7 @@
     },
     "R0002100": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -453,6 +512,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -460,6 +520,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -467,6 +528,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -476,6 +538,7 @@
     },
     "R0002200": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -483,6 +546,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -490,6 +554,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -497,6 +562,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -506,6 +572,7 @@
     },
     "R0002300": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -513,6 +580,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -520,6 +588,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -529,6 +598,7 @@
     },
     "R0002400": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -536,6 +606,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -543,6 +614,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -552,6 +624,7 @@
     },
     "R0002500": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -559,6 +632,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -566,6 +640,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -575,6 +650,7 @@
     },
     "R0002600": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -582,6 +658,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -589,6 +666,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -596,6 +674,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -605,6 +684,7 @@
     },
     "R0002700": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -612,6 +692,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -619,6 +700,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -628,6 +710,7 @@
     },
     "R0002800": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -635,6 +718,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -642,6 +726,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -651,6 +736,7 @@
     },
     "R0002900": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -658,6 +744,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -665,6 +752,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -674,6 +762,7 @@
     },
     "R0003000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -681,6 +770,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -688,6 +778,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -697,6 +788,7 @@
     },
     "R0003100": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -704,6 +796,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -713,6 +806,7 @@
     },
     "R0003200": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -720,6 +814,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -727,6 +822,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -736,6 +832,7 @@
     },
     "R0003300": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -743,6 +840,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -750,6 +848,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -757,6 +856,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -766,6 +866,7 @@
     },
     "R0003400": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -773,6 +874,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -780,6 +882,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -787,6 +890,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -796,6 +900,7 @@
     },
     "R0003500": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -803,6 +908,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -810,6 +916,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -819,6 +926,7 @@
     },
     "R0003600": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -826,6 +934,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -833,6 +942,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -842,6 +952,7 @@
     },
     "R0003700": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -849,6 +960,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -856,6 +968,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -865,6 +978,7 @@
     },
     "R0003800": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -872,6 +986,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -879,6 +994,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -886,6 +1002,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -895,6 +1012,7 @@
     },
     "R0003900": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -902,6 +1020,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -909,6 +1028,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -918,6 +1038,7 @@
     },
     "R0004000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -925,6 +1046,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -932,6 +1054,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -941,6 +1064,7 @@
     },
     "R0004100": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -948,6 +1072,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -955,6 +1080,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -962,6 +1088,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -971,6 +1098,7 @@
     },
     "R0004200": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -978,6 +1106,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -985,6 +1114,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -994,6 +1124,7 @@
     },
     "R0004300": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -1001,6 +1132,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1010,6 +1142,7 @@
     },
     "R0004400": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -1017,6 +1150,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1024,6 +1158,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -1031,6 +1166,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1040,6 +1176,7 @@
     },
     "R0004500": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -1047,6 +1184,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1054,6 +1192,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1063,6 +1202,7 @@
     },
     "R0004600": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -1070,6 +1210,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1079,6 +1220,7 @@
     },
     "R0004700": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -1086,6 +1228,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1093,6 +1236,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1102,6 +1246,7 @@
     },
     "R0004800": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -1109,6 +1254,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1116,6 +1262,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1125,6 +1272,7 @@
     },
     "R0004900": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -1132,6 +1280,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1139,6 +1288,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -1146,6 +1296,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1155,6 +1306,7 @@
     },
     "R0005000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -1162,6 +1314,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1171,6 +1324,7 @@
     },
     "R0005100": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -1178,6 +1332,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1185,6 +1340,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -1194,6 +1350,7 @@
     },
     "R0005200": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -1201,6 +1358,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1210,6 +1368,7 @@
     },
     "R0005300": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -1217,6 +1376,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1224,6 +1384,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1233,6 +1394,7 @@
     },
     "R0005400": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -1240,6 +1402,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1249,6 +1412,7 @@
     },
     "R0005500": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -1256,6 +1420,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1263,6 +1428,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1272,6 +1438,7 @@
     },
     "R0005600": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -1279,6 +1446,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1286,6 +1454,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -1295,6 +1464,7 @@
     },
     "R0005700": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",
@@ -1304,6 +1474,7 @@
     },
     "R0005800": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LiteratureID",

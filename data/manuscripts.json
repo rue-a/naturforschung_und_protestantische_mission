@@ -1,6 +1,7 @@
 {
     "M0000100": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -8,6 +9,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -15,6 +17,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -22,6 +25,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -31,6 +35,7 @@
     },
     "M0000200": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -38,6 +43,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -45,6 +51,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -52,6 +59,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -61,6 +69,7 @@
     },
     "M0000300": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -68,6 +77,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -75,6 +85,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -82,6 +93,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -91,6 +103,7 @@
     },
     "M0000400": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -98,6 +111,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -105,6 +119,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -112,6 +127,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -121,6 +137,7 @@
     },
     "M0000500": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -128,6 +145,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -135,6 +153,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -142,6 +161,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -149,6 +169,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -158,6 +179,7 @@
     },
     "M0000600": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -165,6 +187,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -172,6 +195,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -179,6 +203,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -188,6 +213,7 @@
     },
     "M0000700": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -195,6 +221,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -202,6 +229,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -209,6 +237,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -218,6 +247,7 @@
     },
     "M0000800": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -225,6 +255,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -232,6 +263,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -239,6 +271,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -246,6 +279,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -253,6 +287,7 @@
             }
         },
         "wikidata_id": {
+            "excel-column-name": "Wikidata ID",
             "label": "Wikidata ID",
             "value": {
                 "type": "String",
@@ -262,6 +297,7 @@
     },
     "M0000900": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -269,6 +305,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -276,6 +313,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -283,6 +321,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -290,6 +329,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -299,6 +339,7 @@
     },
     "M0001000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -306,6 +347,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -313,6 +355,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -320,6 +363,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -327,6 +371,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -336,6 +381,7 @@
     },
     "M0001100": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -343,6 +389,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -350,6 +397,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -357,6 +405,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -364,6 +413,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -373,6 +423,7 @@
     },
     "M0001200": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -380,6 +431,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -387,6 +439,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -394,6 +447,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -401,6 +455,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -410,6 +465,7 @@
     },
     "M0001300": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -417,6 +473,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -424,6 +481,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -431,6 +489,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -438,6 +497,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -447,6 +507,7 @@
     },
     "M0001400": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -454,6 +515,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -461,6 +523,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -468,6 +531,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -475,6 +539,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -484,6 +549,7 @@
     },
     "M0001500": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -491,6 +557,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -498,6 +565,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -505,6 +573,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -514,6 +583,7 @@
     },
     "M0001600": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -521,6 +591,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -528,6 +599,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -535,6 +607,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -544,6 +617,7 @@
     },
     "M0001700": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -551,6 +625,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -558,6 +633,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -565,6 +641,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -574,6 +651,7 @@
     },
     "M0001800": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -581,6 +659,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -588,6 +667,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -595,6 +675,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -604,6 +685,7 @@
     },
     "M0001900": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -611,6 +693,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -618,6 +701,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -625,6 +709,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -634,6 +719,7 @@
     },
     "M0002000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -641,6 +727,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -648,6 +735,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -655,6 +743,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -664,6 +753,7 @@
     },
     "M0002100": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -671,6 +761,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -678,6 +769,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -685,6 +777,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -692,6 +785,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -701,6 +795,7 @@
     },
     "M0002200": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -708,6 +803,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -715,6 +811,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -722,6 +819,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -729,6 +827,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -738,6 +837,7 @@
     },
     "M0002300": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -745,6 +845,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -752,6 +853,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -759,6 +861,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -768,6 +871,7 @@
     },
     "M0002400": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -775,6 +879,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -782,6 +887,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -789,6 +895,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -798,6 +905,7 @@
     },
     "M0002500": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -805,6 +913,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -812,6 +921,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -819,6 +929,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -828,6 +939,7 @@
     },
     "M0002600": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -835,6 +947,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -842,6 +955,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -849,6 +963,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -858,6 +973,7 @@
     },
     "M0002700": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -865,6 +981,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -872,6 +989,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -881,6 +999,7 @@
     },
     "M0002800": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -888,6 +1007,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -895,6 +1015,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -902,6 +1023,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -909,6 +1031,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -918,6 +1041,7 @@
     },
     "M0002900": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -925,6 +1049,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -932,6 +1057,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -939,6 +1065,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -946,6 +1073,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -955,6 +1083,7 @@
     },
     "M0003000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -962,6 +1091,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -969,6 +1099,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -976,6 +1107,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -983,6 +1115,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -992,6 +1125,7 @@
     },
     "M0003100": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -999,6 +1133,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1006,6 +1141,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1013,6 +1149,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -1020,6 +1157,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1029,6 +1167,7 @@
     },
     "M0003200": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1036,6 +1175,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1043,6 +1183,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1050,6 +1191,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -1057,6 +1199,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1066,6 +1209,7 @@
     },
     "M0003300": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1073,6 +1217,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1080,6 +1225,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1087,6 +1233,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -1096,6 +1243,7 @@
     },
     "M0003400": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1103,6 +1251,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1110,6 +1259,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1117,6 +1267,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1126,6 +1277,7 @@
     },
     "M0003500": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1133,6 +1285,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1140,6 +1293,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1149,6 +1303,7 @@
     },
     "M0003600": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1156,6 +1311,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1163,6 +1319,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1172,6 +1329,7 @@
     },
     "M0003700": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1179,6 +1337,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1186,6 +1345,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1193,6 +1353,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1202,6 +1363,7 @@
     },
     "M0003800": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1209,6 +1371,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1216,6 +1379,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1223,6 +1387,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1230,6 +1395,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1239,6 +1405,7 @@
     },
     "M0003900": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1246,6 +1413,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1253,6 +1421,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1260,6 +1429,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1267,6 +1437,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -1274,6 +1445,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1283,6 +1455,7 @@
     },
     "M0004000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1290,6 +1463,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1297,6 +1471,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1304,6 +1479,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1311,6 +1487,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1320,6 +1497,7 @@
     },
     "M0004100": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1327,6 +1505,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1334,6 +1513,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1341,6 +1521,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1348,6 +1529,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -1355,6 +1537,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1364,6 +1547,7 @@
     },
     "M0004200": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1371,6 +1555,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1378,6 +1563,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1385,6 +1571,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1392,6 +1579,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1401,6 +1589,7 @@
     },
     "M0004300": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1408,6 +1597,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1415,6 +1605,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1422,6 +1613,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -1429,6 +1621,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1438,6 +1631,7 @@
     },
     "M0004400": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1445,6 +1639,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1452,6 +1647,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1459,6 +1655,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -1466,6 +1663,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1475,6 +1673,7 @@
     },
     "M0004500": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1482,6 +1681,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1489,6 +1689,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1496,6 +1697,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1503,6 +1705,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1512,6 +1715,7 @@
     },
     "M0004600": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1519,6 +1723,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1528,6 +1733,7 @@
     },
     "M0004700": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1535,6 +1741,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1542,6 +1749,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1549,6 +1757,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1556,6 +1765,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1565,6 +1775,7 @@
     },
     "M0004800": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1572,6 +1783,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1579,6 +1791,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1586,6 +1799,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1595,6 +1809,7 @@
     },
     "M0004900": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1602,6 +1817,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1609,6 +1825,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1616,6 +1833,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1623,6 +1841,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1632,6 +1851,7 @@
     },
     "M0005000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1639,6 +1859,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1646,6 +1867,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1653,6 +1875,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1662,6 +1885,7 @@
     },
     "M0005100": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1669,6 +1893,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1676,6 +1901,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1683,6 +1909,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1690,6 +1917,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1699,6 +1927,7 @@
     },
     "M0005200": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1706,6 +1935,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1713,6 +1943,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1720,6 +1951,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1727,6 +1959,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1736,6 +1969,7 @@
     },
     "M0005300": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1743,6 +1977,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1750,6 +1985,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1757,6 +1993,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1764,6 +2001,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1773,6 +2011,7 @@
     },
     "M0005400": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1780,6 +2019,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1787,6 +2027,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1794,6 +2035,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1801,6 +2043,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1810,6 +2053,7 @@
     },
     "M0005500": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1817,6 +2061,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1824,6 +2069,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1831,6 +2077,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -1838,6 +2085,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1845,6 +2093,7 @@
             }
         },
         "wikidata_id": {
+            "excel-column-name": "Wikidata ID",
             "label": "Wikidata ID",
             "value": {
                 "type": "String",
@@ -1854,6 +2103,7 @@
     },
     "M0006000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1861,6 +2111,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1868,6 +2119,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1875,6 +2127,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1884,6 +2137,7 @@
     },
     "M0007000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1891,6 +2145,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1898,6 +2153,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -1905,6 +2161,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -1912,6 +2169,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1919,6 +2177,7 @@
             }
         },
         "wikidata_id": {
+            "excel-column-name": "Wikidata ID",
             "label": "Wikidata ID",
             "value": {
                 "type": "String",
@@ -1928,6 +2187,7 @@
     },
     "M0008000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1935,6 +2195,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1942,6 +2203,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1949,6 +2211,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -1956,6 +2219,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -1965,6 +2229,7 @@
     },
     "M0009000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -1972,6 +2237,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -1979,6 +2245,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -1986,6 +2253,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -1993,6 +2261,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2002,6 +2271,7 @@
     },
     "M0010000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2009,6 +2279,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2016,6 +2287,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2023,6 +2295,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -2030,6 +2303,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2039,6 +2313,7 @@
     },
     "M0011000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2046,6 +2321,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2053,6 +2329,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2060,6 +2337,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -2067,6 +2345,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2076,6 +2355,7 @@
     },
     "M0012000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2083,6 +2363,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2090,6 +2371,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2097,6 +2379,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -2104,6 +2387,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2113,6 +2397,7 @@
     },
     "M0013000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2120,6 +2405,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2127,6 +2413,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2134,6 +2421,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -2141,6 +2429,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2150,6 +2439,7 @@
     },
     "M0014000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2157,6 +2447,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2164,6 +2455,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2171,6 +2463,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -2178,6 +2471,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2187,6 +2481,7 @@
     },
     "M0015000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2194,6 +2489,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2201,6 +2497,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2208,6 +2505,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -2215,6 +2513,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2224,6 +2523,7 @@
     },
     "M0016000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2231,6 +2531,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2238,6 +2539,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2245,6 +2547,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -2252,6 +2555,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2261,6 +2565,7 @@
     },
     "M0017000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2268,6 +2573,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2275,6 +2581,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2282,6 +2589,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -2289,6 +2597,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2298,6 +2607,7 @@
     },
     "M0018000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2305,6 +2615,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2312,6 +2623,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2319,6 +2631,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -2326,6 +2639,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2335,6 +2649,7 @@
     },
     "M0019000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2342,6 +2657,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2349,6 +2665,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2356,6 +2673,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -2363,6 +2681,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2372,6 +2691,7 @@
     },
     "M0020000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2379,6 +2699,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2386,6 +2707,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2393,6 +2715,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -2400,6 +2723,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2409,6 +2733,7 @@
     },
     "M0021000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2416,6 +2741,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2423,6 +2749,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2430,6 +2757,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -2437,6 +2765,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2446,6 +2775,7 @@
     },
     "M0022000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2453,6 +2783,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2460,6 +2791,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2467,6 +2799,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -2474,6 +2807,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2483,6 +2817,7 @@
     },
     "M0023000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2490,6 +2825,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2497,6 +2833,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2504,6 +2841,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -2511,6 +2849,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2520,6 +2859,7 @@
     },
     "M0024000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2527,6 +2867,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2534,6 +2875,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2541,6 +2883,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -2548,6 +2891,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2557,6 +2901,7 @@
     },
     "M0025000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2564,6 +2909,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2571,6 +2917,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2578,6 +2925,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -2585,6 +2933,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2594,6 +2943,7 @@
     },
     "M0026000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2601,6 +2951,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2608,6 +2959,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2615,6 +2967,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -2622,6 +2975,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2631,6 +2985,7 @@
     },
     "M0027000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2638,6 +2993,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2645,6 +3001,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2652,6 +3009,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -2659,6 +3017,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -2666,6 +3025,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2675,6 +3035,7 @@
     },
     "M0028000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2682,6 +3043,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2689,6 +3051,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2696,6 +3059,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -2703,6 +3067,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2712,6 +3077,7 @@
     },
     "M0029000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2719,6 +3085,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2726,6 +3093,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2733,6 +3101,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -2740,6 +3109,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2749,6 +3119,7 @@
     },
     "M0030000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2756,6 +3127,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2763,6 +3135,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2770,6 +3143,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -2777,6 +3151,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -2784,6 +3159,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2793,6 +3169,7 @@
     },
     "M0031000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2800,6 +3177,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2807,6 +3185,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2814,6 +3193,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -2821,6 +3201,7 @@
             }
         },
         "permalink": {
+            "excel-column-name": "Permalink",
             "label": "Permalink",
             "value": {
                 "type": "URL",
@@ -2828,6 +3209,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2837,6 +3219,7 @@
     },
     "M0032000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2844,6 +3227,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2851,6 +3235,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2860,6 +3245,7 @@
     },
     "M0033000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
@@ -2867,6 +3253,7 @@
             }
         },
         "archive": {
+            "excel-column-name": "Archiv",
             "label": "Archiv",
             "value": {
                 "type": "ArchiveID",
@@ -2874,6 +3261,7 @@
             }
         },
         "signature": {
+            "excel-column-name": "Signatur",
             "label": "Signatur",
             "value": {
                 "type": "String",
@@ -2881,6 +3269,7 @@
             }
         },
         "title": {
+            "excel-column-name": "Titel",
             "label": "Titel",
             "value": {
                 "type": "String",
@@ -2888,6 +3277,7 @@
             }
         },
         "description": {
+            "excel-column-name": "Beschreibung",
             "label": "Beschreibung",
             "value": {
                 "type": "String",
@@ -2897,6 +3287,7 @@
     },
     "M0034000": {
         "id": {
+            "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "ManuscriptID",
