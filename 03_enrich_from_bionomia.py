@@ -16,8 +16,7 @@ from enrich_utils import (
 )
 
 
-DEFAULT_INPUT = Path("data/persons.wikidata.enriched.json")
-DEFAULT_OUTPUT = Path("data/persons.wikidata.bionomia.enriched.json")
+DEFAULT_INPUT = Path("data/persons.json")
 USER_AGENT = "naturforschung-und-protestantische-mission/1.0 (bionomia enrichment)"
 
 BIONOMIA_QID_RE = re.compile(r"bionomia\.net/(?:[a-z]{2}/)?(Q\d+)$")
@@ -158,20 +157,9 @@ def main() -> None:
         help="Input persons JSON file.",
     )
     parser.add_argument(
-        "--output",
-        type=Path,
-        default=DEFAULT_OUTPUT,
-        help="Output file for enriched persons JSON.",
-    )
-    parser.add_argument(
         "--overwrite",
         action="store_true",
         help="Overwrite existing Bionomia enrichment.",
-    )
-    parser.add_argument(
-        "--in-place",
-        action="store_true",
-        help="Write the enriched data back to the input file.",
     )
     parser.add_argument(
         "--pause-seconds",
@@ -181,7 +169,7 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    output_path = args.input if args.in_place else args.output
+    output_path = args.input
     payload = load_json(args.input)
     enriched_payload, stats = enrich_persons_from_bionomia(
         payload,

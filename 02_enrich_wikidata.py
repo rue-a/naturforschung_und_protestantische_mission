@@ -18,9 +18,7 @@ from enrich_utils import (
 
 WIKIDATA_QID_RE = re.compile(r"/wiki/(Q\d+)$")
 DEFAULT_LOCATIONS_INPUT = Path("data/locations.json")
-DEFAULT_LOCATIONS_OUTPUT = Path("data/locations.wikidata.enriched.json")
 DEFAULT_PERSONS_INPUT = Path("data/persons.json")
-DEFAULT_PERSONS_OUTPUT = Path("data/persons.wikidata.enriched.json")
 USER_AGENT = "naturforschung-und-protestantische-mission/1.0 (wikidata enrichment)"
 
 WIKIDATA_PROPERTIES = {
@@ -266,11 +264,6 @@ def main() -> None:
         help="Overwrite existing values.",
     )
     parser.add_argument(
-        "--in-place",
-        action="store_true",
-        help="Write the enriched data back to the input file.",
-    )
-    parser.add_argument(
         "--pause-seconds",
         type=float,
         default=0.1,
@@ -280,8 +273,8 @@ def main() -> None:
 
     locations_input = DEFAULT_LOCATIONS_INPUT
     persons_input = DEFAULT_PERSONS_INPUT
-    locations_output = locations_input if args.in_place else DEFAULT_LOCATIONS_OUTPUT
-    persons_output = persons_input if args.in_place else DEFAULT_PERSONS_OUTPUT
+    locations_output = locations_input
+    persons_output = persons_input
 
     locations_payload = load_json(locations_input)
     enriched_locations, location_stats = enrich_locations(

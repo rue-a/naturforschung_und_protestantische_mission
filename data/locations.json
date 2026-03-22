@@ -44,6 +44,20 @@
                     }
                 ]
             }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": -50.41
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 63.05
+            }
         }
     },
     "L0002000": {
@@ -74,6 +88,20 @@
                         "value": "https://www.wikidata.org/wiki/Q530185"
                     }
                 ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 11.8838245
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 51.9667595
             }
         }
     },
@@ -106,6 +134,20 @@
                     }
                 ]
             }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 7.5905555555556
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 47.560555555556
+            }
         }
     },
     "L0004000": {
@@ -136,6 +178,20 @@
                         "value": "https://www.wikidata.org/wiki/Q502553"
                     }
                 ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 14.758333333333
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 51.027777777778
             }
         }
     },
@@ -168,6 +224,20 @@
                     }
                 ]
             }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": -75.375555555556
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 40.626111111111
+            }
         }
     },
     "L0006000": {
@@ -198,6 +268,20 @@
                         "value": "https://www.wikidata.org/wiki/Q3197288"
                     }
                 ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 9.483056
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 55.356667
             }
         }
     },
@@ -239,6 +323,20 @@
                         "value": "https://www.wikidata.org/wiki/Q1279760"
                     }
                 ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 11.6672
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 50.4847
             }
         }
     },
@@ -289,6 +387,20 @@
                     }
                 ]
             }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 15.615833
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 51.259167
+            }
         }
     },
     "L0011000": {
@@ -319,6 +431,20 @@
                         "value": "https://www.wikidata.org/wiki/Q986091"
                     }
                 ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 16.74359
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 50.68357
             }
         }
     },
@@ -369,6 +495,20 @@
                     }
                 ]
             }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 14.793333333333
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 50.990833333333
+            }
         }
     },
     "L0011050": {
@@ -399,6 +539,20 @@
                         "value": "https://www.wikidata.org/wiki/Q5587251"
                     }
                 ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": -84.163
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 39.23
             }
         }
     },
@@ -431,6 +585,20 @@
                     }
                 ]
             }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": -62.626111111111
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 58.2
+            }
         }
     },
     "L0011150": {
@@ -461,6 +629,20 @@
                         "value": "https://www.wikidata.org/wiki/Q1614322"
                     }
                 ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 9.08333
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 50.2639
             }
         }
     },
@@ -493,6 +675,20 @@
                     }
                 ]
             }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 14.741666666667
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 51.016666666667
+            }
         }
     },
     "L0012000": {
@@ -523,6 +719,20 @@
                         "value": "https://www.wikidata.org/wiki/Q11338369"
                     }
                 ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": -60.203188888889
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 55.467372222222
             }
         }
     },
@@ -583,6 +793,20 @@
                     }
                 ]
             }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 14.3946
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 51.21079
+            }
         }
     },
     "L0015500": {
@@ -614,6 +838,20 @@
                     }
                 ]
             }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 8.4213888888889
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 48.138333333333
+            }
         }
     },
     "L0016000": {
@@ -644,6 +882,20 @@
                         "value": "https://www.wikidata.org/wiki/Q1016295"
                     }
                 ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": -45.5378
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 60.5072
             }
         }
     },
@@ -704,6 +956,20 @@
                     }
                 ]
             }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 9.0041666666667
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 49.678611111111
+            }
         }
     },
     "L0020000": {
@@ -734,6 +1000,20 @@
                         "value": "https://www.wikidata.org/wiki/Q1022937"
                     }
                 ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": -75.311111111111
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 40.74
             }
         }
     },
@@ -766,6 +1046,20 @@
                     }
                 ]
             }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": -61.6928
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 56.5422
+            }
         }
     },
     "L0021500": {
@@ -797,6 +1091,20 @@
                     }
                 ]
             }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 10.913333333333
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 50.9125
+            }
         }
     },
     "L0022000": {
@@ -827,6 +1135,20 @@
                         "value": "https://www.wikidata.org/wiki/Q3967"
                     }
                 ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 7.4613888888889
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 50.428611111111
             }
         }
     },
@@ -860,6 +1182,20 @@
                     }
                 ]
             }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 14.83
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 51.289722222222
+            }
         }
     },
     "L0022600": {
@@ -890,6 +1226,20 @@
                         "value": "https://www.wikidata.org/wiki/Q7081733"
                     }
                 ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": -61.98425
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 57.562389
             }
         }
     },
@@ -971,6 +1321,20 @@
                     }
                 ]
             }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": -64.7495816
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 18.3396764
+            }
         }
     },
     "L0024000": {
@@ -1002,6 +1366,20 @@
                     }
                 ]
             }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": -61.844722222222
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 17.121111111111
+            }
         }
     },
     "L0025000": {
@@ -1032,6 +1410,20 @@
                         "value": "https://www.wikidata.org/wiki/Q44500"
                     }
                 ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 10.971944444444
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 49.030555555556
             }
         }
     },

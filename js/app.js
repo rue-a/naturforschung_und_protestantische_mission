@@ -1,5 +1,5 @@
-const PERSONS_URL = "./data/persons.wikidata.enriched.json";
-const LOCATIONS_URL = "./data/locations.wikidata.enriched.json";
+const PERSONS_URL = "./data/persons.json";
+const LOCATIONS_URL = "./data/locations.json";
 
 const state = {
   persons: [],
@@ -259,8 +259,8 @@ function renderArticle(person) {
     <div>
       <h3 class="h6 text-body-secondary">Aktueller Stand</h3>
       <p class="mb-0">
-        Der Personenbrowser verwendet die strukturierte Datei <code>persons.wikidata.enriched.json</code>
-        und verbindet sie fuer die Karte mit <code>locations.wikidata.enriched.json</code>.
+        Der Personenbrowser verwendet die strukturierte Datei <code>persons.json</code>
+        und verbindet sie fuer die Karte mit <code>locations.json</code>.
       </p>
     </div>
   `;
