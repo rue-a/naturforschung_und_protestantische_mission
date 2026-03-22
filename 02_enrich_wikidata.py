@@ -144,7 +144,7 @@ def enrich_locations(
     skipped = 0
     failed = 0
 
-    for _, record in payload.items():
+    for location_id, record in payload.items():
         has_longitude = "longitude" in record
         has_latitude = "latitude" in record
 
@@ -172,6 +172,9 @@ def enrich_locations(
         record["longitude"] = make_decimal_field("Longitude", longitude)
         record["latitude"] = make_decimal_field("Latitude", latitude)
         updated += 1
+        print(
+            f"[locations] enriched {location_id} from {qid}: longitude={longitude}, latitude={latitude}"
+        )
 
         if pause_seconds:
             time.sleep(pause_seconds)
@@ -200,7 +203,7 @@ def enrich_person_links(
         "saebi": "Links - Säbi",
     }
 
-    for _, record in payload.items():
+    for person_id, record in payload.items():
         qid = extract_wikidata_qid_from_person_links(record)
         if not qid:
             skipped += 1
@@ -224,6 +227,7 @@ def enrich_person_links(
 
         candidate_urls = build_person_link_urls(qid, entity_payload)
         changed = False
+        enriched_fields = []
 
         for key in missing_targets:
             url = candidate_urls.get(key)
@@ -232,9 +236,13 @@ def enrich_person_links(
 
             links[key] = make_url_field(labels[key], url)
             changed = True
+            enriched_fields.append(key)
 
         if changed:
             updated += 1
+            print(
+                f"[persons] enriched {person_id} from {qid}: added {', '.join(enriched_fields)}"
+            )
         else:
             skipped += 1
 
