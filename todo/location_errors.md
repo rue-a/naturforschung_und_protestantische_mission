@@ -16,6 +16,10 @@
  _Missing reference for complex value_
 > Piława Górna |Peilau | Oberpeilau | Obermittelpeilau 
 
+- [ ] __L0013000, Varianten__:
+ _Missing reference for complex value_
+> Igdlorpait | Illorpaat
+
 - [ ] __L0016000, Varianten__:
  _Missing reference for complex value_
 > Alluitsoq

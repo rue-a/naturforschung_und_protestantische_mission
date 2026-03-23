@@ -1886,7 +1886,15 @@
             }
         }
     },
-    "c-suzhou": {
+    "C-suzhou": {
+        "id": {
+            "excel-column-name": "ID",
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-suzhou"
+            }
+        },
         "holding_institution": {
             "excel-column-name": "Sammlungshaltende Institution",
             "label": "Sammlungshaltende Institution",
