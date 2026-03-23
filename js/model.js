@@ -60,7 +60,7 @@ window.AppModel = (() => {
       return leftSurname.localeCompare(rightSurname, "de");
     });
     state.locationsById = locationsPayload;
-    state.selectedPersonId = state.filteredPersonIds[0];
+    state.selectedPersonId = null;
   }
 
   function formatTypedValue(typedValue) {

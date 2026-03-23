@@ -6,8 +6,16 @@ window.AppController = (() => {
     await window.AppModel.loadData();
     window.AppView.setupMap();
     bindEvents();
-    renderApp();
+    window.AppView.renderBrowser();
     window.AppView.showApp();
+
+    const firstPersonButton = DOM.browser.querySelector("button");
+    if (firstPersonButton) {
+      firstPersonButton.click();
+      return;
+    }
+
+    renderApp();
   }
 
   function bindEvents() {
@@ -37,13 +45,6 @@ window.AppController = (() => {
 
       return haystack.includes(query);
     });
-
-    if (
-      !state.filteredPersonIds.includes(state.selectedPersonId)
-    ) {
-      state.selectedPersonId =
-        state.filteredPersonIds.length > 0 ? state.filteredPersonIds[0] : null;
-    }
 
     renderApp();
   }
