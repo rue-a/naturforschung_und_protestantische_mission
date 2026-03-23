@@ -80,14 +80,6 @@ window.AppModel = (() => {
     return [dateText, locationText].filter(Boolean).join(" | ");
   }
 
-  function countListEntries(field) {
-    return field.value.value.length;
-  }
-
-  function getLifeEventLabel(eventObject) {
-    return eventObject.date.label.split(" - ")[0];
-  }
-
   function collectPersonPlaces(record) {
     const places = [];
 
@@ -174,8 +166,6 @@ window.AppModel = (() => {
     loadData,
     formatTypedValue,
     formatLifeEvent,
-    countListEntries,
-    getLifeEventLabel,
     collectPersonPlaces,
   };
 })();

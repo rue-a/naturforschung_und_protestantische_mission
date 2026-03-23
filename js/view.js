@@ -84,8 +84,14 @@ window.AppView = (() => {
         "member_of_moravians" in record ? record.member_of_moravians.label : "",
         "member_of_moravians" in record ? window.AppModel.formatTypedValue(record.member_of_moravians.value) : "",
       ],
-      ["birth" in record.life ? window.AppModel.getLifeEventLabel(record.life.birth) : "", "birth" in record.life ? window.AppModel.formatLifeEvent(record.life.birth) : ""],
-      ["death" in record.life ? window.AppModel.getLifeEventLabel(record.life.death) : "", "death" in record.life ? window.AppModel.formatLifeEvent(record.life.death) : ""],
+      [
+        "birth" in record.life ? record.life.birth.date.label : "",
+        "birth" in record.life ? window.AppModel.formatLifeEvent(record.life.birth) : "",
+      ],
+      [
+        "death" in record.life ? record.life.death.date.label : "",
+        "death" in record.life ? window.AppModel.formatLifeEvent(record.life.death) : "",
+      ],
     ].filter(([label, value]) => label && value);
 
     DOM.metadata.innerHTML = metadataItems
@@ -108,7 +114,7 @@ window.AppView = (() => {
         : "noch nicht erfasst";
     const activityCount =
       "places_of_effect" in record.life
-        ? window.AppModel.countListEntries(record.life.places_of_effect)
+        ? record.life.places_of_effect.value.value.length
         : 0;
 
     DOM.article.innerHTML = `
