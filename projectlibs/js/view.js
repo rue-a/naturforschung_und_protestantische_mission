@@ -115,7 +115,7 @@ window.AppView = (() => {
         ? window.AppModel.formatTypedValue(record.botany.focuses.value)
         : "noch nicht erfasst";
     const activityCount = record.life_trajectory.features.filter(
-      (feature) => feature.properties.type === "place_of_effect"
+      (feature) => feature.featureType === "place_of_effect"
     ).length;
 
     DOM.article.innerHTML = `

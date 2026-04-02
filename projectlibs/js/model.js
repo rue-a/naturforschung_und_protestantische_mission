@@ -77,11 +77,8 @@ window.AppModel = (() => {
         const [longitude, latitude] = feature.geometry.coordinates;
 
         return {
-          type:
-            feature.properties.type === "place_of_effect"
-              ? "activity"
-              : feature.properties.type,
-          title: feature.properties.type,
+          type: feature.featureType === "place_of_effect" ? "activity" : feature.featureType,
+          title: feature.featureType,
           subtitle: [
             feature.time,
             feature.properties.institution,
@@ -98,7 +95,7 @@ window.AppModel = (() => {
 
   function findLifeTrajectoryFeature(record, featureType) {
     return record.life_trajectory.features.find(
-      (feature) => feature.properties.type === featureType
+      (feature) => feature.featureType === featureType
     );
   }
 

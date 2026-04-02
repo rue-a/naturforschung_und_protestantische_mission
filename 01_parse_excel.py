@@ -1,7 +1,4 @@
-import json
-
-from projectlibs.py.table_parser import TableParser, DomainEncoder
-from projectlibs.py.postprocessors.persons import transform_person_life_trajectory
+from projectlibs.py.table_parser import TableParser
 
 from projectlibs.py.parsers import (
     PARSERS_PERSONEN,
@@ -55,8 +52,6 @@ TEST_IDS = {
 
 
 def main():
-    parsed_tables = {}
-
     for sheet, cfg in TABLES.items():
         print(f"Parsing {sheet}...")
 
@@ -66,28 +61,10 @@ def main():
             excel_file=EXCEL_FILE,
         )
 
-        parsed = parser.run(
+        parser.run(
             output_json=cfg["json"],
             error_file=cfg["errors"],
             test_ids=TEST_IDS.get(sheet),
-        )
-        parsed_tables[sheet] = parsed
-
-    print("Postprocessing Personen...")
-    persons = parsed_tables["Personen"]
-    locations = parsed_tables["Orte"]
-    postprocessed_persons = {
-        person_id: transform_person_life_trajectory(person_record, locations)
-        for person_id, person_record in persons.items()
-    }
-
-    with open(TABLES["Personen"]["json"], "w", encoding="utf-8") as f:
-        json.dump(
-            postprocessed_persons,
-            f,
-            ensure_ascii=False,
-            indent=4,
-            cls=DomainEncoder,
         )
 
 
