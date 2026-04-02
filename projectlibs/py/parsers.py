@@ -3,7 +3,7 @@ from typing import Callable, Optional, List
 from functools import partial
 import re
 
-from new_datatypes import (
+from projectlibs.py.new_datatypes import (
     PersonID,
     LiteratureID,
     LocationID,

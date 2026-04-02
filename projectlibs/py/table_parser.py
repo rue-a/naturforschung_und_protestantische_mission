@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-from parsers import clean_field, parse_field, flatten_parser_specs
+from projectlibs.py.parsers import clean_field, parse_field, flatten_parser_specs
 
 
 class DomainEncoder(json.JSONEncoder):

@@ -69,6 +69,8 @@ window.AppView = (() => {
 
   function renderMetadata(personId, record) {
     const preferredName = record.name.preferred.value.value;
+    const birthFeature = window.AppModel.findLifeTrajectoryFeature(record, "birth");
+    const deathFeature = window.AppModel.findLifeTrajectoryFeature(record, "death");
     const metadataItems = [
       [record.name.preferred.label, preferredName],
       [record.id.label, personId],
@@ -85,16 +87,12 @@ window.AppView = (() => {
         "member_of_moravians" in record ? window.AppModel.formatTypedValue(record.member_of_moravians.value) : "",
       ],
       [
-        "birth" in record.life_trajectory ? record.life_trajectory.birth.date.label : "",
-        "birth" in record.life_trajectory
-          ? window.AppModel.formatLifeEvent(record.life_trajectory.birth)
-          : "",
+        birthFeature ? "Geburt - Datum" : "",
+        birthFeature ? birthFeature.time : "",
       ],
       [
-        "death" in record.life_trajectory ? record.life_trajectory.death.date.label : "",
-        "death" in record.life_trajectory
-          ? window.AppModel.formatLifeEvent(record.life_trajectory.death)
-          : "",
+        deathFeature ? "Tod - Datum" : "",
+        deathFeature ? deathFeature.time : "",
       ],
     ].filter(([label, value]) => label && value);
 
@@ -116,10 +114,9 @@ window.AppView = (() => {
       "focuses" in record.botany
         ? window.AppModel.formatTypedValue(record.botany.focuses.value)
         : "noch nicht erfasst";
-    const activityCount =
-      "places_of_effect" in record.life_trajectory
-        ? record.life_trajectory.places_of_effect.value.value.length
-        : 0;
+    const activityCount = record.life_trajectory.features.filter(
+      (feature) => feature.properties.type === "place_of_effect"
+    ).length;
 
     DOM.article.innerHTML = `
       <h2 class="h3 mb-0">${escapeHtml(preferredName)}</h2>

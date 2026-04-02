@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
 
-from enrich_utils import (
+from projectlibs.py.enrich_utils import (
     extract_url_field,
     fetch_json,
     load_json,

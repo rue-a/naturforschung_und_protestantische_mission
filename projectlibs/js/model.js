@@ -71,79 +71,35 @@ window.AppModel = (() => {
     return typedValue.value;
   }
 
-  function formatLifeEvent(eventObject) {
-    const dates = eventObject.date.value.value.map((entry) => entry.value);
-    const locations = eventObject.location.value.value.map((entry) => entry.value);
-    const dateText = Array.isArray(dates) ? dates.join(", ") : dates;
-    const locationText = Array.isArray(locations) ? locations.join(", ") : locations;
-
-    return [dateText, locationText].filter(Boolean).join(" | ");
-  }
-
   function collectPersonPlaces(record) {
-    const places = [];
+    return deduplicatePlaces(
+      record.life_trajectory.features.map((feature) => {
+        const [longitude, latitude] = feature.geometry.coordinates;
 
-    addLifeLocations(
-      places,
-      record.life_trajectory.birth.location,
-      "birth",
-      "Geburtsort"
+        return {
+          type:
+            feature.properties.type === "place_of_effect"
+              ? "activity"
+              : feature.properties.type,
+          title: feature.properties.type,
+          subtitle: [
+            feature.time,
+            feature.properties.institution,
+            feature.properties.occupation,
+          ]
+            .filter(Boolean)
+            .join(" | "),
+          latitude,
+          longitude,
+        };
+      })
     );
-    addLifeLocations(
-      places,
-      record.life_trajectory.death.location,
-      "death",
-      "Todesort"
-    );
-
-    const activities = record.life_trajectory.places_of_effect.value.value;
-
-    activities.forEach((entry) => {
-      const values = entry.value.values;
-      const temporal = values[0].value;
-      const locationId = values[1].value;
-      const institution = values[2].value;
-      const role = values[3].value;
-
-      const locationRecord = state.locationsById[locationId];
-      if (!locationRecord || !("longitude" in locationRecord) || !("latitude" in locationRecord)) {
-        return;
-      }
-      const longitude = locationRecord.longitude.value.value;
-      const latitude = locationRecord.latitude.value.value;
-
-      const parts = [temporal, institution, role].filter(Boolean);
-      places.push({
-        type: "activity",
-        title: locationRecord.name.value.value,
-        subtitle: parts.join(" | "),
-        latitude,
-        longitude,
-      });
-    });
-
-    return deduplicatePlaces(places);
   }
 
-  function addLifeLocations(target, field, type, label) {
-    const values = field.value.value;
-
-    values.forEach((entry) => {
-      const locationRecord = state.locationsById[entry.value];
-      if (!locationRecord || !("longitude" in locationRecord) || !("latitude" in locationRecord)) {
-        return;
-      }
-      const longitude = locationRecord.longitude.value.value;
-      const latitude = locationRecord.latitude.value.value;
-
-      target.push({
-        type,
-        title: locationRecord.name.value.value,
-        subtitle: label,
-        latitude,
-        longitude,
-      });
-    });
+  function findLifeTrajectoryFeature(record, featureType) {
+    return record.life_trajectory.features.find(
+      (feature) => feature.properties.type === featureType
+    );
   }
 
   function deduplicatePlaces(places) {
@@ -175,7 +131,7 @@ window.AppModel = (() => {
     LINK_ICONS,
     loadData,
     formatTypedValue,
-    formatLifeEvent,
+    findLifeTrajectoryFeature,
     collectPersonPlaces,
   };
 })();
