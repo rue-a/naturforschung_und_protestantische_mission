@@ -123,7 +123,9 @@
                             50.428611111111
                         ]
                     },
-                    "time": "1769-02-17",
+                    "time": {
+                        "date": "1769-02-17"
+                    },
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
                     }
@@ -138,7 +140,9 @@
                             51.027777777778
                         ]
                     },
-                    "time": "1831-12-06",
+                    "time": {
+                        "date": "1831-12-06"
+                    },
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
                     }
@@ -153,7 +157,12 @@
                             50.428611111111
                         ]
                     },
-                    "time": "1773/1782",
+                    "time": {
+                        "interval": [
+                            "1773",
+                            "1782"
+                        ]
+                    },
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
                         "institution": "Knabenanstalt",
@@ -170,7 +179,12 @@
                             51.289722222222
                         ]
                     },
-                    "time": "1782/1785",
+                    "time": {
+                        "interval": [
+                            "1782",
+                            "1785"
+                        ]
+                    },
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
                         "institution": "Pädagogium",
@@ -187,7 +201,12 @@
                             51.9667595
                         ]
                     },
-                    "time": "1785/1788",
+                    "time": {
+                        "interval": [
+                            "1785",
+                            "1788"
+                        ]
+                    },
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
                         "institution": "Seminar",
@@ -204,7 +223,12 @@
                             51.289722222222
                         ]
                     },
-                    "time": "1788/1789",
+                    "time": {
+                        "interval": [
+                            "1788",
+                            "1789"
+                        ]
+                    },
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
                         "institution": "Kinderanstalt",
@@ -221,7 +245,12 @@
                             51.9667595
                         ]
                     },
-                    "time": "1789/",
+                    "time": {
+                        "interval": [
+                            "1789",
+                            ".."
+                        ]
+                    },
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
                         "institution": "Pädagogium",
@@ -238,7 +267,12 @@
                             51.289722222222
                         ]
                     },
-                    "time": "1796/1808",
+                    "time": {
+                        "interval": [
+                            "1796",
+                            "1808"
+                        ]
+                    },
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
                         "institution": "Seminar",
@@ -255,7 +289,9 @@
                             51.259167
                         ]
                     },
-                    "time": "1814",
+                    "time": {
+                        "date": "1814"
+                    },
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
                         "institution": "Mädchenanstalt",
@@ -272,7 +308,9 @@
                             50.68357
                         ]
                     },
-                    "time": "1818",
+                    "time": {
+                        "date": "1818"
+                    },
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
                         "institution": null,
@@ -289,7 +327,9 @@
                             51.027777777778
                         ]
                     },
-                    "time": "1821",
+                    "time": {
+                        "date": "1821"
+                    },
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
                         "institution": null,
@@ -494,7 +534,9 @@
                             47.560555555556
                         ]
                     },
-                    "time": "1721-04-17",
+                    "time": {
+                        "date": "1721-04-17"
+                    },
                     "properties": {
                         "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | R.22.27.07 | Lebenslauf Johann Jacob Bossart | Lebenslauf von Bossart, etwas ausführlicher als M0004100"
                     }
@@ -509,7 +551,9 @@
                             51.9667595
                         ]
                     },
-                    "time": "1789-11-13",
+                    "time": {
+                        "date": "1789-11-13"
+                    },
                     "properties": {
                         "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | R.22.27.07 | Lebenslauf Johann Jacob Bossart | Lebenslauf von Bossart, etwas ausführlicher als M0004100"
                     }
@@ -680,7 +724,9 @@
                             49.030555555556
                         ]
                     },
-                    "time": "1788-01-21",
+                    "time": {
+                        "date": "1788-01-21"
+                    },
                     "properties": {
                         "source": "(Druck) : Lebenslauf Johann Christian Breutel In: Nachrichten aus der Brüder-Gemeine (9), 1875, S. 755-788 | https://collections.mun.ca/digital/collection/nachrichten/id/1119/rec/1"
                     }

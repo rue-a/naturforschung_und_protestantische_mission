@@ -53,9 +53,25 @@ def build_life_trajectory_feature(
         "type": "Feature",
         "featureType": event_type,
         "geometry": geometry,
-        "time": time,
+        "time": build_time_object(time),
         "properties": properties,
     }
+
+
+def build_time_object(raw_time):
+    if "/" in raw_time:
+        start, end = raw_time.split("/", 1)
+        return {
+            "interval": [
+                start or "..",
+                end or "..",
+            ]
+        }
+
+    if "T" in raw_time:
+        return {"timestamp": raw_time}
+
+    return {"date": raw_time}
 
 
 def transform_person_life_trajectory(person_record, tables):

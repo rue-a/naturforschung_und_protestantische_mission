@@ -71,6 +71,22 @@ window.AppModel = (() => {
     return typedValue.value;
   }
 
+  function formatFeatureTime(timeObject) {
+    if ("date" in timeObject) {
+      return timeObject.date;
+    }
+
+    if ("timestamp" in timeObject) {
+      return timeObject.timestamp;
+    }
+
+    if ("interval" in timeObject) {
+      return timeObject.interval.join(" / ");
+    }
+
+    return "";
+  }
+
   function collectPersonPlaces(record) {
     return deduplicatePlaces(
       record.life_trajectory.features.map((feature) => {
@@ -80,7 +96,7 @@ window.AppModel = (() => {
           type: feature.featureType === "place_of_effect" ? "activity" : feature.featureType,
           title: feature.featureType,
           subtitle: [
-            feature.time,
+            formatFeatureTime(feature.time),
             feature.properties.institution,
             feature.properties.occupation,
           ]
@@ -128,6 +144,7 @@ window.AppModel = (() => {
     LINK_ICONS,
     loadData,
     formatTypedValue,
+    formatFeatureTime,
     findLifeTrajectoryFeature,
     collectPersonPlaces,
   };

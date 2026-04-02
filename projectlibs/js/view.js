@@ -88,11 +88,11 @@ window.AppView = (() => {
       ],
       [
         birthFeature ? "Geburt - Datum" : "",
-        birthFeature ? birthFeature.time : "",
+        birthFeature ? window.AppModel.formatFeatureTime(birthFeature.time) : "",
       ],
       [
         deathFeature ? "Tod - Datum" : "",
-        deathFeature ? deathFeature.time : "",
+        deathFeature ? window.AppModel.formatFeatureTime(deathFeature.time) : "",
       ],
     ].filter(([label, value]) => label && value);
 
