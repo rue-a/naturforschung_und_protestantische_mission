@@ -85,12 +85,16 @@ window.AppView = (() => {
         "member_of_moravians" in record ? window.AppModel.formatTypedValue(record.member_of_moravians.value) : "",
       ],
       [
-        "birth" in record.life ? record.life.birth.date.label : "",
-        "birth" in record.life ? window.AppModel.formatLifeEvent(record.life.birth) : "",
+        "birth" in record.life_trajectory ? record.life_trajectory.birth.date.label : "",
+        "birth" in record.life_trajectory
+          ? window.AppModel.formatLifeEvent(record.life_trajectory.birth)
+          : "",
       ],
       [
-        "death" in record.life ? record.life.death.date.label : "",
-        "death" in record.life ? window.AppModel.formatLifeEvent(record.life.death) : "",
+        "death" in record.life_trajectory ? record.life_trajectory.death.date.label : "",
+        "death" in record.life_trajectory
+          ? window.AppModel.formatLifeEvent(record.life_trajectory.death)
+          : "",
       ],
     ].filter(([label, value]) => label && value);
 
@@ -113,8 +117,8 @@ window.AppView = (() => {
         ? window.AppModel.formatTypedValue(record.botany.focuses.value)
         : "noch nicht erfasst";
     const activityCount =
-      "places_of_effect" in record.life
-        ? record.life.places_of_effect.value.value.length
+      "places_of_effect" in record.life_trajectory
+        ? record.life_trajectory.places_of_effect.value.value.length
         : 0;
 
     DOM.article.innerHTML = `

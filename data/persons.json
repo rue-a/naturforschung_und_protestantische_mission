@@ -128,40 +128,30 @@
                 "value": "R0001500"
             }
         },
-        "life": {
+        "life_trajectory": {
             "birth": {
                 "date": {
                     "excel-column-name": "Geburt - Datum",
                     "label": "Geburt - Datum",
                     "value": {
-                        "type": "List",
-                        "value": [
-                            {
-                                "type": "ISO8601_2_Date",
-                                "value": "1769-02-17",
-                                "source": {
-                                    "type": "LiteratureID",
-                                    "value": "R0001500"
-                                }
-                            }
-                        ]
+                        "type": "ISO8601_2_Date",
+                        "value": "1769-02-17",
+                        "source": {
+                            "type": "LiteratureID",
+                            "value": "R0001500"
+                        }
                     }
                 },
                 "location": {
                     "excel-column-name": "Geburt - Ort",
                     "label": "Geburt - Ort",
                     "value": {
-                        "type": "List",
-                        "value": [
-                            {
-                                "type": "LocationID",
-                                "value": "L0022000",
-                                "source": {
-                                    "type": "LiteratureID",
-                                    "value": "R0001500"
-                                }
-                            }
-                        ]
+                        "type": "LocationID",
+                        "value": "L0022000",
+                        "source": {
+                            "type": "LiteratureID",
+                            "value": "R0001500"
+                        }
                     }
                 }
             },
@@ -170,34 +160,24 @@
                     "excel-column-name": "Tod - Datum",
                     "label": "Tod - Datum",
                     "value": {
-                        "type": "List",
-                        "value": [
-                            {
-                                "type": "ISO8601_2_Date",
-                                "value": "1831-12-06",
-                                "source": {
-                                    "type": "LiteratureID",
-                                    "value": "R0001500"
-                                }
-                            }
-                        ]
+                        "type": "ISO8601_2_Date",
+                        "value": "1831-12-06",
+                        "source": {
+                            "type": "LiteratureID",
+                            "value": "R0001500"
+                        }
                     }
                 },
                 "location": {
                     "excel-column-name": "Tod - Ort",
                     "label": "Tod - Ort",
                     "value": {
-                        "type": "List",
-                        "value": [
-                            {
-                                "type": "LocationID",
-                                "value": "L0004000",
-                                "source": {
-                                    "type": "LiteratureID",
-                                    "value": "R0001500"
-                                }
-                            }
-                        ]
+                        "type": "LocationID",
+                        "value": "L0004000",
+                        "source": {
+                            "type": "LiteratureID",
+                            "value": "R0001500"
+                        }
                     }
                 }
             },
@@ -676,40 +656,30 @@
                 }
             }
         },
-        "life": {
+        "life_trajectory": {
             "birth": {
                 "date": {
                     "excel-column-name": "Geburt - Datum",
                     "label": "Geburt - Datum",
                     "value": {
-                        "type": "List",
-                        "value": [
-                            {
-                                "type": "ISO8601_2_Date",
-                                "value": "1721-04-17",
-                                "source": {
-                                    "type": "ManuscriptID",
-                                    "value": "M0004000"
-                                }
-                            }
-                        ]
+                        "type": "ISO8601_2_Date",
+                        "value": "1721-04-17",
+                        "source": {
+                            "type": "ManuscriptID",
+                            "value": "M0004000"
+                        }
                     }
                 },
                 "location": {
                     "excel-column-name": "Geburt - Ort",
                     "label": "Geburt - Ort",
                     "value": {
-                        "type": "List",
-                        "value": [
-                            {
-                                "type": "LocationID",
-                                "value": "L0003000",
-                                "source": {
-                                    "type": "ManuscriptID",
-                                    "value": "M0004000"
-                                }
-                            }
-                        ]
+                        "type": "LocationID",
+                        "value": "L0003000",
+                        "source": {
+                            "type": "ManuscriptID",
+                            "value": "M0004000"
+                        }
                     }
                 }
             },
@@ -718,34 +688,24 @@
                     "excel-column-name": "Tod - Datum",
                     "label": "Tod - Datum",
                     "value": {
-                        "type": "List",
-                        "value": [
-                            {
-                                "type": "ISO8601_2_Date",
-                                "value": "1789-11-13",
-                                "source": {
-                                    "type": "ManuscriptID",
-                                    "value": "M0004000"
-                                }
-                            }
-                        ]
+                        "type": "ISO8601_2_Date",
+                        "value": "1789-11-13",
+                        "source": {
+                            "type": "ManuscriptID",
+                            "value": "M0004000"
+                        }
                     }
                 },
                 "location": {
                     "excel-column-name": "Tod - Ort",
                     "label": "Tod - Ort",
                     "value": {
-                        "type": "List",
-                        "value": [
-                            {
-                                "type": "LocationID",
-                                "value": "L0002000",
-                                "source": {
-                                    "type": "ManuscriptID",
-                                    "value": "M0004000"
-                                }
-                            }
-                        ]
+                        "type": "LocationID",
+                        "value": "L0002000",
+                        "source": {
+                            "type": "ManuscriptID",
+                            "value": "M0004000"
+                        }
                     }
                 }
             }
@@ -909,27 +869,6 @@
                     "type": "URL",
                     "value": "https://de.bionomia.net/Q21415674"
                 }
-            },
-            "gnd": {
-                "label": "Links - GND",
-                "value": {
-                    "type": "URL",
-                    "value": "https://d-nb.info/gnd/116493763"
-                }
-            },
-            "factgrid": {
-                "label": "Links - FactGrid",
-                "value": {
-                    "type": "URL",
-                    "value": "https://database.factgrid.de/wiki/Item:Q703514"
-                }
-            },
-            "saebi": {
-                "label": "Links - Säbi",
-                "value": {
-                    "type": "URL",
-                    "value": "https://saebi.isgv.de/gnd/116493763"
-                }
             }
         },
         "moravian_curriculum_vitae": {
@@ -940,40 +879,30 @@
                 "value": "R0002500"
             }
         },
-        "life": {
+        "life_trajectory": {
             "birth": {
                 "date": {
                     "excel-column-name": "Geburt - Datum",
                     "label": "Geburt - Datum",
                     "value": {
-                        "type": "List",
-                        "value": [
-                            {
-                                "type": "ISO8601_2_Date",
-                                "value": "1788-01-21",
-                                "source": {
-                                    "type": "LiteratureID",
-                                    "value": "R0002500"
-                                }
-                            }
-                        ]
+                        "type": "ISO8601_2_Date",
+                        "value": "1788-01-21",
+                        "source": {
+                            "type": "LiteratureID",
+                            "value": "R0002500"
+                        }
                     }
                 },
                 "location": {
                     "excel-column-name": "Geburt - Ort",
                     "label": "Geburt - Ort",
                     "value": {
-                        "type": "List",
-                        "value": [
-                            {
-                                "type": "LocationID",
-                                "value": "L0025000",
-                                "source": {
-                                    "type": "LiteratureID",
-                                    "value": "R0002500"
-                                }
-                            }
-                        ]
+                        "type": "LocationID",
+                        "value": "L0025000",
+                        "source": {
+                            "type": "LiteratureID",
+                            "value": "R0002500"
+                        }
                     }
                 }
             },
@@ -982,17 +911,12 @@
                     "excel-column-name": "Tod - Datum",
                     "label": "Tod - Datum",
                     "value": {
-                        "type": "List",
-                        "value": [
-                            {
-                                "type": "ISO8601_2_Date",
-                                "value": "1875-02-18",
-                                "source": {
-                                    "type": "LiteratureID",
-                                    "value": "R0002500"
-                                }
-                            }
-                        ]
+                        "type": "ISO8601_2_Date",
+                        "value": "1875-02-18",
+                        "source": {
+                            "type": "LiteratureID",
+                            "value": "R0002500"
+                        }
                     }
                 }
             }

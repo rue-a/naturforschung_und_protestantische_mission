@@ -83,10 +83,20 @@ window.AppModel = (() => {
   function collectPersonPlaces(record) {
     const places = [];
 
-    addLifeLocations(places, record.life.birth.location, "birth", "Geburtsort");
-    addLifeLocations(places, record.life.death.location, "death", "Todesort");
+    addLifeLocations(
+      places,
+      record.life_trajectory.birth.location,
+      "birth",
+      "Geburtsort"
+    );
+    addLifeLocations(
+      places,
+      record.life_trajectory.death.location,
+      "death",
+      "Todesort"
+    );
 
-    const activities = record.life.places_of_effect.value.value;
+    const activities = record.life_trajectory.places_of_effect.value.value;
 
     activities.forEach((entry) => {
       const values = entry.value.values;

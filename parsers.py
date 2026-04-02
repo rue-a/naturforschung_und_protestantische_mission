@@ -305,12 +305,11 @@ PARSERS_PERSONEN = {
         parser=[LiteratureID, ManuscriptID],
     ),
     # --- Geburt / Tod (structured!) ---
-    "life": {
+    "life_trajectory": {
         "birth": {
             "date": ParserSpec(
                 excel_column_name="Geburt - Datum",
                 parser=partial(ISO8601_2_Date, require_source=True),
-                is_list=True,
             ),
             "date_notes": ParserSpec(
                 excel_column_name="Geburt - Datum - Anmerkungen",
@@ -319,7 +318,6 @@ PARSERS_PERSONEN = {
             "location": ParserSpec(
                 excel_column_name="Geburt - Ort",
                 parser=partial(LocationID, require_source=True),
-                is_list=True,
             ),
             "location_notes": ParserSpec(
                 excel_column_name="Geburt - Ort - Anmerkungen",
@@ -330,7 +328,6 @@ PARSERS_PERSONEN = {
             "date": ParserSpec(
                 excel_column_name="Tod - Datum",
                 parser=partial(ISO8601_2_Date, require_source=True),
-                is_list=True,
             ),
             "date_notes": ParserSpec(
                 excel_column_name="Tod - Datum - Anmerkungen",
@@ -339,7 +336,6 @@ PARSERS_PERSONEN = {
             "location": ParserSpec(
                 excel_column_name="Tod - Ort",
                 parser=partial(LocationID, require_source=True),
-                is_list=True,
             ),
             "location_notes": ParserSpec(
                 excel_column_name="Tod - Ort - Anmerkungen",
