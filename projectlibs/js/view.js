@@ -1,5 +1,15 @@
 window.AppView = (() => {
   const { state, MARKER_COLORS, LINK_ICONS } = window.AppModel;
+  const MORAVIAN_MEMBERSHIP_LABELS = {
+    "ja(a)": "qua Geburt und Erziehung, in einer Herrnhuter Gemeinschaft bzw. von Herrnhuter Eltern geboren und aufgewachsen",
+    "ja(b)": "als Erwachsene aufgenommen, z.B. Konvertitien oder Missionierte",
+    "ja(c)": "Übernahme von kirchlichen Ämtern innerhalb der Brüdergemeine",
+    "ja(d)": "Übernahme von Ämtern im Erziehungswesen der Brüdergemeine",
+    "nein(a)": "ausgetreten",
+    "nein(b)": "aber wichtig im Netzwerk",
+    "nein(c)": "um Verwechslung auszuschließen",
+    unbekannt: "Zugehörigkeit kann nicht ausgeschlossen werden.",
+  };
 
   const DOM = {
     loading: document.getElementById("loading-state"),
@@ -69,30 +79,19 @@ window.AppView = (() => {
 
   function renderMetadata(personId, record) {
     const preferredName = record.name.preferred.value.value;
-    const birthFeature = window.AppModel.findLifeTrajectoryFeature(record, "birth");
-    const deathFeature = window.AppModel.findLifeTrajectoryFeature(record, "death");
     const metadataItems = [
       [record.name.preferred.label, preferredName],
-      [record.id.label, personId],
-      [
-        "surname" in record.name ? record.name.surname.label : "",
-        "surname" in record.name ? record.name.surname.value.value : "",
-      ],
-      [
-        "given_name" in record.name ? record.name.given_name.label : "",
-        "given_name" in record.name ? record.name.given_name.value.value : "",
-      ],
       [
         "member_of_moravians" in record ? record.member_of_moravians.label : "",
-        "member_of_moravians" in record ? window.AppModel.formatTypedValue(record.member_of_moravians.value) : "",
+        "member_of_moravians" in record ? formatMoravianMembership(record.member_of_moravians.value) : "",
       ],
       [
-        birthFeature ? "Geburt - Datum" : "",
-        birthFeature ? window.AppModel.formatFeatureTime(birthFeature.time) : "",
+        "birth" in record ? "Geburt" : "",
+        "birth" in record ? formatLifeEventValue(record.birth) : "",
       ],
       [
-        deathFeature ? "Tod - Datum" : "",
-        deathFeature ? window.AppModel.formatFeatureTime(deathFeature.time) : "",
+        "death" in record ? "Tod" : "",
+        "death" in record ? formatLifeEventValue(record.death) : "",
       ],
     ].filter(([label, value]) => label && value);
 
@@ -101,7 +100,7 @@ window.AppView = (() => {
         ([label, value]) => `
           <div class="metadata-item compact">
             <span class="metadata-label">${escapeHtml(label)}</span>
-            <p class="metadata-value mb-0">${escapeHtml(String(value))}</p>
+            ${renderMetadataValue(value)}
           </div>
         `
       )
@@ -110,10 +109,7 @@ window.AppView = (() => {
 
   function renderArticle(personId, record) {
     const preferredName = record.name.preferred.value.value;
-    const focusText =
-      "focuses" in record.botany
-        ? window.AppModel.formatTypedValue(record.botany.focuses.value)
-        : "noch nicht erfasst";
+    const botanySections = buildBotanySections(record);
     const activityCount = record.life_trajectory.features.filter(
       (feature) => feature.featureType === "place_of_effect"
     ).length;
@@ -121,30 +117,82 @@ window.AppView = (() => {
     DOM.article.innerHTML = `
       <h2 class="h3 mb-0">${escapeHtml(preferredName)}</h2>
       <p class="lead mb-0">
-        Diese Spalte ist als Platzhalter fuer einen spaeteren biografischen Artikel gedacht.
-        Schon jetzt kann sie genutzt werden, um eine automatisch erzeugte Kurzansicht zu zeigen.
+        Die folgende Übersicht zieht Informationen direkt aus dem botanischen Block der strukturierten Personendaten.
       </p>
       <div class="article-placeholder">
         <p class="mb-2">
           <strong>${escapeHtml(preferredName)}</strong> ist im aktuellen Datensatz als eigenstaendige Person erfasst.
           Die strukturierte Ansicht links und rechts kann bereits fuer Recherche, Verknuepfungen und kuratorische Arbeit genutzt werden.
         </p>
-        <p class="mb-2">
-          Botanische Foki: ${escapeHtml(String(focusText))}.
-        </p>
         <p class="mb-0">
-          Erfasste Wirkungsorte: ${escapeHtml(String(activityCount))}. Sobald Artikeltexte vorliegen,
-          kann dieser Bereich problemlos durch HTML- oder Markdown-Inhalte ersetzt werden.
+          Erfasste Wirkungsorte: ${escapeHtml(String(activityCount))}.
         </p>
       </div>
+      ${botanySections}
       <div>
         <h3 class="h6 text-body-secondary">Aktueller Stand</h3>
         <p class="mb-0">
-          Der Personenbrowser verwendet die strukturierte Datei <code>persons.json</code>
-          und verbindet sie fuer die Karte mit <code>locations.json</code>.
+          Der Personenbrowser verwendet die strukturierte Datei <code>geopersons.json</code>.
         </p>
       </div>
     `;
+  }
+
+  function buildBotanySections(record) {
+    if (!("botany" in record)) {
+      return `
+        <div>
+          <h3 class="h6 text-body-secondary">Botanik</h3>
+          <p class="mb-0">Keine botanischen Angaben vorhanden.</p>
+        </div>
+      `;
+    }
+
+    const sections = Object.values(record.botany)
+      .filter((field) => field && field.value)
+      .map((field) => {
+        const value = formatBotanyFieldValue(field);
+        return `
+          <div class="mb-3">
+            <h3 class="h6 text-body-secondary">${escapeHtml(field.label)}</h3>
+            ${renderArticleValue(value)}
+          </div>
+        `;
+      })
+      .join("");
+
+    if (!sections) {
+      return `
+        <div>
+          <h3 class="h6 text-body-secondary">Botanik</h3>
+          <p class="mb-0">Keine botanischen Angaben vorhanden.</p>
+        </div>
+      `;
+    }
+
+    return sections;
+  }
+
+  function formatBotanyFieldValue(field) {
+    if (field.value.type !== "List") {
+      return window.AppModel.formatTypedValue(field.value);
+    }
+
+    return field.value.value.map((entry) =>
+      typeof entry === "object" ? entry.value : entry
+    );
+  }
+
+  function renderArticleValue(value) {
+    if (Array.isArray(value)) {
+      return `
+        <ul class="article-list mb-0">
+          ${value.map((entry) => `<li>${escapeHtml(String(entry))}</li>`).join("")}
+        </ul>
+      `;
+    }
+
+    return `<p class="mb-0">${escapeHtml(String(value))}</p>`;
   }
 
   function renderLinks(record) {
@@ -197,6 +245,59 @@ window.AppView = (() => {
     }
 
     return escapeHtml(field.label);
+  }
+
+  function formatMoravianMembership(typedValue) {
+    return typedValue.value.map(
+      (entry) => MORAVIAN_MEMBERSHIP_LABELS[entry.value] || entry.value
+    );
+  }
+
+  function formatLifeEventValue(eventRecord) {
+    const parts = [
+      appendNotes(
+        "date" in eventRecord ? eventRecord.date.value.value : "",
+        "date_notes" in eventRecord ? eventRecord.date_notes.value.value : ""
+      ),
+      appendNotes(
+        formatLocationField(eventRecord),
+        "location_notes" in eventRecord ? eventRecord.location_notes.value.value : ""
+      ),
+    ].filter(Boolean);
+
+    return parts.join(" | ");
+  }
+
+  function formatLocationField(eventRecord) {
+    if (!("location" in eventRecord)) {
+      return "";
+    }
+
+    return eventRecord.location.value.value;
+  }
+
+  function appendNotes(value, notes) {
+    if (!value) {
+      return "";
+    }
+
+    if (!notes) {
+      return value;
+    }
+
+    return `${value} (${notes})`;
+  }
+
+  function renderMetadataValue(value) {
+    if (Array.isArray(value)) {
+      return `
+        <ul class="metadata-list mb-0">
+          ${value.map((entry) => `<li>${escapeHtml(String(entry))}</li>`).join("")}
+        </ul>
+      `;
+    }
+
+    return `<p class="metadata-value mb-0">${escapeHtml(String(value))}</p>`;
   }
 
   function renderMapForPerson(record) {

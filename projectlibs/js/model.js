@@ -1,5 +1,5 @@
 window.AppModel = (() => {
-  const PERSONS_URL = "./data/persons.json";
+  const PERSONS_URL = "./data/geopersons.json";
   const LOCATIONS_URL = "./data/locations.json";
 
   const state = {
@@ -65,7 +65,9 @@ window.AppModel = (() => {
 
   function formatTypedValue(typedValue) {
     if (typedValue.type === "List") {
-      return typedValue.value.map((entry) => entry.value).join(", ");
+      return typedValue.value
+        .map((entry) => (typeof entry === "object" ? entry.value : entry))
+        .join(", ");
     }
 
     return typedValue.value;
@@ -86,6 +88,26 @@ window.AppModel = (() => {
 
     return "";
   }
+
+  function ationNameForFeature(feature) {
+    const [featureLongitude, featureLatitude] = feature.geometry.coordinates;
+
+    for (const location of Object.values(state.locationsById)) {
+      if (!("longitude" in location) || !("latitude" in location)) {
+        continue;
+      }
+
+      const locationLongitude = location.longitude.value.value;
+      const locationLatitude = location.latitude.value.value;
+
+      if (locationLongitude === featureLongitude && locationLatitude === featureLatitude) {
+        return location.name.value.value;
+      }
+    }
+
+    return "";
+  }
+
 
   function collectPersonPlaces(record) {
     return deduplicatePlaces(
@@ -109,11 +131,7 @@ window.AppModel = (() => {
     );
   }
 
-  function findLifeTrajectoryFeature(record, featureType) {
-    return record.life_trajectory.features.find(
-      (feature) => feature.featureType === featureType
-    );
-  }
+
 
   function deduplicatePlaces(places) {
     const seen = new Set();
@@ -145,7 +163,6 @@ window.AppModel = (() => {
     loadData,
     formatTypedValue,
     formatFeatureTime,
-    findLifeTrajectoryFeature,
     collectPersonPlaces,
   };
 })();

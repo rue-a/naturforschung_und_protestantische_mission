@@ -30,6 +30,14 @@ def build_point_geometry(location_id, locations_by_id):
     }
 
 
+def find_location_name(location_id, locations_by_id):
+    location = locations_by_id.get(location_id)
+    if not location or "name" not in location:
+        return None
+
+    return extract_field_value(location["name"])
+
+
 def build_life_trajectory_feature(
     *,
     geometry,
@@ -111,30 +119,22 @@ def build_place_properties(location_id, locations_by_id, aat_feature_types):
 def transform_person_life_trajectory(person_record, tables):
     person_record = replace_reference_objects(person_record, tables)
 
-    raw_life_trajectory = person_record.get("life_trajectory")
     person_id = extract_field_value(person_record["id"])
     person_name = extract_field_value(person_record["name"]["preferred"])
     locations_by_id = tables["locations"]
     aat_feature_types = tables.get("aat_feature_types", {})
 
-    if not raw_life_trajectory:
-        print(
-            f"Warning: skipping life_trajectory for {person_id} ({person_name}): "
-            "person has no life_trajectory block"
-        )
-        return person_record
-
     features = []
 
     for event_type in ("birth", "death"):
-        if event_type not in raw_life_trajectory:
+        if event_type not in person_record:
             print(
                 f"Warning: skipping {event_type} for {person_id} ({person_name}): "
                 "event is missing"
             )
             continue
 
-        event = raw_life_trajectory[event_type]
+        event = person_record[event_type]
         if "date" not in event:
             print(
                 f"Warning: skipping {event_type} for {person_id} ({person_name}): "
@@ -176,9 +176,9 @@ def transform_person_life_trajectory(person_record, tables):
             )
         )
 
-    if "places_of_effect" in raw_life_trajectory:
+    if "places_of_effect" in person_record:
         for index, feature_value in enumerate(
-            raw_life_trajectory["places_of_effect"]["value"]["value"],
+            person_record["places_of_effect"]["value"]["value"],
             start=1,
         ):
             values = feature_value["value"]["values"]
@@ -209,8 +209,32 @@ def transform_person_life_trajectory(person_record, tables):
                 )
             )
 
-    if "activities" in raw_life_trajectory:
-        person_record["activities"] = raw_life_trajectory["activities"]
+    if "activities" not in person_record:
+        print(
+            f"Warning: skipping activities for {person_id} ({person_name}): "
+            "activities are missing"
+        )
+
+    for event_type in ("birth", "death"):
+        if event_type not in person_record:
+            continue
+        if "location" not in person_record[event_type]:
+            continue
+
+        location_field = person_record[event_type]["location"]
+        location_id = extract_field_value(location_field)
+        location_name = find_location_name(location_id, locations_by_id)
+
+        if not location_name:
+            continue
+
+        location_source = location_field["value"].get("source")
+        location_field["value"] = {
+            "type": "String",
+            "value": location_name,
+        }
+        if location_source:
+            location_field["value"]["source"] = location_source
 
     person_record["life_trajectory"] = {
         "type": "FeatureCollection",

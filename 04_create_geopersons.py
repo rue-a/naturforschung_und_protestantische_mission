@@ -51,10 +51,16 @@ def main() -> None:
         help="Input archives JSON file.",
     )
     parser.add_argument(
+        "--collections",
+        type=Path,
+        default="data/collections.json",
+        help="Input collections JSON file.",
+    )
+    parser.add_argument(
         "--aat-feature-types",
         type=Path,
         default="data/feature-types-AAT_20230609.tsv",
-        help="TSV file mapping AAT feature type IDs to terms.",
+        help="CSV/TSV file mapping AAT feature type IDs to terms.",
     )
     parser.add_argument(
         "--output",
@@ -70,6 +76,7 @@ def main() -> None:
         "literature": load_json(args.literature),
         "manuscripts": load_json(args.manuscripts),
         "archives": load_json(args.archives),
+        "collections": load_json(args.collections),
         "aat_feature_types": load_aat_feature_types(args.aat_feature_types),
     }
 

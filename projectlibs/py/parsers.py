@@ -465,63 +465,61 @@ PARSERS_PERSONEN = {
         parser=[LiteratureID, ManuscriptID],
     ),
     # --- Geburt / Tod (structured!) ---
-    "life_trajectory": {
-        "birth": {
-            "date": ParserSpec(
-                excel_column_name="Geburt - Datum",
-                parser=partial(ISO8601_2_Date, require_source=True),
-            ),
-            "date_notes": ParserSpec(
-                excel_column_name="Geburt - Datum - Anmerkungen",
-                parser=str,
-            ),
-            "location": ParserSpec(
-                excel_column_name="Geburt - Ort",
-                parser=partial(LocationID, require_source=True),
-            ),
-            "location_notes": ParserSpec(
-                excel_column_name="Geburt - Ort - Anmerkungen",
-                parser=str,
-            ),
-        },
-        "death": {
-            "date": ParserSpec(
-                excel_column_name="Tod - Datum",
-                parser=partial(ISO8601_2_Date, require_source=True),
-            ),
-            "date_notes": ParserSpec(
-                excel_column_name="Tod - Datum - Anmerkungen",
-                parser=str,
-            ),
-            "location": ParserSpec(
-                excel_column_name="Tod - Ort",
-                parser=partial(LocationID, require_source=True),
-            ),
-            "location_notes": ParserSpec(
-                excel_column_name="Tod - Ort - Anmerkungen",
-                parser=str,
-            ),
-        },
-        # --- Wirkungsorte ---
-        "places_of_effect": ParserSpec(
-            excel_column_name="Wirkungsorte",
-            parser=ComplexType(
-                parts=[
-                    ISO8601_2_Temporal,  # Zeitraum
-                    LocationID,  # Ort (must be L-ID)
-                    str,  # Einrichtung
-                    str,  # Funktion
-                ],
-            ),
-            is_list=True,
+    "birth": {
+        "date": ParserSpec(
+            excel_column_name="Geburt - Datum",
+            parser=partial(ISO8601_2_Date, require_source=True),
         ),
-        # --- Tätigkeiten ---
-        "activities": ParserSpec(
-            excel_column_name="Tätigkeiten",
-            parser=partial(AttestableString, require_source=True),
-            is_list=True,
+        "date_notes": ParserSpec(
+            excel_column_name="Geburt - Datum - Anmerkungen",
+            parser=str,
+        ),
+        "location": ParserSpec(
+            excel_column_name="Geburt - Ort",
+            parser=partial(LocationID, require_source=True),
+        ),
+        "location_notes": ParserSpec(
+            excel_column_name="Geburt - Ort - Anmerkungen",
+            parser=str,
         ),
     },
+    "death": {
+        "date": ParserSpec(
+            excel_column_name="Tod - Datum",
+            parser=partial(ISO8601_2_Date, require_source=True),
+        ),
+        "date_notes": ParserSpec(
+            excel_column_name="Tod - Datum - Anmerkungen",
+            parser=str,
+        ),
+        "location": ParserSpec(
+            excel_column_name="Tod - Ort",
+            parser=partial(LocationID, require_source=True),
+        ),
+        "location_notes": ParserSpec(
+            excel_column_name="Tod - Ort - Anmerkungen",
+            parser=str,
+        ),
+    },
+    # --- Wirkungsorte ---
+    "places_of_effect": ParserSpec(
+        excel_column_name="Wirkungsorte",
+        parser=ComplexType(
+            parts=[
+                ISO8601_2_Temporal,  # Zeitraum
+                LocationID,  # Ort (must be L-ID)
+                str,  # Einrichtung
+                str,  # Funktion
+            ],
+        ),
+        is_list=True,
+    ),
+    # --- Tätigkeiten ---
+    "activities": ParserSpec(
+        excel_column_name="Tätigkeiten",
+        parser=partial(AttestableString, require_source=True),
+        is_list=True,
+    ),
     # --- Kontakte ---
     "contact": {
         "with_moravians": ParserSpec(

@@ -94,6 +94,17 @@ body {
   line-height: 1.25;
 }
 
+.metadata-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 0.84rem;
+  line-height: 1.25;
+}
+
+.metadata-list li + li {
+  margin-top: 0.2rem;
+}
+
 .article-panel {
   min-height: 28rem;
   display: flex;
@@ -114,6 +125,15 @@ body {
   border-left: 4px solid var(--accent);
   background: var(--accent-soft);
   border-radius: 0.5rem;
+}
+
+.article-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.article-list li + li {
+  margin-top: 0.25rem;
 }
 
 .link-list {

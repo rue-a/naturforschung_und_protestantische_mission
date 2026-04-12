@@ -110,6 +110,344 @@
             "label": "Herrnhuter Lebenslauf",
             "value": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
         },
+        "birth": {
+            "date": {
+                "excel-column-name": "Geburt - Datum",
+                "label": "Geburt - Datum",
+                "value": {
+                    "type": "ISO8601_2_Date",
+                    "value": "1769-02-17",
+                    "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
+                }
+            },
+            "location": {
+                "excel-column-name": "Geburt - Ort",
+                "label": "Geburt - Ort",
+                "value": {
+                    "type": "String",
+                    "value": "Neuwied",
+                    "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
+                }
+            }
+        },
+        "death": {
+            "date": {
+                "excel-column-name": "Tod - Datum",
+                "label": "Tod - Datum",
+                "value": {
+                    "type": "ISO8601_2_Date",
+                    "value": "1831-12-06",
+                    "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
+                }
+            },
+            "location": {
+                "excel-column-name": "Tod - Ort",
+                "label": "Tod - Ort",
+                "value": {
+                    "type": "String",
+                    "value": "Berthelsdorf",
+                    "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
+                }
+            }
+        },
+        "places_of_effect": {
+            "excel-column-name": "Wirkungsorte",
+            "label": "Wirkungsorte",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1773/1782"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L2200000"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Knabenanstalt"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Schüler"
+                                }
+                            ],
+                            "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1782/1785"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L2250000"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Pädagogium"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Schüler"
+                                }
+                            ],
+                            "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1785/1788"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L0200000"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Seminar"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Schüler"
+                                }
+                            ],
+                            "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1788/1789"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L2250000"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Kinderanstalt"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Lehrer"
+                                }
+                            ],
+                            "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1789/"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L0200000"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Pädagogium"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Lehrer"
+                                }
+                            ],
+                            "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1796/1808"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L2250000"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Seminar"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Dozent, Inspektor, Prediger"
+                                }
+                            ],
+                            "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1814"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L1000000"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Mädchenanstalt"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Prediger, Lehrer"
+                                }
+                            ],
+                            "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1818"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L1100000"
+                                },
+                                {
+                                    "type": "Null",
+                                    "value": null
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Prediger"
+                                }
+                            ],
+                            "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1821"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L0400000"
+                                },
+                                {
+                                    "type": "Null",
+                                    "value": null
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Mitglied Ältestenkonferenz"
+                                }
+                            ],
+                            "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
+                        }
+                    }
+                ]
+            }
+        },
+        "botany": {
+            "focuses": {
+                "excel-column-name": "Botanik - Foki",
+                "label": "Botanik - Foki",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "String",
+                            "value": "Pilze"
+                        },
+                        {
+                            "type": "String",
+                            "value": "Farne"
+                        },
+                        {
+                            "type": "String",
+                            "value": "Orchideen"
+                        },
+                        {
+                            "type": "String",
+                            "value": "Asperifolien der Oberlausitz"
+                        }
+                    ]
+                }
+            },
+            "contribution_to_collections_object_evidence": {
+                "excel-column-name": "Botanik - Beitrag zu Sammlungen (Objektnachweis)",
+                "label": "Botanik - Beitrag zu Sammlungen (Objektnachweis)",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        "MEL (Royal Botanic Gardens Victoria (Melbourne/Australia))",
+                        "PH, Herbarium PH (Academy of Natural Sciences of Drexel University)",
+                        "L (Naturalis Biodiversity Center)",
+                        "DR, Herbarium Dresdense (Institut für Botanik, Technische Universität Dresden)"
+                    ]
+                }
+            },
+            "contribution_to_collections_database_evidence": {
+                "excel-column-name": "Botanik - Beitrag zu Sammlungen (Datenbanknachweis)",
+                "label": "Botanik - Beitrag zu Sammlungen (Datenbanknachweis)",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        "B, Herbarium Berolinense (ZE Botanischer Garten und Botanisches Museum, Freie Universität Berlin)",
+                        "M (Staatliche Naturwissenschaftliche Sammlungen Bayerns (SNSB))"
+                    ]
+                }
+            },
+            "mentions_in_botanical_works_by_others": {
+                "excel-column-name": "Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere",
+                "label": "Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        "(Druck) Jason M. Karakehian; Thomas Rödel; Ulrike Damm; Donald H. Pfister; Andrew N. Milkler; Camille Truong; Tom W. May (Hg.): \"Specimens in the National Herbarium of Victoria, Australia (MEL) and in Naturalis Biodiversity Center of Leiden, Netherlands (L) associated with Albertini and Schweinitz’s Conspectus fungorum in Lusatiae superioris\", in: Taxon 74 (2025), Nr. 1, S. 174-190. | https://doi.org/10.1002%2Ftax.13239 | S. 188, Auflistung der in M0003700 enthaltenen einzelnen Manuskripte von J.B.v. Albertini sowie angabe weiterer Quellen von Albertini, letztere leider ohne Signaturen",
+                        "(Druck) James Miers 1981: Guide to Plant Collectors Represented in the Herbarium of the Academy of Natural Sciences of Philadelphia | https://www.ansp.org/~/media/Files/ans/research/sys-botany/Mears1981.ashx?la=en",
+                        "(Druck) Hildegard Funke: Beiträge zur Geschichte der Floristik in Sachsen, in Berichte der Arbeitsgemeinschaft Sächsischer Botaniker. Band V/VI 1963/64 | https://www.hs-nb.de/storages/hs-neubrandenburg/institute/iugr/Zeitschriften/PDF-Scans/Sachsen/Berichte_der_Arbeitsgemeinschaft_Saechsischer_Botaniker/1963_1964__Neue_Folge__Band_5_6__Heft_1.pdf"
+                    ]
+                }
+            }
+        },
+        "mentions_in_non_botanical_works_by_others": {
+            "excel-column-name": "Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere",
+            "label": "Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere",
+            "value": {
+                "type": "List",
+                "value": [
+                    "(Druck) Seidel: Johann Baptista von Albertini und Ludwig David von SchweinitzZwei Lebensbilder. In Zeitschrift der Pilzkunde 1923 | https://www.zobodat.at/pdf/Z-Pilzkunde_2_1923_0221-0225.pdf"
+                ]
+            }
+        },
         "life_trajectory": {
             "type": "FeatureCollection",
             "features": [
@@ -403,103 +741,6 @@
                     }
                 }
             ]
-        },
-        "botany": {
-            "focuses": {
-                "excel-column-name": "Botanik - Foki",
-                "label": "Botanik - Foki",
-                "value": {
-                    "type": "List",
-                    "value": [
-                        {
-                            "type": "String",
-                            "value": "Pilze"
-                        },
-                        {
-                            "type": "String",
-                            "value": "Farne"
-                        },
-                        {
-                            "type": "String",
-                            "value": "Orchideen"
-                        },
-                        {
-                            "type": "String",
-                            "value": "Asperifolien der Oberlausitz"
-                        }
-                    ]
-                }
-            },
-            "contribution_to_collections_object_evidence": {
-                "excel-column-name": "Botanik - Beitrag zu Sammlungen (Objektnachweis)",
-                "label": "Botanik - Beitrag zu Sammlungen (Objektnachweis)",
-                "value": {
-                    "type": "List",
-                    "value": [
-                        {
-                            "type": "CollectionID",
-                            "value": "C-MEL",
-                            "source": "(Web) https://www.gbif.org/occurrence/2439357615"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-PH",
-                            "source": "(Web) https://mycoportal.org/portal/collections/individual/index.php?occid=6053170"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-L",
-                            "source": "(Web) https://bioportal.naturalis.nl/nl/specimen/L%20%200119238"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-DR",
-                            "source": "(Web) https://dr.jacq.org/DR086086"
-                        }
-                    ]
-                }
-            },
-            "contribution_to_collections_database_evidence": {
-                "excel-column-name": "Botanik - Beitrag zu Sammlungen (Datenbanknachweis)",
-                "label": "Botanik - Beitrag zu Sammlungen (Datenbanknachweis)",
-                "value": {
-                    "type": "List",
-                    "value": [
-                        {
-                            "type": "CollectionID",
-                            "value": "C-B",
-                            "source": "(Web) https://www.tropicos.org/person/791"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-M",
-                            "source": "(Web) https://www.tropicos.org/person/791"
-                        }
-                    ]
-                }
-            },
-            "mentions_in_botanical_works_by_others": {
-                "excel-column-name": "Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere",
-                "label": "Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere",
-                "value": {
-                    "type": "List",
-                    "value": [
-                        "(Druck) Jason M. Karakehian; Thomas Rödel; Ulrike Damm; Donald H. Pfister; Andrew N. Milkler; Camille Truong; Tom W. May (Hg.): \"Specimens in the National Herbarium of Victoria, Australia (MEL) and in Naturalis Biodiversity Center of Leiden, Netherlands (L) associated with Albertini and Schweinitz’s Conspectus fungorum in Lusatiae superioris\", in: Taxon 74 (2025), Nr. 1, S. 174-190. | https://doi.org/10.1002%2Ftax.13239 | S. 188, Auflistung der in M0003700 enthaltenen einzelnen Manuskripte von J.B.v. Albertini sowie angabe weiterer Quellen von Albertini, letztere leider ohne Signaturen",
-                        "(Druck) James Miers 1981: Guide to Plant Collectors Represented in the Herbarium of the Academy of Natural Sciences of Philadelphia | https://www.ansp.org/~/media/Files/ans/research/sys-botany/Mears1981.ashx?la=en",
-                        "(Druck) Hildegard Funke: Beiträge zur Geschichte der Floristik in Sachsen, in Berichte der Arbeitsgemeinschaft Sächsischer Botaniker. Band V/VI 1963/64 | https://www.hs-nb.de/storages/hs-neubrandenburg/institute/iugr/Zeitschriften/PDF-Scans/Sachsen/Berichte_der_Arbeitsgemeinschaft_Saechsischer_Botaniker/1963_1964__Neue_Folge__Band_5_6__Heft_1.pdf"
-                    ]
-                }
-            }
-        },
-        "mentions_in_non_botanical_works_by_others": {
-            "excel-column-name": "Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere",
-            "label": "Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere",
-            "value": {
-                "type": "List",
-                "value": [
-                    "(Druck) Seidel: Johann Baptista von Albertini und Ludwig David von SchweinitzZwei Lebensbilder. In Zeitschrift der Pilzkunde 1923 | https://www.zobodat.at/pdf/Z-Pilzkunde_2_1923_0221-0225.pdf"
-                ]
-            }
         }
     },
     "P0170000": {
@@ -587,6 +828,103 @@
                 "value": "(Web) https://bionomia.net/Q55874791"
             }
         },
+        "birth": {
+            "date": {
+                "excel-column-name": "Geburt - Datum",
+                "label": "Geburt - Datum",
+                "value": {
+                    "type": "ISO8601_2_Date",
+                    "value": "1721-04-17",
+                    "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | R.22.27.07 | Lebenslauf Johann Jacob Bossart | Lebenslauf von Bossart, etwas ausführlicher als M0004100"
+                }
+            },
+            "location": {
+                "excel-column-name": "Geburt - Ort",
+                "label": "Geburt - Ort",
+                "value": {
+                    "type": "String",
+                    "value": "Basel",
+                    "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | R.22.27.07 | Lebenslauf Johann Jacob Bossart | Lebenslauf von Bossart, etwas ausführlicher als M0004100"
+                }
+            }
+        },
+        "death": {
+            "date": {
+                "excel-column-name": "Tod - Datum",
+                "label": "Tod - Datum",
+                "value": {
+                    "type": "ISO8601_2_Date",
+                    "value": "1789-11-13",
+                    "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | R.22.27.07 | Lebenslauf Johann Jacob Bossart | Lebenslauf von Bossart, etwas ausführlicher als M0004100"
+                }
+            },
+            "location": {
+                "excel-column-name": "Tod - Ort",
+                "label": "Tod - Ort",
+                "value": {
+                    "type": "String",
+                    "value": "Barby",
+                    "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | R.22.27.07 | Lebenslauf Johann Jacob Bossart | Lebenslauf von Bossart, etwas ausführlicher als M0004100"
+                }
+            }
+        },
+        "botany": {
+            "focuses": {
+                "excel-column-name": "Botanik - Foki",
+                "label": "Botanik - Foki",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "String",
+                            "value": "Barby Lokalflora"
+                        }
+                    ]
+                }
+            },
+            "contribution_to_collections_literature_evidence": {
+                "excel-column-name": "Botanik - Beitrag zu Sammlungen (Literaturnachweis)",
+                "label": "Botanik - Beitrag zu Sammlungen (Literaturnachweis)",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        "C-barby, Herbarium Barbiensis (Akademie der Brüderunität, Barby (-), Pädagogium der Brüder-Unität, Barby (-), Pädagogium der Brüderunität, Niesky (-), Museum, Niesky (-), TU Dresden (-))"
+                    ]
+                }
+            },
+            "contribution_to_collections_notes": {
+                "excel-column-name": "Botanik - Beitrag zu Sammlungen - Anmerkungen",
+                "label": "Botanik - Beitrag zu Sammlungen - Anmerkungen",
+                "value": {
+                    "type": "String",
+                    "value": "Kurator C-Barby"
+                }
+            },
+            "manuscripts_by_person": {
+                "excel-column-name": "Botanik - Manuskripte der Person",
+                "label": "Botanik - Manuskripte der Person",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        "(Manuscript) Unitätsarchiv Herrnhut (Germany) | ThS.A.132.a | Johann Jakob Bossart: Tagebuch Botanischer Exkursionen (1766)",
+                        "(Manuscript) Unitätsarchiv Herrnhut (Germany) | Cim.V.4. | Johann Jakob Bossart: Verzeichniß der Naturalien aus dem Thier=Reich nach dem Linné (vor 1773)",
+                        "(Manuscript) Unitätsarchiv Herrnhut (Germany) | Cim.V.5. | Johann Jakob Bossart: Catalogus der Kunstsachen (1775)",
+                        "(Manuscript) Unitätsarchiv Herrnhut (Germany) | Cim.II.4 | Johann Jakob Bossart: Verzeichnis des Herbariums Barbiense (-); enthält: „Index alphabeticus Generum Plantarum es quibus sicca Speciminain Collectione Musei Academia Fratrum servantur“; „Index Plantarum siccarum Systematicus eo ordine, quo sunt in Fasciculis dispositae“ und „Catalogus über dem was in dem Saamen Schranck befindlich“"
+                    ]
+                }
+            }
+        },
+        "important_works_without_botanical_context": {
+            "excel-column-name": "Wichtige Werke der Person ohne botanischen Kontext",
+            "label": "Wichtige Werke der Person ohne botanischen Kontext",
+            "value": {
+                "type": "List",
+                "value": [
+                    "(Manuscript) Unitätsarchiv Herrnhut (Germany) | TS.Bd.22.9 | https://www.unitaetsarchiv.findbuch.net/php/view.php?link=5453x1959 | von Bossart kopierter Plan",
+                    "(Manuscript) Unitätsarchiv Herrnhut (Germany) | TS.Mp.32.15 | https://www.unitaetsarchiv.findbuch.net/php/view.php?link=5453x3083 | von Bossart gezeichnete Ansicht von Bertelsdorf"
+                ]
+            }
+        },
         "life_trajectory": {
             "type": "FeatureCollection",
             "features": [
@@ -637,67 +975,6 @@
                     }
                 }
             ]
-        },
-        "botany": {
-            "focuses": {
-                "excel-column-name": "Botanik - Foki",
-                "label": "Botanik - Foki",
-                "value": {
-                    "type": "List",
-                    "value": [
-                        {
-                            "type": "String",
-                            "value": "Barby Lokalflora"
-                        }
-                    ]
-                }
-            },
-            "contribution_to_collections_literature_evidence": {
-                "excel-column-name": "Botanik - Beitrag zu Sammlungen (Literaturnachweis)",
-                "label": "Botanik - Beitrag zu Sammlungen (Literaturnachweis)",
-                "value": {
-                    "type": "List",
-                    "value": [
-                        {
-                            "type": "CollectionID",
-                            "value": "C-barby",
-                            "source": "(Druck) Richard Ehrlacher; Frank Müller; Sarah T. Wagner; Thomas Ruhland; Lena Frenzke: \"Barby und die botanische Praxis der Herrnhuter Brüdergemeine im 18. Jahrhundert. Sammeln, Verwahren und Auswerten – das Herbarium Barbiense, ein Exkursionstagebuch von 1766 und Friedrich Adam Schollers Flora Barbiensis (1775/87)\", in: Mitteilungen zur floristischen Kartierung Sachsen-Anhalt Sonderheft 6 (2024) | https://doi.org/10.21248/mfk.444"
-                        }
-                    ]
-                }
-            },
-            "contribution_to_collections_notes": {
-                "excel-column-name": "Botanik - Beitrag zu Sammlungen - Anmerkungen",
-                "label": "Botanik - Beitrag zu Sammlungen - Anmerkungen",
-                "value": {
-                    "type": "String",
-                    "value": "Kurator C-Barby"
-                }
-            },
-            "manuscripts_by_person": {
-                "excel-column-name": "Botanik - Manuskripte der Person",
-                "label": "Botanik - Manuskripte der Person",
-                "value": {
-                    "type": "List",
-                    "value": [
-                        "(Manuscript) Unitätsarchiv Herrnhut (Germany) | ThS.A.132.a | Johann Jakob Bossart: Tagebuch Botanischer Exkursionen (1766)",
-                        "(Manuscript) Unitätsarchiv Herrnhut (Germany) | Cim.V.4. | Johann Jakob Bossart: Verzeichniß der Naturalien aus dem Thier=Reich nach dem Linné (vor 1773)",
-                        "(Manuscript) Unitätsarchiv Herrnhut (Germany) | Cim.V.5. | Johann Jakob Bossart: Catalogus der Kunstsachen (1775)",
-                        "(Manuscript) Unitätsarchiv Herrnhut (Germany) | Cim.II.4 | Johann Jakob Bossart: Verzeichnis des Herbariums Barbiense (-); enthält: „Index alphabeticus Generum Plantarum es quibus sicca Speciminain Collectione Musei Academia Fratrum servantur“; „Index Plantarum siccarum Systematicus eo ordine, quo sunt in Fasciculis dispositae“ und „Catalogus über dem was in dem Saamen Schranck befindlich“"
-                    ]
-                }
-            }
-        },
-        "important_works_without_botanical_context": {
-            "excel-column-name": "Wichtige Werke der Person ohne botanischen Kontext",
-            "label": "Wichtige Werke der Person ohne botanischen Kontext",
-            "value": {
-                "type": "List",
-                "value": [
-                    "(Manuscript) Unitätsarchiv Herrnhut (Germany) | TS.Bd.22.9 | https://www.unitaetsarchiv.findbuch.net/php/view.php?link=5453x1959 | von Bossart kopierter Plan",
-                    "(Manuscript) Unitätsarchiv Herrnhut (Germany) | TS.Mp.32.15 | https://www.unitaetsarchiv.findbuch.net/php/view.php?link=5453x3083 | von Bossart gezeichnete Ansicht von Bertelsdorf"
-                ]
-            }
         }
     },
     "P0220000": {
@@ -789,6 +1066,150 @@
             "label": "Herrnhuter Lebenslauf",
             "value": "(Druck) : Lebenslauf Johann Christian Breutel In: Nachrichten aus der Brüder-Gemeine (9), 1875, S. 755-788 | https://collections.mun.ca/digital/collection/nachrichten/id/1119/rec/1"
         },
+        "birth": {
+            "date": {
+                "excel-column-name": "Geburt - Datum",
+                "label": "Geburt - Datum",
+                "value": {
+                    "type": "ISO8601_2_Date",
+                    "value": "1788-01-21",
+                    "source": "(Druck) : Lebenslauf Johann Christian Breutel In: Nachrichten aus der Brüder-Gemeine (9), 1875, S. 755-788 | https://collections.mun.ca/digital/collection/nachrichten/id/1119/rec/1"
+                }
+            },
+            "location": {
+                "excel-column-name": "Geburt - Ort",
+                "label": "Geburt - Ort",
+                "value": {
+                    "type": "String",
+                    "value": "Weißenburg in Bayern",
+                    "source": "(Druck) : Lebenslauf Johann Christian Breutel In: Nachrichten aus der Brüder-Gemeine (9), 1875, S. 755-788 | https://collections.mun.ca/digital/collection/nachrichten/id/1119/rec/1"
+                }
+            }
+        },
+        "death": {
+            "date": {
+                "excel-column-name": "Tod - Datum",
+                "label": "Tod - Datum",
+                "value": {
+                    "type": "ISO8601_2_Date",
+                    "value": "1875-02-18",
+                    "source": "(Druck) : Lebenslauf Johann Christian Breutel In: Nachrichten aus der Brüder-Gemeine (9), 1875, S. 755-788 | https://collections.mun.ca/digital/collection/nachrichten/id/1119/rec/1"
+                }
+            },
+            "location": {
+                "excel-column-name": "Tod - Ort",
+                "label": "Tod - Ort",
+                "value": {
+                    "type": "String",
+                    "value": "Berthelsdorf",
+                    "source": "(Web) https://saebi.isgv.de/biografie/Johann_Christian_Breutel_(1788-1875)"
+                }
+            },
+            "location_notes": {
+                "excel-column-name": "Tod - Ort - Anmerkungen",
+                "label": "Tod - Ort - Anmerkungen",
+                "value": {
+                    "type": "String",
+                    "value": "Laut Wikidata gestorben in Berthelsdorf, laut GND in Herrnhut."
+                }
+            }
+        },
+        "botany": {
+            "focuses": {
+                "excel-column-name": "Botanik - Foki",
+                "label": "Botanik - Foki",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "String",
+                            "value": "Moosforschung"
+                        },
+                        {
+                            "type": "String",
+                            "value": "Kryptogamenkunde"
+                        },
+                        {
+                            "type": "String",
+                            "value": "Bryologie"
+                        }
+                    ]
+                }
+            },
+            "contribution_to_collections_object_evidence": {
+                "excel-column-name": "Botanik - Beitrag zu Sammlungen (Objektnachweis)",
+                "label": "Botanik - Beitrag zu Sammlungen (Objektnachweis)",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        "C-JE",
+                        "GLM (Senckenberg Gesellschaft für Naturforschung: Senckenberg Museum für Naturkunde Görlitz)",
+                        "DR, Herbarium Dresdense (Institut für Botanik, Technische Universität Dresden)",
+                        "C-MICH",
+                        "FR, Herbarium Frankfurt",
+                        "B, Herbarium Berolinense (ZE Botanischer Garten und Botanisches Museum, Freie Universität Berlin)",
+                        "GJO (Universalmuseum Joanneum, Graz)",
+                        "PI, Herbarium Horti Botanici Pisani (Dipartimento di Biologia, Università di Pisa)",
+                        "PRC (Charles University, Prague)",
+                        "C-W",
+                        "C-WU",
+                        "NY (The New York Botanical Garden)",
+                        "S (Swedish Museum of Natural History)",
+                        "C-MNHN",
+                        "BM, Herbarium NHM London (The Natural History Museum London)",
+                        "PH, Herbarium PH (Academy of Natural Sciences of Drexel University)",
+                        "TU, Herbarium Tartu (University of Tartu)",
+                        "G, Herbarium G (Conservatoire et Jardin botaniques de la Ville de Genève)",
+                        "BR (Meise Botanic Garden)",
+                        "C-KR",
+                        "TENN, University of Tennessee Herbarium (University of Tennessee)",
+                        "US, Herbarium Smithsonian Institution (National Museum of Natural History, Smithsonian Institution)",
+                        "PI, Herbarium Horti Botanici Pisani (Dipartimento di Biologia, Università di Pisa)"
+                    ]
+                }
+            },
+            "contribution_to_collections_literature_evidence": {
+                "excel-column-name": "Botanik - Beitrag zu Sammlungen (Literaturnachweis)",
+                "label": "Botanik - Beitrag zu Sammlungen (Literaturnachweis)",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        "REG, Herbarium der Regensburgischen Botanischen Gesellschaft",
+                        "LZ (University of Leipzig)",
+                        "BM, Herbarium NHM London (The Natural History Museum London)",
+                        "FH (Harvard University)",
+                        "HBG (University of Hamburg)",
+                        "L (Naturalis Biodiversity Center)",
+                        "LE, Herbarium Komarov Botanical Institute (Russian Academy of Sciences)",
+                        "NY (The New York Botanical Garden)",
+                        "PC (Muséum National d'Histoire Naturelle)",
+                        "S (Swedish Museum of Natural History)"
+                    ]
+                }
+            },
+            "mentions_in_botanical_works_by_others": {
+                "excel-column-name": "Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere",
+                "label": "Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        "(Druck) Ignaz Urban (1916): Geschichte des Königlichen Botanischen Museums zu Berlin-Dahlem (1815 - 1913) | https://digital.slub-dresden.de/werkansicht/dlf/263658/1 | Auflistung der Eingänge ins Berliner Herbarium",
+                        "(Manuscript) NICHT ZITIERÄHIG!! Volker Otte: \"Exotische Flechten aus der Sammlungstätigkeit der Herrnhuter Brüdergemeine im Görlitzer Herbarium \", in: (Hg.), Sammelband zu Botanik in und um Görlitz und Herrnhuter zu einer Tagung von 2005, nicht erschienen",
+                        "(Druck) Hildegard Funke: Beiträge zur Geschichte der Floristik in Sachsen, in Berichte der Arbeitsgemeinschaft Sächsischer Botaniker. Band V/VI 1963/64 | https://www.hs-nb.de/storages/hs-neubrandenburg/institute/iugr/Zeitschriften/PDF-Scans/Sachsen/Berichte_der_Arbeitsgemeinschaft_Saechsischer_Botaniker/1963_1964__Neue_Folge__Band_5_6__Heft_1.pdf"
+                    ]
+                }
+            }
+        },
+        "mentions_in_non_botanical_works_by_others": {
+            "excel-column-name": "Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere",
+            "label": "Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere",
+            "value": {
+                "type": "List",
+                "value": [
+                    "(Manuscript) NICHT ZITIERÄHIG!! Volker Otte: \"Exotische Flechten aus der Sammlungstätigkeit der Herrnhuter Brüdergemeine im Görlitzer Herbarium \", in: (Hg.), Sammelband zu Botanik in und um Görlitz und Herrnhuter zu einer Tagung von 2005, nicht erschienen"
+                ]
+            }
+        },
         "life_trajectory": {
             "type": "FeatureCollection",
             "features": [
@@ -839,234 +1260,6 @@
                     }
                 }
             ]
-        },
-        "botany": {
-            "focuses": {
-                "excel-column-name": "Botanik - Foki",
-                "label": "Botanik - Foki",
-                "value": {
-                    "type": "List",
-                    "value": [
-                        {
-                            "type": "String",
-                            "value": "Moosforschung"
-                        },
-                        {
-                            "type": "String",
-                            "value": "Kryptogamenkunde"
-                        },
-                        {
-                            "type": "String",
-                            "value": "Bryologie"
-                        }
-                    ]
-                }
-            },
-            "contribution_to_collections_object_evidence": {
-                "excel-column-name": "Botanik - Beitrag zu Sammlungen (Objektnachweis)",
-                "label": "Botanik - Beitrag zu Sammlungen (Objektnachweis)",
-                "value": {
-                    "type": "List",
-                    "value": [
-                        {
-                            "type": "CollectionID",
-                            "value": "C-JE",
-                            "source": "(Web) https://je.jacq.org/JE04007115"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-GLM",
-                            "source": "(Web) https://id.senckenberg.de/object/sesam-920735"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-DR",
-                            "source": "(Web) https://dr.jacq.org/DR086314"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-MICH",
-                            "source": "(Web) https://quod.lib.umich.edu/h/herb00ic/x-612452/mich-a-612452"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-FR",
-                            "source": "(Web) https://id.senckenberg.de/object/sesam-740110"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-B",
-                            "source": "(Web) http://herbarium.bgbm.org/object/B200175754"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-GJO",
-                            "source": "(Web) https://gjo.jacq.org/GJO0038273"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-PI",
-                            "source": "(Web) https://pi.jacq.org/PI010968"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-PRC",
-                            "source": "(Web) https://prc.jacq.org/PRC2697"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-W",
-                            "source": "(Web) https://w.jacq.org/W0074688"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-WU",
-                            "source": "(Web) https://wu.jacq.org/WU0150325"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-NY",
-                            "source": "(Web) https://sweetgum.nybg.org/science/vh/specimen-details/?irn=2271499"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-S",
-                            "source": "(Web) https://www.gbif.org/occurrence/1095988263"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-MNHN",
-                            "source": "(Web) https://www.gbif.org/occurrence/1019533469"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-BM",
-                            "source": "(Web) https://www.gbif.org/occurrence/1055522115"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-PH",
-                            "source": "(Web) https://bryophyteportal.org/portal/collections/individual/index.php?occid=5884131"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-TU",
-                            "source": "(Web) https://www.gbif.org/occurrence/4026637778"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-G",
-                            "source": "(Web) https://collections.geneve.ch/cjbg/chg/adetail.php?id=280155"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-BR",
-                            "source": "(Web) http://www.botanicalcollections.be/specimen/BR0000014644313"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-KR",
-                            "source": "(Web) https://www.gbif.org/occurrence/4997066506"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-TENN",
-                            "source": "(Web) https://bryophyteportal.org/portal/collections/individual/index.php?occid=6427518"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-US",
-                            "source": "(Web) http://n2t.net/ark:/65665/3eb18b640-b359-42a9-a7fe-75795e5f376b"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-PI",
-                            "source": "(Web) https://pi.jacq.org/PI010968"
-                        }
-                    ]
-                }
-            },
-            "contribution_to_collections_literature_evidence": {
-                "excel-column-name": "Botanik - Beitrag zu Sammlungen (Literaturnachweis)",
-                "label": "Botanik - Beitrag zu Sammlungen (Literaturnachweis)",
-                "value": {
-                    "type": "List",
-                    "value": [
-                        {
-                            "type": "CollectionID",
-                            "value": "C-REG",
-                            "source": "(Druck) Ulrich Teuber 2023: \"Zur Geschichte des Passauer Moosherbars\" | https://www.zobodat.at/pdf/DerBayerischeWald_36_1-2_0028-0043.pdf | Artikel, Erfassungsliste bei SW"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-LZ",
-                            "source": "(Druck) Frans Stafleu & Richard Cowans: Taxonomic literature: a selective guide to botanical publications and collections with dates, commentaries and types. all volumes (1976-1988) & supplements | https://doi.org/10.5962/bhl.title.48631"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-BM",
-                            "source": "(Druck) Frans Stafleu & Richard Cowans: Taxonomic literature: a selective guide to botanical publications and collections with dates, commentaries and types. all volumes (1976-1988) & supplements | https://doi.org/10.5962/bhl.title.48631"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-FH",
-                            "source": "(Druck) Frans Stafleu & Richard Cowans: Taxonomic literature: a selective guide to botanical publications and collections with dates, commentaries and types. all volumes (1976-1988) & supplements | https://doi.org/10.5962/bhl.title.48631"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-HBG",
-                            "source": "(Druck) Frans Stafleu & Richard Cowans: Taxonomic literature: a selective guide to botanical publications and collections with dates, commentaries and types. all volumes (1976-1988) & supplements | https://doi.org/10.5962/bhl.title.48631"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-L",
-                            "source": "(Druck) Frans Stafleu & Richard Cowans: Taxonomic literature: a selective guide to botanical publications and collections with dates, commentaries and types. all volumes (1976-1988) & supplements | https://doi.org/10.5962/bhl.title.48631"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-LE",
-                            "source": "(Druck) Frans Stafleu & Richard Cowans: Taxonomic literature: a selective guide to botanical publications and collections with dates, commentaries and types. all volumes (1976-1988) & supplements | https://doi.org/10.5962/bhl.title.48631"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-NY",
-                            "source": "(Druck) Frans Stafleu & Richard Cowans: Taxonomic literature: a selective guide to botanical publications and collections with dates, commentaries and types. all volumes (1976-1988) & supplements | https://doi.org/10.5962/bhl.title.48631"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-PC",
-                            "source": "(Druck) Frans Stafleu & Richard Cowans: Taxonomic literature: a selective guide to botanical publications and collections with dates, commentaries and types. all volumes (1976-1988) & supplements | https://doi.org/10.5962/bhl.title.48631"
-                        },
-                        {
-                            "type": "CollectionID",
-                            "value": "C-S",
-                            "source": "(Druck) Frans Stafleu & Richard Cowans: Taxonomic literature: a selective guide to botanical publications and collections with dates, commentaries and types. all volumes (1976-1988) & supplements | https://doi.org/10.5962/bhl.title.48631"
-                        }
-                    ]
-                }
-            },
-            "mentions_in_botanical_works_by_others": {
-                "excel-column-name": "Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere",
-                "label": "Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere",
-                "value": {
-                    "type": "List",
-                    "value": [
-                        "(Druck) Ignaz Urban (1916): Geschichte des Königlichen Botanischen Museums zu Berlin-Dahlem (1815 - 1913) | https://digital.slub-dresden.de/werkansicht/dlf/263658/1 | Auflistung der Eingänge ins Berliner Herbarium",
-                        "(Manuscript) NICHT ZITIERÄHIG!! Volker Otte: \"Exotische Flechten aus der Sammlungstätigkeit der Herrnhuter Brüdergemeine im Görlitzer Herbarium \", in: (Hg.), Sammelband zu Botanik in und um Görlitz und Herrnhuter zu einer Tagung von 2005, nicht erschienen",
-                        "(Druck) Hildegard Funke: Beiträge zur Geschichte der Floristik in Sachsen, in Berichte der Arbeitsgemeinschaft Sächsischer Botaniker. Band V/VI 1963/64 | https://www.hs-nb.de/storages/hs-neubrandenburg/institute/iugr/Zeitschriften/PDF-Scans/Sachsen/Berichte_der_Arbeitsgemeinschaft_Saechsischer_Botaniker/1963_1964__Neue_Folge__Band_5_6__Heft_1.pdf"
-                    ]
-                }
-            }
-        },
-        "mentions_in_non_botanical_works_by_others": {
-            "excel-column-name": "Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere",
-            "label": "Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere",
-            "value": {
-                "type": "List",
-                "value": [
-                    "(Manuscript) NICHT ZITIERÄHIG!! Volker Otte: \"Exotische Flechten aus der Sammlungstätigkeit der Herrnhuter Brüdergemeine im Görlitzer Herbarium \", in: (Hg.), Sammelband zu Botanik in und um Görlitz und Herrnhuter zu einer Tagung von 2005, nicht erschienen"
-                ]
-            }
         }
     }
 }
