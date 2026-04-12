@@ -34,25 +34,10 @@ Beispiele:
 - `Zanzibar@sw | Zanzíbar@es-ES | Sansibar@de-DE-1901 | 蒙巴萨@zh-Hans-CN`
 
 
-### Links
-*List of URL*
+### Wikidata
+*URL*
 
-Ein oder mehrere URLs zu übereinstimmenden Datensätzen in Ortsnamenautoritäten.  
-
-> [!TIP]
-> **Bekannte Ortsnamenautoritäten:**
-> - Bibliothèque nationale de France, "https://data.bnf.fr/"
-> - Consortium of European Research Libraries, "https://data.cerl.org/thesaurus/"
-> - DBpedia, "http://dbpedia.org/resource/"
-> - GeoNames, "http://www.geonames.org/"
-> - Deutschen Nationalbibliothek, "http://d-nb.info/gnd/"
-> - The Geneaological Gazetteer, "http://gov.genealogy.net/"
-> - Library of Congress, "http://id.loc.gov/authorities/subjects/"
-> - Pleiades, "https://pleiades.stoa.org/places/"
-> - Getty Thesaurus of Geographic Names, "http://vocab.getty.edu/page/tgn/"
-> - Virtual International Authority File, "http://viaf.org/viaf/"
-> - Wikidata, "https://www.wikidata.org/wiki/"
-> - Wikipedia, "https://wikipedia.org/wiki/"
+URL zum Eintrag des Orts in Wikidata.
 
 
 ### Beschreibung

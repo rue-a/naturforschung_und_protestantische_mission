@@ -814,6 +814,29 @@
                             "founder": null
                         }
                     }
+                },
+                {
+                    "type": "Feature",
+                    "featureType": "death",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            14.758333333333,
+                            51.027777777778
+                        ]
+                    },
+                    "time": {
+                        "date": "1875-02-18"
+                    },
+                    "properties": {
+                        "source": "(Web) https://saebi.isgv.de/biografie/Johann_Christian_Breutel_(1788-1875)",
+                        "place": {
+                            "aat_feature_type": null,
+                            "start": null,
+                            "end": null,
+                            "founder": null
+                        }
+                    }
                 }
             ]
         },

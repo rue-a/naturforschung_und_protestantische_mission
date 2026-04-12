@@ -88,7 +88,9 @@ class TableParser:
             keep_default_na=False,
         )
 
-        df = df.rename(columns=lambda c: c.replace("*", "").split("\n")[0].strip())
+        df = df.rename(
+            columns=lambda c: c.replace("*", "").replace("°", "").split("\n")[0].strip()
+        )
 
         df = df.filter(items=list(self.specs.keys()))
 

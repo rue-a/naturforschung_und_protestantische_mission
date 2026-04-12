@@ -89,9 +89,9 @@ def build_place_properties(location_id, locations_by_id, aat_feature_types):
     }
 
     if "aat_type" in location:
+        aat_value = location["aat_type"]["value"]["value"]
         place_properties["aat_feature_type"] = [
-            aat_feature_types.get(str(aat_type["value"]), str(aat_type["value"]))
-            for aat_type in location["aat_type"]["value"]["value"]
+            aat_feature_types.get(str(aat_value), str(aat_value))
         ]
 
     if "start" in location:

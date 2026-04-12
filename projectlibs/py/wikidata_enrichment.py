@@ -157,20 +157,12 @@ def extract_coordinates(entity_payload: dict[str, Any], qid: str) -> tuple[float
     return None
 
 
-def extract_wikidata_qid_from_links_list(record: dict[str, Any]) -> str | None:
-    links_field = record.get("links")
-    if not links_field:
-        return None
+def extract_wikidata_qid_from_location(record: dict[str, Any]) -> str | None:
+    wikidata_field = record.get("wikidata_link")
+    wikidata_url = extract_url_field(wikidata_field)
 
-    value = links_field.get("value", {})
-    if value.get("type") != "List":
-        return None
-
-    for item in value.get("value", []):
-        if item.get("type") != "URL":
-            continue
-
-        match = WIKIDATA_QID_RE.search(item.get("value", ""))
+    if wikidata_url:
+        match = WIKIDATA_QID_RE.search(wikidata_url)
         if match:
             return match.group(1)
 
@@ -334,7 +326,7 @@ def enrich_locations(
     failed = 0
 
     for location_id, record in payload.items():
-        qid = extract_wikidata_qid_from_links_list(record)
+        qid = extract_wikidata_qid_from_location(record)
         if not qid:
             skipped += 1
             print(f"[locations] skipped {location_id}: no Wikidata QID")

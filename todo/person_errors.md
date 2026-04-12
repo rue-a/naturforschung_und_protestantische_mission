@@ -56,10 +56,6 @@
 > R0005400 [1777: Herausgeber von C. G. A. Oldendorps Geschichte der Mission der evangelischen Brüder auf den caraibischen Inseln S. Thomas, S. Croix und S. Jan] |
 > R0005300 [1787: Friedrich Adam Scholl
 
-- [ ] __P0220000, Tod - Ort__:
- _Invalid Reference value: 'wkd), Herrnhut (gnd' (should be URL, R-ID, or M-ID)_
-> Berthelsdorf (wkd), Herrnhut (gnd)
-
 - [ ] __P0220000, Wirkungsorte__:
  _Missing reference for complex value_
 > 1840-1841 Karibik (westindische Inseln: St. Thomas, St. Croix)  -- Visitation |

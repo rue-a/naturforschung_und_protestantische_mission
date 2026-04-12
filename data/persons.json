@@ -869,6 +869,27 @@
                     "type": "URL",
                     "value": "https://de.bionomia.net/Q21415674"
                 }
+            },
+            "gnd": {
+                "label": "Links - GND",
+                "value": {
+                    "type": "URL",
+                    "value": "https://d-nb.info/gnd/116493763"
+                }
+            },
+            "factgrid": {
+                "label": "Links - FactGrid",
+                "value": {
+                    "type": "URL",
+                    "value": "https://database.factgrid.de/wiki/Item:Q703514"
+                }
+            },
+            "saebi": {
+                "label": "Links - Säbi",
+                "value": {
+                    "type": "URL",
+                    "value": "https://saebi.isgv.de/gnd/116493763"
+                }
             }
         },
         "moravian_curriculum_vitae": {
@@ -917,6 +938,26 @@
                             "type": "LiteratureID",
                             "value": "R0002500"
                         }
+                    }
+                },
+                "location": {
+                    "excel-column-name": "Tod - Ort",
+                    "label": "Tod - Ort",
+                    "value": {
+                        "type": "LocationID",
+                        "value": "L0400000",
+                        "source": {
+                            "type": "URL",
+                            "value": "https://saebi.isgv.de/biografie/Johann_Christian_Breutel_(1788-1875)"
+                        }
+                    }
+                },
+                "location_notes": {
+                    "excel-column-name": "Tod - Ort - Anmerkungen",
+                    "label": "Tod - Ort - Anmerkungen",
+                    "value": {
+                        "type": "String",
+                        "value": "Laut Wikidata gestorben in Berthelsdorf, laut GND in Herrnhut."
                     }
                 }
             }

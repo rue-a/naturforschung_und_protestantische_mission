@@ -93,23 +93,26 @@ def parse_field(
     is_list: bool = False,
     codelist: List[str] = [],
 ):
+    def validate_codelist(value):
+        if not codelist:
+            return
+        if value not in codelist:
+            raise ValueError(f"{value!r} not in codelist")
 
     def parse_one(value: str):
-
-        # codelist validation
-        if codelist:
-            if value not in codelist:
-                raise ValueError(f"{value!r} not in codelist")
-
         # Single parser
         if callable(parser):
-            return parser(value)
+            parsed_value = parser(value)
+            validate_codelist(parsed_value)
+            return parsed_value
 
         # Multiple parsers (fallback chain)
         last_error = None
         for p in parser:
             try:
-                return p(value)
+                parsed_value = p(value)
+                validate_codelist(parsed_value)
+                return parsed_value
             except Exception as e:
                 last_error = e
 
@@ -359,6 +362,9 @@ PARSERS_ORTE = {
         ),
         is_list=True,
     ),
+    # --- Authority Links ---
+    "wikidata_link": ParserSpec(excel_column_name="Wikidata", parser=URL),
+    # --- AAT Type ---
     "aat_type": ParserSpec(
         excel_column_name="AAT-Typ",
         parser=int,
