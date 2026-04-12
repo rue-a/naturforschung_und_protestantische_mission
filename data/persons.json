@@ -869,27 +869,6 @@
                     "type": "URL",
                     "value": "https://de.bionomia.net/Q21415674"
                 }
-            },
-            "gnd": {
-                "label": "Links - GND",
-                "value": {
-                    "type": "URL",
-                    "value": "https://d-nb.info/gnd/116493763"
-                }
-            },
-            "factgrid": {
-                "label": "Links - FactGrid",
-                "value": {
-                    "type": "URL",
-                    "value": "https://database.factgrid.de/wiki/Item:Q703514"
-                }
-            },
-            "saebi": {
-                "label": "Links - Säbi",
-                "value": {
-                    "type": "URL",
-                    "value": "https://saebi.isgv.de/gnd/116493763"
-                }
             }
         },
         "moravian_curriculum_vitae": {

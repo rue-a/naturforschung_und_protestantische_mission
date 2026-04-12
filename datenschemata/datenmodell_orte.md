@@ -62,7 +62,7 @@ Kurzer beschreibender Text zum Ort.
 
 
 
-### GeoNames-Typ
+<!-- ### GeoNames-Typ
 *List of Strings from Codelist*, **bedingt erforderlich°**
 
 _Jede Zeile muss entweder einen **GeoNames-Typ**-Wert oder einen **AAT-Typ**-Wert enthalten._
@@ -79,19 +79,17 @@ Ein oder mehrere der sieben einbuchstabigen *GeoNames Feature Classes*.
 | `P`  | Siedlungen (z. B. Städte, Dörfer, Weiler)                           |
 | `R`  | Straßen, Routen, Schienenwege                                       |
 | `S`  | Stätten (z. B. archäologische Stätten, Gebäude, Anlagen)            |
-| `T`  | Landformen (z. B. Berge, Täler, Kaps)                               |
+| `T`  | Landformen (z. B. Berge, Täler, Kaps)                               | -->
 
 
 
 ### AAT-Typ
-*List of Integers from Codelist*, **bedingt erforderlich°**
+*List of Integers from Codelist*, **erforderlich°**
 
-_Jede Zeile muss entweder einen **GeoNames-Typ**-Wert oder einen **AAT-Typ**-Wert enthalten._
 
-Ein oder mehrere AAT-Integer-IDs aus der WHG-Teilliste von 176 Orts-Typkonzepten (**Tabellenblatt `AAT-Codelist`**).  
+Eine AAT-Integer-ID aus der WHG-Teilliste von 176 Orts-Typkonzepten (**Tabellenblatt `AAT-Codelist`**).  
 
 - `300387272`
-- `300120599 | 300008372`
 
 <!-- 
 ### Beginn

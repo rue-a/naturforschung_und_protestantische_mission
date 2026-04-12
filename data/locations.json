@@ -15,61 +15,6 @@
                 "type": "String",
                 "value": "Akunnaat"
             }
-        },
-        "start": {
-            "excel-column-name": "Beginn",
-            "label": "Beginn",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1758"
-            }
-        },
-        "end": {
-            "excel-column-name": "Ende",
-            "label": "Ende",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1950"
-            }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q423740"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -50.41
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 63.05
-            }
-        },
-        "founder": {
-            "label": "Founder",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "String",
-                        "value": "Herrnhuter Brüdergemeine"
-                    }
-                ]
-            }
         }
     },
     "L0200000": {
@@ -87,33 +32,6 @@
             "value": {
                 "type": "String",
                 "value": "Barby"
-            }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q530185"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 11.8838245
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 51.9667595
             }
         }
     },
@@ -133,33 +51,6 @@
                 "type": "String",
                 "value": "Basel"
             }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q78"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 7.5905555555556
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 47.560555555556
-            }
         }
     },
     "L0400000": {
@@ -177,33 +68,6 @@
             "value": {
                 "type": "String",
                 "value": "Berthelsdorf"
-            }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q502553"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 14.758333333333
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 51.027777777778
             }
         }
     },
@@ -223,40 +87,6 @@
                 "type": "String",
                 "value": "Bethlehem"
             }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q164380"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -75.375555555556
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 40.626111111111
-            }
-        },
-        "start": {
-            "label": "Start",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1741"
-            }
         }
     },
     "L0600000": {
@@ -274,52 +104,6 @@
             "value": {
                 "type": "String",
                 "value": "Christiansfeld (Dänemark)"
-            }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q3197288"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 9.483056
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 55.356667
-            }
-        },
-        "start": {
-            "label": "Start",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1773"
-            }
-        },
-        "founder": {
-            "label": "Founder",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "String",
-                        "value": "Herrnhuter Brüdergemeine"
-                    }
-                ]
             }
         }
     },
@@ -348,33 +132,6 @@
             "value": {
                 "type": "String",
                 "value": "Ebersdorf"
-            }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q1279760"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 11.6672
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 50.4847
             }
         }
     },
@@ -412,33 +169,6 @@
                 "type": "String",
                 "value": "Gnadenberg"
             }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q65162110"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 15.615833
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 51.259167
-            }
         }
     },
     "L1100000": {
@@ -456,33 +186,6 @@
             "value": {
                 "type": "String",
                 "value": "Gnadenfrei"
-            }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q986091"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 16.74359
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 50.68357
             }
         }
     },
@@ -520,33 +223,6 @@
                 "type": "String",
                 "value": "Großhennerdorf"
             }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q502696"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 14.793333333333
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 50.990833333333
-            }
         }
     },
     "L1105000": {
@@ -564,33 +240,6 @@
             "value": {
                 "type": "String",
                 "value": "Goshen"
-            }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q5587251"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -84.163
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 39.23
             }
         }
     },
@@ -610,59 +259,6 @@
                 "type": "String",
                 "value": "Hebron"
             }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q5695991"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -62.626111111111
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 58.2
-            }
-        },
-        "start": {
-            "label": "Start",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1837"
-            }
-        },
-        "founder": {
-            "label": "Founder",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "String",
-                        "value": "Herrnhuter Brüdergemeine"
-                    }
-                ]
-            }
-        },
-        "end": {
-            "label": "End",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1959"
-            }
         }
     },
     "L1115000": {
@@ -680,33 +276,6 @@
             "value": {
                 "type": "String",
                 "value": "Herrnhaag"
-            }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q1614322"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 9.08333
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 50.2639
             }
         }
     },
@@ -726,40 +295,6 @@
                 "type": "String",
                 "value": "Herrnhut"
             }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q165140"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 14.741666666667
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 51.016666666667
-            }
-        },
-        "start": {
-            "label": "Start",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1722"
-            }
         }
     },
     "L1200000": {
@@ -778,33 +313,6 @@
                 "type": "String",
                 "value": "Hopedal"
             }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q11338369"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -60.203188888889
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 55.467372222222
-            }
         }
     },
     "L1300000": {
@@ -822,33 +330,6 @@
             "value": {
                 "type": "String",
                 "value": "Jgdlorpait"
-            }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q67087304"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -45.355
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 60.4675
             }
         }
     },
@@ -878,33 +359,6 @@
                 "type": "String",
                 "value": "Kleinwelka"
             }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q159916"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 14.3946
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 51.21079
-            }
         }
     },
     "L1550000": {
@@ -923,33 +377,6 @@
                 "type": "String",
                 "value": "Königsfeld"
             }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q81421"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 8.4213888888889
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 48.138333333333
-            }
         }
     },
     "L1600000": {
@@ -967,33 +394,6 @@
             "value": {
                 "type": "String",
                 "value": "Lichtenau"
-            }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q1016295"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -45.5378
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 60.5072
             }
         }
     },
@@ -1049,33 +449,6 @@
                 "type": "String",
                 "value": "Meisenheim am Glan"
             }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q520103"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 7.6666666666667
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 49.716666666667
-            }
         }
     },
     "L1900000": {
@@ -1093,33 +466,6 @@
             "value": {
                 "type": "String",
                 "value": "Michelstadt"
-            }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q516517"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 9.0041666666667
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 49.678611111111
             }
         }
     },
@@ -1139,40 +485,6 @@
                 "type": "String",
                 "value": "Nazareth"
             }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q1022937"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -75.311111111111
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 40.74
-            }
-        },
-        "start": {
-            "label": "Start",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1740"
-            }
         }
     },
     "L2100000": {
@@ -1190,40 +502,6 @@
             "value": {
                 "type": "String",
                 "value": "Nain"
-            }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q3335210"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -61.6928
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 56.5422
-            }
-        },
-        "start": {
-            "label": "Start",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1771"
             }
         }
     },
@@ -1243,33 +521,6 @@
                 "type": "String",
                 "value": "Neudietendorf"
             }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q701263"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 10.913333333333
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 50.9125
-            }
         }
     },
     "L2200000": {
@@ -1287,40 +538,6 @@
             "value": {
                 "type": "String",
                 "value": "Neuwied"
-            }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q3967"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 7.4613888888889
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 50.428611111111
-            }
-        },
-        "start": {
-            "label": "Start",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1653"
             }
         }
     },
@@ -1341,33 +558,6 @@
                 "type": "String",
                 "value": "Niesky"
             }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q165160"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 14.83
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 51.289722222222
-            }
         }
     },
     "L2260000": {
@@ -1385,59 +575,6 @@
             "value": {
                 "type": "String",
                 "value": "Okak"
-            }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q7081733"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -61.98425
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 57.562389
-            }
-        },
-        "start": {
-            "label": "Start",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1776"
-            }
-        },
-        "founder": {
-            "label": "Founder",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "String",
-                        "value": "Herrnhuter Brüdergemeine"
-                    }
-                ]
-            }
-        },
-        "end": {
-            "label": "End",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1919"
             }
         }
     },
@@ -1475,19 +612,6 @@
                 "type": "String",
                 "value": "Silo"
             }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.geonames.org/955607/silo.html"
-                    }
-                ]
-            }
         }
     },
     "L2350000": {
@@ -1505,33 +629,6 @@
             "value": {
                 "type": "String",
                 "value": "Saint John"
-            }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q849441"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -64.7495816
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 18.3396764
             }
         }
     },
@@ -1551,40 +648,6 @@
                 "type": "String",
                 "value": "St. John's (Antigua)"
             }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q36262"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -61.844722222222
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 17.121111111111
-            }
-        },
-        "start": {
-            "label": "Start",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1666"
-            }
         }
     },
     "L2450000": {
@@ -1603,33 +666,6 @@
                 "type": "String",
                 "value": "Tharandt"
             }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q8245"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 13.580833333333
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 50.983333333333
-            }
         }
     },
     "L2500000": {
@@ -1647,40 +683,6 @@
             "value": {
                 "type": "String",
                 "value": "Weißenburg in Bayern"
-            }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q44500"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 10.971944444444
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 49.030555555556
-            }
-        },
-        "start": {
-            "label": "Start",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1296"
             }
         }
     }
