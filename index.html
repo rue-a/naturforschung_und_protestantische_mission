@@ -76,8 +76,18 @@
           <section class="col-12">
             <div class="card panel-card">
               <div class="card-header bg-transparent d-flex flex-column flex-lg-row justify-content-between gap-2">
-                <h2 class="h5 mb-0">Map</h2>
-                <div id="map-summary" class="small text-body-secondary"></div>
+                <div class="d-flex flex-column gap-2 flex-grow-1">
+                  <div class="d-flex flex-column flex-lg-row justify-content-between gap-2">
+                    <h2 class="h5 mb-0">Map</h2>
+                    <div id="map-summary" class="small text-body-secondary"></div>
+                  </div>
+                  <div id="map-time-controls" class="map-time-controls d-none">
+                    <label for="map-time-slider" class="map-time-label">
+                      Jahr: <span id="map-time-value"></span>
+                    </label>
+                    <input id="map-time-slider" type="range" class="form-range" min="0" max="0" step="1" value="0">
+                  </div>
+                </div>
               </div>
               <div class="card-body">
                 <div class="map-shell">

@@ -20,6 +20,9 @@ window.AppView = (() => {
     article: document.getElementById("person-article"),
     links: document.getElementById("person-links"),
     mapSummary: document.getElementById("map-summary"),
+    mapTimeControls: document.getElementById("map-time-controls"),
+    mapTimeSlider: document.getElementById("map-time-slider"),
+    mapTimeValue: document.getElementById("map-time-value"),
     mapContainer: document.getElementById("person-map"),
     mapPopup: document.getElementById("map-popup"),
     mapEmptyState: document.getElementById("map-empty-state"),
@@ -303,20 +306,54 @@ window.AppView = (() => {
 
   function renderMapForPerson(record) {
     const places = window.AppModel.collectPersonPlaces(record);
-    renderMap(places);
+    const yearExtent = window.AppModel.getPlacesYearExtent(places);
+    const visiblePlaces = configureTimeSlider(places, yearExtent);
 
-    if (places.length === 0) {
+    renderMap(visiblePlaces);
+
+    if (visiblePlaces.length === 0) {
       DOM.mapSummary.textContent =
-        "Keine georeferenzierten Orte fuer diese Person vorhanden.";
+        yearExtent
+          ? "Keine Orte fuer den gewählten Zeitpunkt sichtbar."
+          : "Keine georeferenzierten Orte fuer diese Person vorhanden.";
       return;
     }
 
+    const timeSuffix = Number.isFinite(state.mapTimeYear)
+      ? ` | Jahr ${state.mapTimeYear}`
+      : "";
+
     DOM.mapSummary.innerHTML = [
-      `${places.length} Orte auf der Karte`,
+      `${visiblePlaces.length} Orte auf der Karte${timeSuffix}`,
       '<span class="marker-legend"><span class="legend-dot" style="background:#198754"></span>Geburt</span>',
       '<span class="marker-legend"><span class="legend-dot" style="background:#dc3545"></span>Tod</span>',
       '<span class="marker-legend"><span class="legend-dot" style="background:#0d6efd"></span>Wirkungsorte</span>',
     ].join(" ");
+  }
+
+  function configureTimeSlider(places, yearExtent) {
+    if (!yearExtent) {
+      DOM.mapTimeControls.classList.add("d-none");
+      state.mapTimeYear = null;
+      return places;
+    }
+
+    DOM.mapTimeControls.classList.remove("d-none");
+    DOM.mapTimeSlider.min = String(yearExtent.minYear);
+    DOM.mapTimeSlider.max = String(yearExtent.maxYear);
+
+    if (
+      !Number.isFinite(state.mapTimeYear) ||
+      state.mapTimeYear < yearExtent.minYear ||
+      state.mapTimeYear > yearExtent.maxYear
+    ) {
+      state.mapTimeYear = yearExtent.minYear;
+    }
+
+    DOM.mapTimeSlider.value = String(state.mapTimeYear);
+    DOM.mapTimeValue.textContent = String(state.mapTimeYear);
+
+    return window.AppModel.filterPlacesByYear(places, state.mapTimeYear);
   }
 
   function setupMap() {
@@ -377,13 +414,16 @@ window.AppView = (() => {
   }
 
   function renderMap(places) {
+    const hadFeatures = state.mapSource.getFeatures().length > 0;
     state.mapSource.clear();
     hidePopup();
 
     if (places.length === 0) {
       DOM.mapEmptyState.classList.remove("d-none");
-      state.map.getView().setCenter(ol.proj.fromLonLat([10, 20]));
-      state.map.getView().setZoom(2);
+      if (!hadFeatures) {
+        state.map.getView().setCenter(ol.proj.fromLonLat([10, 20]));
+        state.map.getView().setZoom(2);
+      }
       return;
     }
 
@@ -401,6 +441,10 @@ window.AppView = (() => {
     });
 
     state.mapSource.addFeatures(features);
+
+    if (hadFeatures) {
+      return;
+    }
 
     const extent = state.mapSource.getExtent();
     if (features.length === 1) {

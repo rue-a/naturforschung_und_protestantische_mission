@@ -178,6 +178,17 @@ body {
   position: relative;
 }
 
+.map-time-controls {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.map-time-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-soft);
+}
+
 #person-map {
   height: 22rem;
   border-radius: 0.75rem;

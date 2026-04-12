@@ -10,6 +10,7 @@ window.AppModel = (() => {
     map: null,
     mapSource: null,
     mapOverlay: null,
+    mapTimeYear: null,
   };
 
   const MARKER_COLORS = {
@@ -114,6 +115,7 @@ window.AppModel = (() => {
     return deduplicatePlaces(
       record.life_trajectory.features.map((feature) => {
         const [longitude, latitude] = feature.geometry.coordinates;
+        const timeRange = getFeatureYearRange(feature.time);
 
         return {
           type: feature.featureType === "place_of_effect" ? "activity" : feature.featureType,
@@ -127,9 +129,77 @@ window.AppModel = (() => {
             .join(" | "),
           latitude,
           longitude,
+          startYear: timeRange.startYear,
+          endYear: timeRange.endYear,
         };
       })
     );
+  }
+
+  function getFeatureYearRange(timeObject) {
+    if ("date" in timeObject) {
+      const year = extractYear(timeObject.date);
+      return { startYear: year, endYear: year };
+    }
+
+    if ("timestamp" in timeObject) {
+      const year = extractYear(timeObject.timestamp);
+      return { startYear: year, endYear: year };
+    }
+
+    if ("interval" in timeObject) {
+      return {
+        startYear: extractYear(timeObject.interval[0]),
+        endYear: extractYear(timeObject.interval[1]),
+      };
+    }
+
+    return { startYear: null, endYear: null };
+  }
+
+  function extractYear(value) {
+    if (!value || value === "..") {
+      return null;
+    }
+
+    const match = String(value).match(/^-?\d+/);
+    if (!match) {
+      return null;
+    }
+
+    return Number(match[0]);
+  }
+
+  function getPlacesYearExtent(places) {
+    const years = places.flatMap((place) => [place.startYear, place.endYear]).filter(
+      (year) => Number.isFinite(year)
+    );
+
+    if (years.length === 0) {
+      return null;
+    }
+
+    return {
+      minYear: Math.min(...years),
+      maxYear: Math.max(...years),
+    };
+  }
+
+  function filterPlacesByYear(places, year) {
+    if (!Number.isFinite(year)) {
+      return places;
+    }
+
+    return places.filter((place) => {
+      if (place.startYear === null && place.endYear === null) {
+        return true;
+      }
+
+      const lowerBound = place.startYear === null ? -Infinity : place.startYear;
+      const upperBound = place.endYear === null ? Infinity : place.endYear;
+
+      return lowerBound <= year && year <= upperBound;
+    });
   }
 
 
@@ -164,6 +234,8 @@ window.AppModel = (() => {
     loadData,
     formatTypedValue,
     formatFeatureTime,
+    getPlacesYearExtent,
+    filterPlacesByYear,
     collectPersonPlaces,
   };
 })();

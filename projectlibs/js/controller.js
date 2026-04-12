@@ -20,6 +20,7 @@ window.AppController = (() => {
 
   function bindEvents() {
     DOM.searchInput.addEventListener("input", handleSearch);
+    DOM.mapTimeSlider.addEventListener("input", handleMapTimeInput);
   }
 
   function handleSearch(event) {
@@ -51,7 +52,13 @@ window.AppController = (() => {
 
   function selectPerson(personId) {
     state.selectedPersonId = personId;
+    state.mapTimeYear = null;
     renderApp();
+  }
+
+  function handleMapTimeInput(event) {
+    state.mapTimeYear = Number(event.target.value);
+    window.AppView.renderSelectedPerson();
   }
 
   function renderApp() {
