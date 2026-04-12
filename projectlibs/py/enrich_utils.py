@@ -56,6 +56,26 @@ def make_decimal_field(label: str, value: float) -> dict[str, Any]:
     }
 
 
+def make_string_field(label: str, value: str, *, type_name: str = "String") -> dict[str, Any]:
+    return {
+        "label": label,
+        "value": {
+            "type": type_name,
+            "value": value,
+        },
+    }
+
+
+def make_list_field(label: str, values: list[str], *, item_type: str = "String") -> dict[str, Any]:
+    return {
+        "label": label,
+        "value": {
+            "type": "List",
+            "value": [{"type": item_type, "value": value} for value in values],
+        },
+    }
+
+
 def make_object_field(label: str, value: dict[str, Any]) -> dict[str, Any]:
     return {
         "label": label,

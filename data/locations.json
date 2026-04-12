@@ -58,6 +58,32 @@
                 "type": "Decimal",
                 "value": 63.05
             }
+        },
+        "inception": {
+            "label": "Inception",
+            "value": {
+                "type": "ISO8601_2_Date",
+                "value": "1758"
+            }
+        },
+        "founder": {
+            "label": "Founder",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Herrnhuter Brüdergemeine"
+                    }
+                ]
+            }
+        },
+        "dissolved_abolished_or_demolished_date": {
+            "label": "Dissolved, abolished or demolished date",
+            "value": {
+                "type": "ISO8601_2_Date",
+                "value": "1950"
+            }
         }
     },
     "L0200000": {
@@ -238,6 +264,13 @@
                 "type": "Decimal",
                 "value": 40.626111111111
             }
+        },
+        "inception": {
+            "label": "Inception",
+            "value": {
+                "type": "ISO8601_2_Date",
+                "value": "1741"
+            }
         }
     },
     "L0600000": {
@@ -282,6 +315,25 @@
             "value": {
                 "type": "Decimal",
                 "value": 55.356667
+            }
+        },
+        "inception": {
+            "label": "Inception",
+            "value": {
+                "type": "ISO8601_2_Date",
+                "value": "1773"
+            }
+        },
+        "founder": {
+            "label": "Founder",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Herrnhuter Brüdergemeine"
+                    }
+                ]
             }
         }
     },
@@ -599,6 +651,32 @@
                 "type": "Decimal",
                 "value": 58.2
             }
+        },
+        "inception": {
+            "label": "Inception",
+            "value": {
+                "type": "ISO8601_2_Date",
+                "value": "1837"
+            }
+        },
+        "founder": {
+            "label": "Founder",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Herrnhuter Brüdergemeine"
+                    }
+                ]
+            }
+        },
+        "dissolved_abolished_or_demolished_date": {
+            "label": "Dissolved, abolished or demolished date",
+            "value": {
+                "type": "ISO8601_2_Date",
+                "value": "1959"
+            }
         }
     },
     "L1115000": {
@@ -688,6 +766,13 @@
             "value": {
                 "type": "Decimal",
                 "value": 51.016666666667
+            }
+        },
+        "inception": {
+            "label": "Inception",
+            "value": {
+                "type": "ISO8601_2_Date",
+                "value": "1722"
             }
         }
     },
@@ -1095,6 +1180,13 @@
                 "type": "Decimal",
                 "value": 40.74
             }
+        },
+        "inception": {
+            "label": "Inception",
+            "value": {
+                "type": "ISO8601_2_Date",
+                "value": "1740"
+            }
         }
     },
     "L2100000": {
@@ -1139,6 +1231,13 @@
             "value": {
                 "type": "Decimal",
                 "value": 56.5422
+            }
+        },
+        "inception": {
+            "label": "Inception",
+            "value": {
+                "type": "ISO8601_2_Date",
+                "value": "1771"
             }
         }
     },
@@ -1230,6 +1329,13 @@
                 "type": "Decimal",
                 "value": 50.428611111111
             }
+        },
+        "inception": {
+            "label": "Inception",
+            "value": {
+                "type": "ISO8601_2_Date",
+                "value": "1653"
+            }
         }
     },
     "": {},
@@ -1320,6 +1426,32 @@
             "value": {
                 "type": "Decimal",
                 "value": 57.562389
+            }
+        },
+        "inception": {
+            "label": "Inception",
+            "value": {
+                "type": "ISO8601_2_Date",
+                "value": "1776"
+            }
+        },
+        "founder": {
+            "label": "Founder",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "String",
+                        "value": "Herrnhuter Brüdergemeine"
+                    }
+                ]
+            }
+        },
+        "dissolved_abolished_or_demolished_date": {
+            "label": "Dissolved, abolished or demolished date",
+            "value": {
+                "type": "ISO8601_2_Date",
+                "value": "1919"
             }
         }
     },
@@ -1460,6 +1592,13 @@
                 "type": "Decimal",
                 "value": 17.121111111111
             }
+        },
+        "inception": {
+            "label": "Inception",
+            "value": {
+                "type": "ISO8601_2_Date",
+                "value": "1666"
+            }
         }
     },
     "L2450000": {
@@ -1549,6 +1688,13 @@
             "value": {
                 "type": "Decimal",
                 "value": 49.030555555556
+            }
+        },
+        "inception": {
+            "label": "Inception",
+            "value": {
+                "type": "ISO8601_2_Date",
+                "value": "1296"
             }
         }
     }
