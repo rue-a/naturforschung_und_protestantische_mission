@@ -26,9 +26,9 @@ WIKIDATA_PROPERTIES = {
     "factgrid": "P8168",
     "bionomia": "P6944",
     "saebi": "P1710",
-    "inception": "P571",
+    "start": "P571",
     "founder": "P112",
-    "dissolved_abolished_or_demolished_date": "P576",
+    "end": "P576",
 }
 
 
@@ -244,12 +244,12 @@ def build_location_enrichment(entity_payload: dict[str, Any], qid: str) -> dict[
             if coordinates
             else None
         ),
-        "inception": extract_claim_time(entity_payload, qid, WIKIDATA_PROPERTIES["inception"]),
+        "start": extract_claim_time(entity_payload, qid, WIKIDATA_PROPERTIES["start"]),
         "founder": [referenced_entity_labels[entity_id] for entity_id in founder_ids],
-        "dissolved_abolished_or_demolished_date": extract_claim_time(
+        "end": extract_claim_time(
             entity_payload,
             qid,
-            WIKIDATA_PROPERTIES["dissolved_abolished_or_demolished_date"],
+            WIKIDATA_PROPERTIES["end"],
         ),
     }
 
@@ -258,9 +258,9 @@ def normalize_location_lookup_entry(entry: Any) -> dict[str, Any]:
     if entry is None:
         return {
             "coordinates": None,
-            "inception": None,
+            "start": None,
             "founder": [],
-            "dissolved_abolished_or_demolished_date": None,
+            "end": None,
         }
 
     if "coordinates" in entry:
@@ -275,11 +275,9 @@ def normalize_location_lookup_entry(entry: Any) -> dict[str, Any]:
 
     return {
         "coordinates": coordinates,
-        "inception": entry.get("inception"),
+        "start": entry.get("start", entry.get("inception")),
         "founder": entry.get("founder", []),
-        "dissolved_abolished_or_demolished_date": entry.get(
-            "dissolved_abolished_or_demolished_date"
-        ),
+        "end": entry.get("end", entry.get("dissolved_abolished_or_demolished_date")),
     }
 
 
@@ -300,28 +298,25 @@ def apply_location_enrichment(
             record["latitude"] = make_decimal_field("Latitude", coordinates["latitude"])
             enriched_fields.append("latitude")
 
-    if enrichment["inception"] and (overwrite or "inception" not in record):
-        record["inception"] = make_string_field(
-            "Inception",
-            enrichment["inception"],
+    if enrichment["start"] and (overwrite or "start" not in record):
+        record["start"] = make_string_field(
+            "Start",
+            enrichment["start"],
             type_name="ISO8601_2_Date",
         )
-        enriched_fields.append("inception")
+        enriched_fields.append("start")
 
     if enrichment["founder"] and (overwrite or "founder" not in record):
         record["founder"] = make_list_field("Founder", enrichment["founder"])
         enriched_fields.append("founder")
 
-    if (
-        enrichment["dissolved_abolished_or_demolished_date"]
-        and (overwrite or "dissolved_abolished_or_demolished_date" not in record)
-    ):
-        record["dissolved_abolished_or_demolished_date"] = make_string_field(
-            "Dissolved, abolished or demolished date",
-            enrichment["dissolved_abolished_or_demolished_date"],
+    if enrichment["end"] and (overwrite or "end" not in record):
+        record["end"] = make_string_field(
+            "End",
+            enrichment["end"],
             type_name="ISO8601_2_Date",
         )
-        enriched_fields.append("dissolved_abolished_or_demolished_date")
+        enriched_fields.append("end")
 
     return enriched_fields
 

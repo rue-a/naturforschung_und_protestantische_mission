@@ -127,7 +127,13 @@
                         "date": "1769-02-17"
                     },
                     "properties": {
-                        "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
+                        "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
+                        "place": {
+                            "aat_feature_type": null,
+                            "start": "1653",
+                            "end": null,
+                            "founder": null
+                        }
                     }
                 },
                 {
@@ -144,7 +150,13 @@
                         "date": "1831-12-06"
                     },
                     "properties": {
-                        "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
+                        "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
+                        "place": {
+                            "aat_feature_type": null,
+                            "start": null,
+                            "end": null,
+                            "founder": null
+                        }
                     }
                 },
                 {
@@ -165,6 +177,12 @@
                     },
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
+                        "place": {
+                            "aat_feature_type": null,
+                            "start": "1653",
+                            "end": null,
+                            "founder": null
+                        },
                         "institution": "Knabenanstalt",
                         "occupation": "Schüler"
                     }
@@ -187,6 +205,12 @@
                     },
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
+                        "place": {
+                            "aat_feature_type": null,
+                            "start": null,
+                            "end": null,
+                            "founder": null
+                        },
                         "institution": "Pädagogium",
                         "occupation": "Schüler"
                     }
@@ -209,6 +233,12 @@
                     },
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
+                        "place": {
+                            "aat_feature_type": null,
+                            "start": null,
+                            "end": null,
+                            "founder": null
+                        },
                         "institution": "Seminar",
                         "occupation": "Schüler"
                     }
@@ -231,6 +261,12 @@
                     },
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
+                        "place": {
+                            "aat_feature_type": null,
+                            "start": null,
+                            "end": null,
+                            "founder": null
+                        },
                         "institution": "Kinderanstalt",
                         "occupation": "Lehrer"
                     }
@@ -253,6 +289,12 @@
                     },
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
+                        "place": {
+                            "aat_feature_type": null,
+                            "start": null,
+                            "end": null,
+                            "founder": null
+                        },
                         "institution": "Pädagogium",
                         "occupation": "Lehrer"
                     }
@@ -275,6 +317,12 @@
                     },
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
+                        "place": {
+                            "aat_feature_type": null,
+                            "start": null,
+                            "end": null,
+                            "founder": null
+                        },
                         "institution": "Seminar",
                         "occupation": "Dozent, Inspektor, Prediger"
                     }
@@ -294,6 +342,12 @@
                     },
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
+                        "place": {
+                            "aat_feature_type": null,
+                            "start": null,
+                            "end": null,
+                            "founder": null
+                        },
                         "institution": "Mädchenanstalt",
                         "occupation": "Prediger, Lehrer"
                     }
@@ -313,6 +367,12 @@
                     },
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
+                        "place": {
+                            "aat_feature_type": null,
+                            "start": null,
+                            "end": null,
+                            "founder": null
+                        },
                         "institution": null,
                         "occupation": "Prediger"
                     }
@@ -332,6 +392,12 @@
                     },
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
+                        "place": {
+                            "aat_feature_type": null,
+                            "start": null,
+                            "end": null,
+                            "founder": null
+                        },
                         "institution": null,
                         "occupation": "Mitglied Ältestenkonferenz"
                     }
@@ -538,7 +604,13 @@
                         "date": "1721-04-17"
                     },
                     "properties": {
-                        "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | R.22.27.07 | Lebenslauf Johann Jacob Bossart | Lebenslauf von Bossart, etwas ausführlicher als M0004100"
+                        "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | R.22.27.07 | Lebenslauf Johann Jacob Bossart | Lebenslauf von Bossart, etwas ausführlicher als M0004100",
+                        "place": {
+                            "aat_feature_type": null,
+                            "start": null,
+                            "end": null,
+                            "founder": null
+                        }
                     }
                 },
                 {
@@ -555,7 +627,13 @@
                         "date": "1789-11-13"
                     },
                     "properties": {
-                        "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | R.22.27.07 | Lebenslauf Johann Jacob Bossart | Lebenslauf von Bossart, etwas ausführlicher als M0004100"
+                        "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | R.22.27.07 | Lebenslauf Johann Jacob Bossart | Lebenslauf von Bossart, etwas ausführlicher als M0004100",
+                        "place": {
+                            "aat_feature_type": null,
+                            "start": null,
+                            "end": null,
+                            "founder": null
+                        }
                     }
                 }
             ]
@@ -728,7 +806,13 @@
                         "date": "1788-01-21"
                     },
                     "properties": {
-                        "source": "(Druck) : Lebenslauf Johann Christian Breutel In: Nachrichten aus der Brüder-Gemeine (9), 1875, S. 755-788 | https://collections.mun.ca/digital/collection/nachrichten/id/1119/rec/1"
+                        "source": "(Druck) : Lebenslauf Johann Christian Breutel In: Nachrichten aus der Brüder-Gemeine (9), 1875, S. 755-788 | https://collections.mun.ca/digital/collection/nachrichten/id/1119/rec/1",
+                        "place": {
+                            "aat_feature_type": null,
+                            "start": "1296",
+                            "end": null,
+                            "founder": null
+                        }
                     }
                 }
             ]

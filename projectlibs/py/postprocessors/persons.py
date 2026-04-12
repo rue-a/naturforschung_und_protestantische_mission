@@ -1,6 +1,4 @@
-from projectlibs.py.postprocessors.utils import (
-    replace_reference_objects,
-)
+from projectlibs.py.postprocessors.utils import replace_reference_objects
 
 
 def extract_field_value(field):
@@ -38,12 +36,16 @@ def build_life_trajectory_feature(
     time,
     event_type,
     source,
+    place=None,
     institution=None,
     occupation=None,
 ):
     properties = {
         "source": source,
     }
+
+    if place:
+        properties["place"] = place
 
     if event_type == "place_of_effect":
         properties["institution"] = institution
@@ -74,6 +76,38 @@ def build_time_object(raw_time):
     return {"date": raw_time}
 
 
+def build_place_properties(location_id, locations_by_id, aat_feature_types):
+    location = locations_by_id.get(location_id)
+    if not location:
+        return None
+
+    place_properties = {
+        "aat_feature_type": None,
+        "start": None,
+        "end": None,
+        "founder": None,
+    }
+
+    if "aat_type" in location:
+        place_properties["aat_feature_type"] = [
+            aat_feature_types.get(str(aat_type["value"]), str(aat_type["value"]))
+            for aat_type in location["aat_type"]["value"]["value"]
+        ]
+
+    if "start" in location:
+        place_properties["start"] = extract_field_value(location["start"])
+
+    if "end" in location:
+        place_properties["end"] = extract_field_value(location["end"])
+
+    if "founder" in location:
+        place_properties["founder"] = [
+            founder["value"] for founder in location["founder"]["value"]["value"]
+        ]
+
+    return place_properties
+
+
 def transform_person_life_trajectory(person_record, tables):
     person_record = replace_reference_objects(person_record, tables)
 
@@ -81,6 +115,7 @@ def transform_person_life_trajectory(person_record, tables):
     person_id = extract_field_value(person_record["id"])
     person_name = extract_field_value(person_record["name"]["preferred"])
     locations_by_id = tables["locations"]
+    aat_feature_types = tables.get("aat_feature_types", {})
 
     if not raw_life_trajectory:
         print(
@@ -115,10 +150,7 @@ def transform_person_life_trajectory(person_record, tables):
             continue
 
         location_id = extract_field_value(event["location"])
-        geometry = build_point_geometry(
-            location_id,
-            locations_by_id,
-        )
+        geometry = build_point_geometry(location_id, locations_by_id)
         if not geometry:
             print(
                 f"Warning: skipping {event_type} for {person_id} ({person_name}): "
@@ -136,6 +168,11 @@ def transform_person_life_trajectory(person_record, tables):
                 time=extract_field_value(event["date"]),
                 event_type=event_type,
                 source=source,
+                place=build_place_properties(
+                    location_id,
+                    locations_by_id,
+                    aat_feature_types,
+                ),
             )
         )
 
@@ -162,6 +199,11 @@ def transform_person_life_trajectory(person_record, tables):
                     time=values[0]["value"],
                     event_type="place_of_effect",
                     source=source,
+                    place=build_place_properties(
+                        location_id,
+                        locations_by_id,
+                        aat_feature_types,
+                    ),
                     institution=values[2]["value"],
                     occupation=values[3]["value"],
                 )
