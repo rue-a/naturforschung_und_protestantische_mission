@@ -1,11 +1,11 @@
 {
-    "L0001000": {
+    "L0100000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0001000"
+                "value": "L0100000"
             }
         },
         "name": {
@@ -60,13 +60,13 @@
             }
         }
     },
-    "L0002000": {
+    "L0200000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0002000"
+                "value": "L0200000"
             }
         },
         "name": {
@@ -105,13 +105,13 @@
             }
         }
     },
-    "L0003000": {
+    "L0300000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0003000"
+                "value": "L0300000"
             }
         },
         "name": {
@@ -150,13 +150,13 @@
             }
         }
     },
-    "L0004000": {
+    "L0400000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0004000"
+                "value": "L0400000"
             }
         },
         "name": {
@@ -195,13 +195,13 @@
             }
         }
     },
-    "L0005000": {
+    "L0500000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0005000"
+                "value": "L0500000"
             }
         },
         "name": {
@@ -240,13 +240,13 @@
             }
         }
     },
-    "L0006000": {
+    "L0600000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0006000"
+                "value": "L0600000"
             }
         },
         "name": {
@@ -285,23 +285,23 @@
             }
         }
     },
-    "L0007000": {
+    "L0700000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0007000"
+                "value": "L0700000"
             }
         }
     },
-    "L0008000": {
+    "L0800000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0008000"
+                "value": "L0800000"
             }
         },
         "name": {
@@ -340,13 +340,13 @@
             }
         }
     },
-    "L0009000": {
+    "L0900000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0009000"
+                "value": "L0900000"
             }
         },
         "name": {
@@ -358,13 +358,13 @@
             }
         }
     },
-    "L0010000": {
+    "L1000000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0010000"
+                "value": "L1000000"
             }
         },
         "name": {
@@ -403,13 +403,13 @@
             }
         }
     },
-    "L0011000": {
+    "L1100000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0011000"
+                "value": "L1100000"
             }
         },
         "name": {
@@ -448,13 +448,13 @@
             }
         }
     },
-    "L0011020": {
+    "L1102000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0011020"
+                "value": "L1102000"
             }
         },
         "name": {
@@ -466,13 +466,13 @@
             }
         }
     },
-    "L0011035": {
+    "L1103500": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0011035"
+                "value": "L1103500"
             }
         },
         "name": {
@@ -511,13 +511,13 @@
             }
         }
     },
-    "L0011050": {
+    "L1105000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0011050"
+                "value": "L1105000"
             }
         },
         "name": {
@@ -556,13 +556,13 @@
             }
         }
     },
-    "L0011100": {
+    "L1110000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0011100"
+                "value": "L1110000"
             }
         },
         "name": {
@@ -601,13 +601,13 @@
             }
         }
     },
-    "L0011150": {
+    "L1115000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0011150"
+                "value": "L1115000"
             }
         },
         "name": {
@@ -646,13 +646,13 @@
             }
         }
     },
-    "L0011200": {
+    "L1120000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0011200"
+                "value": "L1120000"
             }
         },
         "name": {
@@ -691,13 +691,13 @@
             }
         }
     },
-    "L0012000": {
+    "L1200000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0012000"
+                "value": "L1200000"
             }
         },
         "name": {
@@ -736,13 +736,13 @@
             }
         }
     },
-    "L0013000": {
+    "L1300000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0013000"
+                "value": "L1300000"
             }
         },
         "name": {
@@ -781,23 +781,23 @@
             }
         }
     },
-    "L0014000": {
+    "L1400000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0014000"
+                "value": "L1400000"
             }
         }
     },
-    "L0015000": {
+    "L1500000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0015000"
+                "value": "L1500000"
             }
         },
         "name": {
@@ -836,13 +836,13 @@
             }
         }
     },
-    "L0015500": {
+    "L1550000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0015500"
+                "value": "L1550000"
             }
         },
         "name": {
@@ -850,7 +850,7 @@
             "label": "Name",
             "value": {
                 "type": "String",
-                "value": "Königsfeld (Schwarzwald)"
+                "value": "Königsfeld"
             }
         },
         "links": {
@@ -881,13 +881,13 @@
             }
         }
     },
-    "L0016000": {
+    "L1600000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0016000"
+                "value": "L1600000"
             }
         },
         "name": {
@@ -926,23 +926,23 @@
             }
         }
     },
-    "L0017000": {
+    "L1700000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0017000"
+                "value": "L1700000"
             }
         }
     },
-    "L0018000": {
+    "L1800000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0018000"
+                "value": "L1800000"
             }
         },
         "name": {
@@ -952,15 +952,68 @@
                 "type": "String",
                 "value": "Marienborn (Wetterau)"
             }
+        },
+        "description": {
+            "excel-column-name": "Beschreibung",
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "nicht identifiziert bei Wikidata"
+            }
         }
     },
-    "L0019000": {
+    "L1850000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0019000"
+                "value": "L1850000"
+            }
+        },
+        "name": {
+            "excel-column-name": "Name",
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Meisenheim am Glan"
+            }
+        },
+        "links": {
+            "excel-column-name": "Links",
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q520103"
+                    }
+                ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 7.6666666666667
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 49.716666666667
+            }
+        }
+    },
+    "L1900000": {
+        "id": {
+            "excel-column-name": "ID",
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L1900000"
             }
         },
         "name": {
@@ -999,13 +1052,13 @@
             }
         }
     },
-    "L0020000": {
+    "L2000000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0020000"
+                "value": "L2000000"
             }
         },
         "name": {
@@ -1044,13 +1097,13 @@
             }
         }
     },
-    "L0021000": {
+    "L2100000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0021000"
+                "value": "L2100000"
             }
         },
         "name": {
@@ -1089,13 +1142,13 @@
             }
         }
     },
-    "L0021500": {
+    "L2150000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0021500"
+                "value": "L2150000"
             }
         },
         "name": {
@@ -1134,13 +1187,13 @@
             }
         }
     },
-    "L0022000": {
+    "L2200000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0022000"
+                "value": "L2200000"
             }
         },
         "name": {
@@ -1180,13 +1233,13 @@
         }
     },
     "": {},
-    "L0022500": {
+    "L2250000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0022500"
+                "value": "L2250000"
             }
         },
         "name": {
@@ -1225,13 +1278,13 @@
             }
         }
     },
-    "L0022600": {
+    "L2260000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0022600"
+                "value": "L2260000"
             }
         },
         "name": {
@@ -1270,13 +1323,13 @@
             }
         }
     },
-    "L0022700": {
+    "L2270000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0022700"
+                "value": "L2270000"
             }
         },
         "name": {
@@ -1286,42 +1339,15 @@
                 "type": "String",
                 "value": "Salem"
             }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q2027197"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -81.6989
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 35.7039
-            }
         }
     },
-    "L0023000": {
+    "L2300000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0023000"
+                "value": "L2300000"
             }
         },
         "name": {
@@ -1346,13 +1372,13 @@
             }
         }
     },
-    "L0023500": {
+    "L2350000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0023500"
+                "value": "L2350000"
             }
         },
         "name": {
@@ -1360,7 +1386,7 @@
             "label": "Name",
             "value": {
                 "type": "String",
-                "value": "Saint John (Amerikanische Jungferninsel)"
+                "value": "Saint John"
             }
         },
         "links": {
@@ -1391,13 +1417,13 @@
             }
         }
     },
-    "L0024000": {
+    "L2400000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0024000"
+                "value": "L2400000"
             }
         },
         "name": {
@@ -1436,13 +1462,58 @@
             }
         }
     },
-    "L0025000": {
+    "L2450000": {
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
             "value": {
                 "type": "LocationID",
-                "value": "L0025000"
+                "value": "L2450000"
+            }
+        },
+        "name": {
+            "excel-column-name": "Name",
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Tharandt"
+            }
+        },
+        "links": {
+            "excel-column-name": "Links",
+            "label": "Links",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "URL",
+                        "value": "https://www.wikidata.org/wiki/Q8245"
+                    }
+                ]
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 13.580833333333
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 50.983333333333
+            }
+        }
+    },
+    "L2500000": {
+        "id": {
+            "excel-column-name": "ID",
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L2500000"
             }
         },
         "name": {
@@ -1478,51 +1549,6 @@
             "value": {
                 "type": "Decimal",
                 "value": 49.030555555556
-            }
-        }
-    },
-    "L0026000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L0026000"
-            }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Meisenheim am Glan"
-            }
-        },
-        "links": {
-            "excel-column-name": "Links",
-            "label": "Links",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "URL",
-                        "value": "https://www.wikidata.org/wiki/Q520103"
-                    }
-                ]
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 7.6666666666667
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 49.716666666667
             }
         }
     }

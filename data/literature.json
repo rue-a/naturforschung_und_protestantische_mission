@@ -1470,6 +1470,22 @@
                 "type": "LiteratureID",
                 "value": "R0005700"
             }
+        },
+        "title": {
+            "excel-column-name": "Titel",
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Schärf: Bericht von Jgdlorpait in Grönland vom Schiffsjahr 1888-1889 (1889), in: Nachrichten aus der Brüdergemeine 1891, S. 27-37"
+            }
+        },
+        "permalink": {
+            "excel-column-name": "Permalink",
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1891.pdf"
+            }
         }
     },
     "R0005800": {
@@ -1479,6 +1495,266 @@
             "value": {
                 "type": "LiteratureID",
                 "value": "R0005800"
+            }
+        },
+        "title": {
+            "excel-column-name": "Titel",
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "James S. Pringle: POSSIBLE EPONYMY OF THE GENERIC NAME BRASENIA SCHREB. (CABOMBACEAE), in: SIDA, Contributions to Botany 16 (1995), Nr. 3, S. 597-600"
+            }
+        },
+        "permalink": {
+            "excel-column-name": "Permalink",
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://www.jstor.org/stable/41967168"
+            }
+        },
+        "description": {
+            "excel-column-name": "Beschreibung",
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "erwähnt Christopher Brasen (P0210000)"
+            }
+        }
+    },
+    "R0005900": {
+        "id": {
+            "excel-column-name": "ID",
+            "label": "ID",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0005900"
+            }
+        },
+        "title": {
+            "excel-column-name": "Titel",
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Demarée, G.R., Ogilvie, A.E.J. (2021). Early Meteorological Observations in Greenland: The Contributions of David Cranz, Christian Gottlieb Kratzenstein and Christopher Brasen. In: Jensz, F., Petterson, C. (eds) Legacies of David Cranz's 'Historie von Grönland' (1765). Christianities in the Trans-Atlantic World. Palgrave Macmillan, Cham."
+            }
+        },
+        "permalink": {
+            "excel-column-name": "Permalink",
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://doi.org/10.1007/978-3-030-63998-3_7"
+            }
+        }
+    },
+    "R0006000": {
+        "id": {
+            "excel-column-name": "ID",
+            "label": "ID",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0006000"
+            }
+        },
+        "title": {
+            "excel-column-name": "Titel",
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Franz von Paula Schrank: \"Aufzählung einiger Pflanzen aus Labrador, mit Anmerkung\", in: Denkschriften der Königlich-Baierischen Botanischen Gesellschaft in Regensburg 1 (1818), Nr. 2, S. 1-30."
+            }
+        },
+        "permalink": {
+            "excel-column-name": "Permalink",
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://www.zobodat.at/pdf/Hoppea_1818_1-2_0001-0030.pdf"
+            }
+        }
+    },
+    "R0006100": {
+        "id": {
+            "excel-column-name": "ID",
+            "label": "ID",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0006100"
+            }
+        },
+        "title": {
+            "excel-column-name": "Titel",
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Anonymous: Plants from Labrador (1907), in Bulletin of Miscellaneous Information (Royal Botanic Gardens, Kew), Vol. 1907, No. 3 (1907), pp. 76-88"
+            }
+        },
+        "permalink": {
+            "excel-column-name": "Permalink",
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://doi.org/10.2307/4111811"
+            }
+        },
+        "description": {
+            "excel-column-name": "Beschreibung",
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "https://www.wikidata.org/wiki/Q138855575"
+            }
+        }
+    },
+    "R0006200": {
+        "id": {
+            "excel-column-name": "ID",
+            "label": "ID",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0006200"
+            }
+        },
+        "title": {
+            "excel-column-name": "Titel",
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Ernst Gottlieb von Steudel: Synopsis Plantarum Glumacearum (1854), Vol. 1 (3)"
+            }
+        },
+        "permalink": {
+            "excel-column-name": "Permalink",
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://www.biodiversitylibrary.org/item/159153"
+            }
+        },
+        "description": {
+            "excel-column-name": "Beschreibung",
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "Albrecht (P0020000) als Sammler in Protolog von Calamagrostis hirtigluma & Poa colorata"
+            }
+        }
+    },
+    "R0006300": {
+        "id": {
+            "excel-column-name": "ID",
+            "label": "ID",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0006300"
+            }
+        },
+        "title": {
+            "excel-column-name": "Titel",
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "W. Baer & O. Uttendörfer: Auf den Spuren gefiederter Räuber. Studien zweier Waldpolizisten, In: Ornithologische Monatsschrift, 22, 1897, S. 77–92"
+            }
+        },
+        "permalink": {
+            "excel-column-name": "Permalink",
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://www.zobodat.at/pdf/Ornithologische-Monatsschrift_22_0077-0092.pdf"
+            }
+        }
+    },
+    "R0006400": {
+        "id": {
+            "excel-column-name": "ID",
+            "label": "ID",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0006400"
+            }
+        },
+        "title": {
+            "excel-column-name": "Titel",
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "W. Baer: Zur Ornis der preussischen Oberlausitz. Nebst einem Anhange über die sächsische. In: Abhandlungen der Naturforschenden Gesellschaft zu Görlitz, 22, 1898, S. 225–336"
+            }
+        },
+        "permalink": {
+            "excel-column-name": "Permalink",
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://www.zobodat.at/pdf/Abh-naturforsch-Ges-Goerlitz_22_0225-0336.pdf"
+            }
+        }
+    },
+    "R0006500": {
+        "id": {
+            "excel-column-name": "ID",
+            "label": "ID",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0006500"
+            }
+        },
+        "title": {
+            "excel-column-name": "Titel",
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Otto Uttendörfer: Erinnerungen an William Baer. In: Mitteilungen des Vereins sächsischer Ornithologen, 4, 4, 1934, S. 143–146, Tafel 7"
+            }
+        },
+        "permalink": {
+            "excel-column-name": "Permalink",
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://www.zobodat.at/biografien/Baer_William_Mitt-Ver-Saechsischer-Ornith_4_0143-0146.pdf"
+            }
+        }
+    },
+    "R0006600": {
+        "id": {
+            "excel-column-name": "ID",
+            "label": "ID",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0006600"
+            }
+        },
+        "title": {
+            "excel-column-name": "Titel",
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "R. Zimmermann: William Baer. In: Mitteilungen des Vereins sächsischer Ornithologen, 4, 4, 1934, S. 143"
+            }
+        }
+    },
+    "R0006700": {
+        "id": {
+            "excel-column-name": "ID",
+            "label": "ID",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0006700"
+            }
+        }
+    },
+    "R0006800": {
+        "id": {
+            "excel-column-name": "ID",
+            "label": "ID",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0006800"
             }
         }
     }

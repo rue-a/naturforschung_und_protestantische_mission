@@ -19,6 +19,7 @@ from projectlibs.py.enrich_utils import (
 WIKIDATA_QID_RE = re.compile(r"/wiki/(Q\d+)$")
 DEFAULT_LOCATIONS_INPUT = Path("data/locations.json")
 DEFAULT_PERSONS_INPUT = Path("data/persons.json")
+DEFAULT_LOCATION_LOOKUP = Path("data/wikidata_locations_lookup.json")
 USER_AGENT = "naturforschung-und-protestantische-mission/1.0 (wikidata enrichment)"
 
 WIKIDATA_PROPERTIES = {
@@ -100,6 +101,12 @@ def extract_wikidata_qid_from_person_links(record: dict[str, Any]) -> str | None
     return None
 
 
+def load_location_lookup(path: Path) -> dict[str, Any]:
+    if not path.exists():
+        return {}
+    return load_json(path)
+
+
 def ensure_person_links_container(record: dict[str, Any]) -> dict[str, Any]:
     links = record.setdefault("links", {})
     if not isinstance(links, dict):
@@ -134,10 +141,12 @@ def build_person_link_urls(qid: str, entity_payload: dict[str, Any]) -> dict[str
 
 def enrich_locations(
     payload: dict[str, Any],
+    location_lookup: dict[str, Any],
     *,
     overwrite: bool = False,
+    refresh_location_lookup: bool = False,
     pause_seconds: float = 0.1,
-) -> tuple[dict[str, Any], dict[str, int]]:
+) -> tuple[dict[str, Any], dict[str, Any], dict[str, int]]:
     updated = 0
     skipped = 0
     failed = 0
@@ -155,12 +164,31 @@ def enrich_locations(
             skipped += 1
             continue
 
-        try:
-            entity_payload = fetch_wikidata_entity(qid)
-            coordinates = extract_coordinates(entity_payload, qid)
-        except (HTTPError, URLError, TimeoutError, json.JSONDecodeError):
-            failed += 1
-            continue
+        if not refresh_location_lookup and qid in location_lookup:
+            cached_coordinates = location_lookup[qid]
+            if cached_coordinates is None:
+                skipped += 1
+                continue
+            coordinates = (
+                float(cached_coordinates["longitude"]),
+                float(cached_coordinates["latitude"]),
+            )
+        else:
+            try:
+                entity_payload = fetch_wikidata_entity(qid)
+                coordinates = extract_coordinates(entity_payload, qid)
+            except (HTTPError, URLError, TimeoutError, json.JSONDecodeError):
+                failed += 1
+                continue
+
+            if coordinates:
+                longitude, latitude = coordinates
+                location_lookup[qid] = {
+                    "longitude": longitude,
+                    "latitude": latitude,
+                }
+            else:
+                location_lookup[qid] = None
 
         if not coordinates:
             skipped += 1
@@ -177,7 +205,7 @@ def enrich_locations(
         if pause_seconds:
             time.sleep(pause_seconds)
 
-    return payload, {
+    return payload, location_lookup, {
         "updated": updated,
         "skipped": skipped,
         "failed": failed,
@@ -269,6 +297,17 @@ def main() -> None:
         default=0.1,
         help="Pause between Wikidata requests.",
     )
+    parser.add_argument(
+        "--location-lookup",
+        type=Path,
+        default=DEFAULT_LOCATION_LOOKUP,
+        help="Path to the Wikidata location lookup cache file.",
+    )
+    parser.add_argument(
+        "--refresh-location-lookup",
+        action="store_true",
+        help="Ignore the existing location lookup cache and refresh it from Wikidata.",
+    )
     args = parser.parse_args()
 
     locations_input = DEFAULT_LOCATIONS_INPUT
@@ -277,12 +316,16 @@ def main() -> None:
     persons_output = persons_input
 
     locations_payload = load_json(locations_input)
-    enriched_locations, location_stats = enrich_locations(
+    location_lookup = load_location_lookup(args.location_lookup)
+    enriched_locations, location_lookup, location_stats = enrich_locations(
         locations_payload,
+        location_lookup,
         overwrite=args.overwrite,
+        refresh_location_lookup=args.refresh_location_lookup,
         pause_seconds=args.pause_seconds,
     )
     save_json(locations_output, enriched_locations)
+    save_json(args.location_lookup, location_lookup)
 
     persons_payload = load_json(persons_input)
     enriched_persons, person_stats = enrich_person_links(
@@ -296,6 +339,7 @@ def main() -> None:
     print(
         f"locations: updated={location_stats['updated']} skipped={location_stats['skipped']} failed={location_stats['failed']} output={locations_output}"
     )
+    print(f"location lookup: {args.location_lookup}")
     print(
         f"persons: updated={person_stats['updated']} skipped={person_stats['skipped']} failed={person_stats['failed']} output={persons_output}"
     )

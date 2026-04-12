@@ -1501,6 +1501,32 @@
             }
         }
     },
+    "C-MO": {
+        "id": {
+            "excel-column-name": "ID",
+            "label": "ID",
+            "value": {
+                "type": "CollectionID",
+                "value": "C-MO"
+            }
+        },
+        "collection_name": {
+            "excel-column-name": "Name der Sammlung",
+            "label": "Name der Sammlung",
+            "value": {
+                "type": "String",
+                "value": "Missouri Botanical Garden Herbarium"
+            }
+        },
+        "nybg_herbarium_code": {
+            "excel-column-name": "NYBG Herbarcode",
+            "label": "NYBG Herbarcode",
+            "value": {
+                "type": "String",
+                "value": "MO"
+            }
+        }
+    },
     "C-nhmd": {
         "id": {
             "excel-column-name": "ID",

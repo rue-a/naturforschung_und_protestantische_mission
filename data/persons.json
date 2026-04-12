@@ -147,7 +147,7 @@
                     "label": "Geburt - Ort",
                     "value": {
                         "type": "LocationID",
-                        "value": "L0022000",
+                        "value": "L2200000",
                         "source": {
                             "type": "LiteratureID",
                             "value": "R0001500"
@@ -173,7 +173,7 @@
                     "label": "Tod - Ort",
                     "value": {
                         "type": "LocationID",
-                        "value": "L0004000",
+                        "value": "L0400000",
                         "source": {
                             "type": "LiteratureID",
                             "value": "R0001500"
@@ -197,7 +197,7 @@
                                     },
                                     {
                                         "type": "LocationID",
-                                        "value": "L0022000"
+                                        "value": "L2200000"
                                     },
                                     {
                                         "type": "String",
@@ -224,7 +224,7 @@
                                     },
                                     {
                                         "type": "LocationID",
-                                        "value": "L0022500"
+                                        "value": "L2250000"
                                     },
                                     {
                                         "type": "String",
@@ -251,7 +251,7 @@
                                     },
                                     {
                                         "type": "LocationID",
-                                        "value": "L0002000"
+                                        "value": "L0200000"
                                     },
                                     {
                                         "type": "String",
@@ -278,7 +278,7 @@
                                     },
                                     {
                                         "type": "LocationID",
-                                        "value": "L0022500"
+                                        "value": "L2250000"
                                     },
                                     {
                                         "type": "String",
@@ -305,7 +305,7 @@
                                     },
                                     {
                                         "type": "LocationID",
-                                        "value": "L0002000"
+                                        "value": "L0200000"
                                     },
                                     {
                                         "type": "String",
@@ -332,7 +332,7 @@
                                     },
                                     {
                                         "type": "LocationID",
-                                        "value": "L0022500"
+                                        "value": "L2250000"
                                     },
                                     {
                                         "type": "String",
@@ -359,7 +359,7 @@
                                     },
                                     {
                                         "type": "LocationID",
-                                        "value": "L0010000"
+                                        "value": "L1000000"
                                     },
                                     {
                                         "type": "String",
@@ -386,7 +386,7 @@
                                     },
                                     {
                                         "type": "LocationID",
-                                        "value": "L0011000"
+                                        "value": "L1100000"
                                     },
                                     {
                                         "type": "Null",
@@ -413,7 +413,7 @@
                                     },
                                     {
                                         "type": "LocationID",
-                                        "value": "L0004000"
+                                        "value": "L0400000"
                                     },
                                     {
                                         "type": "Null",
@@ -675,7 +675,7 @@
                     "label": "Geburt - Ort",
                     "value": {
                         "type": "LocationID",
-                        "value": "L0003000",
+                        "value": "L0300000",
                         "source": {
                             "type": "ManuscriptID",
                             "value": "M0004000"
@@ -701,7 +701,7 @@
                     "label": "Tod - Ort",
                     "value": {
                         "type": "LocationID",
-                        "value": "L0002000",
+                        "value": "L0200000",
                         "source": {
                             "type": "ManuscriptID",
                             "value": "M0004000"
@@ -919,7 +919,7 @@
                     "label": "Geburt - Ort",
                     "value": {
                         "type": "LocationID",
-                        "value": "L0025000",
+                        "value": "L2500000",
                         "source": {
                             "type": "LiteratureID",
                             "value": "R0002500"
@@ -960,6 +960,199 @@
                         {
                             "type": "String",
                             "value": "Bryologie"
+                        }
+                    ]
+                }
+            },
+            "contribution_to_collections_object_evidence": {
+                "excel-column-name": "Botanik - Beitrag zu Sammlungen (Objektnachweis)",
+                "label": "Botanik - Beitrag zu Sammlungen (Objektnachweis)",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "CollectionID",
+                            "value": "C-JE",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://je.jacq.org/JE04007115"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-GLM",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://id.senckenberg.de/object/sesam-920735"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-DR",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://dr.jacq.org/DR086314"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-MICH",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://quod.lib.umich.edu/h/herb00ic/x-612452/mich-a-612452"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-FR",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://id.senckenberg.de/object/sesam-740110"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-B",
+                            "source": {
+                                "type": "URL",
+                                "value": "http://herbarium.bgbm.org/object/B200175754"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-GJO",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://gjo.jacq.org/GJO0038273"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-PI",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://pi.jacq.org/PI010968"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-PRC",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://prc.jacq.org/PRC2697"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-W",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://w.jacq.org/W0074688"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-WU",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://wu.jacq.org/WU0150325"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-NY",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://sweetgum.nybg.org/science/vh/specimen-details/?irn=2271499"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-S",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://www.gbif.org/occurrence/1095988263"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-MNHN",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://www.gbif.org/occurrence/1019533469"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-BM",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://www.gbif.org/occurrence/1055522115"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-PH",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://bryophyteportal.org/portal/collections/individual/index.php?occid=5884131"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-TU",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://www.gbif.org/occurrence/4026637778"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-G",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://collections.geneve.ch/cjbg/chg/adetail.php?id=280155"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-BR",
+                            "source": {
+                                "type": "URL",
+                                "value": "http://www.botanicalcollections.be/specimen/BR0000014644313"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-KR",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://www.gbif.org/occurrence/4997066506"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-TENN",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://bryophyteportal.org/portal/collections/individual/index.php?occid=6427518"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-US",
+                            "source": {
+                                "type": "URL",
+                                "value": "http://n2t.net/ark:/65665/3eb18b640-b359-42a9-a7fe-75795e5f376b"
+                            }
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-PI",
+                            "source": {
+                                "type": "URL",
+                                "value": "https://pi.jacq.org/PI010968"
+                            }
                         }
                     ]
                 }

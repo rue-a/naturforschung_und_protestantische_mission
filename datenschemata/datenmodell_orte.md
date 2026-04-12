@@ -34,6 +34,34 @@ Beispiele:
 - `Zanzibar@sw | Zanzíbar@es-ES | Sansibar@de-DE-1901 | 蒙巴萨@zh-Hans-CN`
 
 
+### Links
+*List of URL*
+
+Ein oder mehrere URLs zu übereinstimmenden Datensätzen in Ortsnamenautoritäten.  
+
+> [!TIP]
+> **Bekannte Ortsnamenautoritäten:**
+> - Bibliothèque nationale de France, "https://data.bnf.fr/"
+> - Consortium of European Research Libraries, "https://data.cerl.org/thesaurus/"
+> - DBpedia, "http://dbpedia.org/resource/"
+> - GeoNames, "http://www.geonames.org/"
+> - Deutschen Nationalbibliothek, "http://d-nb.info/gnd/"
+> - The Geneaological Gazetteer, "http://gov.genealogy.net/"
+> - Library of Congress, "http://id.loc.gov/authorities/subjects/"
+> - Pleiades, "https://pleiades.stoa.org/places/"
+> - Getty Thesaurus of Geographic Names, "http://vocab.getty.edu/page/tgn/"
+> - Virtual International Authority File, "http://viaf.org/viaf/"
+> - Wikidata, "https://www.wikidata.org/wiki/"
+> - Wikipedia, "https://wikipedia.org/wiki/"
+
+
+### Beschreibung
+*String*
+
+Kurzer beschreibender Text zum Ort.
+
+
+
 ### GeoNames-Typ
 *List of Strings from Codelist*, **bedingt erforderlich°**
 
@@ -65,7 +93,7 @@ Ein oder mehrere AAT-Integer-IDs aus der WHG-Teilliste von 176 Orts-Typkonzepten
 - `300387272`
 - `300120599 | 300008372`
 
-
+<!-- 
 ### Beginn
 *ISO8601-2_Date*
 
@@ -86,25 +114,6 @@ Die Felder **Start** und **Ende** geben den bekannten Gültigkeitszeitraum des O
 
 
 
-### Links
-*List of URL*
-
-Ein oder mehrere URLs zu übereinstimmenden Datensätzen in Ortsnamenautoritäten.  
-
-> [!TIP]
-> **Bekannte Ortsnamenautoritäten:**
-> - Bibliothèque nationale de France, "https://data.bnf.fr/"
-> - Consortium of European Research Libraries, "https://data.cerl.org/thesaurus/"
-> - DBpedia, "http://dbpedia.org/resource/"
-> - GeoNames, "http://www.geonames.org/"
-> - Deutschen Nationalbibliothek, "http://d-nb.info/gnd/"
-> - The Geneaological Gazetteer, "http://gov.genealogy.net/"
-> - Library of Congress, "http://id.loc.gov/authorities/subjects/"
-> - Pleiades, "https://pleiades.stoa.org/places/"
-> - Getty Thesaurus of Geographic Names, "http://vocab.getty.edu/page/tgn/"
-> - Virtual International Authority File, "http://viaf.org/viaf/"
-> - Wikidata, "https://www.wikidata.org/wiki/"
-> - Wikipedia, "https://wikipedia.org/wiki/"
 
 
 
@@ -159,12 +168,4 @@ Möglichst ausführliche Angaben zur Qualität der Koordinatenangabe. Insbesonde
 
 
 
-### Beschreibung
-*String*
-
-Kurzer beschreibender Text zum Ort.
-
-
-
-
-
+ -->

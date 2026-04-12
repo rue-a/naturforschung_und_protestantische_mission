@@ -755,6 +755,130 @@
                     ]
                 }
             },
+            "contribution_to_collections_object_evidence": {
+                "excel-column-name": "Botanik - Beitrag zu Sammlungen (Objektnachweis)",
+                "label": "Botanik - Beitrag zu Sammlungen (Objektnachweis)",
+                "value": {
+                    "type": "List",
+                    "value": [
+                        {
+                            "type": "CollectionID",
+                            "value": "C-JE",
+                            "source": "(Web) https://je.jacq.org/JE04007115"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-GLM",
+                            "source": "(Web) https://id.senckenberg.de/object/sesam-920735"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-DR",
+                            "source": "(Web) https://dr.jacq.org/DR086314"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-MICH",
+                            "source": "(Web) https://quod.lib.umich.edu/h/herb00ic/x-612452/mich-a-612452"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-FR",
+                            "source": "(Web) https://id.senckenberg.de/object/sesam-740110"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-B",
+                            "source": "(Web) http://herbarium.bgbm.org/object/B200175754"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-GJO",
+                            "source": "(Web) https://gjo.jacq.org/GJO0038273"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-PI",
+                            "source": "(Web) https://pi.jacq.org/PI010968"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-PRC",
+                            "source": "(Web) https://prc.jacq.org/PRC2697"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-W",
+                            "source": "(Web) https://w.jacq.org/W0074688"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-WU",
+                            "source": "(Web) https://wu.jacq.org/WU0150325"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-NY",
+                            "source": "(Web) https://sweetgum.nybg.org/science/vh/specimen-details/?irn=2271499"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-S",
+                            "source": "(Web) https://www.gbif.org/occurrence/1095988263"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-MNHN",
+                            "source": "(Web) https://www.gbif.org/occurrence/1019533469"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-BM",
+                            "source": "(Web) https://www.gbif.org/occurrence/1055522115"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-PH",
+                            "source": "(Web) https://bryophyteportal.org/portal/collections/individual/index.php?occid=5884131"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-TU",
+                            "source": "(Web) https://www.gbif.org/occurrence/4026637778"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-G",
+                            "source": "(Web) https://collections.geneve.ch/cjbg/chg/adetail.php?id=280155"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-BR",
+                            "source": "(Web) http://www.botanicalcollections.be/specimen/BR0000014644313"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-KR",
+                            "source": "(Web) https://www.gbif.org/occurrence/4997066506"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-TENN",
+                            "source": "(Web) https://bryophyteportal.org/portal/collections/individual/index.php?occid=6427518"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-US",
+                            "source": "(Web) http://n2t.net/ark:/65665/3eb18b640-b359-42a9-a7fe-75795e5f376b"
+                        },
+                        {
+                            "type": "CollectionID",
+                            "value": "C-PI",
+                            "source": "(Web) https://pi.jacq.org/PI010968"
+                        }
+                    ]
+                }
+            },
             "contribution_to_collections_literature_evidence": {
                 "excel-column-name": "Botanik - Beitrag zu Sammlungen (Literaturnachweis)",
                 "label": "Botanik - Beitrag zu Sammlungen (Literaturnachweis)",

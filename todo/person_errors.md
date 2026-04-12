@@ -34,11 +34,11 @@
 
 - [ ] __P0170000, Wirkungsorte__:
  _Invalid Temporal value: '1736-1739'_
-> 1736-1739; L0003000; Universität; Student (M0004100) |
-> 1747-1749; L0018000; Seminar; Lehrer; (M0004100) |
-> 1749-1750; L0002000; Seminar; ; (M0004100) |
-> 1750-1760; L0011035; Pädagogium; Lehrer (M0004100) |
-> 1760-1764; L0022000; Knabenanstalt; Inspektor 
+> 1736-1739; L0300000; Universität; Student (M0004100) |
+> 1747-1749; L1800000; Seminar; Lehrer; (M0004100) |
+> 1749-1750; L0200000; Seminar; ; (M0004100) |
+> 1750-1760; L1103500; Pädagogium; Lehrer (M0004100) |
+> 1760-1764; L2200000; Knabenanstalt; Inspektor 
 
 - [ ] __P0170000, Tätigkeiten__:
  _Statement (Botaniker, Sammler,) requires attestation (no source was provided)!_
@@ -73,10 +73,6 @@
 > 1814 Brüdervorsteher in
 > Gnadenfrei, 
 > 1823 Gemeinvorsteher dort, 1824 Gemeinvorsteher in Niesky, Unitätsdirektor ab 1832 - Missionsdirektor, Bischof,  Botaniker, Kryptogamen-Spezialist, Sammler
-
-- [ ] __P0220000, Botanik - Beitrag zu Sammlungen (Objektnachweis)__:
- _CollectionID must start with 'C'_
-> C-JE (https://je.jacq.org/JE04007115) | C-GLM (https://id.senckenberg.de/object/sesam-920735) | C-DR (https://dr.jacq.org/DR086314) | MICH (https://quod.lib.umich.edu/h/herb00ic/x-612452/mich-a-612452)| C-FR (https://id.senckenberg.de/object/sesam-74
 
 - [ ] __P0220000, Botanik - Beitrag zu Sammlungen (Datenbanknachweis)__:
  _CollectionID must start with 'C'_
