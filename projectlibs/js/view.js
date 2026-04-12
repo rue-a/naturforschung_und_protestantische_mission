@@ -21,6 +21,7 @@ window.AppView = (() => {
     links: document.getElementById("person-links"),
     mapSummary: document.getElementById("map-summary"),
     mapContainer: document.getElementById("person-map"),
+    mapPopup: document.getElementById("map-popup"),
     mapEmptyState: document.getElementById("map-empty-state"),
   };
 
@@ -319,55 +320,115 @@ window.AppView = (() => {
   }
 
   function setupMap() {
-    state.map = L.map("person-map", {
-      scrollWheelZoom: true,
-    }).setView([20, 10], 2);
+    state.mapSource = new ol.source.Vector();
 
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 18,
-      attribution: "&copy; OpenStreetMap contributors",
-    }).addTo(state.map);
+    const vectorLayer = new ol.layer.Vector({
+      source: state.mapSource,
+      style: (feature) =>
+        new ol.style.Style({
+          image: new ol.style.Circle({
+            radius: 8,
+            fill: new ol.style.Fill({
+              color: MARKER_COLORS[feature.get("type")] || "#495057",
+            }),
+            stroke: new ol.style.Stroke({
+              color: "#ffffff",
+              width: 2,
+            }),
+          }),
+        }),
+    });
+
+    state.mapOverlay = new ol.Overlay({
+      element: DOM.mapPopup,
+      positioning: "bottom-center",
+      offset: [0, -12],
+      stopEvent: false,
+    });
+
+    state.map = new ol.Map({
+      target: "person-map",
+      layers: [
+        new ol.layer.Tile({
+          source: new ol.source.OSM(),
+        }),
+        vectorLayer,
+      ],
+      overlays: [state.mapOverlay],
+      view: new ol.View({
+        center: ol.proj.fromLonLat([10, 20]),
+        zoom: 2,
+      }),
+    });
+
+    state.map.on("singleclick", (event) => {
+      const feature = state.map.forEachFeatureAtPixel(
+        event.pixel,
+        (candidate) => candidate
+      );
+
+      if (!feature) {
+        hidePopup();
+        return;
+      }
+
+      showPopup(event.coordinate, feature.get("title"), feature.get("subtitle"));
+    });
   }
 
   function renderMap(places) {
-    state.mapLayers.forEach((layer) => layer.remove());
-    state.mapLayers = [];
+    state.mapSource.clear();
+    hidePopup();
 
     if (places.length === 0) {
       DOM.mapEmptyState.classList.remove("d-none");
-      state.map.setView([20, 10], 2);
+      state.map.getView().setCenter(ol.proj.fromLonLat([10, 20]));
+      state.map.getView().setZoom(2);
       return;
     }
 
     DOM.mapEmptyState.classList.add("d-none");
-    state.map.invalidateSize();
-
-    const bounds = [];
-
-    places.forEach((place) => {
-      const marker = L.circleMarker([place.latitude, place.longitude], {
-        radius: 8,
-        color: MARKER_COLORS[place.type] || "#495057",
-        fillColor: MARKER_COLORS[place.type] || "#495057",
-        fillOpacity: 0.85,
-        weight: 2,
-      }).addTo(state.map);
-
-      marker.bindPopup(`
-        <strong>${escapeHtml(place.title)}</strong><br>
-        <span>${escapeHtml(place.subtitle)}</span>
-      `);
-
-      state.mapLayers.push(marker);
-      bounds.push([place.latitude, place.longitude]);
+    const features = places.map((place) => {
+      const feature = new ol.Feature({
+        geometry: new ol.geom.Point(
+          ol.proj.fromLonLat([place.longitude, place.latitude])
+        ),
+        type: place.type,
+        title: place.title,
+        subtitle: place.subtitle,
+      });
+      return feature;
     });
 
-    if (bounds.length === 1) {
-      state.map.setView(bounds[0], 6);
+    state.mapSource.addFeatures(features);
+
+    const extent = state.mapSource.getExtent();
+    if (features.length === 1) {
+      state.map.getView().setCenter(
+        ol.proj.fromLonLat([places[0].longitude, places[0].latitude])
+      );
+      state.map.getView().setZoom(6);
       return;
     }
 
-    state.map.fitBounds(bounds, { padding: [30, 30] });
+    state.map.getView().fit(extent, {
+      padding: [30, 30, 30, 30],
+      maxZoom: 6,
+    });
+  }
+
+  function showPopup(coordinate, title, subtitle) {
+    DOM.mapPopup.innerHTML = `
+      <strong>${escapeHtml(title)}</strong><br>
+      <span>${escapeHtml(subtitle)}</span>
+    `;
+    DOM.mapPopup.classList.remove("d-none");
+    state.mapOverlay.setPosition(coordinate);
+  }
+
+  function hidePopup() {
+    DOM.mapPopup.classList.add("d-none");
+    state.mapOverlay.setPosition(undefined);
   }
 
   function showApp() {

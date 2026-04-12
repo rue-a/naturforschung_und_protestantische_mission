@@ -8,7 +8,8 @@ window.AppModel = (() => {
     locationsById: {},
     selectedPersonId: null,
     map: null,
-    mapLayers: [],
+    mapSource: null,
+    mapOverlay: null,
   };
 
   const MARKER_COLORS = {
