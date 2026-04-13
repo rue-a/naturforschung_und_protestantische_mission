@@ -364,12 +364,6 @@ PARSERS_ORTE = {
     ),
     # --- Authority Links ---
     "wikidata_link": ParserSpec(excel_column_name="Wikidata", parser=URL),
-    # --- AAT Type ---
-    "aat_type": ParserSpec(
-        excel_column_name="AAT-Typ",
-        parser=int,
-        codelist=AAT_CODES,
-    ),
     "description": ParserSpec(excel_column_name="Beschreibung", parser=str),
 }
 
@@ -514,12 +508,12 @@ PARSERS_PERSONEN = {
         ),
         is_list=True,
     ),
-    # --- Tätigkeiten ---
-    "activities": ParserSpec(
-        excel_column_name="Tätigkeiten",
-        parser=partial(AttestableString, require_source=True),
-        is_list=True,
-    ),
+    # # --- Tätigkeiten ---
+    # "activities": ParserSpec(
+    #     excel_column_name="Tätigkeiten",
+    #     parser=partial(AttestableString, require_source=True),
+    #     is_list=True,
+    # ),
     # --- Kontakte ---
     "contact": {
         "with_moravians": ParserSpec(

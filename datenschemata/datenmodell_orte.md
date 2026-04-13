@@ -67,14 +67,14 @@ Ein oder mehrere der sieben einbuchstabigen *GeoNames Feature Classes*.
 | `T`  | Landformen (z. B. Berge, Täler, Kaps)                               | -->
 
 
-
+<!-- 
 ### AAT-Typ
 *List of Integers from Codelist*, **erforderlich°**
 
 
 Eine AAT-Integer-ID aus der WHG-Teilliste von 176 Orts-Typkonzepten (**Tabellenblatt `AAT-Codelist`**).  
 
-- `300387272`
+- `300387272` -->
 
 <!-- 
 ### Beginn

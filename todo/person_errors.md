@@ -1,19 +1,5 @@
 # Parsing Errors
 
-- [ ] __P0010000, Tätigkeiten__:
- _Invalid Reference value: 'R...' (should be URL, R-ID, or M-ID)_
-> Theologe (R...) | 
-> Erzieher (R...) | 
-> Lehrer (R0000900) | 
-> Seminardirektor |
-> Prediger im Seminar | 
-> Diaconus (1796) | 
-> Presbyter (1810) | 
-> Bischof (1814) |
-> Unitätsdirektion in Berthelsdorf (ab 1821) |
-> Ältestenkonferenz Vorsitzender (ab 1824) |
-> Dichte
-
 - [ ] __P0010000, Botanik - Manuskripte der Person__:
  _Invalid format for ManuscriptID: 'M0004800 : Verzeichnis der auf einer Reise durch einen Teil des Leitmeritzer Kreises beobachteten Pflanzen. 10.-23. Juni 1808. unidentifiziertes Manuskript unsicher zugeschrieben zu Albertini durch durch R0001600, R0002800]'_
 > M0003900 [1796.12.06: J.B.v. Albertini: Albertinis Eintrag im Stammbuch von Lind aus der Brüdergemeine Sarepta] |
@@ -40,12 +26,6 @@
 > 1750-1760; L1103500; Pädagogium; Lehrer (M0004100) |
 > 1760-1764; L2200000; Knabenanstalt; Inspektor 
 
-- [ ] __P0170000, Tätigkeiten__:
- _Statement (Botaniker, Sammler,) requires attestation (no source was provided)!_
-> Lehrer, Inspektor Naturalienkabinet und Bibliothek Barby (M0004100) |
-> Botaniker, Sammler,
-> 
-
 - [ ] __P0170000, Botanik - Beitrag zu Sammlungen (Objektnachweis)__:
  _Statement (C-barby) requires attestation (no source was provided)!_
 > C-barby 
@@ -61,14 +41,6 @@
 > 1840-1841 Karibik (westindische Inseln: St. Thomas, St. Croix)  -- Visitation |
 > 1853-1854  Südafrika -- Visitation |
 > Herrnhut
-
-- [ ] __P0220000, Tätigkeiten__:
- _Statement (gelernter Handschuhmacherund Beutler, 1814 Brüdervorsteher inGnadenfrei, 1823 Gemeinvorsteher dort, 1824 Gemeinvorsteher in Niesky, Unitätsdirektor ab 1832 - Missionsdirektor, Bischof, Botaniker, Kryptogamen-Spezialist, Sammler) requires attestation (no source was provided)!_
-> gelernter Handschuhmacher
-> und Beutler, 
-> 1814 Brüdervorsteher in
-> Gnadenfrei, 
-> 1823 Gemeinvorsteher dort, 1824 Gemeinvorsteher in Niesky, Unitätsdirektor ab 1832 - Missionsdirektor, Bischof,  Botaniker, Kryptogamen-Spezialist, Sammler
 
 - [ ] __P0220000, Botanik - Beitrag zu Sammlungen (Datenbanknachweis)__:
  _CollectionID must start with 'C'_

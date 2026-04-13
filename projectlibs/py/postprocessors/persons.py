@@ -84,7 +84,7 @@ def build_time_object(raw_time):
     return {"date": raw_time}
 
 
-def build_place_properties(location_id, locations_by_id, aat_feature_types):
+def build_place_properties(location_id, locations_by_id):
     location = locations_by_id.get(location_id)
     if not location:
         return None
@@ -95,12 +95,6 @@ def build_place_properties(location_id, locations_by_id, aat_feature_types):
         "end": None,
         "founder": None,
     }
-
-    if "aat_type" in location:
-        aat_value = location["aat_type"]["value"]["value"]
-        place_properties["aat_feature_type"] = [
-            aat_feature_types.get(str(aat_value), str(aat_value))
-        ]
 
     if "start" in location:
         place_properties["start"] = extract_field_value(location["start"])
@@ -122,7 +116,6 @@ def transform_person_life_trajectory(person_record, tables):
     person_id = extract_field_value(person_record["id"])
     person_name = extract_field_value(person_record["name"]["preferred"])
     locations_by_id = tables["locations"]
-    aat_feature_types = tables.get("aat_feature_types", {})
 
     features = []
 
@@ -171,7 +164,6 @@ def transform_person_life_trajectory(person_record, tables):
                 place=build_place_properties(
                     location_id,
                     locations_by_id,
-                    aat_feature_types,
                 ),
             )
         )
@@ -202,18 +194,11 @@ def transform_person_life_trajectory(person_record, tables):
                     place=build_place_properties(
                         location_id,
                         locations_by_id,
-                        aat_feature_types,
                     ),
                     institution=values[2]["value"],
                     occupation=values[3]["value"],
                 )
             )
-
-    if "activities" not in person_record:
-        print(
-            f"Warning: skipping activities for {person_id} ({person_name}): "
-            "activities are missing"
-        )
 
     for event_type in ("birth", "death"):
         if event_type not in person_record:

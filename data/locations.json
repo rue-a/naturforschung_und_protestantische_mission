@@ -24,14 +24,6 @@
                 "value": "https://www.wikidata.org/wiki/Q423740"
             }
         },
-        "aat_type": {
-            "excel-column-name": "AAT-Typ",
-            "label": "AAT-Typ",
-            "value": {
-                "type": "Integer",
-                "value": 300008057
-            }
-        },
         "longitude": {
             "label": "Longitude",
             "value": {
