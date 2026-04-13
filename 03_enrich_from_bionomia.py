@@ -1,4 +1,3 @@
-import argparse
 import json
 import re
 import time
@@ -17,6 +16,8 @@ from projectlibs.py.enrich_utils import (
 
 
 DEFAULT_INPUT = Path("data/persons.json")
+OVERWRITE = False
+PAUSE_SECONDS = 0.1
 USER_AGENT = "naturforschung-und-protestantische-mission/1.0 (bionomia enrichment)"
 
 BIONOMIA_QID_RE = re.compile(r"bionomia\.net/(?:[a-z]{2}/)?(Q\d+)$")
@@ -146,35 +147,17 @@ def enrich_persons_from_bionomia(
     }
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(
-        description="Enrich persons JSON with profile data from Bionomia."
-    )
-    parser.add_argument(
-        "--input",
-        type=Path,
-        default=DEFAULT_INPUT,
-        help="Input persons JSON file.",
-    )
-    parser.add_argument(
-        "--overwrite",
-        action="store_true",
-        help="Overwrite existing Bionomia enrichment.",
-    )
-    parser.add_argument(
-        "--pause-seconds",
-        type=float,
-        default=0.1,
-        help="Pause between requests.",
-    )
-    args = parser.parse_args()
-
-    output_path = args.input
-    payload = load_json(args.input)
+def main(
+    input_path: Path = DEFAULT_INPUT,
+    overwrite: bool = OVERWRITE,
+    pause_seconds: float = PAUSE_SECONDS,
+) -> None:
+    output_path = input_path
+    payload = load_json(input_path)
     enriched_payload, stats = enrich_persons_from_bionomia(
         payload,
-        overwrite=args.overwrite,
-        pause_seconds=args.pause_seconds,
+        overwrite=overwrite,
+        pause_seconds=pause_seconds,
     )
     save_json(output_path, enriched_payload)
 

@@ -1,65 +1,33 @@
-import argparse
 from pathlib import Path
 
 from projectlibs.py.enrich_utils import load_json, save_json
 from projectlibs.py.postprocessors.persons import transform_person_life_trajectory
 
+PERSONS_FILE = Path("data/persons.json")
+LOCATIONS_FILE = Path("data/locations.json")
+LITERATURE_FILE = Path("data/literature.json")
+MANUSCRIPTS_FILE = Path("data/manuscripts.json")
+ARCHIVES_FILE = Path("data/archives.json")
+COLLECTIONS_FILE = Path("data/collections.json")
+OUTPUT_FILE = Path("data/geopersons.json")
 
-def main() -> None:
-    parser = argparse.ArgumentParser(
-        description="Transform persons life_trajectory into a FeatureCollection after location enrichment."
-    )
-    parser.add_argument(
-        "--persons",
-        type=Path,
-        default="data/persons.json",
-        help="Input persons JSON file.",
-    )
-    parser.add_argument(
-        "--locations",
-        type=Path,
-        default="data/locations.json",
-        help="Input locations JSON file.",
-    )
-    parser.add_argument(
-        "--literature",
-        type=Path,
-        default="data/literature.json",
-        help="Input literature JSON file.",
-    )
-    parser.add_argument(
-        "--manuscripts",
-        type=Path,
-        default="data/manuscripts.json",
-        help="Input manuscripts JSON file.",
-    )
-    parser.add_argument(
-        "--archives",
-        type=Path,
-        default="data/archives.json",
-        help="Input archives JSON file.",
-    )
-    parser.add_argument(
-        "--collections",
-        type=Path,
-        default="data/collections.json",
-        help="Input collections JSON file.",
-    )
-    parser.add_argument(
-        "--output",
-        type=Path,
-        default="data/geopersons.json",
-        help="Output persons JSON file.",
-    )
-    args = parser.parse_args()
 
-    persons = load_json(args.persons)
+def main(
+    persons_file: Path = PERSONS_FILE,
+    locations_file: Path = LOCATIONS_FILE,
+    literature_file: Path = LITERATURE_FILE,
+    manuscripts_file: Path = MANUSCRIPTS_FILE,
+    archives_file: Path = ARCHIVES_FILE,
+    collections_file: Path = COLLECTIONS_FILE,
+    output_file: Path = OUTPUT_FILE,
+) -> None:
+    persons = load_json(persons_file)
     tables = {
-        "locations": load_json(args.locations),
-        "literature": load_json(args.literature),
-        "manuscripts": load_json(args.manuscripts),
-        "archives": load_json(args.archives),
-        "collections": load_json(args.collections),
+        "locations": load_json(locations_file),
+        "literature": load_json(literature_file),
+        "manuscripts": load_json(manuscripts_file),
+        "archives": load_json(archives_file),
+        "collections": load_json(collections_file),
     }
 
     transformed_persons = {
@@ -67,8 +35,8 @@ def main() -> None:
         for person_id, person_record in persons.items()
     }
 
-    save_json(args.output, transformed_persons)
-    print(f"Finished. output={args.output}")
+    save_json(output_file, transformed_persons)
+    print(f"Finished. output={output_file}")
 
 
 if __name__ == "__main__":

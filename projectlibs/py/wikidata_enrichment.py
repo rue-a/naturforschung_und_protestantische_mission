@@ -17,8 +17,6 @@ from projectlibs.py.enrich_utils import (
 
 
 WIKIDATA_QID_RE = re.compile(r"/wiki/(Q\d+)$")
-DEFAULT_LOCATIONS_CACHE = Path("data/wikidata_locations_cache.json")
-DEFAULT_PERSONS_CACHE = Path("data/wikidata_persons_cache.json")
 USER_AGENT = "naturforschung-und-protestantische-mission/1.0 (wikidata enrichment)"
 
 WIKIDATA_PROPERTIES = {
@@ -67,7 +65,9 @@ def fetch_wikidata_entity_labels(qids: list[str]) -> dict[str, str]:
     return labels
 
 
-def extract_claim_string(entity_payload: dict[str, Any], qid: str, property_id: str) -> str | None:
+def extract_claim_string(
+    entity_payload: dict[str, Any], qid: str, property_id: str
+) -> str | None:
     entity = entity_payload.get("entities", {}).get(qid, {})
     claims = entity.get("claims", {})
 
@@ -121,7 +121,9 @@ def format_wikidata_time(value: dict[str, Any]) -> str | None:
     return normalized_year
 
 
-def extract_claim_time(entity_payload: dict[str, Any], qid: str, property_id: str) -> str | None:
+def extract_claim_time(
+    entity_payload: dict[str, Any], qid: str, property_id: str
+) -> str | None:
     entity = entity_payload.get("entities", {}).get(qid, {})
     claims = entity.get("claims", {})
 
@@ -137,7 +139,9 @@ def extract_claim_time(entity_payload: dict[str, Any], qid: str, property_id: st
     return None
 
 
-def extract_coordinates(entity_payload: dict[str, Any], qid: str) -> tuple[float, float] | None:
+def extract_coordinates(
+    entity_payload: dict[str, Any], qid: str
+) -> tuple[float, float] | None:
     entity = entity_payload.get("entities", {}).get(qid, {})
     claims = entity.get("claims", {})
 
@@ -205,11 +209,15 @@ def build_person_link_urls(qid: str, entity_payload: dict[str, Any]) -> dict[str
     if gnd_id:
         urls["gnd"] = f"https://d-nb.info/gnd/{gnd_id}"
 
-    factgrid_id = extract_claim_string(entity_payload, qid, WIKIDATA_PROPERTIES["factgrid"])
+    factgrid_id = extract_claim_string(
+        entity_payload, qid, WIKIDATA_PROPERTIES["factgrid"]
+    )
     if factgrid_id:
         urls["factgrid"] = f"https://database.factgrid.de/wiki/Item:{factgrid_id}"
 
-    bionomia_id = extract_claim_string(entity_payload, qid, WIKIDATA_PROPERTIES["bionomia"])
+    bionomia_id = extract_claim_string(
+        entity_payload, qid, WIKIDATA_PROPERTIES["bionomia"]
+    )
     if bionomia_id:
         urls["bionomia"] = f"https://bionomia.net/{bionomia_id}"
     else:
@@ -222,9 +230,13 @@ def build_person_link_urls(qid: str, entity_payload: dict[str, Any]) -> dict[str
     return urls
 
 
-def build_location_enrichment(entity_payload: dict[str, Any], qid: str) -> dict[str, Any]:
+def build_location_enrichment(
+    entity_payload: dict[str, Any], qid: str
+) -> dict[str, Any]:
     coordinates = extract_coordinates(entity_payload, qid)
-    founder_ids = extract_claim_entity_ids(entity_payload, qid, WIKIDATA_PROPERTIES["founder"])
+    founder_ids = extract_claim_entity_ids(
+        entity_payload, qid, WIKIDATA_PROPERTIES["founder"]
+    )
     referenced_entity_labels = fetch_wikidata_entity_labels(founder_ids)
 
     return {
@@ -284,7 +296,9 @@ def apply_location_enrichment(
     coordinates = enrichment["coordinates"]
     if coordinates:
         if overwrite or "longitude" not in record:
-            record["longitude"] = make_decimal_field("Longitude", coordinates["longitude"])
+            record["longitude"] = make_decimal_field(
+                "Longitude", coordinates["longitude"]
+            )
             enriched_fields.append("longitude")
         if overwrite or "latitude" not in record:
             record["latitude"] = make_decimal_field("Latitude", coordinates["latitude"])
@@ -339,7 +353,9 @@ def enrich_locations(
                 entity_payload = fetch_wikidata_entity(qid)
             except (HTTPError, URLError, TimeoutError, json.JSONDecodeError):
                 failed += 1
-                print(f"[locations] failed {location_id} from {qid}: could not fetch Wikidata entity")
+                print(
+                    f"[locations] failed {location_id} from {qid}: could not fetch Wikidata entity"
+                )
                 continue
 
             enrichment = build_location_enrichment(entity_payload, qid)
@@ -364,11 +380,15 @@ def enrich_locations(
         if pause_seconds:
             time.sleep(pause_seconds)
 
-    return payload, locations_cache, {
-        "updated": updated,
-        "skipped": skipped,
-        "failed": failed,
-    }
+    return (
+        payload,
+        locations_cache,
+        {
+            "updated": updated,
+            "skipped": skipped,
+            "failed": failed,
+        },
+    )
 
 
 def enrich_person_links(
@@ -412,7 +432,9 @@ def enrich_person_links(
                 entity_payload = fetch_wikidata_entity(qid)
             except (HTTPError, URLError, TimeoutError, json.JSONDecodeError):
                 failed += 1
-                print(f"[persons] failed {person_id} from {qid}: could not fetch Wikidata entity")
+                print(
+                    f"[persons] failed {person_id} from {qid}: could not fetch Wikidata entity"
+                )
                 continue
             persons_cache[qid] = entity_payload
 
@@ -436,13 +458,19 @@ def enrich_person_links(
             )
         else:
             skipped += 1
-            print(f"[persons] skipped {person_id} from {qid}: no usable Wikidata links found")
+            print(
+                f"[persons] skipped {person_id} from {qid}: no usable Wikidata links found"
+            )
 
         if pause_seconds:
             time.sleep(pause_seconds)
 
-    return payload, persons_cache, {
-        "updated": updated,
-        "skipped": skipped,
-        "failed": failed,
-    }
+    return (
+        payload,
+        persons_cache,
+        {
+            "updated": updated,
+            "skipped": skipped,
+            "failed": failed,
+        },
+    )
