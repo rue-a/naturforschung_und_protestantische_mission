@@ -12,22 +12,16 @@ COLLECTIONS_FILE = Path("data/collections.json")
 OUTPUT_FILE = Path("data/geopersons.json")
 
 
-def main(
-    persons_file: Path = PERSONS_FILE,
-    locations_file: Path = LOCATIONS_FILE,
-    literature_file: Path = LITERATURE_FILE,
-    manuscripts_file: Path = MANUSCRIPTS_FILE,
-    archives_file: Path = ARCHIVES_FILE,
-    collections_file: Path = COLLECTIONS_FILE,
-    output_file: Path = OUTPUT_FILE,
-) -> None:
-    persons = load_json(persons_file)
+def main() -> None:
+    print()
+    print("Running create_geopersons.py")
+    persons = load_json(PERSONS_FILE)
     tables = {
-        "locations": load_json(locations_file),
-        "literature": load_json(literature_file),
-        "manuscripts": load_json(manuscripts_file),
-        "archives": load_json(archives_file),
-        "collections": load_json(collections_file),
+        "locations": load_json(LOCATIONS_FILE),
+        "literature": load_json(LITERATURE_FILE),
+        "manuscripts": load_json(MANUSCRIPTS_FILE),
+        "archives": load_json(ARCHIVES_FILE),
+        "collections": load_json(COLLECTIONS_FILE),
     }
 
     transformed_persons = {
@@ -35,8 +29,8 @@ def main(
         for person_id, person_record in persons.items()
     }
 
-    save_json(output_file, transformed_persons)
-    print(f"Finished. output={output_file}")
+    save_json(OUTPUT_FILE, transformed_persons)
+    print(f"Finished. output={OUTPUT_FILE}")
 
 
 if __name__ == "__main__":

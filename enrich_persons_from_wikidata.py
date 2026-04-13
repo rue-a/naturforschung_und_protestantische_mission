@@ -14,43 +14,39 @@ PERSONS_CACHE = Path("data/wikidata_persons_cache.json")
 REFRESH_PERSONS_CACHE = False
 
 
-def main(
-    input_path: Path = DEFAULT_INPUT,
-    overwrite: bool = OVERWRITE,
-    pause_seconds: float = PAUSE_SECONDS,
-    persons_cache_path: Path = PERSONS_CACHE,
-    refresh_persons_cache: bool = REFRESH_PERSONS_CACHE,
-) -> None:
+def main() -> None:
+    print()
+    print("Running enrich_persons_from_wikidata.py")
     print("Enriching persons from Wikidata...")
-    print(f"input: {input_path}")
-    print(f"persons cache: {persons_cache_path}")
-    print(f"overwrite existing values: {overwrite}")
-    print(f"refresh persons cache: {refresh_persons_cache}")
+    print(f"input: {DEFAULT_INPUT}")
+    print(f"persons cache: {PERSONS_CACHE}")
+    print(f"overwrite existing values: {OVERWRITE}")
+    print(f"refresh persons cache: {REFRESH_PERSONS_CACHE}")
 
     print("Loading persons JSON...")
-    payload = load_json(input_path)
+    payload = load_json(DEFAULT_INPUT)
     print("Loading persons cache...")
-    persons_cache = load_wikidata_cache(persons_cache_path)
+    persons_cache = load_wikidata_cache(PERSONS_CACHE)
 
     print("Running Wikidata enrichment for persons...")
     enriched_payload, persons_cache, stats = enrich_person_links(
         payload,
         persons_cache,
-        overwrite=overwrite,
-        refresh_cache=refresh_persons_cache,
-        pause_seconds=pause_seconds,
+        overwrite=OVERWRITE,
+        refresh_cache=REFRESH_PERSONS_CACHE,
+        pause_seconds=PAUSE_SECONDS,
     )
     print("Writing enriched persons JSON...")
-    save_json(input_path, enriched_payload)
+    save_json(DEFAULT_INPUT, enriched_payload)
     print("Writing persons cache...")
-    save_json(persons_cache_path, persons_cache)
+    save_json(PERSONS_CACHE, persons_cache)
 
     print("Finished.")
     print(
         f"updated={stats['updated']} skipped={stats['skipped']} failed={stats['failed']}"
     )
-    print(f"output: {input_path}")
-    print(f"persons cache: {persons_cache_path}")
+    print(f"output: {DEFAULT_INPUT}")
+    print(f"persons cache: {PERSONS_CACHE}")
 
 
 if __name__ == "__main__":

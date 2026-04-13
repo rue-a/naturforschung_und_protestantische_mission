@@ -21,6 +21,8 @@ PAUSE_SECONDS = 0.1
 USER_AGENT = "naturforschung-und-protestantische-mission/1.0 (bionomia enrichment)"
 
 BIONOMIA_QID_RE = re.compile(r"bionomia\.net/(?:[a-z]{2}/)?(Q\d+)$")
+
+
 def extract_qid_from_person(record: dict[str, Any]) -> str | None:
     links = record.get("links", {})
     if not isinstance(links, dict):
@@ -147,17 +149,15 @@ def enrich_persons_from_bionomia(
     }
 
 
-def main(
-    input_path: Path = DEFAULT_INPUT,
-    overwrite: bool = OVERWRITE,
-    pause_seconds: float = PAUSE_SECONDS,
-) -> None:
-    output_path = input_path
-    payload = load_json(input_path)
+def main() -> None:
+    print()
+    print("Running enrich_from_bionomia.py")
+    output_path = DEFAULT_INPUT
+    payload = load_json(DEFAULT_INPUT)
     enriched_payload, stats = enrich_persons_from_bionomia(
         payload,
-        overwrite=overwrite,
-        pause_seconds=pause_seconds,
+        overwrite=OVERWRITE,
+        pause_seconds=PAUSE_SECONDS,
     )
     save_json(output_path, enriched_payload)
 

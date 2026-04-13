@@ -52,6 +52,7 @@ TEST_IDS = {
 
 
 def main():
+    print("Running parse_excel.py")
     for sheet, cfg in TABLES.items():
         print(f"Parsing {sheet}...")
 
