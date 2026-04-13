@@ -1,15 +1,5 @@
 window.AppView = (() => {
   const { state, MARKER_COLORS, LINK_ICONS } = window.AppModel;
-  const MORAVIAN_MEMBERSHIP_LABELS = {
-    "ja(a)": "qua Geburt und Erziehung, in einer Herrnhuter Gemeinschaft bzw. von Herrnhuter Eltern geboren und aufgewachsen",
-    "ja(b)": "als Erwachsene aufgenommen, z.B. Konvertitien oder Missionierte",
-    "ja(c)": "Übernahme von kirchlichen Ämtern innerhalb der Brüdergemeine",
-    "ja(d)": "Übernahme von Ämtern im Erziehungswesen der Brüdergemeine",
-    "nein(a)": "ausgetreten",
-    "nein(b)": "aber wichtig im Netzwerk",
-    "nein(c)": "um Verwechslung auszuschließen",
-    unbekannt: "Zugehörigkeit kann nicht ausgeschlossen werden.",
-  };
 
   const DOM = {
     loading: document.getElementById("loading-state"),
@@ -87,7 +77,7 @@ window.AppView = (() => {
       [record.name.preferred.label, preferredName],
       [
         "member_of_moravians" in record ? record.member_of_moravians.label : "",
-        "member_of_moravians" in record ? formatMoravianMembership(record.member_of_moravians.value) : "",
+        "member_of_moravians" in record ? record.member_of_moravians.value.value.map((entry) => entry.value) : "",
       ],
       [
         "birth" in record ? "Geburt" : "",
@@ -251,19 +241,13 @@ window.AppView = (() => {
     return escapeHtml(field.label);
   }
 
-  function formatMoravianMembership(typedValue) {
-    return typedValue.value.map(
-      (entry) => MORAVIAN_MEMBERSHIP_LABELS[entry.value] || entry.value
-    );
-  }
-
   function formatLifeEventValue(eventRecord) {
     const parts = [
       appendNotes(
         "date" in eventRecord ? eventRecord.date.value.value : "",
         "date_notes" in eventRecord ? eventRecord.date_notes.value.value : ""
       ),
-      appendNotes(
+      appendNotesHtml(
         formatLocationField(eventRecord),
         "location_notes" in eventRecord ? eventRecord.location_notes.value.value : ""
       ),
@@ -286,10 +270,22 @@ window.AppView = (() => {
     }
 
     if (!notes) {
-      return value;
+      return escapeHtml(value);
     }
 
-    return `${value} (${notes})`;
+    return `${escapeHtml(value)} (${escapeHtml(notes)})`;
+  }
+
+  function appendNotesHtml(valueHtml, notes) {
+    if (!valueHtml) {
+      return "";
+    }
+
+    if (!notes) {
+      return valueHtml;
+    }
+
+    return `${valueHtml} (${escapeHtml(notes)})`;
   }
 
   function renderMetadataValue(value) {
@@ -299,6 +295,10 @@ window.AppView = (() => {
           ${value.map((entry) => `<li>${escapeHtml(String(entry))}</li>`).join("")}
         </ul>
       `;
+    }
+
+    if (typeof value === "string" && value.includes("<a ")) {
+      return `<p class="metadata-value mb-0">${value}</p>`;
     }
 
     return `<p class="metadata-value mb-0">${escapeHtml(String(value))}</p>`;

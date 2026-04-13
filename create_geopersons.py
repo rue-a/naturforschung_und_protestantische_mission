@@ -1,7 +1,8 @@
 from pathlib import Path
 
 from projectlibs.py.enrich_utils import load_json, save_json
-from projectlibs.py.postprocessors.persons import transform_person_life_trajectory
+from projectlibs.py.postprocessors.geopersons import create_person_life_trajectory
+from projectlibs.py.postprocessors.utils import format_placeholders
 
 PERSONS_FILE = Path("data/persons.json")
 LOCATIONS_FILE = Path("data/locations.json")
@@ -24,10 +25,12 @@ def main() -> None:
         "collections": load_json(COLLECTIONS_FILE),
     }
 
-    transformed_persons = {
-        person_id: transform_person_life_trajectory(person_record, tables)
-        for person_id, person_record in persons.items()
-    }
+    transformed_persons = {}
+
+    for person_id, person_record in persons.items():
+        geoperson = create_person_life_trajectory(person_record, tables)
+        geoperson = format_placeholders(geoperson, tables)
+        transformed_persons[person_id] = geoperson
 
     save_json(OUTPUT_FILE, transformed_persons)
     print(f"Finished. output={OUTPUT_FILE}")

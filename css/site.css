@@ -94,6 +94,16 @@ body {
   line-height: 1.25;
 }
 
+.metadata-value a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.metadata-value a:hover,
+.metadata-value a:focus {
+  text-decoration: underline;
+}
+
 .metadata-list {
   margin: 0;
   padding-left: 1.1rem;

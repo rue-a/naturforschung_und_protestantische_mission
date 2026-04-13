@@ -1,8 +1,4 @@
-from projectlibs.py.postprocessors.utils import replace_reference_objects
-
-
-def extract_field_value(field):
-    return field["value"]["value"]
+from projectlibs.py.postprocessors.utils import extract_field_value
 
 
 def extract_field_source(field):
@@ -18,24 +14,21 @@ def extract_field_source(field):
 
 def build_point_geometry(location_id, locations_by_id):
     location = locations_by_id.get(location_id)
-    if not location or "longitude" not in location or "latitude" not in location:
+    if not location:
+        return None
+
+    longitude = extract_field_value(location.get("longitude"))
+    latitude = extract_field_value(location.get("latitude"))
+    if longitude is None or latitude is None:
         return None
 
     return {
         "type": "Point",
         "coordinates": [
-            extract_field_value(location["longitude"]),
-            extract_field_value(location["latitude"]),
+            longitude,
+            latitude,
         ],
     }
-
-
-def find_location_name(location_id, locations_by_id):
-    location = locations_by_id.get(location_id)
-    if not location or "name" not in location:
-        return None
-
-    return extract_field_value(location["name"])
 
 
 def build_life_trajectory_feature(
@@ -90,29 +83,23 @@ def build_place_properties(location_id, locations_by_id):
         return None
 
     place_properties = {
-        "aat_feature_type": None,
-        "start": None,
-        "end": None,
+        "start": extract_field_value(location.get("start")),
+        "end": extract_field_value(location.get("end")),
         "founder": None,
     }
 
-    if "start" in location:
-        place_properties["start"] = extract_field_value(location["start"])
-
-    if "end" in location:
-        place_properties["end"] = extract_field_value(location["end"])
-
-    if "founder" in location:
+    founder_values = extract_field_value(location.get("founder"))
+    if founder_values is not None:
         place_properties["founder"] = [
-            founder["value"] for founder in location["founder"]["value"]["value"]
+            founder["value"]
+            for founder in founder_values
+            if isinstance(founder, dict) and "value" in founder
         ]
 
     return place_properties
 
 
-def transform_person_life_trajectory(person_record, tables):
-    person_record = replace_reference_objects(person_record, tables)
-
+def create_person_life_trajectory(person_record, tables):
     person_id = extract_field_value(person_record["id"])
     person_name = extract_field_value(person_record["name"]["preferred"])
     locations_by_id = tables["locations"]
@@ -199,27 +186,6 @@ def transform_person_life_trajectory(person_record, tables):
                     occupation=values[3]["value"],
                 )
             )
-
-    for event_type in ("birth", "death"):
-        if event_type not in person_record:
-            continue
-        if "location" not in person_record[event_type]:
-            continue
-
-        location_field = person_record[event_type]["location"]
-        location_id = extract_field_value(location_field)
-        location_name = find_location_name(location_id, locations_by_id)
-
-        if not location_name:
-            continue
-
-        location_source = location_field["value"].get("source")
-        location_field["value"] = {
-            "type": "String",
-            "value": location_name,
-        }
-        if location_source:
-            location_field["value"]["source"] = location_source
 
     person_record["life_trajectory"] = {
         "type": "FeatureCollection",

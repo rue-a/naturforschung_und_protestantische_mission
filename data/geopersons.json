@@ -65,15 +65,15 @@
                 "value": [
                     {
                         "type": "String",
-                        "value": "ja(a)"
+                        "value": "qua Geburt und Erziehung, in einer Herrnhuter Gemeinschaft bzw. von Herrnhuter Eltern geboren und aufgewachsen"
                     },
                     {
                         "type": "String",
-                        "value": "ja(b)"
+                        "value": "als Erwachsene aufgenommen, z.B. Konvertitien oder Missionierte"
                     },
                     {
                         "type": "String",
-                        "value": "ja(c)"
+                        "value": "Übernahme von kirchlichen Ämtern innerhalb der Brüdergemeine"
                     }
                 ]
             }
@@ -125,8 +125,11 @@
                 "label": "Geburt - Ort",
                 "value": {
                     "type": "String",
-                    "value": "Neuwied",
-                    "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
+                    "value": "<a href=\"https://www.wikidata.org/wiki/Q3967\">Neuwied</a>",
+                    "source": {
+                        "type": "LiteratureID",
+                        "value": "R0001500"
+                    }
                 }
             }
         },
@@ -145,8 +148,11 @@
                 "label": "Tod - Ort",
                 "value": {
                     "type": "String",
-                    "value": "Berthelsdorf",
-                    "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
+                    "value": "<a href=\"https://www.wikidata.org/wiki/Q502553\">Berthelsdorf</a>",
+                    "source": {
+                        "type": "LiteratureID",
+                        "value": "R0001500"
+                    }
                 }
             }
         },
@@ -465,9 +471,8 @@
                         "date": "1769-02-17"
                     },
                     "properties": {
-                        "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
+                        "source": "R0001500",
                         "place": {
-                            "aat_feature_type": null,
                             "start": "1653",
                             "end": null,
                             "founder": null
@@ -488,9 +493,8 @@
                         "date": "1831-12-06"
                     },
                     "properties": {
-                        "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
+                        "source": "R0001500",
                         "place": {
-                            "aat_feature_type": null,
                             "start": null,
                             "end": null,
                             "founder": null
@@ -516,7 +520,6 @@
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
                         "place": {
-                            "aat_feature_type": null,
                             "start": "1653",
                             "end": null,
                             "founder": null
@@ -544,7 +547,6 @@
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
                         "place": {
-                            "aat_feature_type": null,
                             "start": null,
                             "end": null,
                             "founder": null
@@ -572,7 +574,6 @@
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
                         "place": {
-                            "aat_feature_type": null,
                             "start": null,
                             "end": null,
                             "founder": null
@@ -600,7 +601,6 @@
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
                         "place": {
-                            "aat_feature_type": null,
                             "start": null,
                             "end": null,
                             "founder": null
@@ -628,7 +628,6 @@
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
                         "place": {
-                            "aat_feature_type": null,
                             "start": null,
                             "end": null,
                             "founder": null
@@ -656,7 +655,6 @@
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
                         "place": {
-                            "aat_feature_type": null,
                             "start": null,
                             "end": null,
                             "founder": null
@@ -681,7 +679,6 @@
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
                         "place": {
-                            "aat_feature_type": null,
                             "start": null,
                             "end": null,
                             "founder": null
@@ -706,7 +703,6 @@
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
                         "place": {
-                            "aat_feature_type": null,
                             "start": null,
                             "end": null,
                             "founder": null
@@ -731,7 +727,6 @@
                     "properties": {
                         "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf",
                         "place": {
-                            "aat_feature_type": null,
                             "start": null,
                             "end": null,
                             "founder": null
@@ -802,11 +797,11 @@
                 "value": [
                     {
                         "type": "String",
-                        "value": "ja(b)"
+                        "value": "als Erwachsene aufgenommen, z.B. Konvertitien oder Missionierte"
                     },
                     {
                         "type": "String",
-                        "value": "ja(d)"
+                        "value": "Übernahme von Ämtern im Erziehungswesen der Brüdergemeine"
                     }
                 ]
             }
@@ -843,8 +838,11 @@
                 "label": "Geburt - Ort",
                 "value": {
                     "type": "String",
-                    "value": "Basel",
-                    "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | R.22.27.07 | Lebenslauf Johann Jacob Bossart | Lebenslauf von Bossart, etwas ausführlicher als M0004100"
+                    "value": "<a href=\"https://www.wikidata.org/wiki/Q78\">Basel</a>",
+                    "source": {
+                        "type": "ManuscriptID",
+                        "value": "M0004000"
+                    }
                 }
             }
         },
@@ -863,8 +861,11 @@
                 "label": "Tod - Ort",
                 "value": {
                     "type": "String",
-                    "value": "Barby",
-                    "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | R.22.27.07 | Lebenslauf Johann Jacob Bossart | Lebenslauf von Bossart, etwas ausführlicher als M0004100"
+                    "value": "<a href=\"https://www.wikidata.org/wiki/Q530185\">Barby</a>",
+                    "source": {
+                        "type": "ManuscriptID",
+                        "value": "M0004000"
+                    }
                 }
             }
         },
@@ -942,9 +943,8 @@
                         "date": "1721-04-17"
                     },
                     "properties": {
-                        "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | R.22.27.07 | Lebenslauf Johann Jacob Bossart | Lebenslauf von Bossart, etwas ausführlicher als M0004100",
+                        "source": "M0004000",
                         "place": {
-                            "aat_feature_type": null,
                             "start": null,
                             "end": null,
                             "founder": null
@@ -965,9 +965,8 @@
                         "date": "1789-11-13"
                     },
                     "properties": {
-                        "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | R.22.27.07 | Lebenslauf Johann Jacob Bossart | Lebenslauf von Bossart, etwas ausführlicher als M0004100",
+                        "source": "M0004000",
                         "place": {
-                            "aat_feature_type": null,
                             "start": null,
                             "end": null,
                             "founder": null
@@ -1028,11 +1027,11 @@
                 "value": [
                     {
                         "type": "String",
-                        "value": "ja(a)"
+                        "value": "qua Geburt und Erziehung, in einer Herrnhuter Gemeinschaft bzw. von Herrnhuter Eltern geboren und aufgewachsen"
                     },
                     {
                         "type": "String",
-                        "value": "ja(c)"
+                        "value": "Übernahme von kirchlichen Ämtern innerhalb der Brüdergemeine"
                     }
                 ]
             }
@@ -1081,8 +1080,11 @@
                 "label": "Geburt - Ort",
                 "value": {
                     "type": "String",
-                    "value": "Weißenburg in Bayern",
-                    "source": "(Druck) : Lebenslauf Johann Christian Breutel In: Nachrichten aus der Brüder-Gemeine (9), 1875, S. 755-788 | https://collections.mun.ca/digital/collection/nachrichten/id/1119/rec/1"
+                    "value": "<a href=\"https://www.wikidata.org/wiki/Q44500\">Weißenburg in Bayern</a>",
+                    "source": {
+                        "type": "LiteratureID",
+                        "value": "R0002500"
+                    }
                 }
             }
         },
@@ -1101,8 +1103,11 @@
                 "label": "Tod - Ort",
                 "value": {
                     "type": "String",
-                    "value": "Berthelsdorf",
-                    "source": "(Web) https://saebi.isgv.de/biografie/Johann_Christian_Breutel_(1788-1875)"
+                    "value": "<a href=\"https://www.wikidata.org/wiki/Q502553\">Berthelsdorf</a>",
+                    "source": {
+                        "type": "URL",
+                        "value": "https://saebi.isgv.de/biografie/Johann_Christian_Breutel_(1788-1875)"
+                    }
                 }
             },
             "location_notes": {
@@ -1227,9 +1232,8 @@
                         "date": "1788-01-21"
                     },
                     "properties": {
-                        "source": "(Druck) : Lebenslauf Johann Christian Breutel In: Nachrichten aus der Brüder-Gemeine (9), 1875, S. 755-788 | https://collections.mun.ca/digital/collection/nachrichten/id/1119/rec/1",
+                        "source": "R0002500",
                         "place": {
-                            "aat_feature_type": null,
                             "start": "1296",
                             "end": null,
                             "founder": null
@@ -1250,9 +1254,8 @@
                         "date": "1875-02-18"
                     },
                     "properties": {
-                        "source": "(Web) https://saebi.isgv.de/biografie/Johann_Christian_Breutel_(1788-1875)",
+                        "source": "https://saebi.isgv.de/biografie/Johann_Christian_Breutel_(1788-1875)",
                         "place": {
-                            "aat_feature_type": null,
                             "start": null,
                             "end": null,
                             "founder": null
