@@ -20,6 +20,18 @@ from projectlibs.py.new_datatypes import (
 )
 
 
+MORAVIAN_MEMBERSHIP_LABELS = {
+    "ja(a)": "qua Geburt und Erziehung, in einer Herrnhuter Gemeinschaft bzw. von Herrnhuter Eltern geboren und aufgewachsen",
+    "ja(b)": "als Erwachsene aufgenommen, z.B. Konvertitien oder Missionierte",
+    "ja(c)": "Übernahme von kirchlichen Ämtern innerhalb der Brüdergemeine",
+    "ja(d)": "Übernahme von Ämtern im Erziehungswesen der Brüdergemeine",
+    "nein(a)": "ausgetreten",
+    "nein(b)": "aber wichtig im Netzwerk",
+    "nein(c)": "um Verwechslung auszuschließen",
+    "unbekannt": "Zugehörigkeit kann nicht ausgeschlossen werden.",
+}
+
+
 @dataclass(frozen=True)
 class ParserSpec:
     excel_column_name: str
@@ -251,16 +263,7 @@ PARSERS_PERSONEN = {
         excel_column_name="Zugehörigkeit Herrnhuter Brüdergemeine",
         parser=str,
         is_list=True,
-        codelist=[
-            "ja(a)",
-            "ja(b)",
-            "ja(c)",
-            "ja(d)",
-            "nein(a)",
-            "nein(b)",
-            "nein(c)",
-            "unbekannt",
-        ],
+        codelist=MORAVIAN_MEMBERSHIP_LABELS.keys(),
     ),
     # --- Links ---
     "links": {

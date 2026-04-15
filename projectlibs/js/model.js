@@ -7,6 +7,7 @@ window.AppModel = (() => {
     filteredPersonIds: [],
     locationsById: {},
     selectedPersonId: null,
+    appBasePath: "/",
     map: null,
     mapSource: null,
     mapOverlay: null,
@@ -47,6 +48,95 @@ window.AppModel = (() => {
     },
   };
 
+  function unwrapTypedValue(value) {
+    if (Array.isArray(value)) {
+      return value.map(unwrapTypedValue);
+    }
+
+    if (!value || typeof value !== "object") {
+      return value;
+    }
+
+    if ("type" in value && "value" in value) {
+      if (value.type === "List" && Array.isArray(value.value)) {
+        return value.value.map(unwrapTypedValue);
+      }
+
+      return unwrapTypedValue(value.value);
+    }
+
+    return value;
+  }
+
+  function getFieldValue(field) {
+    if (!field || typeof field !== "object" || !("value" in field)) {
+      return "";
+    }
+
+    const value = unwrapTypedValue(field.value);
+    return value ?? "";
+  }
+
+  function getPersonSortName(record) {
+    return String(
+      getFieldValue(record.name.surname) || getFieldValue(record.name.preferred) || ""
+    );
+  }
+
+  function getPathSegments(pathname = window.location.pathname) {
+    return pathname.split("/").filter(Boolean);
+  }
+
+  function getRoutePersonId(pathname = window.location.pathname) {
+    const segments = getPathSegments(pathname);
+    const lastSegment = segments.at(-1);
+    if (!lastSegment || lastSegment === "index.html") {
+      return null;
+    }
+
+    const personId = decodeURIComponent(lastSegment);
+    return personId in state.personsById ? personId : null;
+  }
+
+  function getAppBasePath(pathname = window.location.pathname) {
+    const segments = getPathSegments(pathname);
+
+    if (segments.length > 0) {
+      const lastSegment = decodeURIComponent(segments.at(-1));
+      if (lastSegment in state.personsById) {
+        segments.pop();
+      }
+    }
+
+    if (segments.at(-1) === "index.html") {
+      segments.pop();
+    }
+
+    if (segments.length === 0) {
+      return "/";
+    }
+
+    return `/${segments.join("/")}`;
+  }
+
+  function buildPersonPath(personId) {
+    const encodedPersonId = encodeURIComponent(personId);
+    const basePath = state.appBasePath === "/" ? "" : state.appBasePath;
+    return `${basePath}/${encodedPersonId}`;
+  }
+
+  function updateSelectedPersonUrl(personId, { replace = false } = {}) {
+    const nextPath = buildPersonPath(personId);
+    const currentPath = window.location.pathname.replace(/\/+$/, "") || "/";
+
+    if (currentPath === nextPath) {
+      return;
+    }
+
+    const method = replace ? "replaceState" : "pushState";
+    window.history[method]({ personId }, "", nextPath);
+  }
+
   async function loadData() {
     const [personsResponse, locationsResponse] = await Promise.all([
       fetch(PERSONS_URL),
@@ -57,22 +147,24 @@ window.AppModel = (() => {
 
     state.personsById = personsPayload;
     state.filteredPersonIds = Object.keys(personsPayload).sort((a, b) => {
-      const leftSurname = personsPayload[a].name.surname.value.value;
-      const rightSurname = personsPayload[b].name.surname.value.value;
-      return leftSurname.localeCompare(rightSurname, "de");
+      return getPersonSortName(personsPayload[a]).localeCompare(
+        getPersonSortName(personsPayload[b]),
+        "de"
+      );
     });
     state.locationsById = locationsPayload;
     state.selectedPersonId = null;
+    state.appBasePath = getAppBasePath();
   }
 
   function formatTypedValue(typedValue) {
-    if (typedValue.type === "List") {
-      return typedValue.value
-        .map((entry) => (typeof entry === "object" ? entry.value : entry))
-        .join(", ");
+    const value = unwrapTypedValue(typedValue);
+
+    if (Array.isArray(value)) {
+      return value.join(", ");
     }
 
-    return typedValue.value;
+    return value ?? "";
   }
 
   function formatFeatureTime(timeObject) {
@@ -91,7 +183,7 @@ window.AppModel = (() => {
     return "";
   }
 
-  function ationNameForFeature(feature) {
+  function getLocationNameForFeature(feature) {
     const [featureLongitude, featureLatitude] = feature.geometry.coordinates;
 
     for (const location of Object.values(state.locationsById)) {
@@ -99,11 +191,11 @@ window.AppModel = (() => {
         continue;
       }
 
-      const locationLongitude = location.longitude.value.value;
-      const locationLatitude = location.latitude.value.value;
+      const locationLongitude = getFieldValue(location.longitude);
+      const locationLatitude = getFieldValue(location.latitude);
 
       if (locationLongitude === featureLongitude && locationLatitude === featureLatitude) {
-        return location.name.value.value;
+        return getFieldValue(location.name);
       }
     }
 
@@ -119,7 +211,7 @@ window.AppModel = (() => {
 
         return {
           type: feature.featureType === "place_of_effect" ? "activity" : feature.featureType,
-          title: feature.featureType,
+          title: getLocationNameForFeature(feature) || feature.featureType,
           subtitle: [
             formatFeatureTime(feature.time),
             feature.properties.institution,
@@ -232,6 +324,10 @@ window.AppModel = (() => {
     MARKER_COLORS,
     LINK_ICONS,
     loadData,
+    getFieldValue,
+    getPersonSortName,
+    getRoutePersonId,
+    updateSelectedPersonUrl,
     formatTypedValue,
     formatFeatureTime,
     getPlacesYearExtent,

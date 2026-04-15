@@ -1,5 +1,5 @@
 window.AppView = (() => {
-  const { state, MARKER_COLORS, LINK_ICONS } = window.AppModel;
+  const { state, MARKER_COLORS, LINK_ICONS, getFieldValue } = window.AppModel;
 
   const DOM = {
     loading: document.getElementById("loading-state"),
@@ -29,7 +29,7 @@ window.AppView = (() => {
 
     state.filteredPersonIds.forEach((personId) => {
       const record = state.personsById[personId];
-      const name = record.name.preferred.value.value;
+      const name = getFieldValue(record.name.preferred);
       const button = document.createElement("button");
       button.type = "button";
       button.className =
@@ -72,12 +72,12 @@ window.AppView = (() => {
   }
 
   function renderMetadata(personId, record) {
-    const preferredName = record.name.preferred.value.value;
+    const preferredName = getFieldValue(record.name.preferred);
     const metadataItems = [
       [record.name.preferred.label, preferredName],
       [
         "member_of_moravians" in record ? record.member_of_moravians.label : "",
-        "member_of_moravians" in record ? record.member_of_moravians.value.value.map((entry) => entry.value) : "",
+        "member_of_moravians" in record ? getFieldValue(record.member_of_moravians) : "",
       ],
       [
         "birth" in record ? "Geburt" : "",
@@ -102,7 +102,7 @@ window.AppView = (() => {
   }
 
   function renderArticle(personId, record) {
-    const preferredName = record.name.preferred.value.value;
+    const preferredName = getFieldValue(record.name.preferred);
     const botanySections = buildBotanySections(record);
     const activityCount = record.life_trajectory.features.filter(
       (feature) => feature.featureType === "place_of_effect"
@@ -168,13 +168,7 @@ window.AppView = (() => {
   }
 
   function formatBotanyFieldValue(field) {
-    if (field.value.type !== "List") {
-      return window.AppModel.formatTypedValue(field.value);
-    }
-
-    return field.value.value.map((entry) =>
-      typeof entry === "object" ? entry.value : entry
-    );
+    return getFieldValue(field);
   }
 
   function renderArticleValue(value) {
@@ -190,7 +184,9 @@ window.AppView = (() => {
   }
 
   function renderLinks(record) {
-    const linkEntries = Object.entries(record.links).filter(([, field]) => field);
+    const linkEntries = Object.entries(record.links || {}).filter(
+      ([, field]) => field && getFieldValue(field)
+    );
 
     if (linkEntries.length === 0) {
       DOM.links.innerHTML =
@@ -200,7 +196,7 @@ window.AppView = (() => {
 
     const inlineLinks = linkEntries
       .map(([key, field]) => {
-        const url = field.value.value;
+        const url = getFieldValue(field);
         const linkLabel = buildLinkLabel(key, field);
 
         return `
@@ -244,12 +240,12 @@ window.AppView = (() => {
   function formatLifeEventValue(eventRecord) {
     const parts = [
       appendNotes(
-        "date" in eventRecord ? eventRecord.date.value.value : "",
-        "date_notes" in eventRecord ? eventRecord.date_notes.value.value : ""
+        "date" in eventRecord ? getFieldValue(eventRecord.date) : "",
+        "date_notes" in eventRecord ? getFieldValue(eventRecord.date_notes) : ""
       ),
       appendNotesHtml(
         formatLocationField(eventRecord),
-        "location_notes" in eventRecord ? eventRecord.location_notes.value.value : ""
+        "location_notes" in eventRecord ? getFieldValue(eventRecord.location_notes) : ""
       ),
     ].filter(Boolean);
 
@@ -261,7 +257,7 @@ window.AppView = (() => {
       return "";
     }
 
-    return eventRecord.location.value.value;
+    return getFieldValue(eventRecord.location);
   }
 
   function appendNotes(value, notes) {
@@ -414,16 +410,13 @@ window.AppView = (() => {
   }
 
   function renderMap(places) {
-    const hadFeatures = state.mapSource.getFeatures().length > 0;
     state.mapSource.clear();
     hidePopup();
 
     if (places.length === 0) {
       DOM.mapEmptyState.classList.remove("d-none");
-      if (!hadFeatures) {
-        state.map.getView().setCenter(ol.proj.fromLonLat([10, 20]));
-        state.map.getView().setZoom(2);
-      }
+      state.map.getView().setCenter(ol.proj.fromLonLat([10, 20]));
+      state.map.getView().setZoom(2);
       return;
     }
 
@@ -441,10 +434,6 @@ window.AppView = (() => {
     });
 
     state.mapSource.addFeatures(features);
-
-    if (hadFeatures) {
-      return;
-    }
 
     const extent = state.mapSource.getExtent();
     if (features.length === 1) {

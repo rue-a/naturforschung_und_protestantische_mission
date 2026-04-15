@@ -1,5 +1,6 @@
 from pathlib import Path
 
+from parsers import MORAVIAN_MEMBERSHIP_LABELS
 from projectlibs.py.postprocessors.utils import extract_field_value
 from projectlibs.py.enrich_utils import load_json
 
@@ -9,18 +10,6 @@ LITERATURE = load_json(Path("data/literature.json"))
 MANUSCRIPTS = load_json(Path("data/manuscripts.json"))
 ARCHIVES = load_json(Path("data/archives.json"))
 COLLECTIONS = load_json(Path("data/collections.json"))
-
-
-MORAVIAN_MEMBERSHIP_LABELS = {
-    "ja(a)": "qua Geburt und Erziehung, in einer Herrnhuter Gemeinschaft bzw. von Herrnhuter Eltern geboren und aufgewachsen",
-    "ja(b)": "als Erwachsene aufgenommen, z.B. Konvertitien oder Missionierte",
-    "ja(c)": "Übernahme von kirchlichen Ämtern innerhalb der Brüdergemeine",
-    "ja(d)": "Übernahme von Ämtern im Erziehungswesen der Brüdergemeine",
-    "nein(a)": "ausgetreten",
-    "nein(b)": "aber wichtig im Netzwerk",
-    "nein(c)": "um Verwechslung auszuschließen",
-    "unbekannt": "Zugehörigkeit kann nicht ausgeschlossen werden.",
-}
 
 
 def render_collection_id(collection_id, collections):
@@ -49,10 +38,6 @@ def render_collection_id(collection_id, collections):
         return f"{collection_text} ({institution})"
 
     return collection_text or collection_id
-
-
-def render_web_reference(url):
-    return f"(Web) {url}"
 
 
 def render_literature_id(literature_id, literature_table):
@@ -129,7 +114,7 @@ TYPE_RENDERERS = {
     "LocationID": lambda value: render_location_id(value, LOCATIONS),
     "CollectionID": lambda value: render_collection_id(value, COLLECTIONS),
     "PersonID": lambda value: render_person_id(value, PERSONS),
-    "URL": render_web_reference,
+    "URL": lambda value: value,
     "LiteratureID": lambda value: render_literature_id(value, LITERATURE),
     "ManuscriptID": lambda value: render_manuscript_id(value, MANUSCRIPTS, ARCHIVES),
     "MoravianMembership": lambda value: render_codelist_value(

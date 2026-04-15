@@ -58,27 +58,27 @@
             "wikidata": {
                 "excel-column-name": "Links - Wikidata",
                 "label": "Wikidata",
-                "value": "(Web) https://www.wikidata.org/wiki/Q62241"
+                "value": "https://www.wikidata.org/wiki/Q62241"
             },
             "gnd": {
                 "excel-column-name": "Links - GND",
                 "label": "GND",
-                "value": "(Web) https://d-nb.info/gnd/10041463X"
+                "value": "https://d-nb.info/gnd/10041463X"
             },
             "factgrid": {
                 "excel-column-name": "Links - FactGrid",
                 "label": "FactGrid",
-                "value": "(Web) https://database.factgrid.de/wiki/Item:Q703529"
+                "value": "https://database.factgrid.de/wiki/Item:Q703529"
             },
             "bionomia": {
                 "excel-column-name": "Links - Bionomia",
                 "label": "Bionomia",
-                "value": "(Web) https://bionomia.net/Q62241"
+                "value": "https://bionomia.net/Q62241"
             },
             "saebi": {
                 "excel-column-name": "Links - Säbi",
                 "label": "Sächsische Biografie",
-                "value": "(Web) https://saebi.isgv.de/person/snr/108"
+                "value": "https://saebi.isgv.de/person/snr/108"
             }
         },
         "moravian_curriculum_vitae": {
@@ -623,17 +623,17 @@
             "wikidata": {
                 "excel-column-name": "Links - Wikidata",
                 "label": "Wikidata",
-                "value": "(Web) https://www.wikidata.org/wiki/Q55874791"
+                "value": "https://www.wikidata.org/wiki/Q55874791"
             },
             "gnd": {
                 "excel-column-name": "Links - GND",
                 "label": "GND",
-                "value": "(Web) https://d-nb.info/gnd/12842026X"
+                "value": "https://d-nb.info/gnd/12842026X"
             },
             "bionomia": {
                 "excel-column-name": "Links - Bionomia",
                 "label": "Bionomia",
-                "value": "(Web) https://bionomia.net/Q55874791"
+                "value": "https://bionomia.net/Q55874791"
             }
         },
         "birth": {
@@ -1062,24 +1062,24 @@
             "wikidata": {
                 "excel-column-name": "Links - Wikidata",
                 "label": "Wikidata",
-                "value": "(Web) https://www.wikidata.org/wiki/Q21415674"
+                "value": "https://www.wikidata.org/wiki/Q21415674"
             },
             "bionomia": {
                 "excel-column-name": "Links - Bionomia",
                 "label": "Bionomia",
-                "value": "(Web) https://de.bionomia.net/Q21415674"
+                "value": "https://de.bionomia.net/Q21415674"
             },
             "gnd": {
                 "label": "Links - GND",
-                "value": "(Web) https://d-nb.info/gnd/116493763"
+                "value": "https://d-nb.info/gnd/116493763"
             },
             "factgrid": {
                 "label": "Links - FactGrid",
-                "value": "(Web) https://database.factgrid.de/wiki/Item:Q703514"
+                "value": "https://database.factgrid.de/wiki/Item:Q703514"
             },
             "saebi": {
                 "label": "Links - Säbi",
-                "value": "(Web) https://saebi.isgv.de/gnd/116493763"
+                "value": "https://saebi.isgv.de/gnd/116493763"
             }
         },
         "moravian_curriculum_vitae": {

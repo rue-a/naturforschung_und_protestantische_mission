@@ -1,5 +1,11 @@
 window.AppController = (() => {
-  const { state } = window.AppModel;
+  const {
+    state,
+    getFieldValue,
+    getPersonSortName,
+    getRoutePersonId,
+    updateSelectedPersonUrl,
+  } = window.AppModel;
   const { DOM } = window.AppView;
 
   async function initializeApp() {
@@ -9,18 +15,18 @@ window.AppController = (() => {
     window.AppView.renderBrowser();
     window.AppView.showApp();
 
-    const firstPersonButton = DOM.browser.querySelector("button");
-    if (firstPersonButton) {
-      firstPersonButton.click();
-      return;
+    const initialPersonId = getRoutePersonId() || state.filteredPersonIds[0];
+    if (initialPersonId) {
+      selectPerson(initialPersonId, { replaceUrl: true });
+    } else {
+      renderApp();
     }
-
-    renderApp();
   }
 
   function bindEvents() {
     DOM.searchInput.addEventListener("input", handleSearch);
     DOM.mapTimeSlider.addEventListener("input", handleMapTimeInput);
+    window.addEventListener("popstate", handlePopState);
   }
 
   function handleSearch(event) {
@@ -28,17 +34,18 @@ window.AppController = (() => {
 
     state.filteredPersonIds = Object.keys(state.personsById)
       .sort((a, b) => {
-        const leftSurname = state.personsById[a].name.surname.value.value;
-        const rightSurname = state.personsById[b].name.surname.value.value;
-        return leftSurname.localeCompare(rightSurname, "de");
+        return getPersonSortName(state.personsById[a]).localeCompare(
+          getPersonSortName(state.personsById[b]),
+          "de"
+        );
       })
       .filter((personId) => {
       const record = state.personsById[personId];
       const haystack = [
         personId,
-        record.name.preferred.value.value,
-        "surname" in record.name ? record.name.surname.value.value : "",
-        "given_name" in record.name ? record.name.given_name.value.value : "",
+        getFieldValue(record.name.preferred),
+        "surname" in record.name ? getFieldValue(record.name.surname) : "",
+        "given_name" in record.name ? getFieldValue(record.name.given_name) : "",
       ]
         .filter(Boolean)
         .join(" ")
@@ -50,15 +57,37 @@ window.AppController = (() => {
     renderApp();
   }
 
-  function selectPerson(personId) {
+  function selectPerson(personId, { updateUrl = true, replaceUrl = false } = {}) {
     state.selectedPersonId = personId;
     state.mapTimeYear = null;
+
+    if (updateUrl) {
+      updateSelectedPersonUrl(personId, { replace: replaceUrl });
+    }
+
     renderApp();
   }
 
   function handleMapTimeInput(event) {
     state.mapTimeYear = Number(event.target.value);
     window.AppView.renderSelectedPerson();
+  }
+
+  function handlePopState() {
+    const routePersonId = getRoutePersonId();
+
+    if (routePersonId) {
+      selectPerson(routePersonId, { updateUrl: false });
+      return;
+    }
+
+    if (state.filteredPersonIds[0]) {
+      selectPerson(state.filteredPersonIds[0], { replaceUrl: true });
+      return;
+    }
+
+    state.selectedPersonId = null;
+    renderApp();
   }
 
   function renderApp() {
