@@ -300,7 +300,7 @@
                             "values": [
                                 {
                                     "type": "ISO8601_2_Temporal",
-                                    "value": "1789/"
+                                    "value": "1789/1796"
                                 },
                                 {
                                     "type": "LocationID",
@@ -706,6 +706,204 @@
                 }
             }
         },
+        "places_of_effect": {
+            "excel-column-name": "Wirkungsorte",
+            "label": "Wirkungsorte",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1736/1739"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L0300000"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Universität"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Student"
+                                }
+                            ],
+                            "source": {
+                                "type": "ManuscriptID",
+                                "value": "M0004100"
+                            }
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1747/1749"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L1800000"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Seminar"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Lehrer"
+                                }
+                            ],
+                            "source": {
+                                "type": "ManuscriptID",
+                                "value": "M0004100"
+                            }
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1749/1750"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L0200000"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Seminar"
+                                },
+                                {
+                                    "type": "Null",
+                                    "value": null
+                                }
+                            ],
+                            "source": {
+                                "type": "ManuscriptID",
+                                "value": "M0004100"
+                            }
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1750/1760"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L1103500"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Pädagogium"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Lehrer"
+                                }
+                            ],
+                            "source": {
+                                "type": "ManuscriptID",
+                                "value": "M0004100"
+                            }
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1760/1764"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L2200000"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Knabenanstalt"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Inspektor"
+                                }
+                            ],
+                            "source": {
+                                "type": "ManuscriptID",
+                                "value": "M0004100"
+                            }
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1764/1766"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L0200000"
+                                },
+                                {
+                                    "type": "Null",
+                                    "value": null
+                                },
+                                {
+                                    "type": "Null",
+                                    "value": null
+                                }
+                            ],
+                            "source": {
+                                "type": "ManuscriptID",
+                                "value": "M0004100"
+                            }
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                {
+                                    "type": "ISO8601_2_Temporal",
+                                    "value": "1766/1789"
+                                },
+                                {
+                                    "type": "LocationID",
+                                    "value": "L0200000"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Seminar"
+                                },
+                                {
+                                    "type": "String",
+                                    "value": "Lehrer u. Vorsteher"
+                                }
+                            ],
+                            "source": {
+                                "type": "ManuscriptID",
+                                "value": "M0004100"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
         "botany": {
             "focuses": {
                 "excel-column-name": "Botanik - Foki",
@@ -952,7 +1150,7 @@
                 "label": "Tod - Ort - Anmerkungen",
                 "value": {
                     "type": "String",
-                    "value": "Laut Wikidata gestorben in Berthelsdorf, laut GND in Herrnhut."
+                    "value": "Laut Wikidata gestorben in Berthelsdorf bei Herrnhut, laut GND in Herrnhut."
                 }
             }
         },

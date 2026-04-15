@@ -3,10 +3,7 @@
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
-            "value": {
-                "type": "PersonID",
-                "value": "P0010000"
-            }
+            "value": "Johann Baptist von Albertini"
         },
         "include_in_person_lexicon": {
             "excel-column-name": "Übernahme in Personenlexikon",
@@ -20,26 +17,17 @@
             "preferred": {
                 "excel-column-name": "Name - Vorzugsname",
                 "label": "Bevorzugter Name",
-                "value": {
-                    "type": "String",
-                    "value": "Johann Baptist von Albertini"
-                }
+                "value": "Johann Baptist von Albertini"
             },
             "surname": {
                 "excel-column-name": "Name - Nachname(n)",
                 "label": "Nachname",
-                "value": {
-                    "type": "String",
-                    "value": "Albertini"
-                }
+                "value": "Albertini"
             },
             "given_name": {
                 "excel-column-name": "Name - Vorname(n)",
                 "label": "Vorname",
-                "value": {
-                    "type": "String",
-                    "value": "Johann Baptist von"
-                }
+                "value": "Johann Baptist von"
             }
         },
         "relatives": {
@@ -49,10 +37,7 @@
                 "value": {
                     "type": "List",
                     "value": [
-                        {
-                            "type": "PersonID",
-                            "value": "P0011000"
-                        }
+                        "P0011000"
                     ]
                 }
             }
@@ -63,18 +48,9 @@
             "value": {
                 "type": "List",
                 "value": [
-                    {
-                        "type": "String",
-                        "value": "qua Geburt und Erziehung, in einer Herrnhuter Gemeinschaft bzw. von Herrnhuter Eltern geboren und aufgewachsen"
-                    },
-                    {
-                        "type": "String",
-                        "value": "als Erwachsene aufgenommen, z.B. Konvertitien oder Missionierte"
-                    },
-                    {
-                        "type": "String",
-                        "value": "Übernahme von kirchlichen Ämtern innerhalb der Brüdergemeine"
-                    }
+                    "ja(a)",
+                    "ja(b)",
+                    "ja(c)"
                 ]
             }
         },
@@ -114,46 +90,24 @@
             "date": {
                 "excel-column-name": "Geburt - Datum",
                 "label": "Geburt - Datum",
-                "value": {
-                    "type": "ISO8601_2_Date",
-                    "value": "1769-02-17",
-                    "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
-                }
+                "value": "1769-02-17"
             },
             "location": {
                 "excel-column-name": "Geburt - Ort",
                 "label": "Geburt - Ort",
-                "value": {
-                    "type": "String",
-                    "value": "<a href=\"https://www.wikidata.org/wiki/Q3967\">Neuwied</a>",
-                    "source": {
-                        "type": "LiteratureID",
-                        "value": "R0001500"
-                    }
-                }
+                "value": "<a href=\"https://www.wikidata.org/wiki/Q3967\">Neuwied</a>"
             }
         },
         "death": {
             "date": {
                 "excel-column-name": "Tod - Datum",
                 "label": "Tod - Datum",
-                "value": {
-                    "type": "ISO8601_2_Date",
-                    "value": "1831-12-06",
-                    "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
-                }
+                "value": "1831-12-06"
             },
             "location": {
                 "excel-column-name": "Tod - Ort",
                 "label": "Tod - Ort",
-                "value": {
-                    "type": "String",
-                    "value": "<a href=\"https://www.wikidata.org/wiki/Q502553\">Berthelsdorf</a>",
-                    "source": {
-                        "type": "LiteratureID",
-                        "value": "R0001500"
-                    }
-                }
+                "value": "<a href=\"https://www.wikidata.org/wiki/Q502553\">Berthelsdorf</a>"
             }
         },
         "places_of_effect": {
@@ -166,22 +120,10 @@
                         "type": "ComplexType",
                         "value": {
                             "values": [
-                                {
-                                    "type": "ISO8601_2_Temporal",
-                                    "value": "1773/1782"
-                                },
-                                {
-                                    "type": "LocationID",
-                                    "value": "L2200000"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Knabenanstalt"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Schüler"
-                                }
+                                "1773/1782",
+                                "<a href=\"https://www.wikidata.org/wiki/Q3967\">Neuwied</a>",
+                                "Knabenanstalt",
+                                "Schüler"
                             ],
                             "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
                         }
@@ -190,22 +132,10 @@
                         "type": "ComplexType",
                         "value": {
                             "values": [
-                                {
-                                    "type": "ISO8601_2_Temporal",
-                                    "value": "1782/1785"
-                                },
-                                {
-                                    "type": "LocationID",
-                                    "value": "L2250000"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Pädagogium"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Schüler"
-                                }
+                                "1782/1785",
+                                "<a href=\"https://www.wikidata.org/wiki/Q165160\">Niesky</a>",
+                                "Pädagogium",
+                                "Schüler"
                             ],
                             "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
                         }
@@ -214,22 +144,10 @@
                         "type": "ComplexType",
                         "value": {
                             "values": [
-                                {
-                                    "type": "ISO8601_2_Temporal",
-                                    "value": "1785/1788"
-                                },
-                                {
-                                    "type": "LocationID",
-                                    "value": "L0200000"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Seminar"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Schüler"
-                                }
+                                "1785/1788",
+                                "<a href=\"https://www.wikidata.org/wiki/Q530185\">Barby</a>",
+                                "Seminar",
+                                "Schüler"
                             ],
                             "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
                         }
@@ -238,22 +156,10 @@
                         "type": "ComplexType",
                         "value": {
                             "values": [
-                                {
-                                    "type": "ISO8601_2_Temporal",
-                                    "value": "1788/1789"
-                                },
-                                {
-                                    "type": "LocationID",
-                                    "value": "L2250000"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Kinderanstalt"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Lehrer"
-                                }
+                                "1788/1789",
+                                "<a href=\"https://www.wikidata.org/wiki/Q165160\">Niesky</a>",
+                                "Kinderanstalt",
+                                "Lehrer"
                             ],
                             "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
                         }
@@ -262,22 +168,10 @@
                         "type": "ComplexType",
                         "value": {
                             "values": [
-                                {
-                                    "type": "ISO8601_2_Temporal",
-                                    "value": "1789/"
-                                },
-                                {
-                                    "type": "LocationID",
-                                    "value": "L0200000"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Pädagogium"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Lehrer"
-                                }
+                                "1789/1796",
+                                "<a href=\"https://www.wikidata.org/wiki/Q530185\">Barby</a>",
+                                "Pädagogium",
+                                "Lehrer"
                             ],
                             "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
                         }
@@ -286,22 +180,10 @@
                         "type": "ComplexType",
                         "value": {
                             "values": [
-                                {
-                                    "type": "ISO8601_2_Temporal",
-                                    "value": "1796/1808"
-                                },
-                                {
-                                    "type": "LocationID",
-                                    "value": "L2250000"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Seminar"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Dozent, Inspektor, Prediger"
-                                }
+                                "1796/1808",
+                                "<a href=\"https://www.wikidata.org/wiki/Q165160\">Niesky</a>",
+                                "Seminar",
+                                "Dozent, Inspektor, Prediger"
                             ],
                             "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
                         }
@@ -310,22 +192,10 @@
                         "type": "ComplexType",
                         "value": {
                             "values": [
-                                {
-                                    "type": "ISO8601_2_Temporal",
-                                    "value": "1814"
-                                },
-                                {
-                                    "type": "LocationID",
-                                    "value": "L1000000"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Mädchenanstalt"
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Prediger, Lehrer"
-                                }
+                                "1814",
+                                "<a href=\"https://www.wikidata.org/wiki/Q65162110\">Gnadenberg</a>",
+                                "Mädchenanstalt",
+                                "Prediger, Lehrer"
                             ],
                             "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
                         }
@@ -334,22 +204,10 @@
                         "type": "ComplexType",
                         "value": {
                             "values": [
-                                {
-                                    "type": "ISO8601_2_Temporal",
-                                    "value": "1818"
-                                },
-                                {
-                                    "type": "LocationID",
-                                    "value": "L1100000"
-                                },
-                                {
-                                    "type": "Null",
-                                    "value": null
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Prediger"
-                                }
+                                "1818",
+                                "<a href=\"https://www.wikidata.org/wiki/Q986091\">Gnadenfrei</a>",
+                                "",
+                                "Prediger"
                             ],
                             "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
                         }
@@ -358,22 +216,10 @@
                         "type": "ComplexType",
                         "value": {
                             "values": [
-                                {
-                                    "type": "ISO8601_2_Temporal",
-                                    "value": "1821"
-                                },
-                                {
-                                    "type": "LocationID",
-                                    "value": "L0400000"
-                                },
-                                {
-                                    "type": "Null",
-                                    "value": null
-                                },
-                                {
-                                    "type": "String",
-                                    "value": "Mitglied Ältestenkonferenz"
-                                }
+                                "1821",
+                                "<a href=\"https://www.wikidata.org/wiki/Q502553\">Berthelsdorf</a>",
+                                "",
+                                "Mitglied Ältestenkonferenz"
                             ],
                             "source": "(Druck) Anonym: Lebenslauf , in: Nachrichten aus der Brüdergemeine Hf. 2 (1832), S. 157-171. | https://dai.mun.ca/PDFs/nachrichten/NachrichtenausderBrudergemeine1832Issue02.pdf | anonymer Lebenslauf"
                         }
@@ -388,22 +234,10 @@
                 "value": {
                     "type": "List",
                     "value": [
-                        {
-                            "type": "String",
-                            "value": "Pilze"
-                        },
-                        {
-                            "type": "String",
-                            "value": "Farne"
-                        },
-                        {
-                            "type": "String",
-                            "value": "Orchideen"
-                        },
-                        {
-                            "type": "String",
-                            "value": "Asperifolien der Oberlausitz"
-                        }
+                        "Pilze",
+                        "Farne",
+                        "Orchideen",
+                        "Asperifolien der Oberlausitz"
                     ]
                 }
             },
@@ -622,7 +456,7 @@
                     "time": {
                         "interval": [
                             "1789",
-                            ".."
+                            "1796"
                         ]
                     },
                     "properties": {
@@ -742,10 +576,7 @@
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
-            "value": {
-                "type": "PersonID",
-                "value": "P0170000"
-            }
+            "value": "Johann Jakob Bossart"
         },
         "include_in_person_lexicon": {
             "excel-column-name": "Übernahme in Personenlexikon",
@@ -759,34 +590,22 @@
             "preferred": {
                 "excel-column-name": "Name - Vorzugsname",
                 "label": "Bevorzugter Name",
-                "value": {
-                    "type": "String",
-                    "value": "Johann Jakob Bossart"
-                }
+                "value": "Johann Jakob Bossart"
             },
             "surname": {
                 "excel-column-name": "Name - Nachname(n)",
                 "label": "Nachname",
-                "value": {
-                    "type": "String",
-                    "value": "Bossart"
-                }
+                "value": "Bossart"
             },
             "given_name": {
                 "excel-column-name": "Name - Vorname(n)",
                 "label": "Vorname",
-                "value": {
-                    "type": "String",
-                    "value": "Johann Jakob Bossart"
-                }
+                "value": "Johann Jakob Bossart"
             },
             "notes": {
                 "excel-column-name": "Name - Anmerkungen",
                 "label": "Anmerkungen",
-                "value": {
-                    "type": "String",
-                    "value": "auch Jacob"
-                }
+                "value": "auch Jacob"
             }
         },
         "member_of_moravians": {
@@ -795,14 +614,8 @@
             "value": {
                 "type": "List",
                 "value": [
-                    {
-                        "type": "String",
-                        "value": "als Erwachsene aufgenommen, z.B. Konvertitien oder Missionierte"
-                    },
-                    {
-                        "type": "String",
-                        "value": "Übernahme von Ämtern im Erziehungswesen der Brüdergemeine"
-                    }
+                    "ja(b)",
+                    "ja(d)"
                 ]
             }
         },
@@ -827,46 +640,117 @@
             "date": {
                 "excel-column-name": "Geburt - Datum",
                 "label": "Geburt - Datum",
-                "value": {
-                    "type": "ISO8601_2_Date",
-                    "value": "1721-04-17",
-                    "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | R.22.27.07 | Lebenslauf Johann Jacob Bossart | Lebenslauf von Bossart, etwas ausführlicher als M0004100"
-                }
+                "value": "1721-04-17"
             },
             "location": {
                 "excel-column-name": "Geburt - Ort",
                 "label": "Geburt - Ort",
-                "value": {
-                    "type": "String",
-                    "value": "<a href=\"https://www.wikidata.org/wiki/Q78\">Basel</a>",
-                    "source": {
-                        "type": "ManuscriptID",
-                        "value": "M0004000"
-                    }
-                }
+                "value": "<a href=\"https://www.wikidata.org/wiki/Q78\">Basel</a>"
             }
         },
         "death": {
             "date": {
                 "excel-column-name": "Tod - Datum",
                 "label": "Tod - Datum",
-                "value": {
-                    "type": "ISO8601_2_Date",
-                    "value": "1789-11-13",
-                    "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | R.22.27.07 | Lebenslauf Johann Jacob Bossart | Lebenslauf von Bossart, etwas ausführlicher als M0004100"
-                }
+                "value": "1789-11-13"
             },
             "location": {
                 "excel-column-name": "Tod - Ort",
                 "label": "Tod - Ort",
-                "value": {
-                    "type": "String",
-                    "value": "<a href=\"https://www.wikidata.org/wiki/Q530185\">Barby</a>",
-                    "source": {
-                        "type": "ManuscriptID",
-                        "value": "M0004000"
+                "value": "<a href=\"https://www.wikidata.org/wiki/Q530185\">Barby</a>"
+            }
+        },
+        "places_of_effect": {
+            "excel-column-name": "Wirkungsorte",
+            "label": "Wirkungsorte",
+            "value": {
+                "type": "List",
+                "value": [
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                "1736/1739",
+                                "<a href=\"https://www.wikidata.org/wiki/Q78\">Basel</a>",
+                                "Universität",
+                                "Student"
+                            ],
+                            "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | GN.A.256 | 3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526 | http://digital.slub-dresden.de/id1789541689/508 | Lebenslauf von Bossart, weitgehend idetnisch mit M0004000"
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                "1747/1749",
+                                "Marienborn",
+                                "Seminar",
+                                "Lehrer"
+                            ],
+                            "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | GN.A.256 | 3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526 | http://digital.slub-dresden.de/id1789541689/508 | Lebenslauf von Bossart, weitgehend idetnisch mit M0004000"
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                "1749/1750",
+                                "<a href=\"https://www.wikidata.org/wiki/Q530185\">Barby</a>",
+                                "Seminar",
+                                ""
+                            ],
+                            "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | GN.A.256 | 3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526 | http://digital.slub-dresden.de/id1789541689/508 | Lebenslauf von Bossart, weitgehend idetnisch mit M0004000"
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                "1750/1760",
+                                "<a href=\"https://www.wikidata.org/wiki/Q502696\">Großhennerdorf</a>",
+                                "Pädagogium",
+                                "Lehrer"
+                            ],
+                            "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | GN.A.256 | 3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526 | http://digital.slub-dresden.de/id1789541689/508 | Lebenslauf von Bossart, weitgehend idetnisch mit M0004000"
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                "1760/1764",
+                                "<a href=\"https://www.wikidata.org/wiki/Q3967\">Neuwied</a>",
+                                "Knabenanstalt",
+                                "Inspektor"
+                            ],
+                            "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | GN.A.256 | 3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526 | http://digital.slub-dresden.de/id1789541689/508 | Lebenslauf von Bossart, weitgehend idetnisch mit M0004000"
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                "1764/1766",
+                                "<a href=\"https://www.wikidata.org/wiki/Q530185\">Barby</a>",
+                                "",
+                                ""
+                            ],
+                            "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | GN.A.256 | 3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526 | http://digital.slub-dresden.de/id1789541689/508 | Lebenslauf von Bossart, weitgehend idetnisch mit M0004000"
+                        }
+                    },
+                    {
+                        "type": "ComplexType",
+                        "value": {
+                            "values": [
+                                "1766/1789",
+                                "<a href=\"https://www.wikidata.org/wiki/Q530185\">Barby</a>",
+                                "Seminar",
+                                "Lehrer u. Vorsteher"
+                            ],
+                            "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | GN.A.256 | 3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526 | http://digital.slub-dresden.de/id1789541689/508 | Lebenslauf von Bossart, weitgehend idetnisch mit M0004000"
+                        }
                     }
-                }
+                ]
             }
         },
         "botany": {
@@ -876,10 +760,7 @@
                 "value": {
                     "type": "List",
                     "value": [
-                        {
-                            "type": "String",
-                            "value": "Barby Lokalflora"
-                        }
+                        "Barby Lokalflora"
                     ]
                 }
             },
@@ -896,10 +777,7 @@
             "contribution_to_collections_notes": {
                 "excel-column-name": "Botanik - Beitrag zu Sammlungen - Anmerkungen",
                 "label": "Botanik - Beitrag zu Sammlungen - Anmerkungen",
-                "value": {
-                    "type": "String",
-                    "value": "Kurator C-Barby"
-                }
+                "value": "Kurator C-Barby"
             },
             "manuscripts_by_person": {
                 "excel-column-name": "Botanik - Manuskripte der Person",
@@ -972,6 +850,168 @@
                             "founder": null
                         }
                     }
+                },
+                {
+                    "type": "Feature",
+                    "featureType": "place_of_effect",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            7.5905555555556,
+                            47.560555555556
+                        ]
+                    },
+                    "time": {
+                        "interval": [
+                            "1736",
+                            "1739"
+                        ]
+                    },
+                    "properties": {
+                        "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | GN.A.256 | 3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526 | http://digital.slub-dresden.de/id1789541689/508 | Lebenslauf von Bossart, weitgehend idetnisch mit M0004000",
+                        "place": {
+                            "start": null,
+                            "end": null,
+                            "founder": null
+                        },
+                        "institution": "Universität",
+                        "occupation": "Student"
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "featureType": "place_of_effect",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            11.8838245,
+                            51.9667595
+                        ]
+                    },
+                    "time": {
+                        "interval": [
+                            "1749",
+                            "1750"
+                        ]
+                    },
+                    "properties": {
+                        "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | GN.A.256 | 3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526 | http://digital.slub-dresden.de/id1789541689/508 | Lebenslauf von Bossart, weitgehend idetnisch mit M0004000",
+                        "place": {
+                            "start": null,
+                            "end": null,
+                            "founder": null
+                        },
+                        "institution": "Seminar",
+                        "occupation": null
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "featureType": "place_of_effect",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            14.793333333333,
+                            50.990833333333
+                        ]
+                    },
+                    "time": {
+                        "interval": [
+                            "1750",
+                            "1760"
+                        ]
+                    },
+                    "properties": {
+                        "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | GN.A.256 | 3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526 | http://digital.slub-dresden.de/id1789541689/508 | Lebenslauf von Bossart, weitgehend idetnisch mit M0004000",
+                        "place": {
+                            "start": null,
+                            "end": null,
+                            "founder": null
+                        },
+                        "institution": "Pädagogium",
+                        "occupation": "Lehrer"
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "featureType": "place_of_effect",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            7.4613888888889,
+                            50.428611111111
+                        ]
+                    },
+                    "time": {
+                        "interval": [
+                            "1760",
+                            "1764"
+                        ]
+                    },
+                    "properties": {
+                        "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | GN.A.256 | 3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526 | http://digital.slub-dresden.de/id1789541689/508 | Lebenslauf von Bossart, weitgehend idetnisch mit M0004000",
+                        "place": {
+                            "start": "1653",
+                            "end": null,
+                            "founder": null
+                        },
+                        "institution": "Knabenanstalt",
+                        "occupation": "Inspektor"
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "featureType": "place_of_effect",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            11.8838245,
+                            51.9667595
+                        ]
+                    },
+                    "time": {
+                        "interval": [
+                            "1764",
+                            "1766"
+                        ]
+                    },
+                    "properties": {
+                        "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | GN.A.256 | 3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526 | http://digital.slub-dresden.de/id1789541689/508 | Lebenslauf von Bossart, weitgehend idetnisch mit M0004000",
+                        "place": {
+                            "start": null,
+                            "end": null,
+                            "founder": null
+                        },
+                        "institution": null,
+                        "occupation": null
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "featureType": "place_of_effect",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            11.8838245,
+                            51.9667595
+                        ]
+                    },
+                    "time": {
+                        "interval": [
+                            "1766",
+                            "1789"
+                        ]
+                    },
+                    "properties": {
+                        "source": "(Manuscript) Unitätsarchiv Herrnhut (Germany) | GN.A.256 | 3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526 | http://digital.slub-dresden.de/id1789541689/508 | Lebenslauf von Bossart, weitgehend idetnisch mit M0004000",
+                        "place": {
+                            "start": null,
+                            "end": null,
+                            "founder": null
+                        },
+                        "institution": "Seminar",
+                        "occupation": "Lehrer u. Vorsteher"
+                    }
                 }
             ]
         }
@@ -980,10 +1020,7 @@
         "id": {
             "excel-column-name": "ID",
             "label": "ID",
-            "value": {
-                "type": "PersonID",
-                "value": "P0220000"
-            }
+            "value": "Johann Christian Breutel"
         },
         "include_in_person_lexicon": {
             "excel-column-name": "Übernahme in Personenlexikon",
@@ -997,26 +1034,17 @@
             "preferred": {
                 "excel-column-name": "Name - Vorzugsname",
                 "label": "Bevorzugter Name",
-                "value": {
-                    "type": "String",
-                    "value": "Johann Christian Breutel"
-                }
+                "value": "Johann Christian Breutel"
             },
             "surname": {
                 "excel-column-name": "Name - Nachname(n)",
                 "label": "Nachname",
-                "value": {
-                    "type": "String",
-                    "value": "Breutel"
-                }
+                "value": "Breutel"
             },
             "given_name": {
                 "excel-column-name": "Name - Vorname(n)",
                 "label": "Vorname",
-                "value": {
-                    "type": "String",
-                    "value": "Johann Christian"
-                }
+                "value": "Johann Christian"
             }
         },
         "member_of_moravians": {
@@ -1025,14 +1053,8 @@
             "value": {
                 "type": "List",
                 "value": [
-                    {
-                        "type": "String",
-                        "value": "qua Geburt und Erziehung, in einer Herrnhuter Gemeinschaft bzw. von Herrnhuter Eltern geboren und aufgewachsen"
-                    },
-                    {
-                        "type": "String",
-                        "value": "Übernahme von kirchlichen Ämtern innerhalb der Brüdergemeine"
-                    }
+                    "ja(a)",
+                    "ja(c)"
                 ]
             }
         },
@@ -1069,54 +1091,29 @@
             "date": {
                 "excel-column-name": "Geburt - Datum",
                 "label": "Geburt - Datum",
-                "value": {
-                    "type": "ISO8601_2_Date",
-                    "value": "1788-01-21",
-                    "source": "(Druck) : Lebenslauf Johann Christian Breutel In: Nachrichten aus der Brüder-Gemeine (9), 1875, S. 755-788 | https://collections.mun.ca/digital/collection/nachrichten/id/1119/rec/1"
-                }
+                "value": "1788-01-21"
             },
             "location": {
                 "excel-column-name": "Geburt - Ort",
                 "label": "Geburt - Ort",
-                "value": {
-                    "type": "String",
-                    "value": "<a href=\"https://www.wikidata.org/wiki/Q44500\">Weißenburg in Bayern</a>",
-                    "source": {
-                        "type": "LiteratureID",
-                        "value": "R0002500"
-                    }
-                }
+                "value": "<a href=\"https://www.wikidata.org/wiki/Q44500\">Weißenburg in Bayern</a>"
             }
         },
         "death": {
             "date": {
                 "excel-column-name": "Tod - Datum",
                 "label": "Tod - Datum",
-                "value": {
-                    "type": "ISO8601_2_Date",
-                    "value": "1875-02-18",
-                    "source": "(Druck) : Lebenslauf Johann Christian Breutel In: Nachrichten aus der Brüder-Gemeine (9), 1875, S. 755-788 | https://collections.mun.ca/digital/collection/nachrichten/id/1119/rec/1"
-                }
+                "value": "1875-02-18"
             },
             "location": {
                 "excel-column-name": "Tod - Ort",
                 "label": "Tod - Ort",
-                "value": {
-                    "type": "String",
-                    "value": "<a href=\"https://www.wikidata.org/wiki/Q502553\">Berthelsdorf</a>",
-                    "source": {
-                        "type": "URL",
-                        "value": "https://saebi.isgv.de/biografie/Johann_Christian_Breutel_(1788-1875)"
-                    }
-                }
+                "value": "<a href=\"https://www.wikidata.org/wiki/Q502553\">Berthelsdorf</a>"
             },
             "location_notes": {
                 "excel-column-name": "Tod - Ort - Anmerkungen",
                 "label": "Tod - Ort - Anmerkungen",
-                "value": {
-                    "type": "String",
-                    "value": "Laut Wikidata gestorben in Berthelsdorf, laut GND in Herrnhut."
-                }
+                "value": "Laut Wikidata gestorben in Berthelsdorf bei Herrnhut, laut GND in Herrnhut."
             }
         },
         "botany": {
@@ -1126,18 +1123,9 @@
                 "value": {
                     "type": "List",
                     "value": [
-                        {
-                            "type": "String",
-                            "value": "Moosforschung"
-                        },
-                        {
-                            "type": "String",
-                            "value": "Kryptogamenkunde"
-                        },
-                        {
-                            "type": "String",
-                            "value": "Bryologie"
-                        }
+                        "Moosforschung",
+                        "Kryptogamenkunde",
+                        "Bryologie"
                     ]
                 }
             },

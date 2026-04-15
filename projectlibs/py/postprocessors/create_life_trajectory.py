@@ -1,4 +1,9 @@
+from pathlib import Path
+
 from projectlibs.py.postprocessors.utils import extract_field_value
+from projectlibs.py.enrich_utils import load_json
+
+LOCATIONS = load_json(Path("data/locations.json"))
 
 
 def extract_field_source(field):
@@ -99,10 +104,10 @@ def build_place_properties(location_id, locations_by_id):
     return place_properties
 
 
-def create_person_life_trajectory(person_record, tables):
+def create_person_life_trajectory(person_record):
     person_id = extract_field_value(person_record["id"])
     person_name = extract_field_value(person_record["name"]["preferred"])
-    locations_by_id = tables["locations"]
+    locations_by_id = LOCATIONS
 
     features = []
 

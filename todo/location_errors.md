@@ -16,6 +16,14 @@
  _Missing reference for complex value_
 > Piława Górna |Peilau | Oberpeilau | Obermittelpeilau 
 
+- [ ] __L1101000, Varianten__:
+ _Invalid Reference value: 'Kreis Cosel, Oberschlesien' (should be URL, R-ID, or M-ID)_
+> Pawlowitzke (Kreis Cosel, Oberschlesien) |Pawłowiczki (Powiat Kędzierzyńsko-Kozielski, Woiwodschaft Oppeln, Polen)
+
+- [ ] __L1101000, Wikidata__:
+ _URL must start with 'http://' or 'https://': 'w.wikidata.org/wiki/Q570684'_
+> w.wikidata.org/wiki/Q570684
+
 - [ ] __L1300000, Varianten__:
  _Missing reference for complex value_
 > Igdlorpait | Illorpaat

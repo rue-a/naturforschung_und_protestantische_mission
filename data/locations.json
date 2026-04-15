@@ -65,6 +65,46 @@
             }
         }
     },
+    "L0150000": {
+        "id": {
+            "excel-column-name": "ID",
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L0150000"
+            }
+        },
+        "name": {
+            "excel-column-name": "Name",
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Alpen (Gebirge)"
+            }
+        },
+        "wikidata_link": {
+            "excel-column-name": "Wikidata",
+            "label": "Wikidata",
+            "value": {
+                "type": "URL",
+                "value": "https://www.wikidata.org/wiki/Q1286"
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 8.615
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 46.57805555555556
+            }
+        }
+    },
     "L0200000": {
         "id": {
             "excel-column-name": "ID",
@@ -436,6 +476,24 @@
             "value": {
                 "type": "Decimal",
                 "value": 50.68357
+            }
+        }
+    },
+    "L1101000": {
+        "id": {
+            "excel-column-name": "ID",
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L1101000"
+            }
+        },
+        "name": {
+            "excel-column-name": "Name",
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Gnadenfeld"
             }
         }
     },
@@ -860,6 +918,46 @@
             }
         }
     },
+    "L1570000": {
+        "id": {
+            "excel-column-name": "ID",
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L1570000"
+            }
+        },
+        "name": {
+            "excel-column-name": "Name",
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Lausanne"
+            }
+        },
+        "wikidata_link": {
+            "excel-column-name": "Wikidata",
+            "label": "Wikidata",
+            "value": {
+                "type": "URL",
+                "value": "https://www.wikidata.org/wiki/Q807"
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 6.6333333333333
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 46.533333333333
+            }
+        }
+    },
     "L1600000": {
         "id": {
             "excel-column-name": "ID",
@@ -976,6 +1074,46 @@
             }
         }
     },
+    "L1860000": {
+        "id": {
+            "excel-column-name": "ID",
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L1860000"
+            }
+        },
+        "name": {
+            "excel-column-name": "Name",
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Meran"
+            }
+        },
+        "wikidata_link": {
+            "excel-column-name": "Wikidata",
+            "label": "Wikidata",
+            "value": {
+                "type": "URL",
+                "value": "https://www.wikidata.org/wiki/Q131605"
+            }
+        },
+        "longitude": {
+            "label": "Longitude",
+            "value": {
+                "type": "Decimal",
+                "value": 11.159419
+            }
+        },
+        "latitude": {
+            "label": "Latitude",
+            "value": {
+                "type": "Decimal",
+                "value": 46.669555
+            }
+        }
+    },
     "L1900000": {
         "id": {
             "excel-column-name": "ID",
@@ -1013,6 +1151,24 @@
             "value": {
                 "type": "Decimal",
                 "value": 49.678611111111
+            }
+        }
+    },
+    "L1950000": {
+        "id": {
+            "excel-column-name": "ID",
+            "label": "ID",
+            "value": {
+                "type": "LocationID",
+                "value": "L1950000"
+            }
+        },
+        "name": {
+            "excel-column-name": "Name",
+            "label": "Name",
+            "value": {
+                "type": "String",
+                "value": "Montmirail"
             }
         }
     },

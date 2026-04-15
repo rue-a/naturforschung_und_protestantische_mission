@@ -1746,6 +1746,30 @@
                 "type": "LiteratureID",
                 "value": "R0006700"
             }
+        },
+        "title": {
+            "excel-column-name": "Titel",
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Lebenslauf des am 17. Mai 1894 in Meran seelig entschlafenen Bruders John William Berbeek"
+            }
+        },
+        "permalink": {
+            "excel-column-name": "Permalink",
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://collections.mun.ca/digital/collection/nachrichten/id/62156/rec/4"
+            }
+        },
+        "description": {
+            "excel-column-name": "Beschreibung",
+            "label": "Beschreibung",
+            "value": {
+                "type": "String",
+                "value": "Lebenslauf S. 511-573"
+            }
         }
     },
     "R0006800": {
@@ -1755,6 +1779,40 @@
             "value": {
                 "type": "LiteratureID",
                 "value": "R0006800"
+            }
+        },
+        "title": {
+            "excel-column-name": "Titel",
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "Eugenie Henriette Verbeek: Zur Erinnerung an meinem am 17. Mai 1894 selig entschlafenen Gatten John William Verbeek geboren in Montmirail, den 10. Febr. 1823, Lobenstein: Teich 1894."
+            }
+        },
+        "permalink": {
+            "excel-column-name": "Permalink",
+            "label": "Permalink",
+            "value": {
+                "type": "URL",
+                "value": "https://books.google.de/books?id=Muz2U0Bv2kAC&hl=de&pg=PA9#v=onepage&q&f=false"
+            }
+        }
+    },
+    "R0006900": {
+        "id": {
+            "excel-column-name": "ID",
+            "label": "ID",
+            "value": {
+                "type": "LiteratureID",
+                "value": "R0006900"
+            }
+        },
+        "title": {
+            "excel-column-name": "Titel",
+            "label": "Titel",
+            "value": {
+                "type": "String",
+                "value": "John William Verbeek: Anleitung für Lehrer u. Lehrerinnen der Schulen und Erziehungs-Anstalten der Brüdergemeine, Gnadau 2. Aufl. 1869."
             }
         }
     }

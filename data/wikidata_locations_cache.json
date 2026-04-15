@@ -285,5 +285,32 @@
         "start": "1296",
         "founder": [],
         "end": null
+    },
+    "Q1286": {
+        "coordinates": {
+            "longitude": 8.615,
+            "latitude": 46.57805555555556
+        },
+        "start": null,
+        "founder": [],
+        "end": null
+    },
+    "Q807": {
+        "coordinates": {
+            "longitude": 6.6333333333333,
+            "latitude": 46.533333333333
+        },
+        "start": null,
+        "founder": [],
+        "end": null
+    },
+    "Q131605": {
+        "coordinates": {
+            "longitude": 11.159419,
+            "latitude": 46.669555
+        },
+        "start": null,
+        "founder": [],
+        "end": null
     }
 }

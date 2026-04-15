@@ -18,14 +18,6 @@
  _No parser accepted value!_
 > M0004000| M0004100
 
-- [ ] __P0170000, Wirkungsorte__:
- _Invalid Temporal value: '1736-1739'_
-> 1736-1739; L0300000; Universität; Student (M0004100) |
-> 1747-1749; L1800000; Seminar; Lehrer; (M0004100) |
-> 1749-1750; L0200000; Seminar; ; (M0004100) |
-> 1750-1760; L1103500; Pädagogium; Lehrer (M0004100) |
-> 1760-1764; L2200000; Knabenanstalt; Inspektor 
-
 - [ ] __P0170000, Botanik - Beitrag zu Sammlungen (Objektnachweis)__:
  _Statement (C-barby) requires attestation (no source was provided)!_
 > C-barby 
@@ -38,9 +30,9 @@
 
 - [ ] __P0220000, Wirkungsorte__:
  _Missing reference for complex value_
-> 1840-1841 Karibik (westindische Inseln: St. Thomas, St. Croix)  -- Visitation |
-> 1853-1854  Südafrika -- Visitation |
-> Herrnhut
+> 1840/1841; [Karibik (westindische Inseln: St. Thomas, St. Croix)]; ; Visitation |
+> 1853/1854; [Südafrika] ; ; Visitation |
+> /; [Herrnhut]
 
 - [ ] __P0220000, Botanik - Beitrag zu Sammlungen (Datenbanknachweis)__:
  _CollectionID must start with 'C'_
