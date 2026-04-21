@@ -49,6 +49,8 @@ class AttestableDatatype(ABC):
     def __init__(self, raw: str, require_source=False):
 
         raw = clean_field(raw)
+        if not raw:
+            return None
         self.raw = raw
         value, source_string = self._split_value_and_source(raw, require_source)
         if source_string:

@@ -85,45 +85,9 @@ Ueber die in der Ober-Lausitz wild wachsenden Pflanzen aus der Familie der Asper
  _Invalid work id: 402 Gedichte (should be R-ID, or M-ID)_
 > 402 Gedichte (R0000900)
 
-- [ ] __P0011000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0011000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0011000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0011000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P0011000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P0011000, Zugehörigkeit Herrnhuter Brüdergemeine__:
  _Provided string is not in codelist: ja_
 > ja
-
-- [ ] __P0011000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0011000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0011000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0011000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0011000, Herrnhuter Lebenslauf__:
  _Invalid work id: UA, R.22.95.1 (should be R-ID, or M-ID)_
@@ -132,14 +96,6 @@ Ueber die in der Ober-Lausitz wild wachsenden Pflanzen aus der Familie der Asper
 - [ ] __P0020000, Links - GND__:
  _Invalid Reference Document value: 2025-04-17 (should be URL, R-ID, or M-ID)_
 > nein (2025-04-17)
-
-- [ ] __P0020000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0020000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0020000, Zugehörigkeit Herrnhuter Brüdergemeine__:
  _Provided string is not in codelist: ja_
@@ -182,25 +138,13 @@ Ueber die in der Ober-Lausitz wild wachsenden Pflanzen aus der Familie der Asper
  _Invalid Reference Document value: UA, Dienerblätter A-Bl, S. 68-69 (should be URL, R-ID, or M-ID)_
 > Am Ende (UA, Dienerblätter A-Bl, S. 68-69)
 
-- [ ] __P0030000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
 - [ ] __P0030000, Links - GND__:
  _Invalid Reference Document value: 2024-09-11 (should be URL, R-ID, or M-ID)_
 > nein (2024-09-11)
 
-- [ ] __P0030000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0030000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-09-11 (should be URL, R-ID, or M-ID)_
 > nein (2024-09-11)
-
-- [ ] __P0030000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0030000, Zugehörigkeit Herrnhuter Brüdergemeine__:
  _Provided string is not in codelist: ja_
@@ -245,17 +189,9 @@ Ueber die in der Ober-Lausitz wild wachsenden Pflanzen aus der Familie der Asper
 > UA NB.VI. 63,nr.1
 UA NB.VI. 63,nr.2, S. 93
 
-- [ ] __P0040000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0040000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-09-11 (should be URL, R-ID, or M-ID)_
 > nein (2024-09-11)
-
-- [ ] __P0040000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0040000, Zugehörigkeit Herrnhuter Brüdergemeine__:
  _Provided string is not in codelist: ja_
@@ -272,26 +208,6 @@ UA NB.VI. 63,nr.2, S. 93
 - [ ] __P0040000, Herrnhuter Lebenslauf__:
  _Invalid work id: UA, R.22.31.01 (should be R-ID, or M-ID)_
 > UA, R.22.31.01
-
-- [ ] __P0040500, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0040500, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0040500, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0040500, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P0040500, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0040500, Zugehörigkeit Herrnhuter Brüdergemeine__:
  _Provided string is not in codelist: ja_
@@ -325,14 +241,6 @@ UA NB.VI. 63,nr.2, S. 93
  _PersonID must start with 'P': Breutel_
 > Breutel [Botanik in Ebersdorf]
 
-- [ ] __P0050000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0050000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P0050000, Zugehörigkeit Herrnhuter Brüdergemeine__:
  _Provided string is not in codelist: ja_
 > ja
@@ -342,29 +250,9 @@ UA NB.VI. 63,nr.2, S. 93
 > 
  ;L2450000; (R0006600) 
 
-- [ ] __P0050000, Herrnhuter Lebenslauf__:
- _Invalid work id:  (should be R-ID, or M-ID)_
-> [nein]
-
 - [ ] __P0050000, Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere__:
  _Invalid work id: UA. Cim.V.15-7: Anfrage an die Herrnhuter in Grönland und Labrdor um nach Säugetieren und Schädeln für Museum Niesky und Verkauf mit Angabe von Inuitnamen und Preisen und Präparerungshinweisen (should be R-ID, or M-ID)_
 > UA. Cim.V.15-7: Anfrage an die Herrnhuter in Grönland und Labrdor um nach Säugetieren und Schädeln für Museum Niesky und Verkauf mit Angabe von Inuitnamen und Preisen und Präparerungshinweisen
-
-- [ ] __P0060000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0060000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0060000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P0060000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0060000, Zugehörigkeit Herrnhuter Brüdergemeine__:
  _Invalid Reference Document value: aufgenomen 1831 (should be URL, R-ID, or M-ID)_
@@ -419,65 +307,13 @@ UA NB.VI. 63,nr.2, S. 93
  _Invalid Reference Document value: 0115838 (should be URL, R-ID, or M-ID)_
 > C-GLM (0115838)
 
-- [ ] __P0070000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0070000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0070000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0070000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P0070000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0070000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0070000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0070000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0070000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P0070000, Wirkungsorte__:
  _Expected 4 parts, got 1: um 1900 Lehrerseminar Niesky_
 > um 1900 Lehrerseminar Niesky
 
-- [ ] __P0070000, Herrnhuter Lebenslauf__:
- _Invalid work id:  (should be R-ID, or M-ID)_
-> [offen/nein]
-
 - [ ] __P0070000, Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere__:
  _Invalid work id: Otto Uttendörfer: "Aus dem naturkundlichen Tagebuche des Nieskyer Lehrerseminars. (Botanische Beobachtungen)", in: Aus der Heimat. Eine Naturwissenschaftliche Zeitschrift, Organ des Deutschen Lehrer-Vereins für Naturkunde, 1901, S. 152-158, 157 (should be R-ID, or M-ID)_
 > Otto Uttendörfer: "Aus dem naturkundlichen Tagebuche des Nieskyer Lehrerseminars. (Botanische Beobachtungen)", in: Aus der Heimat. Eine Naturwissenschaftliche Zeitschrift, Organ des Deutschen Lehrer-Vereins für Naturkunde, 1901, S. 152-158, 157
-
-- [ ] __P0080000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0080000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0080000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0080000, Geburt - Datum__:
  _Invalid Reference Document value: wkd (should be URL, R-ID, or M-ID)_
@@ -519,25 +355,9 @@ UA NB.VI. 63,nr.2, S. 93
 > 
 1945-1967; Königsfeld; ; Lehrer (wikipedia)
 
-- [ ] __P0080000, Herrnhuter Lebenslauf__:
- _Invalid work id:  (should be R-ID, or M-ID)_
-> [offen/nein]
-
 - [ ] __P0080000, Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere__:
  _Invalid Reference Document value: mit Abbildung (should be URL, R-ID, or M-ID)_
 > Walter Bau: Pädagoge, Geologe, Paläontologe und Zoologe, In: Jahreshefte des Vereins für vaterländische Naturkunde in Württemberg 123, S. 18–19, Stuttgart 1968 (mit Abbildung)
-
-- [ ] __P0090000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0090000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0090000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0090000, Geburt - Datum__:
  _Invalid Reference Document value: UA, Dienerblätter A-Bl. S. 335 (should be URL, R-ID, or M-ID)_
@@ -616,18 +436,6 @@ Gösen, South Africa (UA, Dienerblätter A-Bl, S. 335)
  _Invalid work id: https://www.s2a3.org.za/bio/Biograph_final.php?serial=179 (should be R-ID, or M-ID)_
 > https://www.s2a3.org.za/bio/Biograph_final.php?serial=179 
 
-- [ ] __P0100000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0100000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0100000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P0100000, Geburt - Datum__:
  _Invalid Reference Document value: wkd (should be URL, R-ID, or M-ID)_
 > 1833-12-18 (wkd)
@@ -656,25 +464,9 @@ Gösen, South Africa (UA, Dienerblätter A-Bl, S. 335)
  _Invalid work id: https://de.findagrave.com/memorial/34844087/abraham-reincke-beck (should be R-ID, or M-ID)_
 > https://de.findagrave.com/memorial/34844087/abraham-reincke-beck
 
-- [ ] __P0110000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0110000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0110000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0110000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-10-15 (should be URL, R-ID, or M-ID)_
 > nein (2024-10-15)
-
-- [ ] __P0110000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0110000, Geburt - Datum__:
  _Invalid Reference Document value: UA, Dienerblätter A-Bl, S. 388 (should be URL, R-ID, or M-ID)_
@@ -756,18 +548,6 @@ Gösen, South Africa (UA, Dienerblätter A-Bl, S. 335)
  _Invalid work id: Richard Träger: "Ein Herbarium von Pflanzen aus Labrador", in: ders., "Trägermappe" Naturwissenschaft in der Brüdergemeine (Botanik, Ornithologie, Medizin) UA. IV/612, Herrnhut: Archiv der Herrnhuter Brüdergemeine. (should be R-ID, or M-ID)_
 > Richard Träger: "Ein Herbarium von Pflanzen aus Labrador", in: ders., "Trägermappe" Naturwissenschaft in der Brüdergemeine (Botanik, Ornithologie, Medizin) UA. IV/612, Herrnhut: Archiv der Herrnhuter Brüdergemeine.
 
-- [ ] __P0120000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0120000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0120000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P0120000, Geburt - Datum__:
  _Invalid Reference Document value: UA, Dienerblätter A-Bl, S. 404 (should be URL, R-ID, or M-ID)_
 > 1818-08-30 oder 1818-08-18 (UA, Dienerblätter A-Bl, S. 404)
@@ -811,25 +591,9 @@ entomologischer Art in "Stettiner Entomologischer Zeitung"
  _LiteratureID must start with 'R': Bull. Soc. Imp. Naturalistes Moscou 57 (1): 52 (1882)._
 >  Bull. Soc. Imp. Naturalistes Moscou 57 (1): 52 (1882). 
 
-- [ ] __P0130000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0130000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0130000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0130000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-10-23 (should be URL, R-ID, or M-ID)_
 > nein (2024-10-23)
-
-- [ ] __P0130000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0130000, Geburt - Datum__:
  _Invalid Reference Document value: UA, R.22.159.04 (should be URL, R-ID, or M-ID)_
@@ -860,41 +624,9 @@ Penig (Sachsen): Apotheker
  _Invalid work id: UA, R.22.159.04 (should be R-ID, or M-ID)_
 > UA, R.22.159.04
 
-- [ ] __P0140000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0140000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0140000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0140000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-10-28 (should be URL, R-ID, or M-ID)_
 > nein (2024-10-28)
-
-- [ ] __P0140000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0140000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0140000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0140000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0140000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0140000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
@@ -903,18 +635,6 @@ Penig (Sachsen): Apotheker
 - [ ] __P0140000, Botanik - Druckwerke der Person__:
  _LiteratureID must start with 'R': Flora Niskiensis, HS , , 10 Abteilungen, 78 ungez. S. Oktav, UA NB.VI. 949_
 > Flora Niskiensis, HS , [um 1800], 10 Abteilungen, 78 ungez. S. Oktav, UA NB.VI. 949
-
-- [ ] __P0150000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0150000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0150000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0150000, Zugehörigkeit Herrnhuter Brüdergemeine__:
  _Provided string is not in codelist: ja_
@@ -940,37 +660,9 @@ Penig (Sachsen): Apotheker
  _Invalid work id: R0006800 | R0006700 (should be R-ID, or M-ID)_
 > R0006800 | R0006700
 
-- [ ] __P0160000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0160000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0160000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0160000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-10-23 (should be URL, R-ID, or M-ID)_
 > nein (2024-10-23)
-
-- [ ] __P0160000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0160000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0160000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0160000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0160000, Wirkungsorte__:
  _Expected 4 parts, got 1: Barby, Niesky, Nordamerika_
@@ -979,14 +671,6 @@ Penig (Sachsen): Apotheker
 - [ ] __P0160000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P0170000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0170000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0170000, Herrnhuter Lebenslauf__:
  _Invalid work id: M0004000| M0004100 (should be R-ID, or M-ID)_
@@ -997,25 +681,9 @@ Penig (Sachsen): Apotheker
 > 
 viele, alle offen
 
-- [ ] __P0180000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0180000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0180000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0180000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-10-23 (should be URL, R-ID, or M-ID)_
 > nein (2024-10-23)
-
-- [ ] __P0180000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0180000, Geburt - Ort__:
  _Invalid Reference Document value: Livland (should be URL, R-ID, or M-ID)_
@@ -1029,25 +697,9 @@ viele, alle offen
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0190000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0190000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0190000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0190000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-10-23 (should be URL, R-ID, or M-ID)_
 > nein (2024-10-23)
-
-- [ ] __P0190000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0190000, Geburt - Ort__:
  _LocationID must start with 'L': Herrnhut_
@@ -1061,25 +713,9 @@ viele, alle offen
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0200000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0200000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0200000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0200000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-10-23 (should be URL, R-ID, or M-ID)_
 > nein (2024-10-23)
-
-- [ ] __P0200000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0200000, Geburt - Ort__:
  _LocationID must start with 'L': Herrnhut_
@@ -1103,21 +739,9 @@ Neuwied
  _Invalid work id: Hardtke (should be R-ID, or M-ID)_
 > Hardtke
 
-- [ ] __P0210000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0210000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0210000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-10-23 (should be URL, R-ID, or M-ID)_
 > nein (2024-10-23)
-
-- [ ] __P0210000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0210000, Geburt - Datum__:
  _Invalid Reference Document value: Pringle 1991, 195 (should be URL, R-ID, or M-ID)_
@@ -1163,18 +787,6 @@ Christian Gottlieb Kratzenstein: "Vaer Observationer for Aarene 1767. og 1768. a
 James S. Pringle: "Contributions by Moravian missionaries to the knowledge of the flora of Labrador", in: CANADIAN HORTICULTURAL HISTORY an interdisciplinary journal / HISTOIRE DE L' HORTICULTURE AU CANADA revue interdisciplinaire 2 (1991), Nr. 4, S. 187-222. <
 
 
-- [ ] __P0220000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0220000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0220000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P0220000, Tod - Ort__:
  _Invalid Reference Document value: 1788-1875 (should be URL, R-ID, or M-ID)_
 > L0400000 (https://saebi.isgv.de/biografie/Johann_Christian_Breutel_(1788-1875))
@@ -1188,21 +800,9 @@ James S. Pringle: "Contributions by Moravian missionaries to the knowledge of th
  _CollectionID must start with 'C': herb:S-PA_
 >  herb:S-PA (http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23) 
 
-- [ ] __P0230000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0230000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0230000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-10-26 (should be URL, R-ID, or M-ID)_
 > nein (2024-10-26)
-
-- [ ] __P0230000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0230000, Geburt - Datum__:
  _Invalid Reference Document value: wkd (should be URL, R-ID, or M-ID)_
@@ -1287,33 +887,9 @@ Guntram Philipp: "Herrnhuter Apotheker. Pioniere homöopathischer Arzneimittelhe
 > 
 Darwin H. Stapleton, Carter, Edward C.: "'I Have the Itch of Botany, of Chemistry, of Mathematica... Strong upon Me': The Science of Benjamin Henry Latrobe", in: Proceedings of the American Philosophical Society 128 (1984), Nr. 3, S. 173-192, 174
 
-- [ ] __P0240000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0240000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0240000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0240000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-10-26 (should be URL, R-ID, or M-ID)_
 > nein (2024-10-26)
-
-- [ ] __P0240000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0240000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0240000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0240000, Wirkungsorte__:
  _Expected 4 parts, got 1: Tranquebar Südindien_
@@ -1322,18 +898,6 @@ Darwin H. Stapleton, Carter, Edward C.: "'I Have the Itch of Botany, of Chemistr
 - [ ] __P0240000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P0250000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0250000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0250000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0250000, Geburt - Datum__:
  _Invalid Reference Document value: wkd (should be URL, R-ID, or M-ID)_
@@ -1380,18 +944,6 @@ Prodromus florae Lusatiae. In: Abhandlungen der Naturf. Gesellschaft Görlitz I.
 >  
 Erwähnt in Raberhorst Flora Lusatia, Leipzig 1839 als Zuträger S. VII
 
-- [ ] __P0260000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0260000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0260000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P0260000, Geburt - Ort__:
  _LocationID must start with 'L': Herrnhut_
 > Herrnhut
@@ -1418,18 +970,6 @@ Hugo Theodor Christoph: "Bemerkungen zu einigen in Labrador vorkommenden Schmett
  _Invalid work id: Richard Träger: "Notizen über den Sareptaner Naturalien-Sammler Rückbeil", in: ders., "Trägermappe" , Herrnhut: Archiv der Herrnhuter Brüdergemeine. (should be R-ID, or M-ID)_
 > Richard Träger: "Notizen über den Sareptaner Naturalien-Sammler Rückbeil", in: ders., "Trägermappe" [UA. IV/612], Herrnhut: Archiv der Herrnhuter Brüdergemeine.
 
-- [ ] __P0270000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0270000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0270000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P0270000, Geburt - Ort__:
  _LocationID must start with 'L': Naugard_
 > Naugard
@@ -1451,25 +991,9 @@ Hugo Theodor Christoph: "Bemerkungen zu einigen in Labrador vorkommenden Schmett
 > 
 1765: Historie von Grönland
 
-- [ ] __P0280000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0280000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0280000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0280000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-20 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-20)
-
-- [ ] __P0280000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0280000, Geburt - Ort__:
  _LocationID must start with 'L': Zeist_
@@ -1483,18 +1007,6 @@ Hugo Theodor Christoph: "Bemerkungen zu einigen in Labrador vorkommenden Schmett
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0290000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0290000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0290000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P0290000, Geburt - Ort__:
  _LocationID must start with 'L': Halenbeck-Rohlsdorf_
 > Halenbeck-Rohlsdorf
@@ -1506,18 +1018,6 @@ Hugo Theodor Christoph: "Bemerkungen zu einigen in Labrador vorkommenden Schmett
 - [ ] __P0290000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P0300000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0300000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0300000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0300000, Geburt - Ort__:
  _LocationID must start with 'L': Montmirail_
@@ -1587,26 +1087,6 @@ Otto, Hans-Werner: "Peter Friedrich Curies "Flora Kleinwelkensis" - die zweitäl
  _LiteratureID must start with 'R': Veröffentlichung einer Handschrift aus den Jahren 1803/04", in: Abhandlungen und Berichte des Naturkundemuseums Görlitz 63 (1990), Nr. 10, S. 1-64._
 > Veröffentlichung einer Handschrift aus den Jahren 1803/04", in: Abhandlungen und Berichte des Naturkundemuseums Görlitz 63 (1990), Nr. 10, S. 1-64. 
 
-- [ ] __P0310000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0310000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0310000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0310000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0310000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P0310000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
@@ -1618,18 +1098,6 @@ Otto, Hans-Werner: "Peter Friedrich Curies "Flora Kleinwelkensis" - die zweitäl
 - [ ] __P0310000, Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere__:
  _Invalid work id: Matthias Schönhofer: Letters from an American Botanist: The Correspondences of Gotthilf Heinrich Ernst Mühlenberg (1753–1815), Stuttgart: Frank Steiner 2014 (should be R-ID, or M-ID)_
 > Matthias Schönhofer: Letters from an American Botanist: The Correspondences of Gotthilf Heinrich Ernst Mühlenberg (1753–1815), Stuttgart: Frank Steiner 2014
-
-- [ ] __P0320000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0320000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0320000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0320000, Wirkungsorte__:
  _Expected 4 parts, got 1: _
@@ -1648,25 +1116,9 @@ Otto, Hans-Werner: "Peter Friedrich Curies "Flora Kleinwelkensis" - die zweitäl
  _Invalid work id: Matthias Schönhofer: Letters from an American Botanist: The Correspondences of Gotthilf Heinrich Ernst Mühlenberg (1753–1815), Stuttgart: Frank Steiner 2014 (Zugl.: Bamberg, Univ., Diss., 2012). (should be R-ID, or M-ID)_
 > Matthias Schönhofer: Letters from an American Botanist: The Correspondences of Gotthilf Heinrich Ernst Mühlenberg (1753–1815), Stuttgart: Frank Steiner 2014 (Zugl.: Bamberg, Univ., Diss., 2012).
 
-- [ ] __P0330000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0330000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0330000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0330000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-20 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-20) 
-
-- [ ] __P0330000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0330000, Geburt - Ort__:
  _LocationID must start with 'L': Gnadenfeld_
@@ -1685,41 +1137,9 @@ Otto, Hans-Werner: "Peter Friedrich Curies "Flora Kleinwelkensis" - die zweitäl
 > Veröffentlichungen über Vögel
 der Oberlausitz
 
-- [ ] __P0340000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0340000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0340000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0340000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-20 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-20) 
-
-- [ ] __P0340000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0340000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0340000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0340000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0340000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0340000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
@@ -1729,33 +1149,9 @@ der Oberlausitz
  _Invalid work id: Richard Träger: "Notizen über den Sareptaner Naturalien-Sammler Rückbeil", in: ders., "Trägermappe" , Herrnhut: Archiv der Herrnhuter Brüdergemeine. (should be R-ID, or M-ID)_
 > Richard Träger: "Notizen über den Sareptaner Naturalien-Sammler Rückbeil", in: ders., "Trägermappe" [UA. IV/612], Herrnhut: Archiv der Herrnhuter Brüdergemeine.
 
-- [ ] __P0350000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0350000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0350000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0350000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-20 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-20) 
-
-- [ ] __P0350000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0350000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0350000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0350000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
@@ -1764,34 +1160,6 @@ der Oberlausitz
 - [ ] __P0350000, Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere__:
  _Invalid work id: Richard Träger: "Ein Herbarium von Pflanzen aus Labrador", in: ders., "Trägermappe" Naturwissenschaft in der Brüdergemeine (Botanik, Ornithologie, Medizin) UA. IV/612, Herrnhut: Archiv der Herrnhuter Brüdergemeine. (should be R-ID, or M-ID)_
 > Richard Träger: "Ein Herbarium von Pflanzen aus Labrador", in: ders., "Trägermappe" Naturwissenschaft in der Brüdergemeine (Botanik, Ornithologie, Medizin) UA. IV/612, Herrnhut: Archiv der Herrnhuter Brüdergemeine.
-
-- [ ] __P0355000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0355000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0355000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0355000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0355000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0355000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0355000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0355000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
@@ -1805,34 +1173,6 @@ der Oberlausitz
  _Invalid format for PersonID: P168400_
 > P168400
 
-- [ ] __P0355500, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0355500, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0355500, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0355500, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0355500, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0355500, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0355500, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P0355500, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
@@ -1841,25 +1181,9 @@ der Oberlausitz
  _Invalid Reference Document value: jun. (should be URL, R-ID, or M-ID)_
 >  Christian Renatus (jun.)
 
-- [ ] __P0360000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0360000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0360000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0360000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-20 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-20) 
-
-- [ ] __P0360000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0360000, Geburt - Ort__:
  _LocationID must start with 'L': Herrnhut_
@@ -1873,25 +1197,9 @@ der Oberlausitz
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0370000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0370000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0370000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0370000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-20 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-20) 
-
-- [ ] __P0370000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0370000, Geburt - Ort__:
  _LocationID must start with 'L': Königsberg_
@@ -1915,18 +1223,6 @@ der Oberlausitz
 >  
 Theodor von Erxleben: Kurzer Führer durch das ethnographisch-, natur- und kulturhistorische Museum zu Herrnhut, Herrnhut: Winter 3. Aufl.  1904.
 
-- [ ] __P0380000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0380000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0380000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P0380000, Geburt - Ort__:
  _Invalid Reference Document value: Grönland (should be URL, R-ID, or M-ID)_
 > Neu Herrnhut/ Nuuk (Grönland)
@@ -1934,10 +1230,6 @@ Theodor von Erxleben: Kurzer Führer durch das ethnographisch-, natur- und kultu
 - [ ] __P0380000, Tod - Datum__:
  _Invalid ISO8601-2_Date format: 1934-?-?_
 > 1934-?-?
-
-- [ ] __P0380000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0380000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
@@ -1948,81 +1240,13 @@ Theodor von Erxleben: Kurzer Führer durch das ethnographisch-, natur- und kultu
 > Martha Fleming: Johan Eugenius (1870-1934)
 Tafelausstellung,  2024.
 
-- [ ] __P0385000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0385000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0385000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0385000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0385000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0385000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0385000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P0385000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0386000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0386000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0386000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0386000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0386000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0386000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0386000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P0386000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P0390000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0390000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0390000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0390000, Geburt - Ort__:
  _LocationID must start with 'L': Gnadenfrei_
@@ -2055,42 +1279,6 @@ Leh
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0400000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0400000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0400000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0400000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P0400000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0400000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0400000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0400000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0400000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P0400000, Wirkungsorte__:
  _Expected 4 parts, got 1: vor 1854 Sarepta - Lehrer_
 > vor 1854 Sarepta - Lehrer
@@ -2103,25 +1291,9 @@ Leh
  _Invalid work id: Heinrich Benno Möschler: "Ein neuer Spanner Pericallia (Ennomos) Freitagaria. m.", in: Entomologische Zeitung 15 (1854), S. 143-145. (should be R-ID, or M-ID)_
 > Heinrich Benno Möschler: "Ein neuer Spanner Pericallia (Ennomos) Freitagaria. m.", in: Entomologische Zeitung 15 (1854), S. 143-145.
 
-- [ ] __P0410000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0410000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0410000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0410000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-20 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-20) 
-
-- [ ] __P0410000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0410000, Geburt - Ort__:
  _Invalid Reference Document value: Livland (should be URL, R-ID, or M-ID)_
@@ -2144,21 +1316,9 @@ Leh
 > Mitarbeit an Heuser’s 
 Gnadenfelder Flora
 
-- [ ] __P0420000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0420000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0420000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-20 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-20) 
-
-- [ ] __P0420000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0420000, Geburt - Ort__:
  _LocationID must start with 'L': Barby_
@@ -2176,33 +1336,9 @@ Gnadenfelder Flora
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0440000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0440000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0440000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0440000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-21 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-21)
-
-- [ ] __P0440000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0440000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0440000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0440000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
@@ -2212,25 +1348,9 @@ Gnadenfelder Flora
  _Invalid work id: Troyer 2009 (should be R-ID, or M-ID)_
 > Troyer 2009
 
-- [ ] __P0450000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0450000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0450000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0450000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-21 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-21)
-
-- [ ] __P0450000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0450000, Geburt - Ort__:
  _Invalid Reference Document value: USA (should be URL, R-ID, or M-ID)_
@@ -2259,18 +1379,6 @@ Gnadenfelder Flora
 - [ ] __P0450000, Botanik - Druckwerke der Person__:
  _LiteratureID must start with 'R': Bericht des Bruders John Gambold von dem Indianer-Gemeinlein in Oochgeelogy, vom April 1821 bis gegen das Ende 1822_
 >  Bericht des Bruders John Gambold von dem Indianer-Gemeinlein in Oochgeelogy, vom April 1821 bis gegen das Ende 1822 (https://www.wikidata.org/wiki/Q125132419)
-
-- [ ] __P0460000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0460000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0460000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0460000, Geburt - Ort__:
  _Invalid Reference Document value: Pennsylvania (should be URL, R-ID, or M-ID)_
@@ -2308,25 +1416,9 @@ Daniel L. McKinley: "ANNA ROSINA (KLIEST) GAMBOLD (1762-1821), MORAVIAN MISSIONA
 > 
 Matthias Schönhofer: Letters from an American Botanist: The Correspondences of Gotthilf Heinrich Ernst Mühlenberg (1753–1815), Stuttgart: Frank Steiner 2014
 
-- [ ] __P0470000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0470000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0470000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0470000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-21 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-21)
-
-- [ ] __P0470000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0470000, Geburt - Ort__:
  _LocationID must start with 'L': Jeinsen_
@@ -2340,41 +1432,9 @@ Matthias Schönhofer: Letters from an American Botanist: The Correspondences of 
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0480000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0480000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0480000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0480000, Links - Bionomia__:
  _URL is not valid: ?_
 > ?
-
-- [ ] __P0480000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0480000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0480000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0480000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0480000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0480000, Wirkungsorte__:
  _Expected 4 parts, got 1: Labrador -- Missionar?_
@@ -2384,25 +1444,9 @@ Matthias Schönhofer: Letters from an American Botanist: The Correspondences of 
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0490000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0490000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0490000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0490000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-21 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-21)
-
-- [ ] __P0490000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0490000, Geburt - Datum__:
  _Invalid ISO8601-2_Date format: 1826-?-?_
@@ -2424,25 +1468,9 @@ Matthias Schönhofer: Letters from an American Botanist: The Correspondences of 
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0500000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0500000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0500000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0500000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-21 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-21)
-
-- [ ] __P0500000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0500000, Geburt - Ort__:
  _LocationID must start with 'L': Sarepta_
@@ -2461,25 +1489,9 @@ Matthias Schönhofer: Letters from an American Botanist: The Correspondences of 
 > Sareptaner
 Ortsgeschichte
 
-- [ ] __P0510000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0510000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0510000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0510000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-21 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-21)
-
-- [ ] __P0510000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0510000, Geburt - Ort__:
  _LocationID must start with 'L': Sarepta_
@@ -2493,25 +1505,9 @@ Ortsgeschichte
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0520000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0520000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0520000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0520000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-21 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-21)
-
-- [ ] __P0520000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0520000, Geburt - Ort__:
  _Invalid Reference Document value: Wolgograd (should be URL, R-ID, or M-ID)_
@@ -2529,18 +1525,6 @@ Ortsgeschichte
  _LiteratureID must start with 'R': 1865: Beiträge zur Naturgeschichte der Saigaantilope_
 > 1865: Beiträge zur 
 Naturgeschichte der Saigaantilope
-
-- [ ] __P0530000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0530000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0530000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0530000, Geburt - Datum__:
  _Invalid ISO8601-2_Date format: 1792-08-2_
@@ -2562,26 +1546,6 @@ Naturgeschichte der Saigaantilope
  _Invalid work id: James S. Pringle: "Contributions by Moravian missionaries to the knowledge of the flora of Labrador", in: CANADIAN HORTICULTURAL HISTORY an interdisciplinary journal / HISTOIRE DE L' HORTICULTURE AU CANADA revue interdisciplinaire 2 (1991), Nr. 4, S. 187-222. (should be R-ID, or M-ID)_
 > James S. Pringle: "Contributions by Moravian missionaries to the knowledge of the flora of Labrador", in: CANADIAN HORTICULTURAL HISTORY an interdisciplinary journal / HISTOIRE DE L' HORTICULTURE AU CANADA revue interdisciplinaire 2 (1991), Nr. 4, S. 187-222.
 
-- [ ] __P0535000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0535000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0535000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0535000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P0535000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P0535000, Tod - Ort__:
  _Invalid format for LocationID: L2250000 oder Nisky auf St. Thomas?_
 > L2250000 oder Nisky auf St. Thomas? (R0007000)
@@ -2595,84 +1559,12 @@ Naturgeschichte der Saigaantilope
 >  1831/; Kleinwelka; Knabenanstalt; Schüler; (R0007000) 
 
 - [ ] __P0535000, Wirkungsorte__:
- _Expected 4 parts, got 1: _
->   [...] 
-
-- [ ] __P0535000, Wirkungsorte__:
  _Expected 4 parts, got 3: 1854/1865; Westindische Inseln; Missionar_
 >  1854/1865; Westindische Inseln; Missionar (R0007000) 
-
-- [ ] __P0535000, Herrnhuter Lebenslauf__:
- _Invalid work id:  (should be R-ID, or M-ID)_
-> 
-
-- [ ] __, ID__:
- _PersonID must start with 'P': _
-> 
-
-- [ ] __, Übernahme in Personenlexikon__:
- _Provided string is not in codelist: _
-> 
-
-- [ ] __, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __, Herrnhuter Lebenslauf__:
- _Invalid work id:  (should be R-ID, or M-ID)_
-> 
-
-- [ ] __P0540000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0540000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0540000, Links - FactGrid__:
- _URL is not valid: _
-> 
 
 - [ ] __P0540000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-21 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-21)
-
-- [ ] __P0540000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0540000, Geburt - Ort__:
  _LocationID must start with 'L': Augsburg_
@@ -2686,61 +1578,9 @@ Naturgeschichte der Saigaantilope
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0545000, Übernahme in Personenlexikon__:
- _Provided string is not in codelist: _
-> 
-
-- [ ] __P0545000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0545000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0545000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0545000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P0545000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0545000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0545000, Herrnhuter Lebenslauf__:
- _Invalid work id:  (should be R-ID, or M-ID)_
-> 
-
 - [ ] __P0545000, Botanik - Beitrag zu Sammlungen (Objektnachweis)__:
  _Invalid Reference Document value: 111346? (should be URL, R-ID, or M-ID)_
 > GLM (111346?) 
-
-- [ ] __P0550000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0550000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0550000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0550000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P0550000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0550000, Geburt - Ort__:
  _LocationID must start with 'L': Sarepta_
@@ -2758,73 +1598,17 @@ Naturgeschichte der Saigaantilope
  _Invalid Reference Document value: Harz Blankenburg (should be URL, R-ID, or M-ID)_
 > Hampe (Harz Blankenburg)
 
-- [ ] __P0555000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0555000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0555000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0555000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P0555000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P0555000, Zugehörigkeit Herrnhuter Brüdergemeine__:
  _Provided string is not in codelist: nein erab_
 > nein erab
-
-- [ ] __P0555000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0555000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0555000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0555000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0555000, Herrnhuter Lebenslauf__:
- _Invalid work id:  (should be R-ID, or M-ID)_
-> 
 
 - [ ] __P0560000, Angehörige - Geschwister__:
  _PersonID must start with 'P': Vater von P056500 und P057000_
 > Vater von P056500 und P057000
 
-- [ ] __P0560000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0560000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0560000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0560000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-21 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-21)
-
-- [ ] __P0560000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0560000, Geburt - Ort__:
  _LocationID must start with 'L': Herrnhut_
@@ -2838,26 +1622,6 @@ Naturgeschichte der Saigaantilope
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0565000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0565000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0565000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0565000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P0565000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P0565000, Geburt - Ort__:
  _LocationID must start with 'L': Herrnhut_
 > Herrnhut
@@ -2869,22 +1633,6 @@ Naturgeschichte der Saigaantilope
 - [ ] __P0565000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P0570000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0570000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0570000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0570000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0570000, Geburt - Ort__:
  _LocationID must start with 'L': Neusalz_
@@ -2912,29 +1660,9 @@ Barber: Flora der Oberlausitz (1898)
 > 
 Frank Seeliger: „Einer prügelt uns und der andere bringt uns Religion ...“ Eine ethnohistorosche Studie über Fremdheitserfahrung in der zweiten Hälfte des 19. Jahrhunderts im Tibetisch-buddhistischen West-Himalaya-Gebiet Lahoul aus Sicht Herrnhuter Missionare,  2002 [Beiheft der Unitas Fratrum], 67
 
-- [ ] __P0580000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0580000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0580000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0580000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-21 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-21)
-
-- [ ] __P0580000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0580000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0580000, Tod - Ort__:
  _LocationID must start with 'L': Niesky auf St. Thomas_
@@ -2948,65 +1676,17 @@ Frank Seeliger: „Einer prügelt uns und der andere bringt uns Religion ...“ 
  _Invalid Reference Document value: Lars ? (should be URL, R-ID, or M-ID)_
 > (Lars ?)
 
-- [ ] __P0590000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0590000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0590000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0590000, Links - Bionomia__:
  _Invalid Reference Document value: Ist er das? (should be URL, R-ID, or M-ID)_
 > https://de.bionomia.net/Q21514642 (Ist er das?)
-
-- [ ] __P0590000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0590000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0590000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0590000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0590000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0590000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0600000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0600000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0600000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0600000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-21 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-21)
-
-- [ ] __P0600000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0600000, Geburt - Ort__:
  _LocationID must start with 'L': Paramaibo_
@@ -3028,25 +1708,9 @@ Frank Seeliger: „Einer prügelt uns und der andere bringt uns Religion ...“ 
  _Invalid work id: T. Küster: Register zur Flora von Herrnhut und Umgebung von Wilhelm Schultze, 1902, UA.NB.VI.63.nr.2, S. 93 (should be R-ID, or M-ID)_
 > T. Küster: Register zur Flora von Herrnhut und Umgebung von Wilhelm Schultze, 1902, UA.NB.VI.63.nr.2, S. 93
 
-- [ ] __P0610000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0610000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0610000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0610000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-21 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-21)
-
-- [ ] __P0610000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0610000, Geburt - Ort__:
  _LocationID must start with 'L': Norrköping Schweden_
@@ -3060,73 +1724,9 @@ Frank Seeliger: „Einer prügelt uns und der andere bringt uns Religion ...“ 
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0615000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0615000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0615000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0615000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P0615000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0615000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0615000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0615000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0615000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P0615000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P0620000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0620000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0620000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0620000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0620000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0620000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0620000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0620000, Wirkungsorte__:
  _Expected 4 parts, got 1: Labrador_
@@ -3140,34 +1740,6 @@ Frank Seeliger: „Einer prügelt uns und der andere bringt uns Religion ...“ 
  _Invalid work id: Pringle 1991 (should be R-ID, or M-ID)_
 > Pringle 1991
 
-- [ ] __P0630000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0630000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0630000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0630000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P0630000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0630000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0630000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P0630000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
@@ -3175,26 +1747,6 @@ Frank Seeliger: „Einer prügelt uns und der andere bringt uns Religion ...“ 
 - [ ] __P0630000, Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere__:
  _Invalid work id: Matthias Schönhofer: Letters from an American Botanist: The Correspondences of Gotthilf Heinrich Ernst Mühlenberg (1753–1815), Stuttgart: Frank Steiner 2014, 257 (should be R-ID, or M-ID)_
 > Matthias Schönhofer: Letters from an American Botanist: The Correspondences of Gotthilf Heinrich Ernst Mühlenberg (1753–1815), Stuttgart: Frank Steiner 2014, 257
-
-- [ ] __P0640000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0640000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0640000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0640000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0640000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0640000, Wirkungsorte__:
  _Expected 4 parts, got 10: 1884/1889; Surinam; ; 1892/1904; Surinam; ;1908/1911; Surinam; ;_
@@ -3210,18 +1762,6 @@ Frank Seeliger: „Einer prügelt uns und der andere bringt uns Religion ...“ 
  _Invalid work id: David Elliston Allen: Moravian Naturalist, in: E. Charles Nelson (Hg.), History & Mystery. Notes and queries from newsletter of The Society for the History of Natural History, London: Society for the History of Natural History 2011, S. 78-80, 79 (should be R-ID, or M-ID)_
 > David Elliston Allen: Moravian Naturalist, in: E. Charles Nelson (Hg.), History & Mystery. Notes and queries from newsletter of The Society for the History of Natural History, London: Society for the History of Natural History 2011, S. 78-80, 79
 
-- [ ] __P0650000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0650000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0650000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P0650000, Zugehörigkeit Herrnhuter Brüdergemeine__:
  _Provided string is not in codelist: ja_
 > ja
@@ -3230,14 +1770,6 @@ Frank Seeliger: „Einer prügelt uns und der andere bringt uns Religion ...“ 
  _Invalid Reference Document value: R0000700) |1788/1789 (R0000600 (should be URL, R-ID, or M-ID)_
 > 1780 (R0000700) |
 1788/1789 (R0000600)
-
-- [ ] __P0650000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0650000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0650000, Wirkungsorte__:
  _Expected 4 parts, got 1: Labrador -- Missionar_
@@ -3281,26 +1813,6 @@ Jacques Cayouette; Stephen J. Darbyshire: "Taxa Described by Steudel from the La
 >  
 James S. Pringle: "Contributions by Moravian missionaries to the knowledge of the flora of Labrador", in: CANADIAN HORTICULTURAL HISTORY an interdisciplinary journal / HISTOIRE DE L' HORTICULTURE AU CANADA revue interdisciplinaire 2 (1991), Nr. 4, S. 187-222.
 
-- [ ] __P0660000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0660000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0660000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0660000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0660000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P0660000, Wirkungsorte__:
  _Expected 4 parts, got 1: Labrador -- Missionar_
 > Labrador -- Missionar
@@ -3341,25 +1853,9 @@ Ernesti Meyer: De Plantis Labradoricis Libri Tres, Lipsiae: Leopoldi Vossi 1830
 > 
 Henry Fischer; Heike Heklau; Elfriede Wagner: "Botanischer Wissenstransfer in Briefen des 19. Jahrhunderts. Die Briefe des deutschen Botanikers Ernst Heinrich Friedrich Meyer (1791–1858) an Diederich Franz Leonhard von Schlechtendal (1794–1866) ", in: Schlechtendalia 40 (2023), S. 3-235, S. 42 in Brief E.H.F.Meyer an D.F.L.v. Schlechtendahl, 27.12.1825
 
-- [ ] __P0670000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0670000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0670000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0670000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-26 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-26)
-
-- [ ] __P0670000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0670000, Geburt - Ort__:
  _LocationID must start with 'L': Ratibor_
@@ -3391,18 +1887,6 @@ Cape Colony, Sooth Africa: COLONIAL AND INDIAN EXHIBITION, LONDON, 1886. Catalog
  _Invalid work id: Gunn, M. & Codd, L.E. Bot. Explor. S. Afr. (1981): 187 (should be R-ID, or M-ID)_
 > Gunn, M. & Codd, L.E. Bot. Explor. S. Afr. (1981): 187 
 
-- [ ] __P0680000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0680000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0680000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P0680000, Geburt - Ort__:
  _LocationID must start with 'L': Clarkson, South Africa_
 > Clarkson, South Africa
@@ -3427,18 +1911,6 @@ Cape Colony, Sooth Africa: COLONIAL AND INDIAN EXHIBITION, LONDON, 1886. Catalog
 - [ ] __P0680000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P0690000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0690000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0690000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0690000, Zugehörigkeit Herrnhuter Brüdergemeine__:
  _Provided string is not in codelist: ja_
@@ -3554,18 +2026,6 @@ Infos zu seinem Herbar: https://ia902909.us.archive.org/21/items/beiheftezumbota
 >  
 Im Funkenachlass DD 
 
-- [ ] __P0700000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0700000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0700000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P0700000, Geburt - Ort__:
  _Invalid Reference Document value: Schlesien (should be URL, R-ID, or M-ID)_
 > Girlachsdorf (Schlesien)
@@ -3577,18 +2037,6 @@ Im Funkenachlass DD
 - [ ] __P0700000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P0710000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0710000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0710000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0710000, Geburt - Ort__:
  _Invalid Reference Document value: Sachsen (should be URL, R-ID, or M-ID)_
@@ -3614,25 +2062,9 @@ Im Funkenachlass DD
  _Invalid work id: Roth (1821): Novae plantarum species praesertim Indiae orientalis (should be R-ID, or M-ID)_
 > Roth (1821): Novae plantarum species praesertim Indiae orientalis
 
-- [ ] __P0720000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0720000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0720000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0720000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-26 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-26)
-
-- [ ] __P0720000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0720000, Geburt - Ort__:
  _LocationID must start with 'L': Schmiedeberg_
@@ -3646,22 +2078,6 @@ Im Funkenachlass DD
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0730000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0730000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0730000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0730000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P0730000, Tod - Ort__:
  _LocationID must start with 'L': Herrnhut_
 > Herrnhut
@@ -3670,65 +2086,13 @@ Im Funkenachlass DD
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0740000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0740000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0740000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0740000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0740000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P0740000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0750000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0750000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0750000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0750000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-26 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-26)
-
-- [ ] __P0750000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0750000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0750000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0750000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0750000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0750000, Wirkungsorte__:
  _Expected 4 parts, got 1: Zeist, Leitung der dortigen Gemeine_
@@ -3746,42 +2110,6 @@ Im Funkenachlass DD
  _Invalid format for PersonID: P075500_
 > P075500
 
-- [ ] __P075500, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P075500, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P075500, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P075500, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P075500, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P075500, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P075500, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P075500, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P075500, Herrnhuter Lebenslauf__:
- _Invalid work id:  (should be R-ID, or M-ID)_
-> 
-
 - [ ] __P075500, Kontakt - Mit Herrnhutern__:
  _PersonID must start with 'P': _
 > (R0004100)
@@ -3790,61 +2118,17 @@ Im Funkenachlass DD
  _Invalid Reference Document value: 0115533 (should be URL, R-ID, or M-ID)_
 > C-GLM (0115533)
 
-- [ ] __P0760000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0760000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0760000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-27 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-27)
-
-- [ ] __P0760000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0760000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0760000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0760000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0770000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0770000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0770000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0770000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-27 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-27)
-
-- [ ] __P0770000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0770000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0770000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0770000, Wirkungsorte__:
  _Expected 4 parts, got 1: Nordamerika_
@@ -3858,33 +2142,9 @@ Im Funkenachlass DD
  _Invalid work id: Troyer 2009 (should be R-ID, or M-ID)_
 > Troyer 2009
 
-- [ ] __P0780000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0780000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0780000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0780000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-27 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-27)
-
-- [ ] __P0780000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0780000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0780000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0780000, Wirkungsorte__:
  _Expected 4 parts, got 1: Nordamerika_
@@ -3898,33 +2158,9 @@ Im Funkenachlass DD
  _Invalid work id: Troyer 2009 (should be R-ID, or M-ID)_
 > Troyer 2009
 
-- [ ] __P0790000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0790000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0790000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0790000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-27 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-27)
-
-- [ ] __P0790000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0790000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0790000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0790000, Wirkungsorte__:
  _Expected 4 parts, got 1: Nordamerika_
@@ -3946,18 +2182,6 @@ year 1837 in the vicinity of Bethlehem and other parts of
 Northampton County, Pennsylvania, in the order as they were
 found in bloom. Am. J. Sci. 37:310–320.
 
-- [ ] __P0800000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0800000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0800000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P0800000, Tod - Ort__:
  _LocationID must start with 'L': Herrnhut_
 > Herrnhut
@@ -3970,53 +2194,13 @@ found in bloom. Am. J. Sci. 37:310–320.
  _Invalid work id: Troyer 2009 (should be R-ID, or M-ID)_
 > Troyer 2009
 
-- [ ] __P0810000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0810000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0810000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0810000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-27 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-27)
 
-- [ ] __P0810000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0810000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0810000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0810000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P0810000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P0820000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0820000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0820000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0820000, Zugehörigkeit Herrnhuter Brüdergemeine__:
  _Provided string is not in codelist: ja_
@@ -4053,33 +2237,9 @@ John N. Bray: "Heinrich August Jaeschke: Pioneer Tibetan Scholar", in: Tibet Jou
 >  Theodor C. Bechler: Heinrich August Jaeschke, der geniale Sprachforscher der Mission der Brüdergemeine unter den Tibetern im westlichen Himalaya : eine Studie
 (Herrnhuter Missionsstudien Nr 25), Herrnhut: Missionsbuchhandlung 1930, 14f.
 
-- [ ] __P0830000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0830000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0830000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0830000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-11-27 (should be URL, R-ID, or M-ID)_
 > nein (2024-11-27)
-
-- [ ] __P0830000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0830000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0830000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0830000, Wirkungsorte__:
  _Expected 4 parts, got 1: Nordamerika_
@@ -4102,18 +2262,6 @@ John N. Bray: "Heinrich August Jaeschke: Pioneer Tibetan Scholar", in: Tibet Jou
 > 
 Matthias Schönhofer: Letters from an American Botanist: The Correspondences of Gotthilf Heinrich Ernst Mühlenberg (1753–1815), Stuttgart: Frank Steiner 2014
 
-- [ ] __P0840000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0840000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0840000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P0840000, Geburt - Ort__:
  _LocationID must start with 'L': Herrnhut_
 > Herrnhut
@@ -4125,18 +2273,6 @@ Matthias Schönhofer: Letters from an American Botanist: The Correspondences of 
 - [ ] __P0840000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P0850000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0850000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0850000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0850000, Zugehörigkeit Herrnhuter Brüdergemeine__:
  _Provided string is not in codelist: nein_
@@ -4154,21 +2290,9 @@ Matthias Schönhofer: Letters from an American Botanist: The Correspondences of 
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0860000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0860000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0860000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-03 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-03)
-
-- [ ] __P0860000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0860000, Geburt - Ort__:
  _Invalid Reference Document value: Grönland (should be URL, R-ID, or M-ID)_
@@ -4201,38 +2325,6 @@ Unterricht heraus
  _Invalid work id: Sächsische Floristische Mitteilungen 15 2012 (should be R-ID, or M-ID)_
 > Sächsische Floristische Mitteilungen 15 2012
 
-- [ ] __P0870000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0870000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0870000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0870000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P0870000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0870000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0870000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0870000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
 - [ ] __P0870000, Tod - Ort__:
  _LocationID must start with 'L': Salem, Nazareth_
 > Salem, Nazareth
@@ -4244,18 +2336,6 @@ Unterricht heraus
 - [ ] __P0870000, Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere__:
  _Invalid work id: Francis W. Pennell: "Botanical Collectors of the Philadelphia Local Area ", in: Bartonia 21 (1940-1941), S. 38-57, 48 (should be R-ID, or M-ID)_
 > Francis W. Pennell: "Botanical Collectors of the Philadelphia Local Area ", in: Bartonia 21 (1940-1941), S. 38-57, 48
-
-- [ ] __P0880000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0880000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0880000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0880000, Geburt - Ort__:
  _Invalid Reference Document value: now Rydzna , Poland, near Leszno (should be URL, R-ID, or M-ID)_
@@ -4302,18 +2382,6 @@ Unterricht heraus
  _Invalid work id: James S. Pringle: "Contributions by Moravian missionaries to the knowledge of the flora of Labrador", in: CANADIAN HORTICULTURAL HISTORY an interdisciplinary journal / HISTOIRE DE L' HORTICULTURE AU CANADA revue interdisciplinaire 2 (1991), Nr. 4, S. 187-222. (should be R-ID, or M-ID)_
 >  James S. Pringle: "Contributions by Moravian missionaries to the knowledge of the flora of Labrador", in: CANADIAN HORTICULTURAL HISTORY an interdisciplinary journal / HISTOIRE DE L' HORTICULTURE AU CANADA revue interdisciplinaire 2 (1991), Nr. 4, S. 187-222.
 
-- [ ] __P0890000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0890000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0890000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P0890000, Tod - Ort__:
  _LocationID must start with 'L': Berthesldorf_
 > Berthesldorf
@@ -4349,25 +2417,9 @@ Gnadenfelder Flora – handschriftliche zweite Ausgabe
  _Invalid work id: Hardtke (should be R-ID, or M-ID)_
 > Hardtke
 
-- [ ] __P0900000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0900000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0900000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0900000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-03 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-03)
-
-- [ ] __P0900000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0900000, Geburt - Ort__:
  _LocationID must start with 'L': Herrnhut_
@@ -4384,18 +2436,6 @@ Gnadenfelder Flora – handschriftliche zweite Ausgabe
 - [ ] __P0910000, Angehörige - Geschwister__:
  _PersonID must start with 'P': auch: Rudolf Kölbing_
 > auch: Rudolf Kölbing
-
-- [ ] __P0910000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0910000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0910000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0910000, Geburt - Ort__:
  _LocationID must start with 'L': Niesky_
@@ -4442,25 +2482,9 @@ HArdtke
  _Invalid Reference Document value: eventuell Friedrich Ludwig (should be URL, R-ID, or M-ID)_
 >  J. F. (eventuell Friedrich Ludwig)
 
-- [ ] __P0920000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0920000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0920000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0920000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-03 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-03)
-
-- [ ] __P0920000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0920000, Geburt - Ort__:
  _LocationID must start with 'L': Niesky_
@@ -4474,25 +2498,9 @@ HArdtke
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0930000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0930000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0930000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0930000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-06 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-06)
-
-- [ ] __P0930000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0930000, Geburt - Ort__:
  _LocationID must start with 'L': Moholz bei Niesky_
@@ -4516,25 +2524,9 @@ HArdtke
  _Invalid Reference Document value: 1898 (should be URL, R-ID, or M-ID)_
 > Barber: Flora der Oberlausitz (1898 )
 
-- [ ] __P0940000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0940000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0940000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0940000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-03 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-03)
-
-- [ ] __P0940000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0940000, Geburt - Ort__:
  _Invalid Reference Document value: Australien (should be URL, R-ID, or M-ID)_
@@ -4551,26 +2543,6 @@ HArdtke
 - [ ] __P0940000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P0950000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0950000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0950000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0950000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P0950000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0950000, Geburt - Ort__:
  _Invalid Reference Document value: Australien (should be URL, R-ID, or M-ID)_
@@ -4593,25 +2565,9 @@ Niederoderwitz
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0960000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0960000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0960000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0960000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-03 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-03)
-
-- [ ] __P0960000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0960000, Geburt - Datum__:
  _Invalid ISO8601-2_Date format: 205_
@@ -4633,49 +2589,13 @@ Niederoderwitz
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P0970000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0970000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0970000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0970000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-03 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-03)
 
-- [ ] __P0970000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0970000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0970000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P0970000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P0980000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0980000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P0980000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P0980000, Geburt - Ort__:
  _LocationID must start with 'L': Rudelstadt_
@@ -4731,41 +2651,9 @@ Barnhart (1935)
 > 
 Powell (1988)
 
-- [ ] __P0990000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P0990000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P0990000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P0990000, Links - Bionomia__:
  _Invalid Reference Document value: ist er das? (should be URL, R-ID, or M-ID)_
 > https://de.bionomia.net/Q68239 (ist er das?)
-
-- [ ] __P0990000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P0990000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0990000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P0990000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P0990000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P0990000, Wirkungsorte__:
  _Expected 4 parts, got 1: Zeist, Leitung der dortigen Gemeine_
@@ -4779,61 +2667,21 @@ Powell (1988)
  _Invalid work id: David Elliston Allen: Moravian Naturalist, in: E. Charles Nelson (Hg.), History & Mystery. Notes and queries from newsletter of The Society for the History of Natural History, London: Society for the History of Natural History 2011, S. 78-80, 79 (should be R-ID, or M-ID)_
 > David Elliston Allen: Moravian Naturalist, in: E. Charles Nelson (Hg.), History & Mystery. Notes and queries from newsletter of The Society for the History of Natural History, London: Society for the History of Natural History 2011, S. 78-80, 79
 
-- [ ] __P1000000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1000000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1000000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1000000, Links - Bionomia__:
  _Invalid Reference Document value: 2025-06-19 (should be URL, R-ID, or M-ID)_
 > nein (2025-06-19)
-
-- [ ] __P1000000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1000000, Zugehörigkeit Herrnhuter Brüdergemeine__:
  _Provided string is not in codelist: ?_
 > ?
 
-- [ ] __P1000000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1000000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P1000000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P1010000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1010000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1010000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1010000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-06 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-06)
-
-- [ ] __P1010000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1010000, Geburt - Ort__:
  _Invalid Reference Document value: Polen (should be URL, R-ID, or M-ID)_
@@ -4851,37 +2699,9 @@ Powell (1988)
  _Invalid work id: Volker Otte: "Exotische Flechten aus der Sammlungstätigkeit der Herrnhuter Brüdergemeine im Görlitzer Herbarium ", in: (Hg.), Sammelband zu Botanik in und um Görlitz und Herrnhuter zu einer Tagung von 2005, unveröffentlicht (should be R-ID, or M-ID)_
 > Volker Otte: "Exotische Flechten aus der Sammlungstätigkeit der Herrnhuter Brüdergemeine im Görlitzer Herbarium ", in:  (Hg.), Sammelband zu Botanik in und um Görlitz und Herrnhuter zu einer Tagung von 2005, unveröffentlicht
 
-- [ ] __P1020000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1020000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1020000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1020000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-06 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-06)
-
-- [ ] __P1020000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1020000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1020000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1020000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1020000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
@@ -4894,18 +2714,6 @@ Powell (1988)
 - [ ] __P1020000, Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere__:
  _Invalid work id: UA NB.VI. 63.n.2 (should be R-ID, or M-ID)_
 > UA NB.VI. 63.n.2
-
-- [ ] __P1030000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1030000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1030000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1030000, Geburt - Ort__:
  _LocationID must start with 'L': Neusalz, Oder_
@@ -4952,42 +2760,6 @@ Neudietendorf, Apotheker
  _Invalid work id: Art.: Lappe, Christian Theodor: Jürgen Pusch; Klaus-Jörg Barthel; Wolfgang Heinrich (Hg.): Die Botaniker Thüringens, 2015 (Haussknechtia, Beiheft 18), 312-313 (mit Schriftprobe)=. (should be R-ID, or M-ID)_
 >  Art.: Lappe, Christian Theodor: Jürgen Pusch; Klaus-Jörg Barthel; Wolfgang Heinrich (Hg.): Die Botaniker Thüringens,  2015 (Haussknechtia, Beiheft 18), 312-313 (mit Schriftprobe)=. 
 
-- [ ] __P1035000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1035000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1035000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1035000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P1035000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1035000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1035000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1035000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1035000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P1035000, Wirkungsorte__:
  _Expected 4 parts, got 1: Surinam -- Missionar_
 > Surinam -- Missionar (R0003600)
@@ -4996,33 +2768,9 @@ Neudietendorf, Apotheker
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P1040000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1040000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1040000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1040000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-06 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-06)
-
-- [ ] __P1040000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1040000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1040000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1040000, Wirkungsorte__:
  _Expected 4 parts, got 1: Barby -- Verleger_
@@ -5032,42 +2780,6 @@ Neudietendorf, Apotheker
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P1035500, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1035500, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1035500, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1035500, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P1035500, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1035500, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1035500, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1035500, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1035500, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P1035500, Wirkungsorte__:
  _Invalid Reference Document value: Südafrika) -- Missionar (R0003600 (should be URL, R-ID, or M-ID)_
 > Elim (Südafrika)  -- Missionar (R0003600)
@@ -5075,18 +2787,6 @@ Neudietendorf, Apotheker
 - [ ] __P1035500, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P1050000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1050000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1050000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1050000, Geburt - Ort__:
  _LocationID must start with 'L': New Herrnhut. on the island of StThomas, Danish West Indies (now U .S. Virgin Islands)._
@@ -5114,53 +2814,13 @@ Thomas, Danish West Indies (now U .S. Virgin Islands).
 >  
 James S. Pringle: "Contributions by Moravian missionaries to the knowledge of the flora of Labrador", in: CANADIAN HORTICULTURAL HISTORY an interdisciplinary journal / HISTOIRE DE L' HORTICULTURE AU CANADA revue interdisciplinaire 2 (1991), Nr. 4, S. 187-222.
 
-- [ ] __P1060000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1060000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1060000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1060000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-06 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-06)
 
-- [ ] __P1060000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1060000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1060000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P1060000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P1070000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1070000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1070000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P1070000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1070000, Geburt - Ort__:
  _LocationID must start with 'L': Gnadenfeld_
@@ -5182,18 +2842,6 @@ ab 1889 Superintendet der LAbrador-Mission
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P1080000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1080000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1080000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P1080000, Geburt - Ort__:
  _LocationID must start with 'L': Gnadenberg_
 > Gnadenberg
@@ -5206,29 +2854,9 @@ ab 1889 Superintendet der LAbrador-Mission
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P1090000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1090000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1090000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1090000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-06 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-06)
-
-- [ ] __P1090000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1090000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1090000, Tod - Ort__:
  _Invalid format for LocationID: Leh_
@@ -5246,61 +2874,17 @@ ab 1889 Superintendet der LAbrador-Mission
  _Invalid work id: Meier, G. 1997, S. 182 (should be R-ID, or M-ID)_
 > Meier, G. 1997, S. 182
 
-- [ ] __P1095000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1095000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1095000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P1095000, Zugehörigkeit Herrnhuter Brüdergemeine__:
  _Provided string is not in codelist: ja_
 > ja
-
-- [ ] __P1095000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1095000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1095000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1095000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1095000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P1100000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1100000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1100000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P1100000, Geburt - Ort__:
  _LocationID must start with 'L': Oberhem_
 > Oberhem
-
-- [ ] __P1100000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1100000, Wirkungsorte__:
  _Expected 4 parts, got 1: Suriname_
@@ -5315,81 +2899,13 @@ ab 1889 Superintendet der LAbrador-Mission
 > Be r i c h t des Bruders Menze von seinen Besuchen
 auf den Plantagen an der Suriname im Jahr 1856 https://collections.mun.ca/digital/collection/nachrichten/id/69517/rec/2
 
-- [ ] __P1110000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1110000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1110000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1110000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P1110000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1110000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1110000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1110000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1110000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P1110000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P1120000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1120000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1120000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1120000, Links - Bionomia__:
  _Invalid Reference Document value: 2025-06-19 (should be URL, R-ID, or M-ID)_
 > nein (2025-06-19)
-
-- [ ] __P1120000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1120000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1120000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1120000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1120000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1120000, Wirkungsorte__:
  _Expected 4 parts, got 1: Labrador_
@@ -5399,42 +2915,6 @@ auf den Plantagen an der Suriname im Jahr 1856 https://collections.mun.ca/digita
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P1130000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1130000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1130000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1130000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P1130000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1130000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1130000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1130000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1130000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P1130000, Wirkungsorte__:
  _Expected 4 parts, got 1: 1869, Sep. Gnadenfeld_
 > 1869, Sep. Gnadenfeld
@@ -5443,25 +2923,9 @@ auf den Plantagen an der Suriname im Jahr 1856 https://collections.mun.ca/digita
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P1140000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1140000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1140000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1140000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-06 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-06)
-
-- [ ] __P1140000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1140000, Geburt - Datum__:
  _Invalid Reference Document value: 1792-11-19 (should be URL, R-ID, or M-ID)_
@@ -5494,18 +2958,6 @@ auf den Plantagen an der Suriname im Jahr 1856 https://collections.mun.ca/digita
  _Invalid work id: Biographien sächsischer Botaniker Hardtke et al 2004 (should be R-ID, or M-ID)_
 > Biographien sächsischer Botaniker Hardtke et al 2004
 
-- [ ] __P1150000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1150000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1150000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P1150000, Geburt - Ort__:
  _LocationID must start with 'L': Gröditz bei Bautzen_
 > Gröditz bei Bautzen
@@ -5537,41 +2989,9 @@ Johann August Miertsching: Reisetagebuch der Nordpol-Expedition zur Aufsuchung S
 > 
 Mechthild Opel; Wolfgang Opel: Weil ich ein Inuk bin. Johann August Miertsching. Ein Lebensbild, Berlin: Lukas Verlag 2022.
 
-- [ ] __P1170000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1170000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1170000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1170000, Links - Bionomia__:
  _URL is not valid: ?_
 > ?
-
-- [ ] __P1170000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1170000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1170000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1170000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1170000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1170000, Wirkungsorte__:
  _Expected 4 parts, got 1: Surinam_
@@ -5580,18 +3000,6 @@ Mechthild Opel; Wolfgang Opel: Weil ich ein Inuk bin. Johann August Miertsching.
 - [ ] __P1170000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P1180000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1180000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1180000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1180000, Geburt - Ort__:
  _LocationID must start with 'L': Herrnhut_
@@ -5610,18 +3018,6 @@ Mechthild Opel; Wolfgang Opel: Weil ich ein Inuk bin. Johann August Miertsching.
 > Erstlingsarbeit mit 16 Jahren veröffentlicht
 gefolt von neuen Veröffentlichungen fast
 jedes folgende Jahr
-
-- [ ] __P1190000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1190000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1190000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1190000, Geburt - Ort__:
  _LocationID must start with 'L': Kronförstchen_
@@ -5648,41 +3044,9 @@ sowohl zu Vögeln als auch Bienen
  _Invalid Reference Document value: ? (should be URL, R-ID, or M-ID)_
 >  R. (?)
 
-- [ ] __P1200000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1200000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1200000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1200000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-10 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-10)
-
-- [ ] __P1200000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1200000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1200000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1200000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1200000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1200000, Wirkungsorte__:
  _Expected 4 parts, got 1: Labrador_
@@ -5691,18 +3055,6 @@ sowohl zu Vögeln als auch Bienen
 - [ ] __P1200000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P1210000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1210000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1210000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1210000, Geburt - Ort__:
  _LocationID must start with 'L': Herrnhut_
@@ -5716,41 +3068,13 @@ sowohl zu Vögeln als auch Bienen
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P1220000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1220000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1220000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1220000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P1220000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P1220000, Geburt - Datum__:
  _Invalid ISO8601-2_Date format: 15067_
 > 15067
 
-- [ ] __P1220000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P1220000, Tod - Datum__:
  _Invalid ISO8601-2_Date format: 45182?_
 > 45182?
-
-- [ ] __P1220000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1220000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
@@ -5764,25 +3088,9 @@ sowohl zu Vögeln als auch Bienen
  _Invalid Reference Document value: Wagner (should be URL, R-ID, or M-ID)_
 > Nitschmann (Wagner)
 
-- [ ] __P1225000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1225000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1225000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1225000, Links - Bionomia__:
  _Invalid Reference Document value: 2026-02-03 (should be URL, R-ID, or M-ID)_
 > Nein (2026-02-03)
-
-- [ ] __P1225000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1225000, Zugehörigkeit Herrnhuter Brüdergemeine__:
  _Provided string is not in codelist: ja_
@@ -5824,25 +3132,9 @@ Bethlehem (Pennsylvania) 1741-1758
 > 
 KIndermann 2018
 
-- [ ] __P1230000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1230000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1230000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1230000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-10 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-10)
-
-- [ ] __P1230000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1230000, Geburt - Ort__:
  _Invalid format for LocationID: Lafferde_
@@ -5860,25 +3152,9 @@ KIndermann 2018
  _LiteratureID must start with 'R': 1777: Monographie über Grönland_
 > 1777: Monographie über Grönland
 
-- [ ] __P1240000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1240000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1240000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1240000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-10 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-10)
-
-- [ ] __P1240000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1240000, Geburt - Ort__:
  _LocationID must start with 'L': Marienborn_
@@ -5892,25 +3168,9 @@ KIndermann 2018
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P1250000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1250000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1250000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1250000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-10 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-10)
-
-- [ ] __P1250000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1250000, Geburt - Ort__:
  _Invalid Reference Document value: Böhmen (should be URL, R-ID, or M-ID)_
@@ -5927,18 +3187,6 @@ KIndermann 2018
 - [ ] __P1250000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P1260000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1260000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1260000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1260000, Geburt - Ort__:
  _LocationID must start with 'L': Malmesbury, Wiltshire, United Kingdom_
@@ -5964,18 +3212,6 @@ KIndermann 2018
  _Invalid work id: James S. Pringle: "Contributions by Moravian missionaries to the knowledge of the flora of Labrador", in: CANADIAN HORTICULTURAL HISTORY an interdisciplinary journal / HISTOIRE DE L' HORTICULTURE AU CANADA revue interdisciplinaire 2 (1991), Nr. 4, S. 187-222. (should be R-ID, or M-ID)_
 > James S. Pringle: "Contributions by Moravian missionaries to the knowledge of the flora of Labrador", in: CANADIAN HORTICULTURAL HISTORY an interdisciplinary journal / HISTOIRE DE L' HORTICULTURE AU CANADA revue interdisciplinaire 2 (1991), Nr. 4, S. 187-222.
 
-- [ ] __P1270000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1270000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1270000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P1270000, Geburt - Ort__:
  _LocationID must start with 'L': Hamburg_
 > Hamburg
@@ -5992,21 +3228,9 @@ KIndermann 2018
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P1280000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1280000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1280000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-12 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-12)
-
-- [ ] __P1280000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1280000, Geburt - Ort__:
  _LocationID must start with 'L': Osu_
@@ -6015,10 +3239,6 @@ KIndermann 2018
 - [ ] __P1280000, Tod - Datum__:
  _Invalid ISO8601-2_Date format: 1769-?-?_
 > 1769-?-?
-
-- [ ] __P1280000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1280000, Wirkungsorte__:
  _Expected 4 parts, got 1: Westafrika_
@@ -6037,35 +3257,11 @@ KIndermann 2018
 > 03.03.1762, UA, R.15.N.8.1.c, no. 22. 1762 Mart. 3. Prottens Nachricht von einigen mitgebrachten
 u. übergebenen africanischen Sachen mit 20 Nummern, darunter Samen
 
-- [ ] __P1290000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1290000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1290000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1290000, Links - Bionomia__:
  _URL is not valid: https://de.bionomia.net/Q21606799Ist er das?_
 > https://de.bionomia.net/Q21606799
 Ist er das?
 
-
-- [ ] __P1290000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1290000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1290000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1290000, Wirkungsorte__:
  _Expected 4 parts, got 1: Suriname -- Missionar, Barby_
@@ -6079,26 +3275,6 @@ Ist er das?
  _LiteratureID must start with 'R': Quandt, Christlieb: Nachricht von Suriname und seinen Einwohnern sonderlich den Arawacken, Warauen und Karaiben, von den nüzlichsten Gewächsen und Thieren des Landes, den Geschäften der dortigen Missionarien der Brüderunität und der Sprache der Arawacken. Nebst einer Charte und zwey Kupfern., Görlitz: J. G. Burghart ._
 > Quandt, Christlieb: Nachricht von Suriname und seinen Einwohnern sonderlich den Arawacken, Warauen und Karaiben, von den nüzlichsten Gewächsen und Thieren des Landes, den Geschäften der dortigen Missionarien der Brüderunität und der Sprache der Arawacken. Nebst einer Charte und zwey Kupfern., Görlitz: J. G. Burghart [1807]. 
 
-- [ ] __P1310000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1310000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1310000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1310000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1310000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P1310000, Wirkungsorte__:
  _Expected 4 parts, got 1: Himalayamission_
 > Himalayamission (R0003600)
@@ -6111,21 +3287,9 @@ Ist er das?
  _LiteratureID must start with 'R': F. Redslob: "Die Himalaya-Landschaften Rupschu und Ladak / Reiseskizzen von Missionar F. Redslob", in: Mitteilungen der Geographischen Gesellschaft für Thüringen zu Jena 4 (1886), S. 1-8._
 > F. Redslob: "Die Himalaya-Landschaften Rupschu und Ladak / Reiseskizzen von Missionar F. Redslob", in: Mitteilungen der Geographischen Gesellschaft für Thüringen zu Jena 4 (1886), S. 1-8.
 
-- [ ] __P1320000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1320000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1320000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-12 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-12)
-
-- [ ] __P1320000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1320000, Geburt - Ort__:
  _Invalid Reference Document value: Pennsylv. (should be URL, R-ID, or M-ID)_
@@ -6139,81 +3303,13 @@ Ist er das?
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P1330000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1330000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1330000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1330000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P1330000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P1330000, Geburt - Ort__:
  _LocationID must start with 'L': Niesky_
 > Niesky
 
-- [ ] __P1330000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1330000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P1330000, Wirkungsorte__:
  _Expected 4 parts, got 1: Beschäftigung mit Botanik in Gnadenfeld_
 > Beschäftigung mit Botanik in Gnadenfeld
-
-- [ ] __P1330000, Herrnhuter Lebenslauf__:
- _Invalid work id:  (should be R-ID, or M-ID)_
-> 
-
-- [ ] __P1340000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1340000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1340000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1340000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P1340000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1340000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1340000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1340000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1340000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1340000, Wirkungsorte__:
  _Expected 4 parts, got 1: Pharmazeut in Herrnhut_
@@ -6227,25 +3323,9 @@ Ist er das?
  _Invalid work id: BARBER 1898 (Flora der Oberlausitz), 346 (should be R-ID, or M-ID)_
 > BARBER 1898 (Flora der Oberlausitz), 346
 
-- [ ] __P1350000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1350000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1350000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1350000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-12 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-12)
-
-- [ ] __P1350000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1350000, Geburt - Ort__:
  _Invalid Reference Document value: Odenwald) | L1900000 (M0027000 (should be URL, R-ID, or M-ID)_
@@ -6312,30 +3392,6 @@ Becker Pflege, S. 26
 > 
 Matthias Schönhofer: Letters from an American Botanist: The Correspondences of Gotthilf Heinrich Ernst Mühlenberg (1753–1815), Stuttgart: Frank Steiner 2014, 155.
 
-- [ ] __P1355000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1355000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1355000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P1355000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1355000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1355000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P1355000, Wirkungsorte__:
  _Expected 4 parts, got 2: 1842-1873; Labrador_
 > 1842-1873; Labrador
@@ -6348,42 +3404,6 @@ Matthias Schönhofer: Letters from an American Botanist: The Correspondences of 
  _Invalid Reference Document value: Schulz, 1903) (https://data.biodiversitydata.nl/naturalis/specimen/L.1859326?); Saxifraga cernua (https://data.biodiversitydata.nl/naturalis/specimen/L.1885330?) and S. rivularis at Nain (Engler & Irmscher, 1919) (R0000700 (should be URL, R-ID, or M-ID)_
 > collected Cardamine bellidifolia (Schulz, 1903) (https://data.biodiversitydata.nl/naturalis/specimen/L.1859326?); Saxifraga cernua (https://data.biodiversitydata.nl/naturalis/specimen/L.1885330?) and S. rivularis at Nain (Engler &  Irmscher, 1919) (R0000700)
 
-- [ ] __P1355500, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1355500, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1355500, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1355500, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P1355500, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1355500, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1355500, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1355500, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1355500, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P1355500, Wirkungsorte__:
  _Expected 4 parts, got 1: Himalaya --_
 > Himalaya -- (R0003600)
@@ -6392,25 +3412,9 @@ Matthias Schönhofer: Letters from an American Botanist: The Correspondences of 
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P1360000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1360000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1360000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1360000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-12 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-12)
-
-- [ ] __P1360000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1360000, Geburt - Ort__:
  _LocationID must start with 'L': Champfleuri Lausanne_
@@ -6428,33 +3432,9 @@ Matthias Schönhofer: Letters from an American Botanist: The Correspondences of 
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P1370000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1370000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1370000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1370000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-12 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-12)
-
-- [ ] __P1370000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1370000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1370000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1370000, Wirkungsorte__:
  _Expected 4 parts, got 1: 1836-1838 Studium Seminar Gnadenfeld_
@@ -6472,25 +3452,9 @@ Matthias Schönhofer: Letters from an American Botanist: The Correspondences of 
  _Invalid Reference Document value: Botanik, Ornithologie, Medizin (should be URL, R-ID, or M-ID)_
 > Richard Träger: "Ein Herbarium von Pflanzen aus Labrador", in: ders., "Trägermappe" Naturwissenschaft in der Brüdergemeine (Botanik, Ornithologie, Medizin) [UA. IV/612]
 
-- [ ] __P1380000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1380000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1380000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1380000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-15 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-15)
-
-- [ ] __P1380000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1380000, Geburt - Ort__:
  _Invalid Reference Document value: Polen (should be URL, R-ID, or M-ID)_
@@ -6503,18 +3467,6 @@ Matthias Schönhofer: Letters from an American Botanist: The Correspondences of 
 - [ ] __P1380000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P1390000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1390000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1390000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1390000, Geburt - Datum__:
  _Invalid ISO8601-2_Date format: 1819-4-12_
@@ -6541,25 +3493,9 @@ Matthias Schönhofer: Letters from an American Botanist: The Correspondences of 
 > 
 https://www.s2a3.org.za/bio/Biograph_final.php?serial=2398
 
-- [ ] __P1400000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1400000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1400000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1400000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-15 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-15)
-
-- [ ] __P1400000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1400000, Geburt - Ort__:
  _LocationID must start with 'L': Sarepta_
@@ -6587,37 +3523,13 @@ https://www.s2a3.org.za/bio/Biograph_final.php?serial=2398
 Wilhelm Blasius: "Ellobius Tancréì nov. sp., ein neuer Moll-Lemming oder Wurfmoll aus dem Altai-Gebiete.", in: Zoologischer Anzeiger VII. Jahrgang (1884), Nr. 164, S. 197-201.
 als Ornithologe Ludwig Gebhardt: Die Ornithologen Mitteleuropas Haut und Ergänzungsband, Gießen: Brühl 1964, 
 
-- [ ] __P1410000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1410000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1410000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1410000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-15 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-15)
 
-- [ ] __P1410000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P1410000, Geburt - Ort__:
  _LocationID must start with 'L': Sarepta_
 > Sarepta
-
-- [ ] __P1410000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1410000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1410000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
@@ -6627,37 +3539,13 @@ als Ornithologe Ludwig Gebhardt: Die Ornithologen Mitteleuropas Haut und Ergänz
  _Invalid work id: Richard Träger: "Notizen über den Sareptaner Naturalien-Sammler Rückbeil", in: ders., "Trägermappe" , Herrnhut: Archiv der Herrnhuter Brüdergemeine. (should be R-ID, or M-ID)_
 > Richard Träger: "Notizen über den Sareptaner Naturalien-Sammler Rückbeil", in: ders., "Trägermappe" [UA. IV/612], Herrnhut: Archiv der Herrnhuter Brüdergemeine.
 
-- [ ] __P1420000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1420000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1420000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1420000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-15 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-15)
 
-- [ ] __P1420000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P1420000, Geburt - Ort__:
  _LocationID must start with 'L': Sarepta_
 > Sarepta
-
-- [ ] __P1420000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1420000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1420000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
@@ -6667,21 +3555,9 @@ als Ornithologe Ludwig Gebhardt: Die Ornithologen Mitteleuropas Haut und Ergänz
  _Invalid work id: Richard Träger: "Notizen über den Sareptaner Naturalien-Sammler Rückbeil", in: ders., "Trägermappe" , Herrnhut: Archiv der Herrnhuter Brüdergemeine. (should be R-ID, or M-ID)_
 > Richard Träger: "Notizen über den Sareptaner Naturalien-Sammler Rückbeil", in: ders., "Trägermappe" [UA. IV/612], Herrnhut: Archiv der Herrnhuter Brüdergemeine.
 
-- [ ] __P1430000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1430000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1430000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-15 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-15)
-
-- [ ] __P1430000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1430000, Geburt - Ort__:
  _LocationID must start with 'L': Breslau_
@@ -6707,41 +3583,9 @@ als Ornithologe Ludwig Gebhardt: Die Ornithologen Mitteleuropas Haut und Ergänz
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P1440000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1440000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1440000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1440000, Links - Bionomia__:
  _URL is not valid: nein_
 > nein
-
-- [ ] __P1440000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1440000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1440000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1440000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1440000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1440000, Wirkungsorte__:
  _Expected 4 parts, got 1: c. 1765 in Labrador_
@@ -6766,81 +3610,13 @@ zur Botanik: Averil M. Lysaght: Joseph Banks in Newfoundland and Labrador, 1766:
 zu Botanik: James S. Pringle: "Contributions by Moravian missionaries to the knowledge of the flora of Labrador", in: CANADIAN HORTICULTURAL HISTORY an interdisciplinary journal / HISTOIRE DE L' HORTICULTURE AU CANADA revue interdisciplinaire 2 (1991), Nr. 4, S. 187-222. 
 zur Botanik: Jacques Cayouette; Stephen J. Darbyshire: "Taxa Described by Steudel from the Labrador Plants Collected by the Moravian Missionary Albrecht and Distributed by Hohenacker", in: Taxon 43 (1994), Nr. 2, S. 169-180
 
-- [ ] __P1450000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1450000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1450000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1450000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-15 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-15)
 
-- [ ] __P1450000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1450000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1450000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1450000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1450000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P1450000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P1460000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1460000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1460000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1460000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P1460000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1460000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1460000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1460000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1460000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1460000, Wirkungsorte__:
  _Expected 4 parts, got 1: Herrnhut Schullehrer_
@@ -6854,33 +3630,9 @@ zur Botanik: Jacques Cayouette; Stephen J. Darbyshire: "Taxa Described by Steude
  _Invalid work id: Julia Hammerschmidt: 200 Jahre Naturforschende Gesellschaft und Museum für Naturkunde Görlitz, hg. v. Willi E. R. Xylander, 2. überarbeitete. Aufl. 2018, 79 (should be R-ID, or M-ID)_
 > Julia Hammerschmidt: 200 Jahre Naturforschende Gesellschaft und Museum für Naturkunde Görlitz, hg. v. Willi E. R. Xylander,  2. überarbeitete. Aufl.  2018, 79 
 
-- [ ] __P1470000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1470000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1470000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1470000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-15 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-15)
-
-- [ ] __P1470000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1470000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1470000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1470000, Wirkungsorte__:
  _Expected 4 parts, got 1: Umánaq (Grönland) -- Missionar_
@@ -6893,18 +3645,6 @@ zur Botanik: Jacques Cayouette; Stephen J. Darbyshire: "Taxa Described by Steude
 - [ ] __P1470000, Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere__:
  _Invalid work id: R0001400 Morten P. Porsild: "On some herbaria from Greenland and Labrador collected by the Moravian brethren", in: Meddelelser om Grønland 93 (1935), Nr. 3, S. 84-94, 86. (should be R-ID, or M-ID)_
 > R0001400 Morten P. [Petersen] Porsild: "On some herbaria from Greenland and Labrador collected by the Moravian brethren", in: Meddelelser om Grønland [Medd. om Gronland] 93 (1935), Nr. 3, S. 84-94, 86.
-
-- [ ] __P1480000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1480000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1480000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1480000, Geburt - Ort__:
  _Invalid Reference Document value: bei Bayreuth (should be URL, R-ID, or M-ID)_
@@ -6927,26 +3667,6 @@ zur Botanik: Jacques Cayouette; Stephen J. Darbyshire: "Taxa Described by Steude
 > 1763 (Manuskript)/1775 (erster Druck):
 Flora von Barby
 
-- [ ] __P1485000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1485000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1485000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1485000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P1485000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P1485000, Zugehörigkeit Herrnhuter Brüdergemeine__:
  _Provided string is not in codelist: nein_
 > nein
@@ -6966,18 +3686,6 @@ Flora von Barby
 - [ ] __P1485000, Kontakt - Mit Herrnhutern__:
  _PersonID must start with 'P': Johann Jakob Bossart_
 > Johann Jakob Bossart (R0005300)
-
-- [ ] __P1490000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1490000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1490000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1490000, Geburt - Ort__:
  _LocationID must start with 'L': Hoheneggelsen_
@@ -7035,18 +3743,6 @@ Helmut Passig: "Flora von Herrnhut und Umgebung", in: Berichte der Naturforschen
  _Invalid work id: Hardtke (should be R-ID, or M-ID)_
 > 
 Hardtke
-
-- [ ] __P1500000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1500000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1500000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1500000, Geburt - Ort__:
  _Invalid Reference Document value: Pennsylv. (should be URL, R-ID, or M-ID)_
@@ -7178,18 +3874,6 @@ Jason M. Karakehian; Thomas Rödel; Ulrike Damm; Donald H. Pfister; Andrew N. Mi
 > 
 Staffleu
 
-- [ ] __P1505000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1505000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1505000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P1505000, Zugehörigkeit Herrnhuter Brüdergemeine__:
  _Provided string is not in codelist: nein_
 > nein
@@ -7206,10 +3890,6 @@ Staffleu
  _Expected 4 parts, got 1: Hamburg_
 > Hamburg (https://www.wikidata.org/wiki/Q28731149)
 
-- [ ] __P1505000, Herrnhuter Lebenslauf__:
- _Invalid work id:  (should be R-ID, or M-ID)_
-> 
-
 - [ ] __P1505000, Kontakt - Mit Herrnhutern__:
  _Invalid Reference Document value: Belege in C-HAL (should be URL, R-ID, or M-ID)_
 > P0650000 (Belege in C-HAL) 
@@ -7222,18 +3902,6 @@ Prof. Hermann Bumeister im Halle, Schwiegersohn und wichtigster entomologischer 
 - [ ] __P1505000, Botanik - Beitrag zu Sammlungen (Objektnachweis)__:
  _Invalid Reference Document value: Belegnummer offen (should be URL, R-ID, or M-ID)_
 > C-HAL (Belegnummer offen)
-
-- [ ] __P1510000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1510000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1510000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1510000, Geburt - Ort__:
  _LocationID must start with 'L': Eibau, Sachsen Germany_
@@ -7264,25 +3932,9 @@ Prof. Hermann Bumeister im Halle, Schwiegersohn und wichtigster entomologischer 
 > 
 Jacques Cayouette; Stephen J. Darbyshire: "Taxa Described by Steudel from the Labrador Plants Collected by the Moravian Missionary Albrecht and Distributed by Hohenacker", in: Taxon 43 (1994), Nr. 2, S. 169-180. 
 
-- [ ] __P1520000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1520000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1520000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P1520000, Geburt - Ort__:
  _LocationID must start with 'L': Wales_
 > Wales
-
-- [ ] __P1520000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1520000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
@@ -7306,25 +3958,9 @@ Jacques Cayouette; Stephen J. Darbyshire: "Taxa Described by Steudel from the La
 > 
 Hugh S. Torrens: "The Moravian minister Rev. Henry Steinhauer (1782-1818); his work on fossil plants, their first 'scientific' description and the planned Mineral Botany", in: A. J.  Bowden (Hg.), History of Palaeobotany: Selected Essays, London: Geological Soc. 2005, S. 13-29.
 
-- [ ] __P1530000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1530000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1530000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P1530000, Geburt - Ort__:
  _LocationID must start with 'L': Wales_
 > Wales
-
-- [ ] __P1530000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1530000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
@@ -7334,25 +3970,9 @@ Hugh S. Torrens: "The Moravian minister Rev. Henry Steinhauer (1782-1818); his w
  _Invalid work id: Troyer 2009 (should be R-ID, or M-ID)_
 > Troyer 2009
 
-- [ ] __P1540000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1540000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1540000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1540000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-16 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-16)
-
-- [ ] __P1540000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1540000, Geburt - Ort__:
  _LocationID must start with 'L': Paramaribo_
@@ -7365,18 +3985,6 @@ Hugh S. Torrens: "The Moravian minister Rev. Henry Steinhauer (1782-1818); his w
 - [ ] __P1540000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P1550000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1550000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1550000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1550000, Geburt - Ort__:
  _Invalid Reference Document value: Südafrika (should be URL, R-ID, or M-ID)_
@@ -7402,57 +4010,13 @@ Hugh S. Torrens: "The Moravian minister Rev. Henry Steinhauer (1782-1818); his w
  _Invalid work id: R. Schlechter: "Orchidaceae Stolzianae. Ein Beitrag zur Ochideenkunde des Nyassalandes", in: Botanische Jahrbücher für Systematik, Pflanzengeschichte und Pflanzengeographie 53 (1915), S. 477-605. mit 1146 neuen Arten von A.Stolz (should be R-ID, or M-ID)_
 > R. Schlechter: "Orchidaceae Stolzianae. Ein Beitrag zur Ochideenkunde des Nyassalandes", in: Botanische Jahrbücher für Systematik, Pflanzengeschichte und Pflanzengeographie 53 (1915), S. 477-605. mit 1146 neuen Arten von A.Stolz
 
-- [ ] __P1560000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1560000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1560000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1560000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1560000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1560000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1560000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P1560000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P1570000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1570000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1570000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1570000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-16 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-16)
-
-- [ ] __P1570000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1570000, Geburt - Ort__:
  _LocationID must start with 'L': Weimar_
@@ -7469,18 +4033,6 @@ Hugh S. Torrens: "The Moravian minister Rev. Henry Steinhauer (1782-1818); his w
 - [ ] __P1570000, Kontakt - Mit Herrnhutern__:
  _PersonID must start with 'P': Albertini_
 > Albertini (R0001500)
-
-- [ ] __P1589000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1589000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1589000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1589000, Geburt - Ort__:
  _LocationID must start with 'L': Neuwied_
@@ -7522,61 +4074,17 @@ Hugh S. Torrens: "The Moravian minister Rev. Henry Steinhauer (1782-1818); his w
  _Invalid work id: R0001400 Morten P. Porsild: "On some herbaria from Greenland and Labrador collected by the Moravian brethren", in: Meddelelser om Grønland 93 (1935), Nr. 3, S. 84-94, 85 (should be R-ID, or M-ID)_
 > R0001400 Morten P. [Petersen] Porsild: "On some herbaria from Greenland and Labrador collected by the Moravian brethren", in: Meddelelser om Grønland [Medd. om Gronland] 93 (1935), Nr. 3, S. 84-94, 85
 
-- [ ] __P1590000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1590000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1590000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1590000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-16 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-16)
-
-- [ ] __P1590000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1590000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1590000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1590000, Tod - Datum__:
  _Invalid ISO8601-2_Date format: nach 1883_
 > nach 1883
 
-- [ ] __P1590000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P1590000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P1595000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1595000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1595000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P1595000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1595000, Kontakt - Mit Herrnhutern__:
  _PersonID must start with 'P': Hans, W._
@@ -7586,26 +4094,6 @@ Hugh S. Torrens: "The Moravian minister Rev. Henry Steinhauer (1782-1818); his w
  _Invalid Reference Document value: 0110828 (should be URL, R-ID, or M-ID)_
 > C-GLM (0110828)
 
-- [ ] __P1595500, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1595500, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1595500, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1595500, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P1595500, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P1595500, Zugehörigkeit Herrnhuter Brüdergemeine__:
  _Provided string is not in codelist: ja_
 > ja
@@ -7614,25 +4102,9 @@ Hugh S. Torrens: "The Moravian minister Rev. Henry Steinhauer (1782-1818); his w
  _Invalid Reference Document value: nicht identifiziert, nicht Franz Ferdinand Thrän) (R0004300 (should be URL, R-ID, or M-ID)_
 > Botanisierte mit seinem jüngeren Bruder (nicht identifiziert, nicht Franz Ferdinand Thrän) (R0004300)
 
-- [ ] __P1600000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1600000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1600000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1600000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-17 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-17)
-
-- [ ] __P1600000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1600000, Geburt - Ort__:
  _LocationID must start with 'L': Gnadenfrei_
@@ -7659,25 +4131,9 @@ Thust, Gustav Adolf: I Flora Sarepta’s und II. Meterologische Beobachtungen Sa
  _LiteratureID must start with 'R': UA NB VI.185 Floren der Brüdergemeinen Nrm 1-11_
 >  UA NB VI.185 Floren der Brüdergemeinen Nrm 1-11
 
-- [ ] __P1610000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1610000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1610000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1610000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-17 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-17)
-
-- [ ] __P1610000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1610000, Zugehörigkeit Herrnhuter Brüdergemeine__:
  _Provided string is not in codelist: ja_
@@ -7711,25 +4167,9 @@ Thust, Gustav Adolf: I Flora Sarepta’s und II. Meterologische Beobachtungen Sa
  _Invalid work id: Nathanael Gottfried Leske: Reise durch Sachsen : in Rüksicht der Naturgeschichte und Oekonomie / unternommen und beschrieben von Nathanael Gottfried Leske, Leipzig: J. G. Müller 1785, S. 182f. (should be R-ID, or M-ID)_
 > Nathanael Gottfried Leske: Reise durch Sachsen : in Rüksicht der Naturgeschichte und Oekonomie / unternommen und beschrieben von Nathanael Gottfried Leske, Leipzig: J. G. Müller 1785, S. 182f.
 
-- [ ] __P1620000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1620000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1620000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1620000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-17 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-17)
-
-- [ ] __P1620000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1620000, Geburt - Ort__:
  _LocationID must start with 'L': Gnadenfeld_
@@ -7743,25 +4183,9 @@ Thust, Gustav Adolf: I Flora Sarepta’s und II. Meterologische Beobachtungen Sa
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P1630000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1630000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1630000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1630000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-17 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-17)
-
-- [ ] __P1630000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1630000, Geburt - Ort__:
  _LocationID must start with 'L': Neusalz_
@@ -7774,18 +4198,6 @@ Thust, Gustav Adolf: I Flora Sarepta’s und II. Meterologische Beobachtungen Sa
 - [ ] __P1630000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P1640000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1640000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1640000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1640000, Geburt - Ort__:
  _LocationID must start with 'L': Königsfeld_
@@ -7808,37 +4220,13 @@ Thust, Gustav Adolf: I Flora Sarepta’s und II. Meterologische Beobachtungen Sa
 >  
 Nachlass Uttendörfer im Unitätsarchiv "Lebenserinnerungen" von 668 Seiten.
 
-- [ ] __P1650000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1650000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1650000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1650000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-17 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-17)
 
-- [ ] __P1650000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1650000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P1650000, Tod - Datum__:
  _Invalid ISO8601-2_Date format: ?_
 > ?
-
-- [ ] __P1650000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1650000, Wirkungsorte__:
  _Expected 4 parts, got 1: Salem, North Carolinia, USA_
@@ -7852,45 +4240,9 @@ Nachlass Uttendörfer im Unitätsarchiv "Lebenserinnerungen" von 668 Seiten.
  _Invalid work id: Troyer 2009 (should be R-ID, or M-ID)_
 > Troyer 2009
 
-- [ ] __P1651000, Übernahme in Personenlexikon__:
- _Provided string is not in codelist: _
-> 
-
 - [ ] __P1651000, Links - Wikidata__:
  _URL is not valid: ?_
 > ?
-
-- [ ] __P1651000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1651000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1651000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P1651000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1651000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1651000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1651000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1651000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1651000, Wirkungsorte__:
  _Expected 4 parts, got 1: Labrador 1858 / Grönland 1859?_
@@ -7904,26 +4256,6 @@ Nachlass Uttendörfer im Unitätsarchiv "Lebenserinnerungen" von 668 Seiten.
  _CollectionID must start with 'C': nur in Halle bekannt ca. 80 Belege alle von 1858/59 aus Stationrn in Labrador Grönland - unklar ob selbst Herrnhuter oder ein sammler, der diese Sachen bezogen hat_
 > nur in Halle bekannt ca. 80 Belege alle von 1858/59 aus Stationrn in Labrador Grönland - unklar ob selbst Herrnhuter oder ein sammler, der diese Sachen bezogen hat
 
-- [ ] __P1660000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1660000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1660000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1660000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1660000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
 - [ ] __P1660000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
@@ -7931,18 +4263,6 @@ Nachlass Uttendörfer im Unitätsarchiv "Lebenserinnerungen" von 668 Seiten.
 - [ ] __P1660000, Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere__:
  _Invalid work id: Troyer 2009 (should be R-ID, or M-ID)_
 > Troyer 2009
-
-- [ ] __P1670000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1670000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1670000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1670000, Geburt - Ort__:
  _LocationID must start with 'L': Montmirail_
@@ -7964,41 +4284,9 @@ Nachlass Uttendörfer im Unitätsarchiv "Lebenserinnerungen" von 668 Seiten.
  _Invalid Reference Document value: 1898 (should be URL, R-ID, or M-ID)_
 > Barber: Flora der Oberlausitz (1898) 
 
-- [ ] __P1680000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1680000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1680000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1680000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-17 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-17)
-
-- [ ] __P1680000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1680000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1680000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1680000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1680000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
 
 - [ ] __P1680000, Wirkungsorte__:
  _Expected 4 parts, got 1: Labrador 1869_
@@ -8012,141 +4300,13 @@ Nachlass Uttendörfer im Unitätsarchiv "Lebenserinnerungen" von 668 Seiten.
  _Invalid work id: Periodical accounts, vol. 22: 112 (should be R-ID, or M-ID)_
 > Periodical accounts, vol. 22: 112
 
-- [ ] __P1683000, Übernahme in Personenlexikon__:
- _Provided string is not in codelist: _
-> 
-
-- [ ] __P1683000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1683000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1683000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1683000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P1683000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1683000, Geburt - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1683000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1683000, Tod - Datum__:
- _Invalid ISO8601-2_Date format: _
-> 
-
-- [ ] __P1683000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1683000, Herrnhuter Lebenslauf__:
- _Invalid work id:  (should be R-ID, or M-ID)_
-> 
-
 - [ ] __P1683000, Botanik - Beitrag zu Sammlungen (Objektnachweis)__:
  _Invalid Reference Document value: 0166974 (should be URL, R-ID, or M-ID)_
 > C-GLM (0166974)
 
-- [ ] __P1684000, Übernahme in Personenlexikon__:
- _Provided string is not in codelist: _
-> 
-
-- [ ] __P1684000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1684000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1684000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1684000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P1684000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1684000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1684000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1684000, Herrnhuter Lebenslauf__:
- _Invalid work id:  (should be R-ID, or M-ID)_
-> 
-
-- [ ] __P1685000, Übernahme in Personenlexikon__:
- _Provided string is not in codelist: _
-> 
-
-- [ ] __P1685000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1685000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1685000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1685000, Links - Bionomia__:
- _URL is not valid: _
-> 
-
-- [ ] __P1685000, Links - Säbi__:
- _URL is not valid: _
-> 
-
-- [ ] __P1685000, Geburt - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1685000, Tod - Ort__:
- _LocationID must start with 'L': _
-> 
-
-- [ ] __P1685000, Herrnhuter Lebenslauf__:
- _Invalid work id:  (should be R-ID, or M-ID)_
-> 
-
 - [ ] __P1690000, Angehörige - Kinder__:
  _Invalid format for PersonID: P168400_
 >  P168400
-
-- [ ] __P1690000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1690000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1690000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1690000, Geburt - Ort__:
  _LocationID must start with 'L': Königsfeld_
@@ -8215,18 +4375,6 @@ Paul Heuser; Samuel Weiz: "Einiges über Labrador und seine Flora", in: Österre
  _Invalid work id: G. Neumeyer; Samuel Weiz: Verzeichniss der nach Missionar S. Weiz in Labrador vorkommenden Thiere. in ‘Die internationale Polarforschung 1882–1883. Die Deutschen Expeditionen und ihre Ergebnisse’, Band I, Anhang, Geschichtlicher Theil und in einem Anhange mehrere einzelne Abhandlungen physikalischen und sonstigen Inhalts, Berlin: Verlag von A. Asher & Co. 1891. (should be R-ID, or M-ID)_
 > 
 G. Neumeyer; Samuel Weiz: Verzeichniss der nach Missionar S. Weiz in Labrador vorkommenden Thiere. in ‘Die internationale Polarforschung 1882–1883. Die Deutschen Expeditionen und ihre Ergebnisse’, Band I, Anhang, Geschichtlicher Theil und in einem Anhange mehrere einzelne Abhandlungen physikalischen und sonstigen Inhalts, Berlin: Verlag von A. Asher & Co. 1891. 
-
-- [ ] __P1700000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1700000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1700000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1700000, Geburt - Ort__:
  _LocationID must start with 'L': Herrnhut_
@@ -8351,18 +4499,6 @@ Hardtke
  _Invalid work id: Restaurierung und Katalogisierung des Herbariums Leiner in Konstanz 2004 (should be R-ID, or M-ID)_
 >  Restaurierung und Katalogisierung des Herbariums Leiner in Konstanz 2004
 
-- [ ] __P1710000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1710000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1710000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P1710000, Geburt - Ort__:
  _LocationID must start with 'L': Gnadenfeld_
 > Gnadenfeld
@@ -8378,18 +4514,6 @@ Hardtke
 - [ ] __P1710000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P1720000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1720000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1720000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1720000, Geburt - Ort__:
  _LocationID must start with 'L': Paramaribo_
@@ -8474,18 +4598,6 @@ Sein Herbarium und der komplette Nachlass von Wiemann  im: Pfalzmuseum für Natu
 >  67098 Bad Dürkheim
 Die Feldtagebücher erst nach 1920. Ob im Nachlass direkte Zeugnisse seiner Herrnhuter Zeit sind, wurde nicht erruiert. Die Korrerspondenten sind zum Großteil nicht Herrnhuter Provenienz, dort finden sich aber auch die unter der Sp. Herrnhuter Kontakte erwähnten Personen mit relativ geringer Überlieferung von je einem Brief ,außer W. Baer mit 4 Schreiben. Diese könnten auch vor 1920 verfasst sein.
 
-- [ ] __P1730000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1730000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1730000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P1730000, Geburt - Ort__:
  _LocationID must start with 'L': Herrnhut_
 > Herrnhut
@@ -8505,18 +4617,6 @@ specimens collected by J. Wolle and A. L. Huebner during the
 year 1837 in the vicinity of Bethlehem and other parts of
 Northampton County, Pennsylvania, in the order as they were
 found in bloom. Am. J. Sci. 37:310–320.
-
-- [ ] __P1740000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1740000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1740000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1740000, Geburt - Ort__:
  _LocationID must start with 'L': Pennsylvania_
@@ -8545,18 +4645,6 @@ WOLLE, F. 1890. Diatomaceae of North America. Comenius Press, Bethlehem, PA. 47 
 widows of Moravian clergymen to hand tint with water colors the plates of his works for a payment of 10 cents
 per plate." Troyer 2009,4
 
-- [ ] __P1750000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1750000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1750000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P1750000, Geburt - Ort__:
  _LocationID must start with 'L': Old Sarepta_
 > Old Sarepta
@@ -8573,18 +4661,6 @@ per plate." Troyer 2009,4
  _Invalid Reference Document value: 0110686 (should be URL, R-ID, or M-ID)_
 >  C-GLM (0110686)
 
-- [ ] __P1760000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1760000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1760000, Links - Säbi__:
- _URL is not valid: _
-> 
-
 - [ ] __P1760000, Geburt - Ort__:
  _LocationID must start with 'L': Zwickau_
 > Zwickau
@@ -8597,25 +4673,9 @@ per plate." Troyer 2009,4
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
 
-- [ ] __P1770000, Links - Wikidata__:
- _URL is not valid: _
-> 
-
-- [ ] __P1770000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1770000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
 - [ ] __P1770000, Links - Bionomia__:
  _Invalid Reference Document value: 2024-12-17 (should be URL, R-ID, or M-ID)_
 > nein (2024-12-17)
-
-- [ ] __P1770000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1770000, Geburt - Ort__:
  _LocationID must start with 'L': Düsseldorf_
@@ -8632,18 +4692,6 @@ per plate." Troyer 2009,4
 - [ ] __P1770000, Herrnhuter Lebenslauf__:
  _Invalid work id: offen (should be R-ID, or M-ID)_
 > offen
-
-- [ ] __P1780000, Links - GND__:
- _URL is not valid: _
-> 
-
-- [ ] __P1780000, Links - FactGrid__:
- _URL is not valid: _
-> 
-
-- [ ] __P1780000, Links - Säbi__:
- _URL is not valid: _
-> 
 
 - [ ] __P1780000, Geburt - Ort__:
  _LocationID must start with 'L': Gnadenberg_
