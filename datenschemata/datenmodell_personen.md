@@ -140,10 +140,14 @@ Link zum Eintrag der Person in Bionomia. Die URL beginnt immer mit `https://bion
 
 Link zum Eintrag der Person in Säbi. Die URL beginnt immer mit `https://saebi.isgv.de/person/`. Wenn nichts eingetragen ist, heißt das, dass es keinen Säbi-Eintrag gibt.
 
-### Herrnhuter Lebenslauf
-*ID: \<M-ID/R-ID\>* 
+### Herrnhuter Lebensläuf
+*List of IDs: \<M-ID/R-ID\>* 
 
-Für jeden Herrenhuter wurde ein Lebenslauf angefertigt. Diese Lebensläufe liegen als handschriftliche Manuskripte oder Drucke vor, d.h. es ist eine Manuskript-ID (beginnend mit `M`) oder Literatur-ID (beginnend mit `R`) einzutragen.  
+Für jeden Herrenhuter wurde (mindestens) ein Lebenslauf angefertigt. Diese Lebensläufe liegen als handschriftliche Manuskripte oder Drucke vor, d.h. es ist eine Manuskript-ID (beginnend mit `M`) oder Literatur-ID (beginnend mit `R`) einzutragen.  
+
+- `M0004100`
+- `R0004000`
+- `R0004000 | M0004100`
 
 ### Geburt - Datum
 *Structured String: \<ISO8601-2_Date\> (\<Reference\>)*
@@ -163,7 +167,7 @@ Geburtsort der Person mit Quellenangabe (_Reference_) in Klammern. Orte sind mit
 *String*
 
 ### Tod - Datum
-*Ltructured String: \<ISO8601-2_Date\> (\<Reference\>)*
+*Structured String: \<ISO8601-2_Date\> (\<Reference\>)*
 
 Todessdatum der Person mit Quellenangabe (_Reference_) in Klammern. Quellen können IDs aus anderen Tabellen oder URLs sein. Bei mehreren widersprüchlichen Todessdaten ist das plausibelste einzutragen. Widersprüchliche Annahmen sind ausführlich in Annahmen zu vermerken.
 

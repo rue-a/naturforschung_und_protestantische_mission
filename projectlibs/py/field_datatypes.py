@@ -32,8 +32,8 @@ class AttestableDatatype(ABC):
         pass
 
     def _split_value_and_source(self, in_string: str, require_source):
-        # get string in parantheses
-        source_pattern = re.compile(r"^(.*?)\s*\((.*?)\)$")
+        # get string in parantheses, if preceded by an empty space
+        source_pattern = re.compile(r"^(.*?) \((.*?)\)$")
 
         match = source_pattern.fullmatch(in_string)
         if match:

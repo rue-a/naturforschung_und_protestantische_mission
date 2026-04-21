@@ -175,7 +175,7 @@ class HerrnhutPerson(HerrnhutObject):
             "Wirkungsorte", input_data["Wirkungsorte"], PlaceOfEffect
         )
 
-        self.moravian_curriculum_vitae = self._field(
+        self.moravian_curriculum_vitae = self._list_field(
             "Herrnhuter Lebenslauf", input_data["Herrnhuter Lebenslauf"], WorkID
         )
 

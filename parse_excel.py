@@ -49,13 +49,15 @@ def write_errors(file_path: str, all_errors: dict):
             for entity_id, field_errors in sheet_errors.items():
                 f.write(f"\n### {entity_id}\n")
                 for column, causing, full_raw, message in field_errors:
+                    while "\n\n" in full_raw:
+                        full_raw = full_raw.replace("\n\n", "\n")
+                    full_raw = full_raw.strip("\n")
+                    causing = causing.strip("\n")
                     f.write(f"\n- [ ] **{column}** ({entity_id}):\n")
                     f.write(f"  - Error Message: **`{message}`**\n")
-                    f.write(f"  - Causing raw value: `{causing.strip()}`\n")
-                    if causing.strip() != full_raw.strip():
-                        while "\n\n" in full_raw:
-                            full_raw = full_raw.replace("\n\n", "\n")
-                        f.write(f"  - Full field: _{full_raw.strip()}_\n")
+                    f.write(f"  - Causing raw value: `{causing}`\n")
+                    if causing.strip() != full_raw.strip() and len(full_raw) < 400:
+                        f.write(f"  - Full field: _{full_raw}_\n")
 
 
 def load_objects(sheet_name: str, constructor, all_errors: dict, test_ids=None) -> dict:
