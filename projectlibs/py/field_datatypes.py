@@ -46,10 +46,10 @@ class AttestableDatatype(ABC):
 
         return in_string, None
 
-    def __init__(self, raw: str, require_source=False):
+    def __init__(self, raw: str, require_source=False, mandatory=False):
 
         raw = clean_field(raw)
-        if not raw:
+        if not raw and not mandatory:
             return None
         self.raw = raw
         value, source_string = self._split_value_and_source(raw, require_source)

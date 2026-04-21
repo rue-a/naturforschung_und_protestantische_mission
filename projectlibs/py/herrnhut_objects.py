@@ -32,14 +32,16 @@ class HerrnhutObject(ABC):
         pass
 
     def __init__(self, raw_input: dict):
-        self._errors: list[tuple[str, str, str]] = []
+        self._errors: list[
+            tuple[str, str, str, str]
+        ] = []  # (column, causing, full_raw, message)
         self._parse_input(raw_input)
 
     def _field(self, column: str, raw: str, constructor) -> object:
         try:
             return constructor(raw)
         except (ValueError, KeyError) as e:
-            self._errors.append((column, raw, str(e)))
+            self._errors.append((column, raw, raw, str(e)))
             return None
 
     def _list_field(self, column: str, raw: str, constructor) -> list:
@@ -50,7 +52,7 @@ class HerrnhutObject(ABC):
             try:
                 results.append(constructor(el))
             except (ValueError, KeyError) as e:
-                self._errors.append((column, el, str(e)))
+                self._errors.append((column, el, raw, str(e)))
         return results
 
 
