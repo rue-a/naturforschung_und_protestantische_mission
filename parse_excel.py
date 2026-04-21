@@ -38,52 +38,84 @@ def load_excel_sheet(file_name, sheet_name):
 # df = df.filter(items=list(sheet_specs.keys()))
 
 
+def write_errors(file_path: str, errors: dict):
+    with open(file_path, "w", encoding="utf-8") as f:
+        f.write("# Parsing Errors\n")
+        for entity_id, field_errors in errors.items():
+            for column, raw, message in field_errors:
+                f.write(f"\n- [ ] __{entity_id}, {column}__:\n")
+                f.write(f" _{message}_\n")
+                f.write(f"> {raw}\n")
+
+
 persons_df = load_excel_sheet(EXCEL_FILE, "Personen")
 
 persons = {}
+persons_errors = {}
 for index, row in persons_df.iterrows():
     print(f"Personen: {row['ID']}")
-    if row["ID"] not in TEST_IDS:
-        continue
-    current_person = HerrnhutPerson(row.to_dict())
-    persons[current_person.id] = current_person
+    obj = HerrnhutPerson(row.to_dict())
+    if obj._errors:
+        persons_errors[row["ID"]] = obj._errors
+    persons[obj.id] = obj
+write_errors("validation_msgs/person_errors.md", persons_errors)
 
 archives_df = load_excel_sheet(EXCEL_FILE, "Archive")
 
 archives = {}
+archives_errors = {}
 for index, row in archives_df.iterrows():
     print(f"Archive: {row['ID']}")
-    current_archive = HerrnhutArchive(row.to_dict())
-    archives[current_archive.id] = current_archive
+    obj = HerrnhutArchive(row.to_dict())
+    if obj._errors:
+        archives_errors[row["ID"]] = obj._errors
+    archives[obj.id] = obj
+write_errors("validation_msgs/archive_errors.md", archives_errors)
 
 manuscripts_df = load_excel_sheet(EXCEL_FILE, "Manuskripte")
 
 manuscripts = {}
+manuscripts_errors = {}
 for index, row in manuscripts_df.iterrows():
     print(f"Manuskripte: {row['ID']}")
-    current_manuscript = HerrnhutManuscript(row.to_dict())
-    manuscripts[current_manuscript.id] = current_manuscript
+    obj = HerrnhutManuscript(row.to_dict())
+    if obj._errors:
+        manuscripts_errors[row["ID"]] = obj._errors
+    manuscripts[obj.id] = obj
+write_errors("validation_msgs/manuscript_errors.md", manuscripts_errors)
 
 literature_df = load_excel_sheet(EXCEL_FILE, "Literatur")
 
 literature = {}
+literature_errors = {}
 for index, row in literature_df.iterrows():
     print(f"Literatur: {row['ID']}")
-    current_literature = HerrnhutLiterature(row.to_dict())
-    literature[current_literature.id] = current_literature
+    obj = HerrnhutLiterature(row.to_dict())
+    if obj._errors:
+        literature_errors[row["ID"]] = obj._errors
+    literature[obj.id] = obj
+write_errors("validation_msgs/literature_errors.md", literature_errors)
 
 locations_df = load_excel_sheet(EXCEL_FILE, "Orte")
 
 locations = {}
+locations_errors = {}
 for index, row in locations_df.iterrows():
     print(f"Orte: {row['ID']}")
-    current_location = HerrnhutLocation(row.to_dict())
-    locations[current_location.id] = current_location
+    obj = HerrnhutLocation(row.to_dict())
+    if obj._errors:
+        locations_errors[row["ID"]] = obj._errors
+    locations[obj.id] = obj
+write_errors("validation_msgs/location_errors.md", locations_errors)
 
 collections_df = load_excel_sheet(EXCEL_FILE, "Sammlungen")
 
 collections = {}
+collections_errors = {}
 for index, row in collections_df.iterrows():
     print(f"Sammlungen: {row['ID']}")
-    current_collection = HerrnhutCollection(row.to_dict())
-    collections[current_collection.id] = current_collection
+    obj = HerrnhutCollection(row.to_dict())
+    if obj._errors:
+        collections_errors[row["ID"]] = obj._errors
+    collections[obj.id] = obj
+write_errors("validation_msgs/collection_errors.md", collections_errors)

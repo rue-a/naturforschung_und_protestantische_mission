@@ -1,52 +1,65 @@
 # Parsing Errors
 
-- [ ] __L0100000, Varianten__:
- _Missing reference for complex value_
-> Lichtenfels [Grönland]
+- [ ] __L0150000, Name__:
+ _Invalid Reference Document value: Gebirge (should be URL, R-ID, or M-ID)_
+> Alpen (Gebirge)
 
-- [ ] __L0400000, Varianten__:
- _Missing reference for complex value_
-> Batromjecy
+- [ ] __L0350000, Wikidata__:
+ _URL is not valid: _
+> 
 
-- [ ] __L1000000, Varianten__:
- _Missing reference for complex value_
-> Godnów | Kruszyn
+- [ ] __L0700000, Wikidata__:
+ _URL is not valid: _
+> 
 
-- [ ] __L1100000, Varianten__:
- _Missing reference for complex value_
-> Piława Górna |Peilau | Oberpeilau | Obermittelpeilau 
+- [ ] __L0900000, Wikidata__:
+ _URL is not valid: _
+> 
 
 - [ ] __L1101000, Varianten__:
- _Invalid Reference value: 'Kreis Cosel, Oberschlesien' (should be URL, R-ID, or M-ID)_
-> Pawlowitzke (Kreis Cosel, Oberschlesien) |Pawłowiczki (Powiat Kędzierzyńsko-Kozielski, Woiwodschaft Oppeln, Polen)
+ _Invalid Reference Document value: Kreis Cosel, Oberschlesien (should be URL, R-ID, or M-ID)_
+> Pawlowitzke (Kreis Cosel, Oberschlesien) 
+
+- [ ] __L1101000, Varianten__:
+ _Invalid Reference Document value: Powiat Kędzierzyńsko-Kozielski, Woiwodschaft Oppeln, Polen (should be URL, R-ID, or M-ID)_
+> Pawłowiczki (Powiat Kędzierzyńsko-Kozielski, Woiwodschaft Oppeln, Polen)
 
 - [ ] __L1101000, Wikidata__:
- _URL must start with 'http://' or 'https://': 'w.wikidata.org/wiki/Q570684'_
+ _URL is not valid: w.wikidata.org/wiki/Q570684_
 > w.wikidata.org/wiki/Q570684
 
-- [ ] __L1300000, Varianten__:
- _Missing reference for complex value_
-> Igdlorpait | Illorpaat
+- [ ] __L1102000, Wikidata__:
+ _URL is not valid: _
+> 
 
-- [ ] __L1550000, Varianten__:
- _Missing reference for complex value_
-> Königsfeld im Schwarzwald
+- [ ] __L1400000, Wikidata__:
+ _URL is not valid: _
+> 
 
-- [ ] __L1600000, Varianten__:
- _Missing reference for complex value_
-> Alluitsoq
+- [ ] __L1700000, Wikidata__:
+ _URL is not valid: _
+> 
 
-- [ ] __L2300000, Varianten__:
- _Missing reference for complex value_
-> Shilo | Siloh
+- [ ] __L1800000, Wikidata__:
+ _URL is not valid: _
+> 
+
+- [ ] __L1950000, Wikidata__:
+ _URL is not valid: _
+> 
+
+- [ ] __, ID__:
+ _LocationID must start with 'L': _
+> 
+
+- [ ] __, Wikidata__:
+ _URL is not valid: _
+> 
+
+- [ ] __L2270000, Wikidata__:
+ _URL is not valid: _
+> [https://www.wikidata.org/wiki/Q2027197]
 
 - [ ] __L2350000, Varianten__:
- _Missing reference for complex value_
-> St. Johns | Sankt Jan (dän.) |
-> Nicht Verwechseln mit der Stadt St. John's auf Antigua!!
-
-- [ ] __L2400000, Varianten__:
- _Missing reference for complex value_
->  	
-> Saint John's
-
+ _Invalid Reference Document value: dän. (should be URL, R-ID, or M-ID)_
+>  Sankt Jan (dän.) 
