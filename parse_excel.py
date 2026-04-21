@@ -43,6 +43,8 @@ persons_df = load_excel_sheet(EXCEL_FILE, "Personen")
 persons = {}
 for index, row in persons_df.iterrows():
     print(f"Personen: {row['ID']}")
+    if row["ID"] not in TEST_IDS:
+        continue
     current_person = HerrnhutPerson(row.to_dict())
     persons[current_person.id] = current_person
 

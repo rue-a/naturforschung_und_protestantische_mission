@@ -50,8 +50,6 @@ class AttestableDatatype(ABC):
 
         raw = clean_field(raw)
         self.raw = raw
-        if not raw:
-            raise ValueError("Cannot parse empty string")
         value, source_string = self._split_value_and_source(raw, require_source)
         if source_string:
             self.source = ReferenceDocument(source_string, require_source=False)
@@ -137,7 +135,7 @@ class ID(AttestableDatatype, ABC):
 
         if not value.startswith(self.PREFIX):
             raise ValueError(
-                f"{self.__class__.__name__} must start with '{self.PREFIX}'"
+                f"{self.__class__.__name__} must start with '{self.PREFIX}': {value}"
             )
 
         if self.PATTERN and not re.fullmatch(self.PATTERN, value):
@@ -196,7 +194,7 @@ class EncodedString(AttestableDatatype):
 
     def _parse_value(self, value: str):
         if value not in self._codelist:
-            raise ValueError(f"Provided string is not in codelist: {value!r}")
+            raise ValueError(f"Provided string is not in codelist: {value}")
         self.encoded_value = value
         self.decoded_value = self._codelist[value]
 

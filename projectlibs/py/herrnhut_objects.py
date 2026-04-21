@@ -1,8 +1,8 @@
 from abc import ABC, abstractmethod
+from functools import partial
 from types import SimpleNamespace
 from typing import Callable
 from projectlibs.py.field_datatypes import (
-    AttestableDatatype,
     String,
     EncodedString,
     URL,
@@ -37,7 +37,7 @@ class HerrnhutObject(ABC):
 
 
 def parse_list_field(field: str, parser: Callable) -> list:
-    return [parser(el) for el in field.split("|")]
+    return [parser(el) for el in field.split("|") if el]
 
 
 class HerrnhutPerson(HerrnhutObject):
@@ -75,18 +75,21 @@ class HerrnhutPerson(HerrnhutObject):
         self.links.bionomia = URL(input_data["Links - Bionomia"])
         self.links.saebi = URL(input_data["Links - Säbi"])
 
-        self.member_of_moravians = EncodedString(
+        self.member_of_moravians = parse_list_field(
             input_data["Zugehörigkeit Herrnhuter Brüdergemeine"],
-            codelist={
-                "ja(a)": "qua Geburt und Erziehung, in einer Herrnhuter Gemeinschaft bzw. von Herrnhuter Eltern geboren und aufgewachsen",
-                "ja(b)": "als Erwachsene aufgenommen, z.B. Konvertitien oder Missionierte",
-                "ja(c)": "Übernahme von kirchlichen Ämtern innerhalb der Brüdergemeine",
-                "ja(d)": "Übernahme von Ämtern im Erziehungswesen der Brüdergemeine",
-                "nein(a)": "ausgetreten",
-                "nein(b)": "aber wichtig im Netzwerk",
-                "nein(c)": "um Verwechslung auszuschließen",
-                "unbekannt": "Zugehörigkeit kann nicht ausgeschlossen werden.",
-            },
+            partial(
+                EncodedString,
+                codelist={
+                    "ja-a": "qua Geburt und Erziehung, in einer Herrnhuter Gemeinschaft bzw. von Herrnhuter Eltern geboren und aufgewachsen",
+                    "ja-b": "als Erwachsene aufgenommen, z.B. Konvertitien oder Missionierte",
+                    "ja-c": "Übernahme von kirchlichen Ämtern innerhalb der Brüdergemeine",
+                    "ja-d": "Übernahme von Ämtern im Erziehungswesen der Brüdergemeine",
+                    "nein-a": "ausgetreten",
+                    "nein-b": "aber wichtig im Netzwerk",
+                    "nein-c": "um Verwechslung auszuschließen",
+                    "unbekannt": "Zugehörigkeit kann nicht ausgeschlossen werden.",
+                },
+            ),
         )
 
         self.birth = SimpleNamespace()
