@@ -127,18 +127,7 @@ registry = Registry(
 
 persons_out = [p.to_dict(registry) for p in persons.values()]
 
-importance = HerrnhutLocation.compute_importance(persons)
-_zero = {"births": [], "deaths": [], "places_of_effect": []}
-
-location_features = [loc.to_dict(registry) for loc in locations.values()]
-for feature in location_features:
-    feature["properties"]["importance"] = importance.get(feature["id"], _zero)
-
-locations_out = {
-    "type": "FeatureCollection",
-    "conformsTo": ["http://www.opengis.net/spec/json-fg-1/0.2/conf/core"],
-    "features": location_features,
-}
+locations_out = HerrnhutLocation.to_feature_collection(locations, registry, persons)
 
 with open(PERSONS_OUTPUT, "w", encoding="utf-8") as f:
     json.dump(persons_out, f, ensure_ascii=False, indent=2)

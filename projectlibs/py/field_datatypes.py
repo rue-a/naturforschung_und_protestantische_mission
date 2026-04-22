@@ -268,6 +268,10 @@ class ISO8601_2_Temporal(AttestableDatatype):
     def formatted(self) -> str | None:
         """Return a human-readable German representation."""
 
+    @abstractmethod
+    def iso_string(self) -> str | None:
+        """Return a machine readable ISO8601 string"""
+
 
 class ISO8601_2_Date(ISO8601_2_Temporal):
     """Day- to year-level ISO8601-2 date"""
@@ -281,6 +285,9 @@ class ISO8601_2_Date(ISO8601_2_Temporal):
     def formatted(self) -> str | None:
         d = getattr(self, "date", None)
         return _fmt_date(d) if d else None
+
+    def iso_string(self) -> str | None:
+        return getattr(self, "date", None)
 
     def to_dict(self, registry=None) -> dict:
         return {"label": self.formatted(), "source": self.source_dict(registry)}
@@ -310,6 +317,13 @@ class ISO8601_2_Period(ISO8601_2_Temporal):
             return _fmt_date(start)
         if end:
             return _fmt_date(end)
+        return None
+
+    def iso_string(self) -> str | None:
+        start = getattr(getattr(self, "start", None), "date", None)
+        end = getattr(getattr(self, "end", None), "date", None)
+        if start or end:
+            return f"{start or ''}/{end or ''}"
         return None
 
 

@@ -88,42 +88,42 @@
             {
               "id": "P0170000",
               "name": "Johann Jakob Bossart",
-              "date": "13. November 1789"
+              "date": "1789-11-13"
             }
           ],
           "places_of_effect": [
             {
               "id": "P0010000",
               "name": "Johann Baptist von Albertini",
-              "temporal": "1785–1788",
+              "temporal": "1785/1788",
               "institution": "Seminar",
               "occupation": "Schüler"
             },
             {
               "id": "P0010000",
               "name": "Johann Baptist von Albertini",
-              "temporal": "1789–1796",
+              "temporal": "1789/1796",
               "institution": "Pädagogium",
               "occupation": "Lehrer"
             },
             {
               "id": "P0170000",
               "name": "Johann Jakob Bossart",
-              "temporal": "1749–1750",
+              "temporal": "1749/1750",
               "institution": "Seminar",
               "occupation": null
             },
             {
               "id": "P0170000",
               "name": "Johann Jakob Bossart",
-              "temporal": "1764–1766",
+              "temporal": "1764/1766",
               "institution": null,
               "occupation": null
             },
             {
               "id": "P0170000",
               "name": "Johann Jakob Bossart",
-              "temporal": "1766–1789",
+              "temporal": "1766/1789",
               "institution": "Seminar",
               "occupation": "Lehrer u. Vorsteher"
             }
@@ -154,7 +154,7 @@
             {
               "id": "P0170000",
               "name": "Johann Jakob Bossart",
-              "date": "17. April 1721"
+              "date": "1721-04-17"
             }
           ],
           "deaths": [],
@@ -162,7 +162,7 @@
             {
               "id": "P0170000",
               "name": "Johann Jakob Bossart",
-              "temporal": "1736–1739",
+              "temporal": "1736/1739",
               "institution": "Universität",
               "occupation": "Student"
             }
@@ -187,7 +187,7 @@
             {
               "id": "P0535000",
               "name": "Carl Heinrich Götz",
-              "date": "1. April 1819"
+              "date": "1819-04-01"
             }
           ],
           "deaths": [],
@@ -224,12 +224,12 @@
             {
               "id": "P0010000",
               "name": "Johann Baptist von Albertini",
-              "date": "6. Dezember 1831"
+              "date": "1831-12-06"
             },
             {
               "id": "P0220000",
               "name": "Johann Christian Breutel",
-              "date": "18. Februar 1875"
+              "date": "1875-02-18"
             }
           ],
           "places_of_effect": [
@@ -272,7 +272,7 @@
             {
               "id": "P0320000",
               "name": "Christian Friedrich Denke",
-              "date": "8. September 1775"
+              "date": "1775-09-08"
             }
           ],
           "deaths": [],
@@ -352,7 +352,7 @@
             {
               "id": "P1595000",
               "name": "Franz Ferdinand Thrän",
-              "date": "8. Juli 1791"
+              "date": "1791-07-08"
             }
           ],
           "deaths": [],
@@ -549,7 +549,7 @@
             {
               "id": "P0170000",
               "name": "Johann Jakob Bossart",
-              "temporal": "1750–1760",
+              "temporal": "1750/1760",
               "institution": "Pädagogium",
               "occupation": "Lehrer"
             }
@@ -665,12 +665,12 @@
             {
               "id": "P0040000",
               "name": "Johann Heinrich Andresen",
-              "date": "19. Mai 1761"
+              "date": "1761-05-19"
             },
             {
               "id": "P0050000",
               "name": "William Gustav Baer",
-              "date": "17. April 1867"
+              "date": "1867-04-17"
             }
           ],
           "deaths": [],
@@ -711,7 +711,7 @@
             {
               "id": "P0020000",
               "name": "Carl Gottfried Albrecht",
-              "temporal": "1845–1852",
+              "temporal": "1845/1852",
               "institution": "Missionar",
               "occupation": null
             }
@@ -752,7 +752,7 @@
             {
               "id": "P0545000",
               "name": "Gustav Rudolf Gysin",
-              "date": "8. Oktober 1889"
+              "date": "1889-10-08"
             }
           ],
           "places_of_effect": []
@@ -808,7 +808,7 @@
             {
               "id": "P1150000",
               "name": "Johann (Jan) August Miertsching",
-              "date": "30. März 1875"
+              "date": "1875-03-30"
             }
           ],
           "places_of_effect": [
@@ -853,7 +853,7 @@
             {
               "id": "P0535000",
               "name": "Carl Heinrich Götz",
-              "temporal": "1841–1842",
+              "temporal": "1841/1842",
               "institution": "Knabenanstalt",
               "occupation": "Lehrer"
             }
@@ -954,7 +954,7 @@
             {
               "id": "P0170000",
               "name": "Johann Jakob Bossart",
-              "temporal": "1747–1749",
+              "temporal": "1747/1749",
               "institution": "Seminar",
               "occupation": "Lehrer"
             }
@@ -1017,7 +1017,7 @@
             {
               "id": "P0150000",
               "name": "John William Verbeek",
-              "date": "17. Mai 1895"
+              "date": "1895-05-17"
             }
           ],
           "places_of_effect": []
@@ -1066,7 +1066,7 @@
             {
               "id": "P0150000",
               "name": "John William Verbeek",
-              "date": "10. Februar 1823"
+              "date": "1823-02-10"
             }
           ],
           "deaths": [],
@@ -1134,7 +1134,7 @@
             {
               "id": "P0020000",
               "name": "Carl Gottfried Albrecht",
-              "temporal": "1835–1838",
+              "temporal": "1835/1838",
               "institution": "Missionar",
               "occupation": null
             }
@@ -1165,14 +1165,14 @@
             {
               "id": "P1595500",
               "name": "Heinrich Gottlieb Thrän",
-              "date": "25. September 1788"
+              "date": "1788-09-25"
             }
           ],
           "deaths": [
             {
               "id": "P1595500",
               "name": "Heinrich Gottlieb Thrän",
-              "date": "8. Dezember 1827"
+              "date": "1827-12-08"
             }
           ],
           "places_of_effect": []
@@ -1207,7 +1207,7 @@
             {
               "id": "P0010000",
               "name": "Johann Baptist von Albertini",
-              "date": "17. Februar 1769"
+              "date": "1769-02-17"
             }
           ],
           "deaths": [],
@@ -1215,14 +1215,14 @@
             {
               "id": "P0010000",
               "name": "Johann Baptist von Albertini",
-              "temporal": "1773–1782",
+              "temporal": "1773/1782",
               "institution": "Knabenanstalt",
               "occupation": "Schüler"
             },
             {
               "id": "P0170000",
               "name": "Johann Jakob Bossart",
-              "temporal": "1760–1764",
+              "temporal": "1760/1764",
               "institution": "Knabenanstalt",
               "occupation": "Inspektor"
             }
@@ -1254,42 +1254,42 @@
             {
               "id": "P1595000",
               "name": "Franz Ferdinand Thrän",
-              "date": "1. Dezember 1866"
+              "date": "1866-12-01"
             }
           ],
           "places_of_effect": [
             {
               "id": "P0010000",
               "name": "Johann Baptist von Albertini",
-              "temporal": "1782–1785",
+              "temporal": "1782/1785",
               "institution": "Pädagogium",
               "occupation": "Schüler"
             },
             {
               "id": "P0010000",
               "name": "Johann Baptist von Albertini",
-              "temporal": "1788–1789",
+              "temporal": "1788/1789",
               "institution": "Kinderanstalt",
               "occupation": "Lehrer"
             },
             {
               "id": "P0010000",
               "name": "Johann Baptist von Albertini",
-              "temporal": "1796–1808",
+              "temporal": "1796/1808",
               "institution": "Seminar",
               "occupation": "Dozent, Inspektor, Prediger"
             },
             {
               "id": "P0535000",
               "name": "Carl Heinrich Götz",
-              "temporal": "1833–1839",
+              "temporal": "1833/1839",
               "institution": "Pädagogium",
               "occupation": "Schüler"
             },
             {
               "id": "P0535000",
               "name": "Carl Heinrich Götz",
-              "temporal": "1842–1846",
+              "temporal": "1842/1846",
               "institution": "Pädagogium",
               "occupation": "Lehrer"
             }
@@ -1327,7 +1327,7 @@
             {
               "id": "P0020000",
               "name": "Carl Gottfried Albrecht",
-              "temporal": "1852–1864",
+              "temporal": "1852/1864",
               "institution": "Missionar",
               "occupation": null
             }
@@ -1353,19 +1353,19 @@
             {
               "id": "P0320000",
               "name": "Christian Friedrich Denke",
-              "date": "12. Januar 1838"
+              "date": "1838-01-12"
             },
             {
               "id": "P1350000",
               "name": "Philipp Christian Gottlieb Reuter",
-              "date": "30. Dezember 1777"
+              "date": "1777-12-30"
             }
           ],
           "places_of_effect": [
             {
               "id": "P0310000",
               "name": "Gustav Heinrich Dahlman",
-              "temporal": "1799–1806",
+              "temporal": "1799/1806",
               "institution": null,
               "occupation": null
             }
@@ -1494,7 +1494,7 @@
             {
               "id": "P0050000",
               "name": "William Gustav Baer",
-              "date": "16. September 1934"
+              "date": "1934-09-16"
             }
           ],
           "places_of_effect": []
@@ -1529,7 +1529,7 @@
             {
               "id": "P0220000",
               "name": "Johann Christian Breutel",
-              "date": "21. Januar 1788"
+              "date": "1788-01-21"
             }
           ],
           "deaths": [],

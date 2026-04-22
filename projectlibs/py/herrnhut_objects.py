@@ -689,7 +689,7 @@ class HerrnhutLocation(HerrnhutObject):
                 result[birth_id]["births"].append(
                     {
                         **base,
-                        "date": date_obj.formatted() if date_obj else None,
+                        "date": date_obj.iso_string() if date_obj else None,
                     }
                 )
                 seen_births[birth_id].add(pid)
@@ -702,7 +702,7 @@ class HerrnhutLocation(HerrnhutObject):
                 result[death_id]["deaths"].append(
                     {
                         **base,
-                        "date": date_obj.formatted() if date_obj else None,
+                        "date": date_obj.iso_string() if date_obj else None,
                     }
                 )
                 seen_deaths[death_id].add(pid)
@@ -712,7 +712,9 @@ class HerrnhutLocation(HerrnhutObject):
                 if not place:
                     continue
                 temporal = (
-                    poe.temporal.formatted() if getattr(poe, "temporal", None) else None
+                    poe.temporal.iso_string()
+                    if getattr(poe, "temporal", None)
+                    else None
                 )
                 institution = (getattr(poe, "institution", "") or "").strip() or None
                 occupation = (getattr(poe, "occupation", "") or "").strip() or None
@@ -729,6 +731,22 @@ class HerrnhutLocation(HerrnhutObject):
                     seen_poe[place].add(key)
 
         return dict(result)
+
+    @classmethod
+    def to_feature_collection(cls, locations: dict, registry, persons: dict) -> dict:
+        """Serialize all locations as a JSON-FG FeatureCollection with importance."""
+        importance = cls.compute_importance(persons)
+        _zero = {"births": [], "deaths": [], "places_of_effect": []}
+        features = []
+        for loc in locations.values():
+            feature = loc.to_dict(registry)
+            feature["properties"]["importance"] = importance.get(feature["id"], _zero)
+            features.append(feature)
+        return {
+            "type": "FeatureCollection",
+            "conformsTo": ["http://www.opengis.net/spec/json-fg-1/0.2/conf/core"],
+            "features": features,
+        }
 
 
 class HerrnhutCollection(HerrnhutObject):
