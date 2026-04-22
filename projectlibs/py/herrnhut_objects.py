@@ -609,20 +609,39 @@ class HerrnhutLocation(HerrnhutObject):
         self.founder = data["founder"]  # label string or None
 
     def to_dict(self, registry=None):
+        coords = getattr(self, "coordinates", None)
+        geometry = (
+            {"type": "Point", "coordinates": [coords["lon"], coords["lat"]]}
+            if coords
+            else None
+        )
+
+        start = getattr(self, "start", None)
+        end = getattr(self, "end", None)
+        if start or end:
+            # Trim Wikidata datetime strings to YYYY-MM-DD; use ".." for open bound
+            def _trim(dt):
+                return dt[:10] if dt else ".."
+
+            time = {"interval": [_trim(start), _trim(end)]}
+        else:
+            time = None
+
         return {
+            "type": "Feature",
             "id": getattr(self.id, "id", None),
-            "name": getattr(self.name, "value", None),
-            "variants": [
-                {"name": v.variant, "lang": v.lang_tag} for v in self.variants
-            ],
-            "wikidata": getattr(self.wikidata, "url", None),
-            "description": getattr(self.description, "value", None),
-            "coordinates": getattr(self, "coordinates", None),
-            "temporal": {
-                "start": getattr(self, "start", None),
-                "end": getattr(self, "end", None),
+            "featureType": "HerrnhutLocation",
+            "time": time,
+            "geometry": geometry,
+            "properties": {
+                "name": getattr(self.name, "value", None),
+                "variants": [
+                    {"name": v.variant, "lang": v.lang_tag} for v in self.variants
+                ],
+                "wikidata": getattr(self.wikidata, "url", None),
+                "description": getattr(self.description, "value", None),
+                "founder": getattr(self, "founder", None),
             },
-            "founder": getattr(self, "founder", None),
         }
 
 

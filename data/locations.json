@@ -1,767 +1,1682 @@
-[
-  {
-    "id": "L0100000",
-    "name": "Akunnaat",
-    "variants": [
-      {
-        "name": "Lichtenfels",
-        "lang": ""
-      }
-    ],
-    "wikidata": "https://www.wikidata.org/wiki/Q423740",
-    "description": null,
-    "coordinates": {
-      "lat": 63.05,
-      "lon": -50.41
-    },
-    "temporal": {
-      "start": "1758-01-01T00:00:00Z",
-      "end": "1950-01-01T00:00:00Z"
-    },
-    "founder": "Herrnhuter Brüdergemeine"
-  },
-  {
-    "id": "L0150000",
-    "name": null,
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q1286",
-    "description": null,
-    "coordinates": {
-      "lat": 46.578055555,
-      "lon": 8.615
-    },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L0200000",
-    "name": "Barby",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q530185",
-    "description": null,
-    "coordinates": {
-      "lat": 51.9667595,
-      "lon": 11.8838245
-    },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L0300000",
-    "name": "Basel",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q78",
-    "description": null,
-    "coordinates": {
-      "lat": 47.560555555,
-      "lon": 7.590555555
-    },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L0350000",
-    "name": "Bethanien",
-    "variants": [],
-    "wikidata": null,
-    "description": "auf St. Jan",
-    "coordinates": null,
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L0400000",
-    "name": "Berthelsdorf",
-    "variants": [
-      {
-        "name": "Batromjecy",
-        "lang": ""
-      }
-    ],
-    "wikidata": "https://www.wikidata.org/wiki/Q502553",
-    "description": null,
-    "coordinates": {
-      "lat": 51.027777777,
-      "lon": 14.758333333
-    },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L0500000",
-    "name": "Bethlehem",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q164380",
-    "description": null,
-    "coordinates": {
-      "lat": 40.626111111,
-      "lon": -75.375555555
-    },
-    "temporal": {
-      "start": "1741-01-01T00:00:00Z",
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L0600000",
-    "name": "Christiansfeld",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q3197288",
-    "description": null,
-    "coordinates": {
-      "lat": 55.356667,
-      "lon": 9.483056
-    },
-    "temporal": {
-      "start": "1773-01-01T00:00:00Z",
-      "end": null
-    },
-    "founder": "Herrnhuter Brüdergemeine"
-  },
-  {
-    "id": "L0700000",
-    "name": null,
-    "variants": [],
-    "wikidata": null,
-    "description": null,
-    "coordinates": null,
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L0800000",
-    "name": "Ebersdorf",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q1279760",
-    "description": null,
-    "coordinates": {
-      "lat": 50.4847,
-      "lon": 11.6672
-    },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L0900000",
-    "name": "Cedarhall",
-    "variants": [],
-    "wikidata": null,
-    "description": null,
-    "coordinates": null,
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L1000000",
-    "name": "Gnadenberg",
-    "variants": [
-      {
-        "name": "Godnów",
-        "lang": ""
+{
+  "type": "FeatureCollection",
+  "conformsTo": [
+    "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "L0100000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1758-01-01",
+          "1950-01-01"
+        ]
       },
-      {
-        "name": "Kruszyn",
-        "lang": ""
-      }
-    ],
-    "wikidata": "https://www.wikidata.org/wiki/Q65162110",
-    "description": null,
-    "coordinates": {
-      "lat": 51.259167,
-      "lon": 15.615833
-    },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L1100000",
-    "name": "Gnadenfrei",
-    "variants": [
-      {
-        "name": "Piława Górna",
-        "lang": ""
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.41,
+          63.05
+        ]
       },
-      {
-        "name": "Peilau",
-        "lang": ""
+      "properties": {
+        "name": "Akunnaat",
+        "variants": [
+          {
+            "name": "Lichtenfels",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q423740",
+        "description": null,
+        "founder": "Herrnhuter Brüdergemeine",
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L0150000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.615,
+          46.578055555
+        ]
       },
-      {
-        "name": "Oberpeilau",
-        "lang": ""
+      "properties": {
+        "name": null,
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q1286",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L0200000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.8838245,
+          51.9667595
+        ]
       },
-      {
-        "name": "Obermittelpeilau",
-        "lang": ""
+      "properties": {
+        "name": "Barby",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q530185",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [
+            {
+              "id": "P0170000",
+              "name": "Johann Jakob Bossart",
+              "date": "13. November 1789"
+            }
+          ],
+          "places_of_effect": [
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "temporal": "1785–1788",
+              "institution": "Seminar",
+              "occupation": "Schüler"
+            },
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "temporal": "1789–1796",
+              "institution": "Pädagogium",
+              "occupation": "Lehrer"
+            },
+            {
+              "id": "P0170000",
+              "name": "Johann Jakob Bossart",
+              "temporal": "1749–1750",
+              "institution": "Seminar",
+              "occupation": null
+            },
+            {
+              "id": "P0170000",
+              "name": "Johann Jakob Bossart",
+              "temporal": "1764–1766",
+              "institution": null,
+              "occupation": null
+            },
+            {
+              "id": "P0170000",
+              "name": "Johann Jakob Bossart",
+              "temporal": "1766–1789",
+              "institution": "Seminar",
+              "occupation": "Lehrer u. Vorsteher"
+            }
+          ]
+        }
       }
-    ],
-    "wikidata": "https://www.wikidata.org/wiki/Q986091",
-    "description": null,
-    "coordinates": {
-      "lat": 50.68357,
-      "lon": 16.74359
     },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L1101000",
-    "name": "Gnadenfeld",
-    "variants": [],
-    "wikidata": null,
-    "description": null,
-    "coordinates": null,
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L1102000",
-    "name": "Gracehill",
-    "variants": [],
-    "wikidata": null,
-    "description": null,
-    "coordinates": null,
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L1103500",
-    "name": "Großhennerdorf",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q502696",
-    "description": null,
-    "coordinates": {
-      "lat": 50.990833333,
-      "lon": 14.793333333
-    },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L1105000",
-    "name": "Goshen",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q5587251",
-    "description": null,
-    "coordinates": {
-      "lat": 39.23,
-      "lon": -84.163
-    },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L1110000",
-    "name": "Hebron",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q5695991",
-    "description": null,
-    "coordinates": {
-      "lat": 58.2,
-      "lon": -62.626111111
-    },
-    "temporal": {
-      "start": "1837-01-01T00:00:00Z",
-      "end": "1959-01-01T00:00:00Z"
-    },
-    "founder": "Herrnhuter Brüdergemeine"
-  },
-  {
-    "id": "L1115000",
-    "name": "Herrnhaag",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q1614322",
-    "description": null,
-    "coordinates": {
-      "lat": 50.2639,
-      "lon": 9.08333
-    },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L1120000",
-    "name": "Herrnhut",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q165140",
-    "description": null,
-    "coordinates": {
-      "lat": 51.016666666,
-      "lon": 14.741666666
-    },
-    "temporal": {
-      "start": "1722-01-01T00:00:00Z",
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L1200000",
-    "name": "Hopedal",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q11338369",
-    "description": null,
-    "coordinates": {
-      "lat": 55.467372222,
-      "lon": -60.203188888
-    },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L1300000",
-    "name": "Jgdlorpait",
-    "variants": [
-      {
-        "name": "Igdlorpait",
-        "lang": ""
+    {
+      "type": "Feature",
+      "id": "L0300000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.590555555,
+          47.560555555
+        ]
       },
-      {
-        "name": "Illorpaat",
-        "lang": ""
+      "properties": {
+        "name": "Basel",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q78",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0170000",
+              "name": "Johann Jakob Bossart",
+              "date": "17. April 1721"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0170000",
+              "name": "Johann Jakob Bossart",
+              "temporal": "1736–1739",
+              "institution": "Universität",
+              "occupation": "Student"
+            }
+          ]
+        }
       }
-    ],
-    "wikidata": "https://www.wikidata.org/wiki/Q67087304",
-    "description": null,
-    "coordinates": {
-      "lat": 60.4675,
-      "lon": -45.355
     },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L1400000",
-    "name": null,
-    "variants": [],
-    "wikidata": null,
-    "description": null,
-    "coordinates": null,
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L1500000",
-    "name": "Kleinwelka",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q159916",
-    "description": null,
-    "coordinates": {
-      "lat": 51.21079,
-      "lon": 14.3946
-    },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L1550000",
-    "name": "Königsfeld",
-    "variants": [
-      {
-        "name": "Königsfeld im Schwarzwald",
-        "lang": ""
+    {
+      "type": "Feature",
+      "id": "L0350000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Bethanien",
+        "variants": [],
+        "wikidata": null,
+        "description": "auf St. Jan",
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0535000",
+              "name": "Carl Heinrich Götz",
+              "date": "1. April 1819"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": []
+        }
       }
-    ],
-    "wikidata": "https://www.wikidata.org/wiki/Q81421",
-    "description": null,
-    "coordinates": {
-      "lat": 48.138333333,
-      "lon": 8.421388888
     },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L1570000",
-    "name": "Lausanne",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q807",
-    "description": null,
-    "coordinates": {
-      "lat": 46.533333333,
-      "lon": 6.633333333
-    },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L1600000",
-    "name": "Lichtenau",
-    "variants": [
-      {
-        "name": "Alluitsoq",
-        "lang": ""
-      }
-    ],
-    "wikidata": "https://www.wikidata.org/wiki/Q1016295",
-    "description": null,
-    "coordinates": {
-      "lat": 60.5072,
-      "lon": -45.5378
-    },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L1700000",
-    "name": null,
-    "variants": [],
-    "wikidata": null,
-    "description": null,
-    "coordinates": null,
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L1800000",
-    "name": "Marienborn",
-    "variants": [],
-    "wikidata": null,
-    "description": "nicht identifiziert bei Wikidata",
-    "coordinates": null,
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L1850000",
-    "name": "Meisenheim am Glan",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q520103",
-    "description": null,
-    "coordinates": {
-      "lat": 49.716666666,
-      "lon": 7.666666666
-    },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L1860000",
-    "name": "Meran",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q131605",
-    "description": null,
-    "coordinates": {
-      "lat": 46.669555,
-      "lon": 11.159419
-    },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L1900000",
-    "name": "Michelstadt",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q516517",
-    "description": null,
-    "coordinates": {
-      "lat": 49.678611111,
-      "lon": 9.004166666
-    },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L1950000",
-    "name": "Montmirail",
-    "variants": [],
-    "wikidata": null,
-    "description": null,
-    "coordinates": null,
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L2000000",
-    "name": "Nazareth",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q1022937",
-    "description": null,
-    "coordinates": {
-      "lat": 40.74038,
-      "lon": -75.30962
-    },
-    "temporal": {
-      "start": "1740-01-01T00:00:00Z",
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L2100000",
-    "name": "Nain",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q3335210",
-    "description": null,
-    "coordinates": {
-      "lat": 56.5422,
-      "lon": -61.6928
-    },
-    "temporal": {
-      "start": "1771-01-01T00:00:00Z",
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L2150000",
-    "name": "Neudietendorf",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q701263",
-    "description": null,
-    "coordinates": {
-      "lat": 50.9125,
-      "lon": 10.913333333
-    },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L2200000",
-    "name": "Neuwied",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q3967",
-    "description": null,
-    "coordinates": {
-      "lat": 50.428611111,
-      "lon": 7.461388888
-    },
-    "temporal": {
-      "start": "1653-01-01T00:00:00Z",
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L2250000",
-    "name": "Niesky",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q165160",
-    "description": null,
-    "coordinates": {
-      "lat": 51.289722222,
-      "lon": 14.83
-    },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L2260000",
-    "name": "Okak",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q7081733",
-    "description": null,
-    "coordinates": {
-      "lat": 57.562389,
-      "lon": -61.98425
-    },
-    "temporal": {
-      "start": "1776-01-01T00:00:00Z",
-      "end": "1956-01-01T00:00:00Z"
-    },
-    "founder": "Herrnhuter Brüdergemeine"
-  },
-  {
-    "id": "L2270000",
-    "name": "Salem",
-    "variants": [],
-    "wikidata": null,
-    "description": null,
-    "coordinates": null,
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L2300000",
-    "name": "Silo",
-    "variants": [
-      {
-        "name": "Shilo",
-        "lang": ""
+    {
+      "type": "Feature",
+      "id": "L0400000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.758333333,
+          51.027777777
+        ]
       },
-      {
-        "name": "Siloh",
-        "lang": ""
+      "properties": {
+        "name": "Berthelsdorf",
+        "variants": [
+          {
+            "name": "Batromjecy",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q502553",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "date": "6. Dezember 1831"
+            },
+            {
+              "id": "P0220000",
+              "name": "Johann Christian Breutel",
+              "date": "18. Februar 1875"
+            }
+          ],
+          "places_of_effect": [
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "temporal": "1821",
+              "institution": null,
+              "occupation": "Mitglied Ältestenkonferenz"
+            }
+          ]
+        }
       }
-    ],
-    "wikidata": "https://www.geonames.org/955607/silo.html",
-    "description": null,
-    "coordinates": null,
-    "temporal": {
-      "start": null,
-      "end": null
     },
-    "founder": null
-  },
-  {
-    "id": "L2350000",
-    "name": "Saint John",
-    "variants": [
-      {
-        "name": "St. Johns",
-        "lang": ""
+    {
+      "type": "Feature",
+      "id": "L0500000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1741-01-01",
+          ".."
+        ]
       },
-      {
-        "name": "Nicht Verwechseln mit der Stadt St. John's auf Antigua!!",
-        "lang": ""
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.375555555,
+          40.626111111
+        ]
+      },
+      "properties": {
+        "name": "Bethlehem",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q164380",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0320000",
+              "name": "Christian Friedrich Denke",
+              "date": "8. September 1775"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": []
+        }
       }
-    ],
-    "wikidata": "https://www.wikidata.org/wiki/Q849441",
-    "description": null,
-    "coordinates": {
-      "lat": 18.3396764,
-      "lon": -64.7495816
     },
-    "temporal": {
-      "start": null,
-      "end": null
-    },
-    "founder": null
-  },
-  {
-    "id": "L2400000",
-    "name": "St. John's",
-    "variants": [
-      {
-        "name": "Saint John's",
-        "lang": ""
+    {
+      "type": "Feature",
+      "id": "L0600000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1773-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.483056,
+          55.356667
+        ]
+      },
+      "properties": {
+        "name": "Christiansfeld",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q3197288",
+        "description": null,
+        "founder": "Herrnhuter Brüdergemeine",
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P1595000",
+              "name": "Franz Ferdinand Thrän",
+              "temporal": "1824-1829",
+              "institution": null,
+              "occupation": "Brüderpfleger/Diacon"
+            }
+          ]
+        }
       }
-    ],
-    "wikidata": "https://www.wikidata.org/wiki/Q36262",
-    "description": null,
-    "coordinates": {
-      "lat": 17.121111111,
-      "lon": -61.844722222
     },
-    "temporal": {
-      "start": "1666-01-01T00:00:00Z",
-      "end": null
+    {
+      "type": "Feature",
+      "id": "L0700000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": null,
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
     },
-    "founder": null
-  },
-  {
-    "id": "L2450000",
-    "name": "Tharandt",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q8245",
-    "description": null,
-    "coordinates": {
-      "lat": 50.983333333,
-      "lon": 13.580833333
+    {
+      "type": "Feature",
+      "id": "L0800000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6672,
+          50.4847
+        ]
+      },
+      "properties": {
+        "name": "Ebersdorf",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q1279760",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P1595000",
+              "name": "Franz Ferdinand Thrän",
+              "date": "8. Juli 1791"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P1595000",
+              "name": "Franz Ferdinand Thrän",
+              "temporal": "1816-1817",
+              "institution": null,
+              "occupation": "Lehrer"
+            }
+          ]
+        }
+      }
     },
-    "temporal": {
-      "start": null,
-      "end": null
+    {
+      "type": "Feature",
+      "id": "L0900000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Cedarhall",
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P1595000",
+              "name": "Franz Ferdinand Thrän",
+              "temporal": "1830-1831",
+              "institution": null,
+              "occupation": "Missionar"
+            }
+          ]
+        }
+      }
     },
-    "founder": null
-  },
-  {
-    "id": "L2500000",
-    "name": "Weißenburg in Bayern",
-    "variants": [],
-    "wikidata": "https://www.wikidata.org/wiki/Q44500",
-    "description": null,
-    "coordinates": {
-      "lat": 49.030555555,
-      "lon": 10.971944444
+    {
+      "type": "Feature",
+      "id": "L1000000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.615833,
+          51.259167
+        ]
+      },
+      "properties": {
+        "name": "Gnadenberg",
+        "variants": [
+          {
+            "name": "Godnów",
+            "lang": ""
+          },
+          {
+            "name": "Kruszyn",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q65162110",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "temporal": "1814",
+              "institution": "Mädchenanstalt",
+              "occupation": "Prediger, Lehrer"
+            }
+          ]
+        }
+      }
     },
-    "temporal": {
-      "start": "1296-01-01T00:00:00Z",
-      "end": null
+    {
+      "type": "Feature",
+      "id": "L1100000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.74359,
+          50.68357
+        ]
+      },
+      "properties": {
+        "name": "Gnadenfrei",
+        "variants": [
+          {
+            "name": "Piława Górna",
+            "lang": ""
+          },
+          {
+            "name": "Peilau",
+            "lang": ""
+          },
+          {
+            "name": "Oberpeilau",
+            "lang": ""
+          },
+          {
+            "name": "Obermittelpeilau",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q986091",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "temporal": "1818",
+              "institution": null,
+              "occupation": "Prediger"
+            }
+          ]
+        }
+      }
     },
-    "founder": null
-  }
-]
+    {
+      "type": "Feature",
+      "id": "L1101000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Gnadenfeld",
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0535000",
+              "name": "Carl Heinrich Götz",
+              "temporal": "1839",
+              "institution": "Seminarium",
+              "occupation": "Schüler"
+            },
+            {
+              "id": "P0535000",
+              "name": "Carl Heinrich Götz",
+              "temporal": "1846",
+              "institution": "Seminarium",
+              "occupation": "Lehrer"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1102000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Gracehill",
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P1595000",
+              "name": "Franz Ferdinand Thrän",
+              "temporal": "1831-1838",
+              "institution": null,
+              "occupation": "Missionar"
+            },
+            {
+              "id": "P1595000",
+              "name": "Franz Ferdinand Thrän",
+              "temporal": "1841-1843",
+              "institution": null,
+              "occupation": "Missionar"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1103500",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.793333333,
+          50.990833333
+        ]
+      },
+      "properties": {
+        "name": "Großhennerdorf",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q502696",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0170000",
+              "name": "Johann Jakob Bossart",
+              "temporal": "1750–1760",
+              "institution": "Pädagogium",
+              "occupation": "Lehrer"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1105000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.163,
+          39.23
+        ]
+      },
+      "properties": {
+        "name": "Goshen",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q5587251",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1110000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1837-01-01",
+          "1959-01-01"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.626111111,
+          58.2
+        ]
+      },
+      "properties": {
+        "name": "Hebron",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q5695991",
+        "description": null,
+        "founder": "Herrnhuter Brüdergemeine",
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P1000000",
+              "name": "Ferdinand Kruth",
+              "temporal": "1830-1840",
+              "institution": null,
+              "occupation": "Missionar"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1115000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.08333,
+          50.2639
+        ]
+      },
+      "properties": {
+        "name": "Herrnhaag",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q1614322",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1120000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1722-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.741666666,
+          51.016666666
+        ]
+      },
+      "properties": {
+        "name": "Herrnhut",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q165140",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0040000",
+              "name": "Johann Heinrich Andresen",
+              "date": "19. Mai 1761"
+            },
+            {
+              "id": "P0050000",
+              "name": "William Gustav Baer",
+              "date": "17. April 1867"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0535000",
+              "name": "Carl Heinrich Götz",
+              "temporal": "1832",
+              "institution": "Apotheke",
+              "occupation": "Lehrling"
+            },
+            {
+              "id": "P1595000",
+              "name": "Franz Ferdinand Thrän",
+              "temporal": "1813-1816",
+              "institution": "Knabenanstalt",
+              "occupation": "Lehrer"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1200000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.203188888,
+          55.467372222
+        ]
+      },
+      "properties": {
+        "name": "Hopedal",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q11338369",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0020000",
+              "name": "Carl Gottfried Albrecht",
+              "temporal": "1845–1852",
+              "institution": "Missionar",
+              "occupation": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1300000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.355,
+          60.4675
+        ]
+      },
+      "properties": {
+        "name": "Jgdlorpait",
+        "variants": [
+          {
+            "name": "Igdlorpait",
+            "lang": ""
+          },
+          {
+            "name": "Illorpaat",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q67087304",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [
+            {
+              "id": "P0545000",
+              "name": "Gustav Rudolf Gysin",
+              "date": "8. Oktober 1889"
+            }
+          ],
+          "places_of_effect": [
+            {
+              "id": "P0545000",
+              "name": "Gustav Rudolf Gysin",
+              "temporal": "1877-1888",
+              "institution": null,
+              "occupation": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1400000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": null,
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1500000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3946,
+          51.21079
+        ]
+      },
+      "properties": {
+        "name": "Kleinwelka",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q159916",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0800000",
+              "name": "Christian Gottlieb Hüffel",
+              "date": "1762"
+            }
+          ],
+          "deaths": [
+            {
+              "id": "P1150000",
+              "name": "Johann (Jan) August Miertsching",
+              "date": "30. März 1875"
+            }
+          ],
+          "places_of_effect": [
+            {
+              "id": "P0300000",
+              "name": "Pierre Frederich Curie",
+              "temporal": "1803",
+              "institution": null,
+              "occupation": "Lehrer"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1550000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.421388888,
+          48.138333333
+        ]
+      },
+      "properties": {
+        "name": "Königsfeld",
+        "variants": [
+          {
+            "name": "Königsfeld im Schwarzwald",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q81421",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0535000",
+              "name": "Carl Heinrich Götz",
+              "temporal": "1841–1842",
+              "institution": "Knabenanstalt",
+              "occupation": "Lehrer"
+            },
+            {
+              "id": "P1595000",
+              "name": "Franz Ferdinand Thrän",
+              "temporal": "1817-1824",
+              "institution": null,
+              "occupation": "Lehrer"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1570000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.633333333,
+          46.533333333
+        ]
+      },
+      "properties": {
+        "name": "Lausanne",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q807",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1600000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.5378,
+          60.5072
+        ]
+      },
+      "properties": {
+        "name": "Lichtenau",
+        "variants": [
+          {
+            "name": "Alluitsoq",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q1016295",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1700000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": null,
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1800000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Marienborn",
+        "variants": [],
+        "wikidata": null,
+        "description": "nicht identifiziert bei Wikidata",
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0170000",
+              "name": "Johann Jakob Bossart",
+              "temporal": "1747–1749",
+              "institution": "Seminar",
+              "occupation": "Lehrer"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1850000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.666666666,
+          49.716666666
+        ]
+      },
+      "properties": {
+        "name": "Meisenheim am Glan",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q520103",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [
+            {
+              "id": "P1720000",
+              "name": "Gottfried David Wiemann",
+              "date": null
+            }
+          ],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1860000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.159419,
+          46.669555
+        ]
+      },
+      "properties": {
+        "name": "Meran",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q131605",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [
+            {
+              "id": "P0150000",
+              "name": "John William Verbeek",
+              "date": "17. Mai 1895"
+            }
+          ],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1900000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.004166666,
+          49.678611111
+        ]
+      },
+      "properties": {
+        "name": "Michelstadt",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q516517",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1950000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Montmirail",
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0150000",
+              "name": "John William Verbeek",
+              "date": "10. Februar 1823"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2000000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1740-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.30962,
+          40.74038
+        ]
+      },
+      "properties": {
+        "name": "Nazareth",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q1022937",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2100000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1771-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.6928,
+          56.5422
+        ]
+      },
+      "properties": {
+        "name": "Nain",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q3335210",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0020000",
+              "name": "Carl Gottfried Albrecht",
+              "temporal": "1835–1838",
+              "institution": "Missionar",
+              "occupation": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2150000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.913333333,
+          50.9125
+        ]
+      },
+      "properties": {
+        "name": "Neudietendorf",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q701263",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P1595500",
+              "name": "Heinrich Gottlieb Thrän",
+              "date": "25. September 1788"
+            }
+          ],
+          "deaths": [
+            {
+              "id": "P1595500",
+              "name": "Heinrich Gottlieb Thrän",
+              "date": "8. Dezember 1827"
+            }
+          ],
+          "places_of_effect": [
+            {
+              "id": "P1595500",
+              "name": "Heinrich Gottlieb Thrän",
+              "temporal": "1801-1812",
+              "institution": "Apotheke der Herrnhuter",
+              "occupation": "Lehrling"
+            },
+            {
+              "id": "P1595500",
+              "name": "Heinrich Gottlieb Thrän",
+              "temporal": "1814-1824",
+              "institution": "Apotheke der Herrnhuter",
+              "occupation": "Gehilfe"
+            },
+            {
+              "id": "P1595500",
+              "name": "Heinrich Gottlieb Thrän",
+              "temporal": "1824-1827",
+              "institution": "Apotheke der Herrnhuter",
+              "occupation": "Leitung"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2200000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1653-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.461388888,
+          50.428611111
+        ]
+      },
+      "properties": {
+        "name": "Neuwied",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q3967",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "date": "17. Februar 1769"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "temporal": "1773–1782",
+              "institution": "Knabenanstalt",
+              "occupation": "Schüler"
+            },
+            {
+              "id": "P0170000",
+              "name": "Johann Jakob Bossart",
+              "temporal": "1760–1764",
+              "institution": "Knabenanstalt",
+              "occupation": "Inspektor"
+            },
+            {
+              "id": "P1595500",
+              "name": "Heinrich Gottlieb Thrän",
+              "temporal": "1812-1814",
+              "institution": "Apotheke der Herrnhuter",
+              "occupation": "Lehrling"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2250000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.83,
+          51.289722222
+        ]
+      },
+      "properties": {
+        "name": "Niesky",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q165160",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [
+            {
+              "id": "P1595000",
+              "name": "Franz Ferdinand Thrän",
+              "date": "1. Dezember 1866"
+            }
+          ],
+          "places_of_effect": [
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "temporal": "1782–1785",
+              "institution": "Pädagogium",
+              "occupation": "Schüler"
+            },
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "temporal": "1788–1789",
+              "institution": "Kinderanstalt",
+              "occupation": "Lehrer"
+            },
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "temporal": "1796–1808",
+              "institution": "Seminar",
+              "occupation": "Dozent, Inspektor, Prediger"
+            },
+            {
+              "id": "P0535000",
+              "name": "Carl Heinrich Götz",
+              "temporal": "1833–1839",
+              "institution": "Pädagogium",
+              "occupation": "Schüler"
+            },
+            {
+              "id": "P0535000",
+              "name": "Carl Heinrich Götz",
+              "temporal": "1842–1846",
+              "institution": "Pädagogium",
+              "occupation": "Lehrer"
+            },
+            {
+              "id": "P1595000",
+              "name": "Franz Ferdinand Thrän",
+              "temporal": "1804-1810",
+              "institution": "Pädagogium",
+              "occupation": "Schüler"
+            },
+            {
+              "id": "P1595000",
+              "name": "Franz Ferdinand Thrän",
+              "temporal": "1810-1812",
+              "institution": "Seminar",
+              "occupation": "Student"
+            },
+            {
+              "id": "P1595000",
+              "name": "Franz Ferdinand Thrän",
+              "temporal": "1812-1813",
+              "institution": "Knabenanstalt",
+              "occupation": "Lehrer"
+            },
+            {
+              "id": "P1595000",
+              "name": "Franz Ferdinand Thrän",
+              "temporal": "1856-1866",
+              "institution": null,
+              "occupation": "Ruhestand"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2260000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1776-01-01",
+          "1956-01-01"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.98425,
+          57.562389
+        ]
+      },
+      "properties": {
+        "name": "Okak",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q7081733",
+        "description": null,
+        "founder": "Herrnhuter Brüdergemeine",
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0020000",
+              "name": "Carl Gottfried Albrecht",
+              "temporal": "1852–1864",
+              "institution": "Missionar",
+              "occupation": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2270000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Salem",
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [
+            {
+              "id": "P0320000",
+              "name": "Christian Friedrich Denke",
+              "date": "12. Januar 1838"
+            },
+            {
+              "id": "P1350000",
+              "name": "Philipp Christian Gottlieb Reuter",
+              "date": "30. Dezember 1777"
+            }
+          ],
+          "places_of_effect": [
+            {
+              "id": "P0310000",
+              "name": "Gustav Heinrich Dahlman",
+              "temporal": "1799–1806",
+              "institution": null,
+              "occupation": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2300000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Silo",
+        "variants": [
+          {
+            "name": "Shilo",
+            "lang": ""
+          },
+          {
+            "name": "Siloh",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.geonames.org/955607/silo.html",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2350000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.7495816,
+          18.3396764
+        ]
+      },
+      "properties": {
+        "name": "Saint John",
+        "variants": [
+          {
+            "name": "St. Johns",
+            "lang": ""
+          },
+          {
+            "name": "Nicht Verwechseln mit der Stadt St. John's auf Antigua!!",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q849441",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2400000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1666-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.844722222,
+          17.121111111
+        ]
+      },
+      "properties": {
+        "name": "St. John's",
+        "variants": [
+          {
+            "name": "Saint John's",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q36262",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P1595000",
+              "name": "Franz Ferdinand Thrän",
+              "temporal": "1838-1841",
+              "institution": null,
+              "occupation": "Missionar"
+            },
+            {
+              "id": "P1595000",
+              "name": "Franz Ferdinand Thrän",
+              "temporal": "1843-1856",
+              "institution": null,
+              "occupation": "Missionar"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2450000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.580833333,
+          50.983333333
+        ]
+      },
+      "properties": {
+        "name": "Tharandt",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q8245",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [
+            {
+              "id": "P0050000",
+              "name": "William Gustav Baer",
+              "date": "16. September 1934"
+            }
+          ],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2500000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1296-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.971944444,
+          49.030555555
+        ]
+      },
+      "properties": {
+        "name": "Weißenburg in Bayern",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q44500",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0220000",
+              "name": "Johann Christian Breutel",
+              "date": "21. Januar 1788"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    }
+  ]
+}
