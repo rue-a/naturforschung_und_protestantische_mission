@@ -10,8 +10,13 @@ from projectlibs.py.herrnhut_objects import (
 
 EXCEL_FILE = "data/Herrnhuter NaturkundlerInnen.xlsx"
 
-
 PERSONS_TEST_IDS = ["P0010000", "P0170000", "P0220000"]
+
+ERRORS_FILE = "validation_msgs/errors.md"
+
+PERSONS_CACHE = "data/cache_persons_wikidata.json"
+LOCATIONS_CACHE = "data/cache_locations_wikidata.json"
+REWRITE_CACHE = False
 
 
 def load_excel_sheet(file_name, sheet_name):
@@ -31,12 +36,6 @@ def load_excel_sheet(file_name, sheet_name):
     )
 
     return df
-
-
-# df = df.filter(items=list(sheet_specs.keys()))
-
-
-ERRORS_FILE = "validation_msgs/errors.md"
 
 
 def write_errors(file_path: str, all_errors: dict):
@@ -65,6 +64,8 @@ def load_objects(sheet_name: str, constructor, all_errors: dict, test_ids=None) 
     objects = {}
     errors = {}
     for _, row in df.iterrows():
+        if not row["ID"].strip():
+            continue
         if test_ids and row["ID"] not in test_ids:
             continue
         print(f"{sheet_name}: {row['ID']}")
@@ -76,13 +77,33 @@ def load_objects(sheet_name: str, constructor, all_errors: dict, test_ids=None) 
     return objects
 
 
-all_errors = {}
-persons = load_objects(
-    "Personen", HerrnhutPerson, all_errors, test_ids=PERSONS_TEST_IDS
-)
-archives = load_objects("Archive", HerrnhutArchive, all_errors)
-manuscripts = load_objects("Manuskripte", HerrnhutManuscript, all_errors)
-literature = load_objects("Literatur", HerrnhutLiterature, all_errors)
-locations = load_objects("Orte", HerrnhutLocation, all_errors)
-collections = load_objects("Sammlungen", HerrnhutCollection, all_errors)
-write_errors(ERRORS_FILE, all_errors)
+def main():
+    all_errors = {}
+
+    print("--- Loading objects from Excel ---")
+    persons = load_objects(
+        "Personen", HerrnhutPerson, all_errors, test_ids=PERSONS_TEST_IDS
+    )
+    archives = load_objects("Archive", HerrnhutArchive, all_errors)
+    manuscripts = load_objects("Manuskripte", HerrnhutManuscript, all_errors)
+    literature = load_objects("Literatur", HerrnhutLiterature, all_errors)
+    locations = load_objects("Orte", HerrnhutLocation, all_errors)
+    collections = load_objects("Sammlungen", HerrnhutCollection, all_errors)
+
+    write_errors(ERRORS_FILE, all_errors)
+    print(f"Parsing errors written to {ERRORS_FILE}")
+
+    print("--- Enriching ---")
+    for obj_id, person in persons.items():
+        print(f"Enriching person {obj_id}")
+        person.enrich(PERSONS_CACHE, rewrite_cache=REWRITE_CACHE)
+
+    for obj_id, location in locations.items():
+        print(f"Enriching location {obj_id}")
+        location.enrich(LOCATIONS_CACHE, rewrite_cache=REWRITE_CACHE)
+
+    print("Done.")
+
+
+if __name__ == "__main__":
+    main()
