@@ -10,7 +10,6 @@ from projectlibs.py.herrnhut_objects import (
     HerrnhutCollection,
 )
 from projectlibs.py.helpers.registry import Registry
-from projectlibs.py.helpers.location_importance import compute_location_importance
 
 EXCEL_FILE = "data/Herrnhuter NaturkundlerInnen.xlsx"
 
@@ -128,7 +127,7 @@ registry = Registry(
 
 persons_out = [p.to_dict(registry) for p in persons.values()]
 
-importance = compute_location_importance(persons)
+importance = HerrnhutLocation.compute_importance(persons)
 _zero = {"births": [], "deaths": [], "places_of_effect": []}
 
 location_features = [loc.to_dict(registry) for loc in locations.values()]

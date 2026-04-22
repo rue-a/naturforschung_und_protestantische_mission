@@ -1780,52 +1780,7 @@
         "notes": null
       }
     },
-    "places_of_effect": [
-      {
-        "temporal": {
-          "label": null
-        },
-        "location": {
-          "id": "Niesky",
-          "label": "Niesky",
-          "link": null
-        },
-        "institution": {
-          "label": null
-        },
-        "occupation": {
-          "label": null
-        },
-        "source": {
-          "type": "print",
-          "id": "R0006500",
-          "label": "Otto Uttendörfer: Erinnerungen an William Baer. In: Mitteilungen des Vereins sächsischer Ornithologen, 4, 4, 1934, S. 143–146, Tafel 7",
-          "link": "https://www.zobodat.at/biografien/Baer_William_Mitt-Ver-Saechsischer-Ornith_4_0143-0146.pdf"
-        }
-      },
-      {
-        "temporal": {
-          "label": null
-        },
-        "location": {
-          "id": "Rossitten",
-          "label": "Rossitten",
-          "link": null
-        },
-        "institution": {
-          "label": null
-        },
-        "occupation": {
-          "label": null
-        },
-        "source": {
-          "type": "print",
-          "id": "R0006500",
-          "label": "Otto Uttendörfer: Erinnerungen an William Baer. In: Mitteilungen des Vereins sächsischer Ornithologen, 4, 4, 1934, S. 143–146, Tafel 7",
-          "link": "https://www.zobodat.at/biografien/Baer_William_Mitt-Ver-Saechsischer-Ornith_4_0143-0146.pdf"
-        }
-      }
-    ],
+    "places_of_effect": [],
     "moravian_curriculum_vitae": [
       null
     ],
@@ -1964,30 +1919,6 @@
           "properties": {
             "location_wikidata": "https://www.wikidata.org/wiki/Q8245",
             "place_name": "Tharandt"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": null,
-          "geometry": null,
-          "properties": {
-            "location_wikidata": null,
-            "place_name": null,
-            "institution": null,
-            "occupation": null
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": null,
-          "geometry": null,
-          "properties": {
-            "location_wikidata": null,
-            "place_name": null,
-            "institution": null,
-            "occupation": null
           }
         }
       ]
@@ -6524,91 +6455,6 @@
     "places_of_effect": [
       {
         "temporal": {
-          "label": "1785–1790"
-        },
-        "location": {
-          "id": "Neuwied",
-          "label": "Neuwied",
-          "link": null
-        },
-        "institution": {
-          "label": "Knabenanstalt"
-        },
-        "occupation": {
-          "label": null
-        },
-        "source": null
-      },
-      {
-        "temporal": {
-          "label": "1790–1795"
-        },
-        "location": {
-          "id": "Barby",
-          "label": "Barby",
-          "link": null
-        },
-        "institution": {
-          "label": "Padagogium"
-        },
-        "occupation": {
-          "label": null
-        },
-        "source": null
-      },
-      {
-        "temporal": {
-          "label": "1795–1798"
-        },
-        "location": {
-          "id": "Niesky",
-          "label": "Niesky",
-          "link": null
-        },
-        "institution": {
-          "label": "Seminar"
-        },
-        "occupation": {
-          "label": null
-        },
-        "source": null
-      },
-      {
-        "temporal": {
-          "label": "1798"
-        },
-        "location": {
-          "id": "Niesky",
-          "label": "Niesky",
-          "link": null
-        },
-        "institution": {
-          "label": "Knabenanstalt"
-        },
-        "occupation": {
-          "label": "Lehrer"
-        },
-        "source": null
-      },
-      {
-        "temporal": {
-          "label": "1801"
-        },
-        "location": {
-          "id": "Barby",
-          "label": "Barby",
-          "link": null
-        },
-        "institution": {
-          "label": "Pädagogium"
-        },
-        "occupation": {
-          "label": "Lehrer"
-        },
-        "source": null
-      },
-      {
-        "temporal": {
           "label": "1803"
         },
         "location": {
@@ -6621,23 +6467,6 @@
         },
         "occupation": {
           "label": "Lehrer"
-        },
-        "source": null
-      },
-      {
-        "temporal": {
-          "label": "1835"
-        },
-        "location": {
-          "id": "Surinam",
-          "label": "Surinam",
-          "link": null
-        },
-        "institution": {
-          "label": null
-        },
-        "occupation": {
-          "label": "Visitation"
         },
         "source": null
       }
@@ -6757,85 +6586,6 @@
           "type": "Feature",
           "featureType": "place_of_effect",
           "time": {
-            "interval": [
-              "1785",
-              "1790"
-            ]
-          },
-          "geometry": null,
-          "properties": {
-            "location_wikidata": null,
-            "place_name": null,
-            "institution": "Knabenanstalt",
-            "occupation": null
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "interval": [
-              "1790",
-              "1795"
-            ]
-          },
-          "geometry": null,
-          "properties": {
-            "location_wikidata": null,
-            "place_name": null,
-            "institution": "Padagogium",
-            "occupation": null
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "interval": [
-              "1795",
-              "1798"
-            ]
-          },
-          "geometry": null,
-          "properties": {
-            "location_wikidata": null,
-            "place_name": null,
-            "institution": "Seminar",
-            "occupation": null
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1798"
-          },
-          "geometry": null,
-          "properties": {
-            "location_wikidata": null,
-            "place_name": null,
-            "institution": "Knabenanstalt",
-            "occupation": "Lehrer"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1801"
-          },
-          "geometry": null,
-          "properties": {
-            "location_wikidata": null,
-            "place_name": null,
-            "institution": "Pädagogium",
-            "occupation": "Lehrer"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
             "date": "1803"
           },
           "geometry": {
@@ -6850,20 +6600,6 @@
             "place_name": "Kleinwelka",
             "institution": null,
             "occupation": "Lehrer"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1835"
-          },
-          "geometry": null,
-          "properties": {
-            "location_wikidata": null,
-            "place_name": null,
-            "institution": null,
-            "occupation": "Visitation"
           }
         }
       ]
@@ -7708,25 +7444,7 @@
         "notes": null
       }
     },
-    "places_of_effect": [
-      {
-        "temporal": {
-          "label": "1804–1839"
-        },
-        "location": {
-          "id": "Grönland",
-          "label": "Grönland",
-          "link": null
-        },
-        "institution": {
-          "label": null
-        },
-        "occupation": {
-          "label": "Missionar"
-        },
-        "source": null
-      }
-    ],
+    "places_of_effect": [],
     "moravian_curriculum_vitae": [],
     "relatives": {
       "siblings": [],
@@ -7808,23 +7526,6 @@
             "location_wikidata": null,
             "place_name": null
           }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "interval": [
-              "1804",
-              "1839"
-            ]
-          },
-          "geometry": null,
-          "properties": {
-            "location_wikidata": null,
-            "place_name": null,
-            "institution": null,
-            "occupation": "Missionar"
-          }
         }
       ]
     }
@@ -7876,25 +7577,7 @@
         "notes": null
       }
     },
-    "places_of_effect": [
-      {
-        "temporal": {
-          "label": "–"
-        },
-        "location": {
-          "id": "Labrador",
-          "label": "Labrador",
-          "link": null
-        },
-        "institution": {
-          "label": null
-        },
-        "occupation": {
-          "label": "Missionar"
-        },
-        "source": null
-      }
-    ],
+    "places_of_effect": [],
     "moravian_curriculum_vitae": [],
     "relatives": {
       "siblings": [],
@@ -8004,23 +7687,6 @@
             "location_wikidata": null,
             "place_name": null
           }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "interval": [
-              "..",
-              ".."
-            ]
-          },
-          "geometry": null,
-          "properties": {
-            "location_wikidata": null,
-            "place_name": null,
-            "institution": null,
-            "occupation": "Missionar"
-          }
         }
       ]
     }
@@ -8072,30 +7738,7 @@
         "notes": null
       }
     },
-    "places_of_effect": [
-      {
-        "temporal": {
-          "label": "–"
-        },
-        "location": {
-          "id": "Labrador",
-          "label": "Labrador",
-          "link": null
-        },
-        "institution": {
-          "label": null
-        },
-        "occupation": {
-          "label": "Missionar"
-        },
-        "source": {
-          "type": "print",
-          "id": "R0003600",
-          "label": "Theodor C. Bechler: \"Beiträge der Brüdergemeine zur Pflege der Wissenschaften und Kunst in zwei Jahrhunderten\", in: Jahrbuch der Brüdergemeine 35 (1941/42), S. 4-48.",
-          "link": null
-        }
-      }
-    ],
+    "places_of_effect": [],
     "moravian_curriculum_vitae": [],
     "relatives": {
       "siblings": [],
@@ -8276,23 +7919,6 @@
           "properties": {
             "location_wikidata": null,
             "place_name": null
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "interval": [
-              "..",
-              ".."
-            ]
-          },
-          "geometry": null,
-          "properties": {
-            "location_wikidata": null,
-            "place_name": null,
-            "institution": null,
-            "occupation": "Missionar"
           }
         }
       ]
@@ -10803,24 +10429,6 @@
     "places_of_effect": [
       {
         "temporal": {
-          "label": "1819–1825 St. Jan, St. Croix"
-        },
-        "location": null,
-        "institution": {
-          "label": null
-        },
-        "occupation": {
-          "label": null
-        },
-        "source": {
-          "type": "print",
-          "id": "R0007000",
-          "label": "Carl Heinrich Götz: Lebenslauf des am 5. Januar 1866 in Nisky selig entschlafenen verheiratheten Bruders Carl Heinrich Götz, , in: Nachrichten aus der Brüdergemeine 1866, S. 397-",
-          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1866.pdf"
-        }
-      },
-      {
-        "temporal": {
           "label": "1832"
         },
         "location": {
@@ -10963,28 +10571,6 @@
           "label": null
         },
         "source": null
-      },
-      {
-        "temporal": {
-          "label": "1865–1866"
-        },
-        "location": {
-          "id": "Sachsen",
-          "label": "Sachsen",
-          "link": null
-        },
-        "institution": {
-          "label": null
-        },
-        "occupation": {
-          "label": null
-        },
-        "source": {
-          "type": "print",
-          "id": "R0007000",
-          "label": "Carl Heinrich Götz: Lebenslauf des am 5. Januar 1866 in Nisky selig entschlafenen verheiratheten Bruders Carl Heinrich Götz, , in: Nachrichten aus der Brüdergemeine 1866, S. 397-",
-          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1866.pdf"
-        }
       }
     ],
     "moravian_curriculum_vitae": [],
@@ -11083,23 +10669,6 @@
           "properties": {
             "location_wikidata": null,
             "place_name": null
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "interval": [
-              "1819",
-              "1825 St. Jan, St. Croix"
-            ]
-          },
-          "geometry": null,
-          "properties": {
-            "location_wikidata": null,
-            "place_name": null,
-            "institution": null,
-            "occupation": null
           }
         },
         {
@@ -11223,23 +10792,6 @@
           "type": "Feature",
           "featureType": "place_of_effect",
           "time": null,
-          "geometry": null,
-          "properties": {
-            "location_wikidata": null,
-            "place_name": null,
-            "institution": null,
-            "occupation": null
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "interval": [
-              "1865",
-              "1866"
-            ]
-          },
           "geometry": null,
           "properties": {
             "location_wikidata": null,
@@ -11455,30 +11007,7 @@
         "notes": null
       }
     },
-    "places_of_effect": [
-      {
-        "temporal": {
-          "label": "1877-1888"
-        },
-        "location": {
-          "id": "L1300000",
-          "label": "Jgdlorpait",
-          "link": "https://www.wikidata.org/wiki/Q67087304"
-        },
-        "institution": {
-          "label": null
-        },
-        "occupation": {
-          "label": null
-        },
-        "source": {
-          "type": "print",
-          "id": "R0005600",
-          "label": "R0005600",
-          "link": "https://theologienet.nl/bestanden/boer-klaas-jan-kerkgeschiedenis-groenland.pdf"
-        }
-      }
-    ],
+    "places_of_effect": [],
     "moravian_curriculum_vitae": [],
     "relatives": {
       "siblings": [],
@@ -11575,26 +11104,6 @@
           "properties": {
             "location_wikidata": "https://www.wikidata.org/wiki/Q67087304",
             "place_name": "Jgdlorpait"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1877-1888"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -45.355,
-              60.4675
-            ]
-          },
-          "properties": {
-            "location_wikidata": "https://www.wikidata.org/wiki/Q67087304",
-            "place_name": "Jgdlorpait",
-            "institution": null,
-            "occupation": null
           }
         }
       ]
@@ -13977,7 +13486,7 @@
     "places_of_effect": [
       {
         "temporal": {
-          "label": "–"
+          "label": null
         },
         "location": null,
         "institution": {
@@ -14003,7 +13512,7 @@
       },
       {
         "temporal": {
-          "label": "–1859"
+          "label": "1859"
         },
         "location": null,
         "institution": {
@@ -18543,30 +18052,7 @@
         "notes": null
       }
     },
-    "places_of_effect": [
-      {
-        "temporal": {
-          "label": "1830-1840"
-        },
-        "location": {
-          "id": "L1110000",
-          "label": "Hebron",
-          "link": "https://www.wikidata.org/wiki/Q5695991"
-        },
-        "institution": {
-          "label": null
-        },
-        "occupation": {
-          "label": "Missionar"
-        },
-        "source": {
-          "type": "print",
-          "id": "R0000600",
-          "label": "James Pringle: Contributions by Moravian missionaries to the knowledge of the flora of Labrador. Canadian Horticultural History. 2(4) (1991): 187–222.",
-          "link": "https://www.biodiversitylibrary.org/item/123823#page/5/mode/1up"
-        }
-      }
-    ],
+    "places_of_effect": [],
     "moravian_curriculum_vitae": [],
     "relatives": {
       "siblings": [],
@@ -18692,26 +18178,6 @@
           "properties": {
             "location_wikidata": null,
             "place_name": null
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1830-1840"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -62.626111111,
-              58.2
-            ]
-          },
-          "properties": {
-            "location_wikidata": "https://www.wikidata.org/wiki/Q5695991",
-            "place_name": "Hebron",
-            "institution": null,
-            "occupation": "Missionar"
           }
         }
       ]
@@ -27480,294 +26946,7 @@
         "notes": null
       }
     },
-    "places_of_effect": [
-      {
-        "temporal": {
-          "label": "1804-1810"
-        },
-        "location": {
-          "id": "L2250000",
-          "label": "Niesky",
-          "link": "https://www.wikidata.org/wiki/Q165160"
-        },
-        "institution": {
-          "label": "Pädagogium"
-        },
-        "occupation": {
-          "label": "Schüler"
-        },
-        "source": {
-          "type": "manuscript",
-          "id": "M0029000",
-          "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
-          "link": null
-        }
-      },
-      {
-        "temporal": {
-          "label": "1810-1812"
-        },
-        "location": {
-          "id": "L2250000",
-          "label": "Niesky",
-          "link": "https://www.wikidata.org/wiki/Q165160"
-        },
-        "institution": {
-          "label": "Seminar"
-        },
-        "occupation": {
-          "label": "Student"
-        },
-        "source": {
-          "type": "manuscript",
-          "id": "M0029000",
-          "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
-          "link": null
-        }
-      },
-      {
-        "temporal": {
-          "label": "1812-1813"
-        },
-        "location": {
-          "id": "L2250000",
-          "label": "Niesky",
-          "link": "https://www.wikidata.org/wiki/Q165160"
-        },
-        "institution": {
-          "label": "Knabenanstalt"
-        },
-        "occupation": {
-          "label": "Lehrer"
-        },
-        "source": {
-          "type": "manuscript",
-          "id": "M0029000",
-          "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
-          "link": null
-        }
-      },
-      {
-        "temporal": {
-          "label": "1813-1816"
-        },
-        "location": {
-          "id": "L1120000",
-          "label": "Herrnhut",
-          "link": "https://www.wikidata.org/wiki/Q165140"
-        },
-        "institution": {
-          "label": "Knabenanstalt"
-        },
-        "occupation": {
-          "label": "Lehrer"
-        },
-        "source": {
-          "type": "manuscript",
-          "id": "M0029000",
-          "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
-          "link": null
-        }
-      },
-      {
-        "temporal": {
-          "label": "1816-1817"
-        },
-        "location": {
-          "id": "L0800000",
-          "label": "Ebersdorf",
-          "link": "https://www.wikidata.org/wiki/Q1279760"
-        },
-        "institution": {
-          "label": null
-        },
-        "occupation": {
-          "label": "Lehrer"
-        },
-        "source": {
-          "type": "manuscript",
-          "id": "M0029000",
-          "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
-          "link": null
-        }
-      },
-      {
-        "temporal": {
-          "label": "1817-1824"
-        },
-        "location": {
-          "id": "L1550000",
-          "label": "Königsfeld",
-          "link": "https://www.wikidata.org/wiki/Q81421"
-        },
-        "institution": {
-          "label": null
-        },
-        "occupation": {
-          "label": "Lehrer"
-        },
-        "source": {
-          "type": "manuscript",
-          "id": "M0029000",
-          "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
-          "link": null
-        }
-      },
-      {
-        "temporal": {
-          "label": "1824-1829"
-        },
-        "location": {
-          "id": "L0600000",
-          "label": "Christiansfeld",
-          "link": "https://www.wikidata.org/wiki/Q3197288"
-        },
-        "institution": {
-          "label": null
-        },
-        "occupation": {
-          "label": "Brüderpfleger/Diacon"
-        },
-        "source": {
-          "type": "manuscript",
-          "id": "M0029000",
-          "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
-          "link": null
-        }
-      },
-      {
-        "temporal": {
-          "label": "1830-1831"
-        },
-        "location": {
-          "id": "L0900000",
-          "label": "Cedarhall",
-          "link": null
-        },
-        "institution": {
-          "label": null
-        },
-        "occupation": {
-          "label": "Missionar"
-        },
-        "source": {
-          "type": "manuscript",
-          "id": "M0029000",
-          "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
-          "link": null
-        }
-      },
-      {
-        "temporal": {
-          "label": "1831-1838"
-        },
-        "location": {
-          "id": "L1102000",
-          "label": "Gracehill",
-          "link": null
-        },
-        "institution": {
-          "label": null
-        },
-        "occupation": {
-          "label": "Missionar"
-        },
-        "source": {
-          "type": "manuscript",
-          "id": "M0029000",
-          "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
-          "link": null
-        }
-      },
-      {
-        "temporal": {
-          "label": "1838-1841"
-        },
-        "location": {
-          "id": "L2400000",
-          "label": "St. John's",
-          "link": "https://www.wikidata.org/wiki/Q36262"
-        },
-        "institution": {
-          "label": null
-        },
-        "occupation": {
-          "label": "Missionar"
-        },
-        "source": {
-          "type": "manuscript",
-          "id": "M0029000",
-          "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
-          "link": null
-        }
-      },
-      {
-        "temporal": {
-          "label": "1841-1843"
-        },
-        "location": {
-          "id": "L1102000",
-          "label": "Gracehill",
-          "link": null
-        },
-        "institution": {
-          "label": null
-        },
-        "occupation": {
-          "label": "Missionar"
-        },
-        "source": {
-          "type": "manuscript",
-          "id": "M0029000",
-          "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
-          "link": null
-        }
-      },
-      {
-        "temporal": {
-          "label": "1843-1856"
-        },
-        "location": {
-          "id": "L2400000",
-          "label": "St. John's",
-          "link": "https://www.wikidata.org/wiki/Q36262"
-        },
-        "institution": {
-          "label": null
-        },
-        "occupation": {
-          "label": "Missionar"
-        },
-        "source": {
-          "type": "manuscript",
-          "id": "M0029000",
-          "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
-          "link": null
-        }
-      },
-      {
-        "temporal": {
-          "label": "1856-1866"
-        },
-        "location": {
-          "id": "L2250000",
-          "label": "Niesky",
-          "link": "https://www.wikidata.org/wiki/Q165160"
-        },
-        "institution": {
-          "label": null
-        },
-        "occupation": {
-          "label": "Ruhestand"
-        },
-        "source": {
-          "type": "manuscript",
-          "id": "M0029000",
-          "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
-          "link": null
-        }
-      }
-    ],
+    "places_of_effect": [],
     "moravian_curriculum_vitae": [
       {
         "id": "M0029000",
@@ -27878,248 +27057,6 @@
             "location_wikidata": "https://www.wikidata.org/wiki/Q165160",
             "place_name": "Niesky"
           }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1804-1810"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              14.83,
-              51.289722222
-            ]
-          },
-          "properties": {
-            "location_wikidata": "https://www.wikidata.org/wiki/Q165160",
-            "place_name": "Niesky",
-            "institution": "Pädagogium",
-            "occupation": "Schüler"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1810-1812"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              14.83,
-              51.289722222
-            ]
-          },
-          "properties": {
-            "location_wikidata": "https://www.wikidata.org/wiki/Q165160",
-            "place_name": "Niesky",
-            "institution": "Seminar",
-            "occupation": "Student"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1812-1813"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              14.83,
-              51.289722222
-            ]
-          },
-          "properties": {
-            "location_wikidata": "https://www.wikidata.org/wiki/Q165160",
-            "place_name": "Niesky",
-            "institution": "Knabenanstalt",
-            "occupation": "Lehrer"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1813-1816"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              14.741666666,
-              51.016666666
-            ]
-          },
-          "properties": {
-            "location_wikidata": "https://www.wikidata.org/wiki/Q165140",
-            "place_name": "Herrnhut",
-            "institution": "Knabenanstalt",
-            "occupation": "Lehrer"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1816-1817"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              11.6672,
-              50.4847
-            ]
-          },
-          "properties": {
-            "location_wikidata": "https://www.wikidata.org/wiki/Q1279760",
-            "place_name": "Ebersdorf",
-            "institution": null,
-            "occupation": "Lehrer"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1817-1824"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              8.421388888,
-              48.138333333
-            ]
-          },
-          "properties": {
-            "location_wikidata": "https://www.wikidata.org/wiki/Q81421",
-            "place_name": "Königsfeld",
-            "institution": null,
-            "occupation": "Lehrer"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1824-1829"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              9.483056,
-              55.356667
-            ]
-          },
-          "properties": {
-            "location_wikidata": "https://www.wikidata.org/wiki/Q3197288",
-            "place_name": "Christiansfeld",
-            "institution": null,
-            "occupation": "Brüderpfleger/Diacon"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1830-1831"
-          },
-          "geometry": null,
-          "properties": {
-            "location_wikidata": null,
-            "place_name": "Cedarhall",
-            "institution": null,
-            "occupation": "Missionar"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1831-1838"
-          },
-          "geometry": null,
-          "properties": {
-            "location_wikidata": null,
-            "place_name": "Gracehill",
-            "institution": null,
-            "occupation": "Missionar"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1838-1841"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -61.844722222,
-              17.121111111
-            ]
-          },
-          "properties": {
-            "location_wikidata": "https://www.wikidata.org/wiki/Q36262",
-            "place_name": "St. John's",
-            "institution": null,
-            "occupation": "Missionar"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1841-1843"
-          },
-          "geometry": null,
-          "properties": {
-            "location_wikidata": null,
-            "place_name": "Gracehill",
-            "institution": null,
-            "occupation": "Missionar"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1843-1856"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -61.844722222,
-              17.121111111
-            ]
-          },
-          "properties": {
-            "location_wikidata": "https://www.wikidata.org/wiki/Q36262",
-            "place_name": "St. John's",
-            "institution": null,
-            "occupation": "Missionar"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1856-1866"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              14.83,
-              51.289722222
-            ]
-          },
-          "properties": {
-            "location_wikidata": "https://www.wikidata.org/wiki/Q165160",
-            "place_name": "Niesky",
-            "institution": null,
-            "occupation": "Ruhestand"
-          }
         }
       ]
     }
@@ -28199,96 +27136,7 @@
         "notes": null
       }
     },
-    "places_of_effect": [
-      {
-        "temporal": {
-          "label": "1801-1812"
-        },
-        "location": {
-          "id": "L2150000",
-          "label": "Neudietendorf",
-          "link": "https://www.wikidata.org/wiki/Q701263"
-        },
-        "institution": {
-          "label": "Apotheke der Herrnhuter"
-        },
-        "occupation": {
-          "label": "Lehrling"
-        },
-        "source": {
-          "type": "manuscript",
-          "id": "M0033000",
-          "label": "Lebensbeschreibung Thrän, Heinrich Gottlieb",
-          "link": null
-        }
-      },
-      {
-        "temporal": {
-          "label": "1812-1814"
-        },
-        "location": {
-          "id": "L2200000",
-          "label": "Neuwied",
-          "link": "https://www.wikidata.org/wiki/Q3967"
-        },
-        "institution": {
-          "label": "Apotheke der Herrnhuter"
-        },
-        "occupation": {
-          "label": "Lehrling"
-        },
-        "source": {
-          "type": "print",
-          "id": "R0000800",
-          "label": "Philipp, Guntram: \"Herrnhuter Apotheker. Pioniere homöopathischer Arzneimittelherstellung\", in: Medizin, Gesellschaft und Geschichte Jahrbuch des Instituts für Geschichte der Medizin der Robert Bosch Stiftung 22 (2004), S. 89-147",
-          "link": null
-        }
-      },
-      {
-        "temporal": {
-          "label": "1814-1824"
-        },
-        "location": {
-          "id": "L2150000",
-          "label": "Neudietendorf",
-          "link": "https://www.wikidata.org/wiki/Q701263"
-        },
-        "institution": {
-          "label": "Apotheke der Herrnhuter"
-        },
-        "occupation": {
-          "label": "Gehilfe"
-        },
-        "source": {
-          "type": "print",
-          "id": "R0000800",
-          "label": "Philipp, Guntram: \"Herrnhuter Apotheker. Pioniere homöopathischer Arzneimittelherstellung\", in: Medizin, Gesellschaft und Geschichte Jahrbuch des Instituts für Geschichte der Medizin der Robert Bosch Stiftung 22 (2004), S. 89-147",
-          "link": null
-        }
-      },
-      {
-        "temporal": {
-          "label": "1824-1827"
-        },
-        "location": {
-          "id": "L2150000",
-          "label": "Neudietendorf",
-          "link": "https://www.wikidata.org/wiki/Q701263"
-        },
-        "institution": {
-          "label": "Apotheke der Herrnhuter"
-        },
-        "occupation": {
-          "label": "Leitung"
-        },
-        "source": {
-          "type": "print",
-          "id": "R0000800",
-          "label": "Philipp, Guntram: \"Herrnhuter Apotheker. Pioniere homöopathischer Arzneimittelherstellung\", in: Medizin, Gesellschaft und Geschichte Jahrbuch des Instituts für Geschichte der Medizin der Robert Bosch Stiftung 22 (2004), S. 89-147",
-          "link": null
-        }
-      }
-    ],
+    "places_of_effect": [],
     "moravian_curriculum_vitae": [
       {
         "id": "M0033000",
@@ -28409,86 +27257,6 @@
           "properties": {
             "location_wikidata": "https://www.wikidata.org/wiki/Q701263",
             "place_name": "Neudietendorf"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1801-1812"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              10.913333333,
-              50.9125
-            ]
-          },
-          "properties": {
-            "location_wikidata": "https://www.wikidata.org/wiki/Q701263",
-            "place_name": "Neudietendorf",
-            "institution": "Apotheke der Herrnhuter",
-            "occupation": "Lehrling"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1812-1814"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              7.461388888,
-              50.428611111
-            ]
-          },
-          "properties": {
-            "location_wikidata": "https://www.wikidata.org/wiki/Q3967",
-            "place_name": "Neuwied",
-            "institution": "Apotheke der Herrnhuter",
-            "occupation": "Lehrling"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1814-1824"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              10.913333333,
-              50.9125
-            ]
-          },
-          "properties": {
-            "location_wikidata": "https://www.wikidata.org/wiki/Q701263",
-            "place_name": "Neudietendorf",
-            "institution": "Apotheke der Herrnhuter",
-            "occupation": "Gehilfe"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "place_of_effect",
-          "time": {
-            "date": "1824-1827"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              10.913333333,
-              50.9125
-            ]
-          },
-          "properties": {
-            "location_wikidata": "https://www.wikidata.org/wiki/Q701263",
-            "place_name": "Neudietendorf",
-            "institution": "Apotheke der Herrnhuter",
-            "occupation": "Leitung"
           }
         }
       ]

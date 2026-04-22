@@ -306,15 +306,7 @@
         "importance": {
           "births": [],
           "deaths": [],
-          "places_of_effect": [
-            {
-              "id": "P1595000",
-              "name": "Franz Ferdinand Thrän",
-              "temporal": "1824-1829",
-              "institution": null,
-              "occupation": "Brüderpfleger/Diacon"
-            }
-          ]
+          "places_of_effect": []
         }
       }
     },
@@ -364,15 +356,7 @@
             }
           ],
           "deaths": [],
-          "places_of_effect": [
-            {
-              "id": "P1595000",
-              "name": "Franz Ferdinand Thrän",
-              "temporal": "1816-1817",
-              "institution": null,
-              "occupation": "Lehrer"
-            }
-          ]
+          "places_of_effect": []
         }
       }
     },
@@ -391,15 +375,7 @@
         "importance": {
           "births": [],
           "deaths": [],
-          "places_of_effect": [
-            {
-              "id": "P1595000",
-              "name": "Franz Ferdinand Thrän",
-              "temporal": "1830-1831",
-              "institution": null,
-              "occupation": "Missionar"
-            }
-          ]
+          "places_of_effect": []
         }
       }
     },
@@ -544,22 +520,7 @@
         "importance": {
           "births": [],
           "deaths": [],
-          "places_of_effect": [
-            {
-              "id": "P1595000",
-              "name": "Franz Ferdinand Thrän",
-              "temporal": "1831-1838",
-              "institution": null,
-              "occupation": "Missionar"
-            },
-            {
-              "id": "P1595000",
-              "name": "Franz Ferdinand Thrän",
-              "temporal": "1841-1843",
-              "institution": null,
-              "occupation": "Missionar"
-            }
-          ]
+          "places_of_effect": []
         }
       }
     },
@@ -647,15 +608,7 @@
         "importance": {
           "births": [],
           "deaths": [],
-          "places_of_effect": [
-            {
-              "id": "P1000000",
-              "name": "Ferdinand Kruth",
-              "temporal": "1830-1840",
-              "institution": null,
-              "occupation": "Missionar"
-            }
-          ]
+          "places_of_effect": []
         }
       }
     },
@@ -728,13 +681,6 @@
               "temporal": "1832",
               "institution": "Apotheke",
               "occupation": "Lehrling"
-            },
-            {
-              "id": "P1595000",
-              "name": "Franz Ferdinand Thrän",
-              "temporal": "1813-1816",
-              "institution": "Knabenanstalt",
-              "occupation": "Lehrer"
             }
           ]
         }
@@ -809,15 +755,7 @@
               "date": "8. Oktober 1889"
             }
           ],
-          "places_of_effect": [
-            {
-              "id": "P0545000",
-              "name": "Gustav Rudolf Gysin",
-              "temporal": "1877-1888",
-              "institution": null,
-              "occupation": null
-            }
-          ]
+          "places_of_effect": []
         }
       }
     },
@@ -917,13 +855,6 @@
               "name": "Carl Heinrich Götz",
               "temporal": "1841–1842",
               "institution": "Knabenanstalt",
-              "occupation": "Lehrer"
-            },
-            {
-              "id": "P1595000",
-              "name": "Franz Ferdinand Thrän",
-              "temporal": "1817-1824",
-              "institution": null,
               "occupation": "Lehrer"
             }
           ]
@@ -1244,29 +1175,7 @@
               "date": "8. Dezember 1827"
             }
           ],
-          "places_of_effect": [
-            {
-              "id": "P1595500",
-              "name": "Heinrich Gottlieb Thrän",
-              "temporal": "1801-1812",
-              "institution": "Apotheke der Herrnhuter",
-              "occupation": "Lehrling"
-            },
-            {
-              "id": "P1595500",
-              "name": "Heinrich Gottlieb Thrän",
-              "temporal": "1814-1824",
-              "institution": "Apotheke der Herrnhuter",
-              "occupation": "Gehilfe"
-            },
-            {
-              "id": "P1595500",
-              "name": "Heinrich Gottlieb Thrän",
-              "temporal": "1824-1827",
-              "institution": "Apotheke der Herrnhuter",
-              "occupation": "Leitung"
-            }
-          ]
+          "places_of_effect": []
         }
       }
     },
@@ -1316,13 +1225,6 @@
               "temporal": "1760–1764",
               "institution": "Knabenanstalt",
               "occupation": "Inspektor"
-            },
-            {
-              "id": "P1595500",
-              "name": "Heinrich Gottlieb Thrän",
-              "temporal": "1812-1814",
-              "institution": "Apotheke der Herrnhuter",
-              "occupation": "Lehrling"
             }
           ]
         }
@@ -1390,34 +1292,6 @@
               "temporal": "1842–1846",
               "institution": "Pädagogium",
               "occupation": "Lehrer"
-            },
-            {
-              "id": "P1595000",
-              "name": "Franz Ferdinand Thrän",
-              "temporal": "1804-1810",
-              "institution": "Pädagogium",
-              "occupation": "Schüler"
-            },
-            {
-              "id": "P1595000",
-              "name": "Franz Ferdinand Thrän",
-              "temporal": "1810-1812",
-              "institution": "Seminar",
-              "occupation": "Student"
-            },
-            {
-              "id": "P1595000",
-              "name": "Franz Ferdinand Thrän",
-              "temporal": "1812-1813",
-              "institution": "Knabenanstalt",
-              "occupation": "Lehrer"
-            },
-            {
-              "id": "P1595000",
-              "name": "Franz Ferdinand Thrän",
-              "temporal": "1856-1866",
-              "institution": null,
-              "occupation": "Ruhestand"
             }
           ]
         }
@@ -1592,22 +1466,7 @@
         "importance": {
           "births": [],
           "deaths": [],
-          "places_of_effect": [
-            {
-              "id": "P1595000",
-              "name": "Franz Ferdinand Thrän",
-              "temporal": "1838-1841",
-              "institution": null,
-              "occupation": "Missionar"
-            },
-            {
-              "id": "P1595000",
-              "name": "Franz Ferdinand Thrän",
-              "temporal": "1843-1856",
-              "institution": null,
-              "occupation": "Missionar"
-            }
-          ]
+          "places_of_effect": []
         }
       }
     },

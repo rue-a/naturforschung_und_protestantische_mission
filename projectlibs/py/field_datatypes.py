@@ -261,7 +261,15 @@ class EncodedString(AttestableDatatype):
         self.decoded_value = self._codelist[value]
 
 
-class ISO8601_2_Date(AttestableDatatype):
+class ISO8601_2_Temporal(AttestableDatatype):
+    """Abstract base for ISO 8601-2 temporal values (date or period)."""
+
+    @abstractmethod
+    def formatted(self) -> str | None:
+        """Return a human-readable German representation."""
+
+
+class ISO8601_2_Date(ISO8601_2_Temporal):
     """Day- to year-level ISO8601-2 date"""
 
     def _parse_value(self, value: str):
@@ -278,7 +286,7 @@ class ISO8601_2_Date(AttestableDatatype):
         return {"label": self.formatted(), "source": self.source_dict(registry)}
 
 
-class ISO8601_2_Period(AttestableDatatype):
+class ISO8601_2_Period(ISO8601_2_Temporal):
     """Time period using two ISO8601-2_Date strings"""
 
     def _parse_value(self, value: str):
@@ -293,28 +301,29 @@ class ISO8601_2_Period(AttestableDatatype):
         if end:
             self.end = ISO8601_2_Date(end)
 
+    def formatted(self) -> str | None:
+        start = getattr(getattr(self, "start", None), "date", None)
+        end = getattr(getattr(self, "end", None), "date", None)
+        if start and end:
+            return f"{_fmt_date(start)}–{_fmt_date(end)}"
+        if start:
+            return _fmt_date(start)
+        if end:
+            return _fmt_date(end)
+        return None
 
-class ISO8601_2_Temporal(AttestableDatatype):
-    """Contains ISO8601-2_Date or ISO8601-2_Period"""
 
-    def _parse_value(self, value: str):
-        # Check if it's a valid date first
-        try:
-            ISO8601_2_Date(value)
-            self.type = "date"
-            return
-        except ValueError:
-            pass
-
-        # Check if it's a valid period
-        try:
-            ISO8601_2_Period(value)
-            self.type = "period"
-            return
-        except ValueError:
-            pass
-
-        raise ValueError(f"Invalid Temporal value: {value}")
+def parse_temporal(value: str) -> "ISO8601_2_Temporal":
+    """Factory: parse *value* into ISO8601_2_Date or ISO8601_2_Period."""
+    try:
+        return ISO8601_2_Date(value)
+    except (ValueError, AttributeError):
+        pass
+    try:
+        return ISO8601_2_Period(value)
+    except (ValueError, AttributeError):
+        pass
+    raise ValueError(f"Cannot parse as date or period: {value!r}")
 
 
 class Variant(AttestableDatatype):
@@ -338,12 +347,5 @@ class PlaceOfEffect(AttestableDatatype):
         if len(parts) != 4:
             raise ValueError(f"Expected 4 parts, got {len(parts)}: {value}")
         self.temporal, self.place, self.institution, self.occupation = parts
-
-    def formatted_temporal(self) -> str | None:
-        val = (getattr(self, "temporal", "") or "").strip()
-        if not val:
-            return None
-        if "/" in val:
-            start, end = val.split("/", 1)
-            return f"{_fmt_date(start.strip())}\u2013{_fmt_date(end.strip())}"
-        return _fmt_date(val)
+        self.temporal = parse_temporal(self.temporal)
+        self.place = LocationID(self.place)

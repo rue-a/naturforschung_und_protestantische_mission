@@ -1,5 +1,7 @@
 from abc import ABC, abstractmethod
+import re
 import warnings
+from collections import defaultdict
 from functools import partial
 from types import SimpleNamespace
 
@@ -369,9 +371,13 @@ class HerrnhutPerson(HerrnhutObject):
             },
             "places_of_effect": [
                 {
-                    "temporal": {"label": poe.formatted_temporal()},
-                    "location": _loc_no_source(getattr(poe, "place", "").strip())
-                    if getattr(poe, "place", "").strip()
+                    "temporal": {
+                        "label": poe.temporal.formatted()
+                        if getattr(poe, "temporal", None)
+                        else None
+                    },
+                    "location": _loc_no_source(poe.place)
+                    if getattr(poe, "place", None)
                     else None,
                     "institution": {
                         "label": (getattr(poe, "institution", "") or "").strip() or None
@@ -643,6 +649,86 @@ class HerrnhutLocation(HerrnhutObject):
                 "founder": getattr(self, "founder", None),
             },
         }
+
+    @staticmethod
+    def _person_ref(person) -> dict:
+        return {
+            "id": getattr(getattr(person, "id", None), "id", None),
+            "name": getattr(getattr(person.name, "preferred", None), "value", None),
+        }
+
+    @classmethod
+    def compute_importance(cls, persons: dict) -> dict[str, dict]:
+        """Return per-location person lists derived from all persons.
+
+        For every HerrnhutPerson, three event types are tracked per location:
+          - births:           person was born there  → {id, name, date}
+          - deaths:           person died there      → {id, name, date}
+          - places_of_effect: person had a POE there → {id, name, temporal, institution, occupation}
+
+        Each person appears at most once per birth/death category. POE entries
+        are per role, but exact duplicates (same person + temporal + institution
+        + occupation) are suppressed.
+        """
+        result: dict[str, dict] = defaultdict(
+            lambda: {"births": [], "deaths": [], "places_of_effect": []}
+        )
+        seen_births: dict[str, set] = defaultdict(set)
+        seen_deaths: dict[str, set] = defaultdict(set)
+        seen_poe: dict[str, set] = defaultdict(set)
+
+        for person in persons.values():
+            base = cls._person_ref(person)
+            pid = base["id"]
+
+            birth_id = getattr(
+                getattr(getattr(person, "birth", None), "location", None), "id", None
+            )
+            if birth_id and pid not in seen_births[birth_id]:
+                date_obj = getattr(getattr(person, "birth", None), "date", None)
+                result[birth_id]["births"].append(
+                    {
+                        **base,
+                        "date": date_obj.formatted() if date_obj else None,
+                    }
+                )
+                seen_births[birth_id].add(pid)
+
+            death_id = getattr(
+                getattr(getattr(person, "death", None), "location", None), "id", None
+            )
+            if death_id and pid not in seen_deaths[death_id]:
+                date_obj = getattr(getattr(person, "death", None), "date", None)
+                result[death_id]["deaths"].append(
+                    {
+                        **base,
+                        "date": date_obj.formatted() if date_obj else None,
+                    }
+                )
+                seen_deaths[death_id].add(pid)
+
+            for poe in getattr(person, "places_of_effect", []):
+                place = getattr(getattr(poe, "place", None), "id", None)
+                if not place:
+                    continue
+                temporal = (
+                    poe.temporal.formatted() if getattr(poe, "temporal", None) else None
+                )
+                institution = (getattr(poe, "institution", "") or "").strip() or None
+                occupation = (getattr(poe, "occupation", "") or "").strip() or None
+                key = (pid, temporal, institution, occupation)
+                if key not in seen_poe[place]:
+                    result[place]["places_of_effect"].append(
+                        {
+                            **base,
+                            "temporal": temporal,
+                            "institution": institution,
+                            "occupation": occupation,
+                        }
+                    )
+                    seen_poe[place].add(key)
+
+        return dict(result)
 
 
 class HerrnhutCollection(HerrnhutObject):

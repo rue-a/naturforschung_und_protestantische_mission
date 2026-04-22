@@ -157,8 +157,8 @@ class LifeTrajectory:
 
         # places of effect
         for poe in person.places_of_effect or []:
-            temporal_str = getattr(poe, "temporal", "").strip()
-            loc_id_str = getattr(poe, "place", "").strip()
+            temporal_str = getattr(getattr(poe, "temporal", None), "raw", "").strip()
+            loc_id_str = getattr(getattr(poe, "place", None), "id", "")
             loc = self._locs.get(loc_id_str)
             props = _location_properties(loc)
             props["institution"] = getattr(poe, "institution", "").strip() or None

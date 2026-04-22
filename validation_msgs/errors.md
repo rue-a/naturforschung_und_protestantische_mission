@@ -265,6 +265,20 @@ UA NB.VI. 63,nr.2, S. 93`
   - Causing raw value: `ja`
 
 - [ ] **Wirkungsorte** (P0050000):
+  - Error Message: **`LocationID must start with 'L': Niesky`**
+  - Causing raw value: `; Niesky;; (R0006500) `
+  - Full field: _; Niesky;; (R0006500) |
+; Rossitten;; (R0006500) |
+ ;L2450000; (R0006600) | _
+
+- [ ] **Wirkungsorte** (P0050000):
+  - Error Message: **`LocationID must start with 'L': Rossitten`**
+  - Causing raw value: `; Rossitten;; (R0006500) `
+  - Full field: _; Niesky;; (R0006500) |
+; Rossitten;; (R0006500) |
+ ;L2450000; (R0006600) | _
+
+- [ ] **Wirkungsorte** (P0050000):
   - Error Message: **`Expected 4 parts, got 3: ;L2450000;`**
   - Causing raw value: ` ;L2450000; (R0006600) `
   - Full field: _; Niesky;; (R0006500) |
@@ -1143,6 +1157,72 @@ Hugo Theodor Christoph: "Bemerkungen zu einigen in Labrador vorkommenden Schmett
   - Error Message: **`LocationID must start with 'L': Berthelsdorf`**
   - Causing raw value: `Berthelsdorf`
 
+- [ ] **Wirkungsorte** (P0300000):
+  - Error Message: **`LocationID must start with 'L': Neuwied`**
+  - Causing raw value: `1785/1790; Neuwied; Knabenanstalt; `
+  - Full field: _1785/1790; Neuwied; Knabenanstalt; |
+1790/1795; Barby; Padagogium; |
+1795/1798; Niesky; Seminar; |
+1798; Niesky; Knabenanstalt; Lehrer |
+1801; Barby; Pädagogium; Lehrer |
+1803; L1500000; ; Lehrer |
+1835; Surinam; ; Visitation |_
+
+- [ ] **Wirkungsorte** (P0300000):
+  - Error Message: **`LocationID must start with 'L': Barby`**
+  - Causing raw value: `1790/1795; Barby; Padagogium; `
+  - Full field: _1785/1790; Neuwied; Knabenanstalt; |
+1790/1795; Barby; Padagogium; |
+1795/1798; Niesky; Seminar; |
+1798; Niesky; Knabenanstalt; Lehrer |
+1801; Barby; Pädagogium; Lehrer |
+1803; L1500000; ; Lehrer |
+1835; Surinam; ; Visitation |_
+
+- [ ] **Wirkungsorte** (P0300000):
+  - Error Message: **`LocationID must start with 'L': Niesky`**
+  - Causing raw value: `1795/1798; Niesky; Seminar; `
+  - Full field: _1785/1790; Neuwied; Knabenanstalt; |
+1790/1795; Barby; Padagogium; |
+1795/1798; Niesky; Seminar; |
+1798; Niesky; Knabenanstalt; Lehrer |
+1801; Barby; Pädagogium; Lehrer |
+1803; L1500000; ; Lehrer |
+1835; Surinam; ; Visitation |_
+
+- [ ] **Wirkungsorte** (P0300000):
+  - Error Message: **`LocationID must start with 'L': Niesky`**
+  - Causing raw value: `1798; Niesky; Knabenanstalt; Lehrer `
+  - Full field: _1785/1790; Neuwied; Knabenanstalt; |
+1790/1795; Barby; Padagogium; |
+1795/1798; Niesky; Seminar; |
+1798; Niesky; Knabenanstalt; Lehrer |
+1801; Barby; Pädagogium; Lehrer |
+1803; L1500000; ; Lehrer |
+1835; Surinam; ; Visitation |_
+
+- [ ] **Wirkungsorte** (P0300000):
+  - Error Message: **`LocationID must start with 'L': Barby`**
+  - Causing raw value: `1801; Barby; Pädagogium; Lehrer `
+  - Full field: _1785/1790; Neuwied; Knabenanstalt; |
+1790/1795; Barby; Padagogium; |
+1795/1798; Niesky; Seminar; |
+1798; Niesky; Knabenanstalt; Lehrer |
+1801; Barby; Pädagogium; Lehrer |
+1803; L1500000; ; Lehrer |
+1835; Surinam; ; Visitation |_
+
+- [ ] **Wirkungsorte** (P0300000):
+  - Error Message: **`LocationID must start with 'L': Surinam`**
+  - Causing raw value: `1835; Surinam; ; Visitation `
+  - Full field: _1785/1790; Neuwied; Knabenanstalt; |
+1790/1795; Barby; Padagogium; |
+1795/1798; Niesky; Seminar; |
+1798; Niesky; Knabenanstalt; Lehrer |
+1801; Barby; Pädagogium; Lehrer |
+1803; L1500000; ; Lehrer |
+1835; Surinam; ; Visitation |_
+
 - [ ] **Herrnhuter Lebenslauf** (P0300000):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
@@ -1271,6 +1351,10 @@ der Oberlausitz`
   - Error Message: **`Invalid Reference Document value: 2024-11-20 (should be URL, R-ID, or M-ID)`**
   - Causing raw value: `nein (2024-11-20) `
 
+- [ ] **Wirkungsorte** (P0350000):
+  - Error Message: **`LocationID must start with 'L': Grönland`**
+  - Causing raw value: `1804/1839; Grönland; ; Missionar`
+
 - [ ] **Herrnhuter Lebenslauf** (P0350000):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
@@ -1280,6 +1364,10 @@ der Oberlausitz`
   - Causing raw value: `Richard Träger: "Ein Herbarium von Pflanzen aus Labrador", in: ders., "Trägermappe" Naturwissenschaft in der Brüdergemeine (Botanik, Ornithologie, Medizin) UA. IV/612, Herrnhut: Archiv der Herrnhuter Brüdergemeine.`
 
 ### P0355000
+
+- [ ] **Wirkungsorte** (P0355000):
+  - Error Message: **`Invalid format for LocationID: Labrador`**
+  - Causing raw value: `/; Labrador; ; Missionar `
 
 - [ ] **Herrnhuter Lebenslauf** (P0355000):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
@@ -1295,6 +1383,10 @@ der Oberlausitz`
 - [ ] **Angehörige - Ehepartner** (P0355500):
   - Error Message: **`Invalid format for PersonID: P168400`**
   - Causing raw value: `P168400`
+
+- [ ] **Wirkungsorte** (P0355500):
+  - Error Message: **`Invalid format for LocationID: Labrador`**
+  - Causing raw value: `/; Labrador; ; Missionar (R0003600)`
 
 - [ ] **Herrnhuter Lebenslauf** (P0355500):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
@@ -1731,6 +1823,10 @@ Naturgeschichte der Saigaantilope`
   - Causing raw value: `L2250000 oder Nisky auf St. Thomas? (R0007000)`
 
 - [ ] **Wirkungsorte** (P0535000):
+  - Error Message: **`Cannot parse as date or period: '1819/1825 St. Jan, St. Croix'`**
+  - Causing raw value: `1819/1825 St. Jan, St. Croix; ; ; (R0007000) `
+
+- [ ] **Wirkungsorte** (P0535000):
   - Error Message: **`Expected 4 parts, got 5: 1825/1831; L0800000; ; ;`**
   - Causing raw value: ` 1825/1831; L0800000; ; ; (R0007000) `
 
@@ -1741,6 +1837,10 @@ Naturgeschichte der Saigaantilope`
 - [ ] **Wirkungsorte** (P0535000):
   - Error Message: **`Expected 4 parts, got 3: 1854/1865; Westindische Inseln; Missionar`**
   - Causing raw value: ` 1854/1865; Westindische Inseln; Missionar (R0007000) `
+
+- [ ] **Wirkungsorte** (P0535000):
+  - Error Message: **`LocationID must start with 'L': Sachsen`**
+  - Causing raw value: ` 1865/1866; Sachsen; ; (R0007000)`
 
 ### P0540000
 
@@ -1761,6 +1861,10 @@ Naturgeschichte der Saigaantilope`
   - Causing raw value: `offen`
 
 ### P0545000
+
+- [ ] **Wirkungsorte** (P0545000):
+  - Error Message: **`Cannot parse as date or period: '1877-1888'`**
+  - Causing raw value: `1877-1888; L1300000; ; (R0005600)`
 
 - [ ] **Botanik - Beitrag zu Sammlungen (Objektnachweis)** (P0545000):
   - Error Message: **`Invalid Reference Document value: 111346? (should be URL, R-ID, or M-ID)`**
@@ -3003,6 +3107,10 @@ Powell (1988)_
 - [ ] **Zugehörigkeit Herrnhuter Brüdergemeine** (P1000000):
   - Error Message: **`Provided string is not in codelist: ?`**
   - Causing raw value: `?`
+
+- [ ] **Wirkungsorte** (P1000000):
+  - Error Message: **`Cannot parse as date or period: '1830-1840'`**
+  - Causing raw value: `1830-1840; L1110000 [Hebron]; ; Missionar (R0000600)`
 
 - [ ] **Herrnhuter Lebenslauf** (P1000000):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
@@ -4626,6 +4734,58 @@ Hugh S. Torrens: "The Moravian minister Rev. Henry Steinhauer (1782-1818); his w
 
 ### P1595000
 
+- [ ] **Wirkungsorte** (P1595000):
+  - Error Message: **`Cannot parse as date or period: '1804-1810'`**
+  - Causing raw value: `1804-1810; L2250000; Pädagogium; Schüler (M0029000) `
+
+- [ ] **Wirkungsorte** (P1595000):
+  - Error Message: **`Cannot parse as date or period: '1810-1812'`**
+  - Causing raw value: `1810-1812; L2250000; Seminar; Student (M0029000) `
+
+- [ ] **Wirkungsorte** (P1595000):
+  - Error Message: **`Cannot parse as date or period: '1812-1813'`**
+  - Causing raw value: `1812-1813; L2250000; Knabenanstalt; Lehrer (M0029000) `
+
+- [ ] **Wirkungsorte** (P1595000):
+  - Error Message: **`Cannot parse as date or period: '1813-1816'`**
+  - Causing raw value: `1813-1816; L1120000; Knabenanstalt; Lehrer (M0029000) `
+
+- [ ] **Wirkungsorte** (P1595000):
+  - Error Message: **`Cannot parse as date or period: '1816-1817'`**
+  - Causing raw value: `1816-1817; L0800000; ; Lehrer (M0029000) `
+
+- [ ] **Wirkungsorte** (P1595000):
+  - Error Message: **`Cannot parse as date or period: '1817-1824'`**
+  - Causing raw value: `1817-1824; L1550000; ; Lehrer (M0029000) `
+
+- [ ] **Wirkungsorte** (P1595000):
+  - Error Message: **`Cannot parse as date or period: '1824-1829'`**
+  - Causing raw value: `1824-1829; L0600000; ; Brüderpfleger/Diacon (M0029000)  `
+
+- [ ] **Wirkungsorte** (P1595000):
+  - Error Message: **`Cannot parse as date or period: '1830-1831'`**
+  - Causing raw value: `1830-1831; L0900000 [Cedarhall/Antigua]; ; Missionar  (M0029000) `
+
+- [ ] **Wirkungsorte** (P1595000):
+  - Error Message: **`Cannot parse as date or period: '1831-1838'`**
+  - Causing raw value: `1831-1838; L1102000 [Gracehill/Antigua]; ; Missionar  (M0029000) `
+
+- [ ] **Wirkungsorte** (P1595000):
+  - Error Message: **`Cannot parse as date or period: '1838-1841'`**
+  - Causing raw value: `1838-1841; L2400000 [St. John's/Antigua]; ; Missionar  (M0029000) `
+
+- [ ] **Wirkungsorte** (P1595000):
+  - Error Message: **`Cannot parse as date or period: '1841-1843'`**
+  - Causing raw value: `1841-1843; L1102000 [Gracehill/Antigua]; ; Missionar  (M0029000) `
+
+- [ ] **Wirkungsorte** (P1595000):
+  - Error Message: **`Cannot parse as date or period: '1843-1856'`**
+  - Causing raw value: `1843-1856; L2400000 [St. John's/Antigua]; ; Missionar  (M0029000) `
+
+- [ ] **Wirkungsorte** (P1595000):
+  - Error Message: **`Cannot parse as date or period: '1856-1866'`**
+  - Causing raw value: `1856-1866; L2250000; ; Ruhestand  (M0029000)`
+
 - [ ] **Kontakt - Mit Herrnhutern** (P1595000):
   - Error Message: **`PersonID must start with 'P': Hans, W.`**
   - Causing raw value: `Hans, W.`
@@ -4639,6 +4799,38 @@ Hugh S. Torrens: "The Moravian minister Rev. Henry Steinhauer (1782-1818); his w
 - [ ] **Zugehörigkeit Herrnhuter Brüdergemeine** (P1595500):
   - Error Message: **`Provided string is not in codelist: ja`**
   - Causing raw value: `ja`
+
+- [ ] **Wirkungsorte** (P1595500):
+  - Error Message: **`Cannot parse as date or period: '1801-1812'`**
+  - Causing raw value: `1801-1812; L2150000; Apotheke der Herrnhuter; Lehrling (M0033000) `
+  - Full field: _1801-1812; L2150000; Apotheke der Herrnhuter; Lehrling (M0033000) |
+1812-1814; L2200000; Apotheke der Herrnhuter; Lehrling (R0000800) |
+1814-1824; L2150000; Apotheke der Herrnhuter; Gehilfe (R0000800) |
+1824-1827; L2150000; Apotheke der Herrnhuter; Leitung (R0000800)_
+
+- [ ] **Wirkungsorte** (P1595500):
+  - Error Message: **`Cannot parse as date or period: '1812-1814'`**
+  - Causing raw value: `1812-1814; L2200000; Apotheke der Herrnhuter; Lehrling (R0000800) `
+  - Full field: _1801-1812; L2150000; Apotheke der Herrnhuter; Lehrling (M0033000) |
+1812-1814; L2200000; Apotheke der Herrnhuter; Lehrling (R0000800) |
+1814-1824; L2150000; Apotheke der Herrnhuter; Gehilfe (R0000800) |
+1824-1827; L2150000; Apotheke der Herrnhuter; Leitung (R0000800)_
+
+- [ ] **Wirkungsorte** (P1595500):
+  - Error Message: **`Cannot parse as date or period: '1814-1824'`**
+  - Causing raw value: `1814-1824; L2150000; Apotheke der Herrnhuter; Gehilfe (R0000800) `
+  - Full field: _1801-1812; L2150000; Apotheke der Herrnhuter; Lehrling (M0033000) |
+1812-1814; L2200000; Apotheke der Herrnhuter; Lehrling (R0000800) |
+1814-1824; L2150000; Apotheke der Herrnhuter; Gehilfe (R0000800) |
+1824-1827; L2150000; Apotheke der Herrnhuter; Leitung (R0000800)_
+
+- [ ] **Wirkungsorte** (P1595500):
+  - Error Message: **`Cannot parse as date or period: '1824-1827'`**
+  - Causing raw value: `1824-1827; L2150000; Apotheke der Herrnhuter; Leitung (R0000800)`
+  - Full field: _1801-1812; L2150000; Apotheke der Herrnhuter; Lehrling (M0033000) |
+1812-1814; L2200000; Apotheke der Herrnhuter; Lehrling (R0000800) |
+1814-1824; L2150000; Apotheke der Herrnhuter; Gehilfe (R0000800) |
+1824-1827; L2150000; Apotheke der Herrnhuter; Leitung (R0000800)_
 
 - [ ] **Kontakt - Mit Herrnhutern** (P1595500):
   - Error Message: **`Invalid Reference Document value: nicht identifiziert, nicht Franz Ferdinand Thrän) (R0004300 (should be URL, R-ID, or M-ID)`**
