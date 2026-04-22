@@ -22,6 +22,7 @@ from projectlibs.py.helpers.wikidata_utils import (
     fetch_person_data_from_wikipedia,
     fetch_location_data_from_wikidata,
 )
+from projectlibs.py.helpers.life_trajectory import LifeTrajectory
 
 
 class HerrnhutObject(ABC):
@@ -300,6 +301,9 @@ class HerrnhutPerson(HerrnhutObject):
             )
         if data["saebi"] and not self.links.saebi:
             self.links.saebi = self._parse_field("Links - Säbi", data["saebi"], URL)
+
+    def _create_life_trajectory(self, locations: dict):
+        self.life_trajectory = LifeTrajectory(self, locations)
 
     def serialize_json(self):
         raise NotImplementedError

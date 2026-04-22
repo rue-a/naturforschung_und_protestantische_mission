@@ -208,6 +208,7 @@ class ISO8601_2_Date(AttestableDatatype):
         pattern = r"^(\d{4})(-\d{2})?(-\d{2})?([~%?])?$"
         if not re.fullmatch(pattern, value):
             raise ValueError(f"Invalid ISO8601-2_Date format: {value}")
+        self.date = value
 
 
 class ISO8601_2_Period(AttestableDatatype):
