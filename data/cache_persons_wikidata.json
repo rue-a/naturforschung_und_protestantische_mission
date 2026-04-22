@@ -16,5 +16,533 @@
     "factgrid": "Q703514",
     "bionomia": "Q21415674",
     "saebi": "116493763"
+  },
+  "Q132170167": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q132170167",
+    "saebi": null
+  },
+  "Q136230382": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q55010392": {
+    "gnd": "117534994",
+    "factgrid": null,
+    "bionomia": "Q55010392",
+    "saebi": null
+  },
+  "Q138650473": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q14193477": {
+    "gnd": "126373914",
+    "factgrid": null,
+    "bionomia": "Q14193477",
+    "saebi": null
+  },
+  "Q106092971": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q106092971",
+    "saebi": null
+  },
+  "Q105095006": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q105095006",
+    "saebi": null
+  },
+  "Q4719276": {
+    "gnd": "116102446",
+    "factgrid": "Q789331",
+    "bionomia": "Q4719276",
+    "saebi": null
+  },
+  "Q139269295": {
+    "gnd": "1053496877",
+    "factgrid": null,
+    "bionomia": "Q139269295",
+    "saebi": null
+  },
+  "Q138847311": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q714281": {
+    "gnd": "116519770",
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q21506687": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q21506687",
+    "saebi": null
+  },
+  "Q3814258": {
+    "gnd": "117685836",
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q89872": {
+    "gnd": "116717548",
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q116215976": {
+    "gnd": null,
+    "factgrid": "Q703508",
+    "bionomia": "Q116215976",
+    "saebi": null
+  },
+  "Q21509659": {
+    "gnd": "1013008820",
+    "factgrid": "Q703581",
+    "bionomia": "Q21509659",
+    "saebi": null
+  },
+  "Q138682285": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q124060542": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q124060542",
+    "saebi": null
+  },
+  "Q138650686": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q138634320": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q129986877": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q129986877",
+    "saebi": null
+  },
+  "Q129987513": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q129987513",
+    "saebi": null
+  },
+  "Q129987672": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q129987672",
+    "saebi": null
+  },
+  "Q2870936": {
+    "gnd": "118952544",
+    "factgrid": null,
+    "bionomia": "Q2870936",
+    "saebi": null
+  },
+  "Q77436": {
+    "gnd": "11853601X",
+    "factgrid": "Q421977",
+    "bionomia": null,
+    "saebi": null
+  },
+  "wiki": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q134509825": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q134509825",
+    "saebi": null
+  },
+  "Q15229504": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q15229504",
+    "saebi": null
+  },
+  "Q133869027": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q133869027",
+    "saebi": null
+  },
+  "Q134982707": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q134982707",
+    "saebi": null
+  },
+  "Q134510287": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q134510287",
+    "saebi": null
+  },
+  "Q135024644": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q135024644",
+    "saebi": null
+  },
+  "Q114728512": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q114728512",
+    "saebi": null
+  },
+  "Q62129404": {
+    "gnd": "118704427",
+    "factgrid": null,
+    "bionomia": "Q62129404",
+    "saebi": null
+  },
+  "Q91498": {
+    "gnd": "143910205",
+    "factgrid": null,
+    "bionomia": "Q91498",
+    "saebi": null
+  },
+  "Q130358368": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q130358368",
+    "saebi": null
+  },
+  "Q113986986": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q21165260": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q112117739": {
+    "gnd": "1234918552",
+    "factgrid": "Q703375",
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q64653": {
+    "gnd": "117059838",
+    "factgrid": null,
+    "bionomia": "Q64653",
+    "saebi": null
+  },
+  "Q136395063": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q136395063",
+    "saebi": null
+  },
+  "Q21517591": {
+    "gnd": "135855454",
+    "factgrid": null,
+    "bionomia": "Q21517591",
+    "saebi": null
+  },
+  "Q77634": {
+    "gnd": "118819852",
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q105946962": {
+    "gnd": "1050549996",
+    "factgrid": null,
+    "bionomia": "Q105946962",
+    "saebi": null
+  },
+  "Q21517694": {
+    "gnd": "136118747",
+    "factgrid": null,
+    "bionomia": "Q21517694",
+    "saebi": null
+  },
+  "Q55853813": {
+    "gnd": "136118704",
+    "factgrid": null,
+    "bionomia": "Q55853813",
+    "saebi": null
+  },
+  "Q137780962": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q94929619": {
+    "gnd": "106834136X",
+    "factgrid": null,
+    "bionomia": "Q94929619",
+    "saebi": null
+  },
+  "Q134608497": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q134608497",
+    "saebi": null
+  },
+  "Q138855755": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q1640263": {
+    "gnd": "102074771",
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q136674237": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q136674237",
+    "saebi": null
+  },
+  "Q134451423": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q134451423",
+    "saebi": null
+  },
+  "Q29073400": {
+    "gnd": "1026634881",
+    "factgrid": null,
+    "bionomia": "Q29073400",
+    "saebi": null
+  },
+  "Q3129471": {
+    "gnd": "117088986",
+    "factgrid": null,
+    "bionomia": "Q3129471",
+    "saebi": null
+  },
+  "Q55845075": {
+    "gnd": "138396337",
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q55626094": {
+    "gnd": "138396345",
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q137556386": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q94819125": {
+    "gnd": "102689574X",
+    "factgrid": null,
+    "bionomia": "Q94819125",
+    "saebi": null
+  },
+  "Q57316349": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q130869909": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q130869909",
+    "saebi": null
+  },
+  "Q55127660": {
+    "gnd": "126807337",
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q138637744": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q123150910": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q123150910",
+    "saebi": null
+  },
+  "Q76576": {
+    "gnd": "118608045",
+    "factgrid": "Q744607",
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q3087686": {
+    "gnd": "100264484",
+    "factgrid": null,
+    "bionomia": "Q3087686",
+    "saebi": null
+  },
+  "Q21608481": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q21608481",
+    "saebi": null
+  },
+  "Q1822110": {
+    "gnd": "117402915",
+    "factgrid": null,
+    "bionomia": "Q1822110",
+    "saebi": null
+  },
+  "Q28731149": {
+    "gnd": "117637742",
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q131387895": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q131387895",
+    "saebi": null
+  },
+  "Q19361537": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q19361537",
+    "saebi": null
+  },
+  "Q111604675": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q111604675",
+    "saebi": null
+  },
+  "Q21609893": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q21609893",
+    "saebi": null
+  },
+  "Q1875093": {
+    "gnd": "120038641",
+    "factgrid": "Q890561",
+    "bionomia": "Q1875093",
+    "saebi": "120038641"
+  },
+  "Q137537242": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q137537242",
+    "saebi": null
+  },
+  "Q138779638": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q124737": {
+    "gnd": "101970382",
+    "factgrid": null,
+    "bionomia": "Q124737",
+    "saebi": null
+  },
+  "Q102036028": {
+    "gnd": null,
+    "factgrid": "Q378543",
+    "bionomia": "Q102036028",
+    "saebi": null
+  },
+  "Q133033161": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q133033161",
+    "saebi": null
+  },
+  "Q130900675": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q130900675",
+    "saebi": null
+  },
+  "Q130386109": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q130386109",
+    "saebi": null
+  },
+  "Q27683890": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q27683890",
+    "saebi": null
+  },
+  "Q61037266": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q109340552": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q109340552",
+    "saebi": null
+  },
+  "Q5482833": {
+    "gnd": "1055237623",
+    "factgrid": null,
+    "bionomia": "Q5482833",
+    "saebi": null
+  },
+  "Q205828": {
+    "gnd": "11738934X",
+    "factgrid": "Q703443",
+    "bionomia": "Q205828",
+    "saebi": null
+  },
+  "Q119857050": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q119857050",
+    "saebi": null
+  },
+  "Q16913049": {
+    "gnd": "116001585",
+    "factgrid": null,
+    "bionomia": "Q16913049",
+    "saebi": null
   }
 }

@@ -1,0 +1,767 @@
+[
+  {
+    "id": "L0100000",
+    "name": "Akunnaat",
+    "variants": [
+      {
+        "name": "Lichtenfels",
+        "lang": ""
+      }
+    ],
+    "wikidata": "https://www.wikidata.org/wiki/Q423740",
+    "description": null,
+    "coordinates": {
+      "lat": 63.05,
+      "lon": -50.41
+    },
+    "temporal": {
+      "start": "1758-01-01T00:00:00Z",
+      "end": "1950-01-01T00:00:00Z"
+    },
+    "founder": "Herrnhuter Brüdergemeine"
+  },
+  {
+    "id": "L0150000",
+    "name": null,
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q1286",
+    "description": null,
+    "coordinates": {
+      "lat": 46.578055555,
+      "lon": 8.615
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L0200000",
+    "name": "Barby",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q530185",
+    "description": null,
+    "coordinates": {
+      "lat": 51.9667595,
+      "lon": 11.8838245
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L0300000",
+    "name": "Basel",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q78",
+    "description": null,
+    "coordinates": {
+      "lat": 47.560555555,
+      "lon": 7.590555555
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L0350000",
+    "name": "Bethanien",
+    "variants": [],
+    "wikidata": null,
+    "description": "auf St. Jan",
+    "coordinates": null,
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L0400000",
+    "name": "Berthelsdorf",
+    "variants": [
+      {
+        "name": "Batromjecy",
+        "lang": ""
+      }
+    ],
+    "wikidata": "https://www.wikidata.org/wiki/Q502553",
+    "description": null,
+    "coordinates": {
+      "lat": 51.027777777,
+      "lon": 14.758333333
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L0500000",
+    "name": "Bethlehem",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q164380",
+    "description": null,
+    "coordinates": {
+      "lat": 40.626111111,
+      "lon": -75.375555555
+    },
+    "temporal": {
+      "start": "1741-01-01T00:00:00Z",
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L0600000",
+    "name": "Christiansfeld",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q3197288",
+    "description": null,
+    "coordinates": {
+      "lat": 55.356667,
+      "lon": 9.483056
+    },
+    "temporal": {
+      "start": "1773-01-01T00:00:00Z",
+      "end": null
+    },
+    "founder": "Herrnhuter Brüdergemeine"
+  },
+  {
+    "id": "L0700000",
+    "name": null,
+    "variants": [],
+    "wikidata": null,
+    "description": null,
+    "coordinates": null,
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L0800000",
+    "name": "Ebersdorf",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q1279760",
+    "description": null,
+    "coordinates": {
+      "lat": 50.4847,
+      "lon": 11.6672
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L0900000",
+    "name": "Cedarhall",
+    "variants": [],
+    "wikidata": null,
+    "description": null,
+    "coordinates": null,
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L1000000",
+    "name": "Gnadenberg",
+    "variants": [
+      {
+        "name": "Godnów",
+        "lang": ""
+      },
+      {
+        "name": "Kruszyn",
+        "lang": ""
+      }
+    ],
+    "wikidata": "https://www.wikidata.org/wiki/Q65162110",
+    "description": null,
+    "coordinates": {
+      "lat": 51.259167,
+      "lon": 15.615833
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L1100000",
+    "name": "Gnadenfrei",
+    "variants": [
+      {
+        "name": "Piława Górna",
+        "lang": ""
+      },
+      {
+        "name": "Peilau",
+        "lang": ""
+      },
+      {
+        "name": "Oberpeilau",
+        "lang": ""
+      },
+      {
+        "name": "Obermittelpeilau",
+        "lang": ""
+      }
+    ],
+    "wikidata": "https://www.wikidata.org/wiki/Q986091",
+    "description": null,
+    "coordinates": {
+      "lat": 50.68357,
+      "lon": 16.74359
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L1101000",
+    "name": "Gnadenfeld",
+    "variants": [],
+    "wikidata": null,
+    "description": null,
+    "coordinates": null,
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L1102000",
+    "name": "Gracehill",
+    "variants": [],
+    "wikidata": null,
+    "description": null,
+    "coordinates": null,
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L1103500",
+    "name": "Großhennerdorf",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q502696",
+    "description": null,
+    "coordinates": {
+      "lat": 50.990833333,
+      "lon": 14.793333333
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L1105000",
+    "name": "Goshen",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q5587251",
+    "description": null,
+    "coordinates": {
+      "lat": 39.23,
+      "lon": -84.163
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L1110000",
+    "name": "Hebron",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q5695991",
+    "description": null,
+    "coordinates": {
+      "lat": 58.2,
+      "lon": -62.626111111
+    },
+    "temporal": {
+      "start": "1837-01-01T00:00:00Z",
+      "end": "1959-01-01T00:00:00Z"
+    },
+    "founder": "Herrnhuter Brüdergemeine"
+  },
+  {
+    "id": "L1115000",
+    "name": "Herrnhaag",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q1614322",
+    "description": null,
+    "coordinates": {
+      "lat": 50.2639,
+      "lon": 9.08333
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L1120000",
+    "name": "Herrnhut",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q165140",
+    "description": null,
+    "coordinates": {
+      "lat": 51.016666666,
+      "lon": 14.741666666
+    },
+    "temporal": {
+      "start": "1722-01-01T00:00:00Z",
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L1200000",
+    "name": "Hopedal",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q11338369",
+    "description": null,
+    "coordinates": {
+      "lat": 55.467372222,
+      "lon": -60.203188888
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L1300000",
+    "name": "Jgdlorpait",
+    "variants": [
+      {
+        "name": "Igdlorpait",
+        "lang": ""
+      },
+      {
+        "name": "Illorpaat",
+        "lang": ""
+      }
+    ],
+    "wikidata": "https://www.wikidata.org/wiki/Q67087304",
+    "description": null,
+    "coordinates": {
+      "lat": 60.4675,
+      "lon": -45.355
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L1400000",
+    "name": null,
+    "variants": [],
+    "wikidata": null,
+    "description": null,
+    "coordinates": null,
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L1500000",
+    "name": "Kleinwelka",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q159916",
+    "description": null,
+    "coordinates": {
+      "lat": 51.21079,
+      "lon": 14.3946
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L1550000",
+    "name": "Königsfeld",
+    "variants": [
+      {
+        "name": "Königsfeld im Schwarzwald",
+        "lang": ""
+      }
+    ],
+    "wikidata": "https://www.wikidata.org/wiki/Q81421",
+    "description": null,
+    "coordinates": {
+      "lat": 48.138333333,
+      "lon": 8.421388888
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L1570000",
+    "name": "Lausanne",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q807",
+    "description": null,
+    "coordinates": {
+      "lat": 46.533333333,
+      "lon": 6.633333333
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L1600000",
+    "name": "Lichtenau",
+    "variants": [
+      {
+        "name": "Alluitsoq",
+        "lang": ""
+      }
+    ],
+    "wikidata": "https://www.wikidata.org/wiki/Q1016295",
+    "description": null,
+    "coordinates": {
+      "lat": 60.5072,
+      "lon": -45.5378
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L1700000",
+    "name": null,
+    "variants": [],
+    "wikidata": null,
+    "description": null,
+    "coordinates": null,
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L1800000",
+    "name": "Marienborn",
+    "variants": [],
+    "wikidata": null,
+    "description": "nicht identifiziert bei Wikidata",
+    "coordinates": null,
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L1850000",
+    "name": "Meisenheim am Glan",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q520103",
+    "description": null,
+    "coordinates": {
+      "lat": 49.716666666,
+      "lon": 7.666666666
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L1860000",
+    "name": "Meran",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q131605",
+    "description": null,
+    "coordinates": {
+      "lat": 46.669555,
+      "lon": 11.159419
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L1900000",
+    "name": "Michelstadt",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q516517",
+    "description": null,
+    "coordinates": {
+      "lat": 49.678611111,
+      "lon": 9.004166666
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L1950000",
+    "name": "Montmirail",
+    "variants": [],
+    "wikidata": null,
+    "description": null,
+    "coordinates": null,
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L2000000",
+    "name": "Nazareth",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q1022937",
+    "description": null,
+    "coordinates": {
+      "lat": 40.74038,
+      "lon": -75.30962
+    },
+    "temporal": {
+      "start": "1740-01-01T00:00:00Z",
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L2100000",
+    "name": "Nain",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q3335210",
+    "description": null,
+    "coordinates": {
+      "lat": 56.5422,
+      "lon": -61.6928
+    },
+    "temporal": {
+      "start": "1771-01-01T00:00:00Z",
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L2150000",
+    "name": "Neudietendorf",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q701263",
+    "description": null,
+    "coordinates": {
+      "lat": 50.9125,
+      "lon": 10.913333333
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L2200000",
+    "name": "Neuwied",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q3967",
+    "description": null,
+    "coordinates": {
+      "lat": 50.428611111,
+      "lon": 7.461388888
+    },
+    "temporal": {
+      "start": "1653-01-01T00:00:00Z",
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L2250000",
+    "name": "Niesky",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q165160",
+    "description": null,
+    "coordinates": {
+      "lat": 51.289722222,
+      "lon": 14.83
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L2260000",
+    "name": "Okak",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q7081733",
+    "description": null,
+    "coordinates": {
+      "lat": 57.562389,
+      "lon": -61.98425
+    },
+    "temporal": {
+      "start": "1776-01-01T00:00:00Z",
+      "end": "1956-01-01T00:00:00Z"
+    },
+    "founder": "Herrnhuter Brüdergemeine"
+  },
+  {
+    "id": "L2270000",
+    "name": "Salem",
+    "variants": [],
+    "wikidata": null,
+    "description": null,
+    "coordinates": null,
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L2300000",
+    "name": "Silo",
+    "variants": [
+      {
+        "name": "Shilo",
+        "lang": ""
+      },
+      {
+        "name": "Siloh",
+        "lang": ""
+      }
+    ],
+    "wikidata": "https://www.geonames.org/955607/silo.html",
+    "description": null,
+    "coordinates": null,
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L2350000",
+    "name": "Saint John",
+    "variants": [
+      {
+        "name": "St. Johns",
+        "lang": ""
+      },
+      {
+        "name": "Nicht Verwechseln mit der Stadt St. John's auf Antigua!!",
+        "lang": ""
+      }
+    ],
+    "wikidata": "https://www.wikidata.org/wiki/Q849441",
+    "description": null,
+    "coordinates": {
+      "lat": 18.3396764,
+      "lon": -64.7495816
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L2400000",
+    "name": "St. John's",
+    "variants": [
+      {
+        "name": "Saint John's",
+        "lang": ""
+      }
+    ],
+    "wikidata": "https://www.wikidata.org/wiki/Q36262",
+    "description": null,
+    "coordinates": {
+      "lat": 17.121111111,
+      "lon": -61.844722222
+    },
+    "temporal": {
+      "start": "1666-01-01T00:00:00Z",
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L2450000",
+    "name": "Tharandt",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q8245",
+    "description": null,
+    "coordinates": {
+      "lat": 50.983333333,
+      "lon": 13.580833333
+    },
+    "temporal": {
+      "start": null,
+      "end": null
+    },
+    "founder": null
+  },
+  {
+    "id": "L2500000",
+    "name": "Weißenburg in Bayern",
+    "variants": [],
+    "wikidata": "https://www.wikidata.org/wiki/Q44500",
+    "description": null,
+    "coordinates": {
+      "lat": 49.030555555,
+      "lon": 10.971944444
+    },
+    "temporal": {
+      "start": "1296-01-01T00:00:00Z",
+      "end": null
+    },
+    "founder": null
+  }
+]

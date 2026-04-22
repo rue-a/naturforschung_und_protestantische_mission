@@ -23,6 +23,7 @@ from projectlibs.py.helpers.wikidata_utils import (
     fetch_location_data_from_wikidata,
 )
 from projectlibs.py.helpers.life_trajectory import LifeTrajectory
+from projectlibs.py.helpers.registry import Registry
 
 
 class HerrnhutObject(ABC):
@@ -35,7 +36,7 @@ class HerrnhutObject(ABC):
         pass
 
     @abstractmethod
-    def serialize_json(self):
+    def to_dict(self, registry=None):
         pass
 
     def __init__(self, raw_input: dict):
@@ -67,7 +68,7 @@ class HerrnhutPerson(HerrnhutObject):
     def _parse_input(self, input_data: dict):
         self.id = self._parse_field("ID", input_data["ID"], PersonID)
 
-        self.hidden = self._parse_field(
+        self.visible = self._parse_field(
             "Übernahme in Personenlexikon",
             input_data["Übernahme in Personenlexikon"],
             partial(EncodedString, codelist={"ja": True, "nein": False}),
@@ -305,8 +306,237 @@ class HerrnhutPerson(HerrnhutObject):
     def _create_life_trajectory(self, locations: dict):
         self.life_trajectory = LifeTrajectory(self, locations)
 
-    def serialize_json(self):
-        raise NotImplementedError
+    def to_dict(self, registry=None):
+        def _src(obj):
+            """Serialize .source of an AttestableDatatype → {type, ...} dict or None."""
+            source = getattr(obj, "source", None) if obj else None
+            if source is None:
+                return None
+            doc = getattr(source, "document", None)
+            if doc is None:
+                return None
+            if hasattr(doc, "url"):
+                return {"type": "web", "label": doc.url}
+            if isinstance(doc, LiteratureID):
+                ref = (
+                    registry.resolve_literature(doc)
+                    if registry
+                    else {"id": getattr(doc, "id", None)}
+                )
+                ref = {k: v for k, v in ref.items() if k != "source"}
+                return {"type": "print", **ref}
+            ref = (
+                registry.resolve_manuscript(doc)
+                if registry
+                else {"id": getattr(doc, "id", None)}
+            )
+            ref = {k: v for k, v in ref.items() if k != "source"}
+            return {"type": "manuscript", **ref}
+
+        def _v(obj):
+            if obj is None:
+                return None
+            return {"label": getattr(obj, "value", None), "source": _src(obj)}
+
+        def _url(obj):
+            if obj is None:
+                return None
+            return {"label": getattr(obj, "url", None), "source": _src(obj)}
+
+        def _date(obj):
+            val = getattr(obj, "date", None) if obj else None
+            if val is None:
+                return None
+            return {"label": val, "source": _src(obj)}
+
+        def _res_person(p):
+            ref = (
+                registry.resolve_person(p)
+                if registry
+                else ({"id": getattr(p, "id", None)} if p else None)
+            )
+            if ref is None:
+                return None
+            return {**ref, "source": _src(p)}
+
+        def _res_location(loc):
+            ref = (
+                registry.resolve_location(loc)
+                if registry
+                else ({"id": getattr(loc, "id", None)} if loc else None)
+            )
+            if ref is None:
+                return None
+            return {**ref, "source": _src(loc) if not isinstance(loc, str) else None}
+
+        def _res_collection(c):
+            ref = (
+                registry.resolve_collection(c)
+                if registry
+                else ({"id": getattr(c, "id", None)} if c else None)
+            )
+            if ref is None:
+                return None
+            return {**ref, "source": _src(c)}
+
+        def _res_manuscript(m):
+            ref = (
+                registry.resolve_manuscript(m)
+                if registry
+                else ({"id": getattr(m, "id", None)} if m else None)
+            )
+            if ref is None:
+                return None
+            return {**ref, "source": _src(m)}
+
+        def _res_literature(r):
+            ref = (
+                registry.resolve_literature(r)
+                if registry
+                else ({"id": getattr(r, "id", None)} if r else None)
+            )
+            if ref is None:
+                return None
+            return {**ref, "source": _src(r)}
+
+        def _res_work(w):
+            ref = (
+                registry.resolve_work(w)
+                if registry
+                else getattr(getattr(w, "document", None), "id", None)
+            )
+            if ref is None:
+                return None
+            return {**ref, "source": _src(w)} if isinstance(ref, dict) else ref
+
+        return {
+            "id": getattr(self.id, "id", None),
+            "visible": getattr(self.visible, "decoded_value", None),
+            "name": {
+                "preferred": _v(self.name.preferred),
+                "surname": _v(self.name.surname),
+                "birth_name": _v(self.name.birth_name),
+                "given_name": _v(self.name.given_name),
+                "title": _v(self.name.title),
+                "notes": _v(self.name.notes),
+            },
+            "member_of_moravians": [
+                {"code": m.encoded_value, "label": m.decoded_value, "source": _src(m)}
+                for m in self.member_of_moravians
+            ],
+            "birth": {
+                "date": {**_date(self.birth.date), "notes": _v(self.birth.date_notes)}
+                if _date(self.birth.date)
+                else None,
+                "location": {
+                    **_res_location(self.birth.location),
+                    "notes": _v(self.birth.location_notes),
+                }
+                if _res_location(self.birth.location)
+                else None,
+            },
+            "death": {
+                "date": {**_date(self.death.date), "notes": _v(self.death.date_notes)}
+                if _date(self.death.date)
+                else None,
+                "location": {
+                    **_res_location(self.death.location),
+                    "notes": _v(self.death.location_notes),
+                }
+                if _res_location(self.death.location)
+                else None,
+            },
+            "places_of_effect": [
+                {
+                    "temporal": {
+                        "label": (getattr(poe, "temporal", "") or "").strip() or None
+                    },
+                    "location": {
+                        k: v
+                        for k, v in _res_location(
+                            getattr(poe, "place", "").strip()
+                        ).items()
+                        if k != "source"
+                    }
+                    if getattr(poe, "place", "").strip()
+                    else None,
+                    "institution": {
+                        "label": (getattr(poe, "institution", "") or "").strip() or None
+                    },
+                    "occupation": {
+                        "label": (getattr(poe, "occupation", "") or "").strip() or None
+                    },
+                    "source": _src(poe),
+                }
+                for poe in self.places_of_effect
+            ],
+            "moravian_curriculum_vitae": [
+                _res_work(w) for w in self.moravian_curriculum_vitae
+            ],
+            "relatives": {
+                "siblings": [_res_person(p) for p in self.relatives.siblings],
+                "spouses": [_res_person(p) for p in self.relatives.spouses],
+                "children": [_res_person(p) for p in self.relatives.children],
+                "notes": _v(self.relatives.notes),
+            },
+            "contact": {
+                "with_moravians": [_res_person(p) for p in self.contact.with_moravians],
+                "with_non_moravians": [
+                    _res_person(p) for p in self.contact.with_non_moravians
+                ],
+            },
+            "botany": {
+                "focuses": [_v(f) for f in self.botany.focuses],
+                "contribution_to_collections": {
+                    "object_evidence": [
+                        _res_collection(c)
+                        for c in self.botany.contribution_to_collections.object_evidence
+                    ],
+                    "database_evidence": [
+                        _res_collection(c)
+                        for c in self.botany.contribution_to_collections.database_evidence
+                    ],
+                    "literature_evidence": [
+                        _res_collection(c)
+                        for c in self.botany.contribution_to_collections.literature_evidence
+                    ],
+                    "notes": _v(self.botany.contribution_to_collections.notes),
+                },
+                "works": {
+                    "manuscripts": [
+                        _res_manuscript(m) for m in self.botany.works.manuscripts
+                    ],
+                    "printed": [_res_literature(r) for r in self.botany.works.printed],
+                },
+                "citations": {
+                    "in_botanical_works_by_others": [
+                        _res_work(w)
+                        for w in self.botany.citations.in_botanical_works_by_others
+                    ],
+                },
+            },
+            "works": {
+                "without_botanical_context": [
+                    _res_work(w) for w in self.works.without_botanical_context
+                ],
+            },
+            "citations": {
+                "in_non_botanical_works_by_others": [
+                    _res_work(w)
+                    for w in self.citations.in_non_botanical_works_by_others
+                ],
+            },
+            "links": {
+                "wikidata": _url(self.links.wikidata),
+                "gnd": _url(self.links.gnd),
+                "factgrid": _url(self.links.factgrid),
+                "bionomia": _url(self.links.bionomia),
+                "saebi": _url(self.links.saebi),
+            },
+            "life_trajectory": self.life_trajectory.to_dict()
+            if getattr(self, "life_trajectory", None)
+            else None,
+        }
 
 
 class HerrnhutArchive(HerrnhutObject):
@@ -321,8 +551,13 @@ class HerrnhutArchive(HerrnhutObject):
     def enrich(self, cache_path: str, rewrite_cache: bool = False):
         raise NotImplementedError
 
-    def serialize_json(self):
-        raise NotImplementedError
+    def to_dict(self, registry=None):
+        return {
+            "id": getattr(self.id, "id", None),
+            "name": getattr(self.name, "value", None),
+            "abbreviations": [getattr(a, "value", None) for a in self.abbreviations],
+            "link": getattr(self.link, "url", None),
+        }
 
 
 class HerrnhutManuscript(HerrnhutObject):
@@ -342,8 +577,18 @@ class HerrnhutManuscript(HerrnhutObject):
     def enrich(self, cache_path: str, rewrite_cache: bool = False):
         raise NotImplementedError
 
-    def serialize_json(self):
-        raise NotImplementedError
+    def to_dict(self, registry=None):
+        return {
+            "id": getattr(self.id, "id", None),
+            "archive": registry.resolve_archive(self.archive)
+            if registry
+            else getattr(self.archive, "id", None),
+            "signature": getattr(self.signature, "value", None),
+            "title": getattr(self.title, "value", None),
+            "permalink": getattr(self.permalink, "url", None),
+            "description": getattr(self.description, "value", None),
+            "wikidata_id": getattr(self.wikidata_id, "value", None),
+        }
 
 
 class HerrnhutLiterature(HerrnhutObject):
@@ -358,8 +603,13 @@ class HerrnhutLiterature(HerrnhutObject):
     def enrich(self, cache_path: str, rewrite_cache: bool = False):
         raise NotImplementedError
 
-    def serialize_json(self):
-        raise NotImplementedError
+    def to_dict(self, registry=None):
+        return {
+            "id": getattr(self.id, "id", None),
+            "title": getattr(self.title, "value", None),
+            "permalink": getattr(self.permalink, "url", None),
+            "description": getattr(self.description, "value", None),
+        }
 
 
 class HerrnhutLocation(HerrnhutObject):
@@ -395,8 +645,22 @@ class HerrnhutLocation(HerrnhutObject):
         self.end = data["end"]  # ISO datetime string or None
         self.founder = data["founder"]  # label string or None
 
-    def serialize_json(self):
-        raise NotImplementedError
+    def to_dict(self, registry=None):
+        return {
+            "id": getattr(self.id, "id", None),
+            "name": getattr(self.name, "value", None),
+            "variants": [
+                {"name": v.variant, "lang": v.lang_tag} for v in self.variants
+            ],
+            "wikidata": getattr(self.wikidata, "url", None),
+            "description": getattr(self.description, "value", None),
+            "coordinates": getattr(self, "coordinates", None),
+            "temporal": {
+                "start": getattr(self, "start", None),
+                "end": getattr(self, "end", None),
+            },
+            "founder": getattr(self, "founder", None),
+        }
 
 
 class HerrnhutCollection(HerrnhutObject):
@@ -422,5 +686,15 @@ class HerrnhutCollection(HerrnhutObject):
     def enrich(self, cache_path: str, rewrite_cache: bool = False):
         raise NotImplementedError
 
-    def serialize_json(self):
-        raise NotImplementedError
+    def to_dict(self, registry=None):
+        return {
+            "id": getattr(self.id, "id", None),
+            "nybg_herbarium_code": getattr(self.nybg_herbarium_code, "value", None),
+            "name": getattr(self.name, "value", None),
+            "part_of_collection": getattr(self.part_of_collection, "id", None),
+            "holding_institutions": [
+                getattr(h, "value", None) for h in self.holding_institutions
+            ],
+            "website": getattr(self.website, "url", None),
+            "notes": getattr(self.notes, "value", None),
+        }

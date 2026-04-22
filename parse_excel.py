@@ -1,4 +1,5 @@
 # %%
+import json
 import pandas as pd
 from projectlibs.py.herrnhut_objects import (
     HerrnhutPerson,
@@ -8,16 +9,21 @@ from projectlibs.py.herrnhut_objects import (
     HerrnhutLocation,
     HerrnhutCollection,
 )
+from projectlibs.py.helpers.registry import Registry
 
 EXCEL_FILE = "data/Herrnhuter NaturkundlerInnen.xlsx"
 
-PERSONS_TEST_IDS = ["P0010000", "P0170000", "P0220000"]
+# PERSONS_TEST_IDS = ["P0010000", "P0170000", "P0220000"]
+PERSONS_TEST_IDS = None
 
 ERRORS_FILE = "validation_msgs/errors.md"
 
 PERSONS_CACHE = "data/cache_persons_wikidata.json"
 LOCATIONS_CACHE = "data/cache_locations_wikidata.json"
 REWRITE_CACHE = False
+
+PERSONS_OUTPUT = "data/persons.json"
+LOCATIONS_OUTPUT = "data/locations.json"
 
 
 def load_excel_sheet(file_name, sheet_name):
@@ -108,6 +114,27 @@ for obj_id, person in persons.items():
     person._create_life_trajectory(locations)
 
 print("Done.")
+
+print("--- Serializing ---")
+registry = Registry(
+    persons=persons,
+    locations=locations,
+    archives=archives,
+    manuscripts=manuscripts,
+    literature=literature,
+    collections=collections,
+)
+
+persons_out = [p.to_dict(registry) for p in persons.values()]
+locations_out = [loc.to_dict(registry) for loc in locations.values()]
+
+with open(PERSONS_OUTPUT, "w", encoding="utf-8") as f:
+    json.dump(persons_out, f, ensure_ascii=False, indent=2)
+print(f"Written {PERSONS_OUTPUT}")
+
+with open(LOCATIONS_OUTPUT, "w", encoding="utf-8") as f:
+    json.dump(locations_out, f, ensure_ascii=False, indent=2)
+print(f"Written {LOCATIONS_OUTPUT}")
 
 # %%
 # print(list(persons.values())[0].life_trajectory.to_dict())
