@@ -110,3 +110,4 @@ for obj_id, person in persons.items():
 print("Done.")
 
 # %%
+# print(list(persons.values())[0].life_trajectory.to_dict())
