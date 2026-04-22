@@ -47,7 +47,7 @@
     ],
     "birth": {
       "date": {
-        "label": "1769-02-17",
+        "label": "17. Februar 1769",
         "source": {
           "type": "print",
           "id": "R0001500",
@@ -77,7 +77,7 @@
     },
     "death": {
       "date": {
-        "label": "1831-12-06",
+        "label": "6. Dezember 1831",
         "source": {
           "type": "print",
           "id": "R0001500",
@@ -108,7 +108,7 @@
     "places_of_effect": [
       {
         "temporal": {
-          "label": "1773/1782"
+          "label": "1773–1782"
         },
         "location": {
           "id": "L2200000",
@@ -130,7 +130,7 @@
       },
       {
         "temporal": {
-          "label": "1782/1785"
+          "label": "1782–1785"
         },
         "location": {
           "id": "L2250000",
@@ -152,7 +152,7 @@
       },
       {
         "temporal": {
-          "label": "1785/1788"
+          "label": "1785–1788"
         },
         "location": {
           "id": "L0200000",
@@ -174,7 +174,7 @@
       },
       {
         "temporal": {
-          "label": "1788/1789"
+          "label": "1788–1789"
         },
         "location": {
           "id": "L2250000",
@@ -196,7 +196,7 @@
       },
       {
         "temporal": {
-          "label": "1789/1796"
+          "label": "1789–1796"
         },
         "location": {
           "id": "L0200000",
@@ -218,7 +218,7 @@
       },
       {
         "temporal": {
-          "label": "1796/1808"
+          "label": "1796–1808"
         },
         "location": {
           "id": "L2250000",
@@ -843,12 +843,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -1013,7 +1037,7 @@
     "places_of_effect": [
       {
         "temporal": {
-          "label": "1835/1838"
+          "label": "1835–1838"
         },
         "location": {
           "id": "L2100000",
@@ -1035,7 +1059,7 @@
       },
       {
         "temporal": {
-          "label": "1845/1852"
+          "label": "1845–1852"
         },
         "location": {
           "id": "L1200000",
@@ -1057,7 +1081,7 @@
       },
       {
         "temporal": {
-          "label": "1852/1864"
+          "label": "1852–1864"
         },
         "location": {
           "id": "L2260000",
@@ -1521,7 +1545,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1761-05-19",
+        "label": "19. Mai 1761",
         "source": {
           "type": "print",
           "id": "R0000100",
@@ -1551,7 +1575,7 @@
     },
     "death": {
       "date": {
-        "label": "1815-06-21",
+        "label": "21. Juni 1815",
         "source": {
           "type": "print",
           "id": "R0000100",
@@ -1803,7 +1827,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1867-04-17",
+        "label": "17. April 1867",
         "source": {
           "type": "print",
           "id": "R0006500",
@@ -1833,7 +1857,7 @@
     },
     "death": {
       "date": {
-        "label": "1934-09-16",
+        "label": "16. September 1934",
         "source": {
           "type": "print",
           "id": "R0006600",
@@ -2249,12 +2273,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [
@@ -3299,12 +3347,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -3426,7 +3498,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1823-02-10",
+        "label": "10. Februar 1823",
         "source": {
           "type": "print",
           "id": "R0006700",
@@ -3456,7 +3528,7 @@
     },
     "death": {
       "date": {
-        "label": "1895-05-17",
+        "label": "17. Mai 1895",
         "source": {
           "type": "print",
           "id": "R0006700",
@@ -3631,11 +3703,28 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -3770,7 +3859,7 @@
     ],
     "birth": {
       "date": {
-        "label": "1721-04-17",
+        "label": "17. April 1721",
         "source": {
           "type": "manuscript",
           "id": "M0004000",
@@ -3800,7 +3889,7 @@
     },
     "death": {
       "date": {
-        "label": "1789-11-13",
+        "label": "13. November 1789",
         "source": {
           "type": "manuscript",
           "id": "M0004000",
@@ -3831,7 +3920,7 @@
     "places_of_effect": [
       {
         "temporal": {
-          "label": "1736/1739"
+          "label": "1736–1739"
         },
         "location": {
           "id": "L0300000",
@@ -3853,7 +3942,7 @@
       },
       {
         "temporal": {
-          "label": "1747/1749"
+          "label": "1747–1749"
         },
         "location": {
           "id": "L1800000",
@@ -3875,7 +3964,7 @@
       },
       {
         "temporal": {
-          "label": "1749/1750"
+          "label": "1749–1750"
         },
         "location": {
           "id": "L0200000",
@@ -3897,7 +3986,7 @@
       },
       {
         "temporal": {
-          "label": "1750/1760"
+          "label": "1750–1760"
         },
         "location": {
           "id": "L1103500",
@@ -3919,7 +4008,7 @@
       },
       {
         "temporal": {
-          "label": "1760/1764"
+          "label": "1760–1764"
         },
         "location": {
           "id": "L2200000",
@@ -3941,7 +4030,7 @@
       },
       {
         "temporal": {
-          "label": "1764/1766"
+          "label": "1764–1766"
         },
         "location": {
           "id": "L0200000",
@@ -3963,7 +4052,7 @@
       },
       {
         "temporal": {
-          "label": "1766/1789"
+          "label": "1766–1789"
         },
         "location": {
           "id": "L0200000",
@@ -4395,7 +4484,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1833-11-24",
+        "label": "24. November 1833",
         "source": null,
         "notes": {
           "label": null,
@@ -4539,7 +4628,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1844-12-08",
+        "label": "8. Dezember 1844",
         "source": null,
         "notes": {
           "label": null,
@@ -4550,7 +4639,7 @@
     },
     "death": {
       "date": {
-        "label": "1889-12-03",
+        "label": "3. Dezember 1889",
         "source": null,
         "notes": {
           "label": null,
@@ -4683,7 +4772,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1802-09-27",
+        "label": "27. September 1802",
         "source": null,
         "notes": {
           "label": null,
@@ -4694,7 +4783,7 @@
     },
     "death": {
       "date": {
-        "label": "1872-08-15",
+        "label": "15. August 1872",
         "source": null,
         "notes": {
           "label": null,
@@ -4845,7 +4934,7 @@
     },
     "death": {
       "date": {
-        "label": "1774-09-15",
+        "label": "15. September 1774",
         "source": null,
         "notes": {
           "label": null,
@@ -4991,7 +5080,7 @@
     ],
     "birth": {
       "date": {
-        "label": "1788-01-21",
+        "label": "21. Januar 1788",
         "source": {
           "type": "print",
           "id": "R0002500",
@@ -5021,7 +5110,7 @@
     },
     "death": {
       "date": {
-        "label": "1875-02-18",
+        "label": "18. Februar 1875",
         "source": {
           "type": "print",
           "id": "R0002500",
@@ -5050,7 +5139,7 @@
     "places_of_effect": [
       {
         "temporal": {
-          "label": "1840/1841"
+          "label": "1840–1841"
         },
         "location": null,
         "institution": {
@@ -5063,7 +5152,7 @@
       },
       {
         "temporal": {
-          "label": "1853/1854"
+          "label": "1853–1854"
         },
         "location": null,
         "institution": {
@@ -5860,7 +5949,7 @@
     },
     "death": {
       "date": {
-        "label": "1847-12-25",
+        "label": "25. Dezember 1847",
         "source": null,
         "notes": {
           "label": null,
@@ -5988,7 +6077,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -5999,7 +6093,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -6129,7 +6228,7 @@
     },
     "death": {
       "date": {
-        "label": "1854-04-24",
+        "label": "24. April 1854",
         "source": null,
         "notes": {
           "label": null,
@@ -6281,7 +6380,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1831-04-16",
+        "label": "16. April 1831",
         "source": null,
         "notes": {
           "label": null,
@@ -6292,7 +6391,7 @@
     },
     "death": {
       "date": {
-        "label": "1894-11-05",
+        "label": "5. November 1894",
         "source": null,
         "notes": {
           "label": null,
@@ -6433,7 +6532,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1723-02-03",
+        "label": "3. Februar 1723",
         "source": null,
         "notes": {
           "label": null,
@@ -6444,7 +6543,7 @@
     },
     "death": {
       "date": {
-        "label": "1777-06-06",
+        "label": "6. Juni 1777",
         "source": null,
         "notes": {
           "label": null,
@@ -6585,7 +6684,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1852-05-15",
+        "label": "15. Mai 1852",
         "source": null,
         "notes": {
           "label": null,
@@ -6729,7 +6828,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1758-01-04",
+        "label": "4. Januar 1758",
         "source": null,
         "notes": {
           "label": null,
@@ -6740,7 +6839,7 @@
     },
     "death": {
       "date": {
-        "label": "1824-07-30",
+        "label": "30. Juli 1824",
         "source": null,
         "notes": {
           "label": null,
@@ -6876,7 +6975,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1777-06-28",
+        "label": "28. Juni 1777",
         "source": null,
         "notes": {
           "label": null,
@@ -6887,7 +6986,7 @@
     },
     "death": {
       "date": {
-        "label": "1855-02-10",
+        "label": "10. Februar 1855",
         "source": null,
         "notes": {
           "label": null,
@@ -6899,7 +6998,7 @@
     "places_of_effect": [
       {
         "temporal": {
-          "label": "1785/1790"
+          "label": "1785–1790"
         },
         "location": {
           "id": "Neuwied",
@@ -6916,7 +7015,7 @@
       },
       {
         "temporal": {
-          "label": "1790/1795"
+          "label": "1790–1795"
         },
         "location": {
           "id": "Barby",
@@ -6933,7 +7032,7 @@
       },
       {
         "temporal": {
-          "label": "1795/1798"
+          "label": "1795–1798"
         },
         "location": {
           "id": "Niesky",
@@ -7291,7 +7390,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -7307,12 +7411,17 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [
       {
         "temporal": {
-          "label": "1799/1806"
+          "label": "1799–1806"
         },
         "location": {
           "id": "L2270000",
@@ -7502,7 +7611,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1775-09-08",
+        "label": "8. September 1775",
         "source": {
           "type": "manuscript",
           "id": "M0007000",
@@ -7532,7 +7641,7 @@
     },
     "death": {
       "date": {
-        "label": "1838-01-12",
+        "label": "12. Januar 1838",
         "source": {
           "type": "manuscript",
           "id": "M0007000",
@@ -7840,7 +7949,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1826-09-22",
+        "label": "22. September 1826",
         "source": null,
         "notes": {
           "label": null,
@@ -7988,12 +8097,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -8122,7 +8255,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -8133,12 +8271,17 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [
       {
         "temporal": {
-          "label": "1804/1839"
+          "label": "1804–1839"
         },
         "location": {
           "id": "Grönland",
@@ -8293,17 +8436,41 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [
       {
         "temporal": {
-          "label": "/"
+          "label": "–"
         },
         "location": {
           "id": "Labrador",
@@ -8486,17 +8653,41 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [
       {
         "temporal": {
-          "label": "/"
+          "label": "–"
         },
         "location": {
           "id": "Labrador",
@@ -8754,7 +8945,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1789-02-02",
+        "label": "2. Februar 1789",
         "source": null,
         "notes": {
           "label": null,
@@ -8765,7 +8956,7 @@
     },
     "death": {
       "date": {
-        "label": "1834-02-09",
+        "label": "9. Februar 1834",
         "source": null,
         "notes": {
           "label": null,
@@ -8898,7 +9089,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1840-06-15",
+        "label": "15. Juni 1840",
         "source": null,
         "notes": {
           "label": null,
@@ -8909,7 +9100,7 @@
     },
     "death": {
       "date": {
-        "label": "1931-12-12",
+        "label": "12. Dezember 1931",
         "source": null,
         "notes": {
           "label": null,
@@ -9053,7 +9244,12 @@
     },
     "death": {
       "date": null,
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -9169,12 +9365,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -9298,12 +9518,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -9428,7 +9672,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1870-11-05",
+        "label": "5. November 1870",
         "source": null,
         "notes": {
           "label": null,
@@ -9439,7 +9683,7 @@
     },
     "death": {
       "date": {
-        "label": "1930-04-11",
+        "label": "11. April 1930",
         "source": null,
         "notes": {
           "label": null,
@@ -9574,12 +9818,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -9709,7 +9977,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1855-12-01",
+        "label": "1. Dezember 1855",
         "source": null,
         "notes": {
           "label": null,
@@ -9834,7 +10102,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1773-08-23",
+        "label": "23. August 1773",
         "source": null,
         "notes": {
           "label": null,
@@ -9845,7 +10113,7 @@
     },
     "death": {
       "date": {
-        "label": "1843-08-10",
+        "label": "10. August 1843",
         "source": null,
         "notes": {
           "label": null,
@@ -9985,7 +10253,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -9996,7 +10269,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -10122,7 +10400,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1760-06-16",
+        "label": "16. Juni 1760",
         "source": null,
         "notes": {
           "label": null,
@@ -10133,7 +10411,7 @@
     },
     "death": {
       "date": {
-        "label": "1827-11-07",
+        "label": "7. November 1827",
         "source": null,
         "notes": {
           "label": null,
@@ -10266,7 +10544,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1762-05-01",
+        "label": "1. Mai 1762",
         "source": null,
         "notes": {
           "label": null,
@@ -10277,7 +10555,7 @@
     },
     "death": {
       "date": {
-        "label": "1821-02-19",
+        "label": "19. Februar 1821",
         "source": null,
         "notes": {
           "label": null,
@@ -10413,7 +10691,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1761-03-03",
+        "label": "3. März 1761",
         "source": null,
         "notes": {
           "label": null,
@@ -10424,7 +10702,7 @@
     },
     "death": {
       "date": {
-        "label": "1836-11-05",
+        "label": "5. November 1836",
         "source": null,
         "notes": {
           "label": null,
@@ -10556,12 +10834,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -10820,7 +11122,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1827-12-29",
+        "label": "29. Dezember 1827",
         "source": null,
         "notes": {
           "label": null,
@@ -10831,7 +11133,7 @@
     },
     "death": {
       "date": {
-        "label": "1891-11-13",
+        "label": "13. November 1891",
         "source": null,
         "notes": {
           "label": null,
@@ -10969,7 +11271,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1823-04-23",
+        "label": "23. April 1823",
         "source": null,
         "notes": {
           "label": null,
@@ -10980,7 +11282,7 @@
     },
     "death": {
       "date": {
-        "label": "1887-11-22",
+        "label": "22. November 1887",
         "source": null,
         "notes": {
           "label": null,
@@ -11113,7 +11415,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1820-08-30",
+        "label": "30. August 1820",
         "source": null,
         "notes": {
           "label": null,
@@ -11124,7 +11426,7 @@
     },
     "death": {
       "date": {
-        "label": "1883-10-15",
+        "label": "15. Oktober 1883",
         "source": null,
         "notes": {
           "label": null,
@@ -11266,7 +11568,7 @@
     },
     "death": {
       "date": {
-        "label": "1857-10-23",
+        "label": "23. Oktober 1857",
         "source": null,
         "notes": {
           "label": null,
@@ -11390,7 +11692,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1819-04-01",
+        "label": "1. April 1819",
         "source": {
           "type": "print",
           "id": "R0007000",
@@ -11420,7 +11722,7 @@
     },
     "death": {
       "date": {
-        "label": "1866-01-05",
+        "label": "5. Januar 1866",
         "source": {
           "type": "print",
           "id": "R0007000",
@@ -11437,7 +11739,7 @@
     "places_of_effect": [
       {
         "temporal": {
-          "label": "1819/1825 St. Jan, St. Croix"
+          "label": "1819–1825 St. Jan, St. Croix"
         },
         "location": null,
         "institution": {
@@ -11477,7 +11779,7 @@
       },
       {
         "temporal": {
-          "label": "1833/1839"
+          "label": "1833–1839"
         },
         "location": {
           "id": "L2250000",
@@ -11521,7 +11823,7 @@
       },
       {
         "temporal": {
-          "label": "1841/1842"
+          "label": "1841–1842"
         },
         "location": {
           "id": "L1550000",
@@ -11543,7 +11845,7 @@
       },
       {
         "temporal": {
-          "label": "1842/1846"
+          "label": "1842–1846"
         },
         "location": {
           "id": "L2250000",
@@ -11600,7 +11902,7 @@
       },
       {
         "temporal": {
-          "label": "1865/1866"
+          "label": "1865–1866"
         },
         "location": {
           "id": "Sachsen",
@@ -11923,7 +12225,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1740-07-14",
+        "label": "14. Juli 1740",
         "source": null,
         "notes": {
           "label": null,
@@ -11934,7 +12236,7 @@
     },
     "death": {
       "date": {
-        "label": "1792-12-15",
+        "label": "15. Dezember 1792",
         "source": null,
         "notes": {
           "label": null,
@@ -12088,11 +12390,16 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
-        "label": "1889-10-08",
+        "label": "8. Oktober 1889",
         "source": {
           "type": "print",
           "id": "R0005700",
@@ -12303,7 +12610,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1788-01-30",
+        "label": "30. Januar 1788",
         "source": null,
         "notes": {
           "label": null,
@@ -12314,7 +12621,7 @@
     },
     "death": {
       "date": {
-        "label": "1862-09-22",
+        "label": "22. September 1862",
         "source": null,
         "notes": {
           "label": null,
@@ -12446,12 +12753,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -12576,7 +12907,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1773-06-13",
+        "label": "13. Juni 1773",
         "source": null,
         "notes": {
           "label": null,
@@ -12587,7 +12918,7 @@
     },
     "death": {
       "date": {
-        "label": "1846-11-02",
+        "label": "2. November 1846",
         "source": null,
         "notes": {
           "label": null,
@@ -12720,7 +13051,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1832-01-12",
+        "label": "12. Januar 1832",
         "source": null,
         "notes": {
           "label": null,
@@ -12731,7 +13062,7 @@
     },
     "death": {
       "date": {
-        "label": "1894-11-20",
+        "label": "20. November 1894",
         "source": null,
         "notes": {
           "label": null,
@@ -12867,7 +13198,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1840-06-24",
+        "label": "24. Juni 1840",
         "source": null,
         "notes": {
           "label": null,
@@ -12878,7 +13209,7 @@
     },
     "death": {
       "date": {
-        "label": "1896-02-04",
+        "label": "4. Februar 1896",
         "source": null,
         "notes": {
           "label": null,
@@ -13055,18 +13386,23 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1749-11-08",
+        "label": "8. November 1749",
         "source": null,
         "notes": {
           "label": null,
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
-        "label": "1814-02-17",
+        "label": "17. Februar 1814",
         "source": null,
         "notes": {
           "label": null,
@@ -13198,12 +13534,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -13325,7 +13685,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1827-09-06",
+        "label": "6. September 1827",
         "source": null,
         "notes": {
           "label": null,
@@ -13450,7 +13810,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1798-11-20",
+        "label": "20. November 1798",
         "source": null,
         "notes": {
           "label": null,
@@ -13461,7 +13821,7 @@
     },
     "death": {
       "date": {
-        "label": "1879-12-28",
+        "label": "28. Dezember 1879",
         "source": null,
         "notes": {
           "label": null,
@@ -13593,12 +13953,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -13729,12 +14113,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -13866,7 +14274,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -13877,7 +14290,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -14025,7 +14443,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -14036,7 +14459,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -14177,7 +14605,12 @@
     "member_of_moravians": [],
     "birth": {
       "date": null,
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -14188,7 +14621,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -14343,7 +14781,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -14354,7 +14797,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -14495,7 +14943,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1831-08-14",
+        "label": "14. August 1831",
         "source": null,
         "notes": {
           "label": null,
@@ -14639,7 +15087,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1873-08-09",
+        "label": "9. August 1873",
         "source": null,
         "notes": {
           "label": null,
@@ -14790,7 +15238,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1834-05-27",
+        "label": "27. Mai 1834",
         "source": null,
         "notes": {
           "label": null,
@@ -14813,7 +15261,7 @@
     "places_of_effect": [
       {
         "temporal": {
-          "label": "/"
+          "label": "–"
         },
         "location": null,
         "institution": {
@@ -14839,7 +15287,7 @@
       },
       {
         "temporal": {
-          "label": "/1859"
+          "label": "–1859"
         },
         "location": null,
         "institution": {
@@ -14852,7 +15300,7 @@
       },
       {
         "temporal": {
-          "label": "1861-11"
+          "label": "November 1861"
         },
         "location": null,
         "institution": {
@@ -15052,7 +15500,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1825-02-16",
+        "label": "16. Februar 1825",
         "source": null,
         "notes": {
           "label": null,
@@ -15218,7 +15666,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1770-01-01",
+        "label": "1. Januar 1770",
         "source": null,
         "notes": {
           "label": null,
@@ -15229,7 +15677,7 @@
     },
     "death": {
       "date": {
-        "label": "1819-02-06",
+        "label": "6. Februar 1819",
         "source": null,
         "notes": {
           "label": null,
@@ -15377,7 +15825,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1759-04-20",
+        "label": "20. April 1759",
         "source": null,
         "notes": {
           "label": null,
@@ -15388,7 +15836,7 @@
     },
     "death": {
       "date": {
-        "label": "1797-08-18",
+        "label": "18. August 1797",
         "source": null,
         "notes": {
           "label": null,
@@ -15528,11 +15976,16 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
-        "label": "1878-05-16",
+        "label": "16. Mai 1878",
         "source": null,
         "notes": {
           "label": null,
@@ -15668,25 +16121,35 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1820-05-15",
+        "label": "15. Mai 1820",
         "source": null,
         "notes": {
           "label": null,
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
-        "label": "1894-05-21",
+        "label": "21. Mai 1894",
         "source": null,
         "notes": {
           "label": null,
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -15814,12 +16277,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -15958,16 +16445,33 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [
       {
         "temporal": {
-          "label": "1851/1859"
+          "label": "1851–1859"
         },
         "location": null,
         "institution": {
@@ -16132,7 +16636,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -16143,7 +16652,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -16276,7 +16790,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -16287,7 +16806,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -16420,7 +16944,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -16431,7 +16960,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -16564,7 +17098,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -16575,7 +17114,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -16862,8 +17406,20 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -16874,7 +17430,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -16998,7 +17559,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1817-05-17",
+        "label": "17. Mai 1817",
         "source": {
           "type": "print",
           "id": "R0004500",
@@ -17014,7 +17575,7 @@
     },
     "death": {
       "date": {
-        "label": "1883-09-24",
+        "label": "24. September 1883",
         "source": null,
         "notes": {
           "label": null,
@@ -17268,7 +17829,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -17279,7 +17845,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -17405,7 +17976,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1812-04-17",
+        "label": "17. April 1812",
         "source": null,
         "notes": {
           "label": null,
@@ -17416,7 +17987,7 @@
     },
     "death": {
       "date": {
-        "label": "1895-09-18",
+        "label": "18. September 1895",
         "source": null,
         "notes": {
           "label": null,
@@ -17699,7 +18270,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1814-02-27",
+        "label": "27. Februar 1814",
         "source": null,
         "notes": {
           "label": null,
@@ -17710,7 +18281,7 @@
     },
     "death": {
       "date": {
-        "label": "1886-02-08",
+        "label": "8. Februar 1886",
         "source": null,
         "notes": {
           "label": null,
@@ -17851,11 +18422,30 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
       "location": null
     },
     "places_of_effect": [],
@@ -17981,7 +18571,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1756-02-06",
+        "label": "6. Februar 1756",
         "source": null,
         "notes": {
           "label": null,
@@ -17992,7 +18582,7 @@
     },
     "death": {
       "date": {
-        "label": "1844-06-03",
+        "label": "3. Juni 1844",
         "source": null,
         "notes": {
           "label": null,
@@ -18151,7 +18741,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1803-09-04",
+        "label": "4. September 1803",
         "source": null,
         "notes": {
           "label": null,
@@ -18171,7 +18761,7 @@
     },
     "death": {
       "date": {
-        "label": "1850-05-24",
+        "label": "24. Mai 1850",
         "source": null,
         "notes": {
           "label": null,
@@ -18311,7 +18901,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1790-02-14",
+        "label": "14. Februar 1790",
         "source": null,
         "notes": {
           "label": null,
@@ -18322,7 +18912,7 @@
     },
     "death": {
       "date": {
-        "label": "1863-06-17",
+        "label": "17. Juni 1863",
         "source": null,
         "notes": {
           "label": null,
@@ -18455,7 +19045,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1810-07-02",
+        "label": "2. Juli 1810",
         "source": null,
         "notes": {
           "label": null,
@@ -18466,7 +19056,7 @@
     },
     "death": {
       "date": {
-        "label": "1860-12-28",
+        "label": "28. Dezember 1860",
         "source": null,
         "notes": {
           "label": null,
@@ -18620,7 +19210,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1774-10-16",
+        "label": "16. Oktober 1774",
         "source": null,
         "notes": {
           "label": null,
@@ -18631,7 +19221,7 @@
     },
     "death": {
       "date": {
-        "label": "1840-12-13",
+        "label": "13. Dezember 1840",
         "source": null,
         "notes": {
           "label": null,
@@ -18764,7 +19354,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1869-04-02",
+        "label": "2. April 1869",
         "source": null,
         "notes": {
           "label": null,
@@ -18908,7 +19498,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1882-06-03",
+        "label": "3. Juni 1882",
         "source": null,
         "notes": {
           "label": null,
@@ -19033,7 +19623,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1872-11-24",
+        "label": "24. November 1872",
         "source": null,
         "notes": {
           "label": null,
@@ -19290,7 +19880,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -19301,7 +19896,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -19427,7 +20027,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1756-09-07",
+        "label": "7. September 1756",
         "source": null,
         "notes": {
           "label": null,
@@ -19438,7 +20038,7 @@
     },
     "death": {
       "date": {
-        "label": "1824-02-02",
+        "label": "2. Februar 1824",
         "source": null,
         "notes": {
           "label": null,
@@ -19590,12 +20190,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -19729,7 +20353,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -19740,7 +20369,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [
       {
@@ -19954,7 +20588,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1815-05-15",
+        "label": "15. Mai 1815",
         "source": null,
         "notes": {
           "label": null,
@@ -19965,7 +20599,7 @@
     },
     "death": {
       "date": {
-        "label": "1890-01-08",
+        "label": "8. Januar 1890",
         "source": null,
         "notes": {
           "label": null,
@@ -20105,18 +20739,35 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1845-12-27",
+        "label": "27. Dezember 1845",
         "source": null,
         "notes": {
           "label": null,
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -20240,7 +20891,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1802-02-28",
+        "label": "28. Februar 1802",
         "source": null,
         "notes": {
           "label": null,
@@ -20251,7 +20902,7 @@
     },
     "death": {
       "date": {
-        "label": "1882-08-12",
+        "label": "12. August 1882",
         "source": null,
         "notes": {
           "label": null,
@@ -20391,12 +21042,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -20540,7 +21215,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -20551,7 +21231,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -20676,12 +21361,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -20816,7 +21525,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1786-05-04",
+        "label": "4. Mai 1786",
         "source": null,
         "notes": {
           "label": null,
@@ -20827,7 +21536,7 @@
     },
     "death": {
       "date": {
-        "label": "1856-03-08",
+        "label": "8. März 1856",
         "source": null,
         "notes": {
           "label": null,
@@ -20982,7 +21691,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -20993,7 +21707,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -21119,7 +21838,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1861-10-17",
+        "label": "17. Oktober 1861",
         "source": null,
         "notes": {
           "label": null,
@@ -21130,7 +21849,7 @@
     },
     "death": {
       "date": {
-        "label": "1934-10-23",
+        "label": "23. Oktober 1934",
         "source": null,
         "notes": {
           "label": null,
@@ -21292,7 +22011,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1815-11-05",
+        "label": "5. November 1815",
         "source": null,
         "notes": {
           "label": null,
@@ -21303,7 +22022,7 @@
     },
     "death": {
       "date": {
-        "label": "1885-03-07",
+        "label": "7. März 1885",
         "source": null,
         "notes": {
           "label": null,
@@ -21446,7 +22165,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -21582,12 +22306,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -21712,7 +22460,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1824-11-25",
+        "label": "25. November 1824",
         "source": null,
         "notes": {
           "label": null,
@@ -21723,14 +22471,19 @@
     },
     "death": {
       "date": {
-        "label": "1890-01-17",
+        "label": "17. Januar 1890",
         "source": null,
         "notes": {
           "label": null,
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -21858,12 +22611,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -21987,12 +22764,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -22113,12 +22914,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -22348,7 +23173,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1817-08-21",
+        "label": "21. August 1817",
         "source": null,
         "notes": {
           "label": null,
@@ -22359,7 +23184,7 @@
     },
     "death": {
       "date": {
-        "label": "1875-03-30",
+        "label": "30. März 1875",
         "source": null,
         "notes": {
           "label": null,
@@ -22516,12 +23341,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -22662,7 +23511,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1831-10-28",
+        "label": "28. Oktober 1831",
         "source": null,
         "notes": {
           "label": null,
@@ -22673,7 +23522,7 @@
     },
     "death": {
       "date": {
-        "label": "1888-11-21",
+        "label": "21. November 1888",
         "source": null,
         "notes": {
           "label": null,
@@ -22814,7 +23663,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1864-11-07",
+        "label": "7. November 1864",
         "source": null,
         "notes": {
           "label": null,
@@ -22943,12 +23792,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -23070,7 +23943,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1800-06-12",
+        "label": "12. Juni 1800",
         "source": null,
         "notes": {
           "label": null,
@@ -23081,7 +23954,7 @@
     },
     "death": {
       "date": {
-        "label": "1885-01-20",
+        "label": "20. Januar 1885",
         "source": null,
         "notes": {
           "label": null,
@@ -23222,11 +24095,21 @@
     "member_of_moravians": [],
     "birth": {
       "date": null,
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": null,
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -23324,7 +24207,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1676-09-18",
+        "label": "18. September 1676",
         "source": null,
         "notes": {
           "label": null,
@@ -23335,7 +24218,7 @@
     },
     "death": {
       "date": {
-        "label": "1758-04-14",
+        "label": "14. April 1758",
         "source": {
           "type": "web",
           "label": "http://bdhp.moravian.edu/personal_papers/memoirs/dnitschmann/dnitschmann.html"
@@ -23471,7 +24354,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1721-03-08",
+        "label": "8. März 1721",
         "source": null,
         "notes": {
           "label": null,
@@ -23482,7 +24365,7 @@
     },
     "death": {
       "date": {
-        "label": "1787-03-09",
+        "label": "9. März 1787",
         "source": null,
         "notes": {
           "label": null,
@@ -23615,7 +24498,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1772-04-27",
+        "label": "27. April 1772",
         "source": null,
         "notes": {
           "label": null,
@@ -23626,7 +24509,7 @@
     },
     "death": {
       "date": {
-        "label": "1844-11-01",
+        "label": "1. November 1844",
         "source": null,
         "notes": {
           "label": null,
@@ -23759,7 +24642,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1869-10-01",
+        "label": "1. Oktober 1869",
         "source": null,
         "notes": {
           "label": null,
@@ -23889,7 +24772,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1869-09-13",
+        "label": "13. September 1869",
         "source": null,
         "notes": {
           "label": null,
@@ -24171,7 +25054,12 @@
     },
     "death": {
       "date": null,
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -24292,7 +25180,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -24303,7 +25196,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -24436,7 +25334,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -24447,7 +25350,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -24583,7 +25491,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1812-03-04",
+        "label": "4. März 1812",
         "source": null,
         "notes": {
           "label": null,
@@ -24594,7 +25502,7 @@
     },
     "death": {
       "date": {
-        "label": "1878-05-23",
+        "label": "23. Mai 1878",
         "source": null,
         "notes": {
           "label": null,
@@ -24727,7 +25635,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1806-10-11",
+        "label": "11. Oktober 1806",
         "source": null,
         "notes": {
           "label": null,
@@ -24737,8 +25645,20 @@
       "location": null
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -24864,12 +25784,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -24994,7 +25938,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1717-09-05",
+        "label": "5. September 1717",
         "source": null,
         "notes": {
           "label": null,
@@ -25005,7 +25949,7 @@
     },
     "death": {
       "date": {
-        "label": "1777-12-30",
+        "label": "30. Dezember 1777",
         "source": null,
         "notes": {
           "label": null,
@@ -25164,7 +26108,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -25180,7 +26129,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -25331,12 +26285,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -25468,7 +26446,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1864-07-19",
+        "label": "19. Juli 1864",
         "source": null,
         "notes": {
           "label": null,
@@ -25605,7 +26583,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -25616,7 +26599,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -25742,7 +26730,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1729-02-19",
+        "label": "19. Februar 1729",
         "source": null,
         "notes": {
           "label": null,
@@ -25753,7 +26741,7 @@
     },
     "death": {
       "date": {
-        "label": "1778-08-26",
+        "label": "26. August 1778",
         "source": null,
         "notes": {
           "label": null,
@@ -26040,7 +27028,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1812-10-13",
+        "label": "13. Oktober 1812",
         "source": null,
         "notes": {
           "label": null,
@@ -26170,7 +27158,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1854-11-27",
+        "label": "27. November 1854",
         "source": null,
         "notes": {
           "label": null,
@@ -26180,8 +27168,20 @@
       "location": null
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -26305,7 +27305,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1848-10-26",
+        "label": "26. Oktober 1848",
         "source": null,
         "notes": {
           "label": null,
@@ -26315,8 +27315,20 @@
       "location": null
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -26440,7 +27452,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1768-11-21",
+        "label": "21. November 1768",
         "source": null,
         "notes": {
           "label": null,
@@ -26451,7 +27463,7 @@
     },
     "death": {
       "date": {
-        "label": "1834-02-12",
+        "label": "12. Februar 1834",
         "source": null,
         "notes": {
           "label": null,
@@ -26595,12 +27607,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -26721,12 +27757,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -26847,12 +27907,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -26989,7 +28073,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -27000,7 +28089,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -27126,7 +28220,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1718-12-26",
+        "label": "26. Dezember 1718",
         "source": null,
         "notes": {
           "label": null,
@@ -27137,7 +28231,7 @@
     },
     "death": {
       "date": {
-        "label": "1785-04-03",
+        "label": "3. April 1785",
         "source": null,
         "notes": {
           "label": null,
@@ -27273,7 +28367,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1739-01-17",
+        "label": "17. Januar 1739",
         "source": null,
         "notes": {
           "label": null,
@@ -27284,7 +28378,7 @@
     },
     "death": {
       "date": {
-        "label": "1810-12-12",
+        "label": "12. Dezember 1810",
         "source": null,
         "notes": {
           "label": null,
@@ -27420,7 +28514,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1844-09-08",
+        "label": "8. September 1844",
         "source": null,
         "notes": {
           "label": null,
@@ -27431,7 +28525,7 @@
     },
     "death": {
       "date": {
-        "label": "1895-01-04",
+        "label": "4. Januar 1895",
         "source": null,
         "notes": {
           "label": null,
@@ -27577,7 +28671,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1780-02-13",
+        "label": "13. Februar 1780",
         "source": null,
         "notes": {
           "label": null,
@@ -27588,7 +28682,7 @@
     },
     "death": {
       "date": {
-        "label": "1834-02-08",
+        "label": "8. Februar 1834",
         "source": null,
         "notes": {
           "label": null,
@@ -27736,7 +28830,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1785-08-19",
+        "label": "19. August 1785",
         "source": {
           "type": "web",
           "label": "https://www.wikidata.org/wiki/Q28731149"
@@ -27750,7 +28844,7 @@
     },
     "death": {
       "date": {
-        "label": "1868-02-05",
+        "label": "5. Februar 1868",
         "source": {
           "type": "web",
           "label": "https://www.wikidata.org/wiki/Q28731149"
@@ -27894,7 +28988,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1859-07-10",
+        "label": "10. Juli 1859",
         "source": null,
         "notes": {
           "label": null,
@@ -28050,7 +29144,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -28204,7 +29303,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -28333,7 +29437,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1881-01-25",
+        "label": "25. Januar 1881",
         "source": null,
         "notes": {
           "label": null,
@@ -28482,7 +29586,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1871-01-17",
+        "label": "17. Januar 1871",
         "source": null,
         "notes": {
           "label": null,
@@ -28644,12 +29748,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -28774,7 +29902,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1776-09-08",
+        "label": "8. September 1776",
         "source": null,
         "notes": {
           "label": null,
@@ -28785,7 +29913,7 @@
     },
     "death": {
       "date": {
-        "label": "1842-03-26",
+        "label": "26. März 1842",
         "source": null,
         "notes": {
           "label": null,
@@ -28924,7 +30052,7 @@
     ],
     "birth": {
       "date": {
-        "label": "1794-01-24",
+        "label": "24. Januar 1794",
         "source": {
           "type": "print",
           "id": "R0001200",
@@ -28940,7 +30068,7 @@
     },
     "death": {
       "date": {
-        "label": "1858-09-23",
+        "label": "23. September 1858",
         "source": {
           "type": "print",
           "id": "R0001200",
@@ -29109,12 +30237,29 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": null,
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -29232,7 +30377,7 @@
     ],
     "birth": {
       "date": {
-        "label": "1791-07-08",
+        "label": "8. Juli 1791",
         "source": {
           "type": "manuscript",
           "id": "M0029000",
@@ -29262,7 +30407,7 @@
     },
     "death": {
       "date": {
-        "label": "1866-12-01",
+        "label": "1. Dezember 1866",
         "source": {
           "type": "manuscript",
           "id": "M0029000",
@@ -29972,7 +31117,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1788-09-25",
+        "label": "25. September 1788",
         "source": {
           "type": "manuscript",
           "id": "M0033000",
@@ -30002,7 +31147,7 @@
     },
     "death": {
       "date": {
-        "label": "1827-12-08",
+        "label": "8. Dezember 1827",
         "source": {
           "type": "manuscript",
           "id": "M0033000",
@@ -30363,7 +31508,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1826-02-24",
+        "label": "24. Februar 1826",
         "source": null,
         "notes": {
           "label": null,
@@ -30374,7 +31519,7 @@
     },
     "death": {
       "date": {
-        "label": "1888-08-27",
+        "label": "27. August 1888",
         "source": null,
         "notes": {
           "label": null,
@@ -30507,7 +31652,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1729-04-18",
+        "label": "18. April 1729",
         "source": null,
         "notes": {
           "label": null,
@@ -30518,7 +31663,7 @@
     },
     "death": {
       "date": {
-        "label": "1796-07-09",
+        "label": "9. Juli 1796",
         "source": null,
         "notes": {
           "label": null,
@@ -30656,7 +31801,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1876-07-06",
+        "label": "6. Juli 1876",
         "source": null,
         "notes": {
           "label": null,
@@ -30667,7 +31812,7 @@
     },
     "death": {
       "date": {
-        "label": "1940-03-12",
+        "label": "12. März 1940",
         "source": null,
         "notes": {
           "label": null,
@@ -30800,7 +31945,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1893-02-19",
+        "label": "19. Februar 1893",
         "source": null,
         "notes": {
           "label": null,
@@ -30949,7 +32094,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1870-01-14",
+        "label": "14. Januar 1870",
         "source": null,
         "notes": {
           "label": null,
@@ -30960,7 +32105,7 @@
     },
     "death": {
       "date": {
-        "label": "1954-03-21",
+        "label": "21. März 1954",
         "source": null,
         "notes": {
           "label": null,
@@ -31138,11 +32283,21 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": null,
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -31259,7 +32414,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1823-02-10",
+        "label": "10. Februar 1823",
         "source": {
           "type": "print",
           "id": "R0006800",
@@ -31289,7 +32444,7 @@
     },
     "death": {
       "date": {
-        "label": "1894-05-17",
+        "label": "17. Mai 1894",
         "source": {
           "type": "print",
           "id": "R0006800",
@@ -31500,12 +32655,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -31632,25 +32811,35 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1751-03-13",
+        "label": "13. März 1751",
         "source": null,
         "notes": {
           "label": null,
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
-        "label": "1831-07-03",
+        "label": "3. Juli 1831",
         "source": null,
         "notes": {
           "label": null,
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -31779,7 +32968,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1782-05-30",
+        "label": "30. Mai 1782",
         "source": null,
         "notes": {
           "label": null,
@@ -31790,7 +32979,7 @@
     },
     "death": {
       "date": {
-        "label": "1853-03-22",
+        "label": "22. März 1853",
         "source": null,
         "notes": {
           "label": null,
@@ -31925,12 +33114,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -32051,12 +33264,36 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
-      "date": null,
-      "location": null
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      },
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -32193,7 +33430,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -32209,7 +33451,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -32357,7 +33604,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "death": {
       "date": {
@@ -32373,7 +33625,12 @@
           "source": null
         }
       },
-      "location": null
+      "location": {
+        "notes": {
+          "label": null,
+          "source": null
+        }
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -32509,7 +33766,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1823-10-15",
+        "label": "15. Oktober 1823",
         "source": null,
         "notes": {
           "label": null,
@@ -32520,7 +33777,7 @@
     },
     "death": {
       "date": {
-        "label": "1888-04-27",
+        "label": "27. April 1888",
         "source": null,
         "notes": {
           "label": null,
@@ -32688,7 +33945,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1811-09-01",
+        "label": "1. September 1811",
         "source": null,
         "notes": {
           "label": null,
@@ -32699,7 +33956,7 @@
     },
     "death": {
       "date": {
-        "label": "1896-03-22",
+        "label": "22. März 1896",
         "source": null,
         "notes": {
           "label": null,
@@ -32863,7 +34120,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1844-01-17",
+        "label": "17. Januar 1844",
         "source": null,
         "notes": {
           "label": null,
@@ -33013,7 +34270,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1885-06-15",
+        "label": "15. Juni 1885",
         "source": null,
         "notes": {
           "label": null,
@@ -33345,7 +34602,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1817-12-17",
+        "label": "17. Dezember 1817",
         "source": null,
         "notes": {
           "label": null,
@@ -33492,7 +34749,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1805-02-01",
+        "label": "1. Februar 1805",
         "source": null,
         "notes": {
           "label": null,
@@ -33503,7 +34760,7 @@
     },
     "death": {
       "date": {
-        "label": "1864-03-29",
+        "label": "29. März 1864",
         "source": null,
         "notes": {
           "label": null,
@@ -33686,7 +34943,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1778-07-01",
+        "label": "1. Juli 1778",
         "source": null,
         "notes": {
           "label": null,
@@ -33697,7 +34954,7 @@
     },
     "death": {
       "date": {
-        "label": "1855-04-12",
+        "label": "12. April 1855",
         "source": null,
         "notes": {
           "label": null,
@@ -33838,7 +35095,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1841-01-15",
+        "label": "15. Januar 1841",
         "source": null,
         "notes": {
           "label": null,
@@ -33968,7 +35225,7 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1796-03-20",
+        "label": "20. März 1796",
         "source": null,
         "notes": {
           "label": null,
@@ -33979,7 +35236,7 @@
     },
     "death": {
       "date": {
-        "label": "1855-01-31",
+        "label": "31. Januar 1855",
         "source": null,
         "notes": {
           "label": null,

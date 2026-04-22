@@ -2,6 +2,39 @@ import re
 from abc import ABC, abstractmethod
 from validators import url
 
+_DE_MONTHS = [
+    "",
+    "Januar",
+    "Februar",
+    "März",
+    "April",
+    "Mai",
+    "Juni",
+    "Juli",
+    "August",
+    "September",
+    "Oktober",
+    "November",
+    "Dezember",
+]
+
+
+def _fmt_date(val: str) -> str:
+    """Format an ISO 8601-2 date string into German notation."""
+    parts = str(val).split("-")
+    try:
+        if len(parts) == 3:
+            m = int(parts[1])
+            if 1 <= m <= 12:
+                return f"{int(parts[2])}. {_DE_MONTHS[m]} {parts[0]}"
+        elif len(parts) == 2:
+            m = int(parts[1])
+            if 1 <= m <= 12:
+                return f"{_DE_MONTHS[m]} {parts[0]}"
+    except (ValueError, IndexError):
+        pass
+    return val
+
 
 def clean_field(raw: str) -> str:
     """Normalize field before parsing
@@ -58,6 +91,21 @@ class AttestableDatatype(ABC):
         else:
             self.source = None
         self._parse_value(value)
+
+    def source_dict(self, registry=None) -> dict | None:
+        """Serialize .source → {type, ...} dict or None. Registry is duck-typed."""
+        if not hasattr(self, "source") or self.source is None:
+            return None
+        doc = getattr(self.source, "document", None)
+        if doc is None:
+            return None
+        if hasattr(doc, "url"):
+            return {"type": "web", "label": doc.url}
+        if isinstance(doc, LiteratureID):
+            ref = registry.resolve_literature(doc) if registry else {"id": doc.id}
+            return {"type": "print", **{k: v for k, v in ref.items() if k != "source"}}
+        ref = registry.resolve_manuscript(doc) if registry else {"id": doc.id}
+        return {"type": "manuscript", **{k: v for k, v in ref.items() if k != "source"}}
 
     # -------------------------
     # PRINT SERIALIZATION
@@ -126,6 +174,12 @@ class URL(AttestableDatatype):
             raise ValueError(f"URL is not valid: {url_string}")
         self.url = url_string
 
+    def to_dict(self, registry=None) -> dict:
+        return {
+            "label": getattr(self, "url", None),
+            "source": self.source_dict(registry),
+        }
+
 
 class ID(AttestableDatatype, ABC):
     PREFIX: str = None
@@ -183,6 +237,12 @@ class String(AttestableDatatype):
         # For a generic string, we accept anything
         self.value = value
 
+    def to_dict(self, registry=None) -> dict:
+        return {
+            "label": getattr(self, "value", None),
+            "source": self.source_dict(registry),
+        }
+
 
 class EncodedString(AttestableDatatype):
     """A string that has to adhere to codes from a codelist.
@@ -209,6 +269,13 @@ class ISO8601_2_Date(AttestableDatatype):
         if not re.fullmatch(pattern, value):
             raise ValueError(f"Invalid ISO8601-2_Date format: {value}")
         self.date = value
+
+    def formatted(self) -> str | None:
+        d = getattr(self, "date", None)
+        return _fmt_date(d) if d else None
+
+    def to_dict(self, registry=None) -> dict:
+        return {"label": self.formatted(), "source": self.source_dict(registry)}
 
 
 class ISO8601_2_Period(AttestableDatatype):
@@ -271,3 +338,12 @@ class PlaceOfEffect(AttestableDatatype):
         if len(parts) != 4:
             raise ValueError(f"Expected 4 parts, got {len(parts)}: {value}")
         self.temporal, self.place, self.institution, self.occupation = parts
+
+    def formatted_temporal(self) -> str | None:
+        val = (getattr(self, "temporal", "") or "").strip()
+        if not val:
+            return None
+        if "/" in val:
+            start, end = val.split("/", 1)
+            return f"{_fmt_date(start.strip())}\u2013{_fmt_date(end.strip())}"
+        return _fmt_date(val)

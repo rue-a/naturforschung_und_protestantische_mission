@@ -134,3 +134,36 @@ class Registry:
         if isinstance(inner, LiteratureID):
             return self.resolve_literature(inner)
         return self.resolve_manuscript(inner)
+
+    # ------------------------------------------------------------------
+    # Attested variants: resolve + attach source from the ID object
+    # ------------------------------------------------------------------
+
+    def resolve_person_attested(self, p) -> dict | None:
+        ref = self.resolve_person(p)
+        return {**ref, "source": p.source_dict(self)} if ref else None
+
+    def resolve_location_attested(self, loc) -> dict | None:
+        ref = self.resolve_location(loc)
+        if ref is None:
+            return None
+        src = loc.source_dict(self) if loc and not isinstance(loc, str) else None
+        return {**ref, "source": src}
+
+    def resolve_collection_attested(self, c) -> dict | None:
+        ref = self.resolve_collection(c)
+        return {**ref, "source": c.source_dict(self)} if ref else None
+
+    def resolve_manuscript_attested(self, m) -> dict | None:
+        ref = self.resolve_manuscript(m)
+        return {**ref, "source": m.source_dict(self)} if ref else None
+
+    def resolve_literature_attested(self, r) -> dict | None:
+        ref = self.resolve_literature(r)
+        return {**ref, "source": r.source_dict(self)} if ref else None
+
+    def resolve_work_attested(self, w) -> dict | None:
+        ref = self.resolve_work(w)
+        if ref is None:
+            return None
+        return {**ref, "source": w.source_dict(self)} if isinstance(ref, dict) else ref

@@ -307,157 +307,78 @@ class HerrnhutPerson(HerrnhutObject):
         self.life_trajectory = LifeTrajectory(self, locations)
 
     def to_dict(self, registry=None):
-        def _src(obj):
-            """Serialize .source of an AttestableDatatype → {type, ...} dict or None."""
-            source = getattr(obj, "source", None) if obj else None
-            if source is None:
-                return None
-            doc = getattr(source, "document", None)
-            if doc is None:
-                return None
-            if hasattr(doc, "url"):
-                return {"type": "web", "label": doc.url}
-            if isinstance(doc, LiteratureID):
-                ref = (
-                    registry.resolve_literature(doc)
-                    if registry
-                    else {"id": getattr(doc, "id", None)}
-                )
-                ref = {k: v for k, v in ref.items() if k != "source"}
-                return {"type": "print", **ref}
-            ref = (
-                registry.resolve_manuscript(doc)
-                if registry
-                else {"id": getattr(doc, "id", None)}
-            )
-            ref = {k: v for k, v in ref.items() if k != "source"}
-            return {"type": "manuscript", **ref}
+        r = registry
 
-        def _v(obj):
-            if obj is None:
-                return None
-            return {"label": getattr(obj, "value", None), "source": _src(obj)}
-
-        def _url(obj):
-            if obj is None:
-                return None
-            return {"label": getattr(obj, "url", None), "source": _src(obj)}
-
-        def _date(obj):
-            val = getattr(obj, "date", None) if obj else None
-            if val is None:
-                return None
-            return {"label": val, "source": _src(obj)}
-
-        def _res_person(p):
-            ref = (
-                registry.resolve_person(p)
-                if registry
-                else ({"id": getattr(p, "id", None)} if p else None)
-            )
-            if ref is None:
-                return None
-            return {**ref, "source": _src(p)}
-
-        def _res_location(loc):
-            ref = (
-                registry.resolve_location(loc)
-                if registry
-                else ({"id": getattr(loc, "id", None)} if loc else None)
-            )
-            if ref is None:
-                return None
-            return {**ref, "source": _src(loc) if not isinstance(loc, str) else None}
-
-        def _res_collection(c):
-            ref = (
-                registry.resolve_collection(c)
-                if registry
-                else ({"id": getattr(c, "id", None)} if c else None)
-            )
-            if ref is None:
-                return None
-            return {**ref, "source": _src(c)}
-
-        def _res_manuscript(m):
-            ref = (
-                registry.resolve_manuscript(m)
-                if registry
-                else ({"id": getattr(m, "id", None)} if m else None)
-            )
-            if ref is None:
-                return None
-            return {**ref, "source": _src(m)}
-
-        def _res_literature(r):
-            ref = (
-                registry.resolve_literature(r)
-                if registry
-                else ({"id": getattr(r, "id", None)} if r else None)
-            )
-            if ref is None:
-                return None
-            return {**ref, "source": _src(r)}
-
-        def _res_work(w):
-            ref = (
-                registry.resolve_work(w)
-                if registry
-                else getattr(getattr(w, "document", None), "id", None)
-            )
-            if ref is None:
-                return None
-            return {**ref, "source": _src(w)} if isinstance(ref, dict) else ref
+        def _loc_no_source(loc_id_or_str):
+            """Resolve a location ref and strip source (used in places_of_effect)."""
+            ref = r.resolve_location(loc_id_or_str) if r else None
+            return {k: v for k, v in ref.items() if k != "source"} if ref else None
 
         return {
             "id": getattr(self.id, "id", None),
             "visible": getattr(self.visible, "decoded_value", None),
             "name": {
-                "preferred": _v(self.name.preferred),
-                "surname": _v(self.name.surname),
-                "birth_name": _v(self.name.birth_name),
-                "given_name": _v(self.name.given_name),
-                "title": _v(self.name.title),
-                "notes": _v(self.name.notes),
+                "preferred": self.name.preferred.to_dict(r)
+                if self.name.preferred
+                else None,
+                "surname": self.name.surname.to_dict(r) if self.name.surname else None,
+                "birth_name": self.name.birth_name.to_dict(r)
+                if self.name.birth_name
+                else None,
+                "given_name": self.name.given_name.to_dict(r)
+                if self.name.given_name
+                else None,
+                "title": self.name.title.to_dict(r) if self.name.title else None,
+                "notes": self.name.notes.to_dict(r) if self.name.notes else None,
             },
             "member_of_moravians": [
-                {"code": m.encoded_value, "label": m.decoded_value, "source": _src(m)}
+                {
+                    "code": m.encoded_value,
+                    "label": m.decoded_value,
+                    "source": m.source_dict(r),
+                }
                 for m in self.member_of_moravians
             ],
             "birth": {
-                "date": {**_date(self.birth.date), "notes": _v(self.birth.date_notes)}
-                if _date(self.birth.date)
+                "date": {
+                    **self.birth.date.to_dict(r),
+                    "notes": self.birth.date_notes.to_dict(r)
+                    if self.birth.date_notes
+                    else None,
+                }
+                if self.birth.date
                 else None,
                 "location": {
-                    **_res_location(self.birth.location),
-                    "notes": _v(self.birth.location_notes),
+                    **(r.resolve_location_attested(self.birth.location) or {}),
+                    "notes": self.birth.location_notes.to_dict(r)
+                    if self.birth.location_notes
+                    else None,
                 }
-                if _res_location(self.birth.location)
+                if r and self.birth.location
                 else None,
             },
             "death": {
-                "date": {**_date(self.death.date), "notes": _v(self.death.date_notes)}
-                if _date(self.death.date)
+                "date": {
+                    **self.death.date.to_dict(r),
+                    "notes": self.death.date_notes.to_dict(r)
+                    if self.death.date_notes
+                    else None,
+                }
+                if self.death.date
                 else None,
                 "location": {
-                    **_res_location(self.death.location),
-                    "notes": _v(self.death.location_notes),
+                    **(r.resolve_location_attested(self.death.location) or {}),
+                    "notes": self.death.location_notes.to_dict(r)
+                    if self.death.location_notes
+                    else None,
                 }
-                if _res_location(self.death.location)
+                if r and self.death.location
                 else None,
             },
             "places_of_effect": [
                 {
-                    "temporal": {
-                        "label": (getattr(poe, "temporal", "") or "").strip() or None
-                    },
-                    "location": {
-                        k: v
-                        for k, v in _res_location(
-                            getattr(poe, "place", "").strip()
-                        ).items()
-                        if k != "source"
-                    }
+                    "temporal": {"label": poe.formatted_temporal()},
+                    "location": _loc_no_source(getattr(poe, "place", "").strip())
                     if getattr(poe, "place", "").strip()
                     else None,
                     "institution": {
@@ -466,72 +387,124 @@ class HerrnhutPerson(HerrnhutObject):
                     "occupation": {
                         "label": (getattr(poe, "occupation", "") or "").strip() or None
                     },
-                    "source": _src(poe),
+                    "source": poe.source_dict(r),
                 }
                 for poe in self.places_of_effect
             ],
             "moravian_curriculum_vitae": [
-                _res_work(w) for w in self.moravian_curriculum_vitae
-            ],
+                r.resolve_work_attested(w) for w in self.moravian_curriculum_vitae
+            ]
+            if r
+            else [],
             "relatives": {
-                "siblings": [_res_person(p) for p in self.relatives.siblings],
-                "spouses": [_res_person(p) for p in self.relatives.spouses],
-                "children": [_res_person(p) for p in self.relatives.children],
-                "notes": _v(self.relatives.notes),
+                "siblings": [
+                    r.resolve_person_attested(p) for p in self.relatives.siblings
+                ]
+                if r
+                else [],
+                "spouses": [
+                    r.resolve_person_attested(p) for p in self.relatives.spouses
+                ]
+                if r
+                else [],
+                "children": [
+                    r.resolve_person_attested(p) for p in self.relatives.children
+                ]
+                if r
+                else [],
+                "notes": self.relatives.notes.to_dict(r)
+                if self.relatives.notes
+                else None,
             },
             "contact": {
-                "with_moravians": [_res_person(p) for p in self.contact.with_moravians],
+                "with_moravians": [
+                    r.resolve_person_attested(p) for p in self.contact.with_moravians
+                ]
+                if r
+                else [],
                 "with_non_moravians": [
-                    _res_person(p) for p in self.contact.with_non_moravians
-                ],
+                    r.resolve_person_attested(p)
+                    for p in self.contact.with_non_moravians
+                ]
+                if r
+                else [],
             },
             "botany": {
-                "focuses": [_v(f) for f in self.botany.focuses],
+                "focuses": [f.to_dict(r) for f in self.botany.focuses],
                 "contribution_to_collections": {
                     "object_evidence": [
-                        _res_collection(c)
+                        r.resolve_collection_attested(c)
                         for c in self.botany.contribution_to_collections.object_evidence
-                    ],
+                    ]
+                    if r
+                    else [],
                     "database_evidence": [
-                        _res_collection(c)
+                        r.resolve_collection_attested(c)
                         for c in self.botany.contribution_to_collections.database_evidence
-                    ],
+                    ]
+                    if r
+                    else [],
                     "literature_evidence": [
-                        _res_collection(c)
+                        r.resolve_collection_attested(c)
                         for c in self.botany.contribution_to_collections.literature_evidence
-                    ],
-                    "notes": _v(self.botany.contribution_to_collections.notes),
+                    ]
+                    if r
+                    else [],
+                    "notes": self.botany.contribution_to_collections.notes.to_dict(r)
+                    if self.botany.contribution_to_collections.notes
+                    else None,
                 },
                 "works": {
                     "manuscripts": [
-                        _res_manuscript(m) for m in self.botany.works.manuscripts
-                    ],
-                    "printed": [_res_literature(r) for r in self.botany.works.printed],
+                        r.resolve_manuscript_attested(m)
+                        for m in self.botany.works.manuscripts
+                    ]
+                    if r
+                    else [],
+                    "printed": [
+                        r.resolve_literature_attested(lit)
+                        for lit in self.botany.works.printed
+                    ]
+                    if r
+                    else [],
                 },
                 "citations": {
                     "in_botanical_works_by_others": [
-                        _res_work(w)
+                        r.resolve_work_attested(w)
                         for w in self.botany.citations.in_botanical_works_by_others
-                    ],
+                    ]
+                    if r
+                    else [],
                 },
             },
             "works": {
                 "without_botanical_context": [
-                    _res_work(w) for w in self.works.without_botanical_context
-                ],
+                    r.resolve_work_attested(w)
+                    for w in self.works.without_botanical_context
+                ]
+                if r
+                else [],
             },
             "citations": {
                 "in_non_botanical_works_by_others": [
-                    _res_work(w)
+                    r.resolve_work_attested(w)
                     for w in self.citations.in_non_botanical_works_by_others
-                ],
+                ]
+                if r
+                else [],
             },
             "links": {
-                "wikidata": _url(self.links.wikidata),
-                "gnd": _url(self.links.gnd),
-                "factgrid": _url(self.links.factgrid),
-                "bionomia": _url(self.links.bionomia),
-                "saebi": _url(self.links.saebi),
+                "wikidata": self.links.wikidata.to_dict(r)
+                if self.links.wikidata
+                else None,
+                "gnd": self.links.gnd.to_dict(r) if self.links.gnd else None,
+                "factgrid": self.links.factgrid.to_dict(r)
+                if self.links.factgrid
+                else None,
+                "bionomia": self.links.bionomia.to_dict(r)
+                if self.links.bionomia
+                else None,
+                "saebi": self.links.saebi.to_dict(r) if self.links.saebi else None,
             },
             "life_trajectory": self.life_trajectory.to_dict()
             if getattr(self, "life_trajectory", None)
