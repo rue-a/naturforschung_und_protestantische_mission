@@ -329,7 +329,7 @@ class HerrnhutPerson(HerrnhutObject):
                 if self.name.given_name
                 else None,
                 "title": self.name.title.to_dict(r) if self.name.title else None,
-                "notes": self.name.notes.to_dict(r) if self.name.notes else None,
+                "notes": getattr(self.name.notes, "value", None),
             },
             "member_of_moravians": [
                 {
@@ -342,17 +342,13 @@ class HerrnhutPerson(HerrnhutObject):
             "birth": {
                 "date": {
                     **self.birth.date.to_dict(r),
-                    "notes": self.birth.date_notes.to_dict(r)
-                    if self.birth.date_notes
-                    else None,
+                    "notes": getattr(self.birth.date_notes, "value", None),
                 }
                 if self.birth.date
                 else None,
                 "location": {
                     **(r.resolve_location_attested(self.birth.location) or {}),
-                    "notes": self.birth.location_notes.to_dict(r)
-                    if self.birth.location_notes
-                    else None,
+                    "notes": getattr(self.birth.location_notes, "value", None),
                 }
                 if r and self.birth.location
                 else None,
@@ -360,17 +356,13 @@ class HerrnhutPerson(HerrnhutObject):
             "death": {
                 "date": {
                     **self.death.date.to_dict(r),
-                    "notes": self.death.date_notes.to_dict(r)
-                    if self.death.date_notes
-                    else None,
+                    "notes": getattr(self.death.date_notes, "value", None),
                 }
                 if self.death.date
                 else None,
                 "location": {
                     **(r.resolve_location_attested(self.death.location) or {}),
-                    "notes": self.death.location_notes.to_dict(r)
-                    if self.death.location_notes
-                    else None,
+                    "notes": getattr(self.death.location_notes, "value", None),
                 }
                 if r and self.death.location
                 else None,
@@ -412,9 +404,7 @@ class HerrnhutPerson(HerrnhutObject):
                 ]
                 if r
                 else [],
-                "notes": self.relatives.notes.to_dict(r)
-                if self.relatives.notes
-                else None,
+                "notes": getattr(self.relatives.notes, "value", None),
             },
             "contact": {
                 "with_moravians": [
@@ -450,9 +440,9 @@ class HerrnhutPerson(HerrnhutObject):
                     ]
                     if r
                     else [],
-                    "notes": self.botany.contribution_to_collections.notes.to_dict(r)
-                    if self.botany.contribution_to_collections.notes
-                    else None,
+                    "notes": getattr(
+                        self.botany.contribution_to_collections.notes, "value", None
+                    ),
                 },
                 "works": {
                     "manuscripts": [
