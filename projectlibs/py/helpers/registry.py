@@ -56,7 +56,7 @@ class Registry:
     def _ref(raw_id: str, label, link) -> dict:
         return {
             "id": raw_id,
-            "label": label if label else f"[fallback: {raw_id}]",
+            "label": label if label else f"[fallback value: {raw_id}]",
             "link": link,
         }
 

@@ -277,26 +277,15 @@ li.selected .person-list-id {
 	opacity: 1;
 }
 
+.poe-list .wikidata-icon {
+	width: 12px;
+	height: 8px;
+}
+
 /* Places-of-effect table */
-.poe-table {
-	width: 100%;
-	border-collapse: collapse;
-	font-size: var(--font-size-xs);
-}
-
-.poe-table td {
-	padding: var(--space-xs) var(--space-sm);
-	border-bottom: 1px solid var(--color-border);
-	vertical-align: top;
-}
-
-.poe-table tr:last-child td {
-	border-bottom: none;
-}
-
-.poe-table .poe-temporal {
-	color: var(--color-muted);
+.poe-temporal {
 	white-space: nowrap;
+	font-size: var(--font-size-xs);
 }
 
 /* Logo row */

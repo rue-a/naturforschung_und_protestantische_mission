@@ -175,34 +175,50 @@ function _buildPoESection(person) {
 	const sec = _metaSection("Wirkungsorte");
 	if (!poes.length) { sec.appendChild(_empty()); return sec; }
 
-	const table = document.createElement("table");
-	table.className = "poe-table";
-
+	const ul = document.createElement("ul");
+	ul.className = "poe-list";
 	for (const poe of poes) {
-		const tr = document.createElement("tr");
+		const li = document.createElement("li");
 
-		const tdTime = document.createElement("td");
-		tdTime.className = "poe-temporal";
-		tdTime.textContent = poe.temporal?.label ?? "";
-
-		const tdLoc = document.createElement("td");
+		const parts = [];
+		const hasTemporal = !!poe.temporal?.label;
+		if (hasTemporal) {
+			const timeSpan = document.createElement("span");
+			timeSpan.className = "poe-temporal";
+			timeSpan.textContent = poe.temporal.label;
+			parts.push(timeSpan);
+		}
 		if (poe.location?.label) {
-			tdLoc.appendChild(
+			parts.push(
 				poe.location.link
-					? _locationLink(poe.location.label, poe.location.link)
-					: document.createTextNode(poe.location.label)
+					? _locationLink(poe.location.label, poe.location.link, poe.location.source)
+					: _sourcedText(poe.location.label, poe.location.source)
 			);
 		}
+		const role = [poe.institution?.label, poe.occupation?.label].filter(Boolean).join(" · ");
+		if (role) {
+			const roleSpan = document.createElement("span");
+			roleSpan.textContent = role;
+			parts.push(roleSpan);
+		}
 
-		const tdRole = document.createElement("td");
-		tdRole.textContent = [poe.institution?.label, poe.occupation?.label]
-			.filter(Boolean)
-			.join(" · ");
-
-		tr.append(tdTime, tdLoc, tdRole);
-		table.appendChild(tr);
+		const container = poe.source ? document.createElement("span") : li;
+		if (poe.source) {
+			container.className = "sourced";
+			container.addEventListener("click", (e) => {
+				e.stopPropagation();
+				_showSourcePopup(e, poe.source);
+			});
+		}
+		for (let i = 0; i < parts.length; i++) {
+			const sep = (i === 1 && hasTemporal) ? ": " : " · ";
+			if (i > 0) container.appendChild(document.createTextNode(sep));
+			container.appendChild(parts[i]);
+		}
+		if (poe.source) li.appendChild(container);
+		ul.appendChild(li);
 	}
-	sec.appendChild(table);
+	sec.appendChild(ul);
 	return sec;
 }
 
@@ -258,7 +274,7 @@ function _buildContactSection(person) {
 			const li = document.createElement("li");
 			// temporal is not in current data but guard for future use
 			const temporal = p.temporal?.label;
-			const text = temporal ? `${p.label ?? p.id} (${temporal})` : (p.label ?? p.id);
+			const text = temporal ? `${p.label} (${temporal})` : p.label;
 			li.appendChild(_sourcedText(text, p.source));
 			li.appendChild(document.createTextNode(" "));
 			if (p.link) li.appendChild(_wikidataIconLink(p.link));
@@ -329,7 +345,7 @@ function _buildCollectionsSection(person) {
 		ul.className = "works-list";
 		for (const c of items) {
 			const li = document.createElement("li");
-			li.appendChild(_sourcedText(c.label ?? c.id, c.source));
+			li.appendChild(_sourcedText(c.label, c.source));
 			if (c.nybg_herbarium_code) {
 				const code = document.createElement("span");
 				code.className = "collection-nybg";
@@ -439,7 +455,7 @@ function _personList(items) {
 	const ul = document.createElement("ul");
 	for (const p of items) {
 		const li = document.createElement("li");
-		li.appendChild(_sourcedText(p.label ?? p.id, p.source));
+		li.appendChild(_sourcedText(p.label, p.source));
 		if (p.link) li.appendChild(_wikidataIconLink(p.link));
 		ul.appendChild(li);
 	}
@@ -457,10 +473,10 @@ function _workList(items) {
 			a.href = item.link;
 			a.target = "_blank";
 			a.rel = "noopener noreferrer";
-			a.textContent = item.label ?? item.id;
+			a.textContent = item.label;
 			li.appendChild(a);
 		} else {
-			li.appendChild(_sourcedText(item.label ?? item.id, item.source));
+			li.appendChild(_sourcedText(item.label, item.source));
 		}
 		ul.appendChild(li);
 	}
@@ -503,7 +519,7 @@ function _showSourcePopup(e, source) {
 	typeEl.textContent = source.type ? `Quelle (${source.type})` : "Quelle";
 	popup.appendChild(typeEl);
 
-	const labelText = source.label ?? source.id ?? "";
+	const labelText = source.label ?? "";
 	// If the label itself looks like a URL, make it a link
 	const labelEl = document.createElement("div");
 	if (/^https?:\/\//i.test(labelText)) {

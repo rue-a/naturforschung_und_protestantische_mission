@@ -92,7 +92,7 @@ class AttestableDatatype(ABC):
             self.source = None
         self._parse_value(value)
 
-    def source_dict(self, registry=None) -> dict | None:
+    def source_dict(self, registry) -> dict | None:
         """Serialize .source → {type, ...} dict or None. Registry is duck-typed."""
         if not hasattr(self, "source") or self.source is None:
             return None
@@ -102,9 +102,9 @@ class AttestableDatatype(ABC):
         if hasattr(doc, "url"):
             return {"type": "web", "label": doc.url}
         if isinstance(doc, LiteratureID):
-            ref = registry.resolve_literature(doc) if registry else {"id": doc.id}
+            ref = registry.resolve_literature(doc)
             return {"type": "print", **{k: v for k, v in ref.items() if k != "source"}}
-        ref = registry.resolve_manuscript(doc) if registry else {"id": doc.id}
+        ref = registry.resolve_manuscript(doc)
         return {"type": "manuscript", **{k: v for k, v in ref.items() if k != "source"}}
 
     # -------------------------
