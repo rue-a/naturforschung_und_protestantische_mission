@@ -54,7 +54,11 @@ class Registry:
 
     @staticmethod
     def _ref(raw_id: str, label, link) -> dict:
-        return {"id": raw_id, "label": label if label else raw_id, "link": link}
+        return {
+            "id": raw_id,
+            "label": label if label else f"[fallback: {raw_id}]",
+            "link": link,
+        }
 
     def resolve_person(self, id_obj) -> dict | None:
         raw = self._id_str(id_obj)

@@ -320,7 +320,7 @@
           "source": {
             "type": "print",
             "id": "R0000900",
-            "label": "R0000900",
+            "label": "[fallback: R0000900]",
             "link": "https://books.google.de/books?id=JahRpKlMip0C&hl=de&pg=PP6#v=onepage&q&f=false"
           }
         },
@@ -331,7 +331,7 @@
           "source": {
             "type": "print",
             "id": "R0000900",
-            "label": "R0000900",
+            "label": "[fallback: R0000900]",
             "link": "https://books.google.de/books?id=JahRpKlMip0C&hl=de&pg=PP6#v=onepage&q&f=false"
           }
         },
@@ -342,7 +342,7 @@
           "source": {
             "type": "print",
             "id": "R0000900",
-            "label": "R0000900",
+            "label": "[fallback: R0000900]",
             "link": "https://books.google.de/books?id=JahRpKlMip0C&hl=de&pg=PP6#v=onepage&q&f=false"
           }
         }
@@ -372,7 +372,7 @@
         "object_evidence": [
           {
             "id": "C-MEL",
-            "label": "C-MEL",
+            "label": "[fallback: C-MEL]",
             "link": "https://avh.ala.org.au/occurrences/search?q=collection_uid%3Aco54#tab_recordsView",
             "nybg_herbarium_code": "MEL",
             "holding_institutions": [],
@@ -396,7 +396,7 @@
           },
           {
             "id": "C-L",
-            "label": "C-L",
+            "label": "[fallback: C-L]",
             "link": "https://bioportal.naturalis.nl/nl",
             "nybg_herbarium_code": "L",
             "holding_institutions": [
@@ -437,7 +437,7 @@
           },
           {
             "id": "C-M",
-            "label": "C-M",
+            "label": "[fallback: C-M]",
             "link": "http://www.botanischestaatssammlung.de",
             "nybg_herbarium_code": "M",
             "holding_institutions": [],
@@ -457,61 +457,61 @@
             "label": "Albertinis Eintrag im Stammbuch von Lind aus der Brüdergemeine Sarepta",
             "link": "http://kalliope-verbund.info/DE-611-HS-2419424",
             "signature": "Mscr.Dresd.App.2789, Bl.142r",
-            "archive": "A0000600",
+            "archive": "[fallback: A0000600]",
             "archive_abbreviation": "SLUB",
             "source": null
           },
           {
             "id": "M0003400",
-            "label": "M0003400",
+            "label": "[fallback: M0003400]",
             "link": null,
             "signature": "NB.VI.63.i.",
-            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive": "[fallback: A0000100]",
             "archive_abbreviation": "UA",
             "source": null
           },
           {
             "id": "M0003500",
-            "label": "M0003500",
+            "label": "[fallback: M0003500]",
             "link": null,
             "signature": "Cim.II.19",
-            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive": "[fallback: A0000100]",
             "archive_abbreviation": "UA",
             "source": null
           },
           {
             "id": "M0003600",
-            "label": "M0003600",
+            "label": "[fallback: M0003600]",
             "link": null,
             "signature": "Cim.II.20",
-            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive": "[fallback: A0000100]",
             "archive_abbreviation": "UA",
             "source": null
           },
           {
             "id": "M0003700",
-            "label": "M0003700",
+            "label": "[fallback: M0003700]",
             "link": null,
             "signature": "Cim.II8",
-            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive": "[fallback: A0000100]",
             "archive_abbreviation": "UA",
             "source": null
           },
           {
             "id": "M0003800",
-            "label": "M0003800",
+            "label": "[fallback: M0003800]",
             "link": null,
             "signature": "Cim.II9",
-            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive": "[fallback: A0000100]",
             "archive_abbreviation": "UA",
             "source": null
           },
           {
             "id": "M0004500",
-            "label": "M0004500",
+            "label": "[fallback: M0004500]",
             "link": null,
             "signature": "Cim.II.11",
-            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive": "[fallback: A0000100]",
             "archive_abbreviation": "UA",
             "source": null
           },
@@ -520,7 +520,7 @@
             "label": "J.B.v. Albertini: Flora Gnadenfreisensis, o.O.,",
             "link": null,
             "signature": "Cim.II.16",
-            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive": "[fallback: A0000100]",
             "archive_abbreviation": "UA",
             "source": null
           }
@@ -1277,7 +1277,7 @@
           },
           {
             "id": "R0006200",
-            "label": "R0006200",
+            "label": "[fallback: R0006200]",
             "link": "https://www.biodiversitylibrary.org/item/159153",
             "source": null
           }
@@ -2011,7 +2011,7 @@
         "source": {
           "type": "print",
           "id": "R0004100",
-          "label": "R0004100",
+          "label": "[fallback: R0004100]",
           "link": "https://id.erudit.org/iderudit/nflds32_2art05"
         },
         "notes": null
@@ -2439,7 +2439,7 @@
           },
           {
             "id": "C-P (http://coldb.mnhn.fr/catalognumber/mnhn/p/p00754368",
-            "label": "C-P (http://coldb.mnhn.fr/catalognumber/mnhn/p/p00754368",
+            "label": "[fallback: C-P (http://coldb.mnhn.fr/catalognumber/mnhn/p/p00754368]",
             "link": null,
             "nybg_herbarium_code": null,
             "holding_institutions": [],
@@ -2458,7 +2458,7 @@
           },
           {
             "id": "C-WU",
-            "label": "C-WU",
+            "label": "[fallback: C-WU]",
             "link": null,
             "nybg_herbarium_code": null,
             "holding_institutions": [],
@@ -2469,7 +2469,7 @@
           },
           {
             "id": "C-BR",
-            "label": "C-BR",
+            "label": "[fallback: C-BR]",
             "link": "http://www.botanicalcollections.be",
             "nybg_herbarium_code": "BR",
             "holding_institutions": [
@@ -2504,7 +2504,7 @@
           },
           {
             "id": "C-H",
-            "label": "C-H",
+            "label": "[fallback: C-H]",
             "link": null,
             "nybg_herbarium_code": "H",
             "holding_institutions": [
@@ -2535,7 +2535,7 @@
         "manuscripts": [
           {
             "id": "M0000800",
-            "label": "M0000800",
+            "label": "[fallback: M0000800]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kadc3987",
             "signature": "KADC3987",
             "archive": "Library and Archives at Royal Botanic Gardens, Kew",
@@ -2548,7 +2548,7 @@
         "in_botanical_works_by_others": [
           {
             "id": "M0001100",
-            "label": "M0001100",
+            "label": "[fallback: M0001100]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kldc9989",
             "signature": "KLDC9989",
             "archive": "Library and Archives at Royal Botanic Gardens, Kew",
@@ -2556,7 +2556,7 @@
           },
           {
             "id": "M0001200",
-            "label": "M0001200",
+            "label": "[fallback: M0001200]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3647",
             "signature": "KUSDC3647",
             "archive": "Library and Archives at Royal Botanic Gardens, Kew",
@@ -2564,7 +2564,7 @@
           },
           {
             "id": "M0001300",
-            "label": "M0001300",
+            "label": "[fallback: M0001300]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3613",
             "signature": "KUSDC3613",
             "archive": "Library and Archives at Royal Botanic Gardens, Kew",
@@ -2572,7 +2572,7 @@
           },
           {
             "id": "M0001400",
-            "label": "M0001400",
+            "label": "[fallback: M0001400]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3664",
             "signature": "KUSDC3664",
             "archive": "Library and Archives at Royal Botanic Gardens, Kew",
@@ -2877,7 +2877,7 @@
         "object_evidence": [
           {
             "id": "C-BP",
-            "label": "C-BP",
+            "label": "[fallback: C-BP]",
             "link": null,
             "nybg_herbarium_code": "BP",
             "holding_institutions": [
@@ -2890,7 +2890,7 @@
           },
           {
             "id": "C-PRC",
-            "label": "C-PRC",
+            "label": "[fallback: C-PRC]",
             "link": null,
             "nybg_herbarium_code": "PRC",
             "holding_institutions": [
@@ -2916,7 +2916,7 @@
           },
           {
             "id": "C-BRNU",
-            "label": "C-BRNU",
+            "label": "[fallback: C-BRNU]",
             "link": null,
             "nybg_herbarium_code": "BRNU",
             "holding_institutions": [
@@ -2929,7 +2929,7 @@
           },
           {
             "id": "C-ERE",
-            "label": "C-ERE",
+            "label": "[fallback: C-ERE]",
             "link": null,
             "nybg_herbarium_code": "ERE",
             "holding_institutions": [
@@ -2942,7 +2942,7 @@
           },
           {
             "id": "C-GJO",
-            "label": "C-GJO",
+            "label": "[fallback: C-GJO]",
             "link": "http://www.museum-joanneum.at/botanik",
             "nybg_herbarium_code": "GJO",
             "holding_institutions": [
@@ -2955,7 +2955,7 @@
           },
           {
             "id": "C-JE",
-            "label": "C-JE",
+            "label": "[fallback: C-JE]",
             "link": null,
             "nybg_herbarium_code": null,
             "holding_institutions": [],
@@ -2966,7 +2966,7 @@
           },
           {
             "id": "C-KFTA",
-            "label": "C-KFTA",
+            "label": "[fallback: C-KFTA]",
             "link": null,
             "nybg_herbarium_code": "KFTA",
             "holding_institutions": [
@@ -2992,7 +2992,7 @@
           },
           {
             "id": "C-GZU",
-            "label": "C-GZU",
+            "label": "[fallback: C-GZU]",
             "link": null,
             "nybg_herbarium_code": null,
             "holding_institutions": [],
@@ -3003,7 +3003,7 @@
           },
           {
             "id": "C-HAL",
-            "label": "C-HAL",
+            "label": "[fallback: C-HAL]",
             "link": null,
             "nybg_herbarium_code": null,
             "holding_institutions": [],
@@ -3027,7 +3027,7 @@
           },
           {
             "id": "C-W",
-            "label": "C-W",
+            "label": "[fallback: C-W]",
             "link": null,
             "nybg_herbarium_code": null,
             "holding_institutions": [],
@@ -3038,7 +3038,7 @@
           },
           {
             "id": "C-WU",
-            "label": "C-WU",
+            "label": "[fallback: C-WU]",
             "link": null,
             "nybg_herbarium_code": null,
             "holding_institutions": [],
@@ -3676,7 +3676,7 @@
           "label": "Lebenslauf Johann Jacob Bossart",
           "link": null,
           "signature": "R.22.27.07",
-          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive": "[fallback: A0000100]",
           "archive_abbreviation": "UA"
         },
         "notes": null
@@ -3691,7 +3691,7 @@
           "label": "Lebenslauf Johann Jacob Bossart",
           "link": null,
           "signature": "R.22.27.07",
-          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive": "[fallback: A0000100]",
           "archive_abbreviation": "UA"
         },
         "notes": null
@@ -3706,7 +3706,7 @@
           "label": "Lebenslauf Johann Jacob Bossart",
           "link": null,
           "signature": "R.22.27.07",
-          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive": "[fallback: A0000100]",
           "archive_abbreviation": "UA"
         },
         "notes": null
@@ -3721,7 +3721,7 @@
           "label": "Lebenslauf Johann Jacob Bossart",
           "link": null,
           "signature": "R.22.27.07",
-          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive": "[fallback: A0000100]",
           "archive_abbreviation": "UA"
         },
         "notes": null
@@ -3749,7 +3749,7 @@
           "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
           "link": "http://digital.slub-dresden.de/id1789541689/508",
           "signature": "GN.A.256",
-          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive": "[fallback: A0000100]",
           "archive_abbreviation": "UA"
         }
       },
@@ -3774,7 +3774,7 @@
           "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
           "link": "http://digital.slub-dresden.de/id1789541689/508",
           "signature": "GN.A.256",
-          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive": "[fallback: A0000100]",
           "archive_abbreviation": "UA"
         }
       },
@@ -3799,7 +3799,7 @@
           "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
           "link": "http://digital.slub-dresden.de/id1789541689/508",
           "signature": "GN.A.256",
-          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive": "[fallback: A0000100]",
           "archive_abbreviation": "UA"
         }
       },
@@ -3824,7 +3824,7 @@
           "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
           "link": "http://digital.slub-dresden.de/id1789541689/508",
           "signature": "GN.A.256",
-          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive": "[fallback: A0000100]",
           "archive_abbreviation": "UA"
         }
       },
@@ -3849,7 +3849,7 @@
           "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
           "link": "http://digital.slub-dresden.de/id1789541689/508",
           "signature": "GN.A.256",
-          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive": "[fallback: A0000100]",
           "archive_abbreviation": "UA"
         }
       },
@@ -3874,7 +3874,7 @@
           "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
           "link": "http://digital.slub-dresden.de/id1789541689/508",
           "signature": "GN.A.256",
-          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive": "[fallback: A0000100]",
           "archive_abbreviation": "UA"
         }
       },
@@ -3899,7 +3899,7 @@
           "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
           "link": "http://digital.slub-dresden.de/id1789541689/508",
           "signature": "GN.A.256",
-          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive": "[fallback: A0000100]",
           "archive_abbreviation": "UA"
         }
       }
@@ -3910,7 +3910,7 @@
         "label": "Lebenslauf Johann Jacob Bossart",
         "link": null,
         "signature": "R.22.27.07",
-        "archive": "Unitätsarchiv Herrnhut Germany",
+        "archive": "[fallback: A0000100]",
         "archive_abbreviation": "UA",
         "source": null
       },
@@ -3919,7 +3919,7 @@
         "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
         "link": "http://digital.slub-dresden.de/id1789541689/508",
         "signature": "GN.A.256",
-        "archive": "Unitätsarchiv Herrnhut Germany",
+        "archive": "[fallback: A0000100]",
         "archive_abbreviation": "UA",
         "source": null
       }
@@ -3942,7 +3942,7 @@
             "label": "Schriftwechsel mit Christian Jacob Protten|UA, R.15.N.8.1.c, no. 22.: 1762 Mart. 3. Prottens nachricht von einigen mitgebrachten2 u. übergebenen africanischen sachen",
             "link": null,
             "signature": "R.15.N.08.1.c",
-            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive": "[fallback: A0000100]",
             "archive_abbreviation": "UA"
           }
         }
@@ -3990,7 +3990,7 @@
             "source": {
               "type": "print",
               "id": "R0005100",
-              "label": "R0005100",
+              "label": "[fallback: R0005100]",
               "link": "https://doi.org/10.21248/mfk.444"
             }
           }
@@ -4001,28 +4001,28 @@
         "manuscripts": [
           {
             "id": "M0000100",
-            "label": "M0000100",
+            "label": "[fallback: M0000100]",
             "link": null,
             "signature": "ThS.A.132.a",
-            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive": "[fallback: A0000100]",
             "archive_abbreviation": "UA",
             "source": null
           },
           {
             "id": "M0000200",
-            "label": "M0000200",
+            "label": "[fallback: M0000200]",
             "link": null,
             "signature": "Cim.V.4.",
-            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive": "[fallback: A0000100]",
             "archive_abbreviation": "UA",
             "source": null
           },
           {
             "id": "M0000300",
-            "label": "M0000300",
+            "label": "[fallback: M0000300]",
             "link": null,
             "signature": "Cim.V.5.",
-            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive": "[fallback: A0000100]",
             "archive_abbreviation": "UA",
             "source": null
           },
@@ -4031,7 +4031,7 @@
             "label": "Johann Jakob Bossart: Verzeichnis des Herbariums Barbiense (-); enthält: „Index alphabeticus Generum Plantarum es quibus sicca Speciminain Collectione Musei Academia Fratrum servantur“; „Index Plantarum siccarum Systematicus eo ordine, quo sunt in Fasciculis dispositae“ und „Catalogus über dem was in dem Saamen Schranck befindlich“",
             "link": null,
             "signature": "Cim.II.4",
-            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive": "[fallback: A0000100]",
             "archive_abbreviation": "UA",
             "source": null
           }
@@ -4065,19 +4065,19 @@
       "without_botanical_context": [
         {
           "id": "M0004300",
-          "label": "M0004300",
+          "label": "[fallback: M0004300]",
           "link": "https://www.unitaetsarchiv.findbuch.net/php/view.php?link=5453x1959",
           "signature": "TS.Bd.22.9",
-          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive": "[fallback: A0000100]",
           "archive_abbreviation": "UA",
           "source": null
         },
         {
           "id": "M0004400",
-          "label": "M0004400",
+          "label": "[fallback: M0004400]",
           "link": "https://www.unitaetsarchiv.findbuch.net/php/view.php?link=5453x3083",
           "signature": "TS.Mp.32.15",
-          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive": "[fallback: A0000100]",
           "archive_abbreviation": "UA",
           "source": null
         }
@@ -4609,7 +4609,7 @@
       },
       "location": {
         "id": "L0000400",
-        "label": "L0000400",
+        "label": "[fallback: L0000400]",
         "link": null,
         "source": null,
         "notes": null
@@ -4982,7 +4982,7 @@
         "object_evidence": [
           {
             "id": "C-JE",
-            "label": "C-JE",
+            "label": "[fallback: C-JE]",
             "link": null,
             "nybg_herbarium_code": null,
             "holding_institutions": [],
@@ -4993,7 +4993,7 @@
           },
           {
             "id": "C-GLM",
-            "label": "C-GLM",
+            "label": "[fallback: C-GLM]",
             "link": null,
             "nybg_herbarium_code": "GLM",
             "holding_institutions": [
@@ -5019,7 +5019,7 @@
           },
           {
             "id": "C-MICH",
-            "label": "C-MICH",
+            "label": "[fallback: C-MICH]",
             "link": null,
             "nybg_herbarium_code": null,
             "holding_institutions": [],
@@ -5054,7 +5054,7 @@
           },
           {
             "id": "C-GJO",
-            "label": "C-GJO",
+            "label": "[fallback: C-GJO]",
             "link": "http://www.museum-joanneum.at/botanik",
             "nybg_herbarium_code": "GJO",
             "holding_institutions": [
@@ -5080,7 +5080,7 @@
           },
           {
             "id": "C-PRC",
-            "label": "C-PRC",
+            "label": "[fallback: C-PRC]",
             "link": null,
             "nybg_herbarium_code": "PRC",
             "holding_institutions": [
@@ -5093,7 +5093,7 @@
           },
           {
             "id": "C-W",
-            "label": "C-W",
+            "label": "[fallback: C-W]",
             "link": null,
             "nybg_herbarium_code": null,
             "holding_institutions": [],
@@ -5104,7 +5104,7 @@
           },
           {
             "id": "C-WU",
-            "label": "C-WU",
+            "label": "[fallback: C-WU]",
             "link": null,
             "nybg_herbarium_code": null,
             "holding_institutions": [],
@@ -5115,7 +5115,7 @@
           },
           {
             "id": "C-NY",
-            "label": "C-NY",
+            "label": "[fallback: C-NY]",
             "link": "http://www.nybg.org",
             "nybg_herbarium_code": "NY",
             "holding_institutions": [
@@ -5128,7 +5128,7 @@
           },
           {
             "id": "C-S",
-            "label": "C-S",
+            "label": "[fallback: C-S]",
             "link": "https://www.nrm.se/en/forskningochsamlingar/botanik.8999708.html",
             "nybg_herbarium_code": "S",
             "holding_institutions": [
@@ -5141,7 +5141,7 @@
           },
           {
             "id": "C-MNHN",
-            "label": "C-MNHN",
+            "label": "[fallback: C-MNHN]",
             "link": null,
             "nybg_herbarium_code": null,
             "holding_institutions": [],
@@ -5204,7 +5204,7 @@
           },
           {
             "id": "C-BR",
-            "label": "C-BR",
+            "label": "[fallback: C-BR]",
             "link": "http://www.botanicalcollections.be",
             "nybg_herbarium_code": "BR",
             "holding_institutions": [
@@ -5217,7 +5217,7 @@
           },
           {
             "id": "C-KR",
-            "label": "C-KR",
+            "label": "[fallback: C-KR]",
             "link": null,
             "nybg_herbarium_code": null,
             "holding_institutions": [],
@@ -5308,7 +5308,7 @@
           },
           {
             "id": "C-BP",
-            "label": "C-BP",
+            "label": "[fallback: C-BP]",
             "link": null,
             "nybg_herbarium_code": "BP",
             "holding_institutions": [
@@ -5321,7 +5321,7 @@
           },
           {
             "id": "C-BR",
-            "label": "C-BR",
+            "label": "[fallback: C-BR]",
             "link": "http://www.botanicalcollections.be",
             "nybg_herbarium_code": "BR",
             "holding_institutions": [
@@ -5334,7 +5334,7 @@
           },
           {
             "id": "C-BREM",
-            "label": "C-BREM",
+            "label": "[fallback: C-BREM]",
             "link": null,
             "nybg_herbarium_code": "BREM",
             "holding_institutions": [
@@ -5358,7 +5358,7 @@
           },
           {
             "id": "C-C",
-            "label": "C-C",
+            "label": "[fallback: C-C]",
             "link": "http://samlinger.snm.ku.dk/en/dry-and-wet-collections/botany/",
             "nybg_herbarium_code": "C",
             "holding_institutions": [
@@ -5371,7 +5371,7 @@
           },
           {
             "id": "C-FH",
-            "label": "C-FH",
+            "label": "[fallback: C-FH]",
             "link": "http://www.huh.harvard.edu",
             "nybg_herbarium_code": "FH",
             "holding_institutions": [
@@ -5384,7 +5384,7 @@
           },
           {
             "id": "C-FI",
-            "label": "C-FI",
+            "label": "[fallback: C-FI]",
             "link": "http://parlatore.msn.unifi.it/hci_italy_web.html",
             "nybg_herbarium_code": "FI",
             "holding_institutions": [
@@ -5397,7 +5397,7 @@
           },
           {
             "id": "C-GJO",
-            "label": "C-GJO",
+            "label": "[fallback: C-GJO]",
             "link": "http://www.museum-joanneum.at/botanik",
             "nybg_herbarium_code": "GJO",
             "holding_institutions": [
@@ -5410,7 +5410,7 @@
           },
           {
             "id": "C-GLM",
-            "label": "C-GLM",
+            "label": "[fallback: C-GLM]",
             "link": null,
             "nybg_herbarium_code": "GLM",
             "holding_institutions": [
@@ -5423,7 +5423,7 @@
           },
           {
             "id": "C-HBG",
-            "label": "C-HBG",
+            "label": "[fallback: C-HBG]",
             "link": "https://www.biologie.uni-hamburg.de/HBG",
             "nybg_herbarium_code": "HBG",
             "holding_institutions": [
@@ -5436,7 +5436,7 @@
           },
           {
             "id": "C-HEID",
-            "label": "C-HEID",
+            "label": "[fallback: C-HEID]",
             "link": "https://www.botgart.cos.uni-heidelberg.de/de/sammlungen-archive/herbarium-heid",
             "nybg_herbarium_code": "HEID",
             "holding_institutions": [
@@ -5449,7 +5449,7 @@
           },
           {
             "id": "C-IBF",
-            "label": "C-IBF",
+            "label": "[fallback: C-IBF]",
             "link": "https://www.uibk.ac.at/microbiology/mycological-collection/",
             "nybg_herbarium_code": "IBF",
             "holding_institutions": [
@@ -5462,7 +5462,7 @@
           },
           {
             "id": "C-KIEL",
-            "label": "C-KIEL",
+            "label": "[fallback: C-KIEL]",
             "link": null,
             "nybg_herbarium_code": "KIEL",
             "holding_institutions": [
@@ -5475,7 +5475,7 @@
           },
           {
             "id": "C-L",
-            "label": "C-L",
+            "label": "[fallback: C-L]",
             "link": "https://bioportal.naturalis.nl/nl",
             "nybg_herbarium_code": "L",
             "holding_institutions": [
@@ -5501,7 +5501,7 @@
           },
           {
             "id": "C-LUB",
-            "label": "C-LUB",
+            "label": "[fallback: C-LUB]",
             "link": null,
             "nybg_herbarium_code": "LUB",
             "holding_institutions": [
@@ -5514,7 +5514,7 @@
           },
           {
             "id": "C-LZ",
-            "label": "C-LZ",
+            "label": "[fallback: C-LZ]",
             "link": "http://www.biphaps.uni-leipzig.de/de/sysbot/herbarium.html",
             "nybg_herbarium_code": "LZ",
             "holding_institutions": [
@@ -5527,7 +5527,7 @@
           },
           {
             "id": "C-M",
-            "label": "C-M",
+            "label": "[fallback: C-M]",
             "link": "http://www.botanischestaatssammlung.de",
             "nybg_herbarium_code": "M",
             "holding_institutions": [],
@@ -5538,7 +5538,7 @@
           },
           {
             "id": "C-NY",
-            "label": "C-NY",
+            "label": "[fallback: C-NY]",
             "link": "http://www.nybg.org",
             "nybg_herbarium_code": "NY",
             "holding_institutions": [
@@ -5564,7 +5564,7 @@
           },
           {
             "id": "C-PC",
-            "label": "C-PC",
+            "label": "[fallback: C-PC]",
             "link": "http://colhelper.mnhn.fr/",
             "nybg_herbarium_code": "PC",
             "holding_institutions": [
@@ -5577,7 +5577,7 @@
           },
           {
             "id": "C-S",
-            "label": "C-S",
+            "label": "[fallback: C-S]",
             "link": "https://www.nrm.se/en/forskningochsamlingar/botanik.8999708.html",
             "nybg_herbarium_code": "S",
             "holding_institutions": [
@@ -5603,7 +5603,7 @@
           },
           {
             "id": "C-W",
-            "label": "C-W",
+            "label": "[fallback: C-W]",
             "link": null,
             "nybg_herbarium_code": null,
             "holding_institutions": [],
@@ -5629,7 +5629,7 @@
           },
           {
             "id": "C-LZ",
-            "label": "C-LZ",
+            "label": "[fallback: C-LZ]",
             "link": "http://www.biphaps.uni-leipzig.de/de/sysbot/herbarium.html",
             "nybg_herbarium_code": "LZ",
             "holding_institutions": [
@@ -5659,7 +5659,7 @@
           },
           {
             "id": "C-FH",
-            "label": "C-FH",
+            "label": "[fallback: C-FH]",
             "link": "http://www.huh.harvard.edu",
             "nybg_herbarium_code": "FH",
             "holding_institutions": [
@@ -5674,7 +5674,7 @@
           },
           {
             "id": "C-HBG",
-            "label": "C-HBG",
+            "label": "[fallback: C-HBG]",
             "link": "https://www.biologie.uni-hamburg.de/HBG",
             "nybg_herbarium_code": "HBG",
             "holding_institutions": [
@@ -5689,7 +5689,7 @@
           },
           {
             "id": "C-L",
-            "label": "C-L",
+            "label": "[fallback: C-L]",
             "link": "https://bioportal.naturalis.nl/nl",
             "nybg_herbarium_code": "L",
             "holding_institutions": [
@@ -5719,7 +5719,7 @@
           },
           {
             "id": "C-NY",
-            "label": "C-NY",
+            "label": "[fallback: C-NY]",
             "link": "http://www.nybg.org",
             "nybg_herbarium_code": "NY",
             "holding_institutions": [
@@ -5734,7 +5734,7 @@
           },
           {
             "id": "C-PC",
-            "label": "C-PC",
+            "label": "[fallback: C-PC]",
             "link": "http://colhelper.mnhn.fr/",
             "nybg_herbarium_code": "PC",
             "holding_institutions": [
@@ -5749,7 +5749,7 @@
           },
           {
             "id": "C-S",
-            "label": "C-S",
+            "label": "[fallback: C-S]",
             "link": "https://www.nrm.se/en/forskningochsamlingar/botanik.8999708.html",
             "nybg_herbarium_code": "S",
             "holding_institutions": [
@@ -5773,7 +5773,7 @@
         "in_botanical_works_by_others": [
           {
             "id": "R0002200",
-            "label": "R0002200",
+            "label": "[fallback: R0002200]",
             "link": "https://digital.slub-dresden.de/werkansicht/dlf/263658/1",
             "source": null
           },
@@ -6214,7 +6214,7 @@
         "object_evidence": [
           {
             "id": "C-GLM",
-            "label": "C-GLM",
+            "label": "[fallback: C-GLM]",
             "link": null,
             "nybg_herbarium_code": "GLM",
             "holding_institutions": [
@@ -6918,7 +6918,7 @@
         "object_evidence": [
           {
             "id": "C-GLM",
-            "label": "C-GLM",
+            "label": "[fallback: C-GLM]",
             "link": null,
             "nybg_herbarium_code": "GLM",
             "holding_institutions": [
@@ -7154,7 +7154,7 @@
           },
           {
             "id": "C-S",
-            "label": "C-S",
+            "label": "[fallback: C-S]",
             "link": "https://www.nrm.se/en/forskningochsamlingar/botanik.8999708.html",
             "nybg_herbarium_code": "S",
             "holding_institutions": [
@@ -7414,7 +7414,7 @@
         "manuscripts": [
           {
             "id": "M0008000",
-            "label": "M0008000",
+            "label": "[fallback: M0008000]",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191063",
             "signature": "Mss.B.M891",
             "archive": "Library American Philosophical Society",
@@ -7423,7 +7423,7 @@
           },
           {
             "id": "M0009000",
-            "label": "M0009000",
+            "label": "[fallback: M0009000]",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191064",
             "signature": "Mss.B.M891",
             "archive": "Library American Philosophical Society",
@@ -7432,7 +7432,7 @@
           },
           {
             "id": "M0010000",
-            "label": "M0010000",
+            "label": "[fallback: M0010000]",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191193",
             "signature": "Mss.B.M891",
             "archive": "Library American Philosophical Society",
@@ -7441,7 +7441,7 @@
           },
           {
             "id": "M0011000",
-            "label": "M0011000",
+            "label": "[fallback: M0011000]",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191066",
             "signature": "Mss.B.M891",
             "archive": "Library American Philosophical Society",
@@ -7450,7 +7450,7 @@
           },
           {
             "id": "M0012000",
-            "label": "M0012000",
+            "label": "[fallback: M0012000]",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191167",
             "signature": "Mss.B.M891",
             "archive": "Library American Philosophical Society",
@@ -7459,7 +7459,7 @@
           },
           {
             "id": "M0013000",
-            "label": "M0013000",
+            "label": "[fallback: M0013000]",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191194",
             "signature": "Mss.B.M891",
             "archive": "Library American Philosophical Society",
@@ -7468,7 +7468,7 @@
           },
           {
             "id": "M0014000",
-            "label": "M0014000",
+            "label": "[fallback: M0014000]",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191057",
             "signature": "Mss.B.M891",
             "archive": "Library American Philosophical Society",
@@ -7477,7 +7477,7 @@
           },
           {
             "id": "M0015000",
-            "label": "M0015000",
+            "label": "[fallback: M0015000]",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191062",
             "signature": "Mss.B.M891",
             "archive": "Library American Philosophical Society",
@@ -7486,7 +7486,7 @@
           },
           {
             "id": "M0016000",
-            "label": "M0016000",
+            "label": "[fallback: M0016000]",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191166",
             "signature": "Mss.B.M891",
             "archive": "Library American Philosophical Society",
@@ -7495,7 +7495,7 @@
           },
           {
             "id": "M0017000",
-            "label": "M0017000",
+            "label": "[fallback: M0017000]",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191163",
             "signature": "Mss.B.M891",
             "archive": "Library American Philosophical Society",
@@ -7504,7 +7504,7 @@
           },
           {
             "id": "M0018000",
-            "label": "M0018000",
+            "label": "[fallback: M0018000]",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191164",
             "signature": "Mss.B.M891",
             "archive": "Library American Philosophical Society",
@@ -7513,7 +7513,7 @@
           },
           {
             "id": "M0019000",
-            "label": "M0019000",
+            "label": "[fallback: M0019000]",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191208",
             "signature": "Mss.B.M891",
             "archive": "Library American Philosophical Society",
@@ -7522,7 +7522,7 @@
           },
           {
             "id": "M0020000",
-            "label": "M0020000",
+            "label": "[fallback: M0020000]",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191195",
             "signature": "Mss.B.M891",
             "archive": "Library American Philosophical Society",
@@ -7531,7 +7531,7 @@
           },
           {
             "id": "M0021000",
-            "label": "M0021000",
+            "label": "[fallback: M0021000]",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191090",
             "signature": "Mss.B.M891",
             "archive": "Library American Philosophical Society",
@@ -7540,7 +7540,7 @@
           },
           {
             "id": "M0022000",
-            "label": "M0022000",
+            "label": "[fallback: M0022000]",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191065",
             "signature": "Mss.B.M891",
             "archive": "Library American Philosophical Society",
@@ -7549,7 +7549,7 @@
           },
           {
             "id": "M0023000",
-            "label": "M0023000",
+            "label": "[fallback: M0023000]",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191165",
             "signature": "Mss.B.M891",
             "archive": "Library American Philosophical Society",
@@ -7558,7 +7558,7 @@
           },
           {
             "id": "M0024000",
-            "label": "M0024000",
+            "label": "[fallback: M0024000]",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191084",
             "signature": "Mss.B.M891",
             "archive": "Library American Philosophical Society",
@@ -7567,7 +7567,7 @@
           },
           {
             "id": "M0025000",
-            "label": "M0025000",
+            "label": "[fallback: M0025000]",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191087",
             "signature": "Mss.B.M891",
             "archive": "Library American Philosophical Society",
@@ -8302,7 +8302,7 @@
           },
           {
             "id": "C-W",
-            "label": "C-W",
+            "label": "[fallback: C-W]",
             "link": null,
             "nybg_herbarium_code": null,
             "holding_institutions": [],
@@ -8313,7 +8313,7 @@
           },
           {
             "id": "C-BRNU",
-            "label": "C-BRNU",
+            "label": "[fallback: C-BRNU]",
             "link": null,
             "nybg_herbarium_code": "BRNU",
             "holding_institutions": [
@@ -8361,7 +8361,7 @@
           },
           {
             "id": "C-NY",
-            "label": "C-NY",
+            "label": "[fallback: C-NY]",
             "link": "http://www.nybg.org",
             "nybg_herbarium_code": "NY",
             "holding_institutions": [
@@ -11512,7 +11512,7 @@
         "source": {
           "type": "print",
           "id": "R0005600",
-          "label": "R0005600",
+          "label": "[fallback: R0005600]",
           "link": "https://theologienet.nl/bestanden/boer-klaas-jan-kerkgeschiedenis-groenland.pdf"
         },
         "notes": null
@@ -11563,7 +11563,7 @@
         "object_evidence": [
           {
             "id": "C-DR (https://dr.jacq.org/DR085524)?",
-            "label": "C-DR (https://dr.jacq.org/DR085524)?",
+            "label": "[fallback: C-DR (https://dr.jacq.org/DR085524)?]",
             "link": null,
             "nybg_herbarium_code": null,
             "holding_institutions": [],
@@ -12237,7 +12237,7 @@
         "object_evidence": [
           {
             "id": "C-BRNU",
-            "label": "C-BRNU",
+            "label": "[fallback: C-BRNU]",
             "link": null,
             "nybg_herbarium_code": "BRNU",
             "holding_institutions": [
@@ -13506,7 +13506,7 @@
           },
           {
             "id": "C-HAL",
-            "label": "C-HAL",
+            "label": "[fallback: C-HAL]",
             "link": null,
             "nybg_herbarium_code": null,
             "holding_institutions": [],
@@ -13933,7 +13933,7 @@
         "in_botanical_works_by_others": [
           {
             "id": "M0002800",
-            "label": "M0002800",
+            "label": "[fallback: M0002800]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3610",
             "signature": "KUSDC3610",
             "archive": "Library and Archives at Royal Botanic Gardens, Kew",
@@ -13941,7 +13941,7 @@
           },
           {
             "id": "M0002900",
-            "label": "M0002900",
+            "label": "[fallback: M0002900]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3618",
             "signature": "KUSDC3618",
             "archive": "Library and Archives at Royal Botanic Gardens, Kew",
@@ -14475,7 +14475,7 @@
         "in_botanical_works_by_others": [
           {
             "id": "M0003000",
-            "label": "M0003000",
+            "label": "[fallback: M0003000]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc611",
             "signature": "KUSDC611",
             "archive": "Library and Archives at Royal Botanic Gardens, Kew",
@@ -15111,7 +15111,7 @@
         "source": {
           "type": "print",
           "id": "R0004100",
-          "label": "R0004100",
+          "label": "[fallback: R0004100]",
           "link": "https://id.erudit.org/iderudit/nflds32_2art05"
         },
         "notes": null
@@ -15145,7 +15145,7 @@
         "source": {
           "type": "print",
           "id": "R0004100",
-          "label": "R0004100",
+          "label": "[fallback: R0004100]",
           "link": "https://id.erudit.org/iderudit/nflds32_2art05"
         }
       }
@@ -16115,7 +16115,7 @@
         "label": ": Lebensbeschreibung von Heinrich August Jäschke",
         "link": null,
         "signature": "R.22.50.17",
-        "archive": "Unitätsarchiv Herrnhut Germany",
+        "archive": "[fallback: A0000100]",
         "archive_abbreviation": "UA",
         "source": null
       }
@@ -16150,7 +16150,7 @@
         "object_evidence": [
           {
             "id": "C-WU",
-            "label": "C-WU",
+            "label": "[fallback: C-WU]",
             "link": null,
             "nybg_herbarium_code": null,
             "holding_institutions": [],
@@ -16210,7 +16210,7 @@
         "in_botanical_works_by_others": [
           {
             "id": "M0003100",
-            "label": "M0003100",
+            "label": "[fallback: M0003100]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kdcas4988",
             "signature": "KDCAS4988",
             "archive": "Library and Archives at Royal Botanic Gardens, Kew",
@@ -16218,7 +16218,7 @@
           },
           {
             "id": "M0003200",
-            "label": "M0003200",
+            "label": "[fallback: M0003200]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kdcas5632",
             "signature": "KDCAS5632",
             "archive": "Library and Archives at Royal Botanic Gardens, Kew",
@@ -17051,7 +17051,7 @@
         "object_evidence": [
           {
             "id": "C-M",
-            "label": "C-M",
+            "label": "[fallback: C-M]",
             "link": "http://www.botanischestaatssammlung.de",
             "nybg_herbarium_code": "M",
             "holding_institutions": [],
@@ -17182,7 +17182,7 @@
       },
       "location": {
         "id": "L0000400",
-        "label": "L0000400",
+        "label": "[fallback: L0000400]",
         "link": null,
         "source": null,
         "notes": null
@@ -18669,7 +18669,7 @@
         "object_evidence": [
           {
             "id": "C-MEL",
-            "label": "C-MEL",
+            "label": "[fallback: C-MEL]",
             "link": "https://avh.ala.org.au/occurrences/search?q=collection_uid%3Aco54#tab_recordsView",
             "nybg_herbarium_code": "MEL",
             "holding_institutions": [],
@@ -18841,7 +18841,7 @@
         "object_evidence": [
           {
             "id": "C-GLM",
-            "label": "C-GLM",
+            "label": "[fallback: C-GLM]",
             "link": null,
             "nybg_herbarium_code": "GLM",
             "holding_institutions": [
@@ -19955,7 +19955,7 @@
         "in_botanical_works_by_others": [
           {
             "id": "M0001300",
-            "label": "M0001300",
+            "label": "[fallback: M0001300]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3613",
             "signature": "KUSDC3613",
             "archive": "Library and Archives at Royal Botanic Gardens, Kew",
@@ -19963,7 +19963,7 @@
           },
           {
             "id": "M0002800",
-            "label": "M0002800",
+            "label": "[fallback: M0002800]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3610",
             "signature": "KUSDC3610",
             "archive": "Library and Archives at Royal Botanic Gardens, Kew",
@@ -22559,7 +22559,7 @@
         "object_evidence": [
           {
             "id": "C-WIS",
-            "label": "C-WIS",
+            "label": "[fallback: C-WIS]",
             "link": null,
             "nybg_herbarium_code": null,
             "holding_institutions": [],
@@ -23581,7 +23581,7 @@
           "label": "Philipp Christian Gottlieb Reuter: 1758",
           "link": "https://www.moravianchurcharchives.findbuch.net/pics/X.._Memoirs._~MemBeth._~MemBeth_238_1001.jpg",
           "signature": "MemBeth 0238",
-          "archive": "A0000200"
+          "archive": "[fallback: A0000200]"
         },
         "notes": null
       }
@@ -23705,7 +23705,7 @@
         "source": {
           "type": "print",
           "id": "R0004100",
-          "label": "R0004100",
+          "label": "[fallback: R0004100]",
           "link": "https://id.erudit.org/iderudit/nflds32_2art05"
         },
         "notes": null
@@ -23720,7 +23720,7 @@
         "source": {
           "type": "print",
           "id": "R0004100",
-          "label": "R0004100",
+          "label": "[fallback: R0004100]",
           "link": "https://id.erudit.org/iderudit/nflds32_2art05"
         },
         "notes": null
@@ -24941,7 +24941,7 @@
           "source": {
             "type": "print",
             "id": "R0000900",
-            "label": "R0000900",
+            "label": "[fallback: R0000900]",
             "link": "https://books.google.de/books?id=JahRpKlMip0C&hl=de&pg=PP6#v=onepage&q&f=false"
           }
         }
@@ -25875,7 +25875,7 @@
         "object_evidence": [
           {
             "id": "C-GLM",
-            "label": "C-GLM",
+            "label": "[fallback: C-GLM]",
             "link": null,
             "nybg_herbarium_code": "GLM",
             "holding_institutions": [
@@ -26032,7 +26032,7 @@
         "manuscripts": [
           {
             "id": "M0002300",
-            "label": "M0002300",
+            "label": "[fallback: M0002300]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kmdc1163",
             "signature": "KMDC1163",
             "archive": "Library and Archives at Royal Botanic Gardens, Kew",
@@ -26446,10 +26446,10 @@
         "manuscripts": [
           {
             "id": "M0003300",
-            "label": "M0003300",
+            "label": "[fallback: M0003300]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.linnsoc-jes-add-99",
             "signature": "LINNSOC-JES-ADD-99",
-            "archive": "A0000400",
+            "archive": "[fallback: A0000400]",
             "source": null
           }
         ],
@@ -27287,7 +27287,7 @@
           },
           {
             "id": "C-GLM",
-            "label": "C-GLM",
+            "label": "[fallback: C-GLM]",
             "link": null,
             "nybg_herbarium_code": "GLM",
             "holding_institutions": [
@@ -27542,7 +27542,7 @@
           "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
           "link": null,
           "signature": "Dienerblätter Se-U",
-          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive": "[fallback: A0000100]",
           "archive_abbreviation": "UA"
         },
         "notes": null
@@ -27557,7 +27557,7 @@
           "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
           "link": null,
           "signature": "Dienerblätter Se-U",
-          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive": "[fallback: A0000100]",
           "archive_abbreviation": "UA"
         },
         "notes": null
@@ -27572,7 +27572,7 @@
           "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
           "link": null,
           "signature": "Dienerblätter Se-U",
-          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive": "[fallback: A0000100]",
           "archive_abbreviation": "UA"
         },
         "notes": null
@@ -27587,7 +27587,7 @@
           "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
           "link": null,
           "signature": "Dienerblätter Se-U",
-          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive": "[fallback: A0000100]",
           "archive_abbreviation": "UA"
         },
         "notes": null
@@ -27600,7 +27600,7 @@
         "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
         "link": null,
         "signature": "Dienerblätter Se-U",
-        "archive": "Unitätsarchiv Herrnhut Germany",
+        "archive": "[fallback: A0000100]",
         "archive_abbreviation": "UA",
         "source": null
       }
@@ -27638,7 +27638,7 @@
           "label": "Franz Ferdinand Thrän: \"Spring Gardens die Missionsgebäude in St. John's. 1832\"",
           "link": "https://www.unitaetsarchiv.findbuch.net/pics/B.._Grafik%20f%C3%BCr%20Augias._~TS%20f%C3%BCr%20Augias._~Bd_21_051-.jpg",
           "signature": "TS.Bd.21.51",
-          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive": "[fallback: A0000100]",
           "archive_abbreviation": "UA",
           "source": null
         }
@@ -28516,7 +28516,7 @@
           "source": {
             "type": "print",
             "id": "R0003800",
-            "label": "R0003800",
+            "label": "[fallback: R0003800]",
             "link": "https://www.zobodat.at/pdf/Fauna-Flora-Rheinland-Pfalz_14_1583-1599.pdf"
           }
         },
@@ -28871,7 +28871,7 @@
           },
           {
             "id": "C-GJO",
-            "label": "C-GJO",
+            "label": "[fallback: C-GJO]",
             "link": "http://www.museum-joanneum.at/botanik",
             "nybg_herbarium_code": "GJO",
             "holding_institutions": [
@@ -29665,7 +29665,7 @@
         "source": {
           "type": "print",
           "id": "R0004100",
-          "label": "R0004100",
+          "label": "[fallback: R0004100]",
           "link": "https://id.erudit.org/iderudit/nflds32_2art05"
         },
         "notes": null
@@ -29680,7 +29680,7 @@
         "source": {
           "type": "print",
           "id": "R0004100",
-          "label": "R0004100",
+          "label": "[fallback: R0004100]",
           "link": "https://id.erudit.org/iderudit/nflds32_2art05"
         },
         "notes": null
@@ -29818,7 +29818,7 @@
         "source": {
           "type": "print",
           "id": "R0004100",
-          "label": "R0004100",
+          "label": "[fallback: R0004100]",
           "link": "https://id.erudit.org/iderudit/nflds32_2art05"
         },
         "notes": null
@@ -29833,7 +29833,7 @@
         "source": {
           "type": "print",
           "id": "R0004100",
-          "label": "R0004100",
+          "label": "[fallback: R0004100]",
           "link": "https://id.erudit.org/iderudit/nflds32_2art05"
         },
         "notes": null
@@ -30028,7 +30028,7 @@
         "in_botanical_works_by_others": [
           {
             "id": "M0001000",
-            "label": "M0001000",
+            "label": "[fallback: M0001000]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3648",
             "signature": "KUSDC3648",
             "archive": "Library and Archives at Royal Botanic Gardens, Kew",
@@ -30036,7 +30036,7 @@
           },
           {
             "id": "M0001200",
-            "label": "M0001200",
+            "label": "[fallback: M0001200]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3647",
             "signature": "KUSDC3647",
             "archive": "Library and Archives at Royal Botanic Gardens, Kew",
@@ -30172,7 +30172,7 @@
         "object_evidence": [
           {
             "id": "C-J",
-            "label": "C-J",
+            "label": "[fallback: C-J]",
             "link": null,
             "nybg_herbarium_code": "J",
             "holding_institutions": [],
@@ -30183,7 +30183,7 @@
           },
           {
             "id": "C-GLM",
-            "label": "C-GLM",
+            "label": "[fallback: C-GLM]",
             "link": null,
             "nybg_herbarium_code": "GLM",
             "holding_institutions": [
@@ -30341,7 +30341,7 @@
         "object_evidence": [
           {
             "id": "C-BRNU",
-            "label": "C-BRNU",
+            "label": "[fallback: C-BRNU]",
             "link": null,
             "nybg_herbarium_code": "BRNU",
             "holding_institutions": [
@@ -30481,7 +30481,7 @@
           "source": {
             "type": "print",
             "id": "R0003800",
-            "label": "R0003800",
+            "label": "[fallback: R0003800]",
             "link": "https://www.zobodat.at/pdf/Fauna-Flora-Rheinland-Pfalz_14_1583-1599.pdf"
           }
         }
@@ -30650,7 +30650,7 @@
         "in_botanical_works_by_others": [
           {
             "id": "M0001100",
-            "label": "M0001100",
+            "label": "[fallback: M0001100]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kldc9989",
             "signature": "KLDC9989",
             "archive": "Library and Archives at Royal Botanic Gardens, Kew",
@@ -30918,7 +30918,7 @@
         "object_evidence": [
           {
             "id": "C-J",
-            "label": "C-J",
+            "label": "[fallback: C-J]",
             "link": null,
             "nybg_herbarium_code": "J",
             "holding_institutions": [],
@@ -30936,7 +30936,7 @@
         "manuscripts": [
           {
             "id": "M0000900",
-            "label": "M0000900",
+            "label": "[fallback: M0000900]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kldc10263",
             "signature": "KLDC10263",
             "archive": "Library and Archives at Royal Botanic Gardens, Kew",
@@ -30944,26 +30944,26 @@
           },
           {
             "id": "M0001800",
-            "label": "M0001800",
+            "label": "[fallback: M0001800]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.brmt0054",
             "signature": "BRMT0054",
-            "archive": "A0000500",
+            "archive": "[fallback: A0000500]",
             "source": null
           },
           {
             "id": "M0002100",
-            "label": "M0002100",
+            "label": "[fallback: M0002100]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.brmt0004",
             "signature": "BRMT0004",
-            "archive": "A0000500",
+            "archive": "[fallback: A0000500]",
             "source": null
           },
           {
             "id": "M0002200",
-            "label": "M0002200",
+            "label": "[fallback: M0002200]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.brmt0004",
             "signature": "BRMT0004",
-            "archive": "A0000500",
+            "archive": "[fallback: A0000500]",
             "source": null
           }
         ],
@@ -30973,10 +30973,10 @@
         "in_botanical_works_by_others": [
           {
             "id": "M0002100",
-            "label": "M0002100",
+            "label": "[fallback: M0002100]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.brmt0004",
             "signature": "BRMT0004",
-            "archive": "A0000500",
+            "archive": "[fallback: A0000500]",
             "source": null
           }
         ]

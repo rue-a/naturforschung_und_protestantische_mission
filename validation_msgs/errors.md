@@ -5495,6 +5495,12 @@ kalmückischen Sprache`
 
 ## Archive
 
+### A0000100
+
+- [ ] **Name** (A0000100):
+  - Error Message: **`Invalid Reference Document value: Germany (should be URL, R-ID, or M-ID)`**
+  - Causing raw value: `Unitätsarchiv Herrnhut (Germany)`
+
 ### A0000200
 
 - [ ] **Name** (A0000200):
