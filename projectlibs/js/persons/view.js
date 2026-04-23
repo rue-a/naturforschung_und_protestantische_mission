@@ -486,8 +486,7 @@ function _workList(items) {
 /** Inline location text + Wikidata icon link. */
 function _locationLink(label, href, source) {
 	const wrap = document.createElement("span");
-	wrap.className = "meta-location-link";
-	wrap.appendChild(_sourcedText(label, source));
+	wrap.appendChild(_sourcedText(label + " ", source));
 	wrap.appendChild(_wikidataIconLink(href));
 	return wrap;
 }

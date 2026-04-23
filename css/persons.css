@@ -259,12 +259,6 @@ li.selected .person-list-id {
 }
 
 /* Location links with inline wikidata icon */
-.meta-location-link {
-	display: inline-flex;
-	align-items: center;
-	gap: 3px;
-}
-
 .wikidata-icon {
 	width: 18px;
 	height: 12px;
