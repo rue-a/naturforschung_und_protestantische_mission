@@ -95,7 +95,12 @@ class Registry:
         obj = self._archives.get(raw)
         label = getattr(getattr(obj, "name", None), "value", None) if obj else None
         link = getattr(getattr(obj, "link", None), "url", None) if obj else None
-        return self._ref(raw, label, link)
+        abbrevs = getattr(obj, "abbreviations", []) if obj else []
+        abbrev = getattr(abbrevs[0], "value", None) if abbrevs else None
+        result = self._ref(raw, label, link)
+        if abbrev:
+            result["abbreviation"] = abbrev
+        return result
 
     def resolve_manuscript(self, id_obj) -> dict | None:
         raw = self._id_str(id_obj)
@@ -104,7 +109,22 @@ class Registry:
         obj = self._manuscripts.get(raw)
         label = getattr(getattr(obj, "title", None), "value", None) if obj else None
         link = getattr(getattr(obj, "permalink", None), "url", None) if obj else None
-        return self._ref(raw, label, link)
+        signature = (
+            getattr(getattr(obj, "signature", None), "value", None) if obj else None
+        )
+        archive_ref = (
+            self.resolve_archive(getattr(obj, "archive", None)) if obj else None
+        )
+        archive_label = archive_ref.get("label") if archive_ref else None
+        archive_abbrev = archive_ref.get("abbreviation") if archive_ref else None
+        result = self._ref(raw, label, link)
+        if signature:
+            result["signature"] = signature
+        if archive_label:
+            result["archive"] = archive_label
+        if archive_abbrev:
+            result["archive_abbreviation"] = archive_abbrev
+        return result
 
     def resolve_literature(self, id_obj) -> dict | None:
         raw = self._id_str(id_obj)

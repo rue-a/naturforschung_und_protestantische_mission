@@ -456,48 +456,72 @@
             "id": "M0003900",
             "label": "Albertinis Eintrag im Stammbuch von Lind aus der Brüdergemeine Sarepta",
             "link": "http://kalliope-verbund.info/DE-611-HS-2419424",
+            "signature": "Mscr.Dresd.App.2789, Bl.142r",
+            "archive": "A0000600",
+            "archive_abbreviation": "SLUB",
             "source": null
           },
           {
             "id": "M0003400",
             "label": "M0003400",
             "link": null,
+            "signature": "NB.VI.63.i.",
+            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive_abbreviation": "UA",
             "source": null
           },
           {
             "id": "M0003500",
             "label": "M0003500",
             "link": null,
+            "signature": "Cim.II.19",
+            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive_abbreviation": "UA",
             "source": null
           },
           {
             "id": "M0003600",
             "label": "M0003600",
             "link": null,
+            "signature": "Cim.II.20",
+            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive_abbreviation": "UA",
             "source": null
           },
           {
             "id": "M0003700",
             "label": "M0003700",
             "link": null,
+            "signature": "Cim.II8",
+            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive_abbreviation": "UA",
             "source": null
           },
           {
             "id": "M0003800",
             "label": "M0003800",
             "link": null,
+            "signature": "Cim.II9",
+            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive_abbreviation": "UA",
             "source": null
           },
           {
             "id": "M0004500",
             "label": "M0004500",
             "link": null,
+            "signature": "Cim.II.11",
+            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive_abbreviation": "UA",
             "source": null
           },
           {
             "id": "M0005300",
             "label": "J.B.v. Albertini: Flora Gnadenfreisensis, o.O.,",
             "link": null,
+            "signature": "Cim.II.16",
+            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive_abbreviation": "UA",
             "source": null
           }
         ],
@@ -2513,6 +2537,8 @@
             "id": "M0000800",
             "label": "M0000800",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kadc3987",
+            "signature": "KADC3987",
+            "archive": "Library and Archives at Royal Botanic Gardens, Kew",
             "source": null
           }
         ],
@@ -2524,24 +2550,32 @@
             "id": "M0001100",
             "label": "M0001100",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kldc9989",
+            "signature": "KLDC9989",
+            "archive": "Library and Archives at Royal Botanic Gardens, Kew",
             "source": null
           },
           {
             "id": "M0001200",
             "label": "M0001200",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3647",
+            "signature": "KUSDC3647",
+            "archive": "Library and Archives at Royal Botanic Gardens, Kew",
             "source": null
           },
           {
             "id": "M0001300",
             "label": "M0001300",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3613",
+            "signature": "KUSDC3613",
+            "archive": "Library and Archives at Royal Botanic Gardens, Kew",
             "source": null
           },
           {
             "id": "M0001400",
             "label": "M0001400",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3664",
+            "signature": "KUSDC3664",
+            "archive": "Library and Archives at Royal Botanic Gardens, Kew",
             "source": null
           }
         ]
@@ -3640,7 +3674,10 @@
           "type": "manuscript",
           "id": "M0004000",
           "label": "Lebenslauf Johann Jacob Bossart",
-          "link": null
+          "link": null,
+          "signature": "R.22.27.07",
+          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive_abbreviation": "UA"
         },
         "notes": null
       },
@@ -3652,7 +3689,10 @@
           "type": "manuscript",
           "id": "M0004000",
           "label": "Lebenslauf Johann Jacob Bossart",
-          "link": null
+          "link": null,
+          "signature": "R.22.27.07",
+          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive_abbreviation": "UA"
         },
         "notes": null
       }
@@ -3664,7 +3704,10 @@
           "type": "manuscript",
           "id": "M0004000",
           "label": "Lebenslauf Johann Jacob Bossart",
-          "link": null
+          "link": null,
+          "signature": "R.22.27.07",
+          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive_abbreviation": "UA"
         },
         "notes": null
       },
@@ -3676,7 +3719,10 @@
           "type": "manuscript",
           "id": "M0004000",
           "label": "Lebenslauf Johann Jacob Bossart",
-          "link": null
+          "link": null,
+          "signature": "R.22.27.07",
+          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive_abbreviation": "UA"
         },
         "notes": null
       }
@@ -3701,7 +3747,10 @@
           "type": "manuscript",
           "id": "M0004100",
           "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
-          "link": "http://digital.slub-dresden.de/id1789541689/508"
+          "link": "http://digital.slub-dresden.de/id1789541689/508",
+          "signature": "GN.A.256",
+          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive_abbreviation": "UA"
         }
       },
       {
@@ -3723,7 +3772,10 @@
           "type": "manuscript",
           "id": "M0004100",
           "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
-          "link": "http://digital.slub-dresden.de/id1789541689/508"
+          "link": "http://digital.slub-dresden.de/id1789541689/508",
+          "signature": "GN.A.256",
+          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive_abbreviation": "UA"
         }
       },
       {
@@ -3745,7 +3797,10 @@
           "type": "manuscript",
           "id": "M0004100",
           "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
-          "link": "http://digital.slub-dresden.de/id1789541689/508"
+          "link": "http://digital.slub-dresden.de/id1789541689/508",
+          "signature": "GN.A.256",
+          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive_abbreviation": "UA"
         }
       },
       {
@@ -3767,7 +3822,10 @@
           "type": "manuscript",
           "id": "M0004100",
           "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
-          "link": "http://digital.slub-dresden.de/id1789541689/508"
+          "link": "http://digital.slub-dresden.de/id1789541689/508",
+          "signature": "GN.A.256",
+          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive_abbreviation": "UA"
         }
       },
       {
@@ -3789,7 +3847,10 @@
           "type": "manuscript",
           "id": "M0004100",
           "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
-          "link": "http://digital.slub-dresden.de/id1789541689/508"
+          "link": "http://digital.slub-dresden.de/id1789541689/508",
+          "signature": "GN.A.256",
+          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive_abbreviation": "UA"
         }
       },
       {
@@ -3811,7 +3872,10 @@
           "type": "manuscript",
           "id": "M0004100",
           "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
-          "link": "http://digital.slub-dresden.de/id1789541689/508"
+          "link": "http://digital.slub-dresden.de/id1789541689/508",
+          "signature": "GN.A.256",
+          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive_abbreviation": "UA"
         }
       },
       {
@@ -3833,7 +3897,10 @@
           "type": "manuscript",
           "id": "M0004100",
           "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
-          "link": "http://digital.slub-dresden.de/id1789541689/508"
+          "link": "http://digital.slub-dresden.de/id1789541689/508",
+          "signature": "GN.A.256",
+          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive_abbreviation": "UA"
         }
       }
     ],
@@ -3842,12 +3909,18 @@
         "id": "M0004000",
         "label": "Lebenslauf Johann Jacob Bossart",
         "link": null,
+        "signature": "R.22.27.07",
+        "archive": "Unitätsarchiv Herrnhut Germany",
+        "archive_abbreviation": "UA",
         "source": null
       },
       {
         "id": "M0004100",
         "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
         "link": "http://digital.slub-dresden.de/id1789541689/508",
+        "signature": "GN.A.256",
+        "archive": "Unitätsarchiv Herrnhut Germany",
+        "archive_abbreviation": "UA",
         "source": null
       }
     ],
@@ -3867,7 +3940,10 @@
             "type": "manuscript",
             "id": "M0004200",
             "label": "Schriftwechsel mit Christian Jacob Protten|UA, R.15.N.8.1.c, no. 22.: 1762 Mart. 3. Prottens nachricht von einigen mitgebrachten2 u. übergebenen africanischen sachen",
-            "link": null
+            "link": null,
+            "signature": "R.15.N.08.1.c",
+            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive_abbreviation": "UA"
           }
         }
       ],
@@ -3927,24 +4003,36 @@
             "id": "M0000100",
             "label": "M0000100",
             "link": null,
+            "signature": "ThS.A.132.a",
+            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive_abbreviation": "UA",
             "source": null
           },
           {
             "id": "M0000200",
             "label": "M0000200",
             "link": null,
+            "signature": "Cim.V.4.",
+            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive_abbreviation": "UA",
             "source": null
           },
           {
             "id": "M0000300",
             "label": "M0000300",
             "link": null,
+            "signature": "Cim.V.5.",
+            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive_abbreviation": "UA",
             "source": null
           },
           {
             "id": "M0000400",
             "label": "Johann Jakob Bossart: Verzeichnis des Herbariums Barbiense (-); enthält: „Index alphabeticus Generum Plantarum es quibus sicca Speciminain Collectione Musei Academia Fratrum servantur“; „Index Plantarum siccarum Systematicus eo ordine, quo sunt in Fasciculis dispositae“ und „Catalogus über dem was in dem Saamen Schranck befindlich“",
             "link": null,
+            "signature": "Cim.II.4",
+            "archive": "Unitätsarchiv Herrnhut Germany",
+            "archive_abbreviation": "UA",
             "source": null
           }
         ],
@@ -3979,12 +4067,18 @@
           "id": "M0004300",
           "label": "M0004300",
           "link": "https://www.unitaetsarchiv.findbuch.net/php/view.php?link=5453x1959",
+          "signature": "TS.Bd.22.9",
+          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive_abbreviation": "UA",
           "source": null
         },
         {
           "id": "M0004400",
           "label": "M0004400",
           "link": "https://www.unitaetsarchiv.findbuch.net/php/view.php?link=5453x3083",
+          "signature": "TS.Mp.32.15",
+          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive_abbreviation": "UA",
           "source": null
         }
       ]
@@ -7203,7 +7297,8 @@
           "type": "manuscript",
           "id": "M0007000",
           "label": ": Lebensbeschreibung von Christian Friedrich Denke, o.O., 1838",
-          "link": "https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/denke-christian-friedrich/18449"
+          "link": "https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/denke-christian-friedrich/18449",
+          "signature": "God's Acre Cemetery"
         },
         "notes": null
       },
@@ -7215,7 +7310,8 @@
           "type": "manuscript",
           "id": "M0007000",
           "label": ": Lebensbeschreibung von Christian Friedrich Denke, o.O., 1838",
-          "link": "https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/denke-christian-friedrich/18449"
+          "link": "https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/denke-christian-friedrich/18449",
+          "signature": "God's Acre Cemetery"
         },
         "notes": null
       }
@@ -7227,7 +7323,8 @@
           "type": "manuscript",
           "id": "M0007000",
           "label": ": Lebensbeschreibung von Christian Friedrich Denke, o.O., 1838",
-          "link": "https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/denke-christian-friedrich/18449"
+          "link": "https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/denke-christian-friedrich/18449",
+          "signature": "God's Acre Cemetery"
         },
         "notes": null
       },
@@ -7239,7 +7336,8 @@
           "type": "manuscript",
           "id": "M0007000",
           "label": ": Lebensbeschreibung von Christian Friedrich Denke, o.O., 1838",
-          "link": "https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/denke-christian-friedrich/18449"
+          "link": "https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/denke-christian-friedrich/18449",
+          "signature": "God's Acre Cemetery"
         },
         "notes": null
       }
@@ -7250,6 +7348,7 @@
         "id": "M0007000",
         "label": ": Lebensbeschreibung von Christian Friedrich Denke, o.O., 1838",
         "link": "https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/denke-christian-friedrich/18449",
+        "signature": "God's Acre Cemetery",
         "source": null
       }
     ],
@@ -7269,7 +7368,8 @@
             "type": "manuscript",
             "id": "M0007000",
             "label": ": Lebensbeschreibung von Christian Friedrich Denke, o.O., 1838",
-            "link": "https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/denke-christian-friedrich/18449"
+            "link": "https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/denke-christian-friedrich/18449",
+            "signature": "God's Acre Cemetery"
           }
         }
       ],
@@ -7316,108 +7416,162 @@
             "id": "M0008000",
             "label": "M0008000",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191063",
+            "signature": "Mss.B.M891",
+            "archive": "Library American Philosophical Society",
+            "archive_abbreviation": "APS",
             "source": null
           },
           {
             "id": "M0009000",
             "label": "M0009000",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191064",
+            "signature": "Mss.B.M891",
+            "archive": "Library American Philosophical Society",
+            "archive_abbreviation": "APS",
             "source": null
           },
           {
             "id": "M0010000",
             "label": "M0010000",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191193",
+            "signature": "Mss.B.M891",
+            "archive": "Library American Philosophical Society",
+            "archive_abbreviation": "APS",
             "source": null
           },
           {
             "id": "M0011000",
             "label": "M0011000",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191066",
+            "signature": "Mss.B.M891",
+            "archive": "Library American Philosophical Society",
+            "archive_abbreviation": "APS",
             "source": null
           },
           {
             "id": "M0012000",
             "label": "M0012000",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191167",
+            "signature": "Mss.B.M891",
+            "archive": "Library American Philosophical Society",
+            "archive_abbreviation": "APS",
             "source": null
           },
           {
             "id": "M0013000",
             "label": "M0013000",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191194",
+            "signature": "Mss.B.M891",
+            "archive": "Library American Philosophical Society",
+            "archive_abbreviation": "APS",
             "source": null
           },
           {
             "id": "M0014000",
             "label": "M0014000",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191057",
+            "signature": "Mss.B.M891",
+            "archive": "Library American Philosophical Society",
+            "archive_abbreviation": "APS",
             "source": null
           },
           {
             "id": "M0015000",
             "label": "M0015000",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191062",
+            "signature": "Mss.B.M891",
+            "archive": "Library American Philosophical Society",
+            "archive_abbreviation": "APS",
             "source": null
           },
           {
             "id": "M0016000",
             "label": "M0016000",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191166",
+            "signature": "Mss.B.M891",
+            "archive": "Library American Philosophical Society",
+            "archive_abbreviation": "APS",
             "source": null
           },
           {
             "id": "M0017000",
             "label": "M0017000",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191163",
+            "signature": "Mss.B.M891",
+            "archive": "Library American Philosophical Society",
+            "archive_abbreviation": "APS",
             "source": null
           },
           {
             "id": "M0018000",
             "label": "M0018000",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191164",
+            "signature": "Mss.B.M891",
+            "archive": "Library American Philosophical Society",
+            "archive_abbreviation": "APS",
             "source": null
           },
           {
             "id": "M0019000",
             "label": "M0019000",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191208",
+            "signature": "Mss.B.M891",
+            "archive": "Library American Philosophical Society",
+            "archive_abbreviation": "APS",
             "source": null
           },
           {
             "id": "M0020000",
             "label": "M0020000",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191195",
+            "signature": "Mss.B.M891",
+            "archive": "Library American Philosophical Society",
+            "archive_abbreviation": "APS",
             "source": null
           },
           {
             "id": "M0021000",
             "label": "M0021000",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191090",
+            "signature": "Mss.B.M891",
+            "archive": "Library American Philosophical Society",
+            "archive_abbreviation": "APS",
             "source": null
           },
           {
             "id": "M0022000",
             "label": "M0022000",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191065",
+            "signature": "Mss.B.M891",
+            "archive": "Library American Philosophical Society",
+            "archive_abbreviation": "APS",
             "source": null
           },
           {
             "id": "M0023000",
             "label": "M0023000",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191165",
+            "signature": "Mss.B.M891",
+            "archive": "Library American Philosophical Society",
+            "archive_abbreviation": "APS",
             "source": null
           },
           {
             "id": "M0024000",
             "label": "M0024000",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191084",
+            "signature": "Mss.B.M891",
+            "archive": "Library American Philosophical Society",
+            "archive_abbreviation": "APS",
             "source": null
           },
           {
             "id": "M0025000",
             "label": "M0025000",
             "link": "https://diglib.amphilsoc.org/islandora/object/text%3A191087",
+            "signature": "Mss.B.M891",
+            "archive": "Library American Philosophical Society",
+            "archive_abbreviation": "APS",
             "source": null
           }
         ],
@@ -13034,7 +13188,8 @@
             "type": "manuscript",
             "id": "M0007000",
             "label": ": Lebensbeschreibung von Christian Friedrich Denke, o.O., 1838",
-            "link": "https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/denke-christian-friedrich/18449"
+            "link": "https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/denke-christian-friedrich/18449",
+            "signature": "God's Acre Cemetery"
           }
         }
       ],
@@ -13780,12 +13935,16 @@
             "id": "M0002800",
             "label": "M0002800",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3610",
+            "signature": "KUSDC3610",
+            "archive": "Library and Archives at Royal Botanic Gardens, Kew",
             "source": null
           },
           {
             "id": "M0002900",
             "label": "M0002900",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3618",
+            "signature": "KUSDC3618",
+            "archive": "Library and Archives at Royal Botanic Gardens, Kew",
             "source": null
           }
         ]
@@ -14318,6 +14477,8 @@
             "id": "M0003000",
             "label": "M0003000",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc611",
+            "signature": "KUSDC611",
+            "archive": "Library and Archives at Royal Botanic Gardens, Kew",
             "source": null
           }
         ]
@@ -15953,6 +16114,9 @@
         "id": "M0006000",
         "label": ": Lebensbeschreibung von Heinrich August Jäschke",
         "link": null,
+        "signature": "R.22.50.17",
+        "archive": "Unitätsarchiv Herrnhut Germany",
+        "archive_abbreviation": "UA",
         "source": null
       }
     ],
@@ -16048,12 +16212,16 @@
             "id": "M0003100",
             "label": "M0003100",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kdcas4988",
+            "signature": "KDCAS4988",
+            "archive": "Library and Archives at Royal Botanic Gardens, Kew",
             "source": null
           },
           {
             "id": "M0003200",
             "label": "M0003200",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kdcas5632",
+            "signature": "KDCAS5632",
+            "archive": "Library and Archives at Royal Botanic Gardens, Kew",
             "source": null
           },
           {
@@ -18185,6 +18353,7 @@
         "id": "M0005500",
         "label": ": Lebensbeschreibung von Samuel Gottlieb Kramsch, o.O.,",
         "link": "https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/kramsch-samuel-gottlieb/26981",
+        "signature": "God's Acre Cemetery",
         "source": null
       }
     ],
@@ -19788,12 +19957,16 @@
             "id": "M0001300",
             "label": "M0001300",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3613",
+            "signature": "KUSDC3613",
+            "archive": "Library and Archives at Royal Botanic Gardens, Kew",
             "source": null
           },
           {
             "id": "M0002800",
             "label": "M0002800",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3610",
+            "signature": "KUSDC3610",
+            "archive": "Library and Archives at Royal Botanic Gardens, Kew",
             "source": null
           },
           {
@@ -23406,7 +23579,9 @@
           "type": "manuscript",
           "id": "M0027000",
           "label": "Philipp Christian Gottlieb Reuter: 1758",
-          "link": "https://www.moravianchurcharchives.findbuch.net/pics/X.._Memoirs._~MemBeth._~MemBeth_238_1001.jpg"
+          "link": "https://www.moravianchurcharchives.findbuch.net/pics/X.._Memoirs._~MemBeth._~MemBeth_238_1001.jpg",
+          "signature": "MemBeth 0238",
+          "archive": "A0000200"
         },
         "notes": null
       }
@@ -25859,6 +26034,8 @@
             "id": "M0002300",
             "label": "M0002300",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kmdc1163",
+            "signature": "KMDC1163",
+            "archive": "Library and Archives at Royal Botanic Gardens, Kew",
             "source": null
           }
         ],
@@ -26271,6 +26448,8 @@
             "id": "M0003300",
             "label": "M0003300",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.linnsoc-jes-add-99",
+            "signature": "LINNSOC-JES-ADD-99",
+            "archive": "A0000400",
             "source": null
           }
         ],
@@ -27361,7 +27540,10 @@
           "type": "manuscript",
           "id": "M0029000",
           "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
-          "link": null
+          "link": null,
+          "signature": "Dienerblätter Se-U",
+          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive_abbreviation": "UA"
         },
         "notes": null
       },
@@ -27373,7 +27555,10 @@
           "type": "manuscript",
           "id": "M0029000",
           "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
-          "link": null
+          "link": null,
+          "signature": "Dienerblätter Se-U",
+          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive_abbreviation": "UA"
         },
         "notes": null
       }
@@ -27385,7 +27570,10 @@
           "type": "manuscript",
           "id": "M0029000",
           "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
-          "link": null
+          "link": null,
+          "signature": "Dienerblätter Se-U",
+          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive_abbreviation": "UA"
         },
         "notes": null
       },
@@ -27397,7 +27585,10 @@
           "type": "manuscript",
           "id": "M0029000",
           "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
-          "link": null
+          "link": null,
+          "signature": "Dienerblätter Se-U",
+          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive_abbreviation": "UA"
         },
         "notes": null
       }
@@ -27408,6 +27599,9 @@
         "id": "M0029000",
         "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
         "link": null,
+        "signature": "Dienerblätter Se-U",
+        "archive": "Unitätsarchiv Herrnhut Germany",
+        "archive_abbreviation": "UA",
         "source": null
       }
     ],
@@ -27443,6 +27637,9 @@
           "id": "M0030000",
           "label": "Franz Ferdinand Thrän: \"Spring Gardens die Missionsgebäude in St. John's. 1832\"",
           "link": "https://www.unitaetsarchiv.findbuch.net/pics/B.._Grafik%20f%C3%BCr%20Augias._~TS%20f%C3%BCr%20Augias._~Bd_21_051-.jpg",
+          "signature": "TS.Bd.21.51",
+          "archive": "Unitätsarchiv Herrnhut Germany",
+          "archive_abbreviation": "UA",
           "source": null
         }
       ]
@@ -27551,7 +27748,10 @@
           "type": "manuscript",
           "id": "M0033000",
           "label": "Lebensbeschreibung Thrän, Heinrich Gottlieb",
-          "link": null
+          "link": null,
+          "signature": "PA. II. R. 7.13. Lebensläufe T-V. Lebenslauf Heinrich Gottlieb Thrän",
+          "archive": "Archiv der Brüdergemeine Neudietendorf",
+          "archive_abbreviation": "ABNdf"
         },
         "notes": null
       },
@@ -27563,7 +27763,10 @@
           "type": "manuscript",
           "id": "M0033000",
           "label": "Lebensbeschreibung Thrän, Heinrich Gottlieb",
-          "link": null
+          "link": null,
+          "signature": "PA. II. R. 7.13. Lebensläufe T-V. Lebenslauf Heinrich Gottlieb Thrän",
+          "archive": "Archiv der Brüdergemeine Neudietendorf",
+          "archive_abbreviation": "ABNdf"
         },
         "notes": null
       }
@@ -27575,7 +27778,10 @@
           "type": "manuscript",
           "id": "M0033000",
           "label": "Lebensbeschreibung Thrän, Heinrich Gottlieb",
-          "link": null
+          "link": null,
+          "signature": "PA. II. R. 7.13. Lebensläufe T-V. Lebenslauf Heinrich Gottlieb Thrän",
+          "archive": "Archiv der Brüdergemeine Neudietendorf",
+          "archive_abbreviation": "ABNdf"
         },
         "notes": null
       },
@@ -27587,7 +27793,10 @@
           "type": "manuscript",
           "id": "M0033000",
           "label": "Lebensbeschreibung Thrän, Heinrich Gottlieb",
-          "link": null
+          "link": null,
+          "signature": "PA. II. R. 7.13. Lebensläufe T-V. Lebenslauf Heinrich Gottlieb Thrän",
+          "archive": "Archiv der Brüdergemeine Neudietendorf",
+          "archive_abbreviation": "ABNdf"
         },
         "notes": null
       }
@@ -27598,6 +27807,9 @@
         "id": "M0033000",
         "label": "Lebensbeschreibung Thrän, Heinrich Gottlieb",
         "link": null,
+        "signature": "PA. II. R. 7.13. Lebensläufe T-V. Lebenslauf Heinrich Gottlieb Thrän",
+        "archive": "Archiv der Brüdergemeine Neudietendorf",
+        "archive_abbreviation": "ABNdf",
         "source": null
       }
     ],
@@ -29818,12 +30030,16 @@
             "id": "M0001000",
             "label": "M0001000",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3648",
+            "signature": "KUSDC3648",
+            "archive": "Library and Archives at Royal Botanic Gardens, Kew",
             "source": null
           },
           {
             "id": "M0001200",
             "label": "M0001200",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kusdc3647",
+            "signature": "KUSDC3647",
+            "archive": "Library and Archives at Royal Botanic Gardens, Kew",
             "source": null
           }
         ]
@@ -30436,6 +30652,8 @@
             "id": "M0001100",
             "label": "M0001100",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kldc9989",
+            "signature": "KLDC9989",
+            "archive": "Library and Archives at Royal Botanic Gardens, Kew",
             "source": null
           }
         ]
@@ -30720,24 +30938,32 @@
             "id": "M0000900",
             "label": "M0000900",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.kldc10263",
+            "signature": "KLDC10263",
+            "archive": "Library and Archives at Royal Botanic Gardens, Kew",
             "source": null
           },
           {
             "id": "M0001800",
             "label": "M0001800",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.brmt0054",
+            "signature": "BRMT0054",
+            "archive": "A0000500",
             "source": null
           },
           {
             "id": "M0002100",
             "label": "M0002100",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.brmt0004",
+            "signature": "BRMT0004",
+            "archive": "A0000500",
             "source": null
           },
           {
             "id": "M0002200",
             "label": "M0002200",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.brmt0004",
+            "signature": "BRMT0004",
+            "archive": "A0000500",
             "source": null
           }
         ],
@@ -30749,6 +30975,8 @@
             "id": "M0002100",
             "label": "M0002100",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.brmt0004",
+            "signature": "BRMT0004",
+            "archive": "A0000500",
             "source": null
           }
         ]

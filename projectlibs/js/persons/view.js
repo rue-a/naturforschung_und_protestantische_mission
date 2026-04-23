@@ -518,6 +518,21 @@ function _showSourcePopup(e, source) {
 	}
 	popup.appendChild(labelEl);
 
+	if (source.archive || source.signature) {
+		const detailEl = document.createElement("div");
+		detailEl.className = "source-popup-detail";
+		const parts = [];
+		if (source.archive) {
+			const archiveStr = source.archive_abbreviation
+				? `${source.archive} (${source.archive_abbreviation})`
+				: source.archive;
+			parts.push(archiveStr);
+		}
+		if (source.signature) parts.push(source.signature);
+		detailEl.textContent = parts.join(": ");
+		popup.appendChild(detailEl);
+	}
+
 	if (source.link) {
 		const a = document.createElement("a");
 		a.href = source.link;
