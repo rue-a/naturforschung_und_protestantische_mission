@@ -390,6 +390,45 @@ li.selected .person-list-id {
 	opacity: 1;
 }
 
+/* ----- Sourced data ------------------------------------------------------- */
+
+.sourced {
+	color: #7a0000;
+	cursor: pointer;
+}
+
+.sourced:hover {
+	text-decoration: underline;
+}
+
+.source-popup {
+	position: fixed;
+	background: var(--color-surface);
+	border: 1px solid var(--color-border);
+	border-radius: var(--radius);
+	padding: var(--space-sm) var(--space-md);
+	max-width: 22rem;
+	font-size: var(--font-size-sm);
+	z-index: 1000;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+	line-height: 1.5;
+}
+
+.source-popup-type {
+	font-size: var(--font-size-xs);
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	color: var(--color-muted);
+	margin-bottom: var(--space-xs);
+}
+
+.source-popup a {
+	color: var(--color-accent);
+	font-size: var(--font-size-xs);
+	display: block;
+	margin-top: var(--space-xs);
+}
+
 /* ----- Resize handles ------------------------------------------------- */
 
 .col-resize-handle {

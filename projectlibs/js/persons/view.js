@@ -155,14 +155,14 @@ function _buildBirthDeathSection(person) {
 		row.appendChild(lbl);
 
 		if (event.date?.label) {
-			row.appendChild(document.createTextNode(event.date.label));
+			row.appendChild(_sourcedText(event.date.label, event.date.source));
 		}
 		if (event.location?.label) {
 			row.appendChild(document.createTextNode(" · "));
 			row.appendChild(
 				event.location.link
-					? _locationLink(event.location.label, event.location.link)
-					: document.createTextNode(event.location.label)
+					? _locationLink(event.location.label, event.location.link, event.location.source)
+					: _sourcedText(event.location.label, event.location.source)
 			);
 		}
 		sec.appendChild(row);
@@ -214,7 +214,7 @@ function _buildMoraviansSection(person) {
 	const ul = document.createElement("ul");
 	for (const m of items) {
 		const li = document.createElement("li");
-		li.textContent = m.label;
+		li.appendChild(_sourcedText(m.label, m.source));
 		ul.appendChild(li);
 	}
 	sec.appendChild(ul);
@@ -259,7 +259,8 @@ function _buildContactSection(person) {
 			// temporal is not in current data but guard for future use
 			const temporal = p.temporal?.label;
 			const text = temporal ? `${p.label ?? p.id} (${temporal})` : (p.label ?? p.id);
-			li.appendChild(document.createTextNode(text + " "));
+			li.appendChild(_sourcedText(text, p.source));
+			li.appendChild(document.createTextNode(" "));
 			if (p.link) li.appendChild(_wikidataIconLink(p.link));
 			ul.appendChild(li);
 		}
@@ -328,7 +329,7 @@ function _buildCollectionsSection(person) {
 		ul.className = "works-list";
 		for (const c of items) {
 			const li = document.createElement("li");
-			li.appendChild(document.createTextNode(c.label ?? c.id));
+			li.appendChild(_sourcedText(c.label ?? c.id, c.source));
 			if (c.nybg_herbarium_code) {
 				const code = document.createElement("span");
 				code.className = "collection-nybg";
@@ -438,7 +439,7 @@ function _personList(items) {
 	const ul = document.createElement("ul");
 	for (const p of items) {
 		const li = document.createElement("li");
-		li.appendChild(document.createTextNode(p.label ?? p.id));
+		li.appendChild(_sourcedText(p.label ?? p.id, p.source));
 		if (p.link) li.appendChild(_wikidataIconLink(p.link));
 		ul.appendChild(li);
 	}
@@ -459,7 +460,7 @@ function _workList(items) {
 			a.textContent = item.label ?? item.id;
 			li.appendChild(a);
 		} else {
-			li.textContent = item.label ?? item.id;
+			li.appendChild(_sourcedText(item.label ?? item.id, item.source));
 		}
 		ul.appendChild(li);
 	}
@@ -467,12 +468,88 @@ function _workList(items) {
 }
 
 /** Inline location text + Wikidata icon link. */
-function _locationLink(label, href) {
+function _locationLink(label, href, source) {
 	const wrap = document.createElement("span");
 	wrap.className = "meta-location-link";
-	wrap.appendChild(document.createTextNode(label));
+	wrap.appendChild(_sourcedText(label, source));
 	wrap.appendChild(_wikidataIconLink(href));
 	return wrap;
+}
+
+/**
+ * Wrap text in a dark-red clickable span that shows a source popup on click.
+ * If no source is provided, returns a plain text node.
+ */
+function _sourcedText(text, source) {
+	if (!source) return document.createTextNode(text);
+	const span = document.createElement("span");
+	span.className = "sourced";
+	span.textContent = text;
+	span.addEventListener("click", (e) => {
+		e.stopPropagation();
+		_showSourcePopup(e, source);
+	});
+	return span;
+}
+
+/** Render a fixed popup with source details near the click position. */
+function _showSourcePopup(e, source) {
+	document.querySelectorAll(".source-popup").forEach(p => p.remove());
+	const popup = document.createElement("div");
+	popup.className = "source-popup";
+
+	const typeEl = document.createElement("div");
+	typeEl.className = "source-popup-type";
+	typeEl.textContent = source.type ? `Quelle (${source.type})` : "Quelle";
+	popup.appendChild(typeEl);
+
+	const labelText = source.label ?? source.id ?? "";
+	// If the label itself looks like a URL, make it a link
+	const labelEl = document.createElement("div");
+	if (/^https?:\/\//i.test(labelText)) {
+		const a = document.createElement("a");
+		a.href = labelText;
+		a.target = "_blank";
+		a.rel = "noopener noreferrer";
+		a.textContent = labelText;
+		labelEl.appendChild(a);
+	} else {
+		labelEl.textContent = labelText;
+	}
+	popup.appendChild(labelEl);
+
+	if (source.link) {
+		const a = document.createElement("a");
+		a.href = source.link;
+		a.target = "_blank";
+		a.rel = "noopener noreferrer";
+		a.textContent = "↗ Quelle öffnen";
+		popup.appendChild(a);
+	}
+
+	popup.style.top = (e.clientY + 10) + "px";
+	popup.style.left = (e.clientX + 10) + "px";
+	document.body.appendChild(popup);
+
+	// Clamp to viewport
+	requestAnimationFrame(() => {
+		const r = popup.getBoundingClientRect();
+		if (r.right > window.innerWidth - 10)
+			popup.style.left = (window.innerWidth - r.width - 10) + "px";
+		if (r.bottom > window.innerHeight - 10)
+			popup.style.top = (e.clientY - r.height - 10) + "px";
+	});
+
+	// Close on outside click
+	setTimeout(() => {
+		const close = (ev) => {
+			if (!popup.contains(ev.target)) {
+				popup.remove();
+				document.removeEventListener("click", close);
+			}
+		};
+		document.addEventListener("click", close);
+	}, 0);
 }
 
 /** Small Wikidata icon wrapped in an external link. */
