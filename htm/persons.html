@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Personenregister — Herrnhuter Naturforschende</title>
+	<link rel="stylesheet" href="../css/base.css" />
+	<link rel="stylesheet" href="../css/persons.css" />
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+
+<body class="persons-page">
+
+	<header class="site-header">
+		<span class="site-title">Herrnhuter Naturforschende</span>
+		<nav>
+			<a href="../index.html">Start</a>
+			<a href="persons.html" class="active">Personenregister</a>
+			<a href="locations.html">Orte</a>
+		</nav>
+	</header>
+
+	<div class="persons-layout">
+
+		<!-- Left: search + person list -->
+		<aside class="search-panel">
+			<div class="search-box">
+				<input type="search" id="person-search" placeholder="Person suchen …" autocomplete="off" />
+			</div>
+			<ul id="person-list"></ul>
+		</aside>
+
+		<!-- Middle: collections, works, citations -->
+		<main class="content-area" id="content-area">
+			<p class="placeholder-text">Wähle eine Person aus der Liste.</p>
+		</main>
+
+		<!-- Right: metadata panel + trajectory map -->
+		<div class="right-panel">
+			<aside class="meta-panel" id="meta-panel">
+				<p class="placeholder-text">Wähle eine Person aus der Liste.</p>
+			</aside>
+			<section class="trajectory-section">
+				<div id="trajectory-map"></div>
+			</section>
+		</div>
+
+	</div>
+
+	<footer class="site-footer"></footer>
+
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+	<script src="../projectlibs/js/persons/model.js"></script>
+	<script src="../projectlibs/js/persons/view.js"></script>
+	<script src="../projectlibs/js/persons/map.js"></script>
+	<script src="../projectlibs/js/persons/controller.js"></script>
+
+</body>
+
+</html>

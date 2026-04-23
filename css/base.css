@@ -1,0 +1,138 @@
+/* =====================================================
+   base.css  —  shared design tokens, reset, header, footer
+   ===================================================== */
+
+:root {
+	/* Colour palette */
+	--color-bg: #f5f0e8;
+	/* ivory page background  */
+	--color-surface: #ffffff;
+	/* card / panel surface   */
+	--color-border: #d8d2c8;
+	/* subtle dividers        */
+	--color-text: #1e1e1e;
+	/* primary text           */
+	--color-muted: #6b6b6b;
+	/* secondary / meta text  */
+	--color-accent: #2c2c2c;
+	/* links, active states   */
+	--color-dim: #b0a898;
+	/* greyed-out items       */
+
+	/* Chrome dimensions */
+	--header-height: 3.25rem;
+	--footer-height: 2.5rem;
+
+	/* Spacing scale */
+	--space-xs: 0.25rem;
+	--space-sm: 0.5rem;
+	--space-md: 1rem;
+	--space-lg: 2rem;
+	--space-xl: 3rem;
+
+	/* Misc */
+	--radius: 4px;
+
+	/* Typography */
+	--font-sans: system-ui, -apple-system, "Segoe UI", sans-serif;
+	--font-size-xs: 0.75rem;
+	/* 12 px */
+	--font-size-sm: 0.8125rem;
+	/* 13 px */
+	--font-size-base: 0.9375rem;
+	/* 15 px */
+	--font-size-lg: 1.125rem;
+	--font-size-xl: 1.375rem;
+}
+
+/* ----- Reset ------------------------------------------------------------ */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: var(--color-bg);
+	color: var(--color-text);
+	font-family: var(--font-sans);
+	font-size: var(--font-size-base);
+	line-height: 1.6;
+}
+
+a {
+	color: var(--color-accent);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	margin: 0 0 var(--space-sm);
+	line-height: 1.2;
+	font-weight: 600;
+}
+
+ul {
+	padding-left: 1.2em;
+	margin: 0;
+}
+
+li {
+	margin-bottom: var(--space-xs);
+}
+
+/* ----- Site header ------------------------------------------------------ */
+
+.site-header {
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	height: var(--header-height);
+	background: var(--color-text);
+	color: var(--color-bg);
+	display: flex;
+	align-items: center;
+	padding: 0 var(--space-lg);
+	gap: var(--space-lg);
+}
+
+.site-header .site-title {
+	font-size: var(--font-size-lg);
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	color: var(--color-bg);
+}
+
+.site-header nav {
+	display: flex;
+	gap: var(--space-md);
+}
+
+.site-header nav a {
+	color: var(--color-dim);
+	font-size: var(--font-size-sm);
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	transition: color 0.15s;
+}
+
+.site-header nav a:hover,
+.site-header nav a.active {
+	color: var(--color-bg);
+	text-decoration: none;
+}
+
+/* ----- Site footer ------------------------------------------------------ */
+
+.site-footer {
+	height: var(--footer-height);
+	background: var(--color-text);
+}
