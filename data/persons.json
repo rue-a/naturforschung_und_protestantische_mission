@@ -374,6 +374,8 @@
             "id": "C-MEL",
             "label": "C-MEL",
             "link": "https://avh.ala.org.au/occurrences/search?q=collection_uid%3Aco54#tab_recordsView",
+            "nybg_herbarium_code": "MEL",
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://www.gbif.org/occurrence/2439357615"
@@ -383,6 +385,10 @@
             "id": "C-PH",
             "label": "Herbarium PH",
             "link": "https://ansp.org/research/systematics-evolution/botany/botany-collections/",
+            "nybg_herbarium_code": "PH",
+            "holding_institutions": [
+              "Academy of Natural Sciences of Drexel University"
+            ],
             "source": {
               "type": "web",
               "label": "https://mycoportal.org/portal/collections/individual/index.php?occid=6053170"
@@ -392,6 +398,10 @@
             "id": "C-L",
             "label": "C-L",
             "link": "https://bioportal.naturalis.nl/nl",
+            "nybg_herbarium_code": "L",
+            "holding_institutions": [
+              "Naturalis Biodiversity Center"
+            ],
             "source": {
               "type": "web",
               "label": "https://bioportal.naturalis.nl/nl/specimen/L%20%200119238"
@@ -401,6 +411,10 @@
             "id": "C-DR",
             "label": "Herbarium Dresdense",
             "link": "https://tu-dresden.de/mn/biologie/botanik/herbarium",
+            "nybg_herbarium_code": "DR",
+            "holding_institutions": [
+              "Institut für Botanik, Technische Universität Dresden"
+            ],
             "source": {
               "type": "web",
               "label": "https://dr.jacq.org/DR086086"
@@ -412,6 +426,10 @@
             "id": "C-B",
             "label": "Herbarium Berolinense",
             "link": null,
+            "nybg_herbarium_code": "B",
+            "holding_institutions": [
+              "ZE Botanischer Garten und Botanisches Museum, Freie Universität Berlin"
+            ],
             "source": {
               "type": "web",
               "label": "https://www.tropicos.org/person/791"
@@ -421,6 +439,8 @@
             "id": "C-M",
             "label": "C-M",
             "link": "http://www.botanischestaatssammlung.de",
+            "nybg_herbarium_code": "M",
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://www.tropicos.org/person/791"
@@ -1181,6 +1201,10 @@
             "id": "C-P",
             "label": "Herbarium - MNHN - Museum national d'Histoire naturelle",
             "link": "http://colhelper.mnhn.fr/",
+            "nybg_herbarium_code": "P",
+            "holding_institutions": [
+              "Muséum National d'Histoire Naturelle"
+            ],
             "source": {
               "type": "web",
               "label": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p00624301"
@@ -1190,6 +1214,10 @@
             "id": "C-US",
             "label": "Herbarium Smithsonian Institution",
             "link": null,
+            "nybg_herbarium_code": "US",
+            "holding_institutions": [
+              "National Museum of Natural History, Smithsonian Institution"
+            ],
             "source": {
               "type": "web",
               "label": "http://n2t.net/ark:/65665/3e21af007-aedd-4d7e-8d0c-7e57d32063f1"
@@ -1199,6 +1227,8 @@
             "id": "C-MO",
             "label": "Missouri Botanical Garden Herbarium",
             "link": null,
+            "nybg_herbarium_code": "MO",
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://www.tropicos.org/specimen/104383803"
@@ -2350,6 +2380,10 @@
             "id": "C-DR",
             "label": "Herbarium Dresdense",
             "link": "https://tu-dresden.de/mn/biologie/botanik/herbarium",
+            "nybg_herbarium_code": "DR",
+            "holding_institutions": [
+              "Institut für Botanik, Technische Universität Dresden"
+            ],
             "source": {
               "type": "web",
               "label": "https://dr.jacq.org/DR071497"
@@ -2359,6 +2393,10 @@
             "id": "C-B",
             "label": "Herbarium Berolinense",
             "link": null,
+            "nybg_herbarium_code": "B",
+            "holding_institutions": [
+              "ZE Botanischer Garten und Botanisches Museum, Freie Universität Berlin"
+            ],
             "source": {
               "type": "web",
               "label": "https://herbarium.bgbm.org/object/B100166654"
@@ -2368,6 +2406,8 @@
             "id": "C-K",
             "label": "Herbarium Royal Botanic Gardens Kew, London",
             "link": null,
+            "nybg_herbarium_code": "K",
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "http://specimens.kew.org/herbarium/K000256243"
@@ -2377,12 +2417,16 @@
             "id": "C-P (http://coldb.mnhn.fr/catalognumber/mnhn/p/p00754368",
             "label": "C-P (http://coldb.mnhn.fr/catalognumber/mnhn/p/p00754368",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
             "source": null
           },
           {
             "id": "C-MO",
             "label": "Missouri Botanical Garden Herbarium",
             "link": null,
+            "nybg_herbarium_code": "MO",
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://www.tropicos.org/specimen/103333954"
@@ -2392,6 +2436,8 @@
             "id": "C-WU",
             "label": "C-WU",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://wu.jacq.org/WU0044609"
@@ -2401,6 +2447,10 @@
             "id": "C-BR",
             "label": "C-BR",
             "link": "http://www.botanicalcollections.be",
+            "nybg_herbarium_code": "BR",
+            "holding_institutions": [
+              "Meise Botanic Garden"
+            ],
             "source": {
               "type": "web",
               "label": "http://www.botanicalcollections.be/specimen/BR0000016776036"
@@ -2410,6 +2460,8 @@
             "id": "C-Z",
             "label": "Herbarium der Universität Zürich",
             "link": null,
+            "nybg_herbarium_code": "Z",
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://www.gbif.org/occurrence/5797199306"
@@ -2419,6 +2471,8 @@
             "id": "C-GH",
             "label": "Herbarium Harvard University",
             "link": null,
+            "nybg_herbarium_code": "GH",
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://www.gbif.org/occurrence/4074167378"
@@ -2428,6 +2482,10 @@
             "id": "C-H",
             "label": "C-H",
             "link": null,
+            "nybg_herbarium_code": "H",
+            "holding_institutions": [
+              "Finnish Museum of Natural History - Botany and Mycology Unit"
+            ],
             "source": {
               "type": "web",
               "label": "http://id.luomus.fi/HA.H7029963"
@@ -2437,6 +2495,8 @@
             "id": "C-A",
             "label": "Herbarium Harvard University",
             "link": null,
+            "nybg_herbarium_code": "A",
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://www.gbif.org/occurrence/3404186372"
@@ -2785,6 +2845,10 @@
             "id": "C-BP",
             "label": "C-BP",
             "link": null,
+            "nybg_herbarium_code": "BP",
+            "holding_institutions": [
+              "Hungarian Natural History Museum"
+            ],
             "source": {
               "type": "web",
               "label": "https://bp.jacq.org/HNHMTRA00183537"
@@ -2794,6 +2858,10 @@
             "id": "C-PRC",
             "label": "C-PRC",
             "link": null,
+            "nybg_herbarium_code": "PRC",
+            "holding_institutions": [
+              "Charles University, Prague"
+            ],
             "source": {
               "type": "web",
               "label": "https://prc.jacq.org/PRC402549"
@@ -2803,6 +2871,10 @@
             "id": "C-B",
             "label": "Herbarium Berolinense",
             "link": null,
+            "nybg_herbarium_code": "B",
+            "holding_institutions": [
+              "ZE Botanischer Garten und Botanisches Museum, Freie Universität Berlin"
+            ],
             "source": {
               "type": "web",
               "label": "http://herbarium.bgbm.org/object/B101086018"
@@ -2812,6 +2884,10 @@
             "id": "C-BRNU",
             "label": "C-BRNU",
             "link": null,
+            "nybg_herbarium_code": "BRNU",
+            "holding_institutions": [
+              "Masaryk University Brno-Bohunice"
+            ],
             "source": {
               "type": "web",
               "label": "https://brnu.jacq.org/BRNU259555"
@@ -2821,6 +2897,10 @@
             "id": "C-ERE",
             "label": "C-ERE",
             "link": null,
+            "nybg_herbarium_code": "ERE",
+            "holding_institutions": [
+              "Institute of Botany of the National Academy of Sciences of Armenia"
+            ],
             "source": {
               "type": "web",
               "label": "https://ere.jacq.org/ERE0000412"
@@ -2830,6 +2910,10 @@
             "id": "C-GJO",
             "label": "C-GJO",
             "link": "http://www.museum-joanneum.at/botanik",
+            "nybg_herbarium_code": "GJO",
+            "holding_institutions": [
+              "Universalmuseum Joanneum, Graz"
+            ],
             "source": {
               "type": "web",
               "label": "https://gjo.jacq.org/GJO0042190"
@@ -2839,6 +2923,8 @@
             "id": "C-JE",
             "label": "C-JE",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://je.jacq.org/JE00015355"
@@ -2848,6 +2934,10 @@
             "id": "C-KFTA",
             "label": "C-KFTA",
             "link": null,
+            "nybg_herbarium_code": "KFTA",
+            "holding_institutions": [
+              "Saint Petersburg S. M. Kirov Forestry Academy"
+            ],
             "source": {
               "type": "web",
               "label": "https://kfta.jacq.org/KFTA0002291"
@@ -2857,6 +2947,10 @@
             "id": "C-PI",
             "label": "Herbarium Horti Botanici Pisani",
             "link": null,
+            "nybg_herbarium_code": "PI",
+            "holding_institutions": [
+              "Dipartimento di Biologia, Università di Pisa"
+            ],
             "source": {
               "type": "web",
               "label": "https://pi.jacq.org/PI017995"
@@ -2866,6 +2960,8 @@
             "id": "C-GZU",
             "label": "C-GZU",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://gzu.jacq.org/GZU000105997"
@@ -2875,6 +2971,8 @@
             "id": "C-HAL",
             "label": "C-HAL",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://hal.jacq.org/HAL0114051"
@@ -2884,6 +2982,10 @@
             "id": "C-DR",
             "label": "Herbarium Dresdense",
             "link": "https://tu-dresden.de/mn/biologie/botanik/herbarium",
+            "nybg_herbarium_code": "DR",
+            "holding_institutions": [
+              "Institut für Botanik, Technische Universität Dresden"
+            ],
             "source": {
               "type": "web",
               "label": "https://dr.jacq.org/DR066632"
@@ -2893,6 +2995,8 @@
             "id": "C-W",
             "label": "C-W",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://w.jacq.org/W19160005974"
@@ -2902,6 +3006,8 @@
             "id": "C-WU",
             "label": "C-WU",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://wu.jacq.org/WU0068219"
@@ -3792,6 +3898,8 @@
             "id": "C-barby",
             "label": "Herbarium Barbiensis",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
             "source": null
           }
         ],
@@ -3801,6 +3909,8 @@
             "id": "C-barby",
             "label": "Herbarium Barbiensis",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
             "source": {
               "type": "print",
               "id": "R0005100",
@@ -4780,6 +4890,8 @@
             "id": "C-JE",
             "label": "C-JE",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://je.jacq.org/JE04007115"
@@ -4789,6 +4901,10 @@
             "id": "C-GLM",
             "label": "C-GLM",
             "link": null,
+            "nybg_herbarium_code": "GLM",
+            "holding_institutions": [
+              "Senckenberg Gesellschaft für Naturforschung: Senckenberg Museum für Naturkunde Görlitz"
+            ],
             "source": {
               "type": "web",
               "label": "https://id.senckenberg.de/object/sesam-920735"
@@ -4798,6 +4914,10 @@
             "id": "C-DR",
             "label": "Herbarium Dresdense",
             "link": "https://tu-dresden.de/mn/biologie/botanik/herbarium",
+            "nybg_herbarium_code": "DR",
+            "holding_institutions": [
+              "Institut für Botanik, Technische Universität Dresden"
+            ],
             "source": {
               "type": "web",
               "label": "https://dr.jacq.org/DR086314"
@@ -4807,6 +4927,8 @@
             "id": "C-MICH",
             "label": "C-MICH",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://quod.lib.umich.edu/h/herb00ic/x-612452/mich-a-612452"
@@ -4816,6 +4938,8 @@
             "id": "C-FR",
             "label": "Herbarium Frankfurt",
             "link": null,
+            "nybg_herbarium_code": "FR",
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://id.senckenberg.de/object/sesam-740110"
@@ -4825,6 +4949,10 @@
             "id": "C-B",
             "label": "Herbarium Berolinense",
             "link": null,
+            "nybg_herbarium_code": "B",
+            "holding_institutions": [
+              "ZE Botanischer Garten und Botanisches Museum, Freie Universität Berlin"
+            ],
             "source": {
               "type": "web",
               "label": "http://herbarium.bgbm.org/object/B200175754"
@@ -4834,6 +4962,10 @@
             "id": "C-GJO",
             "label": "C-GJO",
             "link": "http://www.museum-joanneum.at/botanik",
+            "nybg_herbarium_code": "GJO",
+            "holding_institutions": [
+              "Universalmuseum Joanneum, Graz"
+            ],
             "source": {
               "type": "web",
               "label": "https://gjo.jacq.org/GJO0038273"
@@ -4843,6 +4975,10 @@
             "id": "C-PI",
             "label": "Herbarium Horti Botanici Pisani",
             "link": null,
+            "nybg_herbarium_code": "PI",
+            "holding_institutions": [
+              "Dipartimento di Biologia, Università di Pisa"
+            ],
             "source": {
               "type": "web",
               "label": "https://pi.jacq.org/PI010968"
@@ -4852,6 +4988,10 @@
             "id": "C-PRC",
             "label": "C-PRC",
             "link": null,
+            "nybg_herbarium_code": "PRC",
+            "holding_institutions": [
+              "Charles University, Prague"
+            ],
             "source": {
               "type": "web",
               "label": "https://prc.jacq.org/PRC2697"
@@ -4861,6 +5001,8 @@
             "id": "C-W",
             "label": "C-W",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://w.jacq.org/W0074688"
@@ -4870,6 +5012,8 @@
             "id": "C-WU",
             "label": "C-WU",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://wu.jacq.org/WU0150325"
@@ -4879,6 +5023,10 @@
             "id": "C-NY",
             "label": "C-NY",
             "link": "http://www.nybg.org",
+            "nybg_herbarium_code": "NY",
+            "holding_institutions": [
+              "The New York Botanical Garden"
+            ],
             "source": {
               "type": "web",
               "label": "https://sweetgum.nybg.org/science/vh/specimen-details/?irn=2271499"
@@ -4888,6 +5036,10 @@
             "id": "C-S",
             "label": "C-S",
             "link": "https://www.nrm.se/en/forskningochsamlingar/botanik.8999708.html",
+            "nybg_herbarium_code": "S",
+            "holding_institutions": [
+              "Swedish Museum of Natural History"
+            ],
             "source": {
               "type": "web",
               "label": "https://www.gbif.org/occurrence/1095988263"
@@ -4897,6 +5049,8 @@
             "id": "C-MNHN",
             "label": "C-MNHN",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://www.gbif.org/occurrence/1019533469"
@@ -4906,6 +5060,10 @@
             "id": "C-BM",
             "label": "Herbarium NHM London",
             "link": null,
+            "nybg_herbarium_code": "BM",
+            "holding_institutions": [
+              "The Natural History Museum London"
+            ],
             "source": {
               "type": "web",
               "label": "https://www.gbif.org/occurrence/1055522115"
@@ -4915,6 +5073,10 @@
             "id": "C-PH",
             "label": "Herbarium PH",
             "link": "https://ansp.org/research/systematics-evolution/botany/botany-collections/",
+            "nybg_herbarium_code": "PH",
+            "holding_institutions": [
+              "Academy of Natural Sciences of Drexel University"
+            ],
             "source": {
               "type": "web",
               "label": "https://bryophyteportal.org/portal/collections/individual/index.php?occid=5884131"
@@ -4924,6 +5086,10 @@
             "id": "C-TU",
             "label": "Herbarium Tartu",
             "link": null,
+            "nybg_herbarium_code": "TU",
+            "holding_institutions": [
+              "University of Tartu"
+            ],
             "source": {
               "type": "web",
               "label": "https://www.gbif.org/occurrence/4026637778"
@@ -4933,6 +5099,10 @@
             "id": "C-G",
             "label": "Herbarium G",
             "link": null,
+            "nybg_herbarium_code": "G",
+            "holding_institutions": [
+              "Conservatoire et Jardin botaniques de la Ville de Genève"
+            ],
             "source": {
               "type": "web",
               "label": "https://collections.geneve.ch/cjbg/chg/adetail.php?id=280155"
@@ -4942,6 +5112,10 @@
             "id": "C-BR",
             "label": "C-BR",
             "link": "http://www.botanicalcollections.be",
+            "nybg_herbarium_code": "BR",
+            "holding_institutions": [
+              "Meise Botanic Garden"
+            ],
             "source": {
               "type": "web",
               "label": "http://www.botanicalcollections.be/specimen/BR0000014644313"
@@ -4951,6 +5125,8 @@
             "id": "C-KR",
             "label": "C-KR",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://www.gbif.org/occurrence/4997066506"
@@ -4960,6 +5136,10 @@
             "id": "C-TENN",
             "label": "University of Tennessee Herbarium",
             "link": "https://herbarium.utk.edu/",
+            "nybg_herbarium_code": "TENN",
+            "holding_institutions": [
+              "University of Tennessee"
+            ],
             "source": {
               "type": "web",
               "label": "https://bryophyteportal.org/portal/collections/individual/index.php?occid=6427518"
@@ -4969,6 +5149,10 @@
             "id": "C-US",
             "label": "Herbarium Smithsonian Institution",
             "link": null,
+            "nybg_herbarium_code": "US",
+            "holding_institutions": [
+              "National Museum of Natural History, Smithsonian Institution"
+            ],
             "source": {
               "type": "web",
               "label": "http://n2t.net/ark:/65665/3eb18b640-b359-42a9-a7fe-75795e5f376b"
@@ -4978,6 +5162,10 @@
             "id": "C-PI",
             "label": "Herbarium Horti Botanici Pisani",
             "link": null,
+            "nybg_herbarium_code": "PI",
+            "holding_institutions": [
+              "Dipartimento di Biologia, Università di Pisa"
+            ],
             "source": {
               "type": "web",
               "label": "https://pi.jacq.org/PI010968"
@@ -4989,6 +5177,10 @@
             "id": "C-AWH",
             "label": "Dr. Henri Van Heurck Museum",
             "link": null,
+            "nybg_herbarium_code": "AWH",
+            "holding_institutions": [
+              "Herbarium Royal Zoological Society of Antwerp"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -4998,6 +5190,10 @@
             "id": "C-B",
             "label": "Herbarium Berolinense",
             "link": null,
+            "nybg_herbarium_code": "B",
+            "holding_institutions": [
+              "ZE Botanischer Garten und Botanisches Museum, Freie Universität Berlin"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5007,6 +5203,10 @@
             "id": "C-BM",
             "label": "Herbarium NHM London",
             "link": null,
+            "nybg_herbarium_code": "BM",
+            "holding_institutions": [
+              "The Natural History Museum London"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5016,6 +5216,10 @@
             "id": "C-BP",
             "label": "C-BP",
             "link": null,
+            "nybg_herbarium_code": "BP",
+            "holding_institutions": [
+              "Hungarian Natural History Museum"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5025,6 +5229,10 @@
             "id": "C-BR",
             "label": "C-BR",
             "link": "http://www.botanicalcollections.be",
+            "nybg_herbarium_code": "BR",
+            "holding_institutions": [
+              "Meise Botanic Garden"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5034,6 +5242,10 @@
             "id": "C-BREM",
             "label": "C-BREM",
             "link": null,
+            "nybg_herbarium_code": "BREM",
+            "holding_institutions": [
+              "Übersee-Museum Bremen"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5043,6 +5255,8 @@
             "id": "C-BRSL",
             "label": "siehe WRSL",
             "link": null,
+            "nybg_herbarium_code": "BRSL",
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5052,6 +5266,10 @@
             "id": "C-C",
             "label": "C-C",
             "link": "http://samlinger.snm.ku.dk/en/dry-and-wet-collections/botany/",
+            "nybg_herbarium_code": "C",
+            "holding_institutions": [
+              "University of Copenhagen"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5061,6 +5279,10 @@
             "id": "C-FH",
             "label": "C-FH",
             "link": "http://www.huh.harvard.edu",
+            "nybg_herbarium_code": "FH",
+            "holding_institutions": [
+              "Harvard University"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5070,6 +5292,10 @@
             "id": "C-FI",
             "label": "C-FI",
             "link": "http://parlatore.msn.unifi.it/hci_italy_web.html",
+            "nybg_herbarium_code": "FI",
+            "holding_institutions": [
+              "Natural History Museum, Firenze"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5079,6 +5305,10 @@
             "id": "C-GJO",
             "label": "C-GJO",
             "link": "http://www.museum-joanneum.at/botanik",
+            "nybg_herbarium_code": "GJO",
+            "holding_institutions": [
+              "Universalmuseum Joanneum, Graz"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5088,6 +5318,10 @@
             "id": "C-GLM",
             "label": "C-GLM",
             "link": null,
+            "nybg_herbarium_code": "GLM",
+            "holding_institutions": [
+              "Senckenberg Gesellschaft für Naturforschung: Senckenberg Museum für Naturkunde Görlitz"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5097,6 +5331,10 @@
             "id": "C-HBG",
             "label": "C-HBG",
             "link": "https://www.biologie.uni-hamburg.de/HBG",
+            "nybg_herbarium_code": "HBG",
+            "holding_institutions": [
+              "University of Hamburg"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5106,6 +5344,10 @@
             "id": "C-HEID",
             "label": "C-HEID",
             "link": "https://www.botgart.cos.uni-heidelberg.de/de/sammlungen-archive/herbarium-heid",
+            "nybg_herbarium_code": "HEID",
+            "holding_institutions": [
+              "University of Heidelberg"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5115,6 +5357,10 @@
             "id": "C-IBF",
             "label": "C-IBF",
             "link": "https://www.uibk.ac.at/microbiology/mycological-collection/",
+            "nybg_herbarium_code": "IBF",
+            "holding_institutions": [
+              "Tiroler Landesmuseum"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5124,6 +5370,10 @@
             "id": "C-KIEL",
             "label": "C-KIEL",
             "link": null,
+            "nybg_herbarium_code": "KIEL",
+            "holding_institutions": [
+              "Christian-Albrechts-Universität zu Kiel"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5133,6 +5383,10 @@
             "id": "C-L",
             "label": "C-L",
             "link": "https://bioportal.naturalis.nl/nl",
+            "nybg_herbarium_code": "L",
+            "holding_institutions": [
+              "Naturalis Biodiversity Center"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5142,6 +5396,10 @@
             "id": "C-LE",
             "label": "Herbarium Komarov Botanical Institute",
             "link": "https://www.binran.ru/en/",
+            "nybg_herbarium_code": "LE",
+            "holding_institutions": [
+              "Russian Academy of Sciences"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5151,6 +5409,10 @@
             "id": "C-LUB",
             "label": "C-LUB",
             "link": null,
+            "nybg_herbarium_code": "LUB",
+            "holding_institutions": [
+              "Museum für Natur und Umwelt, Lübeck"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5160,6 +5422,10 @@
             "id": "C-LZ",
             "label": "C-LZ",
             "link": "http://www.biphaps.uni-leipzig.de/de/sysbot/herbarium.html",
+            "nybg_herbarium_code": "LZ",
+            "holding_institutions": [
+              "University of Leipzig"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5169,6 +5435,8 @@
             "id": "C-M",
             "label": "C-M",
             "link": "http://www.botanischestaatssammlung.de",
+            "nybg_herbarium_code": "M",
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5178,6 +5446,10 @@
             "id": "C-NY",
             "label": "C-NY",
             "link": "http://www.nybg.org",
+            "nybg_herbarium_code": "NY",
+            "holding_institutions": [
+              "The New York Botanical Garden"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5187,6 +5459,10 @@
             "id": "C-P",
             "label": "Herbarium - MNHN - Museum national d'Histoire naturelle",
             "link": "http://colhelper.mnhn.fr/",
+            "nybg_herbarium_code": "P",
+            "holding_institutions": [
+              "Muséum National d'Histoire Naturelle"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5196,6 +5472,10 @@
             "id": "C-PC",
             "label": "C-PC",
             "link": "http://colhelper.mnhn.fr/",
+            "nybg_herbarium_code": "PC",
+            "holding_institutions": [
+              "Muséum National d'Histoire Naturelle"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5205,6 +5485,10 @@
             "id": "C-S",
             "label": "C-S",
             "link": "https://www.nrm.se/en/forskningochsamlingar/botanik.8999708.html",
+            "nybg_herbarium_code": "S",
+            "holding_institutions": [
+              "Swedish Museum of Natural History"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5214,6 +5498,10 @@
             "id": "C-UPS",
             "label": "Herbarium des Museum of Evolution Uppsala",
             "link": "https://databas.evolutionsmuseet.uu.se/botanik/findrecords.php",
+            "nybg_herbarium_code": "UPS",
+            "holding_institutions": [
+              "Museum of Evolution, Sweden. Uppsala."
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5223,6 +5511,8 @@
             "id": "C-W",
             "label": "C-W",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5234,6 +5524,8 @@
             "id": "C-REG",
             "label": "Herbarium der Regensburgischen Botanischen Gesellschaft",
             "link": "https://www.rbg1790.de/einrichtungen.html",
+            "nybg_herbarium_code": "REG",
+            "holding_institutions": [],
             "source": {
               "type": "print",
               "id": "R0001300",
@@ -5245,6 +5537,10 @@
             "id": "C-LZ",
             "label": "C-LZ",
             "link": "http://www.biphaps.uni-leipzig.de/de/sysbot/herbarium.html",
+            "nybg_herbarium_code": "LZ",
+            "holding_institutions": [
+              "University of Leipzig"
+            ],
             "source": {
               "type": "print",
               "id": "R0001900",
@@ -5256,6 +5552,10 @@
             "id": "C-BM",
             "label": "Herbarium NHM London",
             "link": null,
+            "nybg_herbarium_code": "BM",
+            "holding_institutions": [
+              "The Natural History Museum London"
+            ],
             "source": {
               "type": "print",
               "id": "R0001900",
@@ -5267,6 +5567,10 @@
             "id": "C-FH",
             "label": "C-FH",
             "link": "http://www.huh.harvard.edu",
+            "nybg_herbarium_code": "FH",
+            "holding_institutions": [
+              "Harvard University"
+            ],
             "source": {
               "type": "print",
               "id": "R0001900",
@@ -5278,6 +5582,10 @@
             "id": "C-HBG",
             "label": "C-HBG",
             "link": "https://www.biologie.uni-hamburg.de/HBG",
+            "nybg_herbarium_code": "HBG",
+            "holding_institutions": [
+              "University of Hamburg"
+            ],
             "source": {
               "type": "print",
               "id": "R0001900",
@@ -5289,6 +5597,10 @@
             "id": "C-L",
             "label": "C-L",
             "link": "https://bioportal.naturalis.nl/nl",
+            "nybg_herbarium_code": "L",
+            "holding_institutions": [
+              "Naturalis Biodiversity Center"
+            ],
             "source": {
               "type": "print",
               "id": "R0001900",
@@ -5300,6 +5612,10 @@
             "id": "C-LE",
             "label": "Herbarium Komarov Botanical Institute",
             "link": "https://www.binran.ru/en/",
+            "nybg_herbarium_code": "LE",
+            "holding_institutions": [
+              "Russian Academy of Sciences"
+            ],
             "source": {
               "type": "print",
               "id": "R0001900",
@@ -5311,6 +5627,10 @@
             "id": "C-NY",
             "label": "C-NY",
             "link": "http://www.nybg.org",
+            "nybg_herbarium_code": "NY",
+            "holding_institutions": [
+              "The New York Botanical Garden"
+            ],
             "source": {
               "type": "print",
               "id": "R0001900",
@@ -5322,6 +5642,10 @@
             "id": "C-PC",
             "label": "C-PC",
             "link": "http://colhelper.mnhn.fr/",
+            "nybg_herbarium_code": "PC",
+            "holding_institutions": [
+              "Muséum National d'Histoire Naturelle"
+            ],
             "source": {
               "type": "print",
               "id": "R0001900",
@@ -5333,6 +5657,10 @@
             "id": "C-S",
             "label": "C-S",
             "link": "https://www.nrm.se/en/forskningochsamlingar/botanik.8999708.html",
+            "nybg_herbarium_code": "S",
+            "holding_institutions": [
+              "Swedish Museum of Natural History"
+            ],
             "source": {
               "type": "print",
               "id": "R0001900",
@@ -5794,12 +6122,20 @@
             "id": "C-GLM",
             "label": "C-GLM",
             "link": null,
+            "nybg_herbarium_code": "GLM",
+            "holding_institutions": [
+              "Senckenberg Gesellschaft für Naturforschung: Senckenberg Museum für Naturkunde Görlitz"
+            ],
             "source": null
           },
           {
             "id": "C-DR",
             "label": "Herbarium Dresdense",
             "link": "https://tu-dresden.de/mn/biologie/botanik/herbarium",
+            "nybg_herbarium_code": "DR",
+            "holding_institutions": [
+              "Institut für Botanik, Technische Universität Dresden"
+            ],
             "source": {
               "type": "web",
               "label": "https://dr.jacq.org/DR058490"
@@ -6490,6 +6826,10 @@
             "id": "C-GLM",
             "label": "C-GLM",
             "link": null,
+            "nybg_herbarium_code": "GLM",
+            "holding_institutions": [
+              "Senckenberg Gesellschaft für Naturforschung: Senckenberg Museum für Naturkunde Görlitz"
+            ],
             "source": {
               "type": "web",
               "label": "https://virtherbard.senckenberg.de/item/20536"
@@ -6499,6 +6839,10 @@
             "id": "C-kleinwelka",
             "label": "Herbarium Kleinwelka",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [
+              "Senckenberg Gesellschaft für Naturforschung: Senckenberg Museum für Naturkunde Görlitz"
+            ],
             "source": {
               "type": "web",
               "label": "https://id.senckenberg.de/object/sesam-1468906"
@@ -6705,6 +7049,10 @@
             "id": "C-UPS",
             "label": "Herbarium des Museum of Evolution Uppsala",
             "link": "https://databas.evolutionsmuseet.uu.se/botanik/findrecords.php",
+            "nybg_herbarium_code": "UPS",
+            "holding_institutions": [
+              "Museum of Evolution, Sweden. Uppsala."
+            ],
             "source": {
               "type": "web",
               "label": "https://databas.evolutionsmuseet.uu.se/botanik/browserecord.php?-action=browse&-recid=417829"
@@ -6714,6 +7062,10 @@
             "id": "C-S",
             "label": "C-S",
             "link": "https://www.nrm.se/en/forskningochsamlingar/botanik.8999708.html",
+            "nybg_herbarium_code": "S",
+            "holding_institutions": [
+              "Swedish Museum of Natural History"
+            ],
             "source": {
               "type": "web",
               "label": "https://www.gbif.org/occurrence/2618387777"
@@ -6931,6 +7283,10 @@
             "id": "C-PH",
             "label": "Herbarium PH",
             "link": "https://ansp.org/research/systematics-evolution/botany/botany-collections/",
+            "nybg_herbarium_code": "PH",
+            "holding_institutions": [
+              "Academy of Natural Sciences of Drexel University"
+            ],
             "source": {
               "type": "web",
               "label": "https://plants.jstor.org/stable/10.5555/al.ap.specimen.ph00039533"
@@ -6940,6 +7296,10 @@
             "id": "C-F",
             "label": "Herbarium Field Museum of Natural History",
             "link": null,
+            "nybg_herbarium_code": "F",
+            "holding_institutions": [
+              "Field Museum of Natural History, Chicago, Illinois, USA"
+            ],
             "source": {
               "type": "web",
               "label": "https://www.gbif.org/occurrence/1091082427"
@@ -7609,6 +7969,8 @@
             "id": "C-K",
             "label": "Herbarium Royal Botanic Gardens Kew, London",
             "link": null,
+            "nybg_herbarium_code": "K",
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "http://specimens.kew.org/Herbarium/K006251535"
@@ -7775,6 +8137,10 @@
             "id": "C-B",
             "label": "Herbarium Berolinense",
             "link": null,
+            "nybg_herbarium_code": "B",
+            "holding_institutions": [
+              "ZE Botanischer Garten und Botanisches Museum, Freie Universität Berlin"
+            ],
             "source": {
               "type": "web",
               "label": "http://herbarium.bgbm.org/object/B101277961"
@@ -7784,6 +8150,8 @@
             "id": "C-W",
             "label": "C-W",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://w.jacq.org/W20190008322"
@@ -7793,6 +8161,10 @@
             "id": "C-BRNU",
             "label": "C-BRNU",
             "link": null,
+            "nybg_herbarium_code": "BRNU",
+            "holding_institutions": [
+              "Masaryk University Brno-Bohunice"
+            ],
             "source": {
               "type": "web",
               "label": "https://brnu.jacq.org/BRNU085049"
@@ -7802,6 +8174,8 @@
             "id": "C-K",
             "label": "Herbarium Royal Botanic Gardens Kew, London",
             "link": null,
+            "nybg_herbarium_code": "K",
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "http://specimens.kew.org/herbarium/K003165104"
@@ -7811,6 +8185,8 @@
             "id": "C-GH",
             "label": "Herbarium Harvard University",
             "link": null,
+            "nybg_herbarium_code": "GH",
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "http://data.huh.harvard.edu/e9ff9417-7ebd-4f5d-9508-2829f0b3ce70/image"
@@ -7820,6 +8196,10 @@
             "id": "C-US",
             "label": "Herbarium Smithsonian Institution",
             "link": null,
+            "nybg_herbarium_code": "US",
+            "holding_institutions": [
+              "National Museum of Natural History, Smithsonian Institution"
+            ],
             "source": {
               "type": "web",
               "label": "http://n2t.net/ark:/65665/34e507432-5600-4d9a-ae59-3db4c972710c"
@@ -7829,6 +8209,10 @@
             "id": "C-NY",
             "label": "C-NY",
             "link": "http://www.nybg.org",
+            "nybg_herbarium_code": "NY",
+            "holding_institutions": [
+              "The New York Botanical Garden"
+            ],
             "source": {
               "type": "web",
               "label": "http://sweetgum.nybg.org/science/vh/specimen_details.php?irn=2091383"
@@ -11027,6 +11411,8 @@
             "id": "C-DR (https://dr.jacq.org/DR085524)?",
             "label": "C-DR (https://dr.jacq.org/DR085524)?",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
             "source": null
           }
         ],
@@ -11699,6 +12085,10 @@
             "id": "C-BRNU",
             "label": "C-BRNU",
             "link": null,
+            "nybg_herbarium_code": "BRNU",
+            "holding_institutions": [
+              "Masaryk University Brno-Bohunice"
+            ],
             "source": {
               "type": "web",
               "label": "https://brnu.jacq.org/BRNU096206"
@@ -11711,6 +12101,8 @@
             "id": "C-REG",
             "label": "Herbarium der Regensburgischen Botanischen Gesellschaft",
             "link": "https://www.rbg1790.de/einrichtungen.html",
+            "nybg_herbarium_code": "REG",
+            "holding_institutions": [],
             "source": {
               "type": "print",
               "id": "R0001300",
@@ -12948,6 +13340,10 @@
             "id": "C-B",
             "label": "Herbarium Berolinense",
             "link": null,
+            "nybg_herbarium_code": "B",
+            "holding_institutions": [
+              "ZE Botanischer Garten und Botanisches Museum, Freie Universität Berlin"
+            ],
             "source": {
               "type": "web",
               "label": "https://herbarium.bgbm.org/object/B100241502"
@@ -12957,6 +13353,8 @@
             "id": "C-HAL",
             "label": "C-HAL",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://hal.jacq.org/HAL0084109"
@@ -13360,6 +13758,8 @@
             "id": "C-K",
             "label": "Herbarium Royal Botanic Gardens Kew, London",
             "link": null,
+            "nybg_herbarium_code": "K",
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "http://specimens.kew.org/Herbarium/K005491549"
@@ -13752,6 +14152,8 @@
             "id": "C-K",
             "label": "Herbarium Royal Botanic Gardens Kew, London",
             "link": null,
+            "nybg_herbarium_code": "K",
+            "holding_institutions": [],
             "source": {
               "type": "print",
               "id": "R0004800",
@@ -15586,6 +15988,8 @@
             "id": "C-WU",
             "label": "C-WU",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://wu.jacq.org/WU0170830"
@@ -15595,6 +15999,8 @@
             "id": "C-K",
             "label": "Herbarium Royal Botanic Gardens Kew, London",
             "link": null,
+            "nybg_herbarium_code": "K",
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "http://specimens.kew.org/herbarium/K001097269"
@@ -15604,6 +16010,10 @@
             "id": "C-B",
             "label": "Herbarium Berolinense",
             "link": null,
+            "nybg_herbarium_code": "B",
+            "holding_institutions": [
+              "ZE Botanischer Garten und Botanisches Museum, Freie Universität Berlin"
+            ],
             "source": {
               "type": "web",
               "label": "https://herbarium.bgbm.org/object/B100278151"
@@ -15616,6 +16026,8 @@
             "id": "C-K",
             "label": "Herbarium Royal Botanic Gardens Kew, London",
             "link": null,
+            "nybg_herbarium_code": "K",
+            "holding_institutions": [],
             "source": {
               "type": "print",
               "id": "R0004800",
@@ -16473,6 +16885,8 @@
             "id": "C-M",
             "label": "C-M",
             "link": "http://www.botanischestaatssammlung.de",
+            "nybg_herbarium_code": "M",
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://plants.jstor.org/stable/10.5555/al.ap.specimen.m0210848"
@@ -17792,6 +18206,10 @@
             "id": "C-PH",
             "label": "Herbarium PH",
             "link": "https://ansp.org/research/systematics-evolution/botany/botany-collections/",
+            "nybg_herbarium_code": "PH",
+            "holding_institutions": [
+              "Academy of Natural Sciences of Drexel University"
+            ],
             "source": {
               "type": "web",
               "label": "https://plants.jstor.org/stable/10.5555/al.ap.specimen.ph00031379"
@@ -18084,6 +18502,8 @@
             "id": "C-MEL",
             "label": "C-MEL",
             "link": "https://avh.ala.org.au/occurrences/search?q=collection_uid%3Aco54#tab_recordsView",
+            "nybg_herbarium_code": "MEL",
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://www.gbif.org/occurrence/2436933019"
@@ -18096,6 +18516,10 @@
             "id": "C-LE",
             "label": "Herbarium Komarov Botanical Institute",
             "link": "https://www.binran.ru/en/",
+            "nybg_herbarium_code": "LE",
+            "holding_institutions": [
+              "Russian Academy of Sciences"
+            ],
             "source": {
               "type": "print",
               "id": "R0000600",
@@ -18107,6 +18531,10 @@
             "id": "C-UPS",
             "label": "Herbarium des Museum of Evolution Uppsala",
             "link": "https://databas.evolutionsmuseet.uu.se/botanik/findrecords.php",
+            "nybg_herbarium_code": "UPS",
+            "holding_institutions": [
+              "Museum of Evolution, Sweden. Uppsala."
+            ],
             "source": {
               "type": "print",
               "id": "R0000600",
@@ -18246,6 +18674,10 @@
             "id": "C-GLM",
             "label": "C-GLM",
             "link": null,
+            "nybg_herbarium_code": "GLM",
+            "holding_institutions": [
+              "Senckenberg Gesellschaft für Naturforschung: Senckenberg Museum für Naturkunde Görlitz"
+            ],
             "source": null
           }
         ],
@@ -20677,6 +21109,10 @@
             "id": "C-DR",
             "label": "Herbarium Dresdense",
             "link": "https://tu-dresden.de/mn/biologie/botanik/herbarium",
+            "nybg_herbarium_code": "DR",
+            "holding_institutions": [
+              "Institut für Botanik, Technische Universität Dresden"
+            ],
             "source": {
               "type": "web",
               "label": "https://dr.jacq.org/DR065934"
@@ -20686,6 +21122,10 @@
             "id": "C-B",
             "label": "Herbarium Berolinense",
             "link": null,
+            "nybg_herbarium_code": "B",
+            "holding_institutions": [
+              "ZE Botanischer Garten und Botanisches Museum, Freie Universität Berlin"
+            ],
             "source": {
               "type": "web",
               "label": "http://herbarium.bgbm.org/object/B100474965"
@@ -21948,6 +22388,8 @@
             "id": "C-WIS",
             "label": "C-WIS",
             "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://lichenportal.org/portal/collections/individual/index.php?occid=1309125"
@@ -25260,6 +25702,10 @@
             "id": "C-GLM",
             "label": "C-GLM",
             "link": null,
+            "nybg_herbarium_code": "GLM",
+            "holding_institutions": [
+              "Senckenberg Gesellschaft für Naturforschung: Senckenberg Museum für Naturkunde Görlitz"
+            ],
             "source": {
               "type": "web",
               "label": "https://virtherbard.senckenberg.de/item/9911"
@@ -25685,6 +26131,8 @@
             "id": "C-GH",
             "label": "Herbarium Harvard University",
             "link": null,
+            "nybg_herbarium_code": "GH",
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://plants.jstor.org/stable/10.5555/al.ap.specimen.gh00061773"
@@ -26649,6 +27097,10 @@
             "id": "C-nhmd",
             "label": "Natural History Museum of Denmark",
             "link": "https://samlinger.snm.ku.dk/en/dry-and-wet-collections/botany/",
+            "nybg_herbarium_code": null,
+            "holding_institutions": [
+              "University of Copenhagen"
+            ],
             "source": {
               "type": "web",
               "label": "https://www.gbif.org/occurrence/3760460790"
@@ -26658,6 +27110,10 @@
             "id": "C-GLM",
             "label": "C-GLM",
             "link": null,
+            "nybg_herbarium_code": "GLM",
+            "holding_institutions": [
+              "Senckenberg Gesellschaft für Naturforschung: Senckenberg Museum für Naturkunde Görlitz"
+            ],
             "source": {
               "type": "web",
               "label": "https://id.senckenberg.de/object/sesam-1454141"
@@ -28192,6 +28648,10 @@
             "id": "C-DR",
             "label": "Herbarium Dresdense",
             "link": "https://tu-dresden.de/mn/biologie/botanik/herbarium",
+            "nybg_herbarium_code": "DR",
+            "holding_institutions": [
+              "Institut für Botanik, Technische Universität Dresden"
+            ],
             "source": {
               "type": "web",
               "label": "https://dr.jacq.org/DR087866"
@@ -28201,6 +28661,10 @@
             "id": "C-GJO",
             "label": "C-GJO",
             "link": "http://www.museum-joanneum.at/botanik",
+            "nybg_herbarium_code": "GJO",
+            "holding_institutions": [
+              "Universalmuseum Joanneum, Graz"
+            ],
             "source": {
               "type": "web",
               "label": "https://gjo.jacq.org/GJO0139707"
@@ -29494,6 +29958,8 @@
             "id": "C-J",
             "label": "C-J",
             "link": null,
+            "nybg_herbarium_code": "J",
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://je.jacq.org/JE04003827"
@@ -29503,6 +29969,10 @@
             "id": "C-GLM",
             "label": "C-GLM",
             "link": null,
+            "nybg_herbarium_code": "GLM",
+            "holding_institutions": [
+              "Senckenberg Gesellschaft für Naturforschung: Senckenberg Museum für Naturkunde Görlitz"
+            ],
             "source": null
           }
         ],
@@ -29657,6 +30127,10 @@
             "id": "C-BRNU",
             "label": "C-BRNU",
             "link": null,
+            "nybg_herbarium_code": "BRNU",
+            "holding_institutions": [
+              "Masaryk University Brno-Bohunice"
+            ],
             "source": {
               "type": "web",
               "label": "https://brnu.jacq.org/BRNU084386"
@@ -29813,6 +30287,8 @@
             "id": "C-POLL",
             "label": "Pfalzmuseum für Naturkunde, Bad Dürkheim",
             "link": "https://www.pfalzmuseum.de/",
+            "nybg_herbarium_code": "POLL",
+            "holding_institutions": [],
             "source": {
               "type": "print",
               "id": "R0003400",
@@ -30226,6 +30702,8 @@
             "id": "C-J",
             "label": "C-J",
             "link": null,
+            "nybg_herbarium_code": "J",
+            "holding_institutions": [],
             "source": {
               "type": "web",
               "label": "https://je.jacq.org/JE00040658"

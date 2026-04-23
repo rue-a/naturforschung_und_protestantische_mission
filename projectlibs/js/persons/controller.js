@@ -2,7 +2,7 @@
    controller.js  —  wires model, view, and map together
    ===================================================== */
 
-// Path relative to htm/persons.html
+// Path relative to html/persons.html
 const PERSONS_DATA_URL = "../data/persons.json";
 
 let _persons = new Map();

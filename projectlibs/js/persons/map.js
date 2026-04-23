@@ -52,6 +52,7 @@ function renderTrajectory(trajectory) {
 	if (!features.length) return;
 
 	const latLngs = [];
+	const clusterGroup = L.markerClusterGroup();
 
 	for (const feature of features) {
 		const coords = feature.geometry?.coordinates;
@@ -66,7 +67,14 @@ function renderTrajectory(trajectory) {
 			(feature.time?.interval ?? []).filter(Boolean).join(" – ") ??
 			"";
 
-		const popupLines = [`<strong>${typeLabel}</strong>`, place, time].filter(Boolean);
+		const institution = feature.properties?.institution ?? "";
+		const occupation = feature.properties?.occupation ?? "";
+		const popupLines = [
+			`<strong>${typeLabel}</strong>`,
+			place,
+			time,
+			[institution, occupation].filter(Boolean).join(", "),
+		].filter(Boolean);
 
 		L.circleMarker([lat, lng], {
 			radius: 6,
@@ -76,10 +84,11 @@ function renderTrajectory(trajectory) {
 			weight: 1.5,
 		})
 			.bindPopup(popupLines.join("<br>"))
-			.addTo(map);
+			.addTo(clusterGroup);
 
 		latLngs.push([lat, lng]);
 	}
 
+	map.addLayer(clusterGroup);
 	map.fitBounds(L.latLngBounds(latLngs), { padding: [24, 24] });
 }

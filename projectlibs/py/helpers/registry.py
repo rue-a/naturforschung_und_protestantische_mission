@@ -122,7 +122,21 @@ class Registry:
         obj = self._collections.get(raw)
         label = getattr(getattr(obj, "name", None), "value", None) if obj else None
         link = getattr(getattr(obj, "website", None), "url", None) if obj else None
-        return self._ref(raw, label, link)
+        nybg = (
+            getattr(getattr(obj, "nybg_herbarium_code", None), "value", None)
+            if obj
+            else None
+        )
+        institutions = (
+            [getattr(h, "value", None) for h in obj.holding_institutions]
+            if obj and getattr(obj, "holding_institutions", None)
+            else []
+        )
+        return {
+            **self._ref(raw, label, link),
+            "nybg_herbarium_code": nybg,
+            "holding_institutions": institutions,
+        }
 
     def resolve_work(self, work_id_obj) -> dict | None:
         """WorkID wraps a LiteratureID or ManuscriptID in .document."""

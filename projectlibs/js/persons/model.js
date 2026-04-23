@@ -14,8 +14,8 @@ async function loadPersons(url) {
 	const persons = await response.json();
 
 	const sorted = persons.sort((a, b) => {
-		const na = a.name?.preferred?.label ?? "";
-		const nb = b.name?.preferred?.label ?? "";
+		const na = a.name?.surname?.label ?? a.name?.preferred?.label ?? "";
+		const nb = b.name?.surname?.label ?? b.name?.preferred?.label ?? "";
 		return na.localeCompare(nb, "de");
 	});
 

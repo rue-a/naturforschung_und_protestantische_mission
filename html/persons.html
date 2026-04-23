@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="../css/base.css" />
 	<link rel="stylesheet" href="../css/persons.css" />
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+	<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+	<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
 </head>
 
 <body class="persons-page">
@@ -36,11 +38,14 @@
 			<p class="placeholder-text">Wähle eine Person aus der Liste.</p>
 		</main>
 
+		<div class="col-resize-handle" title="Spaltenbreite ziehen"></div>
+
 		<!-- Right: metadata panel + trajectory map -->
 		<div class="right-panel">
 			<aside class="meta-panel" id="meta-panel">
 				<p class="placeholder-text">Wähle eine Person aus der Liste.</p>
 			</aside>
+			<div class="row-resize-handle" title="Höhe ziehen"></div>
 			<section class="trajectory-section">
 				<div id="trajectory-map"></div>
 			</section>
@@ -51,10 +56,12 @@
 	<footer class="site-footer"></footer>
 
 	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+	<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 	<script src="../projectlibs/js/persons/model.js"></script>
 	<script src="../projectlibs/js/persons/view.js"></script>
 	<script src="../projectlibs/js/persons/map.js"></script>
 	<script src="../projectlibs/js/persons/controller.js"></script>
+	<script src="../projectlibs/js/resize.js"></script>
 
 </body>
 

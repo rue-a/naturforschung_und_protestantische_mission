@@ -2,7 +2,7 @@
    view.js  —  render person list, metadata panel, content area
    ===================================================== */
 
-// Asset base path, relative to htm/persons.html
+// Asset base path, relative to html/persons.html
 const ASSETS = "../assets";
 
 // External link logos: key matches persons.json links object
@@ -52,14 +52,23 @@ function renderList(persons, selectedId, onSelect) {
 function renderMetaPanel(person) {
 	const panel = document.getElementById("meta-panel");
 	panel.innerHTML = "";
-	panel.appendChild(_buildNameSection(person));
-	panel.appendChild(_buildBirthDeathSection(person));
-	panel.appendChild(_buildPoESection(person));
-	panel.appendChild(_buildMoraviansSection(person));
-	panel.appendChild(_buildBotanicalInfluenceSection(person));
-	panel.appendChild(_buildRelativesSection(person));
-	panel.appendChild(_buildContactSection(person));
-	panel.appendChild(_buildLinksSection(person));
+
+	const stickyHeader = document.createElement("h2");
+	stickyHeader.className = "panel-sticky-header";
+	const preferredName = person.name?.preferred?.label ?? person.id;
+	stickyHeader.textContent = `Metadaten (${preferredName})`;
+	panel.appendChild(stickyHeader);
+
+	const body = document.createElement("div");
+	body.className = "panel-body";
+	body.appendChild(_buildBirthDeathSection(person));
+	body.appendChild(_buildPoESection(person));
+	body.appendChild(_buildMoraviansSection(person));
+	body.appendChild(_buildBotanicalInfluenceSection(person));
+	body.appendChild(_buildRelativesSection(person));
+	body.appendChild(_buildContactSection(person));
+	body.appendChild(_buildLinksSection(person));
+	panel.appendChild(body);
 }
 
 /**
@@ -69,11 +78,20 @@ function renderMetaPanel(person) {
 function renderContentArea(person) {
 	const area = document.getElementById("content-area");
 	area.innerHTML = "";
-	area.appendChild(_buildCollectionsSection(person));
-	area.appendChild(_buildBotanicalWorksSection(person));
-	area.appendChild(_buildBotanicalCitationsSection(person));
-	area.appendChild(_buildWorksSection(person));
-	area.appendChild(_buildCitationsSection(person));
+
+	const stickyHeader = document.createElement("h1");
+	stickyHeader.className = "panel-sticky-header";
+	stickyHeader.textContent = person.name?.preferred?.label ?? person.id;
+	area.appendChild(stickyHeader);
+
+	const body = document.createElement("div");
+	body.className = "panel-body";
+	body.appendChild(_buildCollectionsSection(person));
+	body.appendChild(_buildBotanicalWorksSection(person));
+	body.appendChild(_buildBotanicalCitationsSection(person));
+	body.appendChild(_buildWorksSection(person));
+	body.appendChild(_buildCitationsSection(person));
+	area.appendChild(body);
 }
 
 // ─── Metadata panel builders ─────────────────────────────────────────────────
@@ -310,15 +328,22 @@ function _buildCollectionsSection(person) {
 		ul.className = "works-list";
 		for (const c of items) {
 			const li = document.createElement("li");
+			li.appendChild(document.createTextNode(c.label ?? c.id));
+			if (c.nybg_herbarium_code) {
+				const code = document.createElement("span");
+				code.className = "collection-nybg";
+				code.textContent = ` (${c.nybg_herbarium_code})`;
+				li.appendChild(code);
+			}
 			if (c.link) {
 				const a = document.createElement("a");
 				a.href = c.link;
 				a.target = "_blank";
 				a.rel = "noopener noreferrer";
-				a.textContent = c.label ?? c.id;
+				a.className = "collection-link";
+				a.textContent = "\u2197";
+				a.setAttribute("aria-label", "Webseite öffnen");
 				li.appendChild(a);
-			} else {
-				li.textContent = c.label ?? c.id;
 			}
 			ul.appendChild(li);
 		}
