@@ -1,0 +1,314 @@
+{
+  "Q423740": {
+    "coordinates": {
+      "lat": 63.05,
+      "lon": -50.41
+    },
+    "start": "1758-01-01T00:00:00Z",
+    "end": "1950-01-01T00:00:00Z",
+    "founder": "Herrnhuter Brüdergemeine"
+  },
+  "Q1286": {
+    "coordinates": {
+      "lat": 46.578055555,
+      "lon": 8.615
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q530185": {
+    "coordinates": {
+      "lat": 51.9667595,
+      "lon": 11.8838245
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q78": {
+    "coordinates": {
+      "lat": 47.560555555,
+      "lon": 7.590555555
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q502553": {
+    "coordinates": {
+      "lat": 51.027777777,
+      "lon": 14.758333333
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q164380": {
+    "coordinates": {
+      "lat": 40.626111111,
+      "lon": -75.375555555
+    },
+    "start": "1741-01-01T00:00:00Z",
+    "end": null,
+    "founder": null
+  },
+  "Q3197288": {
+    "coordinates": {
+      "lat": 55.356667,
+      "lon": 9.483056
+    },
+    "start": "1773-01-01T00:00:00Z",
+    "end": null,
+    "founder": "Herrnhuter Brüdergemeine"
+  },
+  "Q1279760": {
+    "coordinates": {
+      "lat": 50.4847,
+      "lon": 11.6672
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q65162110": {
+    "coordinates": {
+      "lat": 51.259167,
+      "lon": 15.615833
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q986091": {
+    "coordinates": {
+      "lat": 50.68357,
+      "lon": 16.74359
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q502696": {
+    "coordinates": {
+      "lat": 50.990833333,
+      "lon": 14.793333333
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q5587251": {
+    "coordinates": {
+      "lat": 39.23,
+      "lon": -84.163
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q5695991": {
+    "coordinates": {
+      "lat": 58.2,
+      "lon": -62.626111111
+    },
+    "start": "1837-01-01T00:00:00Z",
+    "end": "1959-01-01T00:00:00Z",
+    "founder": "Herrnhuter Brüdergemeine"
+  },
+  "Q1614322": {
+    "coordinates": {
+      "lat": 50.2639,
+      "lon": 9.08333
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q165140": {
+    "coordinates": {
+      "lat": 51.016666666,
+      "lon": 14.741666666
+    },
+    "start": "1722-01-01T00:00:00Z",
+    "end": null,
+    "founder": null
+  },
+  "Q11338369": {
+    "coordinates": {
+      "lat": 55.467372222,
+      "lon": -60.203188888
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q67087304": {
+    "coordinates": {
+      "lat": 60.4675,
+      "lon": -45.355
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q159916": {
+    "coordinates": {
+      "lat": 51.21079,
+      "lon": 14.3946
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q81421": {
+    "coordinates": {
+      "lat": 48.138333333,
+      "lon": 8.421388888
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q807": {
+    "coordinates": {
+      "lat": 46.533333333,
+      "lon": 6.633333333
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q1016295": {
+    "coordinates": {
+      "lat": 60.5072,
+      "lon": -45.5378
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q520103": {
+    "coordinates": {
+      "lat": 49.716666666,
+      "lon": 7.666666666
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q131605": {
+    "coordinates": {
+      "lat": 46.669555,
+      "lon": 11.159419
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q516517": {
+    "coordinates": {
+      "lat": 49.678611111,
+      "lon": 9.004166666
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q1022937": {
+    "coordinates": {
+      "lat": 40.74038,
+      "lon": -75.30962
+    },
+    "start": "1740-01-01T00:00:00Z",
+    "end": null,
+    "founder": null
+  },
+  "Q3335210": {
+    "coordinates": {
+      "lat": 56.5422,
+      "lon": -61.6928
+    },
+    "start": "1771-01-01T00:00:00Z",
+    "end": null,
+    "founder": null
+  },
+  "Q701263": {
+    "coordinates": {
+      "lat": 50.9125,
+      "lon": 10.913333333
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q3967": {
+    "coordinates": {
+      "lat": 50.428611111,
+      "lon": 7.461388888
+    },
+    "start": "1653-01-01T00:00:00Z",
+    "end": null,
+    "founder": null
+  },
+  "Q165160": {
+    "coordinates": {
+      "lat": 51.289722222,
+      "lon": 14.83
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q7081733": {
+    "coordinates": {
+      "lat": 57.562389,
+      "lon": -61.98425
+    },
+    "start": "1776-01-01T00:00:00Z",
+    "end": "1956-01-01T00:00:00Z",
+    "founder": "Herrnhuter Brüdergemeine"
+  },
+  "silo.html": {
+    "coordinates": null,
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q849441": {
+    "coordinates": {
+      "lat": 18.3396764,
+      "lon": -64.7495816
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q36262": {
+    "coordinates": {
+      "lat": 17.121111111,
+      "lon": -61.844722222
+    },
+    "start": "1666-01-01T00:00:00Z",
+    "end": null,
+    "founder": null
+  },
+  "Q8245": {
+    "coordinates": {
+      "lat": 50.983333333,
+      "lon": 13.580833333
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q44500": {
+    "coordinates": {
+      "lat": 49.030555555,
+      "lon": 10.971944444
+    },
+    "start": "1296-01-01T00:00:00Z",
+    "end": null,
+    "founder": null
+  }
+}

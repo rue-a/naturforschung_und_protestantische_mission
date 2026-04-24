@@ -1,1681 +1,1541 @@
 {
-    "L0100000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L0100000"
-            }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Akunnaat"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q423740"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -50.41
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 63.05
-            }
-        },
-        "start": {
-            "label": "Start",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1758"
-            }
-        },
-        "founder": {
-            "label": "Founder",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "String",
-                        "value": "Herrnhuter Brüdergemeine"
-                    }
-                ]
-            }
-        },
-        "end": {
-            "label": "End",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1950"
-            }
+  "type": "FeatureCollection",
+  "conformsTo": [
+    "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "id": "L0100000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1758-01-01",
+          "1950-01-01"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.41,
+          63.05
+        ]
+      },
+      "properties": {
+        "name": "Akunnaat",
+        "variants": [
+          {
+            "name": "Lichtenfels",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q423740",
+        "description": null,
+        "founder": "Herrnhuter Brüdergemeine",
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L0150000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L0150000"
-            }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Alpen (Gebirge)"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q1286"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 8.615
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 46.57805555555556
-            }
+    {
+      "type": "Feature",
+      "id": "L0150000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.615,
+          46.578055555
+        ]
+      },
+      "properties": {
+        "name": null,
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q1286",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L0200000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L0200000"
+    {
+      "type": "Feature",
+      "id": "L0200000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.8838245,
+          51.9667595
+        ]
+      },
+      "properties": {
+        "name": "Barby",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q530185",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [
+            {
+              "id": "P0170000",
+              "name": "Johann Jakob Bossart",
+              "date": "1789-11-13"
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Barby"
+          ],
+          "places_of_effect": [
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "temporal": "1785/1788",
+              "institution": "Seminar",
+              "occupation": "Schüler"
+            },
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "temporal": "1789/1796",
+              "institution": "Pädagogium",
+              "occupation": "Lehrer"
+            },
+            {
+              "id": "P0170000",
+              "name": "Johann Jakob Bossart",
+              "temporal": "1749/1750",
+              "institution": "Seminar",
+              "occupation": null
+            },
+            {
+              "id": "P0170000",
+              "name": "Johann Jakob Bossart",
+              "temporal": "1764/1766",
+              "institution": null,
+              "occupation": null
+            },
+            {
+              "id": "P0170000",
+              "name": "Johann Jakob Bossart",
+              "temporal": "1766/1789",
+              "institution": "Seminar",
+              "occupation": "Lehrer u. Vorsteher"
             }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q530185"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 11.8838245
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 51.9667595
-            }
+          ]
         }
+      }
     },
-    "L0300000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L0300000"
+    {
+      "type": "Feature",
+      "id": "L0300000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.590555555,
+          47.560555555
+        ]
+      },
+      "properties": {
+        "name": "Basel",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q78",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0170000",
+              "name": "Johann Jakob Bossart",
+              "date": "1721-04-17"
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Basel"
+          ],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0170000",
+              "name": "Johann Jakob Bossart",
+              "temporal": "1736/1739",
+              "institution": "Universität",
+              "occupation": "Student"
             }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q78"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 7.5905555555556
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 47.560555555556
-            }
+          ]
         }
+      }
     },
-    "L0400000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L0400000"
+    {
+      "type": "Feature",
+      "id": "L0350000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Bethanien",
+        "variants": [],
+        "wikidata": null,
+        "description": "auf St. Jan",
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0535000",
+              "name": "Carl Heinrich Götz",
+              "date": "1819-04-01"
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Berthelsdorf"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q502553"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 14.758333333333
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 51.027777777778
-            }
+          ],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L0500000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L0500000"
+    {
+      "type": "Feature",
+      "id": "L0400000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.758333333,
+          51.027777777
+        ]
+      },
+      "properties": {
+        "name": "Berthelsdorf",
+        "variants": [
+          {
+            "name": "Batromjecy",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q502553",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "date": "1831-12-06"
+            },
+            {
+              "id": "P0220000",
+              "name": "Johann Christian Breutel",
+              "date": "1875-02-18"
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Bethlehem"
+          ],
+          "places_of_effect": [
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "temporal": "1821",
+              "institution": null,
+              "occupation": "Mitglied Ältestenkonferenz"
             }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q164380"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -75.375555555556
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 40.626111111111
-            }
-        },
-        "start": {
-            "label": "Start",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1741"
-            }
+          ]
         }
+      }
     },
-    "L0600000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L0600000"
+    {
+      "type": "Feature",
+      "id": "L0500000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1741-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.375555555,
+          40.626111111
+        ]
+      },
+      "properties": {
+        "name": "Bethlehem",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q164380",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0320000",
+              "name": "Christian Friedrich Denke",
+              "date": "1775-09-08"
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Christiansfeld"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q3197288"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 9.483056
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 55.356667
-            }
-        },
-        "start": {
-            "label": "Start",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1773"
-            }
-        },
-        "founder": {
-            "label": "Founder",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "String",
-                        "value": "Herrnhuter Brüdergemeine"
-                    }
-                ]
-            }
+          ],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L0700000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L0700000"
-            }
+    {
+      "type": "Feature",
+      "id": "L0600000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1773-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.483056,
+          55.356667
+        ]
+      },
+      "properties": {
+        "name": "Christiansfeld",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q3197288",
+        "description": null,
+        "founder": "Herrnhuter Brüdergemeine",
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L0800000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L0800000"
-            }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Ebersdorf"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q1279760"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 11.6672
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 50.4847
-            }
+    {
+      "type": "Feature",
+      "id": "L0700000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": null,
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L0900000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L0900000"
+    {
+      "type": "Feature",
+      "id": "L0800000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6672,
+          50.4847
+        ]
+      },
+      "properties": {
+        "name": "Ebersdorf",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q1279760",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P1595000",
+              "name": "Franz Ferdinand Thrän",
+              "date": "1791-07-08"
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Cedarhall"
-            }
+          ],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L1000000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1000000"
-            }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Gnadenberg"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q65162110"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 15.615833
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 51.259167
-            }
+    {
+      "type": "Feature",
+      "id": "L0900000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Cedarhall",
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L1100000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1100000"
+    {
+      "type": "Feature",
+      "id": "L1000000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.615833,
+          51.259167
+        ]
+      },
+      "properties": {
+        "name": "Gnadenberg",
+        "variants": [
+          {
+            "name": "Godnów",
+            "lang": ""
+          },
+          {
+            "name": "Kruszyn",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q65162110",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "temporal": "1814",
+              "institution": "Mädchenanstalt",
+              "occupation": "Prediger, Lehrer"
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Gnadenfrei"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q986091"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 16.74359
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 50.68357
-            }
+          ]
         }
+      }
     },
-    "L1101000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1101000"
+    {
+      "type": "Feature",
+      "id": "L1100000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.74359,
+          50.68357
+        ]
+      },
+      "properties": {
+        "name": "Gnadenfrei",
+        "variants": [
+          {
+            "name": "Piława Górna",
+            "lang": ""
+          },
+          {
+            "name": "Peilau",
+            "lang": ""
+          },
+          {
+            "name": "Oberpeilau",
+            "lang": ""
+          },
+          {
+            "name": "Obermittelpeilau",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q986091",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "temporal": "1818",
+              "institution": null,
+              "occupation": "Prediger"
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Gnadenfeld"
-            }
+          ]
         }
+      }
     },
-    "L1102000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1102000"
+    {
+      "type": "Feature",
+      "id": "L1101000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Gnadenfeld",
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0535000",
+              "name": "Carl Heinrich Götz",
+              "temporal": "1839",
+              "institution": "Seminarium",
+              "occupation": "Schüler"
+            },
+            {
+              "id": "P0535000",
+              "name": "Carl Heinrich Götz",
+              "temporal": "1846",
+              "institution": "Seminarium",
+              "occupation": "Lehrer"
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Gracehill"
-            }
+          ]
         }
+      }
     },
-    "L1103500": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1103500"
-            }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Großhennerdorf"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q502696"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 14.793333333333
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 50.990833333333
-            }
+    {
+      "type": "Feature",
+      "id": "L1102000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Gracehill",
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L1105000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1105000"
+    {
+      "type": "Feature",
+      "id": "L1103500",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.793333333,
+          50.990833333
+        ]
+      },
+      "properties": {
+        "name": "Großhennerdorf",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q502696",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0170000",
+              "name": "Johann Jakob Bossart",
+              "temporal": "1750/1760",
+              "institution": "Pädagogium",
+              "occupation": "Lehrer"
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Goshen"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q5587251"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -84.163
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 39.23
-            }
+          ]
         }
+      }
     },
-    "L1110000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1110000"
-            }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Hebron"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q5695991"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -62.626111111111
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 58.2
-            }
-        },
-        "start": {
-            "label": "Start",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1837"
-            }
-        },
-        "founder": {
-            "label": "Founder",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "String",
-                        "value": "Herrnhuter Brüdergemeine"
-                    }
-                ]
-            }
-        },
-        "end": {
-            "label": "End",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1959"
-            }
+    {
+      "type": "Feature",
+      "id": "L1105000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.163,
+          39.23
+        ]
+      },
+      "properties": {
+        "name": "Goshen",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q5587251",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L1115000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1115000"
-            }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Herrnhaag"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q1614322"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 9.08333
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 50.2639
-            }
+    {
+      "type": "Feature",
+      "id": "L1110000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1837-01-01",
+          "1959-01-01"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.626111111,
+          58.2
+        ]
+      },
+      "properties": {
+        "name": "Hebron",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q5695991",
+        "description": null,
+        "founder": "Herrnhuter Brüdergemeine",
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L1120000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1120000"
-            }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Herrnhut"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q165140"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 14.741666666667
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 51.016666666667
-            }
-        },
-        "start": {
-            "label": "Start",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1722"
-            }
+    {
+      "type": "Feature",
+      "id": "L1115000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.08333,
+          50.2639
+        ]
+      },
+      "properties": {
+        "name": "Herrnhaag",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q1614322",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L1200000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1200000"
+    {
+      "type": "Feature",
+      "id": "L1120000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1722-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.741666666,
+          51.016666666
+        ]
+      },
+      "properties": {
+        "name": "Herrnhut",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q165140",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0040000",
+              "name": "Johann Heinrich Andresen",
+              "date": "1761-05-19"
+            },
+            {
+              "id": "P0050000",
+              "name": "William Gustav Baer",
+              "date": "1867-04-17"
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Hopedal"
+          ],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0535000",
+              "name": "Carl Heinrich Götz",
+              "temporal": "1832",
+              "institution": "Apotheke",
+              "occupation": "Lehrling"
             }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q11338369"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -60.203188888889
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 55.467372222222
-            }
+          ]
         }
+      }
     },
-    "L1300000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1300000"
+    {
+      "type": "Feature",
+      "id": "L1200000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.203188888,
+          55.467372222
+        ]
+      },
+      "properties": {
+        "name": "Hopedal",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q11338369",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0020000",
+              "name": "Carl Gottfried Albrecht",
+              "temporal": "1845/1852",
+              "institution": "Missionar",
+              "occupation": null
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Jgdlorpait"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q67087304"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -45.355
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 60.4675
-            }
+          ]
         }
+      }
     },
-    "L1400000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1400000"
+    {
+      "type": "Feature",
+      "id": "L1300000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.355,
+          60.4675
+        ]
+      },
+      "properties": {
+        "name": "Jgdlorpait",
+        "variants": [
+          {
+            "name": "Igdlorpait",
+            "lang": ""
+          },
+          {
+            "name": "Illorpaat",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q67087304",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [
+            {
+              "id": "P0545000",
+              "name": "Gustav Rudolf Gysin",
+              "date": "1889-10-08"
             }
+          ],
+          "places_of_effect": []
         }
+      }
     },
-    "L1500000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1500000"
-            }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Kleinwelka"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q159916"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 14.3946
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 51.21079
-            }
+    {
+      "type": "Feature",
+      "id": "L1400000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": null,
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L1550000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1550000"
+    {
+      "type": "Feature",
+      "id": "L1500000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3946,
+          51.21079
+        ]
+      },
+      "properties": {
+        "name": "Kleinwelka",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q159916",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0800000",
+              "name": "Christian Gottlieb Hüffel",
+              "date": "1762"
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Königsfeld"
+          ],
+          "deaths": [
+            {
+              "id": "P1150000",
+              "name": "Johann (Jan) August Miertsching",
+              "date": "1875-03-30"
             }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q81421"
+          ],
+          "places_of_effect": [
+            {
+              "id": "P0300000",
+              "name": "Pierre Frederich Curie",
+              "temporal": "1803",
+              "institution": null,
+              "occupation": "Lehrer"
             }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 8.4213888888889
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 48.138333333333
-            }
+          ]
         }
+      }
     },
-    "L1570000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1570000"
+    {
+      "type": "Feature",
+      "id": "L1550000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.421388888,
+          48.138333333
+        ]
+      },
+      "properties": {
+        "name": "Königsfeld",
+        "variants": [
+          {
+            "name": "Königsfeld im Schwarzwald",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q81421",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0535000",
+              "name": "Carl Heinrich Götz",
+              "temporal": "1841/1842",
+              "institution": "Knabenanstalt",
+              "occupation": "Lehrer"
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Lausanne"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q807"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 6.6333333333333
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 46.533333333333
-            }
+          ]
         }
+      }
     },
-    "L1600000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1600000"
-            }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Lichtenau"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q1016295"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -45.5378
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 60.5072
-            }
+    {
+      "type": "Feature",
+      "id": "L1570000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.633333333,
+          46.533333333
+        ]
+      },
+      "properties": {
+        "name": "Lausanne",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q807",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L1700000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1700000"
-            }
+    {
+      "type": "Feature",
+      "id": "L1600000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.5378,
+          60.5072
+        ]
+      },
+      "properties": {
+        "name": "Lichtenau",
+        "variants": [
+          {
+            "name": "Alluitsoq",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q1016295",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L1800000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1800000"
-            }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Marienborn"
-            }
-        },
-        "description": {
-            "excel-column-name": "Beschreibung",
-            "label": "Beschreibung",
-            "value": {
-                "type": "String",
-                "value": "nicht identifiziert bei Wikidata"
-            }
+    {
+      "type": "Feature",
+      "id": "L1700000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": null,
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L1850000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1850000"
+    {
+      "type": "Feature",
+      "id": "L1800000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Marienborn",
+        "variants": [],
+        "wikidata": null,
+        "description": "nicht identifiziert bei Wikidata",
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0170000",
+              "name": "Johann Jakob Bossart",
+              "temporal": "1747/1749",
+              "institution": "Seminar",
+              "occupation": "Lehrer"
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Meisenheim am Glan"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q520103"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 7.6666666666667
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 49.716666666667
-            }
+          ]
         }
+      }
     },
-    "L1860000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1860000"
+    {
+      "type": "Feature",
+      "id": "L1850000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.666666666,
+          49.716666666
+        ]
+      },
+      "properties": {
+        "name": "Meisenheim am Glan",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q520103",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [
+            {
+              "id": "P1720000",
+              "name": "Gottfried David Wiemann",
+              "date": null
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Meran"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q131605"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 11.159419
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 46.669555
-            }
+          ],
+          "places_of_effect": []
         }
+      }
     },
-    "L1900000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1900000"
+    {
+      "type": "Feature",
+      "id": "L1860000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.159419,
+          46.669555
+        ]
+      },
+      "properties": {
+        "name": "Meran",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q131605",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [
+            {
+              "id": "P0150000",
+              "name": "John William Verbeek",
+              "date": "1895-05-17"
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Michelstadt"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q516517"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 9.0041666666667
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 49.678611111111
-            }
+          ],
+          "places_of_effect": []
         }
+      }
     },
-    "L1950000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L1950000"
-            }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Montmirail"
-            }
+    {
+      "type": "Feature",
+      "id": "L1900000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.004166666,
+          49.678611111
+        ]
+      },
+      "properties": {
+        "name": "Michelstadt",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q516517",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L2000000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L2000000"
+    {
+      "type": "Feature",
+      "id": "L1950000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Montmirail",
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0150000",
+              "name": "John William Verbeek",
+              "date": "1823-02-10"
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Nazareth"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q1022937"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -75.311111111111
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 40.74
-            }
-        },
-        "start": {
-            "label": "Start",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1740"
-            }
+          ],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L2100000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L2100000"
-            }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Nain"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q3335210"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -61.6928
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 56.5422
-            }
-        },
-        "start": {
-            "label": "Start",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1771"
-            }
+    {
+      "type": "Feature",
+      "id": "L2000000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1740-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.30962,
+          40.74038
+        ]
+      },
+      "properties": {
+        "name": "Nazareth",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q1022937",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L2150000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L2150000"
+    {
+      "type": "Feature",
+      "id": "L2100000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1771-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.6928,
+          56.5422
+        ]
+      },
+      "properties": {
+        "name": "Nain",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q3335210",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0020000",
+              "name": "Carl Gottfried Albrecht",
+              "temporal": "1835/1838",
+              "institution": "Missionar",
+              "occupation": null
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Neudietendorf"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q701263"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 10.913333333333
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 50.9125
-            }
+          ]
         }
+      }
     },
-    "L2200000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L2200000"
+    {
+      "type": "Feature",
+      "id": "L2150000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.913333333,
+          50.9125
+        ]
+      },
+      "properties": {
+        "name": "Neudietendorf",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q701263",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P1595500",
+              "name": "Heinrich Gottlieb Thrän",
+              "date": "1788-09-25"
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Neuwied"
+          ],
+          "deaths": [
+            {
+              "id": "P1595500",
+              "name": "Heinrich Gottlieb Thrän",
+              "date": "1827-12-08"
             }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q3967"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 7.4613888888889
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 50.428611111111
-            }
-        },
-        "start": {
-            "label": "Start",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1653"
-            }
+          ],
+          "places_of_effect": []
         }
+      }
     },
-    "": {},
-    "L2250000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L2250000"
+    {
+      "type": "Feature",
+      "id": "L2200000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1653-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.461388888,
+          50.428611111
+        ]
+      },
+      "properties": {
+        "name": "Neuwied",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q3967",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "date": "1769-02-17"
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Niesky"
+          ],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "temporal": "1773/1782",
+              "institution": "Knabenanstalt",
+              "occupation": "Schüler"
+            },
+            {
+              "id": "P0170000",
+              "name": "Johann Jakob Bossart",
+              "temporal": "1760/1764",
+              "institution": "Knabenanstalt",
+              "occupation": "Inspektor"
             }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q165160"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 14.83
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 51.289722222222
-            }
+          ]
         }
+      }
     },
-    "L2260000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L2260000"
+    {
+      "type": "Feature",
+      "id": "L2250000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.83,
+          51.289722222
+        ]
+      },
+      "properties": {
+        "name": "Niesky",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q165160",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [
+            {
+              "id": "P1595000",
+              "name": "Franz Ferdinand Thrän",
+              "date": "1866-12-01"
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Okak"
+          ],
+          "places_of_effect": [
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "temporal": "1782/1785",
+              "institution": "Pädagogium",
+              "occupation": "Schüler"
+            },
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "temporal": "1788/1789",
+              "institution": "Kinderanstalt",
+              "occupation": "Lehrer"
+            },
+            {
+              "id": "P0010000",
+              "name": "Johann Baptist von Albertini",
+              "temporal": "1796/1808",
+              "institution": "Seminar",
+              "occupation": "Dozent, Inspektor, Prediger"
+            },
+            {
+              "id": "P0535000",
+              "name": "Carl Heinrich Götz",
+              "temporal": "1833/1839",
+              "institution": "Pädagogium",
+              "occupation": "Schüler"
+            },
+            {
+              "id": "P0535000",
+              "name": "Carl Heinrich Götz",
+              "temporal": "1842/1846",
+              "institution": "Pädagogium",
+              "occupation": "Lehrer"
             }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q7081733"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -61.98425
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 57.562389
-            }
-        },
-        "start": {
-            "label": "Start",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1776"
-            }
-        },
-        "founder": {
-            "label": "Founder",
-            "value": {
-                "type": "List",
-                "value": [
-                    {
-                        "type": "String",
-                        "value": "Herrnhuter Brüdergemeine"
-                    }
-                ]
-            }
-        },
-        "end": {
-            "label": "End",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1919"
-            }
+          ]
         }
+      }
     },
-    "L2270000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L2270000"
+    {
+      "type": "Feature",
+      "id": "L2260000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1776-01-01",
+          "1956-01-01"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.98425,
+          57.562389
+        ]
+      },
+      "properties": {
+        "name": "Okak",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q7081733",
+        "description": null,
+        "founder": "Herrnhuter Brüdergemeine",
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0020000",
+              "name": "Carl Gottfried Albrecht",
+              "temporal": "1852/1864",
+              "institution": "Missionar",
+              "occupation": null
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Salem"
-            }
+          ]
         }
+      }
     },
-    "L2300000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L2300000"
+    {
+      "type": "Feature",
+      "id": "L2270000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Salem",
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [
+            {
+              "id": "P0320000",
+              "name": "Christian Friedrich Denke",
+              "date": "1838-01-12"
+            },
+            {
+              "id": "P1350000",
+              "name": "Philipp Christian Gottlieb Reuter",
+              "date": "1777-12-30"
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Silo"
+          ],
+          "places_of_effect": [
+            {
+              "id": "P0310000",
+              "name": "Gustav Heinrich Dahlman",
+              "temporal": "1799/1806",
+              "institution": null,
+              "occupation": null
             }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.geonames.org/955607/silo.html"
-            }
+          ]
         }
+      }
     },
-    "L2350000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L2350000"
-            }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Saint John"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q849441"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -64.7495816
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 18.3396764
-            }
+    {
+      "type": "Feature",
+      "id": "L2300000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Silo",
+        "variants": [
+          {
+            "name": "Shilo",
+            "lang": ""
+          },
+          {
+            "name": "Siloh",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.geonames.org/955607/silo.html",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L2400000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L2400000"
-            }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "St. John's"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q36262"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": -61.844722222222
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 17.121111111111
-            }
-        },
-        "start": {
-            "label": "Start",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1666"
-            }
+    {
+      "type": "Feature",
+      "id": "L2350000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.7495816,
+          18.3396764
+        ]
+      },
+      "properties": {
+        "name": "Saint John",
+        "variants": [
+          {
+            "name": "St. Johns",
+            "lang": ""
+          },
+          {
+            "name": "Nicht Verwechseln mit der Stadt St. John's auf Antigua!!",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q849441",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L2450000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L2450000"
-            }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Tharandt"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q8245"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 13.580833333333
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 50.983333333333
-            }
+    {
+      "type": "Feature",
+      "id": "L2400000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1666-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.844722222,
+          17.121111111
+        ]
+      },
+      "properties": {
+        "name": "St. John's",
+        "variants": [
+          {
+            "name": "Saint John's",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q36262",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
         }
+      }
     },
-    "L2500000": {
-        "id": {
-            "excel-column-name": "ID",
-            "label": "ID",
-            "value": {
-                "type": "LocationID",
-                "value": "L2500000"
+    {
+      "type": "Feature",
+      "id": "L2450000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.580833333,
+          50.983333333
+        ]
+      },
+      "properties": {
+        "name": "Tharandt",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q8245",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [
+            {
+              "id": "P0050000",
+              "name": "William Gustav Baer",
+              "date": "1934-09-16"
             }
-        },
-        "name": {
-            "excel-column-name": "Name",
-            "label": "Name",
-            "value": {
-                "type": "String",
-                "value": "Weißenburg in Bayern"
-            }
-        },
-        "wikidata_link": {
-            "excel-column-name": "Wikidata",
-            "label": "Wikidata",
-            "value": {
-                "type": "URL",
-                "value": "https://www.wikidata.org/wiki/Q44500"
-            }
-        },
-        "longitude": {
-            "label": "Longitude",
-            "value": {
-                "type": "Decimal",
-                "value": 10.971944444444
-            }
-        },
-        "latitude": {
-            "label": "Latitude",
-            "value": {
-                "type": "Decimal",
-                "value": 49.030555555556
-            }
-        },
-        "start": {
-            "label": "Start",
-            "value": {
-                "type": "ISO8601_2_Date",
-                "value": "1296"
-            }
+          ],
+          "places_of_effect": []
         }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2500000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1296-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.971944444,
+          49.030555555
+        ]
+      },
+      "properties": {
+        "name": "Weißenburg in Bayern",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q44500",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0220000",
+              "name": "Johann Christian Breutel",
+              "date": "1788-01-21"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
     }
+  ]
 }

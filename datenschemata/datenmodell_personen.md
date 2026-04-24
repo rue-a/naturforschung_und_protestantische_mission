@@ -1,4 +1,4 @@
-# Datenmodell – Personen
+# Datenmodell - Personen
 
 ## Präambel
 
@@ -102,16 +102,16 @@ Freitextfeld für Anmerkungen in Bezug auf die Angehörigen, z.B. Gründe für m
 
 | Code        | Beschreibung                                                                                                   |
 | ----------- | -------------------------------------------------------------------------------------------------------------- |
-| `ja(a)`     | qua Geburt und Erziehung, in einer Herrnhuter Gemeinschaft bzw. von Herrnhuter Eltern geboren und aufgewachsen |
-| `ja(b)`     | als Erwachsene aufgenommen, z.B. Konvertitien oder Missionierte |
-| `ja(c)`     | Übernahme von kirchlichen Ämtern innerhalb der Brüdergemeine                                   |
-| `ja(d)`     | Übernahme von Ämtern im Erziehungswesen der Brüdergemeine                                  |
-| `nein(a)`   | ausgetreten                                                                                       |
-| `nein(b)`   | aber wichtig im Netzwerk                                                                                       |
-| `nein(c)`   | um Verwechslung auszuschließen                                                                                 |
+| `ja-a`     | qua Geburt und Erziehung, in einer Herrnhuter Gemeinschaft bzw. von Herrnhuter Eltern geboren und aufgewachsen |
+| `ja-b`     | als Erwachsene aufgenommen, z.B. Konvertitien oder Missionierte |
+| `ja-c`     | Übernahme von kirchlichen Ämtern innerhalb der Brüdergemeine                                   |
+| `ja-d`     | Übernahme von Ämtern im Erziehungswesen der Brüdergemeine                                  |
+| `nein-a`   | ausgetreten                                                                                       |
+| `nein-b`   | aber wichtig im Netzwerk                                                                                       |
+| `nein-c`   | um Verwechslung auszuschließen                                                                                 |
 | `unbekannt` | Zugehörigkeit kann nicht ausgeschlossen werden.                                                                |
-- `ja(a)`
-- `nein(a) | nein(b)`
+- `ja-a`
+- `nein-a | nein-b`
 
 ### Links - Wikidata
 *URL*
@@ -140,10 +140,14 @@ Link zum Eintrag der Person in Bionomia. Die URL beginnt immer mit `https://bion
 
 Link zum Eintrag der Person in Säbi. Die URL beginnt immer mit `https://saebi.isgv.de/person/`. Wenn nichts eingetragen ist, heißt das, dass es keinen Säbi-Eintrag gibt.
 
-### Herrnhuter Lebenslauf
-*ID: \<M-ID/R-ID\>* 
+### Herrnhuter Lebensläuf
+*List of IDs: \<M-ID/R-ID\>* 
 
-Für jeden Herrenhuter wurde ein Lebenslauf angefertigt. Diese Lebensläufe liegen als handschriftliche Manuskripte oder Drucke vor, d.h. es ist eine Manuskript-ID (beginnend mit `M`) oder Literatur-ID (beginnend mit `R`) einzutragen.  
+Für jeden Herrenhuter wurde (mindestens) ein Lebenslauf angefertigt. Diese Lebensläufe liegen als handschriftliche Manuskripte oder Drucke vor, d.h. es ist eine Manuskript-ID (beginnend mit `M`) oder Literatur-ID (beginnend mit `R`) einzutragen.  
+
+- `M0004100`
+- `R0004000`
+- `R0004000 | M0004100`
 
 ### Geburt - Datum
 *Structured String: \<ISO8601-2_Date\> (\<Reference\>)*
@@ -163,7 +167,7 @@ Geburtsort der Person mit Quellenangabe (_Reference_) in Klammern. Orte sind mit
 *String*
 
 ### Tod - Datum
-*Ltructured String: \<ISO8601-2_Date\> (\<Reference\>)*
+*Structured String: \<ISO8601-2_Date\> (\<Reference\>)*
 
 Todessdatum der Person mit Quellenangabe (_Reference_) in Klammern. Quellen können IDs aus anderen Tabellen oder URLs sein. Bei mehreren widersprüchlichen Todessdaten ist das plausibelste einzutragen. Widersprüchliche Annahmen sind ausführlich in Annahmen zu vermerken.
 
@@ -214,25 +218,25 @@ Liste mit Wirkungsorten der Person. Ein Wirkungsort besteht aus: Datum/Zeitraum 
 > `1773/1782; Lxxxxxxx; Knabenanstalt; Schüler (Rxxxxxxx) | 1782/1785; Lxxxxxxx; Pädagogium; Schüler (Rxxxxxxx)`
 
 
-### Tätigkeiten
+<!-- ### Tätigkeiten
 *List of Structured Strings: \<String\> (\<Reference\>)*
 
 Ungeordnete Liste von Tätigkeiten, die die Person im Laufe Ihres Lebens ausgeführt hat. Dieses Feld dient dem allgemeinen Überblick, genauere Angaben zum Kontext der Tätigkeiten (wo, wann, warum, etc.), werden im Lebenslauf der Person angegeben. Für jede Tätigkeit sollte in Klammern die Quelle angegeben werden. Die Quellen entsprechen dem Datentyp _References_, d.h. IDs aus der Literatur-Tabelle (beginnend mit `R`, IDs aus der Manuskripte-Tabelle (beginnend mit `M`) oder permanente URLs.
 
-- `Theologe (R0000015) | Erzieher (M0000250) | Lehrer (M0000250) | Seminardirektor (https://www.bsp-permalink.org/)`
+- `Theologe (R0000015) | Erzieher (M0000250) | Lehrer (M0000250) | Seminardirektor (https://www.bsp-permalink.org/)` -->
 
-### Kontakt – Mit Herrnhutern
-*List of Structured Strings: \<P-ID\>; \<ISO8601_2_Temporal\> (\<Reference\>)*
+### Kontakt - Mit Herrnhutern
+*List of Structured Strings: \<P-ID\> (\<Reference\>)*
 
-Ungeordnete Liste von Personen-IDs innerhalb der Herrnhuter Brüdergemeine, mit denen diese Person nachweislich in Kontakt stand. Optional, kann, getrennt durch Semikolon, ein Zeitraum oder Zeitpunkt in/zu dem der Kontakt stattfand angegeben werden (-> `ISO8601_2_Temporal`). Zu jedem Kontakt ist eine Quelle in Klammern anzugeben. Die Quellen entsprechen dem Datentyp *References*, d. h. IDs aus der Literatur-Tabelle (beginnend mit `R`), IDs aus der Manuskripte-Tabelle (beginnend mit `M`) oder permanente URLs.
+Ungeordnete Liste von Personen-IDs innerhalb der Herrnhuter Brüdergemeine, mit denen diese Person nachweislich in Kontakt stand. Zu jedem Kontakt ist eine Quelle in Klammern anzugeben. Die Quellen entsprechen dem Datentyp *References*, d. h. IDs aus der Literatur-Tabelle (beginnend mit `R`), IDs aus der Manuskripte-Tabelle (beginnend mit `M`) oder permanente URLs.
 
 - `P0000123 (R0000456) | P0000789; 1806-04 (M0000102) |  P0000789; 1806/1809 (M0000102)`
 
 
-### Kontakt – Mit Nicht-Herrnhutern
-*List of Structured Strings: \<P-ID\>; \<ISO8601_2_Temporal\> (\<Reference\>)*
+### Kontakt - Mit Nicht-Herrnhutern
+*List of Structured Strings: \<P-ID\> (\<Reference\>)*
 
-Ungeordnete Liste von Personen-IDs außerhalb der Herrnhuter Brüdergemeine, mit denen diese Person nachweislich in Kontakt stand. Optional, kann, getrennt durch Semikolon, ein Zeitraum oder Zeitpunkt in/zu dem der Kontakt stattfand angegeben werden (-> `ISO8601_2_Temporal`). Zu jedem Kontakt ist eine Quelle in Klammern anzugeben. Die Quellen entsprechen dem Datentyp *References*, d. h. IDs aus der Literatur-Tabelle (beginnend mit `R`), IDs aus der Manuskripte-Tabelle (beginnend mit `M`) oder permanente URLs.
+Ungeordnete Liste von Personen-IDs außerhalb der Herrnhuter Brüdergemeine, mit denen diese Person nachweislich in Kontakt stand. Zu jedem Kontakt ist eine Quelle in Klammern anzugeben. Die Quellen entsprechen dem Datentyp *References*, d. h. IDs aus der Literatur-Tabelle (beginnend mit `R`), IDs aus der Manuskripte-Tabelle (beginnend mit `M`) oder permanente URLs.
 
 - `P0000234 (https://www.example.org/permalink)`
 - siehe auch `Kontakt - Mit Herrnhutern`
@@ -244,7 +248,7 @@ Ungeordnete Liste von Personen-IDs außerhalb der Herrnhuter Brüdergemeine, mit
 Ungeordnete Liste von Themen mit Botanikbezug denen sich die Person in besonderem Maße widmete.
 
 
-### Botanik – Beitrag zu Sammlungen (Objektnachweis)
+### Botanik - Beitrag zu Sammlungen (Objektnachweis)
 *List of Structured Strings: \<C-ID\> (\<URL\>)*
 
 Persistenter Link zu einem konkreten Objekt, das von der Person gesammelt wurde und Teil der referenzierten Sammlung ist. Jede referenzierte Sammlung muss mit genau einem Objekt nachgewiesen werden. Einträge folgen diesem Muster: `<ID-aus-der-Sammlungstabelle> (<persistenter-Link-zum-Objekt>)`.
@@ -252,7 +256,7 @@ Persistenter Link zu einem konkreten Objekt, das von der Person gesammelt wurde 
 - `C-DR (https://dr.jacq.org/DR086086)`: Das von Albertini gesammelte Objekt, zu finden unter https://dr.jacq.org/DR086086, weist nach, dass Albertini zur Sammlung C-DR (DR, Herbarium Dresdense) beigetragen hat.
 
 
-### Botanik – Beitrag zu Sammlungen (Datenbanknachweis)
+### Botanik - Beitrag zu Sammlungen (Datenbanknachweis)
 *List of Structured Strings: \<C-ID\> (\<URL\>)*
 
 Persistenter Link zu einem Personeneintrag in einer Datenbank, in dem vermerkt ist, zu welchen Sammlungen die Person beigetragen hat. Einträge folgen diesem Muster: `<ID-aus-der-Sammlungstabelle> (<persistenter-Link-zur-Datenbankseite>)`.
@@ -261,7 +265,7 @@ Persistenter Link zu einem Personeneintrag in einer Datenbank, in dem vermerkt i
 
 
 
-### Botanik – Beitrag zu Sammlungen (Literaturnachweis)
+### Botanik - Beitrag zu Sammlungen (Literaturnachweis)
 *List of Structured Strings: \<C-ID\> (\<R-ID\>)*
 
 Verweis auf eine Literaturquelle, in der explizit erwähnt ist, dass die Person zu einer Sammlung beigetragen hat. Einträge folgen diesem Muster: `<ID-aus-der-Sammlungstabelle> (<ID-aus-der-Literaturtabelle>)`.
@@ -269,7 +273,7 @@ Verweis auf eine Literaturquelle, in der explizit erwähnt ist, dass die Person 
 
 
 
-### Botanik – Beitrag zu Sammlungen – Anmerkungen
+### Botanik - Beitrag zu Sammlungen - Anmerkungen
 *String*
 
 Freitextfeld für Hinweise zur Nachweisführung, z. B. mehrere mögliche Objektnachweise, Unsicherheiten zur Zuordnung oder Erläuterungen bei widersprüchlichen Quellen.

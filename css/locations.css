@@ -1,0 +1,17 @@
+/* =====================================================
+   locations.css  —  full-viewport locations map
+   ===================================================== */
+
+/* Stack header, map, footer vertically filling the full viewport */
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	overflow: hidden;
+}
+
+#map {
+	flex: 1;
+	min-height: 0;
+	/* prevent flex overflow in some browsers */
+}

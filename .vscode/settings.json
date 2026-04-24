@@ -1,0 +1,10 @@
+{
+	"chat.tools.terminal.autoApprove": {
+		"/home/rue/.uv-python/.venv/bin/python": true,
+		"/^cd /home/rue/Nextcloud/Projects/naturforschung_und_protestantische_mission && python3 -c \"\nimport json\nd = json\\.load\\(open\\('data/locations\\.json'\\)\\)\n# Find Niesky \\(L2250000\\) as a good example with all three categories\nf = next\\(f for f in d\\['features'\\] if f\\['id'\\] == 'L2250000'\\)\nprint\\(json\\.dumps\\(f\\['properties'\\]\\['importance'\\], indent=2, ensure_ascii=False\\)\\)\n\"$/": {
+			"approve": true,
+			"matchCommandLine": true
+		},
+		"/home/rue/.uv-python/.venv/bin/python3": true
+	}
+}
