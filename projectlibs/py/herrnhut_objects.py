@@ -658,9 +658,12 @@ class HerrnhutLocation(HerrnhutObject):
 
     @staticmethod
     def _person_ref(person) -> dict:
+        wikidata_obj = getattr(getattr(person, "links", None), "wikidata", None)
+        wikidata_url = getattr(wikidata_obj, "url", None)
         return {
             "id": getattr(getattr(person, "id", None), "id", None),
             "name": getattr(getattr(person.name, "preferred", None), "value", None),
+            "wikidata": wikidata_url,
         }
 
     @classmethod

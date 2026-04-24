@@ -88,6 +88,7 @@
             {
               "id": "P0170000",
               "name": "Johann Jakob Bossart",
+              "wikidata": "https://www.wikidata.org/wiki/Q55874791",
               "date": "1789-11-13"
             }
           ],
@@ -95,6 +96,7 @@
             {
               "id": "P0010000",
               "name": "Johann Baptist von Albertini",
+              "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "temporal": "1785/1788",
               "institution": "Seminar",
               "occupation": "Schüler"
@@ -102,6 +104,7 @@
             {
               "id": "P0010000",
               "name": "Johann Baptist von Albertini",
+              "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "temporal": "1789/1796",
               "institution": "Pädagogium",
               "occupation": "Lehrer"
@@ -109,6 +112,7 @@
             {
               "id": "P0170000",
               "name": "Johann Jakob Bossart",
+              "wikidata": "https://www.wikidata.org/wiki/Q55874791",
               "temporal": "1749/1750",
               "institution": "Seminar",
               "occupation": null
@@ -116,6 +120,7 @@
             {
               "id": "P0170000",
               "name": "Johann Jakob Bossart",
+              "wikidata": "https://www.wikidata.org/wiki/Q55874791",
               "temporal": "1764/1766",
               "institution": null,
               "occupation": null
@@ -123,6 +128,7 @@
             {
               "id": "P0170000",
               "name": "Johann Jakob Bossart",
+              "wikidata": "https://www.wikidata.org/wiki/Q55874791",
               "temporal": "1766/1789",
               "institution": "Seminar",
               "occupation": "Lehrer u. Vorsteher"
@@ -154,6 +160,7 @@
             {
               "id": "P0170000",
               "name": "Johann Jakob Bossart",
+              "wikidata": "https://www.wikidata.org/wiki/Q55874791",
               "date": "1721-04-17"
             }
           ],
@@ -162,6 +169,7 @@
             {
               "id": "P0170000",
               "name": "Johann Jakob Bossart",
+              "wikidata": "https://www.wikidata.org/wiki/Q55874791",
               "temporal": "1736/1739",
               "institution": "Universität",
               "occupation": "Student"
@@ -187,6 +195,7 @@
             {
               "id": "P0535000",
               "name": "Carl Heinrich Götz",
+              "wikidata": null,
               "date": "1819-04-01"
             }
           ],
@@ -224,6 +233,7 @@
             {
               "id": "P0010000",
               "name": "Johann Baptist von Albertini",
+              "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "date": "1831-12-06"
             }
           ],
@@ -231,6 +241,7 @@
             {
               "id": "P0010000",
               "name": "Johann Baptist von Albertini",
+              "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "temporal": "1821",
               "institution": null,
               "occupation": "Mitglied Ältestenkonferenz"
@@ -267,6 +278,7 @@
             {
               "id": "P0320000",
               "name": "Christian Friedrich Denke",
+              "wikidata": "https://www.wikidata.org/wiki/Q124060542",
               "date": "1775-09-08"
             }
           ],
@@ -298,6 +310,7 @@
             {
               "id": "P0865000",
               "name": "Kaspar Kögel",
+              "wikidata": "https://www.wikidata.org/wiki/Q139512822",
               "date": "1801-12-15"
             }
           ],
@@ -378,6 +391,7 @@
             {
               "id": "P1595000",
               "name": "Franz Ferdinand Thrän",
+              "wikidata": "https://www.wikidata.org/wiki/Q138779638",
               "date": "1791-07-08"
             }
           ],
@@ -386,6 +400,7 @@
             {
               "id": "P0030000",
               "name": "Christian Gotthold Amende",
+              "wikidata": null,
               "temporal": "1853/1879",
               "institution": null,
               "occupation": "(UA, Dienerblätter A-Bl, S. 68-69)"
@@ -447,6 +462,7 @@
             {
               "id": "P0010000",
               "name": "Johann Baptist von Albertini",
+              "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "temporal": "1814",
               "institution": "Mädchenanstalt",
               "occupation": "Prediger, Lehrer"
@@ -497,6 +513,7 @@
             {
               "id": "P0010000",
               "name": "Johann Baptist von Albertini",
+              "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "temporal": "1818",
               "institution": null,
               "occupation": "Prediger"
@@ -533,6 +550,7 @@
             {
               "id": "P0535000",
               "name": "Carl Heinrich Götz",
+              "wikidata": null,
               "temporal": "1839",
               "institution": "Seminarium",
               "occupation": "Schüler"
@@ -540,6 +558,7 @@
             {
               "id": "P0535000",
               "name": "Carl Heinrich Götz",
+              "wikidata": null,
               "temporal": "1846",
               "institution": "Seminarium",
               "occupation": "Lehrer"
@@ -592,6 +611,7 @@
             {
               "id": "P0170000",
               "name": "Johann Jakob Bossart",
+              "wikidata": "https://www.wikidata.org/wiki/Q55874791",
               "temporal": "1750/1760",
               "institution": "Pädagogium",
               "occupation": "Lehrer"
@@ -708,11 +728,13 @@
             {
               "id": "P0040000",
               "name": "Johann Heinrich Andresen",
+              "wikidata": "https://www.wikidata.org/wiki/Q136230382",
               "date": "1761-05-19"
             },
             {
               "id": "P0050000",
               "name": "William Gustav Baer",
+              "wikidata": "https://www.wikidata.org/wiki/Q55010392",
               "date": "1867-04-17"
             }
           ],
@@ -721,6 +743,7 @@
             {
               "id": "P0030000",
               "name": "Christian Gotthold Amende",
+              "wikidata": null,
               "temporal": "1818/1853",
               "institution": null,
               "occupation": "(UA, Dienerblätter A-Bl, S. 68-69)"
@@ -728,6 +751,7 @@
             {
               "id": "P0030000",
               "name": "Christian Gotthold Amende",
+              "wikidata": null,
               "temporal": "1879/1899",
               "institution": null,
               "occupation": "(UA, Dienerblätter A-Bl, S. 68-69)"
@@ -735,6 +759,7 @@
             {
               "id": "P0535000",
               "name": "Carl Heinrich Götz",
+              "wikidata": null,
               "temporal": "1832",
               "institution": "Apotheke",
               "occupation": "Lehrling"
@@ -768,6 +793,7 @@
             {
               "id": "P0020000",
               "name": "Carl Gottfried Albrecht",
+              "wikidata": "https://www.wikidata.org/wiki/Q132170167",
               "temporal": "1845/1852",
               "institution": "Missionar",
               "occupation": null
@@ -809,6 +835,7 @@
             {
               "id": "P0545000",
               "name": "Gustav Rudolf Gysin",
+              "wikidata": null,
               "date": "1889-10-08"
             }
           ],
@@ -858,6 +885,7 @@
             {
               "id": "P0800000",
               "name": "Christian Gottlieb Hüffel",
+              "wikidata": "https://www.wikidata.org/wiki/Q112117739",
               "date": "1762"
             }
           ],
@@ -865,6 +893,7 @@
             {
               "id": "P1150000",
               "name": "Johann (Jan) August Miertsching",
+              "wikidata": "https://www.wikidata.org/wiki/Q29073400",
               "date": "1875-03-30"
             }
           ],
@@ -872,6 +901,7 @@
             {
               "id": "P0020000",
               "name": "Carl Gottfried Albrecht",
+              "wikidata": "https://www.wikidata.org/wiki/Q132170167",
               "temporal": "1865/1888",
               "institution": null,
               "occupation": "(UA, Dienerblätter A-Bl, S. 53))"
@@ -879,6 +909,7 @@
             {
               "id": "P0300000",
               "name": "Pierre Frederich Curie",
+              "wikidata": "https://www.wikidata.org/wiki/Q21509659",
               "temporal": "1803",
               "institution": null,
               "occupation": "Lehrer"
@@ -917,6 +948,7 @@
             {
               "id": "P0535000",
               "name": "Carl Heinrich Götz",
+              "wikidata": null,
               "temporal": "1841/1842",
               "institution": "Knabenanstalt",
               "occupation": "Lehrer"
@@ -979,6 +1011,7 @@
             {
               "id": "P0865000",
               "name": "Kaspar Kögel",
+              "wikidata": "https://www.wikidata.org/wiki/Q139512822",
               "date": "1862-10-19"
             }
           ],
@@ -1024,6 +1057,7 @@
             {
               "id": "P0170000",
               "name": "Johann Jakob Bossart",
+              "wikidata": "https://www.wikidata.org/wiki/Q55874791",
               "temporal": "1747/1749",
               "institution": "Seminar",
               "occupation": "Lehrer"
@@ -1056,6 +1090,7 @@
             {
               "id": "P1720000",
               "name": "Gottfried David Wiemann",
+              "wikidata": "https://www.wikidata.org/wiki/Q61037266",
               "date": null
             }
           ],
@@ -1087,6 +1122,7 @@
             {
               "id": "P0150000",
               "name": "John William Verbeek",
+              "wikidata": "https://www.wikidata.org/wiki/Q139269295",
               "date": "1895-05-17"
             }
           ],
@@ -1136,6 +1172,7 @@
             {
               "id": "P0150000",
               "name": "John William Verbeek",
+              "wikidata": "https://www.wikidata.org/wiki/Q139269295",
               "date": "1823-02-10"
             }
           ],
@@ -1204,6 +1241,7 @@
             {
               "id": "P0020000",
               "name": "Carl Gottfried Albrecht",
+              "wikidata": "https://www.wikidata.org/wiki/Q132170167",
               "temporal": "1835/1838",
               "institution": "Missionar",
               "occupation": null
@@ -1235,6 +1273,7 @@
             {
               "id": "P1595500",
               "name": "Heinrich Gottlieb Thrän",
+              "wikidata": null,
               "date": "1788-09-25"
             }
           ],
@@ -1242,6 +1281,7 @@
             {
               "id": "P1595500",
               "name": "Heinrich Gottlieb Thrän",
+              "wikidata": null,
               "date": "1827-12-08"
             }
           ],
@@ -1277,6 +1317,7 @@
             {
               "id": "P0010000",
               "name": "Johann Baptist von Albertini",
+              "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "date": "1769-02-17"
             }
           ],
@@ -1285,6 +1326,7 @@
             {
               "id": "P0010000",
               "name": "Johann Baptist von Albertini",
+              "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "temporal": "1773/1782",
               "institution": "Knabenanstalt",
               "occupation": "Schüler"
@@ -1292,6 +1334,7 @@
             {
               "id": "P0170000",
               "name": "Johann Jakob Bossart",
+              "wikidata": "https://www.wikidata.org/wiki/Q55874791",
               "temporal": "1760/1764",
               "institution": "Knabenanstalt",
               "occupation": "Inspektor"
@@ -1324,6 +1367,7 @@
             {
               "id": "P1595000",
               "name": "Franz Ferdinand Thrän",
+              "wikidata": "https://www.wikidata.org/wiki/Q138779638",
               "date": "1866-12-01"
             }
           ],
@@ -1331,6 +1375,7 @@
             {
               "id": "P0010000",
               "name": "Johann Baptist von Albertini",
+              "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "temporal": "1782/1785",
               "institution": "Pädagogium",
               "occupation": "Schüler"
@@ -1338,6 +1383,7 @@
             {
               "id": "P0010000",
               "name": "Johann Baptist von Albertini",
+              "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "temporal": "1788/1789",
               "institution": "Kinderanstalt",
               "occupation": "Lehrer"
@@ -1345,6 +1391,7 @@
             {
               "id": "P0010000",
               "name": "Johann Baptist von Albertini",
+              "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "temporal": "1796/1808",
               "institution": "Seminar",
               "occupation": "Dozent, Inspektor, Prediger"
@@ -1352,6 +1399,7 @@
             {
               "id": "P0535000",
               "name": "Carl Heinrich Götz",
+              "wikidata": null,
               "temporal": "1833/1839",
               "institution": "Pädagogium",
               "occupation": "Schüler"
@@ -1359,6 +1407,7 @@
             {
               "id": "P0535000",
               "name": "Carl Heinrich Götz",
+              "wikidata": null,
               "temporal": "1842/1846",
               "institution": "Pädagogium",
               "occupation": "Lehrer"
@@ -1397,6 +1446,7 @@
             {
               "id": "P0020000",
               "name": "Carl Gottfried Albrecht",
+              "wikidata": "https://www.wikidata.org/wiki/Q132170167",
               "temporal": "1852/1864",
               "institution": "Missionar",
               "occupation": null
@@ -1423,11 +1473,13 @@
             {
               "id": "P0320000",
               "name": "Christian Friedrich Denke",
+              "wikidata": "https://www.wikidata.org/wiki/Q124060542",
               "date": "1838-01-12"
             },
             {
               "id": "P1350000",
               "name": "Philipp Christian Gottlieb Reuter",
+              "wikidata": null,
               "date": "1777-12-30"
             }
           ],
@@ -1435,6 +1487,7 @@
             {
               "id": "P0310000",
               "name": "Gustav Heinrich Dahlman",
+              "wikidata": "https://www.wikidata.org/wiki/Q138682285",
               "temporal": "1799/1806",
               "institution": null,
               "occupation": null
@@ -1568,6 +1621,7 @@
             {
               "id": "P0050000",
               "name": "William Gustav Baer",
+              "wikidata": "https://www.wikidata.org/wiki/Q55010392",
               "date": "1934-09-16"
             }
           ],
@@ -1603,6 +1657,7 @@
             {
               "id": "P0220000",
               "name": "Johann Christian Breutel",
+              "wikidata": "https://www.wikidata.org/wiki/Q21415674",
               "date": "1788-01-21"
             }
           ],

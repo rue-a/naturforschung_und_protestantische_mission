@@ -2,6 +2,9 @@
    map.js  —  Leaflet locations map
    ===================================================== */
 
+// Asset base path, relative to html/locations.html
+const LOC_ASSETS = "../assets";
+
 /** Minimum zoom level at which placename labels are shown. */
 const LABEL_MIN_ZOOM = 7;
 
@@ -58,51 +61,87 @@ function _esc(val) {
 }
 
 /**
- * Build the HTML content for a location's click popup.
- * Lists persons born, who died, and who were active at this location.
+ * Return an HTML string for a Wikidata icon link, or empty string if no URL.
+ * @param {string|null|undefined} url
+ * @returns {string}
+ */
+function _wikidataIconHtml(url) {
+	if (!url) return "";
+	return `<a href="${_esc(url)}" target="_blank" rel="noopener" class="loc-wd-link">`
+		+ `<img src="${LOC_ASSETS}/wikidata_18x12.svg" alt="Wikidata" class="wikidata-icon loc-wd-icon">`
+		+ `</a>`;
+}
+
+/**
+ * Build the HTML content for the location sidebar.
+ * Shows place name (linked to Wikidata if available), description, and
+ * lists persons born, who died, and who were active at this location.
  * @param {object} props     — feature.properties
  * @param {string} featureId — feature.id (fallback for name)
  * @returns {string} HTML string
  */
-function _buildPopupContent(props, featureId) {
+function _buildSidebarContent(props, featureId) {
 	const name = props.name ?? featureId;
 	const imp = props.importance ?? {};
 	const births = imp.births ?? [];
 	const deaths = imp.deaths ?? [];
 	const poe = imp.places_of_effect ?? [];
 
-	let html = `<div class="loc-popup"><h3>${_esc(name)}</h3>`;
+	const nameHtml = `${_esc(name)} ${_wikidataIconHtml(props.wikidata)}`;
+
+	let html = `<div class="loc-content"><h2>${nameHtml}</h2>`;
+
+	if (props.description) {
+		html += `<p class="loc-desc">${_esc(props.description)}</p>`;
+	}
 
 	if (births.length) {
 		html += `<section><h4>Geburten</h4><ul>`;
 		for (const b of births) {
-			html += `<li><span class="loc-person-name">${_esc(b.name)}</span>`;
+			html += `<li><span class="loc-person-name">${_esc(b.name)}${_wikidataIconHtml(b.wikidata)}</span>`;
 			if (b.date) html += `<span class="loc-person-meta">${_esc(b.date)}</span>`;
 			html += `</li>`;
 		}
 		html += `</ul></section>`;
 	}
 	if (deaths.length) {
-		html += `<section><h4>Todesf&auml;lle</h4><ul>`;
+		html += `<section><h4>Todesfälle</h4><ul>`;
 		for (const d of deaths) {
-			html += `<li><span class="loc-person-name">${_esc(d.name)}</span>`;
+			html += `<li><span class="loc-person-name">${_esc(d.name)}${_wikidataIconHtml(d.wikidata)}</span>`;
 			if (d.date) html += `<span class="loc-person-meta">${_esc(d.date)}</span>`;
 			html += `</li>`;
 		}
 		html += `</ul></section>`;
 	}
 	if (poe.length) {
-		html += `<section><h4>Wirkende Personen</h4><ul>`;
+		// Group entries by person ID so repeated visits appear under one header
+		const byPerson = [];
+		const indexById = {};
 		for (const p of poe) {
+			if (!(p.id in indexById)) {
+				indexById[p.id] = byPerson.length;
+				byPerson.push({ id: p.id, name: p.name, wikidata: p.wikidata, stints: [] });
+			}
 			const parts = [p.temporal, p.institution, p.occupation].filter(Boolean);
-			html += `<li><span class="loc-person-name">${_esc(p.name)}</span>`;
-			if (parts.length) html += `<span class="loc-person-meta">${_esc(parts.join(" · "))}</span>`;
+			if (parts.length) byPerson[indexById[p.id]].stints.push(parts.join(" · "));
+		}
+		html += `<section><h4>Wirkende Personen</h4><ul class="loc-poe-list">`;
+		for (const person of byPerson) {
+			html += `<li class="loc-poe-group">`;
+			html += `<span class="loc-person-name">${_esc(person.name)}${_wikidataIconHtml(person.wikidata)}</span>`;
+			if (person.stints.length) {
+				html += `<ul class="loc-poe-stints">`;
+				for (const stint of person.stints) {
+					html += `<li>${_esc(stint)}</li>`;
+				}
+				html += `</ul>`;
+			}
 			html += `</li>`;
 		}
 		html += `</ul></section>`;
 	}
 	if (!births.length && !deaths.length && !poe.length) {
-		html += `<p class="loc-popup-empty">Keine Personen verknüpft.</p>`;
+		html += `<p class="loc-content-empty">Keine Personen verknüpft.</p>`;
 	}
 	html += `</div>`;
 	return html;
@@ -138,6 +177,10 @@ function renderLocationsMap(featureCollection) {
 		...features.map((f) => _importanceScore(f.properties ?? {}))
 	);
 
+	const sidebar = document.getElementById("loc-sidebar");
+	let selectedMarker = null;
+	let selectedOrigStyle = null;
+
 	const markerGroup = L.featureGroup();
 	const markers = [];
 
@@ -149,6 +192,7 @@ function renderLocationsMap(featureCollection) {
 		const props = feature.properties ?? {};
 		const score = _importanceScore(props);
 		const { radius, fillColor, color, labelColor } = _markerStyle(score, maxScore);
+		const origStyle = { color, weight: 1, fillOpacity: 0.75 };
 
 		const marker = L.circleMarker([lat, lng], {
 			radius,
@@ -163,15 +207,28 @@ function renderLocationsMap(featureCollection) {
 				className: "loc-label",
 				opacity: 0, // hidden until zoom threshold is reached
 				offset: [0, radius + 2], // push label below the marker edge
-			})
-			.bindPopup(_buildPopupContent(props, feature.id), {
-				maxWidth: 320,
-				maxHeight: 380,
 			});
 
 		// Apply per-marker hue-derived color to the label element once it exists
 		marker.on("tooltipopen", (e) => {
 			e.tooltip.getElement().style.color = labelColor;
+		});
+
+		// Click: highlight this marker and populate the sidebar
+		marker.on("click", (e) => {
+			L.DomEvent.stopPropagation(e);
+			if (selectedMarker) {
+				selectedMarker.setStyle(selectedOrigStyle);
+			}
+			selectedOrigStyle = origStyle;
+			selectedMarker = marker;
+			marker.setStyle({
+				color: "hsl(338, 100%, 68%)",
+				weight: 4,
+				fillOpacity: 1,
+			});
+			marker.bringToFront();
+			sidebar.innerHTML = _buildSidebarContent(props, feature.id);
 		});
 
 		marker.addTo(markerGroup);
@@ -186,6 +243,15 @@ function renderLocationsMap(featureCollection) {
 		for (const m of markers) m.getTooltip()?.setOpacity(show ? 1 : 0);
 	};
 	map.on("zoomend", _updateLabels);
+
+	map.on("click", () => {
+		if (selectedMarker) {
+			selectedMarker.setStyle(selectedOrigStyle);
+			selectedMarker = null;
+			selectedOrigStyle = null;
+		}
+		sidebar.innerHTML = '<p class="loc-sidebar-hint">Ort anklicken für Details.</p>';
+	});
 
 	if (markerGroup.getLayers().length) {
 		map.fitBounds(markerGroup.getBounds(), { padding: [30, 30] });
