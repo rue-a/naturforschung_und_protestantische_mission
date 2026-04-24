@@ -49,7 +49,10 @@ function _initMap() {
 function renderTrajectory(trajectory) {
 	const map = _initMap();
 	const features = trajectory?.features ?? [];
-	if (!features.length) return;
+	if (!features.length) {
+		map.setView([20, 10], 2);
+		return;
+	}
 
 	const latLngs = [];
 	const clusterGroup = L.markerClusterGroup();

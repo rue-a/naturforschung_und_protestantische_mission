@@ -131,35 +131,40 @@ class LifeTrajectory:
         birth_date = getattr(person.birth, "date", None)
         if birth_date is not None:
             loc = self._resolve(getattr(person.birth, "location", None))
-            props = _location_properties(loc)
-            self.features.append(
-                LifeTrajectoryFeature(
-                    feature_type="birth",
-                    time=_build_time(getattr(birth_date, "date", None)),
-                    geometry=_build_geometry(loc),
-                    properties=props,
+            geom = _build_geometry(loc)
+            if geom is not None:
+                self.features.append(
+                    LifeTrajectoryFeature(
+                        feature_type="birth",
+                        time=_build_time(getattr(birth_date, "date", None)),
+                        geometry=geom,
+                        properties=_location_properties(loc),
+                    )
                 )
-            )
 
         # death
         death_date = getattr(person.death, "date", None)
         if death_date is not None:
             loc = self._resolve(getattr(person.death, "location", None))
-            props = _location_properties(loc)
-            self.features.append(
-                LifeTrajectoryFeature(
-                    feature_type="death",
-                    time=_build_time(getattr(death_date, "date", None)),
-                    geometry=_build_geometry(loc),
-                    properties=props,
+            geom = _build_geometry(loc)
+            if geom is not None:
+                self.features.append(
+                    LifeTrajectoryFeature(
+                        feature_type="death",
+                        time=_build_time(getattr(death_date, "date", None)),
+                        geometry=geom,
+                        properties=_location_properties(loc),
+                    )
                 )
-            )
 
         # places of effect
         for poe in person.places_of_effect or []:
             temporal_str = getattr(getattr(poe, "temporal", None), "raw", "").strip()
             loc_id_str = getattr(getattr(poe, "place", None), "id", "")
             loc = self._locs.get(loc_id_str)
+            geom = _build_geometry(loc)
+            if geom is None:
+                continue
             props = _location_properties(loc)
             props["institution"] = getattr(poe, "institution", "").strip() or None
             props["occupation"] = getattr(poe, "occupation", "").strip() or None
@@ -167,7 +172,7 @@ class LifeTrajectory:
                 LifeTrajectoryFeature(
                     feature_type="place_of_effect",
                     time=_build_time(temporal_str),
-                    geometry=_build_geometry(loc),
+                    geometry=geom,
                     properties=props,
                 )
             )
