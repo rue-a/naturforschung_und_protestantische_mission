@@ -456,7 +456,10 @@ function _personList(items) {
 	for (const p of items) {
 		const li = document.createElement("li");
 		li.appendChild(_sourcedText(p.label, p.source));
-		if (p.link) li.appendChild(_wikidataIconLink(p.link));
+		if (p.link) {
+			li.appendChild(document.createTextNode(" "));
+			li.appendChild(_wikidataIconLink(p.link))
+		};
 		ul.appendChild(li);
 	}
 	return ul;
@@ -486,7 +489,8 @@ function _workList(items) {
 /** Inline location text + Wikidata icon link. */
 function _locationLink(label, href, source) {
 	const wrap = document.createElement("span");
-	wrap.appendChild(_sourcedText(label + " ", source));
+	wrap.appendChild(_sourcedText(label, source));
+	wrap.appendChild(document.createTextNode(" "));
 	wrap.appendChild(_wikidataIconLink(href));
 	return wrap;
 }
