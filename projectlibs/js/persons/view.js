@@ -31,7 +31,7 @@ function renderList(persons, selectedId, onSelect) {
 
 		const nameSpan = document.createElement("span");
 		nameSpan.className = "person-list-name";
-		nameSpan.textContent = person.name?.preferred?.label ?? person.id;
+		nameSpan.textContent = person.name.preferred.label;
 
 		const idSpan = document.createElement("span");
 		idSpan.className = "person-list-id";
@@ -55,7 +55,7 @@ function renderMetaPanel(person) {
 
 	const stickyHeader = document.createElement("h2");
 	stickyHeader.className = "panel-sticky-header";
-	const preferredName = person.name?.preferred?.label ?? person.id;
+	const preferredName = person.name.preferred.label;
 	stickyHeader.textContent = `Metadaten (${preferredName})`;
 	panel.appendChild(stickyHeader);
 
@@ -81,7 +81,7 @@ function renderContentArea(person) {
 
 	const stickyHeader = document.createElement("h1");
 	stickyHeader.className = "panel-sticky-header";
-	stickyHeader.textContent = person.name?.preferred?.label ?? person.id;
+	stickyHeader.textContent = person.name.preferred.label;
 	area.appendChild(stickyHeader);
 
 	const body = document.createElement("div");
@@ -100,7 +100,7 @@ function _buildNameSection(person) {
 	const sec = _metaSection();
 	const nameEl = document.createElement("div");
 	nameEl.className = "meta-name";
-	nameEl.textContent = person.name?.preferred?.label ?? person.id;
+	nameEl.textContent = person.name.preferred.label;
 	sec.appendChild(nameEl);
 	if (!person.visible) {
 		const tag = document.createElement("span");

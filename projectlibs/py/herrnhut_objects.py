@@ -310,6 +310,14 @@ class HerrnhutPerson(HerrnhutObject):
 
     def to_dict(self, registry=None):
         r = registry
+        person_id = getattr(self.id, "id", None)
+
+        def _preferred_name():
+            d = self.name.preferred.to_dict(r) if self.name.preferred else None
+            if d and d.get("label"):
+                return d
+            label = f"[fallback value: {person_id}]"
+            return {"label": label, "source": d.get("source") if d else None}
 
         def _loc_no_source(loc_id_or_str):
             """Resolve a location ref and strip source (used in places_of_effect)."""
@@ -317,12 +325,10 @@ class HerrnhutPerson(HerrnhutObject):
             return {k: v for k, v in ref.items() if k != "source"} if ref else None
 
         return {
-            "id": getattr(self.id, "id", None),
+            "id": person_id,
             "visible": getattr(self.visible, "decoded_value", None),
             "name": {
-                "preferred": self.name.preferred.to_dict(r)
-                if self.name.preferred
-                else None,
+                "preferred": _preferred_name(),
                 "surname": self.name.surname.to_dict(r) if self.name.surname else None,
                 "birth_name": self.name.birth_name.to_dict(r)
                 if self.name.birth_name

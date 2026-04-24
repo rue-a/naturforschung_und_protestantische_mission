@@ -10620,7 +10620,10 @@
     "id": "P0555000",
     "visible": false,
     "name": {
-      "preferred": null,
+      "preferred": {
+        "label": "[fallback value: P0555000]",
+        "source": null
+      },
       "surname": {
         "label": null,
         "source": null
@@ -19169,7 +19172,10 @@
     "id": "P1225000",
     "visible": true,
     "name": {
-      "preferred": null,
+      "preferred": {
+        "label": "[fallback value: P1225000]",
+        "source": null
+      },
       "surname": null,
       "birth_name": {
         "label": null,
