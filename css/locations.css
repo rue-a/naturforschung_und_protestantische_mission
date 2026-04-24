@@ -15,3 +15,84 @@ body {
 	min-height: 0;
 	/* prevent flex overflow in some browsers */
 }
+
+/* ── Placename labels ─────────────────────────────────────
+   Implemented as Leaflet permanent tooltips (equivalent to
+   the archived leaflet/leaflet.label plugin, now in core).
+   ────────────────────────────────────────────────────── */
+.leaflet-tooltip.loc-label {
+	background: transparent;
+	border: none;
+	box-shadow: none;
+	padding: 1px 4px;
+	font-size: 11px;
+	font-weight: 600;
+	/* color is set per-marker via JS (hue-derived from marker fill) */
+	white-space: nowrap;
+}
+
+/* hide tooltip arrow on all placement directions */
+.leaflet-tooltip.loc-label::before {
+	display: none;
+}
+
+/* ── Location click popup ─────────────────────────────── */
+.leaflet-popup-content .loc-popup {
+	min-width: 180px;
+}
+
+.leaflet-popup-content .loc-popup h3 {
+	margin: 0 0 8px;
+	font-size: 14px;
+	font-weight: 600;
+	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 6px;
+}
+
+.leaflet-popup-content .loc-popup section {
+	margin-top: 8px;
+}
+
+.leaflet-popup-content .loc-popup h4 {
+	margin: 0 0 4px;
+	font-size: 10px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	color: #999;
+}
+
+.leaflet-popup-content .loc-popup ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.leaflet-popup-content .loc-popup li {
+	display: flex;
+	flex-direction: column;
+	padding: 4px 0;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.leaflet-popup-content .loc-popup li:last-child {
+	border-bottom: none;
+}
+
+.loc-person-name {
+	font-size: 12px;
+	font-weight: 500;
+	color: #1a1a1a;
+}
+
+.loc-person-meta {
+	font-size: 11px;
+	color: #777;
+	margin-top: 1px;
+}
+
+.loc-popup-empty {
+	font-size: 12px;
+	color: #aaa;
+	margin: 4px 0 0;
+}
