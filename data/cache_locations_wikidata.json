@@ -310,5 +310,14 @@
     "start": "1296-01-01T00:00:00Z",
     "end": null,
     "founder": null
+  },
+  "Q61837": {
+    "coordinates": {
+      "lat": 49.040833333,
+      "lon": 9.095
+    },
+    "start": null,
+    "end": null,
+    "founder": null
   }
 }

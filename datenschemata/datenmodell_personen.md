@@ -150,95 +150,95 @@ Für jeden Herrenhuter wurde (mindestens) ein Lebenslauf angefertigt. Diese Lebe
 - `R0004000 | M0004100`
 
 ### Geburt - Datum
-*Structured String: \<ISO8601-2_Date\> (\<Reference\>)*
+*Structured String: \<ISO8601-2_Date\> {\<Reference\>}*
 
-Geburtsdatum der Person mit Quellenangabe (_Reference_) in Klammern. Quellen können IDs aus anderen Tabellen oder URLs sein. Bei mehreren widersprüchlichen Geburtsdaten ist das plausibelste einzutragen. Widersprüchliche Annahmen sind ausführlich in Annahmen zu vermerken.
+Geburtsdatum der Person mit Quellenangabe (_Reference_) in geschweiften Klammern. Quellen können IDs aus anderen Tabellen oder URLs sein. Bei mehreren widersprüchlichen Geburtsdaten ist das plausibelste einzutragen. Widersprüchliche Annahmen sind ausführlich in Annahmen zu vermerken.
 
 
 ### Geburt - Datum - Anmerkungen
 *String*
 
 ### Geburt - Ort
-*Structured String: \<L-ID\> (\<Reference\>)*
+*Structured String: \<L-ID\> {\<Reference\>}*
 
-Geburtsort der Person mit Quellenangabe (_Reference_) in Klammern. Orte sind mittels ID in der Orte-Tabelle zu identifizieren (L-ID). Quellen können IDs aus anderen Tabellen oder URLs sein. Bei mehreren widersprüchlichen Geburtsorten ist der plausibelste einzutragen. Widersprüchliche Annahmen sind ausführlich in Annahmen zu vermerken.
+Geburtsort der Person mit Quellenangabe (_Reference_) in geschweiften Klammern. Orte sind mittels ID in der Orte-Tabelle zu identifizieren (L-ID). Quellen können IDs aus anderen Tabellen oder URLs sein. Bei mehreren widersprüchlichen Geburtsorten ist der plausibelste einzutragen. Widersprüchliche Annahmen sind ausführlich in Annahmen zu vermerken.
 
 ### Geburt - Ort - Anmerkungen
 *String*
 
 ### Tod - Datum
-*Structured String: \<ISO8601-2_Date\> (\<Reference\>)*
+*Structured String: \<ISO8601-2_Date\> {\<Reference\>}*
 
-Todessdatum der Person mit Quellenangabe (_Reference_) in Klammern. Quellen können IDs aus anderen Tabellen oder URLs sein. Bei mehreren widersprüchlichen Todessdaten ist das plausibelste einzutragen. Widersprüchliche Annahmen sind ausführlich in Annahmen zu vermerken.
+Todessdatum der Person mit Quellenangabe (_Reference_) in geschweiften Klammern. Quellen können IDs aus anderen Tabellen oder URLs sein. Bei mehreren widersprüchlichen Todessdaten ist das plausibelste einzutragen. Widersprüchliche Annahmen sind ausführlich in Annahmen zu vermerken.
 
 ### Tod - Datum - Anmerkungen
 *String*
 
 ### Tod - Ort
-*Structured String: \<L-ID\> (\<Reference\>)*
+*Structured String: \<L-ID\> {\<Reference\>}*
 
-Todesort der Person mit Quellenangabe (_Reference_) in Klammern. Orte sind mittels ID in der Orte-Tabelle zu identifizieren (L-ID). Quellen können IDs aus anderen Tabellen oder URLs sein.  Bei mehreren widersprüchlichen Todesorten ist der plausibelste einzutragen. Widersprüchliche Annahmen sind ausführlich in Annahmen zu vermerken.
+Todesort der Person mit Quellenangabe (_Reference_) in geschweiften Klammern. Orte sind mittels ID in der Orte-Tabelle zu identifizieren (L-ID). Quellen können IDs aus anderen Tabellen oder URLs sein.  Bei mehreren widersprüchlichen Todesorten ist der plausibelste einzutragen. Widersprüchliche Annahmen sind ausführlich in Annahmen zu vermerken.
 
 ### Tod - Ort - Anmerkungen
 *String*
 
 ### Wirkungsorte
-*List of Structured Strings: \<ISO8601_2_Temporal\>; \<L-ID\>; \<String (Einrichtung)\>; \<String (Funktion)\> (\<Reference\>)*
+*List of Structured Strings: \<ISO8601_2_Temporal\>; \<L-ID\>; \<String (Einrichtung)\>; \<String (Funktion)\> {\<Reference\>}*
 
-Liste mit Wirkungsorten der Person. Ein Wirkungsort besteht aus: Datum/Zeitraum am Ort ([ISO8601-2 Temporal](https://github.com/rue-a/naturforschung_und_protestantische_mission/blob/main/datenschemata/datentypen.md#iso8601-2_temporal)), dem Ort selbst (L-ID), der Einrichtung an der die Person wirkte, ihrer Funktion, und der Quelle aus der diese Informationen stammen. Die Werte Zeitangabe, Ort, Einrichtung und Funktion werden mit Semikolons getrennt, die Quelle Folgt in Klammern. **Sollte eine der Teilinformationen nicht vorhanden sein, muss dennnoch ein Semikolon gesetzt werden!**
+Liste mit Wirkungsorten der Person. Ein Wirkungsort besteht aus: Datum/Zeitraum am Ort ([ISO8601-2 Temporal](https://github.com/rue-a/naturforschung_und_protestantische_mission/blob/main/datenschemata/datentypen.md#iso8601-2_temporal)), dem Ort selbst (L-ID), der Einrichtung an der die Person wirkte, ihrer Funktion, und der Quelle aus der diese Informationen stammen. Die Werte Zeitangabe, Ort, Einrichtung und Funktion werden mit Semikolons getrennt, die Quelle folgt in geschweiften Klammern. **Sollte eine der Teilinformationen nicht vorhanden sein, muss dennnoch ein Semikolon gesetzt werden!**
 
 
 **Einzelbesipiele:**
-- `1773/1782; Lxxxxxxx; Knabenanstalt; Schüler (Rxxxxxxx)` (vollständig)
-- `1782/1785; Lxxxxxxx [Niesky]; Pädagogium; Schüler (Rxxxxxxx)` (Hinweis welcher Ort sich hinter der L-ID verbirgt in eckigen Klammern hinzugefügt -> siehe Tip unten)
-- `1785/1788; Lxxxxxxx; ;Schüler (Rxxxxxxx)` (Einrichtung unbekannt)
-- `1789/; Lxxxxxxx; Pädagogium; (Rxxxxxxx)` (offener Zeitraum ab 1789, Funktion unbekannt)
-- `1796/1808; Lxxxxxxx; Seminar; Dozent, Inspektor, Prediger (Rxxxxxxx)` (mehrere Funktionen können z.B. mit Kommata getrennt werden)
+- `1773/1782; Lxxxxxxx; Knabenanstalt; Schüler {Rxxxxxxx}` (vollständig)
+- `1782/1785; Lxxxxxxx [Niesky]; Pädagogium; Schüler {Rxxxxxxx}` (Hinweis welcher Ort sich hinter der L-ID verbirgt in eckigen Klammern hinzugefügt -> siehe Tip unten)
+- `1785/1788; Lxxxxxxx; ;Schüler {Rxxxxxxx}` (Einrichtung unbekannt)
+- `1789/; Lxxxxxxx; Pädagogium; {Rxxxxxxx}` (offener Zeitraum ab 1789, Funktion unbekannt)
+- `1796/1808; Lxxxxxxx; Seminar; Dozent, Inspektor, Prediger {Rxxxxxxx}` (mehrere Funktionen können z.B. mit Kommata getrennt werden)
 
 
 **Beispielliste:**
 ```
-1773/1782; Lxxxxxxx [Neuwied]; Knabenanstalt; Schüler (Rxxxxxxx) |
-1782/1785; Lxxxxxxx [Niesky]; Pädagogium; Schüler (Rxxxxxxx) |
-1785/1788; Lxxxxxxx [Barby]; ;Schüler (Rxxxxxxx) |
-1789/; Lxxxxxxx [Barby]; Pädagogium; (Rxxxxxxx) |
-1796/1808; Lxxxxxxx [Niesky]; Seminar; Dozent, Inspektor, Prediger (Rxxxxxxx)
+1773/1782; Lxxxxxxx [Neuwied]; Knabenanstalt; Schüler {Rxxxxxxx} |
+1782/1785; Lxxxxxxx [Niesky]; Pädagogium; Schüler {Rxxxxxxx} |
+1785/1788; Lxxxxxxx [Barby]; ;Schüler {Rxxxxxxx} |
+1789/; Lxxxxxxx [Barby]; Pädagogium; {Rxxxxxxx} |
+1796/1808; Lxxxxxxx [Niesky]; Seminar; Dozent, Inspektor, Prediger {Rxxxxxxx}
 ```
 
 > [!TIP]
 >
 > Man kann also Zusatzinfos in eckige Klammern schreiben und Zeilenumbrüche zur besseren Übersicht verwenden. Bei Auslesen der Tabelle werden alle Zeilenumbrüche innerhalb von Feldern entfernt, genauso wird mit allen Informationen in eckigen Klammern und eckigen Klammern selbst verfahren.
 > ```
-> 1773/1782; Lxxxxxxx [Neuwied]; Knabenanstalt; Schüler (Rxxxxxxx) |
-> 1782/1785; Lxxxxxxx [Niesky]; Pädagogium; Schüler (Rxxxxxxx)
+> 1773/1782; Lxxxxxxx [Neuwied]; Knabenanstalt; Schüler {Rxxxxxxx} |
+> 1782/1785; Lxxxxxxx [Niesky]; Pädagogium; Schüler {Rxxxxxxx}
 > ```
 > 
 > wird zu
 > 
-> `1773/1782; Lxxxxxxx; Knabenanstalt; Schüler (Rxxxxxxx) | 1782/1785; Lxxxxxxx; Pädagogium; Schüler (Rxxxxxxx)`
+> `1773/1782; Lxxxxxxx; Knabenanstalt; Schüler {Rxxxxxxx} | 1782/1785; Lxxxxxxx; Pädagogium; Schüler {Rxxxxxxx}`
 
 
 <!-- ### Tätigkeiten
-*List of Structured Strings: \<String\> (\<Reference\>)*
+*List of Structured Strings: \<String\> {\<Reference\>}*
 
-Ungeordnete Liste von Tätigkeiten, die die Person im Laufe Ihres Lebens ausgeführt hat. Dieses Feld dient dem allgemeinen Überblick, genauere Angaben zum Kontext der Tätigkeiten (wo, wann, warum, etc.), werden im Lebenslauf der Person angegeben. Für jede Tätigkeit sollte in Klammern die Quelle angegeben werden. Die Quellen entsprechen dem Datentyp _References_, d.h. IDs aus der Literatur-Tabelle (beginnend mit `R`, IDs aus der Manuskripte-Tabelle (beginnend mit `M`) oder permanente URLs.
+Ungeordnete Liste von Tätigkeiten, die die Person im Laufe Ihres Lebens ausgeführt hat. Dieses Feld dient dem allgemeinen Überblick, genauere Angaben zum Kontext der Tätigkeiten (wo, wann, warum, etc.), werden im Lebenslauf der Person angegeben. Für jede Tätigkeit sollte in geschweiften Klammern die Quelle angegeben werden. Die Quellen entsprechen dem Datentyp _References_, d.h. IDs aus der Literatur-Tabelle (beginnend mit `R`, IDs aus der Manuskripte-Tabelle (beginnend mit `M`) oder permanente URLs.
 
-- `Theologe (R0000015) | Erzieher (M0000250) | Lehrer (M0000250) | Seminardirektor (https://www.bsp-permalink.org/)` -->
+- `Theologe {R0000015} | Erzieher {M0000250} | Lehrer {M0000250} | Seminardirektor {https://www.bsp-permalink.org/}` -->
 
 ### Kontakt - Mit Herrnhutern
-*List of Structured Strings: \<P-ID\> (\<Reference\>)*
+*List of Structured Strings: \<P-ID\> {\<Reference\>}*
 
-Ungeordnete Liste von Personen-IDs innerhalb der Herrnhuter Brüdergemeine, mit denen diese Person nachweislich in Kontakt stand. Zu jedem Kontakt ist eine Quelle in Klammern anzugeben. Die Quellen entsprechen dem Datentyp *References*, d. h. IDs aus der Literatur-Tabelle (beginnend mit `R`), IDs aus der Manuskripte-Tabelle (beginnend mit `M`) oder permanente URLs.
+Ungeordnete Liste von Personen-IDs innerhalb der Herrnhuter Brüdergemeine, mit denen diese Person nachweislich in Kontakt stand. Zu jedem Kontakt ist eine Quelle in geschweiften Klammern anzugeben. Die Quellen entsprechen dem Datentyp *References*, d. h. IDs aus der Literatur-Tabelle (beginnend mit `R`), IDs aus der Manuskripte-Tabelle (beginnend mit `M`) oder permanente URLs.
 
-- `P0000123 (R0000456) | P0000789; 1806-04 (M0000102) |  P0000789; 1806/1809 (M0000102)`
+- `P0000123 {R0000456} | P0000789; 1806-04 {M0000102} |  P0000789; 1806/1809 {M0000102}`
 
 
 ### Kontakt - Mit Nicht-Herrnhutern
-*List of Structured Strings: \<P-ID\> (\<Reference\>)*
+*List of Structured Strings: \<P-ID\> {\<Reference\>}*
 
-Ungeordnete Liste von Personen-IDs außerhalb der Herrnhuter Brüdergemeine, mit denen diese Person nachweislich in Kontakt stand. Zu jedem Kontakt ist eine Quelle in Klammern anzugeben. Die Quellen entsprechen dem Datentyp *References*, d. h. IDs aus der Literatur-Tabelle (beginnend mit `R`), IDs aus der Manuskripte-Tabelle (beginnend mit `M`) oder permanente URLs.
+Ungeordnete Liste von Personen-IDs außerhalb der Herrnhuter Brüdergemeine, mit denen diese Person nachweislich in Kontakt stand. Zu jedem Kontakt ist eine Quelle in geschweiften Klammern anzugeben. Die Quellen entsprechen dem Datentyp *References*, d. h. IDs aus der Literatur-Tabelle (beginnend mit `R`), IDs aus der Manuskripte-Tabelle (beginnend mit `M`) oder permanente URLs.
 
-- `P0000234 (https://www.example.org/permalink)`
+- `P0000234 {https://www.example.org/permalink}`
 - siehe auch `Kontakt - Mit Herrnhutern`
 
 
@@ -249,26 +249,26 @@ Ungeordnete Liste von Themen mit Botanikbezug denen sich die Person in besondere
 
 
 ### Botanik - Beitrag zu Sammlungen (Objektnachweis)
-*List of Structured Strings: \<C-ID\> (\<URL\>)*
+*List of Structured Strings: \<C-ID\> {\<URL\>}*
 
-Persistenter Link zu einem konkreten Objekt, das von der Person gesammelt wurde und Teil der referenzierten Sammlung ist. Jede referenzierte Sammlung muss mit genau einem Objekt nachgewiesen werden. Einträge folgen diesem Muster: `<ID-aus-der-Sammlungstabelle> (<persistenter-Link-zum-Objekt>)`.
+Persistenter Link zu einem konkreten Objekt, das von der Person gesammelt wurde und Teil der referenzierten Sammlung ist. Jede referenzierte Sammlung muss mit genau einem Objekt nachgewiesen werden. Einträge folgen diesem Muster: `<ID-aus-der-Sammlungstabelle> {<persistenter-Link-zum-Objekt>}`.
 
-- `C-DR (https://dr.jacq.org/DR086086)`: Das von Albertini gesammelte Objekt, zu finden unter https://dr.jacq.org/DR086086, weist nach, dass Albertini zur Sammlung C-DR (DR, Herbarium Dresdense) beigetragen hat.
+- `C-DR {https://dr.jacq.org/DR086086}`: Das von Albertini gesammelte Objekt, zu finden unter https://dr.jacq.org/DR086086, weist nach, dass Albertini zur Sammlung C-DR (DR, Herbarium Dresdense) beigetragen hat.
 
 
 ### Botanik - Beitrag zu Sammlungen (Datenbanknachweis)
-*List of Structured Strings: \<C-ID\> (\<URL\>)*
+*List of Structured Strings: \<C-ID\> {\<URL\>}*
 
-Persistenter Link zu einem Personeneintrag in einer Datenbank, in dem vermerkt ist, zu welchen Sammlungen die Person beigetragen hat. Einträge folgen diesem Muster: `<ID-aus-der-Sammlungstabelle> (<persistenter-Link-zur-Datenbankseite>)`.
+Persistenter Link zu einem Personeneintrag in einer Datenbank, in dem vermerkt ist, zu welchen Sammlungen die Person beigetragen hat. Einträge folgen diesem Muster: `<ID-aus-der-Sammlungstabelle> {<persistenter-Link-zur-Datenbankseite>}`.
 
-- `C-B (https://www.tropicos.org/person/791) | C-M (https://www.tropicos.org/person/791)`: Unter https://www.tropicos.org/person/791 ist vermerkt (bei _Speciality_), dass Albertini zu den Sammlungen C-B (B, Herbarium Berolinense), und C-M (M, Herbarium der Staatlichen Naturwissenschaftlichen Sammlungen Bayerns) beigetragen hat.
+- `C-B {https://www.tropicos.org/person/791} | C-M {https://www.tropicos.org/person/791}`: Unter https://www.tropicos.org/person/791 ist vermerkt (bei _Speciality_), dass Albertini zu den Sammlungen C-B (B, Herbarium Berolinense), und C-M (M, Herbarium der Staatlichen Naturwissenschaftlichen Sammlungen Bayerns) beigetragen hat.
 
 
 
 ### Botanik - Beitrag zu Sammlungen (Literaturnachweis)
-*List of Structured Strings: \<C-ID\> (\<R-ID\>)*
+*List of Structured Strings: \<C-ID\> {\<R-ID\>}*
 
-Verweis auf eine Literaturquelle, in der explizit erwähnt ist, dass die Person zu einer Sammlung beigetragen hat. Einträge folgen diesem Muster: `<ID-aus-der-Sammlungstabelle> (<ID-aus-der-Literaturtabelle>)`.
+Verweis auf eine Literaturquelle, in der explizit erwähnt ist, dass die Person zu einer Sammlung beigetragen hat. Einträge folgen diesem Muster: `<ID-aus-der-Sammlungstabelle> {<ID-aus-der-Literaturtabelle>}`.
 
 
 

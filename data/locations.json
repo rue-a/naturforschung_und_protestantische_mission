@@ -52,7 +52,7 @@
         ]
       },
       "properties": {
-        "name": null,
+        "name": "Alpen (Gebirge)",
         "variants": [],
         "wikidata": "https://www.wikidata.org/wiki/Q1286",
         "description": null,
@@ -225,11 +225,6 @@
               "id": "P0010000",
               "name": "Johann Baptist von Albertini",
               "date": "1831-12-06"
-            },
-            {
-              "id": "P0220000",
-              "name": "Johann Christian Breutel",
-              "date": "1875-02-18"
             }
           ],
           "places_of_effect": [
@@ -273,6 +268,37 @@
               "id": "P0320000",
               "name": "Christian Friedrich Denke",
               "date": "1775-09-08"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L0550000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.095,
+          49.040833333
+        ]
+      },
+      "properties": {
+        "name": "Bönningheim",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q61837",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0865000",
+              "name": "Kaspar Kögel",
+              "date": "1801-12-15"
             }
           ],
           "deaths": [],
@@ -356,7 +382,15 @@
             }
           ],
           "deaths": [],
-          "places_of_effect": []
+          "places_of_effect": [
+            {
+              "id": "P0030000",
+              "name": "Christian Gotthold Amende",
+              "temporal": "1853/1879",
+              "institution": null,
+              "occupation": "(UA, Dienerblätter A-Bl, S. 68-69)"
+            }
+          ]
         }
       }
     },
@@ -479,7 +513,16 @@
       "geometry": null,
       "properties": {
         "name": "Gnadenfeld",
-        "variants": [],
+        "variants": [
+          {
+            "name": "Pawlowitzke (Kreis Cosel, Oberschlesien)",
+            "lang": ""
+          },
+          {
+            "name": "Pawłowiczki (Powiat Kędzierzyńsko-Kozielski, Woiwodschaft Oppeln, Polen)",
+            "lang": ""
+          }
+        ],
         "wikidata": null,
         "description": null,
         "founder": null,
@@ -676,6 +719,20 @@
           "deaths": [],
           "places_of_effect": [
             {
+              "id": "P0030000",
+              "name": "Christian Gotthold Amende",
+              "temporal": "1818/1853",
+              "institution": null,
+              "occupation": "(UA, Dienerblätter A-Bl, S. 68-69)"
+            },
+            {
+              "id": "P0030000",
+              "name": "Christian Gotthold Amende",
+              "temporal": "1879/1899",
+              "institution": null,
+              "occupation": "(UA, Dienerblätter A-Bl, S. 68-69)"
+            },
+            {
               "id": "P0535000",
               "name": "Carl Heinrich Götz",
               "temporal": "1832",
@@ -813,6 +870,13 @@
           ],
           "places_of_effect": [
             {
+              "id": "P0020000",
+              "name": "Carl Gottfried Albrecht",
+              "temporal": "1865/1888",
+              "institution": null,
+              "occupation": "(UA, Dienerblätter A-Bl, S. 53))"
+            },
+            {
               "id": "P0300000",
               "name": "Pierre Frederich Curie",
               "temporal": "1803",
@@ -911,7 +975,13 @@
         "founder": null,
         "importance": {
           "births": [],
-          "deaths": [],
+          "deaths": [
+            {
+              "id": "P0865000",
+              "name": "Kaspar Kögel",
+              "date": "1862-10-19"
+            }
+          ],
           "places_of_effect": []
         }
       }
@@ -1418,6 +1488,10 @@
         "variants": [
           {
             "name": "St. Johns",
+            "lang": ""
+          },
+          {
+            "name": "Sankt Jan (dän.)",
             "lang": ""
           },
           {

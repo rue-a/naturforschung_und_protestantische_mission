@@ -320,7 +320,7 @@
           "source": {
             "type": "print",
             "id": "R0000900",
-            "label": "[fallback value: R0000900]",
+            "label": "P. Lorenz: Johann Baptist von Albertini: ein Lebensbild (1894)",
             "link": "https://books.google.de/books?id=JahRpKlMip0C&hl=de&pg=PP6#v=onepage&q&f=false"
           }
         },
@@ -331,7 +331,7 @@
           "source": {
             "type": "print",
             "id": "R0000900",
-            "label": "[fallback value: R0000900]",
+            "label": "P. Lorenz: Johann Baptist von Albertini: ein Lebensbild (1894)",
             "link": "https://books.google.de/books?id=JahRpKlMip0C&hl=de&pg=PP6#v=onepage&q&f=false"
           }
         },
@@ -342,7 +342,7 @@
           "source": {
             "type": "print",
             "id": "R0000900",
-            "label": "[fallback value: R0000900]",
+            "label": "P. Lorenz: Johann Baptist von Albertini: ein Lebensbild (1894)",
             "link": "https://books.google.de/books?id=JahRpKlMip0C&hl=de&pg=PP6#v=onepage&q&f=false"
           }
         }
@@ -375,7 +375,9 @@
             "label": "[fallback value: C-MEL]",
             "link": "https://avh.ala.org.au/occurrences/search?q=collection_uid%3Aco54#tab_recordsView",
             "nybg_herbarium_code": "MEL",
-            "holding_institutions": [],
+            "holding_institutions": [
+              "Royal Botanic Gardens Victoria (Melbourne/Australia)"
+            ],
             "source": {
               "type": "web",
               "label": "https://www.gbif.org/occurrence/2439357615"
@@ -440,7 +442,9 @@
             "label": "[fallback value: C-M]",
             "link": "http://www.botanischestaatssammlung.de",
             "nybg_herbarium_code": "M",
-            "holding_institutions": [],
+            "holding_institutions": [
+              "Staatliche Naturwissenschaftliche Sammlungen Bayerns (SNSB)"
+            ],
             "source": {
               "type": "web",
               "label": "https://www.tropicos.org/person/791"
@@ -457,7 +461,7 @@
             "label": "Albertinis Eintrag im Stammbuch von Lind aus der Brüdergemeine Sarepta",
             "link": "http://kalliope-verbund.info/DE-611-HS-2419424",
             "signature": "Mscr.Dresd.App.2789, Bl.142r",
-            "archive": "[fallback value: A0000600]",
+            "archive": "Sächsische Landesbibliothek - Staats- und Universitätsbibliothek (Germany)",
             "archive_abbreviation": "SLUB",
             "source": null
           },
@@ -466,7 +470,7 @@
             "label": "[fallback value: M0003400]",
             "link": null,
             "signature": "NB.VI.63.i.",
-            "archive": "[fallback value: A0000100]",
+            "archive": "Unitätsarchiv Herrnhut (Germany)",
             "archive_abbreviation": "UA",
             "source": null
           },
@@ -475,7 +479,7 @@
             "label": "[fallback value: M0003500]",
             "link": null,
             "signature": "Cim.II.19",
-            "archive": "[fallback value: A0000100]",
+            "archive": "Unitätsarchiv Herrnhut (Germany)",
             "archive_abbreviation": "UA",
             "source": null
           },
@@ -484,7 +488,7 @@
             "label": "[fallback value: M0003600]",
             "link": null,
             "signature": "Cim.II.20",
-            "archive": "[fallback value: A0000100]",
+            "archive": "Unitätsarchiv Herrnhut (Germany)",
             "archive_abbreviation": "UA",
             "source": null
           },
@@ -493,25 +497,25 @@
             "label": "[fallback value: M0003700]",
             "link": null,
             "signature": "Cim.II8",
-            "archive": "[fallback value: A0000100]",
+            "archive": "Unitätsarchiv Herrnhut (Germany)",
             "archive_abbreviation": "UA",
             "source": null
           },
           {
             "id": "M0003800",
-            "label": "[fallback value: M0003800]",
+            "label": "J.B.v. Albertini, L.D.v. Schweinitz: „Icones Fungorum Nieskiensis“. Bd. 1. und 2., o.O., (1801-1803)",
             "link": null,
             "signature": "Cim.II9",
-            "archive": "[fallback value: A0000100]",
+            "archive": "Unitätsarchiv Herrnhut (Germany)",
             "archive_abbreviation": "UA",
             "source": null
           },
           {
             "id": "M0004500",
-            "label": "[fallback value: M0004500]",
+            "label": "J.B.v. Albertini: Fungi nostrates, inchoati, 1. Sept. 1801 (1807)",
             "link": null,
             "signature": "Cim.II.11",
-            "archive": "[fallback value: A0000100]",
+            "archive": "Unitätsarchiv Herrnhut (Germany)",
             "archive_abbreviation": "UA",
             "source": null
           },
@@ -520,7 +524,7 @@
             "label": "J.B.v. Albertini: Flora Gnadenfreisensis, o.O.,",
             "link": null,
             "signature": "Cim.II.16",
-            "archive": "[fallback value: A0000100]",
+            "archive": "Unitätsarchiv Herrnhut (Germany)",
             "archive_abbreviation": "UA",
             "source": null
           }
@@ -1009,6 +1013,19 @@
     "places_of_effect": [
       {
         "temporal": {
+          "label": "1820–1826"
+        },
+        "location": null,
+        "institution": {
+          "label": null
+        },
+        "occupation": {
+          "label": "(UA, Dienerblätter A-Bl. S. 53)"
+        },
+        "source": null
+      },
+      {
+        "temporal": {
           "label": "1835–1838"
         },
         "location": {
@@ -1072,6 +1089,23 @@
           "label": "Jacques Cayouette, Stephen J. Darbyshire: Taxa described by Steudel from the Labrador plants collected by the Moravian missionary Albrecht and distributed by Hohenacker in: Taxon 43 (1994): 169-180.",
           "link": "https://doi.org/10.2307/1222875"
         }
+      },
+      {
+        "temporal": {
+          "label": "1865–1888"
+        },
+        "location": {
+          "id": "L1500000",
+          "label": "Kleinwelka",
+          "link": "https://www.wikidata.org/wiki/Q159916"
+        },
+        "institution": {
+          "label": null
+        },
+        "occupation": {
+          "label": "(UA, Dienerblätter A-Bl, S. 53))"
+        },
+        "source": null
       }
     ],
     "moravian_curriculum_vitae": [],
@@ -1256,7 +1290,7 @@
           },
           {
             "id": "R0006200",
-            "label": "[fallback value: R0006200]",
+            "label": "Ernst Gottlieb von Steudel: Synopsis Plantarum Glumacearum (1854), Vol. 1 (3)",
             "link": "https://www.biodiversitylibrary.org/item/159153",
             "source": null
           }
@@ -1362,6 +1396,29 @@
             "institution": "Missionar",
             "occupation": null
           }
+        },
+        {
+          "type": "Feature",
+          "featureType": "place_of_effect",
+          "time": {
+            "interval": [
+              "1865",
+              "1888"
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              14.3946,
+              51.21079
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q159916",
+            "place_name": "Kleinwelka",
+            "institution": null,
+            "occupation": "(UA, Dienerblätter A-Bl, S. 53))"
+          }
         }
       ]
     }
@@ -1390,7 +1447,7 @@
         "label": null,
         "source": null
       },
-      "notes": null
+      "notes": "Am Ende (UA, Dienerblätter A-Bl, S. 68-69)"
     },
     "member_of_moravians": [],
     "birth": {
@@ -1401,7 +1458,59 @@
       "date": null,
       "location": null
     },
-    "places_of_effect": [],
+    "places_of_effect": [
+      {
+        "temporal": {
+          "label": "1818–1853"
+        },
+        "location": {
+          "id": "L1120000",
+          "label": "Herrnhut",
+          "link": "https://www.wikidata.org/wiki/Q165140"
+        },
+        "institution": {
+          "label": null
+        },
+        "occupation": {
+          "label": "(UA, Dienerblätter A-Bl, S. 68-69)"
+        },
+        "source": null
+      },
+      {
+        "temporal": {
+          "label": "1853–1879"
+        },
+        "location": {
+          "id": "L0800000",
+          "label": "Ebersdorf",
+          "link": "https://www.wikidata.org/wiki/Q1279760"
+        },
+        "institution": {
+          "label": null
+        },
+        "occupation": {
+          "label": "(UA, Dienerblätter A-Bl, S. 68-69)"
+        },
+        "source": null
+      },
+      {
+        "temporal": {
+          "label": "1879–1899"
+        },
+        "location": {
+          "id": "L1120000",
+          "label": "Herrnhut",
+          "link": "https://www.wikidata.org/wiki/Q165140"
+        },
+        "institution": {
+          "label": null
+        },
+        "occupation": {
+          "label": "(UA, Dienerblätter A-Bl, S. 68-69)"
+        },
+        "source": null
+      }
+    ],
     "moravian_curriculum_vitae": [],
     "relatives": {
       "siblings": [],
@@ -1456,7 +1565,77 @@
       "conformsTo": [
         "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
       ],
-      "features": []
+      "features": [
+        {
+          "type": "Feature",
+          "featureType": "place_of_effect",
+          "time": {
+            "interval": [
+              "1818",
+              "1853"
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              14.741666666,
+              51.016666666
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q165140",
+            "place_name": "Herrnhut",
+            "institution": null,
+            "occupation": "(UA, Dienerblätter A-Bl, S. 68-69)"
+          }
+        },
+        {
+          "type": "Feature",
+          "featureType": "place_of_effect",
+          "time": {
+            "interval": [
+              "1853",
+              "1879"
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.6672,
+              50.4847
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q1279760",
+            "place_name": "Ebersdorf",
+            "institution": null,
+            "occupation": "(UA, Dienerblätter A-Bl, S. 68-69)"
+          }
+        },
+        {
+          "type": "Feature",
+          "featureType": "place_of_effect",
+          "time": {
+            "interval": [
+              "1879",
+              "1899"
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              14.741666666,
+              51.016666666
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q165140",
+            "place_name": "Herrnhut",
+            "institution": null,
+            "occupation": "(UA, Dienerblätter A-Bl, S. 68-69)"
+          }
+        }
+      ]
     }
   },
   {
@@ -1954,7 +2133,7 @@
         "source": {
           "type": "print",
           "id": "R0004100",
-          "label": "[fallback value: R0004100]",
+          "label": "Hans J. Rollmann: Christian Gottlob Barth and the Moravian Inuktitut Book Culture of Labrador, in: Newfoundland and Labrador Studies Volume 32, numéro 2, fall 2017, p. 265-548 (2017)",
           "link": "https://id.erudit.org/iderudit/nflds32_2art05"
         },
         "notes": null
@@ -1985,7 +2164,16 @@
         }
       ],
       "contribution_to_collections": {
-        "object_evidence": [],
+        "object_evidence": [
+          {
+            "id": "C-GLM (0115838)",
+            "label": "[fallback value: C-GLM (0115838)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
+          }
+        ],
         "database_evidence": [],
         "literature_evidence": [],
         "notes": "viele in Görlitz, alles aus Herbarium Wenck in Görlitz um 1850-1860; erfasst während der Masterarbeit zu Wenck; Belege sind digitalisiert und müssen noch in die Senckenberg Datenbank integriert werden. 11 Belege liegen digitalisiert vor"
@@ -2355,6 +2543,22 @@
             "source": null
           },
           {
+            "id": "C-MEL (2449822A)",
+            "label": "[fallback value: C-MEL (2449822A)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
+          },
+          {
+            "id": "C-BM (BM000786774)",
+            "label": "[fallback value: C-BM (BM000786774)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
+          },
+          {
             "id": "C-MO",
             "label": "Missouri Botanical Garden Herbarium",
             "link": null,
@@ -2412,6 +2616,14 @@
             }
           },
           {
+            "id": "C-WRSL (WRSL-F 016937)",
+            "label": "[fallback value: C-WRSL (WRSL-F 016937)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
+          },
+          {
             "id": "C-H",
             "label": "[fallback value: C-H]",
             "link": null,
@@ -2434,6 +2646,14 @@
               "type": "web",
               "label": "https://www.gbif.org/occurrence/3404186372"
             }
+          },
+          {
+            "id": "C-GLM (111093)",
+            "label": "[fallback value: C-GLM (111093)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
           }
         ],
         "database_evidence": [],
@@ -2690,7 +2910,7 @@
         "object_evidence": [],
         "database_evidence": [],
         "literature_evidence": [],
-        "notes": null
+        "notes": "1962 im National-Herbarium im Nationalmuseum von Canada Ottawa, davor wohl im Herbarium Oslo (Dathan 2012, 628)"
       },
       "works": {
         "manuscripts": [],
@@ -2946,20 +3166,17 @@
             }
           },
           {
-            "id": "C-WU",
-            "label": "[fallback value: C-WU]",
+            "id": "C-WU ( https://wu.jacq.org/WU0068219)",
+            "label": "[fallback value: C-WU ( https://wu.jacq.org/WU0068219)]",
             "link": null,
             "nybg_herbarium_code": null,
             "holding_institutions": [],
-            "source": {
-              "type": "web",
-              "label": "https://wu.jacq.org/WU0068219"
-            }
+            "source": null
           }
         ],
         "database_evidence": [],
         "literature_evidence": [],
-        "notes": "Zudem waren früher in vielen Sammlungen, Becker Spezimen, die jetzt zentralisiert sind: z.B. A.L.v. Reuss seit 1944 Berlin, (B 10 1113098) oder M.R.v. Eichenfeld seit 1907? Graz (GJO0042190) oder E. Hackel (manchmal H. Hackel) seit 1916 Wien (W 1916-0015215; W 1916_0022321) |im Feb. 2024 wurden die Belege Becker in St. Petersburg (Herb. LE) neu aufgenommen/revidiert hier eine \"Flora Sarepta Herb. Becker\" (http://re.herbariumle.ru/01046224)Herbarien: COI Coimbra, Portugal (COI); sehr viel; http://coicatalogue.uc.pt/specimen/COI00041009; http://coicatalogue.uc.pt/specimen/COI00041173; http://coicatalogue.uc.pt/specimen/COI00049842 | E; https://data.rbge.org.uk/herb/E00385028 |NHMUK; BM000752181 | MO - MBG (Missouri); http://www.tropicos.org/Specimen/1809685 --> spannend! | O – Olso; sehr viel!; https://www.gbif.org/occurrence/1094984050 --> spannend |herb: US |herb: COI |herb: S | herb: B | herb: PI | herb: O | herb: W | herb: RBGE | herb: UPS | herb: NTNU-VM | herb: MANCH | herb: STU | herb: TAAM | herb: Uniwersytet Warszawski |herb: GJO | herb: WU | herb: JE | herb: MO | herb: Z | herb: NHMUK | herb: K | herb: ZT | herb: DR | herb: UM | herb: Institute of Plant and Animal Ecology (IPAE UB RAS) | herb: ERE | herb: MNHN | herb: MZH | herb: UGENT | herb: BRNU | herb: AU| herb: AUA | herb: Agriculture & Agri-Food Canada | herb: EIU | herb: Moscow State University | herb: Uniwersytet Wrocławski | herb: Uniwersytet Jagielloński | herb: SNSNMC | herb: NY | herb: F | herb: YPM https://bionomia.net/Q4719276/deposited-at"
+        "notes": "Zudem waren früher in vielen Sammlungen, Becker Spezimen, die jetzt zentralisiert sind: z.B. A.L.v. Reuss seit 1944 Berlin, (B 10 1113098) oder M.R.v. Eichenfeld seit 1907? Graz (GJO0042190) oder E. Hackel (manchmal H. Hackel) seit 1916 Wien (W 1916-0015215; W 1916_0022321) |im Feb. 2024 wurden die Belege Becker in St. Petersburg (Herb. LE) neu aufgenommen/revidiert hier eine \"Flora Sarepta Herb. Becker\" {http://re.herbariumle.ru/01046224}Herbarien: COI Coimbra, Portugal (COI); sehr viel; http://coicatalogue.uc.pt/specimen/COI00041009; http://coicatalogue.uc.pt/specimen/COI00041173; http://coicatalogue.uc.pt/specimen/COI00049842 | E; https://data.rbge.org.uk/herb/E00385028 |NHMUK; BM000752181 | MO - MBG (Missouri); http://www.tropicos.org/Specimen/1809685 --> spannend! | O – Olso; sehr viel!; https://www.gbif.org/occurrence/1094984050 --> spannend |herb: US |herb: COI |herb: S | herb: B | herb: PI | herb: O | herb: W | herb: RBGE | herb: UPS | herb: NTNU-VM | herb: MANCH | herb: STU | herb: TAAM | herb: Uniwersytet Warszawski |herb: GJO | herb: WU | herb: JE | herb: MO | herb: Z | herb: NHMUK | herb: K | herb: ZT | herb: DR | herb: UM | herb: Institute of Plant and Animal Ecology (IPAE UB RAS) | herb: ERE | herb: MNHN | herb: MZH | herb: UGENT | herb: BRNU | herb: AU| herb: AUA | herb: Agriculture & Agri-Food Canada | herb: EIU | herb: Moscow State University | herb: Uniwersytet Wrocławski | herb: Uniwersytet Jagielloński | herb: SNSNMC | herb: NY | herb: F | herb: YPM https://bionomia.net/Q4719276/deposited-at"
       },
       "works": {
         "manuscripts": [],
@@ -3529,7 +3746,7 @@
           "label": "Lebenslauf Johann Jacob Bossart",
           "link": null,
           "signature": "R.22.27.07",
-          "archive": "[fallback value: A0000100]",
+          "archive": "Unitätsarchiv Herrnhut (Germany)",
           "archive_abbreviation": "UA"
         },
         "notes": null
@@ -3544,7 +3761,7 @@
           "label": "Lebenslauf Johann Jacob Bossart",
           "link": null,
           "signature": "R.22.27.07",
-          "archive": "[fallback value: A0000100]",
+          "archive": "Unitätsarchiv Herrnhut (Germany)",
           "archive_abbreviation": "UA"
         },
         "notes": null
@@ -3559,7 +3776,7 @@
           "label": "Lebenslauf Johann Jacob Bossart",
           "link": null,
           "signature": "R.22.27.07",
-          "archive": "[fallback value: A0000100]",
+          "archive": "Unitätsarchiv Herrnhut (Germany)",
           "archive_abbreviation": "UA"
         },
         "notes": null
@@ -3574,7 +3791,7 @@
           "label": "Lebenslauf Johann Jacob Bossart",
           "link": null,
           "signature": "R.22.27.07",
-          "archive": "[fallback value: A0000100]",
+          "archive": "Unitätsarchiv Herrnhut (Germany)",
           "archive_abbreviation": "UA"
         },
         "notes": null
@@ -3602,7 +3819,7 @@
           "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
           "link": "http://digital.slub-dresden.de/id1789541689/508",
           "signature": "GN.A.256",
-          "archive": "[fallback value: A0000100]",
+          "archive": "Unitätsarchiv Herrnhut (Germany)",
           "archive_abbreviation": "UA"
         }
       },
@@ -3627,7 +3844,7 @@
           "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
           "link": "http://digital.slub-dresden.de/id1789541689/508",
           "signature": "GN.A.256",
-          "archive": "[fallback value: A0000100]",
+          "archive": "Unitätsarchiv Herrnhut (Germany)",
           "archive_abbreviation": "UA"
         }
       },
@@ -3652,7 +3869,7 @@
           "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
           "link": "http://digital.slub-dresden.de/id1789541689/508",
           "signature": "GN.A.256",
-          "archive": "[fallback value: A0000100]",
+          "archive": "Unitätsarchiv Herrnhut (Germany)",
           "archive_abbreviation": "UA"
         }
       },
@@ -3677,7 +3894,7 @@
           "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
           "link": "http://digital.slub-dresden.de/id1789541689/508",
           "signature": "GN.A.256",
-          "archive": "[fallback value: A0000100]",
+          "archive": "Unitätsarchiv Herrnhut (Germany)",
           "archive_abbreviation": "UA"
         }
       },
@@ -3702,7 +3919,7 @@
           "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
           "link": "http://digital.slub-dresden.de/id1789541689/508",
           "signature": "GN.A.256",
-          "archive": "[fallback value: A0000100]",
+          "archive": "Unitätsarchiv Herrnhut (Germany)",
           "archive_abbreviation": "UA"
         }
       },
@@ -3727,7 +3944,7 @@
           "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
           "link": "http://digital.slub-dresden.de/id1789541689/508",
           "signature": "GN.A.256",
-          "archive": "[fallback value: A0000100]",
+          "archive": "Unitätsarchiv Herrnhut (Germany)",
           "archive_abbreviation": "UA"
         }
       },
@@ -3752,7 +3969,7 @@
           "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
           "link": "http://digital.slub-dresden.de/id1789541689/508",
           "signature": "GN.A.256",
-          "archive": "[fallback value: A0000100]",
+          "archive": "Unitätsarchiv Herrnhut (Germany)",
           "archive_abbreviation": "UA"
         }
       }
@@ -3763,7 +3980,7 @@
         "label": "Lebenslauf Johann Jacob Bossart",
         "link": null,
         "signature": "R.22.27.07",
-        "archive": "[fallback value: A0000100]",
+        "archive": "Unitätsarchiv Herrnhut (Germany)",
         "archive_abbreviation": "UA",
         "source": null
       },
@@ -3772,7 +3989,7 @@
         "label": "3., Der sel. Br. Johan Jacob Boshart (in Barby) hat folgende Nachricht von sich hinterlassen: In:Gemeinnachrichten 1789. Beyl. VII-XII, S. 504-526",
         "link": "http://digital.slub-dresden.de/id1789541689/508",
         "signature": "GN.A.256",
-        "archive": "[fallback value: A0000100]",
+        "archive": "Unitätsarchiv Herrnhut (Germany)",
         "archive_abbreviation": "UA",
         "source": null
       }
@@ -3795,24 +4012,12 @@
             "label": "Schriftwechsel mit Christian Jacob Protten|UA, R.15.N.8.1.c, no. 22.: 1762 Mart. 3. Prottens nachricht von einigen mitgebrachten2 u. übergebenen africanischen sachen",
             "link": null,
             "signature": "R.15.N.08.1.c",
-            "archive": "[fallback value: A0000100]",
+            "archive": "Unitätsarchiv Herrnhut (Germany)",
             "archive_abbreviation": "UA"
           }
         }
       ],
-      "with_non_moravians": [
-        {
-          "id": "P1485000",
-          "label": "Johann Christian Daniel Schreber",
-          "link": null,
-          "source": {
-            "type": "print",
-            "id": "R0005300",
-            "label": "Friedrich Adam Scholler; Johann Christian Daniel Schreber: Supplementum Florae Barbiensis Auctore Frider. Adam. Scholler cum tabula aenea, hg. v. Bossart, Johann Jakob, Barbii: typis Spellenbergianis 1787.",
-            "link": null
-          }
-        }
-      ]
+      "with_non_moravians": []
     },
     "botany": {
       "focuses": [
@@ -3828,7 +4033,13 @@
             "label": "Herbarium Barbiensis",
             "link": null,
             "nybg_herbarium_code": null,
-            "holding_institutions": [],
+            "holding_institutions": [
+              "Akademie der Brüderunität, Barby (-)",
+              "Pädagogium der Brüder-Unität, Barby (-)",
+              "Pädagogium der Brüderunität, Niesky (-)",
+              "Museum, Niesky (-)",
+              "TU Dresden (-)"
+            ],
             "source": null
           }
         ],
@@ -3839,11 +4050,17 @@
             "label": "Herbarium Barbiensis",
             "link": null,
             "nybg_herbarium_code": null,
-            "holding_institutions": [],
+            "holding_institutions": [
+              "Akademie der Brüderunität, Barby (-)",
+              "Pädagogium der Brüder-Unität, Barby (-)",
+              "Pädagogium der Brüderunität, Niesky (-)",
+              "Museum, Niesky (-)",
+              "TU Dresden (-)"
+            ],
             "source": {
               "type": "print",
               "id": "R0005100",
-              "label": "[fallback value: R0005100]",
+              "label": "Richard Ehrlacher; Frank Müller; Sarah T. Wagner; Thomas Ruhland; Lena Frenzke: \"Barby und die botanische Praxis der Herrnhuter Brüdergemeine im 18. Jahrhundert. Sammeln, Verwahren und Auswerten – das Herbarium Barbiense, ein Exkursionstagebuch von 1766 und Friedrich Adam Schollers Flora Barbiensis (1775/87)\", in: Mitteilungen zur floristischen Kartierung Sachsen-Anhalt Sonderheft 6 (2024)",
               "link": "https://doi.org/10.21248/mfk.444"
             }
           }
@@ -3854,28 +4071,28 @@
         "manuscripts": [
           {
             "id": "M0000100",
-            "label": "[fallback value: M0000100]",
+            "label": "Johann Jakob Bossart: Tagebuch Botanischer Exkursionen (1766)",
             "link": null,
             "signature": "ThS.A.132.a",
-            "archive": "[fallback value: A0000100]",
+            "archive": "Unitätsarchiv Herrnhut (Germany)",
             "archive_abbreviation": "UA",
             "source": null
           },
           {
             "id": "M0000200",
-            "label": "[fallback value: M0000200]",
+            "label": "Johann Jakob Bossart: Verzeichniß der Naturalien aus dem Thier=Reich nach dem Linné (vor 1773)",
             "link": null,
             "signature": "Cim.V.4.",
-            "archive": "[fallback value: A0000100]",
+            "archive": "Unitätsarchiv Herrnhut (Germany)",
             "archive_abbreviation": "UA",
             "source": null
           },
           {
             "id": "M0000300",
-            "label": "[fallback value: M0000300]",
+            "label": "Johann Jakob Bossart: Catalogus der Kunstsachen (1775)",
             "link": null,
             "signature": "Cim.V.5.",
-            "archive": "[fallback value: A0000100]",
+            "archive": "Unitätsarchiv Herrnhut (Germany)",
             "archive_abbreviation": "UA",
             "source": null
           },
@@ -3884,7 +4101,7 @@
             "label": "Johann Jakob Bossart: Verzeichnis des Herbariums Barbiense (-); enthält: „Index alphabeticus Generum Plantarum es quibus sicca Speciminain Collectione Musei Academia Fratrum servantur“; „Index Plantarum siccarum Systematicus eo ordine, quo sunt in Fasciculis dispositae“ und „Catalogus über dem was in dem Saamen Schranck befindlich“",
             "link": null,
             "signature": "Cim.II.4",
-            "archive": "[fallback value: A0000100]",
+            "archive": "Unitätsarchiv Herrnhut (Germany)",
             "archive_abbreviation": "UA",
             "source": null
           }
@@ -3921,7 +4138,7 @@
           "label": "[fallback value: M0004300]",
           "link": "https://www.unitaetsarchiv.findbuch.net/php/view.php?link=5453x1959",
           "signature": "TS.Bd.22.9",
-          "archive": "[fallback value: A0000100]",
+          "archive": "Unitätsarchiv Herrnhut (Germany)",
           "archive_abbreviation": "UA",
           "source": null
         },
@@ -3930,7 +4147,7 @@
           "label": "[fallback value: M0004400]",
           "link": "https://www.unitaetsarchiv.findbuch.net/php/view.php?link=5453x3083",
           "signature": "TS.Mp.32.15",
-          "archive": "[fallback value: A0000100]",
+          "archive": "Unitätsarchiv Herrnhut (Germany)",
           "archive_abbreviation": "UA",
           "source": null
         }
@@ -4418,6 +4635,10 @@
         {
           "label": "Mitwirkung am Aufbau des Görlitzer Herbars",
           "source": null
+        },
+        {
+          "label": "1823 schenkte er der Naturforschenden Gesellschaft Görlitz ein \"Herbarium vivum von seltenen Pflanzen und Moosen\" (ob von ihm selbst gesammelt?), heute im Naturkundemuseum Görlitz (GLM) (Hardtke)",
+          "source": null
         }
       ],
       "contribution_to_collections": {
@@ -4519,7 +4740,12 @@
       "with_non_moravians": []
     },
     "botany": {
-      "focuses": [],
+      "focuses": [
+        {
+          "label": "Botanik Herbarbelege aus Labrador und Grönland an Blumenbach über Lieberkühn (Johann Friedrich Blumenbach: De Generis Hvmani Varietate Nativa / Illvstris Facvltatis Medicinae Consensv ... Dispvtavit D. XVI. Sept.MDCCLXXV. ... Ioann. Frider. Blvmenbach Gothanvs, Goettingae: Rosenbuschius 1775, 46)",
+          "source": null
+        }
+      ],
       "contribution_to_collections": {
         "object_evidence": [],
         "database_evidence": [],
@@ -4654,16 +4880,7 @@
         },
         "notes": null
       },
-      "location": {
-        "id": "L0400000",
-        "label": "Berthelsdorf",
-        "link": "https://www.wikidata.org/wiki/Q502553",
-        "source": {
-          "type": "web",
-          "label": "https://saebi.isgv.de/biografie/Johann_Christian_Breutel_(1788-1875)"
-        },
-        "notes": "Laut Wikidata gestorben in Berthelsdorf bei Herrnhut, laut GND in Herrnhut."
-      }
+      "location": null
     },
     "places_of_effect": [
       {
@@ -5278,7 +5495,9 @@
             "label": "[fallback value: C-M]",
             "link": "http://www.botanischestaatssammlung.de",
             "nybg_herbarium_code": "M",
-            "holding_institutions": [],
+            "holding_institutions": [
+              "Staatliche Naturwissenschaftliche Sammlungen Bayerns (SNSB)"
+            ],
             "source": {
               "type": "web",
               "label": "http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23"
@@ -5521,7 +5740,7 @@
         "in_botanical_works_by_others": [
           {
             "id": "R0002200",
-            "label": "[fallback value: R0002200]",
+            "label": "Ignaz Urban (1916): Geschichte des Königlichen Botanischen Museums zu Berlin-Dahlem (1815 - 1913)",
             "link": "https://digital.slub-dresden.de/werkansicht/dlf/263658/1",
             "source": null
           },
@@ -5597,24 +5816,6 @@
           "properties": {
             "location_wikidata": "https://www.wikidata.org/wiki/Q44500",
             "place_name": "Weißenburg in Bayern"
-          }
-        },
-        {
-          "type": "Feature",
-          "featureType": "death",
-          "time": {
-            "date": "1875-02-18"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              14.758333333,
-              51.027777777
-            ]
-          },
-          "properties": {
-            "location_wikidata": "https://www.wikidata.org/wiki/Q502553",
-            "place_name": "Berthelsdorf"
           }
         }
       ]
@@ -6508,7 +6709,7 @@
         ],
         "database_evidence": [],
         "literature_evidence": [],
-        "notes": null
+        "notes": "Moossammlung von Curie in DDF. Müller: “In der Moossammlung gibt es noch viele Belege, die mit ex Herb. Herrnhuter Brüdergemeine gestempelt sind. Sofern die Belege bereits in Falttüten waren, haben wir sie gestempelt und ins Herbarium einsortiert. Die losen, nur in gefaltetes Papier eingelegten Belege, sind noch uneinsortiert geblieben. Unter den Belegen ist einiges, was von Breutel stammen könnte (z. B. von den Dänischen Westindischen Kolonien) oder von anderen Herrnhutern, z. B. aus Montmirail in der Schweiz. Im Flechtenherbarium sind auch mindestens ca. 30 Breutel-Belege. “| Moossammlung von Curie in DD |Weiterführende Recherchen haben ergeben, dass diese Moossammlung von Peter Friedrich Curie stammen muss. Curie hat 1803/04 ein Manuskript einer Flora Kleinwelkensis geschrieben, das von Hans-Werner Otto publiziert und ausgewertet wurde (ein Scan des Artikels aus den Abh. Ber. des Naturkundemus. Görlitz habe ich in der SLUB angefertigt), außerdem hat er ein Manuskript einer Flora von Niesky geschrieben. Im Herrnhuter Archiv lag ferner eine Flora von Montmirail in der Schweiz. Diese könnte ebenfalls von ihm stammen, da er von dort kommt und zeitweise dort sein Aufenthaltsort war. Im Jahre 1835 war er in seiner Funktion als Bischof auf Inspektionsreise in Suriname – von dort liegt im Herbarium zumindest ein mitgebrachter Beleg vor (auf Grund dieses Belegs hat Nees eine neue Varietät einer Art beschrieben). Curie stand mit anerkannten Botanikern seiner Zeit in Kontakt; speziell bei den Moosen z. B. mit Nees von Esenbeck und mit von Flotow. Nees hat mehrere Sippen anhand von Belegmaterial, das ihm von Curie geschickt wurde, beschrieben (z. B. Jungermannia groenlandica – davon liegt auch ein Beleg in der Sammlung vor). | 68 Belege als Bestandtteil des Herbarium Kleinwelka in Görlitz (Belegtabelle bei Ruhland)"
       },
       "works": {
         "manuscripts": [],
@@ -6678,6 +6879,14 @@
       "focuses": [],
       "contribution_to_collections": {
         "object_evidence": [
+          {
+            "id": "C-PH (https://bryophyteportal.org/portal/collections/individual/index.php?occid=2790038; https://bryophyteportal.org/portal/collections/individual/index.php?occid=5996061)",
+            "label": "[fallback value: C-PH (https://bryophyteportal.org/portal/collections/individual/index.php?occid=2790038; https://bryophyteportal.org/portal/collections/individual/index.php?occid=5996061)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
+          },
           {
             "id": "C-UPS",
             "label": "Herbarium des Museum of Evolution Uppsala",
@@ -7534,6 +7743,14 @@
       "contribution_to_collections": {
         "object_evidence": [
           {
+            "id": "C-GLM (115869)",
+            "label": "[fallback value: C-GLM (115869)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
+          },
+          {
             "id": "C-K",
             "label": "Herbarium Royal Botanic Gardens Kew, London",
             "link": null,
@@ -7850,7 +8067,10 @@
         "label": null,
         "source": null
       },
-      "given_name": null,
+      "given_name": {
+        "label": "Christian Renatus (jun.)",
+        "source": null
+      },
       "title": {
         "label": null,
         "source": null
@@ -10384,7 +10604,7 @@
         "source": {
           "type": "print",
           "id": "R0005600",
-          "label": "[fallback value: R0005600]",
+          "label": "Door Klaas-Jan Boer: De kerkgeschiedenis van Groenland, het leven van Hans Egede en fragmenten uit het dagboek van Hans Egede Saabije (2023)",
           "link": "https://theologienet.nl/bestanden/boer-klaas-jan-kerkgeschiedenis-groenland.pdf"
         },
         "notes": null
@@ -10434,8 +10654,8 @@
       "contribution_to_collections": {
         "object_evidence": [
           {
-            "id": "C-DR (https://dr.jacq.org/DR085524)?",
-            "label": "[fallback value: C-DR (https://dr.jacq.org/DR085524)?]",
+            "id": "C-DR {https://dr.jacq.org/DR085524}?",
+            "label": "[fallback value: C-DR {https://dr.jacq.org/DR085524}?]",
             "link": null,
             "nybg_herbarium_code": null,
             "holding_institutions": [],
@@ -10621,7 +10841,7 @@
     "visible": false,
     "name": {
       "preferred": {
-        "label": "[fallback value: P0555000]",
+        "label": "Hampe (Harz Blankenburg)",
         "source": null
       },
       "surname": {
@@ -12204,7 +12424,16 @@
     "botany": {
       "focuses": [],
       "contribution_to_collections": {
-        "object_evidence": [],
+        "object_evidence": [
+          {
+            "id": "C-GLM (116968)",
+            "label": "[fallback value: C-GLM (116968)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
+          }
+        ],
         "database_evidence": [],
         "literature_evidence": [],
         "notes": null
@@ -12574,6 +12803,19 @@
       },
       {
         "temporal": {
+          "label": "August 1859–September 1860"
+        },
+        "location": null,
+        "institution": {
+          "label": null
+        },
+        "occupation": {
+          "label": "(Heuser 1862 Gnadau)"
+        },
+        "source": null
+      },
+      {
+        "temporal": {
           "label": "November 1861"
         },
         "location": null,
@@ -12600,7 +12842,16 @@
     "botany": {
       "focuses": [],
       "contribution_to_collections": {
-        "object_evidence": [],
+        "object_evidence": [
+          {
+            "id": "C-GLM (0116057)",
+            "label": "[fallback value: C-GLM (0116057)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
+          }
+        ],
         "database_evidence": [],
         "literature_evidence": [],
         "notes": null
@@ -13368,7 +13619,7 @@
         "source": {
           "type": "print",
           "id": "R0004100",
-          "label": "[fallback value: R0004100]",
+          "label": "Hans J. Rollmann: Christian Gottlob Barth and the Moravian Inuktitut Book Culture of Labrador, in: Newfoundland and Labrador Studies Volume 32, numéro 2, fall 2017, p. 265-548 (2017)",
           "link": "https://id.erudit.org/iderudit/nflds32_2art05"
         },
         "notes": null
@@ -13402,7 +13653,7 @@
         "source": {
           "type": "print",
           "id": "R0004100",
-          "label": "[fallback value: R0004100]",
+          "label": "Hans J. Rollmann: Christian Gottlob Barth and the Moravian Inuktitut Book Culture of Labrador, in: Newfoundland and Labrador Studies Volume 32, numéro 2, fall 2017, p. 265-548 (2017)",
           "link": "https://id.erudit.org/iderudit/nflds32_2art05"
         }
       }
@@ -13421,7 +13672,16 @@
     "botany": {
       "focuses": [],
       "contribution_to_collections": {
-        "object_evidence": [],
+        "object_evidence": [
+          {
+            "id": "C-GLM (0115533)",
+            "label": "[fallback value: C-GLM (0115533)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
+          }
+        ],
         "database_evidence": [],
         "literature_evidence": [],
         "notes": "einige Belege in GLM"
@@ -14197,7 +14457,7 @@
         "label": ": Lebensbeschreibung von Heinrich August Jäschke",
         "link": null,
         "signature": "R.22.50.17",
-        "archive": "[fallback value: A0000100]",
+        "archive": "Unitätsarchiv Herrnhut (Germany)",
         "archive_abbreviation": "UA",
         "source": null
       }
@@ -14264,6 +14524,14 @@
               "type": "web",
               "label": "https://herbarium.bgbm.org/object/B100278151"
             }
+          },
+          {
+            "id": "C-Z (Z-000259146)",
+            "label": "[fallback value: C-Z (Z-000259146)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
           }
         ],
         "database_evidence": [],
@@ -14768,6 +15036,10 @@
         {
           "label": "spezielle Kenntnis in Vogelkunde und Renntierwanderung",
           "source": null
+        },
+        {
+          "label": "Objekte über Johann Christian Breutel nach Waldenburg (Breitfeld, Matthias; Hertel, Eduard: \"Das Herbarium Reichel im Naturalienkabinett Waldenburg und Bemerkungen zur Situation der Botanischen Sammlungen im 19. Jahrhundert\", in: Sächsische Floristische Mitteilungen 15 (2012/13), S. 51-98, 56)",
+          "source": null
         }
       ],
       "contribution_to_collections": {
@@ -14927,6 +15199,361 @@
     }
   },
   {
+    "id": "P0865000",
+    "visible": true,
+    "name": {
+      "preferred": {
+        "label": "Kaspar Kögel",
+        "source": null
+      },
+      "surname": {
+        "label": "Kögel",
+        "source": null
+      },
+      "birth_name": {
+        "label": null,
+        "source": null
+      },
+      "given_name": {
+        "label": "Kaspar",
+        "source": null
+      },
+      "title": {
+        "label": null,
+        "source": null
+      },
+      "notes": "auch Koegel |Henry A. Koegel wirkte 1875 in Grönland in Lichtenau (https://dai.mun.ca/PDFs/cns_tools/TheMissionaryManualandDirectory1875.pdf, S. 15)"
+    },
+    "member_of_moravians": [],
+    "birth": {
+      "date": {
+        "label": "15. Dezember 1801",
+        "source": {
+          "type": "print",
+          "id": "R0007300",
+          "label": "C. F. U Gericke: Bericht von Lichtenau in Grönland vom Juil 1862 bis Ende Juni 1863, in NadB 1865, S. 32-68",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1865.pdf"
+        },
+        "notes": null
+      },
+      "location": {
+        "id": "L0550000",
+        "label": "Bönningheim",
+        "link": "https://www.wikidata.org/wiki/Q61837",
+        "source": {
+          "type": "print",
+          "id": "R0007300",
+          "label": "C. F. U Gericke: Bericht von Lichtenau in Grönland vom Juil 1862 bis Ende Juni 1863, in NadB 1865, S. 32-68",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1865.pdf"
+        },
+        "notes": null
+      }
+    },
+    "death": {
+      "date": {
+        "label": "19. Oktober 1862",
+        "source": {
+          "type": "print",
+          "id": "R0007300",
+          "label": "C. F. U Gericke: Bericht von Lichtenau in Grönland vom Juil 1862 bis Ende Juni 1863, in NadB 1865, S. 32-68",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1865.pdf"
+        },
+        "notes": null
+      },
+      "location": {
+        "id": "L1600000",
+        "label": "Lichtenau",
+        "link": "https://www.wikidata.org/wiki/Q1016295",
+        "source": {
+          "type": "print",
+          "id": "R0007300",
+          "label": "C. F. U Gericke: Bericht von Lichtenau in Grönland vom Juil 1862 bis Ende Juni 1863, in NadB 1865, S. 32-68",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1865.pdf"
+        },
+        "notes": null
+      }
+    },
+    "places_of_effect": [],
+    "moravian_curriculum_vitae": [],
+    "relatives": {
+      "siblings": [],
+      "spouses": [],
+      "children": [],
+      "notes": null
+    },
+    "contact": {
+      "with_moravians": [
+        {
+          "id": "P0220000",
+          "label": "Johann Christian Breutel",
+          "link": "https://www.wikidata.org/wiki/Q21415674",
+          "source": {
+            "type": "print",
+            "id": "R0007200",
+            "label": "Kaspar Kögel: Brief von Bruder Kaspar Kögel and Bruder Breutel 1847, in NadB 1847 Heft 6, S. 1010-1011",
+            "link": null
+          }
+        }
+      ],
+      "with_non_moravians": []
+    },
+    "botany": {
+      "focuses": [],
+      "contribution_to_collections": {
+        "object_evidence": [
+          {
+            "id": "C-GLM (114544)",
+            "label": "[fallback value: C-GLM (114544)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
+          },
+          {
+            "id": "C-K",
+            "label": "Herbarium Royal Botanic Gardens Kew, London",
+            "link": null,
+            "nybg_herbarium_code": "K",
+            "holding_institutions": [],
+            "source": {
+              "type": "web",
+              "label": "http://specimens.kew.org/Herbarium/K003352873"
+            }
+          },
+          {
+            "id": "C-L",
+            "label": "[fallback value: C-L]",
+            "link": "https://bioportal.naturalis.nl/nl",
+            "nybg_herbarium_code": "L",
+            "holding_institutions": [
+              "Naturalis Biodiversity Center"
+            ],
+            "source": {
+              "type": "web",
+              "label": "https://data.biodiversitydata.nl/naturalis/specimen/L.1262763"
+            }
+          },
+          {
+            "id": "C-B",
+            "label": "Herbarium Berolinense",
+            "link": null,
+            "nybg_herbarium_code": "B",
+            "holding_institutions": [
+              "ZE Botanischer Garten und Botanisches Museum, Freie Universität Berlin"
+            ],
+            "source": {
+              "type": "web",
+              "label": "https://herbarium.bgbm.org/object/B100278605?"
+            }
+          }
+        ],
+        "database_evidence": [],
+        "literature_evidence": [],
+        "notes": "es muss noch einen anderen Missionar Kögel in Südafrika gegeben haben: https://herbarium.bgbm.org/object/B100167523| Beachte: Auf Etiketten auch Angabe \"Fratres Morav. legerunt\", außerdem Stempel \"Lichtenau Grönland Koegel leg.\""
+      },
+      "works": {
+        "manuscripts": [],
+        "printed": []
+      },
+      "citations": {
+        "in_botanical_works_by_others": []
+      }
+    },
+    "works": {
+      "without_botanical_context": []
+    },
+    "citations": {
+      "in_non_botanical_works_by_others": []
+    },
+    "links": {
+      "wikidata": {
+        "label": "https://www.wikidata.org/wiki/Q139512822",
+        "source": null
+      },
+      "gnd": {
+        "label": null,
+        "source": null
+      },
+      "factgrid": {
+        "label": null,
+        "source": null
+      },
+      "bionomia": {
+        "label": "https://bionomia.net/Q139512822",
+        "source": null
+      },
+      "saebi": {
+        "label": null,
+        "source": null
+      }
+    },
+    "life_trajectory": {
+      "type": "FeatureCollection",
+      "conformsTo": [
+        "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
+      ],
+      "features": [
+        {
+          "type": "Feature",
+          "featureType": "birth",
+          "time": {
+            "date": "1801-12-15"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              9.095,
+              49.040833333
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q61837",
+            "place_name": "Bönningheim"
+          }
+        },
+        {
+          "type": "Feature",
+          "featureType": "death",
+          "time": {
+            "date": "1862-10-19"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -45.5378,
+              60.5072
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q1016295",
+            "place_name": "Lichtenau"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "P0875000",
+    "visible": true,
+    "name": {
+      "preferred": {
+        "label": "Kögel",
+        "source": null
+      },
+      "surname": {
+        "label": "Kögel",
+        "source": null
+      },
+      "birth_name": {
+        "label": null,
+        "source": null
+      },
+      "given_name": {
+        "label": "?",
+        "source": null
+      },
+      "title": {
+        "label": null,
+        "source": null
+      },
+      "notes": "Henry A. Koegel wirkte 1875 in Grönland in Lichtenau (https://dai.mun.ca/PDFs/cns_tools/TheMissionaryManualandDirectory1875.pdf, S. 15)"
+    },
+    "member_of_moravians": [],
+    "birth": {
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": null
+      },
+      "location": {
+        "notes": null
+      }
+    },
+    "death": {
+      "date": null,
+      "location": {
+        "notes": null
+      }
+    },
+    "places_of_effect": [],
+    "moravian_curriculum_vitae": [],
+    "relatives": {
+      "siblings": [],
+      "spouses": [],
+      "children": [],
+      "notes": null
+    },
+    "contact": {
+      "with_moravians": [],
+      "with_non_moravians": []
+    },
+    "botany": {
+      "focuses": [],
+      "contribution_to_collections": {
+        "object_evidence": [
+          {
+            "id": "C-B",
+            "label": "Herbarium Berolinense",
+            "link": null,
+            "nybg_herbarium_code": "B",
+            "holding_institutions": [
+              "ZE Botanischer Garten und Botanisches Museum, Freie Universität Berlin"
+            ],
+            "source": {
+              "type": "web",
+              "label": "https://herbarium.bgbm.org/object/B100167523"
+            }
+          }
+        ],
+        "database_evidence": [],
+        "literature_evidence": [],
+        "notes": "Beleg (B 1000167523) \" leg. Missionar Kögel\" \"det. R. Gross\" hat Notiz: \"Missionar Kögel hat Exemplare in Kapstadt abgegeben; diese Pflanze muss doch nicht als neue Art erkannt worden sein.\""
+      },
+      "works": {
+        "manuscripts": [],
+        "printed": []
+      },
+      "citations": {
+        "in_botanical_works_by_others": []
+      }
+    },
+    "works": {
+      "without_botanical_context": []
+    },
+    "citations": {
+      "in_non_botanical_works_by_others": []
+    },
+    "links": {
+      "wikidata": {
+        "label": null,
+        "source": null
+      },
+      "gnd": {
+        "label": null,
+        "source": null
+      },
+      "factgrid": {
+        "label": null,
+        "source": null
+      },
+      "bionomia": {
+        "label": null,
+        "source": null
+      },
+      "saebi": {
+        "label": null,
+        "source": null
+      }
+    },
+    "life_trajectory": {
+      "type": "FeatureCollection",
+      "conformsTo": [
+        "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
+      ],
+      "features": []
+    }
+  },
+  {
     "id": "P0880000",
     "visible": true,
     "name": {
@@ -14990,7 +15617,9 @@
             "label": "[fallback value: C-M]",
             "link": "http://www.botanischestaatssammlung.de",
             "nybg_herbarium_code": "M",
-            "holding_institutions": [],
+            "holding_institutions": [
+              "Staatliche Naturwissenschaftliche Sammlungen Bayerns (SNSB)"
+            ],
             "source": {
               "type": "web",
               "label": "https://plants.jstor.org/stable/10.5555/al.ap.specimen.m0210848"
@@ -15125,7 +15754,7 @@
         "object_evidence": [],
         "database_evidence": [],
         "literature_evidence": [],
-        "notes": null
+        "notes": "1843 Pflanzenbelge an die Schlesische Gesellschaft (Jahresbericht der Schlesischen Gesellschaft für Vaterländische Kultur 23 (1845), S. 5)"
       },
       "works": {
         "manuscripts": [],
@@ -15426,7 +16055,10 @@
         "label": null,
         "source": null
       },
-      "given_name": null,
+      "given_name": {
+        "label": "J. F. (eventuell Friedrich Ludwig)",
+        "source": null
+      },
       "title": {
         "label": null,
         "source": null
@@ -16361,7 +16993,9 @@
             "label": "[fallback value: C-MEL]",
             "link": "https://avh.ala.org.au/occurrences/search?q=collection_uid%3Aco54#tab_recordsView",
             "nybg_herbarium_code": "MEL",
-            "holding_institutions": [],
+            "holding_institutions": [
+              "Royal Botanic Gardens Victoria (Melbourne/Australia)"
+            ],
             "source": {
               "type": "web",
               "label": "https://www.gbif.org/occurrence/2436933019"
@@ -18864,7 +19498,10 @@
         "label": null,
         "source": null
       },
-      "given_name": null,
+      "given_name": {
+        "label": "R. (?)",
+        "source": null
+      },
       "title": {
         "label": null,
         "source": null
@@ -19173,10 +19810,13 @@
     "visible": true,
     "name": {
       "preferred": {
-        "label": "[fallback value: P1225000]",
+        "label": "David Nitschmann (Wagner)",
         "source": null
       },
-      "surname": null,
+      "surname": {
+        "label": "Nitschmann (Wagner)",
+        "source": null
+      },
       "birth_name": {
         "label": null,
         "source": null
@@ -19224,7 +19864,12 @@
       "with_non_moravians": []
     },
     "botany": {
-      "focuses": [],
+      "focuses": [
+        {
+          "label": "sendete 1734 bot, belege und Samen nach Europa. (Inventarium Herrschaftsgarten 1734)",
+          "source": null
+        }
+      ],
       "contribution_to_collections": {
         "object_evidence": [],
         "database_evidence": [],
@@ -20511,7 +21156,7 @@
           "label": "Philipp Christian Gottlieb Reuter: 1758",
           "link": "https://www.moravianchurcharchives.findbuch.net/pics/X.._Memoirs._~MemBeth._~MemBeth_238_1001.jpg",
           "signature": "MemBeth 0238",
-          "archive": "[fallback value: A0000200]"
+          "archive": "Moravian Church Archives (Bethlehem/USA)"
         },
         "notes": null
       }
@@ -20610,7 +21255,7 @@
         "source": {
           "type": "print",
           "id": "R0004100",
-          "label": "[fallback value: R0004100]",
+          "label": "Hans J. Rollmann: Christian Gottlob Barth and the Moravian Inuktitut Book Culture of Labrador, in: Newfoundland and Labrador Studies Volume 32, numéro 2, fall 2017, p. 265-548 (2017)",
           "link": "https://id.erudit.org/iderudit/nflds32_2art05"
         },
         "notes": null
@@ -20625,7 +21270,7 @@
         "source": {
           "type": "print",
           "id": "R0004100",
-          "label": "[fallback value: R0004100]",
+          "label": "Hans J. Rollmann: Christian Gottlob Barth and the Moravian Inuktitut Book Culture of Labrador, in: Newfoundland and Labrador Studies Volume 32, numéro 2, fall 2017, p. 265-548 (2017)",
           "link": "https://id.erudit.org/iderudit/nflds32_2art05"
         },
         "notes": null
@@ -21225,7 +21870,16 @@
         }
       ],
       "contribution_to_collections": {
-        "object_evidence": [],
+        "object_evidence": [
+          {
+            "id": "C-GLM (142166)",
+            "label": "[fallback value: C-GLM (142166)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
+          }
+        ],
         "database_evidence": [],
         "literature_evidence": [],
         "notes": null
@@ -21665,7 +22319,7 @@
           "source": {
             "type": "print",
             "id": "R0000900",
-            "label": "[fallback value: R0000900]",
+            "label": "P. Lorenz: Johann Baptist von Albertini: ein Lebensbild (1894)",
             "link": "https://books.google.de/books?id=JahRpKlMip0C&hl=de&pg=PP6#v=onepage&q&f=false"
           }
         }
@@ -22686,7 +23340,16 @@
         }
       ],
       "contribution_to_collections": {
-        "object_evidence": [],
+        "object_evidence": [
+          {
+            "id": "C-HAL (Belegnummer offen)",
+            "label": "[fallback value: C-HAL (Belegnummer offen)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
+          }
+        ],
         "database_evidence": [],
         "literature_evidence": [],
         "notes": null
@@ -22922,7 +23585,7 @@
             "label": "[fallback value: M0003300]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.linnsoc-jes-add-99",
             "signature": "LINNSOC-JES-ADD-99",
-            "archive": "[fallback value: A0000400]",
+            "archive": "Linnean Society (London / GB)",
             "source": null
           }
         ],
@@ -23624,11 +24287,19 @@
               "type": "web",
               "label": "https://id.senckenberg.de/object/sesam-1454141"
             }
+          },
+          {
+            "id": "C-HAL (noch nicht erfasst)",
+            "label": "[fallback value: C-HAL (noch nicht erfasst)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
           }
         ],
         "database_evidence": [],
         "literature_evidence": [],
-        "notes": null
+        "notes": "Naturkundemuseum Kopenhagen (Projekt Martha Fleming: Field/Work in the Archive)"
       },
       "works": {
         "manuscripts": [],
@@ -23833,7 +24504,7 @@
           "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
           "link": null,
           "signature": "Dienerblätter Se-U",
-          "archive": "[fallback value: A0000100]",
+          "archive": "Unitätsarchiv Herrnhut (Germany)",
           "archive_abbreviation": "UA"
         },
         "notes": null
@@ -23848,7 +24519,7 @@
           "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
           "link": null,
           "signature": "Dienerblätter Se-U",
-          "archive": "[fallback value: A0000100]",
+          "archive": "Unitätsarchiv Herrnhut (Germany)",
           "archive_abbreviation": "UA"
         },
         "notes": null
@@ -23863,7 +24534,7 @@
           "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
           "link": null,
           "signature": "Dienerblätter Se-U",
-          "archive": "[fallback value: A0000100]",
+          "archive": "Unitätsarchiv Herrnhut (Germany)",
           "archive_abbreviation": "UA"
         },
         "notes": null
@@ -23878,7 +24549,7 @@
           "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
           "link": null,
           "signature": "Dienerblätter Se-U",
-          "archive": "[fallback value: A0000100]",
+          "archive": "Unitätsarchiv Herrnhut (Germany)",
           "archive_abbreviation": "UA"
         },
         "notes": null
@@ -23891,7 +24562,7 @@
         "label": "Richard Träger, Charlotte Träger-Große: Dienerblätter. Biographische Übersichten von Personen, die im Dienst der Brüdergemeine standen Se - U",
         "link": null,
         "signature": "Dienerblätter Se-U",
-        "archive": "[fallback value: A0000100]",
+        "archive": "Unitätsarchiv Herrnhut (Germany)",
         "archive_abbreviation": "UA",
         "source": null
       }
@@ -23909,7 +24580,16 @@
     "botany": {
       "focuses": [],
       "contribution_to_collections": {
-        "object_evidence": [],
+        "object_evidence": [
+          {
+            "id": "C-GLM (0110828)",
+            "label": "[fallback value: C-GLM (0110828)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
+          }
+        ],
         "database_evidence": [],
         "literature_evidence": [],
         "notes": "4 Belege in GLM"
@@ -23929,7 +24609,7 @@
           "label": "Franz Ferdinand Thrän: \"Spring Gardens die Missionsgebäude in St. John's. 1832\"",
           "link": "https://www.unitaetsarchiv.findbuch.net/pics/B.._Grafik%20f%C3%BCr%20Augias._~TS%20f%C3%BCr%20Augias._~Bd_21_051-.jpg",
           "signature": "TS.Bd.21.51",
-          "archive": "[fallback value: A0000100]",
+          "archive": "Unitätsarchiv Herrnhut (Germany)",
           "archive_abbreviation": "UA",
           "source": null
         }
@@ -24707,7 +25387,7 @@
           "source": {
             "type": "print",
             "id": "R0003800",
-            "label": "[fallback value: R0003800]",
+            "label": "Manfred Niehuis: Anmerkungen zu faunistischen Unterlagen von David Wiemann (*5. Juni 1885 - 8. Mai 1948)",
             "link": "https://www.zobodat.at/pdf/Fauna-Flora-Rheinland-Pfalz_14_1583-1599.pdf"
           }
         },
@@ -25611,7 +26291,16 @@
     "botany": {
       "focuses": [],
       "contribution_to_collections": {
-        "object_evidence": [],
+        "object_evidence": [
+          {
+            "id": "C-GLM (0166974)",
+            "label": "[fallback value: C-GLM (0166974)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
+          }
+        ],
         "database_evidence": [],
         "literature_evidence": [],
         "notes": null
@@ -25693,7 +26382,7 @@
         "source": {
           "type": "print",
           "id": "R0004100",
-          "label": "[fallback value: R0004100]",
+          "label": "Hans J. Rollmann: Christian Gottlob Barth and the Moravian Inuktitut Book Culture of Labrador, in: Newfoundland and Labrador Studies Volume 32, numéro 2, fall 2017, p. 265-548 (2017)",
           "link": "https://id.erudit.org/iderudit/nflds32_2art05"
         },
         "notes": null
@@ -25708,7 +26397,7 @@
         "source": {
           "type": "print",
           "id": "R0004100",
-          "label": "[fallback value: R0004100]",
+          "label": "Hans J. Rollmann: Christian Gottlob Barth and the Moravian Inuktitut Book Culture of Labrador, in: Newfoundland and Labrador Studies Volume 32, numéro 2, fall 2017, p. 265-548 (2017)",
           "link": "https://id.erudit.org/iderudit/nflds32_2art05"
         },
         "notes": null
@@ -25821,7 +26510,7 @@
         "source": {
           "type": "print",
           "id": "R0004100",
-          "label": "[fallback value: R0004100]",
+          "label": "Hans J. Rollmann: Christian Gottlob Barth and the Moravian Inuktitut Book Culture of Labrador, in: Newfoundland and Labrador Studies Volume 32, numéro 2, fall 2017, p. 265-548 (2017)",
           "link": "https://id.erudit.org/iderudit/nflds32_2art05"
         },
         "notes": null
@@ -25836,7 +26525,7 @@
         "source": {
           "type": "print",
           "id": "R0004100",
-          "label": "[fallback value: R0004100]",
+          "label": "Hans J. Rollmann: Christian Gottlob Barth and the Moravian Inuktitut Book Culture of Labrador, in: Newfoundland and Labrador Studies Volume 32, numéro 2, fall 2017, p. 265-548 (2017)",
           "link": "https://id.erudit.org/iderudit/nflds32_2art05"
         },
         "notes": null
@@ -25993,7 +26682,24 @@
     "botany": {
       "focuses": [],
       "contribution_to_collections": {
-        "object_evidence": [],
+        "object_evidence": [
+          {
+            "id": "C-GLM (117327)",
+            "label": "[fallback value: C-GLM (117327)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
+          },
+          {
+            "id": "C-A (00000978)",
+            "label": "[fallback value: C-A (00000978)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
+          }
+        ],
         "database_evidence": [],
         "literature_evidence": [],
         "notes": null
@@ -26396,7 +27102,7 @@
           "source": {
             "type": "print",
             "id": "R0003800",
-            "label": "[fallback value: R0003800]",
+            "label": "Manfred Niehuis: Anmerkungen zu faunistischen Unterlagen von David Wiemann (*5. Juni 1885 - 8. Mai 1948)",
             "link": "https://www.zobodat.at/pdf/Fauna-Flora-Rheinland-Pfalz_14_1583-1599.pdf"
           }
         }
@@ -26407,6 +27113,10 @@
       "focuses": [
         {
           "label": "Botanik",
+          "source": null
+        },
+        {
+          "label": "Eulen- und Raubvogelernährung, Untersuchungen über Ursprung der Lautäußerung der Bekassine (Becker 2005)",
           "source": null
         }
       ],
@@ -26778,6 +27488,14 @@
               "type": "web",
               "label": "https://je.jacq.org/JE00040658"
             }
+          },
+          {
+            "id": "C-GLM (0110686)",
+            "label": "[fallback value: C-GLM (0110686)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
           }
         ],
         "database_evidence": [],
@@ -26799,7 +27517,7 @@
             "label": "[fallback value: M0001800]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.brmt0054",
             "signature": "BRMT0054",
-            "archive": "[fallback value: A0000500]",
+            "archive": "National Botanic Garden of Belgium/ Meise (BR)",
             "source": null
           },
           {
@@ -26807,7 +27525,7 @@
             "label": "[fallback value: M0002100]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.brmt0004",
             "signature": "BRMT0004",
-            "archive": "[fallback value: A0000500]",
+            "archive": "National Botanic Garden of Belgium/ Meise (BR)",
             "source": null
           },
           {
@@ -26815,7 +27533,7 @@
             "label": "[fallback value: M0002200]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.brmt0004",
             "signature": "BRMT0004",
-            "archive": "[fallback value: A0000500]",
+            "archive": "National Botanic Garden of Belgium/ Meise (BR)",
             "source": null
           }
         ],
@@ -26828,7 +27546,7 @@
             "label": "[fallback value: M0002100]",
             "link": "https://plants.jstor.org/stable/10.5555/al.ap.visual.brmt0004",
             "signature": "BRMT0004",
-            "archive": "[fallback value: A0000500]",
+            "archive": "National Botanic Garden of Belgium/ Meise (BR)",
             "source": null
           }
         ]
