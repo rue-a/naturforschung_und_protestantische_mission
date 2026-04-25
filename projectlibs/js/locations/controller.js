@@ -59,16 +59,16 @@ document.addEventListener("DOMContentLoaded", async () => {
 		sidebar.innerHTML = sidebarHintHtml();
 	});
 
-	// Pre-select location from URL parameter
-	const urlId = getLocationIdFromUrl();
-	if (urlId) {
-		const idx = markerEntries.findIndex(e => e.featureId === urlId);
-		if (idx !== -1) markerEntries[idx].marker.fire("click");
-	}
-
 	if (markerGroup.getLayers().length) {
 		map.fitBounds(markerGroup.getBounds(), { padding: [30, 30] });
 	} else {
 		map.setView([20, 0], 2);
+	}
+
+	// Pre-select location from URL parameter (after fitBounds so bringToFront sticks)
+	const urlId = getLocationIdFromUrl();
+	if (urlId) {
+		const idx = markerEntries.findIndex(e => e.featureId === urlId);
+		if (idx !== -1) markerEntries[idx].marker.fire("click");
 	}
 });
