@@ -268,13 +268,13 @@ function _buildContactSection(person) {
 			const temporal = p.temporal?.label;
 			const text = temporal ? `${p.label} (${temporal})` : p.label;
 			li.appendChild(_sourcedText(text, p.source));
-			if (p.link) {
-				li.appendChild(document.createTextNode(" "));
-				li.appendChild(_wikidataIconLink(p.link));
-			}
 			if (p.id) {
 				li.appendChild(document.createTextNode(" "));
 				li.appendChild(_herrnhutPersonIconLink(p.id));
+			}
+			if (p.link) {
+				li.appendChild(document.createTextNode(" "));
+				li.appendChild(_wikidataIconLink(p.link));
 			}
 			ul.appendChild(li);
 		}
@@ -455,13 +455,13 @@ function _personList(items) {
 	for (const p of items) {
 		const li = document.createElement("li");
 		li.appendChild(_sourcedText(p.label, p.source));
-		if (p.link) {
-			li.appendChild(document.createTextNode(" "));
-			li.appendChild(_wikidataIconLink(p.link));
-		}
 		if (p.id) {
 			li.appendChild(document.createTextNode(" "));
 			li.appendChild(_herrnhutPersonIconLink(p.id));
+		}
+		if (p.link) {
+			li.appendChild(document.createTextNode(" "));
+			li.appendChild(_wikidataIconLink(p.link));
 		}
 		ul.appendChild(li);
 	}
@@ -493,13 +493,13 @@ function _workList(items) {
 function _locationRef(loc) {
 	const wrap = document.createElement("span");
 	wrap.appendChild(_sourcedText(loc.label, loc.source));
-	if (loc.link) {
-		wrap.appendChild(document.createTextNode(" "));
-		wrap.appendChild(_wikidataIconLink(loc.link));
-	}
 	if (loc.id) {
 		wrap.appendChild(document.createTextNode(" "));
 		wrap.appendChild(_herrnhutLocationIconLink(loc.id));
+	}
+	if (loc.link) {
+		wrap.appendChild(document.createTextNode(" "));
+		wrap.appendChild(_wikidataIconLink(loc.link));
 	}
 	return wrap;
 }

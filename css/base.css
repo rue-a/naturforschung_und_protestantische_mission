@@ -142,13 +142,13 @@ li {
 	opacity: 1;
 }
 
-.wikidata-icon {
-	height: 0.8em;
-}
-
 .herrnhut-icon {
 	height: 1em;
 	opacity: 0.75;
+}
+
+.wikidata-icon {
+	height: 0.8em;
 }
 
 /* person-links context: larger, slightly more opaque, hover on parent */
