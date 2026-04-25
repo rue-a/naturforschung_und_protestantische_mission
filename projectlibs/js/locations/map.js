@@ -8,6 +8,35 @@ const LOC_ASSETS = "../assets";
 /** Minimum zoom level at which placename labels are shown. */
 const LABEL_MIN_ZOOM = 7;
 
+/**
+ * Marker style based on a normalised importance value t ∈ [0, 1].
+ * Radius scales with √t from 4 to 14 px.
+ * Hue interpolates from 210° (blue) → 20° (orange-red) as importance rises.
+ * Zero-importance locations are rendered in a neutral grey.
+ * @param {number} score
+ * @param {number} maxScore
+ * @returns {{ radius: number, fillColor: string, color: string, labelColor: string }}
+ */
+function _importanceMarkerStyle(score, maxScore) {
+	if (score === 0 || maxScore === 0) {
+		return {
+			radius: 4,
+			fillColor: "hsl(0,0%,65%)",
+			color: "hsl(0,0%,40%)",
+			labelColor: "hsl(0,0%,22%)",
+		};
+	}
+	const t = Math.sqrt(score / maxScore);
+	const radius = 4 + t * 10;
+	const hue = Math.round(210 - t * 190); // 210 (blue) → 20 (orange-red)
+	return {
+		radius,
+		fillColor: `hsl(${hue},70%,45%)`,
+		color: `hsl(${hue},70%,28%)`,
+		labelColor: `hsl(${hue},80%,20%)`,
+	};
+}
+
 /** Escape a value for safe HTML injection. */
 function _esc(val) {
 	return String(val ?? "")

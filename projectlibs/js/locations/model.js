@@ -14,6 +14,28 @@ async function loadLocations(url) {
 }
 
 /**
+ * Read the ?locationid= query parameter from the current URL.
+ * @returns {string|null}
+ */
+function getLocationIdFromUrl() {
+	return new URLSearchParams(window.location.search).get("locationid");
+}
+
+/**
+ * Write ?locationid=<id> into the URL without triggering a page reload.
+ * @param {string|null} id  — pass null to remove the parameter
+ */
+function setLocationIdInUrl(id) {
+	const url = new URL(window.location.href);
+	if (id == null) {
+		url.searchParams.delete("locationid");
+	} else {
+		url.searchParams.set("locationid", id);
+	}
+	history.pushState(null, "", url.toString());
+}
+
+/**
  * Total importance score for a location: sum of persons born, died, or active there.
  * @param {object} props  — feature.properties
  * @returns {number}
@@ -27,31 +49,4 @@ function _importanceScore(props) {
 	);
 }
 
-/**
- * Marker style based on a normalised importance value t ∈ [0, 1].
- * Radius scales with √t from 4 to 14 px.
- * Hue interpolates from 210° (blue) → 20° (orange-red) as importance rises.
- * Zero-importance locations are rendered in a neutral grey.
- * @param {number} score
- * @param {number} maxScore
- * @returns {{ radius: number, fillColor: string, color: string, labelColor: string }}
- */
-function _markerStyle(score, maxScore) {
-	if (score === 0 || maxScore === 0) {
-		return {
-			radius: 4,
-			fillColor: "hsl(0,0%,65%)",
-			color: "hsl(0,0%,40%)",
-			labelColor: "hsl(0,0%,22%)",
-		};
-	}
-	const t = Math.sqrt(score / maxScore);
-	const radius = 4 + t * 10;
-	const hue = Math.round(210 - t * 190); // 210 (blue) → 20 (orange-red)
-	return {
-		radius,
-		fillColor: `hsl(${hue},70%,45%)`,
-		color: `hsl(${hue},70%,28%)`,
-		labelColor: `hsl(${hue},80%,20%)`,
-	};
-}
+

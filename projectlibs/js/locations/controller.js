@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 	let selectedMarker = null;
 	let selectedOrigStyle = null;
 	const markers = [];
+	const markerEntries = []; // { marker, featureId } for URL pre-selection
 	const markerGroup = L.featureGroup();
 
 	for (const feature of features) {
@@ -25,7 +26,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 		const props = feature.properties ?? {};
 		const score = _importanceScore(props);
-		const markerStyle = _markerStyle(score, maxScore);
+		const markerStyle = _importanceMarkerStyle(score, maxScore);
 		const { marker, origStyle } = createMarker(feature, markerStyle);
 
 		marker.on("click", (e) => {
@@ -36,10 +37,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 			marker.setStyle(SELECTED_STYLE);
 			marker.bringToFront();
 			sidebar.innerHTML = buildSidebarContent(props, feature.id);
+			setLocationIdInUrl(feature.id);
 		});
 
 		marker.addTo(markerGroup);
 		markers.push(marker);
+		markerEntries.push({ marker, featureId: feature.id });
 	}
 
 	markerGroup.addTo(map);
@@ -52,8 +55,16 @@ document.addEventListener("DOMContentLoaded", async () => {
 			selectedMarker = null;
 			selectedOrigStyle = null;
 		}
+		setLocationIdInUrl(null);
 		sidebar.innerHTML = sidebarHintHtml();
 	});
+
+	// Pre-select location from URL parameter
+	const urlId = getLocationIdFromUrl();
+	if (urlId) {
+		const idx = markerEntries.findIndex(e => e.featureId === urlId);
+		if (idx !== -1) markerEntries[idx].marker.fire("click");
+	}
 
 	if (markerGroup.getLayers().length) {
 		map.fitBounds(markerGroup.getBounds(), { padding: [30, 30] });
