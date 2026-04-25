@@ -130,6 +130,32 @@ li {
 	text-decoration: none;
 }
 
+/* ----- Inline icon links (wikidata, herrnhut) — used on multiple pages --- */
+
+.wikidata-icon {
+	width: 18px;
+	height: 12px;
+	vertical-align: middle;
+	opacity: 0.55;
+	transition: opacity 0.15s;
+}
+
+.wikidata-icon:hover {
+	opacity: 1;
+}
+
+.herrnhut-icon {
+	width: 14px;
+	height: 14px;
+	vertical-align: middle;
+	opacity: 0.55;
+	transition: opacity 0.15s;
+}
+
+.herrnhut-icon:hover {
+	opacity: 1;
+}
+
 /* ----- Site footer ------------------------------------------------------ */
 
 .site-footer {

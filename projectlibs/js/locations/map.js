@@ -59,6 +59,19 @@ function _wikidataIconHtml(url) {
 }
 
 /**
+ * Return an HTML string for a Herrnhut icon linking to the persons page.
+ * @param {string|null|undefined} id
+ * @returns {string}
+ */
+function _herrnhutPersonIconHtml(id) {
+	if (!id) return "";
+	const href = `persons.html?personid=${encodeURIComponent(id)}`;
+	return `<a href="${_esc(href)}" class="loc-wd-link">`
+		+ `<img src="${LOC_ASSETS}/herrnhut_logo256x256.png" alt="Personenregister" class="herrnhut-icon">`
+		+ `</a>`;
+}
+
+/**
  * Initialise the Leaflet map with the CartoDB light basemap.
  * @returns {L.Map}
  */
@@ -143,7 +156,7 @@ function buildSidebarContent(props, featureId) {
 	if (births.length) {
 		html += `<section><h4>Geburten</h4><ul>`;
 		for (const b of births) {
-			html += `<li><span class="loc-person-name">${_esc(b.name)}${_wikidataIconHtml(b.wikidata)}</span>`;
+			html += `<li><span class="loc-person-name">${_esc(b.name)}${_wikidataIconHtml(b.wikidata)}${_herrnhutPersonIconHtml(b.id)}</span>`;
 			if (b.date) html += `<span class="loc-person-meta">${_esc(b.date)}</span>`;
 			html += `</li>`;
 		}
@@ -152,7 +165,7 @@ function buildSidebarContent(props, featureId) {
 	if (deaths.length) {
 		html += `<section><h4>Todesfälle</h4><ul>`;
 		for (const d of deaths) {
-			html += `<li><span class="loc-person-name">${_esc(d.name)}${_wikidataIconHtml(d.wikidata)}</span>`;
+			html += `<li><span class="loc-person-name">${_esc(d.name)}${_wikidataIconHtml(d.wikidata)}${_herrnhutPersonIconHtml(d.id)}</span>`;
 			if (d.date) html += `<span class="loc-person-meta">${_esc(d.date)}</span>`;
 			html += `</li>`;
 		}
@@ -173,7 +186,7 @@ function buildSidebarContent(props, featureId) {
 		html += `<section><h4>Wirkende Personen</h4><ul class="loc-poe-list">`;
 		for (const person of byPerson) {
 			html += `<li class="loc-poe-group">`;
-			html += `<span class="loc-person-name">${_esc(person.name)}${_wikidataIconHtml(person.wikidata)}</span>`;
+			html += `<span class="loc-person-name">${_esc(person.name)}${_wikidataIconHtml(person.wikidata)}${_herrnhutPersonIconHtml(person.id)}</span>`;
 			if (person.stints.length) {
 				html += `<ul class="loc-poe-stints">`;
 				for (const stint of person.stints) {

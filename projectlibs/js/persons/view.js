@@ -159,11 +159,7 @@ function _buildBirthDeathSection(person) {
 		}
 		if (event.location?.label) {
 			row.appendChild(document.createTextNode(" · "));
-			row.appendChild(
-				event.location.link
-					? _locationLink(event.location.label, event.location.link, event.location.source)
-					: _sourcedText(event.location.label, event.location.source)
-			);
+			row.appendChild(_locationRef(event.location));
 		}
 		sec.appendChild(row);
 	}
@@ -189,11 +185,7 @@ function _buildPoESection(person) {
 			parts.push(timeSpan);
 		}
 		if (poe.location?.label) {
-			parts.push(
-				poe.location.link
-					? _locationLink(poe.location.label, poe.location.link, poe.location.source)
-					: _sourcedText(poe.location.label, poe.location.source)
-			);
+			parts.push(_locationRef(poe.location));
 		}
 		const role = [poe.institution?.label, poe.occupation?.label].filter(Boolean).join(" · ");
 		if (role) {
@@ -276,8 +268,14 @@ function _buildContactSection(person) {
 			const temporal = p.temporal?.label;
 			const text = temporal ? `${p.label} (${temporal})` : p.label;
 			li.appendChild(_sourcedText(text, p.source));
-			li.appendChild(document.createTextNode(" "));
-			if (p.link) li.appendChild(_wikidataIconLink(p.link));
+			if (p.link) {
+				li.appendChild(document.createTextNode(" "));
+				li.appendChild(_wikidataIconLink(p.link));
+			}
+			if (p.id) {
+				li.appendChild(document.createTextNode(" "));
+				li.appendChild(_herrnhutPersonIconLink(p.id));
+			}
 			ul.appendChild(li);
 		}
 		sec.appendChild(ul);
@@ -450,7 +448,7 @@ function _groupLabel(text) {
 	return div;
 }
 
-/** Render a list of person refs, each optionally with a Wikidata icon. */
+/** Render a list of person refs, each optionally with Wikidata + Herrnhut icons. */
 function _personList(items) {
 	const ul = document.createElement("ul");
 	for (const p of items) {
@@ -458,8 +456,12 @@ function _personList(items) {
 		li.appendChild(_sourcedText(p.label, p.source));
 		if (p.link) {
 			li.appendChild(document.createTextNode(" "));
-			li.appendChild(_wikidataIconLink(p.link))
-		};
+			li.appendChild(_wikidataIconLink(p.link));
+		}
+		if (p.id) {
+			li.appendChild(document.createTextNode(" "));
+			li.appendChild(_herrnhutPersonIconLink(p.id));
+		}
 		ul.appendChild(li);
 	}
 	return ul;
@@ -486,12 +488,18 @@ function _workList(items) {
 	return ul;
 }
 
-/** Inline location text + Wikidata icon link. */
-function _locationLink(label, href, source) {
+/** Inline location text with optional Wikidata and internal Herrnhut location link. */
+function _locationRef(loc) {
 	const wrap = document.createElement("span");
-	wrap.appendChild(_sourcedText(label, source));
-	wrap.appendChild(document.createTextNode(" "));
-	wrap.appendChild(_wikidataIconLink(href));
+	wrap.appendChild(_sourcedText(loc.label, loc.source));
+	if (loc.link) {
+		wrap.appendChild(document.createTextNode(" "));
+		wrap.appendChild(_wikidataIconLink(loc.link));
+	}
+	if (loc.id) {
+		wrap.appendChild(document.createTextNode(" "));
+		wrap.appendChild(_herrnhutLocationIconLink(loc.id));
+	}
 	return wrap;
 }
 
@@ -596,6 +604,30 @@ function _wikidataIconLink(href) {
 	img.src = `${ASSETS}/wikidata_18x12.svg`;
 	img.alt = "Wikidata";
 	img.className = "wikidata-icon";
+	a.appendChild(img);
+	return a;
+}
+
+/** Small Herrnhut icon linking to the persons page with a pre-selected person. */
+function _herrnhutPersonIconLink(id) {
+	const a = document.createElement("a");
+	a.href = `persons.html?personid=${encodeURIComponent(id)}`;
+	const img = document.createElement("img");
+	img.src = `${ASSETS}/herrnhut_logo256x256.png`;
+	img.alt = "Personenregister";
+	img.className = "herrnhut-icon";
+	a.appendChild(img);
+	return a;
+}
+
+/** Small Herrnhut icon linking to the locations page with a pre-selected location. */
+function _herrnhutLocationIconLink(id) {
+	const a = document.createElement("a");
+	a.href = `locations.html?locationid=${encodeURIComponent(id)}`;
+	const img = document.createElement("img");
+	img.src = `${ASSETS}/herrnhut_logo256x256.png`;
+	img.alt = "Ortskarte";
+	img.className = "herrnhut-icon";
 	a.appendChild(img);
 	return a;
 }

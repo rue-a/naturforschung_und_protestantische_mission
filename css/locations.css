@@ -3,7 +3,7 @@
    ===================================================== */
 
 /* Stack header, map, footer vertically filling the full viewport */
-body {
+body.locations-page {
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
@@ -28,17 +28,17 @@ body {
 	max-width: 25%;
 	min-height: 0;
 	overflow-y: auto;
-	background: #fafafa;
-	border-left: 1px solid #e0e0e0;
-	padding: 16px;
+	background: var(--color-surface);
+	border-left: 1px solid var(--color-border);
+	padding: var(--space-md);
 	box-sizing: border-box;
-	font-size: 18px;
+	font-size: var(--font-size-lg);
 	line-height: 1.45;
 }
 
 .loc-sidebar-hint {
-	font-size: 17px;
-	color: #bbb;
+	font-size: var(--font-size-lg);
+	color: var(--color-dim);
 	margin: 0;
 }
 
@@ -52,6 +52,7 @@ body {
 	box-shadow: none;
 	padding: 1px 4px;
 	font-size: 11px;
+	/* intentionally small — no token this size */
 	font-weight: 600;
 	/* color is set per-marker via JS (hue-derived from marker fill) */
 	white-space: nowrap;
@@ -60,7 +61,7 @@ body {
 .loc-wd-link {
 	display: inline-block;
 	vertical-align: middle;
-	margin-left: 5px;
+	margin-left: var(--space-xs);
 }
 
 .loc-wd-icon {
@@ -75,31 +76,31 @@ body {
 
 /* ── Location sidebar content ────────────────────────── */
 .loc-content h2 {
-	margin: 0 0 10px;
-	font-size: 22px;
+	margin: 0 0 var(--space-sm);
+	font-size: var(--font-size-xl);
 	font-weight: 700;
-	border-bottom: 1px solid #e0e0e0;
-	padding-bottom: 8px;
+	border-bottom: 1px solid var(--color-border);
+	padding-bottom: var(--space-sm);
 	line-height: 1.3;
 }
 
 .loc-desc {
-	font-size: 17px;
-	color: #666;
-	margin: 0 0 8px;
+	font-size: var(--font-size-lg);
+	color: var(--color-muted);
+	margin: 0 0 var(--space-sm);
 }
 
 .loc-content section {
-	margin-top: 12px;
+	margin-top: var(--space-sm);
 }
 
 .loc-content h4 {
-	margin: 0 0 5px;
-	font-size: 10px;
+	margin: 0 0 var(--space-xs);
+	font-size: var(--font-size-xs);
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.07em;
-	color: #aaa;
+	color: var(--color-dim);
 }
 
 .loc-content ul {
@@ -111,8 +112,8 @@ body {
 .loc-content li {
 	display: flex;
 	flex-direction: column;
-	padding: 5px 0;
-	border-bottom: 1px solid #f0f0f0;
+	padding: var(--space-xs) 0;
+	border-bottom: 1px solid var(--color-border);
 }
 
 .loc-content li:last-child {
@@ -120,27 +121,27 @@ body {
 }
 
 .loc-person-name {
-	font-size: 18px;
+	font-size: var(--font-size-lg);
 	font-weight: 500;
-	color: #1a1a1a;
+	color: var(--color-text);
 }
 
 .loc-person-meta {
-	font-size: 17px;
-	color: #888;
+	font-size: var(--font-size-lg);
+	color: var(--color-muted);
 	margin-top: 2px;
 }
 
 .loc-content-empty {
-	font-size: 17px;
-	color: #bbb;
-	margin: 8px 0 0;
+	font-size: var(--font-size-lg);
+	color: var(--color-dim);
+	margin: var(--space-sm) 0 0;
 }
 
 /* ── PoE grouped stints ─────────────────────────────── */
 .loc-poe-group {
-	border-bottom: 1px solid #f0f0f0;
-	padding: 6px 0;
+	border-bottom: 1px solid var(--color-border);
+	padding: var(--space-xs) 0;
 }
 
 .loc-poe-group:last-child {
@@ -149,14 +150,14 @@ body {
 
 .loc-poe-stints {
 	list-style: none;
-	margin: 4px 0 0 0;
+	margin: var(--space-xs) 0 0 0;
 	padding: 0 0 0 12px;
 }
 
 .loc-poe-stints li {
 	border: none;
 	padding: 1px 0;
-	font-size: 15px;
-	color: #888;
+	font-size: var(--font-size-base);
+	color: var(--color-muted);
 	line-height: 1.4;
 }

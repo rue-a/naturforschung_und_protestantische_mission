@@ -258,22 +258,15 @@ li.selected .person-list-id {
 	letter-spacing: 0;
 }
 
-/* Location links with inline wikidata icon */
-.wikidata-icon {
-	width: 18px;
-	height: 12px;
-	vertical-align: middle;
-	opacity: 0.55;
-	transition: opacity 0.15s;
-}
-
-.wikidata-icon:hover {
-	opacity: 1;
-}
-
+/* Smaller icon variants inside poe-list */
 .poe-list .wikidata-icon {
 	width: 12px;
 	height: 8px;
+}
+
+.poe-list .herrnhut-icon {
+	width: 10px;
+	height: 10px;
 }
 
 /* Places-of-effect table */
