@@ -260,13 +260,11 @@ li.selected .person-list-id {
 
 /* Smaller icon variants inside poe-list */
 .poe-list .wikidata-icon {
-	width: 12px;
-	height: 8px;
+	height: 0.6em;
 }
 
 .poe-list .herrnhut-icon {
-	width: 10px;
-	height: 10px;
+	height: 0.75em;
 }
 
 /* Places-of-effect table */
@@ -281,17 +279,6 @@ li.selected .person-list-id {
 	flex-wrap: wrap;
 	gap: var(--space-sm);
 	align-items: center;
-}
-
-.person-links img {
-	height: 20px;
-	width: auto;
-	opacity: 0.65;
-	transition: opacity 0.15s;
-}
-
-.person-links a:hover img {
-	opacity: 1;
 }
 
 /* ----- Content area: sections ----------------------------------------- */

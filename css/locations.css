@@ -64,16 +64,6 @@ body.locations-page {
 	margin-left: var(--space-xs);
 }
 
-.loc-wd-icon {
-	width: 18px;
-	height: 12px;
-	opacity: 0.6;
-}
-
-.loc-wd-icon:hover {
-	opacity: 1;
-}
-
 /* ── Location sidebar content ────────────────────────── */
 .loc-content h2 {
 	margin: 0 0 var(--space-sm);

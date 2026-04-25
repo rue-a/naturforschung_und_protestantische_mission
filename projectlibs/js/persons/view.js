@@ -301,6 +301,7 @@ function _buildLinksSection(person) {
 		const img = document.createElement("img");
 		img.src = `${ASSETS}/${meta.file}`;
 		img.alt = meta.label;
+		img.className = "ref-icon";
 		a.appendChild(img);
 		row.appendChild(a);
 	}
@@ -603,7 +604,7 @@ function _wikidataIconLink(href) {
 	const img = document.createElement("img");
 	img.src = `${ASSETS}/wikidata_18x12.svg`;
 	img.alt = "Wikidata";
-	img.className = "wikidata-icon";
+	img.className = "ref-icon wikidata-icon";
 	a.appendChild(img);
 	return a;
 }
@@ -615,7 +616,7 @@ function _herrnhutPersonIconLink(id) {
 	const img = document.createElement("img");
 	img.src = `${ASSETS}/herrnhut_logo256x256.png`;
 	img.alt = "Personenregister";
-	img.className = "herrnhut-icon";
+	img.className = "ref-icon herrnhut-icon";
 	a.appendChild(img);
 	return a;
 }
@@ -627,7 +628,7 @@ function _herrnhutLocationIconLink(id) {
 	const img = document.createElement("img");
 	img.src = `${ASSETS}/herrnhut_logo256x256.png`;
 	img.alt = "Ortskarte";
-	img.className = "herrnhut-icon";
+	img.className = "ref-icon herrnhut-icon";
 	a.appendChild(img);
 	return a;
 }

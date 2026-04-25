@@ -130,29 +130,34 @@ li {
 	text-decoration: none;
 }
 
-/* ----- Inline icon links (wikidata, herrnhut) — used on multiple pages --- */
+/* ----- Reference/service icons — used on multiple pages --- */
 
-.wikidata-icon {
-	width: 18px;
-	height: 12px;
-	vertical-align: middle;
+.ref-icon {
+	vertical-align: baseline;
 	opacity: 0.55;
 	transition: opacity 0.15s;
 }
 
-.wikidata-icon:hover {
+.ref-icon:hover {
 	opacity: 1;
 }
 
-.herrnhut-icon {
-	width: 14px;
-	height: 14px;
-	vertical-align: middle;
-	opacity: 0.55;
-	transition: opacity 0.15s;
+.wikidata-icon {
+	height: 0.8em;
 }
 
-.herrnhut-icon:hover {
+.herrnhut-icon {
+	height: 1em;
+	opacity: 0.75;
+}
+
+/* person-links context: larger, slightly more opaque, hover on parent */
+.person-links .ref-icon {
+	height: 1.25em;
+	opacity: 0.65;
+}
+
+.person-links a:hover .ref-icon {
 	opacity: 1;
 }
 

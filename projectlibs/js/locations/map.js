@@ -54,7 +54,7 @@ function _esc(val) {
 function _wikidataIconHtml(url) {
 	if (!url) return "";
 	return `<a href="${_esc(url)}" target="_blank" rel="noopener" class="loc-wd-link">`
-		+ `<img src="${LOC_ASSETS}/wikidata_18x12.svg" alt="Wikidata" class="wikidata-icon loc-wd-icon">`
+		+ `<img src="${LOC_ASSETS}/wikidata_18x12.svg" alt="Wikidata" class="ref-icon wikidata-icon">`
 		+ `</a>`;
 }
 
@@ -67,7 +67,7 @@ function _herrnhutPersonIconHtml(id) {
 	if (!id) return "";
 	const href = `persons.html?personid=${encodeURIComponent(id)}`;
 	return `<a href="${_esc(href)}" class="loc-wd-link">`
-		+ `<img src="${LOC_ASSETS}/herrnhut_logo256x256.png" alt="Personenregister" class="herrnhut-icon">`
+		+ `<img src="${LOC_ASSETS}/herrnhut_logo256x256.png" alt="Personenregister" class="ref-icon herrnhut-icon">`
 		+ `</a>`;
 }
 
