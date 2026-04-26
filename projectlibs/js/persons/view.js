@@ -140,6 +140,18 @@ function _buildBotanicalInfluenceSection(person) {
 
 function _buildBirthDeathSection(person) {
 	const sec = _metaSection("Geburt & Tod");
+
+	if (person.name.birth_name.label) {
+		const row = document.createElement("div");
+		row.style.marginBottom = "var(--space-xs)";
+		const lbl = document.createElement("span");
+		lbl.className = "meta-label";
+		lbl.textContent = "Geburtsname: ";
+		row.appendChild(lbl);
+		row.appendChild(document.createTextNode(person.name.birth_name.label));
+		sec.appendChild(row);
+	}
+
 	const events = [
 		{ label: "Geburt", event: person.birth },
 		{ label: "Tod", event: person.death },
