@@ -100,12 +100,12 @@ class AttestableDatatype(ABC):
         if doc is None:
             return None
         if hasattr(doc, "url"):
-            return {"type": "web", "label": doc.url}
+            return {"type": "Web", "label": doc.url}
         if isinstance(doc, LiteratureID):
             ref = registry.resolve_literature(doc)
-            return {"type": "print", **{k: v for k, v in ref.items() if k != "source"}}
+            return {"type": "Druck", **{k: v for k, v in ref.items() if k != "source"}}
         ref = registry.resolve_manuscript(doc)
-        return {"type": "manuscript", **{k: v for k, v in ref.items() if k != "source"}}
+        return {"type": "Manuskript", **{k: v for k, v in ref.items() if k != "source"}}
 
     # -------------------------
     # PRINT SERIALIZATION
