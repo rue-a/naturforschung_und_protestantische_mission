@@ -55,6 +55,11 @@ Name der Sammlung oder des Herbars.
 ID (aus der Sammlungen-Tabelle) der übergeordneten Sammlung, falls diese Sammlung Teil einer anderen Sammlung ist.
 - `C-ANSP`
 
+### Ortsangabe
+*String*
+
+Grobe Angabe des Orts an dem sich die Sammlung befindet (Ort, (Bundesstaat)/Staat). 
+- `Dresden, BRD`
 
 ### Sammlungshaltende Institution
 
