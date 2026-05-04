@@ -241,6 +241,10 @@ Ungeordnete Liste von Personen-IDs außerhalb der Herrnhuter Brüdergemeine, mit
 - `P0000234 {https://www.example.org/permalink}`
 - siehe auch `Kontakt - Mit Herrnhutern`
 
+### Biogramm
+*String*
+
+Ausformulierte Kurzbiografie der Person. Interne Referenzen (Personen/Orts/Archiv/Literatur/Manuskript/Sammlungs IDs) werden in spitzen Klammern angegeben und zur Laufzeit aufgelöst. Beispiel: `<P0010000> wurde in <L2200000> geboren.`, wird auf der Website angezeigt als: _Johann Baptist von Albertini wurde in Neuwied geboren._
 
 ### Botanik - Foki
 *List of Strings*
