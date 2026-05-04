@@ -29,6 +29,12 @@ Name des Archivs.
 - `Unitätsarchiv Herrnhut`
 - `Moravian Archives`
 
+### Ortsangabe
+*String*
+
+Grobe Angabe des Orts an dem sich das Archiv befindet (Ort, (Bundesstaat)/Staat). 
+- `Bethlehem, PA/USA`
+- `Herrnhut, BRD`
 
 ### Abkürzungen
 *List of Strings*
