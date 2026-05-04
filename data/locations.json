@@ -235,6 +235,18 @@
               "name": "Johann Baptist von Albertini",
               "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "date": "1831-12-06"
+            },
+            {
+              "id": "P1320000",
+              "name": "Levin Theodor Reichel",
+              "wikidata": "https://www.wikidata.org/wiki/Q55127660",
+              "date": "1878-05-23"
+            },
+            {
+              "id": "P1330000",
+              "name": "Ernst Friedrich Reichel",
+              "wikidata": "https://www.wikidata.org/wiki/Q139581040",
+              "date": "1878-06-19"
             }
           ],
           "places_of_effect": [
@@ -280,6 +292,12 @@
               "name": "Christian Friedrich Denke",
               "wikidata": "https://www.wikidata.org/wiki/Q124060542",
               "date": "1775-09-08"
+            },
+            {
+              "id": "P1320000",
+              "name": "Levin Theodor Reichel",
+              "wikidata": "https://www.wikidata.org/wiki/Q55127660",
+              "date": "1812-03-04"
             }
           ],
           "deaths": [],
@@ -430,6 +448,25 @@
     },
     {
       "type": "Feature",
+      "id": "L0950000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Friedrichsthal",
+        "variants": [],
+        "wikidata": null,
+        "description": "Grönland",
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "id": "L1000000",
       "featureType": "HerrnhutLocation",
       "time": null,
@@ -517,6 +554,14 @@
               "temporal": "1818",
               "institution": null,
               "occupation": "Prediger"
+            },
+            {
+              "id": "P1000000",
+              "name": "Ferdinand Kruth",
+              "wikidata": "https://www.wikidata.org/wiki/Q139580407",
+              "temporal": "1826",
+              "institution": null,
+              "occupation": null
             }
           ]
         }
@@ -782,13 +827,25 @@
       },
       "properties": {
         "name": "Hopedal",
-        "variants": [],
+        "variants": [
+          {
+            "name": "Hoffenthal",
+            "lang": ""
+          }
+        ],
         "wikidata": "https://www.wikidata.org/wiki/Q11338369",
-        "description": null,
+        "description": "Labrador",
         "founder": null,
         "importance": {
           "births": [],
-          "deaths": [],
+          "deaths": [
+            {
+              "id": "P1000000",
+              "name": "Ferdinand Kruth",
+              "wikidata": "https://www.wikidata.org/wiki/Q139580407",
+              "date": "1863-12-31"
+            }
+          ],
           "places_of_effect": [
             {
               "id": "P0020000",
@@ -797,6 +854,14 @@
               "temporal": "1845/1852",
               "institution": "Missionar",
               "occupation": null
+            },
+            {
+              "id": "P1000000",
+              "name": "Ferdinand Kruth",
+              "wikidata": "https://www.wikidata.org/wiki/Q139580407",
+              "temporal": "1847",
+              "institution": null,
+              "occupation": "Missionar"
             }
           ]
         }
@@ -1291,6 +1356,61 @@
     },
     {
       "type": "Feature",
+      "id": "L2160000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.72,
+          64.18
+        ]
+      },
+      "properties": {
+        "name": "Neuherrnhut",
+        "variants": [
+          {
+            "name": "Noorliit",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q1996491",
+        "description": "Grönland",
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2170000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.990525,
+          18.36576944
+        ]
+      },
+      "properties": {
+        "name": "Neu-Herrnhut",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q1979071",
+        "description": "St. Thomas",
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "id": "L2200000",
       "featureType": "HerrnhutLocation",
       "time": {
@@ -1362,7 +1482,14 @@
         "description": null,
         "founder": null,
         "importance": {
-          "births": [],
+          "births": [
+            {
+              "id": "P1330000",
+              "name": "Ernst Friedrich Reichel",
+              "wikidata": "https://www.wikidata.org/wiki/Q139581040",
+              "date": "1806-10-11"
+            }
+          ],
           "deaths": [
             {
               "id": "P1595000",
@@ -1557,6 +1684,32 @@
         "founder": null,
         "importance": {
           "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2360000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Stettin",
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P1000000",
+              "name": "Ferdinand Kruth",
+              "wikidata": "https://www.wikidata.org/wiki/Q139580407",
+              "date": "1804-06-12"
+            }
+          ],
           "deaths": [],
           "places_of_effect": []
         }

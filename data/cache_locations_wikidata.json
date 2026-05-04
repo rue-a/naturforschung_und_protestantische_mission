@@ -319,5 +319,23 @@
     "start": null,
     "end": null,
     "founder": null
+  },
+  "Q1996491": {
+    "coordinates": {
+      "lat": 64.18,
+      "lon": -51.72
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q1979071": {
+    "coordinates": {
+      "lat": 18.36576944,
+      "lon": -64.990525
+    },
+    "start": null,
+    "end": null,
+    "founder": null
   }
 }

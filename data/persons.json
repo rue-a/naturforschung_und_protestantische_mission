@@ -320,7 +320,7 @@
           "source": {
             "type": "print",
             "id": "R0000900",
-            "label": "P. Lorenz: Johann Baptist von Albertini: ein Lebensbild (1894)",
+            "label": "Paul Lorenz: Johann Baptist von Albertini: ein Lebensbild (1894)",
             "link": "https://books.google.de/books?id=JahRpKlMip0C&hl=de&pg=PP6#v=onepage&q&f=false"
           }
         },
@@ -331,7 +331,7 @@
           "source": {
             "type": "print",
             "id": "R0000900",
-            "label": "P. Lorenz: Johann Baptist von Albertini: ein Lebensbild (1894)",
+            "label": "Paul Lorenz: Johann Baptist von Albertini: ein Lebensbild (1894)",
             "link": "https://books.google.de/books?id=JahRpKlMip0C&hl=de&pg=PP6#v=onepage&q&f=false"
           }
         },
@@ -342,7 +342,7 @@
           "source": {
             "type": "print",
             "id": "R0000900",
-            "label": "P. Lorenz: Johann Baptist von Albertini: ein Lebensbild (1894)",
+            "label": "Paul Lorenz: Johann Baptist von Albertini: ein Lebensbild (1894)",
             "link": "https://books.google.de/books?id=JahRpKlMip0C&hl=de&pg=PP6#v=onepage&q&f=false"
           }
         }
@@ -568,7 +568,7 @@
       "in_non_botanical_works_by_others": [
         {
           "id": "R0001000",
-          "label": "Seidel: Johann Baptista von Albertini und Ludwig David von SchweinitzZwei Lebensbilder. In Zeitschrift der Pilzkunde 1923",
+          "label": "Seidel: Johann Baptista von Albertini und Ludwig David von Schweinitz - Zwei Lebensbilder. In Zeitschrift der Pilzkunde 1923",
           "link": "https://www.zobodat.at/pdf/Z-Pilzkunde_2_1923_0221-0225.pdf",
           "source": null
         }
@@ -1208,7 +1208,7 @@
         {
           "id": "P1000000",
           "label": "Ferdinand Kruth",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q139580407",
           "source": {
             "type": "print",
             "id": "R0000700",
@@ -12351,6 +12351,133 @@
     }
   },
   {
+    "id": "P0655000",
+    "visible": true,
+    "name": {
+      "preferred": {
+        "label": "Christian Gottlieb Herbrich",
+        "source": null
+      },
+      "surname": {
+        "label": "Herbrich",
+        "source": null
+      },
+      "birth_name": {
+        "label": null,
+        "source": null
+      },
+      "given_name": {
+        "label": "Christian Gottlieb",
+        "source": null
+      },
+      "title": {
+        "label": null,
+        "source": null
+      },
+      "notes": null
+    },
+    "member_of_moravians": [],
+    "birth": {
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": null
+      },
+      "location": {
+        "notes": null
+      }
+    },
+    "death": {
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": null
+      },
+      "location": {
+        "notes": null
+      }
+    },
+    "places_of_effect": [],
+    "moravian_curriculum_vitae": [],
+    "relatives": {
+      "siblings": [],
+      "spouses": [],
+      "children": [],
+      "notes": null
+    },
+    "contact": {
+      "with_moravians": [],
+      "with_non_moravians": []
+    },
+    "botany": {
+      "focuses": [],
+      "contribution_to_collections": {
+        "object_evidence": [
+          {
+            "id": "C-GLM (115918)",
+            "label": "[fallback value: C-GLM (115918)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
+          }
+        ],
+        "database_evidence": [],
+        "literature_evidence": [],
+        "notes": null
+      },
+      "works": {
+        "manuscripts": [],
+        "printed": []
+      },
+      "citations": {
+        "in_botanical_works_by_others": []
+      }
+    },
+    "works": {
+      "without_botanical_context": []
+    },
+    "citations": {
+      "in_non_botanical_works_by_others": [
+        {
+          "id": "R0007500",
+          "label": "Anonym: Verzeichniß der in der Mitte des Jahres 1855 auf unsern Missionsplätzen angestellten Geschwistern, in NadB 1855, S. 729-733",
+          "link": null,
+          "source": null
+        }
+      ]
+    },
+    "links": {
+      "wikidata": {
+        "label": null,
+        "source": null
+      },
+      "gnd": {
+        "label": null,
+        "source": null
+      },
+      "factgrid": {
+        "label": null,
+        "source": null
+      },
+      "bionomia": {
+        "label": null,
+        "source": null
+      },
+      "saebi": {
+        "label": null,
+        "source": null
+      }
+    },
+    "life_trajectory": {
+      "type": "FeatureCollection",
+      "conformsTo": [
+        "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
+      ],
+      "features": []
+    }
+  },
+  {
     "id": "P0660000",
     "visible": true,
     "name": {
@@ -13698,7 +13825,14 @@
       "without_botanical_context": []
     },
     "citations": {
-      "in_non_botanical_works_by_others": []
+      "in_non_botanical_works_by_others": [
+        {
+          "id": "R0007600",
+          "label": "Anonym: Verzeichniß der in der Mitte des Jahres 1858 auf unsern Missionsplätzen angestellten Geschwister, in NadB 1858, S. 793-799",
+          "link": null,
+          "source": null
+        }
+      ]
     },
     "links": {
       "wikidata": {
@@ -16942,26 +17076,106 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1804",
-        "source": null,
+        "label": "12. Juni 1804",
+        "source": {
+          "type": "print",
+          "id": "R0007700",
+          "label": "Schött, Weiz & Kretschmar: Bericht von Hoffenthal in Labrador vom Juli 1863 bis Juli 1864, in NadB 1865, S. 252-285",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1865.pdf"
+        },
         "notes": null
       },
       "location": {
+        "id": "L2360000",
+        "label": "Stettin",
+        "link": null,
+        "source": {
+          "type": "print",
+          "id": "R0007700",
+          "label": "Schött, Weiz & Kretschmar: Bericht von Hoffenthal in Labrador vom Juli 1863 bis Juli 1864, in NadB 1865, S. 252-285",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1865.pdf"
+        },
         "notes": null
       }
     },
     "death": {
       "date": {
-        "label": "1863",
-        "source": null,
+        "label": "31. Dezember 1863",
+        "source": {
+          "type": "print",
+          "id": "R0007700",
+          "label": "Schött, Weiz & Kretschmar: Bericht von Hoffenthal in Labrador vom Juli 1863 bis Juli 1864, in NadB 1865, S. 252-285",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1865.pdf"
+        },
         "notes": null
       },
       "location": {
+        "id": "L1200000",
+        "label": "Hopedal",
+        "link": "https://www.wikidata.org/wiki/Q11338369",
+        "source": {
+          "type": "print",
+          "id": "R0007700",
+          "label": "Schött, Weiz & Kretschmar: Bericht von Hoffenthal in Labrador vom Juli 1863 bis Juli 1864, in NadB 1865, S. 252-285",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1865.pdf"
+        },
         "notes": null
       }
     },
-    "places_of_effect": [],
-    "moravian_curriculum_vitae": [],
+    "places_of_effect": [
+      {
+        "temporal": {
+          "label": "1826"
+        },
+        "location": {
+          "id": "L1100000",
+          "label": "Gnadenfrei",
+          "link": "https://www.wikidata.org/wiki/Q986091"
+        },
+        "institution": {
+          "label": null
+        },
+        "occupation": {
+          "label": null
+        },
+        "source": {
+          "type": "print",
+          "id": "R0007700",
+          "label": "Schött, Weiz & Kretschmar: Bericht von Hoffenthal in Labrador vom Juli 1863 bis Juli 1864, in NadB 1865, S. 252-285",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1865.pdf"
+        }
+      },
+      {
+        "temporal": {
+          "label": "1847"
+        },
+        "location": {
+          "id": "L1200000",
+          "label": "Hopedal",
+          "link": "https://www.wikidata.org/wiki/Q11338369"
+        },
+        "institution": {
+          "label": null
+        },
+        "occupation": {
+          "label": "Missionar"
+        },
+        "source": {
+          "type": "print",
+          "id": "R0007700",
+          "label": "Schött, Weiz & Kretschmar: Bericht von Hoffenthal in Labrador vom Juli 1863 bis Juli 1864, in NadB 1865, S. 252-285",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1865.pdf"
+        }
+      }
+    ],
+    "moravian_curriculum_vitae": [
+      {
+        "id": "R0007700",
+        "label": "Schött, Weiz & Kretschmar: Bericht von Hoffenthal in Labrador vom Juli 1863 bis Juli 1864, in NadB 1865, S. 252-285",
+        "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1865.pdf",
+        "source": null
+      }
+    ],
     "relatives": {
       "siblings": [],
       "spouses": [],
@@ -17000,6 +17214,14 @@
               "type": "web",
               "label": "https://www.gbif.org/occurrence/2436933019"
             }
+          },
+          {
+            "id": "C-GLM{}",
+            "label": "[fallback value: C-GLM{}]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
           }
         ],
         "database_evidence": [],
@@ -17053,7 +17275,7 @@
     },
     "links": {
       "wikidata": {
-        "label": null,
+        "label": "https://www.wikidata.org/wiki/Q139580407",
         "source": null
       },
       "gnd": {
@@ -17064,7 +17286,10 @@
         "label": null,
         "source": null
       },
-      "bionomia": null,
+      "bionomia": {
+        "label": "https://bionomia.net/Q139580407",
+        "source": null
+      },
       "saebi": {
         "label": null,
         "source": null
@@ -17075,7 +17300,66 @@
       "conformsTo": [
         "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
       ],
-      "features": []
+      "features": [
+        {
+          "type": "Feature",
+          "featureType": "death",
+          "time": {
+            "date": "1863-12-31"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -60.203188888,
+              55.467372222
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q11338369",
+            "place_name": "Hopedal"
+          }
+        },
+        {
+          "type": "Feature",
+          "featureType": "place_of_effect",
+          "time": {
+            "date": "1826"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.74359,
+              50.68357
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q986091",
+            "place_name": "Gnadenfrei",
+            "institution": null,
+            "occupation": null
+          }
+        },
+        {
+          "type": "Feature",
+          "featureType": "place_of_effect",
+          "time": {
+            "date": "1847"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -60.203188888,
+              55.467372222
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q11338369",
+            "place_name": "Hopedal",
+            "institution": null,
+            "occupation": "Missionar"
+          }
+        }
+      ]
     }
   },
   {
@@ -20811,21 +21095,60 @@
     "birth": {
       "date": {
         "label": "4. März 1812",
-        "source": null,
+        "source": {
+          "type": "print",
+          "id": "R0007900",
+          "label": "Levin Theodor Reichel: Lebenslauf des am 23. Mai 1878 in Berthelsdorf selig vollendeten verheiratheten Bruders Levin Theodor Reichel, Bischof der Brüderkirche und Mitglied der Unitäts- Aeltesten-Conferenz im Missions-Departement, in NadB 1878 S. 794-809",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1878.pdf"
+        },
         "notes": null
       },
-      "location": null
+      "location": {
+        "id": "L0500000",
+        "label": "Bethlehem",
+        "link": "https://www.wikidata.org/wiki/Q164380",
+        "source": {
+          "type": "print",
+          "id": "R0007900",
+          "label": "Levin Theodor Reichel: Lebenslauf des am 23. Mai 1878 in Berthelsdorf selig vollendeten verheiratheten Bruders Levin Theodor Reichel, Bischof der Brüderkirche und Mitglied der Unitäts- Aeltesten-Conferenz im Missions-Departement, in NadB 1878 S. 794-809",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1878.pdf"
+        },
+        "notes": null
+      }
     },
     "death": {
       "date": {
         "label": "23. Mai 1878",
-        "source": null,
+        "source": {
+          "type": "print",
+          "id": "R0007900",
+          "label": "Levin Theodor Reichel: Lebenslauf des am 23. Mai 1878 in Berthelsdorf selig vollendeten verheiratheten Bruders Levin Theodor Reichel, Bischof der Brüderkirche und Mitglied der Unitäts- Aeltesten-Conferenz im Missions-Departement, in NadB 1878 S. 794-809",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1878.pdf"
+        },
         "notes": null
       },
-      "location": null
+      "location": {
+        "id": "L0400000",
+        "label": "Berthelsdorf",
+        "link": "https://www.wikidata.org/wiki/Q502553",
+        "source": {
+          "type": "print",
+          "id": "R0007900",
+          "label": "Levin Theodor Reichel: Lebenslauf des am 23. Mai 1878 in Berthelsdorf selig vollendeten verheiratheten Bruders Levin Theodor Reichel, Bischof der Brüderkirche und Mitglied der Unitäts- Aeltesten-Conferenz im Missions-Departement, in NadB 1878 S. 794-809",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1878.pdf"
+        },
+        "notes": null
+      }
     },
     "places_of_effect": [],
-    "moravian_curriculum_vitae": [],
+    "moravian_curriculum_vitae": [
+      {
+        "id": "R0007900",
+        "label": "Levin Theodor Reichel: Lebenslauf des am 23. Mai 1878 in Berthelsdorf selig vollendeten verheiratheten Bruders Levin Theodor Reichel, Bischof der Brüderkirche und Mitglied der Unitäts- Aeltesten-Conferenz im Missions-Departement, in NadB 1878 S. 794-809",
+        "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1878.pdf",
+        "source": null
+      }
+    ],
     "relatives": {
       "siblings": [],
       "spouses": [],
@@ -20842,11 +21165,18 @@
         "object_evidence": [],
         "database_evidence": [],
         "literature_evidence": [],
-        "notes": null
+        "notes": "\"Nebenbei fing ich an zu botanisiren\""
       },
       "works": {
         "manuscripts": [],
-        "printed": []
+        "printed": [
+          {
+            "id": "R0007800",
+            "label": "Reichel, L. Th. (1863) Labrador, Bemerkungen über Land und Leute. Mittheilungen aus Justus Perthe’s Geographischer Anstalt über wichtige neue Erforschungen auf dem Gesammtgebiete der Geographie von Dr. A. Petermann, Heft IV, p. 121-127, 2 maps.",
+            "link": "https://zs.thulb.uni-jena.de/receive/jportal_jparticle_00531658",
+            "source": null
+          }
+        ]
       },
       "citations": {
         "in_botanical_works_by_others": []
@@ -20871,7 +21201,10 @@
         "label": null,
         "source": null
       },
-      "bionomia": null,
+      "bionomia": {
+        "label": "https://bionomia.net/Q55127660",
+        "source": null
+      },
       "saebi": {
         "label": null,
         "source": null
@@ -20882,7 +21215,44 @@
       "conformsTo": [
         "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
       ],
-      "features": []
+      "features": [
+        {
+          "type": "Feature",
+          "featureType": "birth",
+          "time": {
+            "date": "1812-03-04"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -75.375555555,
+              40.626111111
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q164380",
+            "place_name": "Bethlehem"
+          }
+        },
+        {
+          "type": "Feature",
+          "featureType": "death",
+          "time": {
+            "date": "1878-05-23"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              14.758333333,
+              51.027777777
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q502553",
+            "place_name": "Berthelsdorf"
+          }
+        }
+      ]
     }
   },
   {
@@ -20915,23 +21285,60 @@
     "birth": {
       "date": {
         "label": "11. Oktober 1806",
-        "source": null,
-        "notes": null
-      },
-      "location": null
-    },
-    "death": {
-      "date": {
-        "label": null,
-        "source": null,
+        "source": {
+          "type": "print",
+          "id": "R0008000",
+          "label": "Ernst Friedrich Reichel, Hermann Plitt u.a.: Lebenslauf des verheiratheten Bruders Ernst Friedrich Reichel, , in NadB 1878 S. 886-922",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1878.pdf"
+        },
         "notes": null
       },
       "location": {
+        "id": "L2250000",
+        "label": "Niesky",
+        "link": "https://www.wikidata.org/wiki/Q165160",
+        "source": {
+          "type": "print",
+          "id": "R0008000",
+          "label": "Ernst Friedrich Reichel, Hermann Plitt u.a.: Lebenslauf des verheiratheten Bruders Ernst Friedrich Reichel, , in NadB 1878 S. 886-922",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1878.pdf"
+        },
+        "notes": null
+      }
+    },
+    "death": {
+      "date": {
+        "label": "19. Juni 1878",
+        "source": {
+          "type": "print",
+          "id": "R0008100",
+          "label": "Heinrich Müller: Rede des Bruders Heinrich Müller beim Begräbniß unsers am 19. Juni 1878 in Berthelsdorf selig entschlafenen verheiratheten Bruders Ernst Friedrich Reichel, in NadB 1878, S. 879-885",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1878.pdf"
+        },
+        "notes": null
+      },
+      "location": {
+        "id": "L0400000",
+        "label": "Berthelsdorf",
+        "link": "https://www.wikidata.org/wiki/Q502553",
+        "source": {
+          "type": "print",
+          "id": "R0008100",
+          "label": "Heinrich Müller: Rede des Bruders Heinrich Müller beim Begräbniß unsers am 19. Juni 1878 in Berthelsdorf selig entschlafenen verheiratheten Bruders Ernst Friedrich Reichel, in NadB 1878, S. 879-885",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1878.pdf"
+        },
         "notes": null
       }
     },
     "places_of_effect": [],
-    "moravian_curriculum_vitae": [],
+    "moravian_curriculum_vitae": [
+      {
+        "id": "R0008000",
+        "label": "Ernst Friedrich Reichel, Hermann Plitt u.a.: Lebenslauf des verheiratheten Bruders Ernst Friedrich Reichel, , in NadB 1878 S. 886-922",
+        "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1878.pdf",
+        "source": null
+      }
+    ],
     "relatives": {
       "siblings": [],
       "spouses": [],
@@ -20948,7 +21355,7 @@
         "object_evidence": [],
         "database_evidence": [],
         "literature_evidence": [],
-        "notes": null
+        "notes": "Interesse für Botanik"
       },
       "works": {
         "manuscripts": [],
@@ -20966,7 +21373,7 @@
     },
     "links": {
       "wikidata": {
-        "label": null,
+        "label": "https://www.wikidata.org/wiki/Q139581040",
         "source": null
       },
       "gnd": {
@@ -20991,7 +21398,44 @@
       "conformsTo": [
         "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
       ],
-      "features": []
+      "features": [
+        {
+          "type": "Feature",
+          "featureType": "birth",
+          "time": {
+            "date": "1806-10-11"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              14.83,
+              51.289722222
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q165160",
+            "place_name": "Niesky"
+          }
+        },
+        {
+          "type": "Feature",
+          "featureType": "death",
+          "time": {
+            "date": "1878-06-19"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              14.758333333,
+              51.027777777
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q502553",
+            "place_name": "Berthelsdorf"
+          }
+        }
+      ]
     }
   },
   {
@@ -22319,7 +22763,7 @@
           "source": {
             "type": "print",
             "id": "R0000900",
-            "label": "P. Lorenz: Johann Baptist von Albertini: ein Lebensbild (1894)",
+            "label": "Paul Lorenz: Johann Baptist von Albertini: ein Lebensbild (1894)",
             "link": "https://books.google.de/books?id=JahRpKlMip0C&hl=de&pg=PP6#v=onepage&q&f=false"
           }
         }
@@ -27114,10 +27558,6 @@
         {
           "label": "Botanik",
           "source": null
-        },
-        {
-          "label": "Eulen- und Raubvogelernährung, Untersuchungen über Ursprung der Lautäußerung der Bekassine (Becker 2005)",
-          "source": null
         }
       ],
       "contribution_to_collections": {
@@ -27548,6 +27988,12 @@
             "signature": "BRMT0004",
             "archive": "National Botanic Garden of Belgium/ Meise (BR)",
             "source": null
+          },
+          {
+            "id": "R0007400",
+            "label": "Viviane Leyman, Frederik Leliaert 2025: Origins of and key contributors to the economic botany collection of Meise Botanic Garden, in Proceedings of the Royal Academy for Overseas Sciences 3 (2025 – 2): 337-3952024",
+            "link": "https://www.kaowarsom.be/documents/PDF%20BULLETIN/LEYMAN_LELIAERT.pdf",
+            "source": null
           }
         ]
       }
@@ -27651,7 +28097,73 @@
         }
       ],
       "contribution_to_collections": {
-        "object_evidence": [],
+        "object_evidence": [
+          {
+            "id": "C-COI",
+            "label": "Herbarium of the University of Coimbra",
+            "link": "http://coicatalogue.uc.pt",
+            "nybg_herbarium_code": "COI",
+            "holding_institutions": [
+              "Herbarium of the University of Coimbra, Department of Life Sciences"
+            ],
+            "source": {
+              "type": "web",
+              "label": "http://coicatalogue.uc.pt/specimen/COI00034366"
+            }
+          },
+          {
+            "id": "C-MW",
+            "label": "[fallback value: C-MW]",
+            "link": "https://www.gbif.org/dataset/902c8fe7-8f38-45b0-854e-c324fed36303",
+            "nybg_herbarium_code": "MW",
+            "holding_institutions": [
+              "Moscow University Herbarium hostet by; Lomonosov Moscow State University"
+            ],
+            "source": {
+              "type": "web",
+              "label": "https://plant.depo.msu.ru/open/public/en/item/MW0269788"
+            }
+          },
+          {
+            "id": "C-US",
+            "label": "Herbarium Smithsonian Institution",
+            "link": null,
+            "nybg_herbarium_code": "US",
+            "holding_institutions": [
+              "National Museum of Natural History, Smithsonian Institution"
+            ],
+            "source": {
+              "type": "web",
+              "label": "http://n2t.net/ark:/65665/3783fc675-cf50-4a75-9166-306b3a660819"
+            }
+          },
+          {
+            "id": "C-P",
+            "label": "Herbarium - MNHN - Museum national d'Histoire naturelle",
+            "link": "http://colhelper.mnhn.fr/",
+            "nybg_herbarium_code": "P",
+            "holding_institutions": [
+              "Muséum National d'Histoire Naturelle"
+            ],
+            "source": {
+              "type": "web",
+              "label": "http://coldb.mnhn.fr/catalognumber/mnhn/p/p01840867"
+            }
+          },
+          {
+            "id": "C-S",
+            "label": "[fallback value: C-S]",
+            "link": "https://www.nrm.se/en/forskningochsamlingar/botanik.8999708.html",
+            "nybg_herbarium_code": "S",
+            "holding_institutions": [
+              "Swedish Museum of Natural History"
+            ],
+            "source": {
+              "type": "web",
+              "label": "https://herbarium.nrm.se/specimens/F31410"
+            }
+          }
+        ],
         "database_evidence": [],
         "literature_evidence": [],
         "notes": null

@@ -2058,6 +2058,16 @@ C-MW {https://www.gbif.org/occurrence/5235292301} {https://www.gbif.org/occurren
   - Causing raw value: ` 
 James S. Pringle: "Contributions by Moravian missionaries to the knowledge of the flora of Labrador", in: CANADIAN HORTICULTURAL HISTORY an interdisciplinary journal / HISTOIRE DE L' HORTICULTURE AU CANADA revue interdisciplinaire 2 (1991), Nr. 4, S. 187-222.`
 
+### P0655000
+
+- [ ] **Wirkungsorte** (P0655000):
+  - Error Message: **`Expected 4 parts, got 1: L2160000`**
+  - Causing raw value: `L2160000`
+
+- [ ] **Herrnhuter Lebenslauf** (P0655000):
+  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
+  - Causing raw value: `offen`
+
 ### P0660000
 
 - [ ] **Wirkungsorte** (P0660000):
@@ -3012,21 +3022,15 @@ Powell (1988)_
 
 ### P1000000
 
-- [ ] **Links - Bionomia** (P1000000):
-  - Error Message: **`URL is not valid: nein (2025-06-19)`**
-  - Causing raw value: `nein (2025-06-19)`
-
-- [ ] **Zugehörigkeit Herrnhuter Brüdergemeine** (P1000000):
-  - Error Message: **`Provided string is not in codelist: ?`**
-  - Causing raw value: `?`
-
 - [ ] **Wirkungsorte** (P1000000):
   - Error Message: **`Cannot parse as date or period: '1830-1840'`**
-  - Causing raw value: `1830-1840; L1110000 [Hebron]; ; Missionar {R0000600}`
+  - Causing raw value: ` 1830-1840; L1110000 [Hebron]; ; Missionar {R0000600} `
+  - Full field: _1826; L1100000; ; {R0007700} | 1830-1840; L1110000 [Hebron]; ; Missionar {R0000600} | 1843-1846; L0950000, L1600000; ; Missionar {R0007700} | 1847; L1200000; ; Missionar {R0007700}_
 
-- [ ] **Herrnhuter Lebenslauf** (P1000000):
-  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
-  - Causing raw value: `offen`
+- [ ] **Wirkungsorte** (P1000000):
+  - Error Message: **`Cannot parse as date or period: '1843-1846'`**
+  - Causing raw value: ` 1843-1846; L0950000, L1600000; ; Missionar {R0007700} `
+  - Full field: _1826; L1100000; ; {R0007700} | 1830-1840; L1110000 [Hebron]; ; Missionar {R0000600} | 1843-1846; L0950000, L1600000; ; Missionar {R0007700} | 1847; L1200000; ; Missionar {R0007700}_
 
 ### P1010000
 
@@ -3692,29 +3696,7 @@ Ist er das?`
   - Error Message: **`LiteratureID must start with 'R': F. Redslob: "Die Himalaya-Landschaften Rupschu und Ladak / Reiseskizzen von Missionar F. Redslob", in: Mitteilungen der Geographischen Gesellschaft für Thüringen zu Jena 4 (1886), S. 1-8.`**
   - Causing raw value: `F. Redslob: "Die Himalaya-Landschaften Rupschu und Ladak / Reiseskizzen von Missionar F. Redslob", in: Mitteilungen der Geographischen Gesellschaft für Thüringen zu Jena 4 (1886), S. 1-8.`
 
-### P1320000
-
-- [ ] **Links - Bionomia** (P1320000):
-  - Error Message: **`URL is not valid: nein (2024-12-12)`**
-  - Causing raw value: `nein (2024-12-12)`
-
-- [ ] **Geburt - Ort** (P1320000):
-  - Error Message: **`LocationID must start with 'L': Bethlehem (Pennsylv.)`**
-  - Causing raw value: `Bethlehem (Pennsylv.)`
-
-- [ ] **Tod - Ort** (P1320000):
-  - Error Message: **`LocationID must start with 'L': Berthelsdorf`**
-  - Causing raw value: `Berthelsdorf`
-
-- [ ] **Herrnhuter Lebenslauf** (P1320000):
-  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
-  - Causing raw value: `offen`
-
 ### P1330000
-
-- [ ] **Geburt - Ort** (P1330000):
-  - Error Message: **`LocationID must start with 'L': Niesky`**
-  - Causing raw value: `Niesky`
 
 - [ ] **Wirkungsorte** (P1330000):
   - Error Message: **`Expected 4 parts, got 1: Beschäftigung mit Botanik in Gnadenfeld`**
@@ -3824,6 +3806,10 @@ Matthias Schönhofer: Letters from an American Botanist: The Correspondences of 
 - [ ] **Herrnhuter Lebenslauf** (P1355000):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
+
+- [ ] **Botanik - Beitrag zu Sammlungen (Datenbanknachweis)** (P1355000):
+  - Error Message: **`CollectionID must start with 'C': GLM?`**
+  - Causing raw value: `GLM?`
 
 - [ ] **Botanik - Beitrag zu Sammlungen - Anmerkungen** (P1355000):
   - Error Message: **`Invalid Reference Document value: https://data.biodiversitydata.nl/naturalis/specimen/L.1859326?}; Saxifraga cernua {https://data.biodiversitydata.nl/naturalis/specimen/L.1885330?} and S. rivularis at Nain (Engler & Irmscher, 1919) {R0000700 (should be URL, R-ID, or M-ID)`**
@@ -5148,40 +5134,57 @@ Volker Otte: "Exotische Flechten aus der Sammlungstätigkeit der Herrnhuter Brü
   - Error Message: **`Expected 4 parts, got 1: Juli 1899 Belege aus dem Riesengebierge`**
   - Causing raw value: `Juli 1899 Belege aus dem Riesengebierge `
   - Full field: _Juli 1899 Belege aus dem Riesengebierge |
-1899-1905; L2250000; Lehrerseminar (Schüler) {R0003500} | 1905-1912; Königsfeld; Knabenanstalt (Lehrer) {R0003500} | 1912-1948; L1850000; Lateinschule (Lehrer) {R0003500} |
+1899-1905; L2250000; Lehrerseminar (Schüler) {R0003500} | 
+1905-1912; Königsfeld; Knabenanstalt (Lehrer) {R0003500} | 
+1912-1948; L1850000; Lateinschule (Lehrer) {R0003500} |
 ab 1912 L1500000 [Kleinwelka]?_
 
 - [ ] **Wirkungsorte** (P1720000):
   - Error Message: **`Expected 4 parts, got 3: 1899-1905; L2250000; Lehrerseminar (Schüler)`**
   - Causing raw value: `1899-1905; L2250000; Lehrerseminar (Schüler) {R0003500} `
   - Full field: _Juli 1899 Belege aus dem Riesengebierge |
-1899-1905; L2250000; Lehrerseminar (Schüler) {R0003500} | 1905-1912; Königsfeld; Knabenanstalt (Lehrer) {R0003500} | 1912-1948; L1850000; Lateinschule (Lehrer) {R0003500} |
+1899-1905; L2250000; Lehrerseminar (Schüler) {R0003500} | 
+1905-1912; Königsfeld; Knabenanstalt (Lehrer) {R0003500} | 
+1912-1948; L1850000; Lateinschule (Lehrer) {R0003500} |
 ab 1912 L1500000 [Kleinwelka]?_
 
 - [ ] **Wirkungsorte** (P1720000):
   - Error Message: **`Expected 4 parts, got 3: 1905-1912; Königsfeld; Knabenanstalt (Lehrer)`**
-  - Causing raw value: ` 1905-1912; Königsfeld; Knabenanstalt (Lehrer) {R0003500} `
+  - Causing raw value: ` 
+1905-1912; Königsfeld; Knabenanstalt (Lehrer) {R0003500} `
   - Full field: _Juli 1899 Belege aus dem Riesengebierge |
-1899-1905; L2250000; Lehrerseminar (Schüler) {R0003500} | 1905-1912; Königsfeld; Knabenanstalt (Lehrer) {R0003500} | 1912-1948; L1850000; Lateinschule (Lehrer) {R0003500} |
+1899-1905; L2250000; Lehrerseminar (Schüler) {R0003500} | 
+1905-1912; Königsfeld; Knabenanstalt (Lehrer) {R0003500} | 
+1912-1948; L1850000; Lateinschule (Lehrer) {R0003500} |
 ab 1912 L1500000 [Kleinwelka]?_
 
 - [ ] **Wirkungsorte** (P1720000):
   - Error Message: **`Expected 4 parts, got 3: 1912-1948; L1850000; Lateinschule (Lehrer)`**
-  - Causing raw value: ` 1912-1948; L1850000; Lateinschule (Lehrer) {R0003500} `
+  - Causing raw value: ` 
+1912-1948; L1850000; Lateinschule (Lehrer) {R0003500} `
   - Full field: _Juli 1899 Belege aus dem Riesengebierge |
-1899-1905; L2250000; Lehrerseminar (Schüler) {R0003500} | 1905-1912; Königsfeld; Knabenanstalt (Lehrer) {R0003500} | 1912-1948; L1850000; Lateinschule (Lehrer) {R0003500} |
+1899-1905; L2250000; Lehrerseminar (Schüler) {R0003500} | 
+1905-1912; Königsfeld; Knabenanstalt (Lehrer) {R0003500} | 
+1912-1948; L1850000; Lateinschule (Lehrer) {R0003500} |
 ab 1912 L1500000 [Kleinwelka]?_
 
 - [ ] **Wirkungsorte** (P1720000):
   - Error Message: **`Expected 4 parts, got 1: ab 1912 L1500000 ?`**
   - Causing raw value: `ab 1912 L1500000 [Kleinwelka]?`
   - Full field: _Juli 1899 Belege aus dem Riesengebierge |
-1899-1905; L2250000; Lehrerseminar (Schüler) {R0003500} | 1905-1912; Königsfeld; Knabenanstalt (Lehrer) {R0003500} | 1912-1948; L1850000; Lateinschule (Lehrer) {R0003500} |
+1899-1905; L2250000; Lehrerseminar (Schüler) {R0003500} | 
+1905-1912; Königsfeld; Knabenanstalt (Lehrer) {R0003500} | 
+1912-1948; L1850000; Lateinschule (Lehrer) {R0003500} |
 ab 1912 L1500000 [Kleinwelka]?_
 
 - [ ] **Herrnhuter Lebenslauf** (P1720000):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
+
+- [ ] **Botanik - Foki** (P1720000):
+  - Error Message: **`Invalid Reference Document value: Becker 2005 (should be URL, R-ID, or M-ID)`**
+  - Causing raw value: ` Eulen- und Raubvogelernährung, Untersuchungen über Ursprung der Lautäußerung der Bekassine {Becker 2005}`
+  - Full field: _Botanik | Eulen- und Raubvogelernährung, Untersuchungen über Ursprung der Lautäußerung der Bekassine {Becker 2005}_
 
 - [ ] **Botanik - Manuskripte der Person** (P1720000):
   - Error Message: **`ManuscriptID must start with 'M': im Pfalzmuseum für Naturkunde – POLLICHIA-Museum 67098 Bad Dürkheim und tw. auf Laufwerk als Kopie`**
