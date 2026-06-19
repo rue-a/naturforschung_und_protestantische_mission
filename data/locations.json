@@ -34,7 +34,14 @@
         "founder": "Herrnhuter Brüdergemeine",
         "importance": {
           "births": [],
-          "deaths": [],
+          "deaths": [
+            {
+              "id": "P1589000",
+              "name": "Johann Friedrich David Tietzen",
+              "wikidata": "https://www.wikidata.org/wiki/Q137537242",
+              "date": "1858-09-23"
+            }
+          ],
           "places_of_effect": []
         }
       }
@@ -66,6 +73,45 @@
     },
     {
       "type": "Feature",
+      "id": "L0160000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1535-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9333,
+          53.55
+        ]
+      },
+      "properties": {
+        "name": "Altona",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q1630",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P1700000",
+              "name": "Eduard Wenck",
+              "wikidata": "https://www.wikidata.org/wiki/Q130386109",
+              "temporal": "1848/1855",
+              "institution": null,
+              "occupation": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "id": "L0200000",
       "featureType": "HerrnhutLocation",
       "time": null,
@@ -90,6 +136,12 @@
               "name": "Johann Jakob Bossart",
               "wikidata": "https://www.wikidata.org/wiki/Q55874791",
               "date": "1789-11-13"
+            },
+            {
+              "id": "P1480000",
+              "name": "Friedrich Adam Scholler",
+              "wikidata": "https://www.wikidata.org/wiki/Q3087686",
+              "date": "1785-04-03"
             }
           ],
           "places_of_effect": [
@@ -132,6 +184,38 @@
               "temporal": "1766/1789",
               "institution": "Seminar",
               "occupation": "Lehrer u. Vorsteher"
+            },
+            {
+              "id": "P0300000",
+              "name": "Pierre Frederich Curie",
+              "wikidata": "https://www.wikidata.org/wiki/Q21509659",
+              "temporal": "1790/1795",
+              "institution": "Padagogium",
+              "occupation": null
+            },
+            {
+              "id": "P0300000",
+              "name": "Pierre Frederich Curie",
+              "wikidata": "https://www.wikidata.org/wiki/Q21509659",
+              "temporal": "1801",
+              "institution": "Pädagogium",
+              "occupation": "Lehrer"
+            },
+            {
+              "id": "P1660000",
+              "name": "Jacob van Vleck",
+              "wikidata": "https://www.wikidata.org/wiki/Q102036028",
+              "temporal": "1772/1775",
+              "institution": "Seminar",
+              "occupation": "Student"
+            },
+            {
+              "id": "P1660000",
+              "name": "Jacob van Vleck",
+              "wikidata": "https://www.wikidata.org/wiki/Q102036028",
+              "temporal": "1778",
+              "institution": null,
+              "occupation": null
             }
           ]
         }
@@ -162,6 +246,12 @@
               "name": "Johann Jakob Bossart",
               "wikidata": "https://www.wikidata.org/wiki/Q55874791",
               "date": "1721-04-17"
+            },
+            {
+              "id": "P0225000",
+              "name": "Anna Pauline Breutel",
+              "wikidata": null,
+              "date": "1836-03-28"
             }
           ],
           "deaths": [],
@@ -175,6 +265,38 @@
               "occupation": "Student"
             }
           ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L0310000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6,
+          50.0
+        ]
+      },
+      "properties": {
+        "name": "Benk",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q817781",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P1480000",
+              "name": "Friedrich Adam Scholler",
+              "wikidata": "https://www.wikidata.org/wiki/Q3087686",
+              "date": "1718-12-26"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": []
         }
       }
     },
@@ -195,11 +317,37 @@
             {
               "id": "P0535000",
               "name": "Carl Heinrich Götz",
-              "wikidata": null,
+              "wikidata": "https://www.wikidata.org/wiki/Q140042768",
               "date": "1819-04-01"
             }
           ],
           "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L0360000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Berlin",
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [
+            {
+              "id": "P0390000",
+              "name": "Dr. August Herrmann Francke",
+              "wikidata": "https://www.wikidata.org/wiki/Q2870936",
+              "date": "1930-02-16"
+            }
+          ],
           "places_of_effect": []
         }
       }
@@ -228,13 +376,38 @@
         "description": null,
         "founder": null,
         "importance": {
-          "births": [],
+          "births": [
+            {
+              "id": "P0041000",
+              "name": "Maria Dorothee Emilie Baer",
+              "wikidata": null,
+              "date": "1835-11-24"
+            },
+            {
+              "id": "P0224000",
+              "name": "Johannes Emil Breutel",
+              "wikidata": null,
+              "date": "1833-05-17"
+            }
+          ],
           "deaths": [
             {
               "id": "P0010000",
               "name": "Johann Baptist von Albertini",
               "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "date": "1831-12-06"
+            },
+            {
+              "id": "P0300000",
+              "name": "Pierre Frederich Curie",
+              "wikidata": "https://www.wikidata.org/wiki/Q21509659",
+              "date": "1855-02-10"
+            },
+            {
+              "id": "P0890000",
+              "name": "Friedrich Wilhelm Kölbing",
+              "wikidata": "http://www.wikidata.org/entity/Q21517694",
+              "date": "1850-05-24"
             },
             {
               "id": "P1320000",
@@ -247,6 +420,12 @@
               "name": "Ernst Friedrich Reichel",
               "wikidata": "https://www.wikidata.org/wiki/Q139581040",
               "date": "1878-06-19"
+            },
+            {
+              "id": "P1750000",
+              "name": "Heinrich Rudolf Wullschlägel",
+              "wikidata": "https://www.wikidata.org/wiki/Q205828",
+              "date": "1864-03-29"
             }
           ],
           "places_of_effect": [
@@ -257,6 +436,22 @@
               "temporal": "1821",
               "institution": null,
               "occupation": "Mitglied Ältestenkonferenz"
+            },
+            {
+              "id": "P0300000",
+              "name": "Pierre Frederich Curie",
+              "wikidata": "https://www.wikidata.org/wiki/Q21509659",
+              "temporal": "1825/1855",
+              "institution": null,
+              "occupation": null
+            },
+            {
+              "id": "P1750000",
+              "name": "Heinrich Rudolf Wullschlägel",
+              "wikidata": "https://www.wikidata.org/wiki/Q205828",
+              "temporal": "1855/1858",
+              "institution": null,
+              "occupation": null
             }
           ]
         }
@@ -300,8 +495,24 @@
               "date": "1812-03-04"
             }
           ],
-          "deaths": [],
-          "places_of_effect": []
+          "deaths": [
+            {
+              "id": "P1660000",
+              "name": "Jacob van Vleck",
+              "wikidata": "https://www.wikidata.org/wiki/Q102036028",
+              "date": "1831-07-03"
+            }
+          ],
+          "places_of_effect": [
+            {
+              "id": "P1660000",
+              "name": "Jacob van Vleck",
+              "wikidata": "https://www.wikidata.org/wiki/Q102036028",
+              "temporal": "1754/1763",
+              "institution": "Knäbchenanstalt",
+              "occupation": "Schüler"
+            }
+          ]
         }
       }
     },
@@ -422,8 +633,46 @@
               "temporal": "1853/1879",
               "institution": null,
               "occupation": "(UA, Dienerblätter A-Bl, S. 68-69)"
+            },
+            {
+              "id": "P1750000",
+              "name": "Heinrich Rudolf Wullschlägel",
+              "wikidata": "https://www.wikidata.org/wiki/Q205828",
+              "temporal": "1829/1831",
+              "institution": "Pädagogium",
+              "occupation": "Lehrer"
             }
           ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L0850000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1824-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.758333333,
+          -34.591666666
+        ]
+      },
+      "properties": {
+        "name": "Elim",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q1003342",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
         }
       }
     },
@@ -448,6 +697,34 @@
     },
     {
       "type": "Feature",
+      "id": "L0910000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Fairfield",
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P1750000",
+              "name": "Heinrich Rudolf Wullschlägel",
+              "wikidata": "https://www.wikidata.org/wiki/Q205828",
+              "temporal": "1847/1849",
+              "institution": null,
+              "occupation": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "id": "L0950000",
       "featureType": "HerrnhutLocation",
       "time": null,
@@ -462,6 +739,97 @@
           "births": [],
           "deaths": [],
           "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L0951000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6648,
+          53.7837
+        ]
+      },
+      "properties": {
+        "name": "Fulneck",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q5508369",
+        "description": "Herrnhutische Siedlung in West Yorkshire, gegründet 1744 durch Mitglieder der Brüdergemeine; planmäßige religiöse Siedlung mit Kirche, Schulen und gemeinschaftlichen Gebäuden, bekannt für ihre weitgehend erhaltene Struktur aus dem 18. Jahrhundert.",
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0221000",
+              "name": "Anna Sophia Breutel",
+              "wikidata": null,
+              "date": "1797-05-04"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L0960000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.15,
+          46.2
+        ]
+      },
+      "properties": {
+        "name": "Genf",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q71",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L0970000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.779444444,
+          51.975833333
+        ]
+      },
+      "properties": {
+        "name": "Gnadau",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q688045",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P1700000",
+              "name": "Eduard Wenck",
+              "wikidata": "https://www.wikidata.org/wiki/Q130386109",
+              "temporal": "1846/1848",
+              "institution": null,
+              "occupation": null
+            }
+          ]
         }
       }
     },
@@ -482,11 +850,11 @@
         "variants": [
           {
             "name": "Godnów",
-            "lang": ""
+            "lang": "pl"
           },
           {
             "name": "Kruszyn",
-            "lang": ""
+            "lang": "pl"
           }
         ],
         "wikidata": "https://www.wikidata.org/wiki/Q65162110",
@@ -494,7 +862,14 @@
         "founder": null,
         "importance": {
           "births": [],
-          "deaths": [],
+          "deaths": [
+            {
+              "id": "P0270000",
+              "name": "David Cranz",
+              "wikidata": "https://www.wikidata.org/wiki/Q89872",
+              "date": "1777-06-06"
+            }
+          ],
           "places_of_effect": [
             {
               "id": "P0010000",
@@ -544,7 +919,14 @@
         "description": null,
         "founder": null,
         "importance": {
-          "births": [],
+          "births": [
+            {
+              "id": "P0390000",
+              "name": "Dr. August Herrmann Francke",
+              "wikidata": "https://www.wikidata.org/wiki/Q2870936",
+              "date": "1870-11-05"
+            }
+          ],
           "deaths": [],
           "places_of_effect": [
             {
@@ -595,7 +977,7 @@
             {
               "id": "P0535000",
               "name": "Carl Heinrich Götz",
-              "wikidata": null,
+              "wikidata": "https://www.wikidata.org/wiki/Q140042768",
               "temporal": "1839",
               "institution": "Seminarium",
               "occupation": "Schüler"
@@ -603,10 +985,77 @@
             {
               "id": "P0535000",
               "name": "Carl Heinrich Götz",
-              "wikidata": null,
+              "wikidata": "https://www.wikidata.org/wiki/Q140042768",
               "temporal": "1846",
               "institution": "Seminarium",
               "occupation": "Lehrer"
+            },
+            {
+              "id": "P1700000",
+              "name": "Eduard Wenck",
+              "wikidata": "https://www.wikidata.org/wiki/Q130386109",
+              "temporal": "1831/1833",
+              "institution": "Theologisches Seminar",
+              "occupation": "Student"
+            },
+            {
+              "id": "P1750000",
+              "name": "Heinrich Rudolf Wullschlägel",
+              "wikidata": "https://www.wikidata.org/wiki/Q205828",
+              "temporal": "1824/1826",
+              "institution": "Seminar",
+              "occupation": "Schüler"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1101500",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1738-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.55,
+          -34.033333333
+        ]
+      },
+      "properties": {
+        "name": "Gnadenthal",
+        "variants": [
+          {
+            "name": "Genadendal",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q1501295",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [
+            {
+              "id": "P0910000",
+              "name": "Carl Rudolph Kölbing",
+              "wikidata": "https://www.wikidata.org/wiki/Q55853813",
+              "date": "1860-12-28"
+            }
+          ],
+          "places_of_effect": [
+            {
+              "id": "P1150000",
+              "name": "Johann (Jan) August Miertsching",
+              "wikidata": "https://www.wikidata.org/wiki/Q29073400",
+              "temporal": "1861/1869",
+              "institution": "Missionsstation",
+              "occupation": "Missionar"
             }
           ]
         }
@@ -626,6 +1075,38 @@
         "founder": null,
         "importance": {
           "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1104000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7287511,
+          51.2383379
+        ]
+      },
+      "properties": {
+        "name": "Grimma",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q10780",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0020000",
+              "name": "Carl Gottfried Albrecht",
+              "wikidata": "https://www.wikidata.org/wiki/Q132170167",
+              "date": "1800"
+            }
+          ],
           "deaths": [],
           "places_of_effect": []
         }
@@ -681,6 +1162,94 @@
         "name": "Goshen",
         "variants": [],
         "wikidata": "https://www.wikidata.org/wiki/Q5587251",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1105500",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.316666666,
+          53.25
+        ]
+      },
+      "properties": {
+        "name": "Halenbeck-Rohlsdorf",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q686804",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0290000",
+              "name": "Johann Gottfried Cunow",
+              "wikidata": "https://www.wikidata.org/wiki/Q116215976",
+              "date": "1758-01-04"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1106000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Hamburg",
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P1270000",
+              "name": "Johannes Renatus Plitt",
+              "wikidata": "https://www.wikidata.org/wiki/Q94819125",
+              "date": "1778-01-13"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1107000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1185-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.640555555,
+          52.380277777
+        ]
+      },
+      "properties": {
+        "name": "Haarlem",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q9920",
         "description": null,
         "founder": null,
         "importance": {
@@ -781,9 +1350,82 @@
               "name": "William Gustav Baer",
               "wikidata": "https://www.wikidata.org/wiki/Q55010392",
               "date": "1867-04-17"
+            },
+            {
+              "id": "P0260000",
+              "name": "Hugo Theodor Christoph",
+              "wikidata": "https://www.wikidata.org/wiki/Q3814258",
+              "date": "1831-04-16"
+            },
+            {
+              "id": "P1700000",
+              "name": "Eduard Wenck",
+              "wikidata": "https://www.wikidata.org/wiki/Q130386109",
+              "date": "1811-09-01"
             }
           ],
-          "deaths": [],
+          "deaths": [
+            {
+              "id": "P0180000",
+              "name": "Johann Heinrich Theodor Bourquin",
+              "wikidata": null,
+              "date": "5465"
+            },
+            {
+              "id": "P0610000",
+              "name": "Eugenius Hartwig",
+              "wikidata": null,
+              "date": "1879-12-28"
+            },
+            {
+              "id": "P0620000",
+              "name": "Jens Haven",
+              "wikidata": "https://www.wikidata.org/wiki/Q15229504",
+              "date": "1796-04-16"
+            },
+            {
+              "id": "P0730000",
+              "name": "Carl August Hirt",
+              "wikidata": "https://www.wikidata.org/wiki/Q130358368",
+              "date": "1878-05-16"
+            },
+            {
+              "id": "P0820000",
+              "name": "Heinrich August Jäschke",
+              "wikidata": "http://www.wikidata.org/entity/Q64653",
+              "date": "1883-09-24"
+            },
+            {
+              "id": "P0835000",
+              "name": "Carl Gotthelf Kern",
+              "wikidata": "https://www.wikidata.org/wiki/Q140030552",
+              "date": "1899-05-03"
+            },
+            {
+              "id": "P1270000",
+              "name": "Johannes Renatus Plitt",
+              "wikidata": "https://www.wikidata.org/wiki/Q94819125",
+              "date": "1841-07-29"
+            },
+            {
+              "id": "P1506000",
+              "name": "Martin Starick",
+              "wikidata": "https://www.wikidata.org/wiki/Q139847900",
+              "date": "1921-11-11"
+            },
+            {
+              "id": "P1570000",
+              "name": "Dr. Johann Friedrich Ferdinand Thalacker",
+              "wikidata": "https://www.wikidata.org/wiki/Q140009970",
+              "date": "1842-03-26"
+            },
+            {
+              "id": "P1700000",
+              "name": "Eduard Wenck",
+              "wikidata": "https://www.wikidata.org/wiki/Q130386109",
+              "date": "1896-03-22"
+            }
+          ],
           "places_of_effect": [
             {
               "id": "P0030000",
@@ -802,14 +1444,72 @@
               "occupation": "(UA, Dienerblätter A-Bl, S. 68-69)"
             },
             {
+              "id": "P0300000",
+              "name": "Pierre Frederich Curie",
+              "wikidata": "https://www.wikidata.org/wiki/Q21509659",
+              "temporal": "1811",
+              "institution": null,
+              "occupation": null
+            },
+            {
               "id": "P0535000",
               "name": "Carl Heinrich Götz",
-              "wikidata": null,
+              "wikidata": "https://www.wikidata.org/wiki/Q140042768",
               "temporal": "1832",
               "institution": "Apotheke",
               "occupation": "Lehrling"
+            },
+            {
+              "id": "P1700000",
+              "name": "Eduard Wenck",
+              "wikidata": "https://www.wikidata.org/wiki/Q130386109",
+              "temporal": "1840/1841",
+              "institution": "Ortsschule",
+              "occupation": "Lehrer"
+            },
+            {
+              "id": "P1700000",
+              "name": "Eduard Wenck",
+              "wikidata": "https://www.wikidata.org/wiki/Q130386109",
+              "temporal": "1879/1896",
+              "institution": null,
+              "occupation": "{M0036000}"
+            },
+            {
+              "id": "P1750000",
+              "name": "Heinrich Rudolf Wullschlägel",
+              "wikidata": "https://www.wikidata.org/wiki/Q205828",
+              "temporal": "1831/1834",
+              "institution": "Pädagogium",
+              "occupation": "Lehrer"
             }
           ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1130000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Hoop",
+        "variants": [],
+        "wikidata": null,
+        "description": "Suriname",
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0250000",
+              "name": "Christian Friedrich Burkhardt",
+              "wikidata": "https://www.wikidata.org/wiki/Q21506687",
+              "date": "1785-01-06"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": []
         }
       }
     },
@@ -948,6 +1648,12 @@
         "importance": {
           "births": [
             {
+              "id": "P0080000",
+              "name": "Walter Theodor Bau",
+              "wikidata": "https://www.wikidata.org/wiki/Q14193477",
+              "date": "1888-01-29"
+            },
+            {
               "id": "P0800000",
               "name": "Christian Gottlieb Hüffel",
               "wikidata": "https://www.wikidata.org/wiki/Q112117739",
@@ -956,10 +1662,28 @@
           ],
           "deaths": [
             {
+              "id": "P0350000",
+              "name": "Johann Michael Eberle",
+              "wikidata": "https://www.wikidata.org/wiki/Q139961776",
+              "date": "1859-01-16"
+            },
+            {
+              "id": "P1100000",
+              "name": "Johannes Gottfried Menze",
+              "wikidata": "https://www.wikidata.org/wiki/Q134451423",
+              "date": "1890-01-17"
+            },
+            {
               "id": "P1150000",
               "name": "Johann (Jan) August Miertsching",
               "wikidata": "https://www.wikidata.org/wiki/Q29073400",
               "date": "1875-03-30"
+            },
+            {
+              "id": "P1680000",
+              "name": "Matthäus Warmow",
+              "wikidata": "https://www.wikidata.org/wiki/Q139710148",
+              "date": "1898-03-20"
             }
           ],
           "places_of_effect": [
@@ -976,8 +1700,24 @@
               "name": "Pierre Frederich Curie",
               "wikidata": "https://www.wikidata.org/wiki/Q21509659",
               "temporal": "1803",
-              "institution": null,
+              "institution": "Knabenanstalt",
               "occupation": "Lehrer"
+            },
+            {
+              "id": "P1150000",
+              "name": "Johann (Jan) August Miertsching",
+              "wikidata": "https://www.wikidata.org/wiki/Q29073400",
+              "temporal": "1832/1844",
+              "institution": "Schuhmacherei",
+              "occupation": null
+            },
+            {
+              "id": "P1150000",
+              "name": "Johann (Jan) August Miertsching",
+              "wikidata": "https://www.wikidata.org/wiki/Q29073400",
+              "temporal": "1869/1875",
+              "institution": null,
+              "occupation": null
             }
           ]
         }
@@ -1007,13 +1747,27 @@
         "description": null,
         "founder": null,
         "importance": {
-          "births": [],
-          "deaths": [],
+          "births": [
+            {
+              "id": "P1683000",
+              "name": "Friedrich Thomas Weiler",
+              "wikidata": "https://www.wikidata.org/wiki/Q139846701",
+              "date": "1832-08-14"
+            }
+          ],
+          "deaths": [
+            {
+              "id": "P0080000",
+              "name": "Walter Theodor Bau",
+              "wikidata": "https://www.wikidata.org/wiki/Q14193477",
+              "date": "1967-06-09"
+            }
+          ],
           "places_of_effect": [
             {
               "id": "P0535000",
               "name": "Carl Heinrich Götz",
-              "wikidata": null,
+              "wikidata": "https://www.wikidata.org/wiki/Q140042768",
               "temporal": "1841/1842",
               "institution": "Knabenanstalt",
               "occupation": "Lehrer"
@@ -1089,15 +1843,37 @@
       "id": "L1700000",
       "featureType": "HerrnhutLocation",
       "time": null,
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.666666666,
+          51.094444444
+        ]
+      },
       "properties": {
-        "name": null,
-        "variants": [],
-        "wikidata": null,
-        "description": null,
+        "name": "Löbau",
+        "variants": [
+          {
+            "name": "Loebau (eng.; fr.)",
+            "lang": ""
+          },
+          {
+            "name": "Lubij",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q156768",
+        "description": "Große Kreisstadt im Landkreis Görlitz, Sachsen, Deutschland",
         "founder": null,
         "importance": {
-          "births": [],
+          "births": [
+            {
+              "id": "P0040750",
+              "name": "Gustav Eduard Baer",
+              "wikidata": null,
+              "date": "1823-06-03"
+            }
+          ],
           "deaths": [],
           "places_of_effect": []
         }
@@ -1225,12 +2001,18 @@
       "id": "L1950000",
       "featureType": "HerrnhutLocation",
       "time": null,
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.02565,
+          47.0169
+        ]
+      },
       "properties": {
         "name": "Montmirail",
         "variants": [],
-        "wikidata": null,
-        "description": null,
+        "wikidata": "https://www.wikidata.org/wiki/Q29785958",
+        "description": "Ehemaliges Herrenhaus mit Umschwung und heutiges Internatsgebäude in Thielle-Wavre im Kanton Neuenburg, Schweiz",
         "founder": null,
         "importance": {
           "births": [
@@ -1239,6 +2021,66 @@
               "name": "John William Verbeek",
               "wikidata": "https://www.wikidata.org/wiki/Q139269295",
               "date": "1823-02-10"
+            },
+            {
+              "id": "P0300000",
+              "name": "Pierre Frederich Curie",
+              "wikidata": "https://www.wikidata.org/wiki/Q21509659",
+              "date": "1777-06-28"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P0221000",
+              "name": "Anna Sophia Breutel",
+              "wikidata": null,
+              "temporal": "1822/1823",
+              "institution": "Töchterpension",
+              "occupation": "Lehrerin"
+            },
+            {
+              "id": "P0300000",
+              "name": "Pierre Frederich Curie",
+              "wikidata": "https://www.wikidata.org/wiki/Q21509659",
+              "temporal": "1812/1821",
+              "institution": "Mädchenanstalt",
+              "occupation": "Inspektor"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L1960000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.119166666,
+          53.671944444
+        ]
+      },
+      "properties": {
+        "name": "Naugard",
+        "variants": [
+          {
+            "name": "Naugarten, Nowogard",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q989427",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0270000",
+              "name": "David Cranz",
+              "wikidata": "https://www.wikidata.org/wiki/Q89872",
+              "date": "1723-02-03"
             }
           ],
           "deaths": [],
@@ -1272,7 +2114,16 @@
         "importance": {
           "births": [],
           "deaths": [],
-          "places_of_effect": []
+          "places_of_effect": [
+            {
+              "id": "P1660000",
+              "name": "Jacob van Vleck",
+              "wikidata": "https://www.wikidata.org/wiki/Q102036028",
+              "temporal": "1753/1754",
+              "institution": "Pflegeanstalt für kleine Kinder",
+              "occupation": "Schüler"
+            }
+          ]
         }
       }
     },
@@ -1338,7 +2189,7 @@
             {
               "id": "P1595500",
               "name": "Heinrich Gottlieb Thrän",
-              "wikidata": null,
+              "wikidata": "https://www.wikidata.org/wiki/Q140009838",
               "date": "1788-09-25"
             }
           ],
@@ -1346,10 +2197,59 @@
             {
               "id": "P1595500",
               "name": "Heinrich Gottlieb Thrän",
-              "wikidata": null,
+              "wikidata": "https://www.wikidata.org/wiki/Q140009838",
               "date": "1827-12-08"
             }
           ],
+          "places_of_effect": [
+            {
+              "id": "P1700000",
+              "name": "Eduard Wenck",
+              "wikidata": "https://www.wikidata.org/wiki/Q130386109",
+              "temporal": "1855/1869",
+              "institution": null,
+              "occupation": null
+            },
+            {
+              "id": "P1750000",
+              "name": "Heinrich Rudolf Wullschlägel",
+              "wikidata": "https://www.wikidata.org/wiki/Q205828",
+              "temporal": "1834/1843",
+              "institution": "N.N.",
+              "occupation": "N.N."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2110000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3075,
+          48.5294
+        ]
+      },
+      "properties": {
+        "name": "Neuhausen an der Erms",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q1338339",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0350000",
+              "name": "Johann Michael Eberle",
+              "wikidata": "https://www.wikidata.org/wiki/Q139961776",
+              "date": "1773-10-18"
+            }
+          ],
+          "deaths": [],
           "places_of_effect": []
         }
       }
@@ -1439,6 +2339,12 @@
               "name": "Johann Baptist von Albertini",
               "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "date": "1769-02-17"
+            },
+            {
+              "id": "P0890000",
+              "name": "Friedrich Wilhelm Kölbing",
+              "wikidata": "http://www.wikidata.org/entity/Q21517694",
+              "date": "1803-09-04"
             }
           ],
           "deaths": [],
@@ -1458,8 +2364,50 @@
               "temporal": "1760/1764",
               "institution": "Knabenanstalt",
               "occupation": "Inspektor"
+            },
+            {
+              "id": "P0300000",
+              "name": "Pierre Frederich Curie",
+              "wikidata": "https://www.wikidata.org/wiki/Q21509659",
+              "temporal": "1785/1790",
+              "institution": "Knabenanstalt",
+              "occupation": null
+            },
+            {
+              "id": "P1750000",
+              "name": "Heinrich Rudolf Wullschlägel",
+              "wikidata": "https://www.wikidata.org/wiki/Q205828",
+              "temporal": "1843/1844",
+              "institution": null,
+              "occupation": null
             }
           ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2210000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "New York",
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P1660000",
+              "name": "Jacob van Vleck",
+              "wikidata": "https://www.wikidata.org/wiki/Q102036028",
+              "date": "1751-03-24"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": []
         }
       }
     },
@@ -1484,6 +2432,30 @@
         "importance": {
           "births": [
             {
+              "id": "P0222000",
+              "name": "Carl Julius Breutel",
+              "wikidata": null,
+              "date": "1826-08-06"
+            },
+            {
+              "id": "P0223000",
+              "name": "Francis William Breutel",
+              "wikidata": null,
+              "date": "1830-07-24"
+            },
+            {
+              "id": "P0225000",
+              "name": "John William Breutel",
+              "wikidata": null,
+              "date": "1828-11-11"
+            },
+            {
+              "id": "P0910000",
+              "name": "Carl Rudolph Kölbing",
+              "wikidata": "https://www.wikidata.org/wiki/Q55853813",
+              "date": "1810-07-02"
+            },
+            {
               "id": "P1330000",
               "name": "Ernst Friedrich Reichel",
               "wikidata": "https://www.wikidata.org/wiki/Q139581040",
@@ -1491,6 +2463,42 @@
             }
           ],
           "deaths": [
+            {
+              "id": "P0040000",
+              "name": "Johann Heinrich Andresen",
+              "wikidata": "https://www.wikidata.org/wiki/Q136230382",
+              "date": "1815-06-21"
+            },
+            {
+              "id": "P0040750",
+              "name": "Gustav Eduard Baer",
+              "wikidata": null,
+              "date": null
+            },
+            {
+              "id": "P0041000",
+              "name": "Maria Dorothee Emilie Baer",
+              "wikidata": null,
+              "date": "1914-05-19"
+            },
+            {
+              "id": "P0225000",
+              "name": "Anna Pauline Breutel",
+              "wikidata": null,
+              "date": "1897-10-28"
+            },
+            {
+              "id": "P0222000",
+              "name": "Carl Julius Breutel",
+              "wikidata": null,
+              "date": "1899-05-30"
+            },
+            {
+              "id": "P0223000",
+              "name": "Francis William Breutel",
+              "wikidata": null,
+              "date": null
+            },
             {
               "id": "P1595000",
               "name": "Franz Ferdinand Thrän",
@@ -1524,9 +2532,49 @@
               "occupation": "Dozent, Inspektor, Prediger"
             },
             {
+              "id": "P0300000",
+              "name": "Pierre Frederich Curie",
+              "wikidata": "https://www.wikidata.org/wiki/Q21509659",
+              "temporal": "1795/1798",
+              "institution": "Seminar",
+              "occupation": null
+            },
+            {
+              "id": "P0300000",
+              "name": "Pierre Frederich Curie",
+              "wikidata": "https://www.wikidata.org/wiki/Q21509659",
+              "temporal": "1798",
+              "institution": "Knabenanstalt",
+              "occupation": "Lehrer"
+            },
+            {
+              "id": "P0300000",
+              "name": "Pierre Frederich Curie",
+              "wikidata": "https://www.wikidata.org/wiki/Q21509659",
+              "temporal": "1804",
+              "institution": "Seminar",
+              "occupation": "Lehrer"
+            },
+            {
+              "id": "P0300000",
+              "name": "Pierre Frederich Curie",
+              "wikidata": "https://www.wikidata.org/wiki/Q21509659",
+              "temporal": "1808",
+              "institution": null,
+              "occupation": "Lehrer"
+            },
+            {
+              "id": "P0300000",
+              "name": "Pierre Frederich Curie",
+              "wikidata": "https://www.wikidata.org/wiki/Q21509659",
+              "temporal": "1821/1825",
+              "institution": null,
+              "occupation": null
+            },
+            {
               "id": "P0535000",
               "name": "Carl Heinrich Götz",
-              "wikidata": null,
+              "wikidata": "https://www.wikidata.org/wiki/Q140042768",
               "temporal": "1833/1839",
               "institution": "Pädagogium",
               "occupation": "Schüler"
@@ -1534,12 +2582,111 @@
             {
               "id": "P0535000",
               "name": "Carl Heinrich Götz",
-              "wikidata": null,
+              "wikidata": "https://www.wikidata.org/wiki/Q140042768",
               "temporal": "1842/1846",
+              "institution": "Pädagogium",
+              "occupation": "Lehrer"
+            },
+            {
+              "id": "P1660000",
+              "name": "Jacob van Vleck",
+              "wikidata": "https://www.wikidata.org/wiki/Q102036028",
+              "temporal": "1775/1778",
+              "institution": "Unitäts-Knabenanstalt",
+              "occupation": null
+            },
+            {
+              "id": "P1700000",
+              "name": "Eduard Wenck",
+              "wikidata": "https://www.wikidata.org/wiki/Q130386109",
+              "temporal": "1817/1831",
+              "institution": "Pädagogium",
+              "occupation": "Schüler"
+            },
+            {
+              "id": "P1750000",
+              "name": "Heinrich Rudolf Wullschlägel",
+              "wikidata": "https://www.wikidata.org/wiki/Q205828",
+              "temporal": "1822/1824",
+              "institution": "Pädagogium",
+              "occupation": "Schüler"
+            },
+            {
+              "id": "P1750000",
+              "name": "Heinrich Rudolf Wullschlägel",
+              "wikidata": "https://www.wikidata.org/wiki/Q205828",
+              "temporal": "1826/1829",
               "institution": "Pädagogium",
               "occupation": "Lehrer"
             }
           ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2251000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.716944444,
+          51.803333333
+        ]
+      },
+      "properties": {
+        "name": "Nowa Sól",
+        "variants": [
+          {
+            "name": "Neusalz",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q157190",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [
+            {
+              "id": "P0880000",
+              "name": "Benjamin Gottlieb Kohlmeister",
+              "wikidata": "https://www.wikidata.org/wiki/Q105946962",
+              "date": "1844-06-03"
+            }
+          ],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2255000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.76778,
+          51.3819
+        ]
+      },
+      "properties": {
+        "name": "Oberhem",
+        "variants": [
+          {
+            "name": "Oberhemer",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q2009818",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
         }
       }
     },
@@ -1568,7 +2715,14 @@
         "founder": "Herrnhuter Brüdergemeine",
         "importance": {
           "births": [],
-          "deaths": [],
+          "deaths": [
+            {
+              "id": "P1683000",
+              "name": "Friedrich Thomas Weiler",
+              "wikidata": "https://www.wikidata.org/wiki/Q139846701",
+              "date": "1886-04-16"
+            }
+          ],
           "places_of_effect": [
             {
               "id": "P0020000",
@@ -1577,8 +2731,144 @@
               "temporal": "1852/1864",
               "institution": "Missionar",
               "occupation": null
+            },
+            {
+              "id": "P1150000",
+              "name": "Johann (Jan) August Miertsching",
+              "wikidata": "https://www.wikidata.org/wiki/Q29073400",
+              "temporal": "1844/1849",
+              "institution": "Missionsstation",
+              "occupation": "Missionar"
+            },
+            {
+              "id": "P1683000",
+              "name": "Friedrich Thomas Weiler",
+              "wikidata": "https://www.wikidata.org/wiki/Q139846701",
+              "temporal": "1878/1886",
+              "institution": null,
+              "occupation": null
             }
           ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2265000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1613-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.166666666,
+          5.866666666
+        ]
+      },
+      "properties": {
+        "name": "Paramaribo",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q3001",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P1540000",
+              "name": "Johannes Wilhelm Stolz",
+              "wikidata": "https://www.wikidata.org/wiki/Q140010073",
+              "date": "1881-01-25"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P1750000",
+              "name": "Heinrich Rudolf Wullschlägel",
+              "wikidata": "https://www.wikidata.org/wiki/Q205828",
+              "temporal": "1849/1855",
+              "institution": null,
+              "occupation": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2265100",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "0800-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.421388888,
+          50.0875
+        ]
+      },
+      "properties": {
+        "name": "Prag",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q1085",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [
+            {
+              "id": "P0224000",
+              "name": "Johannes Emil Breutel",
+              "wikidata": null,
+              "date": null
+            }
+          ],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2266000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6675,
+          51.786388888
+        ]
+      },
+      "properties": {
+        "name": "Rydzyna",
+        "variants": [
+          {
+            "name": "Reisen",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q995872",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0880000",
+              "name": "Benjamin Gottlieb Kohlmeister",
+              "wikidata": "https://www.wikidata.org/wiki/Q105946962",
+              "date": "1756-02-06"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": []
         }
       }
     },
@@ -1606,7 +2896,7 @@
             {
               "id": "P1350000",
               "name": "Philipp Christian Gottlieb Reuter",
-              "wikidata": null,
+              "wikidata": "https://www.wikidata.org/wiki/Q138684804",
               "date": "1777-12-30"
             }
           ],
@@ -1620,6 +2910,66 @@
               "occupation": null
             }
           ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2280000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Sarepta",
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P1750000",
+              "name": "Heinrich Rudolf Wullschlägel",
+              "wikidata": "https://www.wikidata.org/wiki/Q205828",
+              "date": "1805-02-01"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P1750000",
+              "name": "Heinrich Rudolf Wullschlägel",
+              "wikidata": "https://www.wikidata.org/wiki/Q205828",
+              "temporal": "1805/1822",
+              "institution": null,
+              "occupation": "{R0009100}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2290000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0542,
+          50.653
+        ]
+      },
+      "properties": {
+        "name": "Schönbrunn",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q2258838",
+        "description": "Ortteil von Wolkenstein in Sachsen",
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
         }
       }
     },
@@ -1752,6 +3102,43 @@
     },
     {
       "type": "Feature",
+      "id": "L2410000",
+      "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1703-05-27",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.316666666,
+          59.95
+        ]
+      },
+      "properties": {
+        "name": "St. Petersburg",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q656",
+        "description": null,
+        "founder": "Peter der Große",
+        "importance": {
+          "births": [],
+          "deaths": [
+            {
+              "id": "P0260000",
+              "name": "Hugo Theodor Christoph",
+              "wikidata": "https://www.wikidata.org/wiki/Q3814258",
+              "date": "1894-11-06"
+            }
+          ],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "id": "L2450000",
       "featureType": "HerrnhutLocation",
       "time": null,
@@ -1778,6 +3165,69 @@
               "date": "1934-09-16"
             }
           ],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2455000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.063611111,
+          57.115277777
+        ]
+      },
+      "properties": {
+        "name": "Vust",
+        "variants": [
+          {
+            "name": "Vust Parish",
+            "lang": ""
+          }
+        ],
+        "wikidata": "https://www.wikidata.org/wiki/Q2613269",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P0620000",
+              "name": "Jens Haven",
+              "wikidata": "https://www.wikidata.org/wiki/Q15229504",
+              "date": "1724-06-23"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2460000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Weimar",
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P1570000",
+              "name": "Dr. Johann Friedrich Ferdinand Thalacker",
+              "wikidata": "https://www.wikidata.org/wiki/Q140009970",
+              "date": "1776-09-08"
+            }
+          ],
+          "deaths": [],
           "places_of_effect": []
         }
       }
@@ -1814,6 +3264,194 @@
               "date": "1788-01-21"
             }
           ],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2550000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.18333,
+          51.81667
+        ]
+      },
+      "properties": {
+        "name": "Werben",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q574768",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [
+            {
+              "id": "P1680000",
+              "name": "Matthäus Warmow",
+              "wikidata": "https://www.wikidata.org/wiki/Q139710148",
+              "date": "1818-01-18"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2600000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.23333,
+          52.09
+        ]
+      },
+      "properties": {
+        "name": "Zeist",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q33527010",
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": [
+            {
+              "id": "P1700000",
+              "name": "Eduard Wenck",
+              "wikidata": "https://www.wikidata.org/wiki/Q130386109",
+              "temporal": "1841/1846",
+              "institution": null,
+              "occupation": null
+            },
+            {
+              "id": "P1700000",
+              "name": "Eduard Wenck",
+              "wikidata": "https://www.wikidata.org/wiki/Q130386109",
+              "temporal": "1869/1879",
+              "institution": null,
+              "occupation": "{M0036000}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2650000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": null,
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2700000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": null,
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2750000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": null,
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2800000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": null,
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2850000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": null,
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2900000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": null,
+        "variants": [],
+        "wikidata": null,
+        "description": null,
+        "founder": null,
+        "importance": {
+          "births": [],
           "deaths": [],
           "places_of_effect": []
         }

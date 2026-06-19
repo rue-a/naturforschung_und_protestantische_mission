@@ -24,10 +24,6 @@ Ferdinand Wunderling {R0000900} |
 P1500000 {R0000900} | _
 
 - [ ] **Botanik - Manuskripte der Person** (P0010000):
-  - Error Message: **`Invalid format for ManuscriptID: M0004800 : Verzeichnis der auf einer Reise durch einen Teil des Leitmeritzer Kreises beobachteten Pflanzen. 10.-23. Juni 1808. unidentifiziertes Manuskript unsicher zugeschrieben zu Albertini durch durch R0001600, R0002800]`**
-  - Causing raw value: `M0004800 [1808: J.B.v. Albertini [?]: Verzeichnis der auf einer Reise durch einen Teil des Leitmeritzer Kreises beobachteten Pflanzen. 10.-23. Juni 1808. unidentifiziertes Manuskript unsicher zugeschrieben zu  Albertini durch durch R0001600, R0002800] `
-
-- [ ] **Botanik - Manuskripte der Person** (P0010000):
   - Error Message: **`Invalid format for ManuscriptID: M0004700 : Flora Nieskiensis (unsichere Zuschreibung zu Albertini durch R0001600)]`**
   - Causing raw value: `M0004700 [1815: J.B.v. Albertini: Vorwort. in: [anonym]: Flora Nieskiensis (unsichere Zuschreibung zu Albertini durch R0001600)] `
 
@@ -108,10 +104,6 @@ P1500000 {R0000900} | _
   - Error Message: **`Provided string is not in codelist: ja`**
   - Causing raw value: `ja`
 
-- [ ] **Geburt - Ort** (P0020000):
-  - Error Message: **`LocationID must start with 'L': Grimma, Deutschland`**
-  - Causing raw value: `Grimma, Deutschland {R0000700}`
-
 - [ ] **Tod - Ort** (P0020000):
   - Error Message: **`Invalid format for LocationID: L1500000 (UA, Dienerblätter A-Bl, S. 53)`**
   - Causing raw value: `L1500000 (UA, Dienerblätter A-Bl, S. 53)`
@@ -149,16 +141,16 @@ P1500000 {R0000900} | _
   - Causing raw value: `1813-02-08 (UA, Dienerblätter A-Bl, S. 68-69)`
 
 - [ ] **Geburt - Ort** (P0030000):
-  - Error Message: **`LocationID must start with 'L': Schönbrun bei Wolkenstein (UA, Dienerblätter A-Bl, S. 68-69)`**
-  - Causing raw value: `Schönbrun bei Wolkenstein (UA, Dienerblätter A-Bl, S. 68-69)`
+  - Error Message: **`Invalid format for LocationID: L2290000 (UA, Dienerblätter A-Bl, S. 68-69)`**
+  - Causing raw value: `L2290000 (UA, Dienerblätter A-Bl, S. 68-69)`
 
 - [ ] **Tod - Datum** (P0030000):
   - Error Message: **`Invalid ISO8601-2_Date format: 1899-09-28 (UA, Dienerblätter A-Bl, S. 68-69)`**
   - Causing raw value: `1899-09-28 (UA, Dienerblätter A-Bl, S. 68-69)`
 
 - [ ] **Tod - Ort** (P0030000):
-  - Error Message: **`LocationID must start with 'L': Herrnhut (UA, Dienerblätter A-Bl, S. 68-69)`**
-  - Causing raw value: `Herrnhut (UA, Dienerblätter A-Bl, S. 68-69)`
+  - Error Message: **`Invalid format for LocationID: L1120000 (UA, Dienerblätter A-Bl, S. 68-69)`**
+  - Causing raw value: `L1120000 (UA, Dienerblätter A-Bl, S. 68-69)`
 
 - [ ] **Herrnhuter Lebenslauf** (P0030000):
   - Error Message: **`Invalid work id: UA, Dienerblätter A-Bl, S. 68-69 (should be R-ID, or M-ID)`**
@@ -179,10 +171,6 @@ UA NB.VI. 63,nr.2, S. 93`
   - Error Message: **`Provided string is not in codelist: ja`**
   - Causing raw value: `ja`
 
-- [ ] **Tod - Ort** (P0040000):
-  - Error Message: **`LocationID must start with 'L': Niesky`**
-  - Causing raw value: `Niesky {R0000100}`
-
 - [ ] **Wirkungsorte** (P0040000):
   - Error Message: **`Expected 4 parts, got 3: 1796/1809; Ebersdorf; Gemeinvorsteher in Ebersdorf`**
   - Causing raw value: `1796/1809; Ebersdorf; Gemeinvorsteher in Ebersdorf {https://d-nb.info/gnd/1081213442}`
@@ -198,20 +186,20 @@ UA NB.VI. 63,nr.2, S. 93`
   - Causing raw value: `ja`
 
 - [ ] **Geburt - Datum** (P0040500):
-  - Error Message: **`Invalid ISO8601-2_Date format: 1788-04-05 (UA, R.22.20.12)`**
-  - Causing raw value: `1788-04-05 (UA, R.22.20.12)`
+  - Error Message: **`Invalid Reference Document value: UA, R.22.20.12 (should be URL, R-ID, or M-ID)`**
+  - Causing raw value: `1788-04-05 {UA, R.22.20.12}`
 
 - [ ] **Geburt - Ort** (P0040500):
-  - Error Message: **`LocationID must start with 'L': Steinbach (UA, R.22.20.12)`**
-  - Causing raw value: `Steinbach (UA, R.22.20.12)`
+  - Error Message: **`Invalid Reference Document value: UA, R.22.20.12 (should be URL, R-ID, or M-ID)`**
+  - Causing raw value: `Steinbach {UA, R.22.20.12}`
 
 - [ ] **Tod - Datum** (P0040500):
   - Error Message: **`Invalid ISO8601-2_Date format: 1815-08-05 (UA, R.22.20.12)`**
   - Causing raw value: `1815-08-05 (UA, R.22.20.12)`
 
 - [ ] **Tod - Ort** (P0040500):
-  - Error Message: **`LocationID must start with 'L': Ebersdorf (UA, R.22.20.12)`**
-  - Causing raw value: `Ebersdorf (UA, R.22.20.12)`
+  - Error Message: **`Invalid Reference Document value: UA, R.22.20.12 (should be URL, R-ID, or M-ID)`**
+  - Causing raw value: `L0800000 {UA, R.22.20.12}`
 
 - [ ] **Wirkungsorte** (P0040500):
   - Error Message: **`Expected 4 parts, got 1: Ebersdorf (Apotheker)`**
@@ -271,8 +259,8 @@ UA NB.VI. 63,nr.2, S. 93`
   - Causing raw value: `1893-04-24 (UA, Dienerblätter A-Bl. S, 234) {R0004100}`
 
 - [ ] **Tod - Ort** (P0060000):
-  - Error Message: **`LocationID must start with 'L': Herrnhut (UA, Dienerblätter A-Bl, S. 234)`**
-  - Causing raw value: `Herrnhut (UA, Dienerblätter A-Bl, S. 234)`
+  - Error Message: **`Invalid Reference Document value: UA, Dienerblätter A-Bl, S. 234 (should be URL, R-ID, or M-ID)`**
+  - Causing raw value: `L1120000 {UA, Dienerblätter A-Bl, S. 234}`
 
 - [ ] **Wirkungsorte** (P0060000):
   - Error Message: **`Cannot parse as date or period: '1836-1842'`**
@@ -313,22 +301,6 @@ UA NB.VI. 63,nr.2, S. 93`
   - Causing raw value: `Otto Uttendörfer: "Aus dem naturkundlichen Tagebuche des Nieskyer Lehrerseminars. (Botanische Beobachtungen)", in: Aus der Heimat. Eine Naturwissenschaftliche Zeitschrift, Organ des Deutschen Lehrer-Vereins für Naturkunde, 1901, S. 152-158, 157`
 
 ### P0080000
-
-- [ ] **Geburt - Datum** (P0080000):
-  - Error Message: **`Invalid ISO8601-2_Date format: 1888-01-29 (wkd)`**
-  - Causing raw value: `1888-01-29 (wkd)`
-
-- [ ] **Geburt - Ort** (P0080000):
-  - Error Message: **`Invalid format for LocationID: L1500000 (wkd)`**
-  - Causing raw value: `L1500000 (wkd)`
-
-- [ ] **Tod - Datum** (P0080000):
-  - Error Message: **`Invalid ISO8601-2_Date format: 1967-06-09 (wkd)`**
-  - Causing raw value: `1967-06-09 (wkd)`
-
-- [ ] **Tod - Ort** (P0080000):
-  - Error Message: **`LocationID must start with 'L': Königsfeld (wkd)`**
-  - Causing raw value: `Königsfeld (wkd)`
 
 - [ ] **Wirkungsorte** (P0080000):
   - Error Message: **`Cannot parse as date or period: '-1908'`**
@@ -394,9 +366,9 @@ UA NB.VI. 63,nr.2, S. 93`
   - Causing raw value: `1889-08-26 (UA, Dienerblätter A-Bl, S. 335)`
 
 - [ ] **Tod - Ort** (P0090000):
-  - Error Message: **`LocationID must start with 'L': Queenstown, South Africa|Gösen, South Africa (UA, Dienerblätter A-Bl, S. 335)`**
+  - Error Message: **`Invalid Reference Document value: UA, Dienerblätter A-Bl, S. 335 (should be URL, R-ID, or M-ID)`**
   - Causing raw value: `Queenstown, South Africa|
-Gösen, South Africa (UA, Dienerblätter A-Bl, S. 335)`
+Gösen, South Africa {UA, Dienerblätter A-Bl, S. 335}`
 
 - [ ] **Wirkungsorte** (P0090000):
   - Error Message: **`Cannot parse as date or period: '?-1855'`**
@@ -445,14 +417,16 @@ Gösen, South Africa (UA, Dienerblätter A-Bl, S. 335)`
   - Causing raw value: `https://plants.jstor.org/stable/10.5555/al.ap.person.bm000031005`
 
 - [ ] **Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere** (P0090000):
-  - Error Message: **`Invalid work id: R0001100 [https://www.s2a3.org.za/bio/Biograph_final.php?serial=179%20 (should be R-ID, or M-ID)`**
-  - Causing raw value: ` R0001100 [https://www.s2a3.org.za/bio/Biograph_final.php?serial=179%20`
-  - Full field: _M0001100 | M0001200| M0001300 | M0001400 | R0001100 [https://www.s2a3.org.za/bio/Biograph_final.php?serial=179%20|%20R0001100]_
+  - Error Message: **`Invalid work id: R0001100 {https://www.s2a3.org.za/bio/Biograph_final.php?serial=179%20 (should be R-ID, or M-ID)`**
+  - Causing raw value: ` R0001100 {https://www.s2a3.org.za/bio/Biograph_final.php?serial=179%20`
+  - Full field: _M0001100 | M0001200| M0001300 | M0001400 | R0001100 {https://www.s2a3.org.za/bio/Biograph_final.php?serial=179%20|%20R0001100} |
+R0008500 |R0008900_
 
 - [ ] **Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere** (P0090000):
-  - Error Message: **`Invalid work id: %20R0001100] (should be R-ID, or M-ID)`**
-  - Causing raw value: `%20R0001100]`
-  - Full field: _M0001100 | M0001200| M0001300 | M0001400 | R0001100 [https://www.s2a3.org.za/bio/Biograph_final.php?serial=179%20|%20R0001100]_
+  - Error Message: **`Invalid work id: %20R0001100} (should be R-ID, or M-ID)`**
+  - Causing raw value: `%20R0001100} `
+  - Full field: _M0001100 | M0001200| M0001300 | M0001400 | R0001100 {https://www.s2a3.org.za/bio/Biograph_final.php?serial=179%20|%20R0001100} |
+R0008500 |R0008900_
 
 - [ ] **Wichtige Werke der Person ohne botanischen Kontext** (P0090000):
   - Error Message: **`Invalid work id: UA, TS Bd.21.82.d.: Karte von Tembuland in Südafrika-Ost kolorierte Federzeichnung 340x470mm (should be R-ID, or M-ID)`**
@@ -461,7 +435,8 @@ Gösen, South Africa (UA, Dienerblätter A-Bl, S. 335)`
 - [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P0090000):
   - Error Message: **`Invalid work id: https://www.s2a3.org.za/bio/Biograph_final.php?serial=179 (should be R-ID, or M-ID)`**
   - Causing raw value: `https://www.s2a3.org.za/bio/Biograph_final.php?serial=179 `
-  - Full field: _https://www.s2a3.org.za/bio/Biograph_final.php?serial=179 |_
+  - Full field: _https://www.s2a3.org.za/bio/Biograph_final.php?serial=179 |
+R0008600 |R0008700 |_
 
 ### P0100000
 
@@ -645,16 +620,16 @@ entomologischer Art in "Stettiner Entomologischer Zeitung" | Etliche Typen u.a. 
   - Causing raw value: `1832-11-11 (UA, R.22.159.04)`
 
 - [ ] **Geburt - Ort** (P0130000):
-  - Error Message: **`LocationID must start with 'L': Herrnhut (UA, R.22.159.04)`**
-  - Causing raw value: `Herrnhut (UA, R.22.159.04)`
+  - Error Message: **`Invalid format for LocationID: L1120000 (UA, R.22.159.04)`**
+  - Causing raw value: `L1120000 (UA, R.22.159.04)`
 
 - [ ] **Tod - Datum** (P0130000):
   - Error Message: **`Invalid ISO8601-2_Date format: 1862-08-02 (UA, R.22.159.04)`**
   - Causing raw value: `1862-08-02 (UA, R.22.159.04)`
 
 - [ ] **Tod - Ort** (P0130000):
-  - Error Message: **`LocationID must start with 'L': Herrnhut (UA, R.22.159.04)`**
-  - Causing raw value: `Herrnhut (UA, R.22.159.04)`
+  - Error Message: **`Invalid format for LocationID: L1120000 (UA, R.22.159.04)`**
+  - Causing raw value: `L1120000 (UA, R.22.159.04)`
 
 - [ ] **Wirkungsorte** (P0130000):
   - Error Message: **`Expected 4 parts, got 1: Herrnhut: Apotheker`**
@@ -730,10 +705,6 @@ Penig (Sachsen): Apotheker _
   - Full field: _P1280000 {M0004200}|
 viele, alle offen_
 
-- [ ] **Kontakt - Mit Nicht-Herrnhutern** (P0170000):
-  - Error Message: **`Invalid format for PersonID: P1485000 (R0005300 )`**
-  - Causing raw value: `P1485000 (R0005300 )`
-
 ### P0180000
 
 - [ ] **Links - Bionomia** (P0180000):
@@ -743,10 +714,6 @@ viele, alle offen_
 - [ ] **Geburt - Ort** (P0180000):
   - Error Message: **`LocationID must start with 'L': Weberhof Orellen (Livland)`**
   - Causing raw value: `Weberhof Orellen (Livland)`
-
-- [ ] **Tod - Ort** (P0180000):
-  - Error Message: **`LocationID must start with 'L': Herrnhut`**
-  - Causing raw value: `Herrnhut`
 
 - [ ] **Herrnhuter Lebenslauf** (P0180000):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
@@ -821,8 +788,8 @@ Neuwied`
 
 - [ ] **Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere** (P0210000):
   - Error Message: **`Invalid work id: R0006000 (?) (should be R-ID, or M-ID)`**
-  - Causing raw value: ` R0006000 (?)`
-  - Full field: _R0005800 | R0006000 (?)_
+  - Causing raw value: ` R0006000 (?) `
+  - Full field: _R0005800 | R0006000 (?) | R0011100_
 
 - [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P0210000):
   - Error Message: **`Invalid work id: Gaston R. Demarée; Astrid E. J. Ogilvie: "Early Meteorological Observations in Greenland: The Contributions of David Cranz, Christian Gottlieb Kratzenstein and Christopher Brasen", in: Felicity Jensz; Christina Petterson (Hg.), Legacies of David Cranz's 'Historie von Grönland' (1765), London: Palgrave Macmillan 2021, S. 141-164, 144-145. (should be R-ID, or M-ID)`**
@@ -836,7 +803,17 @@ Neuwied`
   - Error Message: **`Invalid work id: James S. Pringle: "Contributions by Moravian missionaries to the knowledge of the flora of Labrador", in: CANADIAN HORTICULTURAL HISTORY an interdisciplinary journal / HISTOIRE DE L' HORTICULTURE AU CANADA revue interdisciplinaire 2 (1991), Nr. 4, S. 187-222. < (should be R-ID, or M-ID)`**
   - Causing raw value: `James S. Pringle: "Contributions by Moravian missionaries to the knowledge of the flora of Labrador", in: CANADIAN HORTICULTURAL HISTORY an interdisciplinary journal / HISTOIRE DE L' HORTICULTURE AU CANADA revue interdisciplinaire 2 (1991), Nr. 4, S. 187-222. <`
 
+### P0215000
+
+- [ ] **Wirkungsorte** (P0215000):
+  - Error Message: **`Expected 4 parts, got 2: / ; Surinam -- Missionar`**
+  - Causing raw value: `/ ; Surinam -- Missionar `
+
 ### P0220000
+
+- [ ] **Angehörige - Anmerkungen** (P0220000):
+  - Error Message: **`Invalid Reference Document value: R0002550}; weitere Geschwister: Maria Magdalena Breutel (*1783-11-02 ; †1785-11-10 ); Johanna Catharina Breutel (*1785-09-08; †1785-11-10) {https://homepage.ruhr-uni-bochum.de/raphael.dammer/pafg443.htm#41082 (should be URL, R-ID, or M-ID)`**
+  - Causing raw value: `Verlobung mit Anna Sophia Röderer am 31.08.1824; Hochzeit am 16.09.1824  {R0002550}; weitere Geschwister: Maria Magdalena Breutel (*1783-11-02 ; †1785-11-10 ); Johanna Catharina Breutel (*1785-09-08; †1785-11-10) [Sterbedaten überprüfen, da gleich] {https://homepage.ruhr-uni-bochum.de/raphael.dammer/pafg443.htm#41082}`
 
 - [ ] **Tod - Ort** (P0220000):
   - Error Message: **`Invalid format for LocationID: L0400000 {https://saebi.isgv.de/biografie/Johann_Christian_Breutel_(1788-1875})`**
@@ -856,6 +833,18 @@ Neuwied`
 - [ ] **Botanik - Beitrag zu Sammlungen (Datenbanknachweis)** (P0220000):
   - Error Message: **`CollectionID must start with 'C': herb:S-PA`**
   - Causing raw value: ` herb:S-PA {http://purl.oclc.org/net/edu.harvard.huh/guid/uuid/a219bc47-118f-4b20-91ba-7aa2af9e6e23} `
+
+### P0222000
+
+- [ ] **Wirkungsorte** (P0222000):
+  - Error Message: **`Expected 4 parts, got 2: 1860%/1869%;`**
+  - Causing raw value: `1860%/1869%; `
+
+### P0224000
+
+- [ ] **Tod - Datum** (P0224000):
+  - Error Message: **`Invalid ISO8601-2_Date format: 1896-xx-xx`**
+  - Causing raw value: `1896-xx-xx {https://homepage.ruhr-uni-bochum.de/raphael.dammer/pafg443.htm}`
 
 ### P0230000
 
@@ -951,14 +940,6 @@ Neuwied`
 
 ### P0250000
 
-- [ ] **Geburt - Datum** (P0250000):
-  - Error Message: **`Invalid ISO8601-2_Date format: 1785-02-06 (wkd)`**
-  - Causing raw value: `1785-02-06 (wkd)`
-
-- [ ] **Geburt - Ort** (P0250000):
-  - Error Message: **`LocationID must start with 'L': Hoop/Surinam`**
-  - Causing raw value: `Hoop/Surinam`
-
 - [ ] **Tod - Ort** (P0250000):
   - Error Message: **`LocationID must start with 'L': Niesky`**
   - Causing raw value: `Niesky`
@@ -1006,29 +987,13 @@ Erwähnt in Raberhorst Flora Lusatia, Leipzig 1839 als Zuträger S. VII_
 
 ### P0260000
 
-- [ ] **Geburt - Ort** (P0260000):
-  - Error Message: **`LocationID must start with 'L': Herrnhut`**
-  - Causing raw value: `Herrnhut`
-
-- [ ] **Tod - Ort** (P0260000):
-  - Error Message: **`LocationID must start with 'L': St. Petersburg`**
-  - Causing raw value: `St. Petersburg`
+- [ ] **Wirkungsorte** (P0260000):
+  - Error Message: **`Expected 4 parts, got 1: L2280000`**
+  - Causing raw value: `L2280000 {R0011300}`
 
 - [ ] **Herrnhuter Lebenslauf** (P0260000):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
-
-- [ ] **Botanik - Druckwerke der Person** (P0260000):
-  - Error Message: **`LiteratureID must start with 'R': H. Christoph: "Nekrolog Heinrich Benno Möschler", in: Berliner Entomologische Zeitschrift 33 (1889), Nr. 1, S. 193-196`**
-  - Causing raw value: `H. Christoph: "Nekrolog Heinrich Benno Möschler", in: Berliner Entomologische Zeitschrift 33 (1889), Nr. 1, S. 193-196 `
-  - Full field: _H. Christoph: "Nekrolog Heinrich Benno Möschler", in: Berliner Entomologische Zeitschrift 33 (1889), Nr. 1, S. 193-196 |
-Hugo Theodor Christoph: "Bemerkungen zu einigen in Labrador vorkommenden Schmetterlingen. Von H. Christoph, Lehrer in Sarepta.", in: Entomologische Zeitung 19 (1858), S. 307-315._
-
-- [ ] **Botanik - Druckwerke der Person** (P0260000):
-  - Error Message: **`LiteratureID must start with 'R': Hugo Theodor Christoph: "Bemerkungen zu einigen in Labrador vorkommenden Schmetterlingen. Von H. Christoph, Lehrer in Sarepta.", in: Entomologische Zeitung 19 (1858), S. 307-315.`**
-  - Causing raw value: `Hugo Theodor Christoph: "Bemerkungen zu einigen in Labrador vorkommenden Schmetterlingen. Von H. Christoph, Lehrer in Sarepta.", in: Entomologische Zeitung 19 (1858), S. 307-315.`
-  - Full field: _H. Christoph: "Nekrolog Heinrich Benno Möschler", in: Berliner Entomologische Zeitschrift 33 (1889), Nr. 1, S. 193-196 |
-Hugo Theodor Christoph: "Bemerkungen zu einigen in Labrador vorkommenden Schmetterlingen. Von H. Christoph, Lehrer in Sarepta.", in: Entomologische Zeitung 19 (1858), S. 307-315._
 
 - [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P0260000):
   - Error Message: **`Invalid work id: Richard Träger: "Notizen über den Sareptaner Naturalien-Sammler Rückbeil", in: ders., "Trägermappe" , Herrnhut: Archiv der Herrnhuter Brüdergemeine. (should be R-ID, or M-ID)`**
@@ -1036,29 +1001,11 @@ Hugo Theodor Christoph: "Bemerkungen zu einigen in Labrador vorkommenden Schmett
 
 ### P0270000
 
-- [ ] **Geburt - Ort** (P0270000):
-  - Error Message: **`LocationID must start with 'L': Naugard`**
-  - Causing raw value: `Naugard`
-
-- [ ] **Tod - Ort** (P0270000):
-  - Error Message: **`LocationID must start with 'L': Gnadenberg`**
-  - Causing raw value: `Gnadenberg`
-
-- [ ] **Herrnhuter Lebenslauf** (P0270000):
-  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
-  - Causing raw value: `offen`
-
 - [ ] **Botanik - Druckwerke der Person** (P0270000):
   - Error Message: **`LiteratureID must start with 'R': 1757: Reisebeschreibung von Graubünden`**
   - Causing raw value: `1757: Reisebeschreibung von Graubünden `
   - Full field: _1757: Reisebeschreibung von Graubünden |
-1765: Historie von Grönland_
-
-- [ ] **Botanik - Druckwerke der Person** (P0270000):
-  - Error Message: **`LiteratureID must start with 'R': 1765: Historie von Grönland`**
-  - Causing raw value: `1765: Historie von Grönland`
-  - Full field: _1757: Reisebeschreibung von Graubünden |
-1765: Historie von Grönland_
+R0013700_
 
 ### P0280000
 
@@ -1080,97 +1027,15 @@ Hugo Theodor Christoph: "Bemerkungen zu einigen in Labrador vorkommenden Schmett
 
 ### P0290000
 
-- [ ] **Geburt - Ort** (P0290000):
-  - Error Message: **`LocationID must start with 'L': Halenbeck-Rohlsdorf`**
-  - Causing raw value: `Halenbeck-Rohlsdorf`
-
 - [ ] **Tod - Ort** (P0290000):
   - Error Message: **`LocationID must start with 'L': Berthelsdorf`**
-  - Causing raw value: `Berthelsdorf`
-
-- [ ] **Herrnhuter Lebenslauf** (P0290000):
-  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
-  - Causing raw value: `offen`
+  - Causing raw value: `Berthelsdorf {R0013900}`
 
 ### P0300000
 
-- [ ] **Geburt - Ort** (P0300000):
-  - Error Message: **`LocationID must start with 'L': Montmirail`**
-  - Causing raw value: `Montmirail`
-
-- [ ] **Tod - Ort** (P0300000):
-  - Error Message: **`LocationID must start with 'L': Berthelsdorf`**
-  - Causing raw value: `Berthelsdorf`
-
-- [ ] **Wirkungsorte** (P0300000):
-  - Error Message: **`LocationID must start with 'L': Neuwied`**
-  - Causing raw value: `1785/1790; Neuwied; Knabenanstalt; `
-  - Full field: _1785/1790; Neuwied; Knabenanstalt; |
-1790/1795; Barby; Padagogium; |
-1795/1798; Niesky; Seminar; |
-1798; Niesky; Knabenanstalt; Lehrer |
-1801; Barby; Pädagogium; Lehrer |
-1803; L1500000; ; Lehrer |
-1835; Surinam; ; Visitation |_
-
-- [ ] **Wirkungsorte** (P0300000):
-  - Error Message: **`LocationID must start with 'L': Barby`**
-  - Causing raw value: `1790/1795; Barby; Padagogium; `
-  - Full field: _1785/1790; Neuwied; Knabenanstalt; |
-1790/1795; Barby; Padagogium; |
-1795/1798; Niesky; Seminar; |
-1798; Niesky; Knabenanstalt; Lehrer |
-1801; Barby; Pädagogium; Lehrer |
-1803; L1500000; ; Lehrer |
-1835; Surinam; ; Visitation |_
-
-- [ ] **Wirkungsorte** (P0300000):
-  - Error Message: **`LocationID must start with 'L': Niesky`**
-  - Causing raw value: `1795/1798; Niesky; Seminar; `
-  - Full field: _1785/1790; Neuwied; Knabenanstalt; |
-1790/1795; Barby; Padagogium; |
-1795/1798; Niesky; Seminar; |
-1798; Niesky; Knabenanstalt; Lehrer |
-1801; Barby; Pädagogium; Lehrer |
-1803; L1500000; ; Lehrer |
-1835; Surinam; ; Visitation |_
-
-- [ ] **Wirkungsorte** (P0300000):
-  - Error Message: **`LocationID must start with 'L': Niesky`**
-  - Causing raw value: `1798; Niesky; Knabenanstalt; Lehrer `
-  - Full field: _1785/1790; Neuwied; Knabenanstalt; |
-1790/1795; Barby; Padagogium; |
-1795/1798; Niesky; Seminar; |
-1798; Niesky; Knabenanstalt; Lehrer |
-1801; Barby; Pädagogium; Lehrer |
-1803; L1500000; ; Lehrer |
-1835; Surinam; ; Visitation |_
-
-- [ ] **Wirkungsorte** (P0300000):
-  - Error Message: **`LocationID must start with 'L': Barby`**
-  - Causing raw value: `1801; Barby; Pädagogium; Lehrer `
-  - Full field: _1785/1790; Neuwied; Knabenanstalt; |
-1790/1795; Barby; Padagogium; |
-1795/1798; Niesky; Seminar; |
-1798; Niesky; Knabenanstalt; Lehrer |
-1801; Barby; Pädagogium; Lehrer |
-1803; L1500000; ; Lehrer |
-1835; Surinam; ; Visitation |_
-
 - [ ] **Wirkungsorte** (P0300000):
   - Error Message: **`LocationID must start with 'L': Surinam`**
-  - Causing raw value: `1835; Surinam; ; Visitation `
-  - Full field: _1785/1790; Neuwied; Knabenanstalt; |
-1790/1795; Barby; Padagogium; |
-1795/1798; Niesky; Seminar; |
-1798; Niesky; Knabenanstalt; Lehrer |
-1801; Barby; Pädagogium; Lehrer |
-1803; L1500000; ; Lehrer |
-1835; Surinam; ; Visitation |_
-
-- [ ] **Herrnhuter Lebenslauf** (P0300000):
-  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
-  - Causing raw value: `offen`
+  - Causing raw value: `1835; Surinam; ; Visitation {R0009400}`
 
 - [ ] **Botanik - Manuskripte der Person** (P0300000):
   - Error Message: **`ManuscriptID must start with 'M': 1796: "Stammbucheintrag, Niesky, 12. Juni 1796", in: Lind (Hg.), Herrnhuter Stammbuch des Bruders Lind aus der Brüdergemeine Sarepta im Unterwolgagebiet`**
@@ -1181,8 +1046,8 @@ Hugo Theodor Christoph: "Bemerkungen zu einigen in Labrador vorkommenden Schmett
   - Causing raw value: `1797: „Niesky'sche Flora im Umkreis von 3 Stunden", „gelangte später in den Besitz der Oberlausitzischen Gesellschaft der Wissenschaften in Görlitz (BARBER 1898), wo sie sich noch heute befindet. Ob es sich bei dem von STOLZ (1916) erwähnten, ebenfalls 1797 verfassten Manuskript „Pierre Frederic Curie, Nieskysche Flora, gesammelt in einem Umkreis von ungefähr drei Stunden. Bibliothek des Pädagogiums zu Niesky." um dasselbe Original oder um eine Kopie des Manuskriptes handelt, konnte bisher nicht geklärt werden.“ (H.-W. Otto; Peter Friedrich Cürie: "[Flora Kleinwelkensis] Peter Friedrich Curies "Flora Kleinwelkensis" - die zweitälteste Lokalflora der Oberlausitz. Veröffentlichung einer Handschrift aus den Jahren 1803/04", in: Abhandlungen und Berichte des Naturkundemuseums Görlitz 63 (1803/1990), Nr. 10, S. 1-64., S. 3 `
 
 - [ ] **Botanik - Manuskripte der Person** (P0300000):
-  - Error Message: **`ManuscriptID must start with 'M': : Flora Kleinwelkiensis. , 98 Blätter, Latein, Stadtmuseum Bautzen: MB 3684 {http://digital.slub-dresden.de/id181011232X}, Ediert teilweise in: Hans-Werner Otto " Peter Friedrich Curies "Flora Kleinwelkensis" - die zweitälteste Lokalflora der Oberlausitz. Veröffentlichung einer Handschrift aus den Jahren 1803/04", in: Abhandlungen und Berichte des Naturkundemuseums Görlitz 63 (1803/04 1990), Nr. 10, S. 1-64`**
-  - Causing raw value: `[1803/1804]: Flora Kleinwelkiensis. [Kleinwelka], 98 Blätter, Latein, Stadtmuseum Bautzen:  MB 3684 {http://digital.slub-dresden.de/id181011232X}, Ediert teilweise in: Hans-Werner Otto "[Flora Kleinwelkensis] Peter Friedrich Curies "Flora Kleinwelkensis" - die zweitälteste Lokalflora der Oberlausitz. Veröffentlichung einer Handschrift aus den Jahren 1803/04", in: Abhandlungen und Berichte des Naturkundemuseums Görlitz 63 (1803/04 1990), Nr. 10, S. 1-64`
+  - Error Message: **`Invalid format for ManuscriptID: M0035000 : Flora Kleinwelkiensis. , 98 Blätter, Latein, Stadtmuseum Bautzen: MB 3684 {http://digital.slub-dresden.de/id181011232X}, Ediert teilweise in: Hans-Werner Otto " Peter Friedrich Curies "Flora Kleinwelkensis" - die zweitälteste Lokalflora der Oberlausitz. Veröffentlichung einer Handschrift aus den Jahren 1803/04", in: Abhandlungen und Berichte des Naturkundemuseums Görlitz 63 (1803/04 1990), Nr. 10, S. 1-64`**
+  - Causing raw value: `M0035000 [1803/1804]: Flora Kleinwelkiensis. [Kleinwelka], 98 Blätter, Latein, Stadtmuseum Bautzen:  MB 3684 {http://digital.slub-dresden.de/id181011232X}, Ediert teilweise in: Hans-Werner Otto "[Flora Kleinwelkensis] Peter Friedrich Curies "Flora Kleinwelkensis" - die zweitälteste Lokalflora der Oberlausitz. Veröffentlichung einer Handschrift aus den Jahren 1803/04", in: Abhandlungen und Berichte des Naturkundemuseums Görlitz 63 (1803/04 1990), Nr. 10, S. 1-64`
 
 - [ ] **Botanik - Manuskripte der Person** (P0300000):
   - Error Message: **`ManuscriptID must start with 'M': : Flora von Montmirail, nicht identifiziert, Bezug von Albertini darauf in seinen UA. Cim.I.16.3; identisch oder im Zusammenhang mit: Cim.V.14, Nr. 4 „Pflanzen“: a) „Supplementum Florae Montmiralensis lectum annis 1814-1816`**
@@ -1196,23 +1061,6 @@ Hugo Theodor Christoph: "Bemerkungen zu einigen in Labrador vorkommenden Schmett
 - [ ] **Botanik - Manuskripte der Person** (P0300000):
   - Error Message: **`ManuscriptID must start with 'M': : Herbarverzeichnis von Curies Herbarium, 170 S., Fundortangaben von Grönland bis Südafrika, im Dez. 1947 aus dem Nieskyer Museum nach Herrnhut gebracht, (UA, Cim.II.6), zumindest die Mossbelege befindne sich heute in Dresden, versehen mit Stempel: "„ex Herbarium Herrnhuter Brüdergemeine“`**
   - Causing raw value: `[zw. 1830 – ca. 1860]: Herbarverzeichnis von Curies Herbarium, 170 S., Fundortangaben von Grönland bis Südafrika, im Dez. 1947 aus dem Nieskyer Museum nach Herrnhut gebracht, (UA, Cim.II.6), zumindest die Mossbelege befindne sich heute in Dresden, versehen mit Stempel: "„ex Herbarium Herrnhuter Brüdergemeine“ `
-
-- [ ] **Botanik - Druckwerke der Person** (P0300000):
-  - Error Message: **`LiteratureID must start with 'R': Herausgeber eines zehnmal aufgelegten Pflanzenbestimmungsbuches`**
-  - Causing raw value: `Herausgeber eines zehnmal aufgelegten Pflanzenbestimmungsbuches `
-
-- [ ] **Botanik - Druckwerke der Person** (P0300000):
-  - Error Message: **`LiteratureID must start with 'R': Curie, Peter Friedrich: Anleitung. die wildwachsenden Pflanzen auf eine leichte und sichere Weise durch eigene Untersuchung zu bestimmen, Görlitz: C.G. Zobel 1823. (https://www.biodiversitylibrary.org/item/44996#page/1/mode/1up`**
-  - Causing raw value: ` 
-Curie, Peter Friedrich: Anleitung. die wildwachsenden Pflanzen auf eine leichte und sichere Weise durch eigene Untersuchung zu bestimmen, Görlitz: C.G. Zobel 1823. (https://www.biodiversitylibrary.org/item/44996#page/1/mode/1up `
-
-- [ ] **Botanik - Druckwerke der Person** (P0300000):
-  - Error Message: **`LiteratureID must start with 'R': Otto, Hans-Werner: "Peter Friedrich Curies "Flora Kleinwelkensis" - die zweitälteste Lokalflora der Oberlausitz.`**
-  - Causing raw value: `Otto, Hans-Werner: "Peter Friedrich Curies "Flora Kleinwelkensis" - die zweitälteste Lokalflora der Oberlausitz. `
-
-- [ ] **Botanik - Druckwerke der Person** (P0300000):
-  - Error Message: **`LiteratureID must start with 'R': Veröffentlichung einer Handschrift aus den Jahren 1803/04", in: Abhandlungen und Berichte des Naturkundemuseums Görlitz 63 (1990), Nr. 10, S. 1-64.`**
-  - Causing raw value: `Veröffentlichung einer Handschrift aus den Jahren 1803/04", in: Abhandlungen und Berichte des Naturkundemuseums Görlitz 63 (1990), Nr. 10, S. 1-64. `
 
 ### P0310000
 
@@ -1230,6 +1078,10 @@ Curie, Peter Friedrich: Anleitung. die wildwachsenden Pflanzen auf eine leichte 
   - Error Message: **`Expected 4 parts, got 1: {M0007000}`**
   - Causing raw value: ` {M0007000} `
   - Full field: _ {M0007000} | _
+
+- [ ] **Botanik - Beitrag zu Sammlungen (Literaturnachweis)** (P0320000):
+  - Error Message: **`CollectionID must start with 'C': https://nansh.org/portal/collections/misc/collprofiles.php?collid=287`**
+  - Causing raw value: `https://nansh.org/portal/collections/misc/collprofiles.php?collid=287`
 
 - [ ] **Botanik - Druckwerke der Person** (P0320000):
   - Error Message: **`LiteratureID must start with 'R': "Kramsch produced for the Pennsylvania area a ‘‘Flora Nazarethiana’’ dated 1787–1788, to which Denke added a supplement dated 1797–1799 (Pennell 1931; Phillips and Phillips 1963). These manuscript items are also at the Academy of Natural Sciences." Troyer 2009, 4`**
@@ -1289,10 +1141,6 @@ der Oberlausitz`
 - [ ] **Wirkungsorte** (P0350000):
   - Error Message: **`LocationID must start with 'L': Grönland`**
   - Causing raw value: `1804/1839; Grönland; ; Missionar`
-
-- [ ] **Herrnhuter Lebenslauf** (P0350000):
-  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
-  - Causing raw value: `offen`
 
 - [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P0350000):
   - Error Message: **`Invalid work id: Richard Träger: "Ein Herbarium von Pflanzen aus Labrador", in: ders., "Trägermappe" Naturwissenschaft in der Brüdergemeine (Botanik, Ornithologie, Medizin) UA. IV/612, Herrnhut: Archiv der Herrnhuter Brüdergemeine. (should be R-ID, or M-ID)`**
@@ -1388,6 +1236,61 @@ Theodor von Erxleben: Kurzer Führer durch das ethnographisch-, natur- und kultu
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
 
+- [ ] **Botanik - Beitrag zu Sammlungen (Objektnachweis)** (P0380000):
+  - Error Message: **`CollectionID must start with 'C': Greenland herbarium Copenhagen, Smithonian, Field Museum, NeyYork Botanical Garden, Canadian Museum of Nature`**
+  - Causing raw value: ` Greenland herbarium Copenhagen, Smithonian, Field Museum, NeyYork Botanical Garden, Canadian Museum of Nature `
+  - Full field: _C-DR {https://dr.jacq.org/DR055822} | C-C {https://www.gbif.org/occurrence/466631991} | C-US {http://n2t.net/ark:/65665/301eaec44-23cc-4b4e-87f8-760b3b204db4} | Greenland herbarium Copenhagen, Smithonian, Field Museum, NeyYork Botanical Garden, Canadian Museum of Nature | 
+herb: O | herb: CMN  |herb: NHMD | herb: MU | herb: GH | herb: US | herb: Uniwersytet Jagielloński | herb: WS {}"_
+
+- [ ] **Botanik - Beitrag zu Sammlungen (Objektnachweis)** (P0380000):
+  - Error Message: **`CollectionID must start with 'C': herb: O`**
+  - Causing raw value: ` 
+herb: O `
+  - Full field: _C-DR {https://dr.jacq.org/DR055822} | C-C {https://www.gbif.org/occurrence/466631991} | C-US {http://n2t.net/ark:/65665/301eaec44-23cc-4b4e-87f8-760b3b204db4} | Greenland herbarium Copenhagen, Smithonian, Field Museum, NeyYork Botanical Garden, Canadian Museum of Nature | 
+herb: O | herb: CMN  |herb: NHMD | herb: MU | herb: GH | herb: US | herb: Uniwersytet Jagielloński | herb: WS {}"_
+
+- [ ] **Botanik - Beitrag zu Sammlungen (Objektnachweis)** (P0380000):
+  - Error Message: **`CollectionID must start with 'C': herb: CMN`**
+  - Causing raw value: ` herb: CMN  `
+  - Full field: _C-DR {https://dr.jacq.org/DR055822} | C-C {https://www.gbif.org/occurrence/466631991} | C-US {http://n2t.net/ark:/65665/301eaec44-23cc-4b4e-87f8-760b3b204db4} | Greenland herbarium Copenhagen, Smithonian, Field Museum, NeyYork Botanical Garden, Canadian Museum of Nature | 
+herb: O | herb: CMN  |herb: NHMD | herb: MU | herb: GH | herb: US | herb: Uniwersytet Jagielloński | herb: WS {}"_
+
+- [ ] **Botanik - Beitrag zu Sammlungen (Objektnachweis)** (P0380000):
+  - Error Message: **`CollectionID must start with 'C': herb: NHMD`**
+  - Causing raw value: `herb: NHMD `
+  - Full field: _C-DR {https://dr.jacq.org/DR055822} | C-C {https://www.gbif.org/occurrence/466631991} | C-US {http://n2t.net/ark:/65665/301eaec44-23cc-4b4e-87f8-760b3b204db4} | Greenland herbarium Copenhagen, Smithonian, Field Museum, NeyYork Botanical Garden, Canadian Museum of Nature | 
+herb: O | herb: CMN  |herb: NHMD | herb: MU | herb: GH | herb: US | herb: Uniwersytet Jagielloński | herb: WS {}"_
+
+- [ ] **Botanik - Beitrag zu Sammlungen (Objektnachweis)** (P0380000):
+  - Error Message: **`CollectionID must start with 'C': herb: MU`**
+  - Causing raw value: ` herb: MU `
+  - Full field: _C-DR {https://dr.jacq.org/DR055822} | C-C {https://www.gbif.org/occurrence/466631991} | C-US {http://n2t.net/ark:/65665/301eaec44-23cc-4b4e-87f8-760b3b204db4} | Greenland herbarium Copenhagen, Smithonian, Field Museum, NeyYork Botanical Garden, Canadian Museum of Nature | 
+herb: O | herb: CMN  |herb: NHMD | herb: MU | herb: GH | herb: US | herb: Uniwersytet Jagielloński | herb: WS {}"_
+
+- [ ] **Botanik - Beitrag zu Sammlungen (Objektnachweis)** (P0380000):
+  - Error Message: **`CollectionID must start with 'C': herb: GH`**
+  - Causing raw value: ` herb: GH `
+  - Full field: _C-DR {https://dr.jacq.org/DR055822} | C-C {https://www.gbif.org/occurrence/466631991} | C-US {http://n2t.net/ark:/65665/301eaec44-23cc-4b4e-87f8-760b3b204db4} | Greenland herbarium Copenhagen, Smithonian, Field Museum, NeyYork Botanical Garden, Canadian Museum of Nature | 
+herb: O | herb: CMN  |herb: NHMD | herb: MU | herb: GH | herb: US | herb: Uniwersytet Jagielloński | herb: WS {}"_
+
+- [ ] **Botanik - Beitrag zu Sammlungen (Objektnachweis)** (P0380000):
+  - Error Message: **`CollectionID must start with 'C': herb: US`**
+  - Causing raw value: ` herb: US `
+  - Full field: _C-DR {https://dr.jacq.org/DR055822} | C-C {https://www.gbif.org/occurrence/466631991} | C-US {http://n2t.net/ark:/65665/301eaec44-23cc-4b4e-87f8-760b3b204db4} | Greenland herbarium Copenhagen, Smithonian, Field Museum, NeyYork Botanical Garden, Canadian Museum of Nature | 
+herb: O | herb: CMN  |herb: NHMD | herb: MU | herb: GH | herb: US | herb: Uniwersytet Jagielloński | herb: WS {}"_
+
+- [ ] **Botanik - Beitrag zu Sammlungen (Objektnachweis)** (P0380000):
+  - Error Message: **`CollectionID must start with 'C': herb: Uniwersytet Jagielloński`**
+  - Causing raw value: ` herb: Uniwersytet Jagielloński `
+  - Full field: _C-DR {https://dr.jacq.org/DR055822} | C-C {https://www.gbif.org/occurrence/466631991} | C-US {http://n2t.net/ark:/65665/301eaec44-23cc-4b4e-87f8-760b3b204db4} | Greenland herbarium Copenhagen, Smithonian, Field Museum, NeyYork Botanical Garden, Canadian Museum of Nature | 
+herb: O | herb: CMN  |herb: NHMD | herb: MU | herb: GH | herb: US | herb: Uniwersytet Jagielloński | herb: WS {}"_
+
+- [ ] **Botanik - Beitrag zu Sammlungen (Objektnachweis)** (P0380000):
+  - Error Message: **`CollectionID must start with 'C': herb: WS {}"`**
+  - Causing raw value: ` herb: WS {}"`
+  - Full field: _C-DR {https://dr.jacq.org/DR055822} | C-C {https://www.gbif.org/occurrence/466631991} | C-US {http://n2t.net/ark:/65665/301eaec44-23cc-4b4e-87f8-760b3b204db4} | Greenland herbarium Copenhagen, Smithonian, Field Museum, NeyYork Botanical Garden, Canadian Museum of Nature | 
+herb: O | herb: CMN  |herb: NHMD | herb: MU | herb: GH | herb: US | herb: Uniwersytet Jagielloński | herb: WS {}"_
+
 - [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P0380000):
   - Error Message: **`Invalid work id: Martha Fleming: Johan Eugenius (1870-1934)Tafelausstellung, 2024. (should be R-ID, or M-ID)`**
   - Causing raw value: `Martha Fleming: Johan Eugenius (1870-1934)
@@ -1406,14 +1309,6 @@ Tafelausstellung,  2024.`
   - Causing raw value: `offen`
 
 ### P0390000
-
-- [ ] **Geburt - Ort** (P0390000):
-  - Error Message: **`LocationID must start with 'L': Gnadenfrei`**
-  - Causing raw value: `Gnadenfrei`
-
-- [ ] **Tod - Ort** (P0390000):
-  - Error Message: **`LocationID must start with 'L': Berlin`**
-  - Causing raw value: `Berlin`
 
 - [ ] **Wirkungsorte** (P0390000):
   - Error Message: **`Expected 4 parts, got 1: L1500000`**
@@ -1814,14 +1709,28 @@ Naturgeschichte der Saigaantilope`
 ### P0555000
 
 - [ ] **Zugehörigkeit Herrnhuter Brüdergemeine** (P0555000):
-  - Error Message: **`Provided string is not in codelist: nein erab`**
-  - Causing raw value: `nein erab`
+  - Error Message: **`Provided string is not in codelist: nein`**
+  - Causing raw value: `nein`
+
+- [ ] **Wirkungsorte** (P0555000):
+  - Error Message: **`Expected 4 parts, got 1: Harz, Blankenburg`**
+  - Causing raw value: `Harz, Blankenburg`
+
+- [ ] **Kontakt - Mit Herrnhutern** (P0555000):
+  - Error Message: **`PersonID must start with 'P': Breutel`**
+  - Causing raw value: `Breutel`
 
 ### P0560000
 
-- [ ] **Angehörige - Geschwister** (P0560000):
-  - Error Message: **`PersonID must start with 'P': Vater von P056500 und P057000`**
-  - Causing raw value: `Vater von P056500 und P057000`
+- [ ] **Angehörige - Kinder** (P0560000):
+  - Error Message: **`Invalid format for PersonID: P056500`**
+  - Causing raw value: `P056500 `
+  - Full field: _P056500 | P057000_
+
+- [ ] **Angehörige - Kinder** (P0560000):
+  - Error Message: **`Invalid format for PersonID: P057000`**
+  - Causing raw value: ` P057000`
+  - Full field: _P056500 | P057000_
 
 - [ ] **Links - Bionomia** (P0560000):
   - Error Message: **`URL is not valid: nein (2024-11-21)`**
@@ -1940,14 +1849,6 @@ Barber: Flora der Oberlausitz (1898) `
   - Error Message: **`LocationID must start with 'L': Norrköping Schweden`**
   - Causing raw value: `Norrköping Schweden`
 
-- [ ] **Tod - Ort** (P0610000):
-  - Error Message: **`LocationID must start with 'L': Herrnhut`**
-  - Causing raw value: `Herrnhut`
-
-- [ ] **Herrnhuter Lebenslauf** (P0610000):
-  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
-  - Causing raw value: `offen`
-
 ### P0615000
 
 - [ ] **Herrnhuter Lebenslauf** (P0615000):
@@ -1959,14 +1860,6 @@ Barber: Flora der Oberlausitz (1898) `
 - [ ] **Wirkungsorte** (P0620000):
   - Error Message: **`Expected 4 parts, got 1: Labrador`**
   - Causing raw value: `Labrador`
-
-- [ ] **Herrnhuter Lebenslauf** (P0620000):
-  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
-  - Causing raw value: `offen`
-
-- [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P0620000):
-  - Error Message: **`Invalid work id: Pringle 1991 (should be R-ID, or M-ID)`**
-  - Causing raw value: `Pringle 1991`
 
 ### P0630000
 
@@ -2152,10 +2045,6 @@ Cape Colony, Sooth Africa: COLONIAL AND INDIAN EXHIBITION, LONDON, 1886. Catalog
   - Error Message: **`LocationID must start with 'L': Clarkson, South Africa`**
   - Causing raw value: `Clarkson, South Africa`
 
-- [ ] **Tod - Datum** (P0680000):
-  - Error Message: **`Invalid ISO8601-2_Date format: 17947?`**
-  - Causing raw value: `17947?`
-
 - [ ] **Tod - Ort** (P0680000):
   - Error Message: **`LocationID must start with 'L': Nazareth, Pennsylvania`**
   - Causing raw value: `Nazareth, Pennsylvania`
@@ -2222,6 +2111,11 @@ ab Ende 1865 in New Orleans`
 - [ ] **Herrnhuter Lebenslauf** (P0690000):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
+
+- [ ] **Kontakt - Mit Herrnhutern** (P0690000):
+  - Error Message: **`PersonID must start with 'P': Mettetal, Gustav Wetschky und Max Wetschky in Gnadenfeld`**
+  - Causing raw value: `Mettetal, Gustav Wetschky und Max Wetschky in Gnadenfeld {R0009800} `
+  - Full field: _Mettetal, Gustav Wetschky und Max Wetschky in Gnadenfeld {R0009800} | P1690000 {R0010300}_
 
 - [ ] **Botanik - Manuskripte der Person** (P0690000):
   - Error Message: **`ManuscriptID must start with 'M': 1859 Flora Gnadenfeldensis : neue Flora Gnadenfeldensis mit 1127 Arten, auf der Grundlage der Flora Gnadenfeldensis von F.W. Kölbing („Flora von Gnadenfeld inclusive der Flora von Troppau, Jägerndorf und des Annaberges Vierte Bearbeitung. Mit einer Karte. Gnadenfeld 1859“ UA ThS/L V 7). – bis 1898 immer wieder mit Nachträgen versehen, wurde Gemeinschaftswerk unter Mitarbeit von: A. Menzel, M. Wetschky, W. Schultze, G. Freytag`**
@@ -2338,10 +2232,6 @@ Im Funkenachlass DD |_
 
 ### P0730000
 
-- [ ] **Tod - Ort** (P0730000):
-  - Error Message: **`LocationID must start with 'L': Herrnhut`**
-  - Causing raw value: `Herrnhut`
-
 - [ ] **Herrnhuter Lebenslauf** (P0730000):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
@@ -2383,8 +2273,8 @@ Im Funkenachlass DD |_
 ### P0760000
 
 - [ ] **Links - Bionomia** (P0760000):
-  - Error Message: **`URL is not valid: nein (2024-11-27)`**
-  - Causing raw value: `nein (2024-11-27)`
+  - Error Message: **`URL is not valid: einige Belege unter seinem Namen eingegeben, er aber wohl nur Überträger?`**
+  - Causing raw value: `einige Belege unter seinem Namen eingegeben, er aber wohl nur Überträger?`
 
 - [ ] **Herrnhuter Lebenslauf** (P0760000):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
@@ -2486,10 +2376,6 @@ found in bloom. Am. J. Sci. 37:310–320.`
   - Error Message: **`LocationID must start with 'L': Herrnhut`**
   - Causing raw value: `Herrnhut`
 
-- [ ] **Tod - Ort** (P0820000):
-  - Error Message: **`LocationID must start with 'L': Herrnhut`**
-  - Causing raw value: `Herrnhut`
-
 - [ ] **Wirkungsorte** (P0820000):
   - Error Message: **`Expected 4 parts, got 1: Himalaya --`**
   - Causing raw value: `Himalaya -- {R0003600}`
@@ -2537,6 +2423,21 @@ Matthias Schönhofer: Letters from an American Botanist: The Correspondences of 
   - Causing raw value: `Matthias Schönhofer: Letters from an American Botanist: The Correspondences of Gotthilf Heinrich Ernst Mühlenberg (1753–1815), Stuttgart: Frank Steiner 2014`
   - Full field: _Troyer 2009 |
 Matthias Schönhofer: Letters from an American Botanist: The Correspondences of Gotthilf Heinrich Ernst Mühlenberg (1753–1815), Stuttgart: Frank Steiner 2014_
+
+### P0835000
+
+- [ ] **Zugehörigkeit Herrnhuter Brüdergemeine** (P0835000):
+  - Error Message: **`Provided string is not in codelist: ja`**
+  - Causing raw value: `ja`
+
+- [ ] **Geburt - Ort** (P0835000):
+  - Error Message: **`LocationID must start with 'L': Ebersdorf bei Löbau`**
+  - Causing raw value: `Ebersdorf bei Löbau {R0014000}`
+
+- [ ] **Botanik - Beitrag zu Sammlungen (Objektnachweis)** (P0835000):
+  - Error Message: **`Invalid Reference Document value: https://data.nhm.ac.uk/object/abba5040-0f30-436f-9d0b-a8364f63db07/1780304495491} C-K {http://specimens.kew.org/Herbarium/K006106805 (should be URL, R-ID, or M-ID)`**
+  - Causing raw value: `C-BM {https://data.nhm.ac.uk/object/abba5040-0f30-436f-9d0b-a8364f63db07/1780304495491}  C-K {http://specimens.kew.org/Herbarium/K006106805} `
+  - Full field: _C-BM {https://data.nhm.ac.uk/object/abba5040-0f30-436f-9d0b-a8364f63db07/1780304495491}  C-K {http://specimens.kew.org/Herbarium/K006106805} | C-B {https://herbarium.bgbm.org/object/B101113233}_
 
 ### P0840000
 
@@ -2616,6 +2517,12 @@ Unterricht heraus`
   - Error Message: **`Invalid work id: Francis W. Pennell: "Botanical Collectors of the Philadelphia Local Area ", in: Bartonia 21 (1940-1941), S. 38-57, 48 (should be R-ID, or M-ID)`**
   - Causing raw value: `Francis W. Pennell: "Botanical Collectors of the Philadelphia Local Area ", in: Bartonia 21 (1940-1941), S. 38-57, 48`
 
+### P0864000
+
+- [ ] **Wirkungsorte** (P0864000):
+  - Error Message: **`LocationID must start with 'L': Grönland`**
+  - Causing raw value: `1867/1896;Grönland;; {R0011100}`
+
 ### P0865000
 
 - [ ] **Zugehörigkeit Herrnhuter Brüdergemeine** (P0865000):
@@ -2642,22 +2549,9 @@ Unterricht heraus`
 
 ### P0880000
 
-- [ ] **Geburt - Ort** (P0880000):
-  - Error Message: **`LocationID must start with 'L': Rersen (now Rydzna , Poland, near Leszno)`**
-  - Causing raw value: `Rersen (now Rydzna , Poland, near Leszno)`
-
-- [ ] **Tod - Ort** (P0880000):
-  - Error Message: **`LocationID must start with 'L': Neusalz Silesia(now Nowa S61. Poland)`**
-  - Causing raw value: `Neusalz Silesia
-(now Nowa S61. Poland)`
-
 - [ ] **Wirkungsorte** (P0880000):
   - Error Message: **`Expected 4 parts, got 1: Labrador Missionar`**
   - Causing raw value: `Labrador Missionar`
-
-- [ ] **Herrnhuter Lebenslauf** (P0880000):
-  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
-  - Causing raw value: `offen`
 
 - [ ] **Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere** (P0880000):
   - Error Message: **`Invalid work id: Ernesti Meyer : De Plantis Labradoricis Libri Tres, Lipsiae: Leopoldi Vossi 1830; XIV (should be R-ID, or M-ID)`**
@@ -2691,13 +2585,9 @@ R0006000_
 
 ### P0890000
 
-- [ ] **Tod - Ort** (P0890000):
-  - Error Message: **`LocationID must start with 'L': Berthesldorf`**
-  - Causing raw value: `Berthesldorf`
-
-- [ ] **Herrnhuter Lebenslauf** (P0890000):
-  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
-  - Causing raw value: `offen`
+- [ ] **Wirkungsorte** (P0890000):
+  - Error Message: **`Expected 4 parts, got 1: Gnadenfeld`**
+  - Causing raw value: `Gnadenfeld {R0009800}`
 
 - [ ] **Botanik - Manuskripte der Person** (P0890000):
   - Error Message: **`ManuscriptID must start with 'M': 1824: Flora der Gegend von Gnadenfeld (Manuskript), später mit Nachträgen von Ernst Reichel und Rudolf Kölbing versehen`**
@@ -2728,6 +2618,11 @@ Gnadenfelder Flora – handschriftliche zweite Ausgabe |_
   - Error Message: **`LiteratureID must start with 'R': Kölbing, Wilhelm: Flora der Oberlausitz oder Nachweisung der daselbst wild wachsenden phanerogamen Pflanzen mit Einschluß der Farrnkräuter nach Familien geordnet, Görlitz: C. G. Zobel 1828`**
   - Causing raw value: `Kölbing, [Friedrich] Wilhelm: Flora der Oberlausitz oder Nachweisung der daselbst wild wachsenden phanerogamen Pflanzen mit Einschluß der Farrnkräuter nach Familien geordnet, Görlitz: C. G. Zobel 1828`
 
+- [ ] **Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere** (P0890000):
+  - Error Message: **`Invalid work id: R0003200R0009800 (should be R-ID, or M-ID)`**
+  - Causing raw value: `R0003200
+R0009800`
+
 - [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P0890000):
   - Error Message: **`Invalid work id: Hardtke (should be R-ID, or M-ID)`**
   - Causing raw value: `Hardtke`
@@ -2752,21 +2647,10 @@ Gnadenfelder Flora – handschriftliche zweite Ausgabe |_
 
 ### P0910000
 
-- [ ] **Angehörige - Geschwister** (P0910000):
-  - Error Message: **`PersonID must start with 'P': auch: Rudolf Kölbing`**
-  - Causing raw value: `auch: Rudolf Kölbing`
-
-- [ ] **Geburt - Ort** (P0910000):
-  - Error Message: **`LocationID must start with 'L': Niesky`**
-  - Causing raw value: `Niesky`
-
-- [ ] **Tod - Ort** (P0910000):
-  - Error Message: **`LocationID must start with 'L': Gnadenthal (Südafrika)`**
-  - Causing raw value: `Gnadenthal (Südafrika)`
-
 - [ ] **Wirkungsorte** (P0910000):
-  - Error Message: **`Expected 4 parts, got 1: Gnadenthal (Südafrika)`**
-  - Causing raw value: `Gnadenthal (Südafrika)`
+  - Error Message: **`Expected 4 parts, got 1: Gndenfeld {R0009800}Gnadenthal (Südafrika)`**
+  - Causing raw value: `Gndenfeld {R0009800}
+Gnadenthal (Südafrika)`
 
 - [ ] **Botanik - Druckwerke der Person** (P0910000):
   - Error Message: **`LiteratureID must start with 'R': Mitarbeit zu Nachträgen zu Fr. W. Kölbing's Floren daher: Rudolf Kölbing: "Nachträge zur Kölbingschen Flora", in: Abhandlungen der naturforschenden Gesellschaft zu Görlitz 3 (1842), Nr. 2, S. 17-24.`**
@@ -2786,6 +2670,11 @@ Umfassende Mitarbeit an Roser, R.F. 1856: Naturhistorische Beobachtungen… `
 - [ ] **Botanik - Druckwerke der Person** (P0910000):
   - Error Message: **`LiteratureID must start with 'R': Abhandlungen der Naturforschenden Gesellschaft zu Görlitz Ein Brief von C. R. Kölbing in Gnadenthal am Kap der guten Hoffnung MBand 04 (Heft 02) 1847`**
   - Causing raw value: ` Abhandlungen der Naturforschenden Gesellschaft zu Görlitz Ein Brief von C. R. Kölbing in Gnadenthal am Kap der guten Hoffnung MBand 04 (Heft 02) 1847`
+
+- [ ] **Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere** (P0910000):
+  - Error Message: **`Invalid work id: R0003600R0009800 (should be R-ID, or M-ID)`**
+  - Causing raw value: `R0003600
+R0009800`
 
 - [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P0910000):
   - Error Message: **`Invalid work id: NBG 1861, 1079, 1085; NBG 1856, 87, 95, 154, 191, 252 (should be R-ID, or M-ID)`**
@@ -2941,6 +2830,10 @@ Niederoderwitz`
   - Causing raw value: `1772- 1782 Gnadenberg Apothekerlehre (Schönhofer 2014, 190) `
   - Full field: _1772- 1782 Gnadenberg Apothekerlehre (Schönhofer 2014, 190) |_
 
+- [ ] **Kontakt - Mit Nicht-Herrnhutern** (P0980000):
+  - Error Message: **`PersonID must start with 'P': Humphry Marshall`**
+  - Causing raw value: `Humphry Marshall {M0040000} `
+
 - [ ] **Botanik - Druckwerke der Person** (P0980000):
   - Error Message: **`LiteratureID must start with 'R': "Kramsch compiled three floras of the Salem area, two in 1789 and one dated 1789–91 (Spencer 1997). These are held in the Moravian archives in Winston-Salem." Troyer 2009, 4`**
   - Causing raw value: `"Kramsch compiled three floras of the Salem area, two in 1789 and one dated 1789–91 (Spencer 1997). These are held in the Moravian archives in Winston-Salem." Troyer 2009, 4 `
@@ -2955,7 +2848,8 @@ Niederoderwitz`
 
 - [ ] **Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere** (P0980000):
   - Error Message: **`Invalid work id: https://www.ncpedia.org/biography/kramsch-samuel-gottlieb (should be R-ID, or M-ID)`**
-  - Causing raw value: `https://www.ncpedia.org/biography/kramsch-samuel-gottlieb`
+  - Causing raw value: `https://www.ncpedia.org/biography/kramsch-samuel-gottlieb `
+  - Full field: _https://www.ncpedia.org/biography/kramsch-samuel-gottlieb | R0000400 | R0013600_
 
 - [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P0980000):
   - Error Message: **`Invalid work id: Matthias Schönhofer: Letters from an American Botanist: The Correspondences of Gotthilf Heinrich Ernst Mühlenberg (1753–1815), Stuttgart: Frank Steiner 2014 (should be R-ID, or M-ID)`**
@@ -3132,6 +3026,61 @@ Neudietendorf, Apotheker_
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
 
+### P1036000
+
+- [ ] **Wirkungsorte** (P1036000):
+  - Error Message: **`Expected 4 parts, got 1: EnglandAustralien`**
+  - Causing raw value: `England
+Australien`
+
+- [ ] **Kontakt - Mit Herrnhutern** (P1036000):
+  - Error Message: **`PersonID must start with 'P': Steinhauer, H.`**
+  - Causing raw value: `Steinhauer, H. `
+  - Full field: _Steinhauer, H. |
+Christian Ignatius Latrobe (Vater)_
+
+- [ ] **Kontakt - Mit Herrnhutern** (P1036000):
+  - Error Message: **`PersonID must start with 'P': Christian Ignatius Latrobe (Vater)`**
+  - Causing raw value: `Christian Ignatius Latrobe (Vater)`
+  - Full field: _Steinhauer, H. |
+Christian Ignatius Latrobe (Vater)_
+
+- [ ] **Kontakt - Mit Nicht-Herrnhutern** (P1036000):
+  - Error Message: **`Invalid format for PersonID: Pastor Samuel Studer (Helen Bothman: "C J La Trobe: Jolimont Plantsman", in: LA TROBEANA 21 (2022), Nr. 1, S. 6-18, 7)`**
+  - Causing raw value: `Pastor Samuel Studer (Helen Bothman: "C J La Trobe: Jolimont Plantsman", in: LA TROBEANA 21 (2022), Nr. 1, S. 6-18, 7)`
+
+- [ ] **Botanik - Beitrag zu Sammlungen (Objektnachweis)** (P1036000):
+  - Error Message: **`CollectionID must start with 'C': https://www.latrobesociety.org.au/specimens`**
+  - Causing raw value: `  https://www.latrobesociety.org.au/specimens`
+  - Full field: _C-G {https://collections.geneve.ch/jardinbotaniquegeneve/herbier/adetail.php?id=232360} |  https://www.latrobesociety.org.au/specimens_
+
+- [ ] **Botanik - Druckwerke der Person** (P1036000):
+  - Error Message: **`LiteratureID must start with 'R': Charles Joseph Latrobe: The Pedestrian: a summer’s ramble in the Tyrol and some of the adjacent provinces, 1830, London: R. B. Seeley & W. Burnside, 1832`**
+  - Causing raw value: `Charles Joseph Latrobe: The Pedestrian: a summer’s ramble in the Tyrol and some of the adjacent provinces, 1830, London: R. B. Seeley & W. Burnside, 1832 `
+
+- [ ] **Botanik - Druckwerke der Person** (P1036000):
+  - Error Message: **`LiteratureID must start with 'R': Charles Joseph Latrobe: The Alpenstock: Or, Sketches of Swiss scenery and manners, 1825-1826, London: R. B. Seeley & W. Burnside 1829 (384-387: "Flora of the Chain of the Stockhorn. Canton of Berne";387-388: "Additional Flora of the opposite Chain of the Thurnen")`**
+  - Causing raw value: `Charles Joseph Latrobe: The Alpenstock: Or, Sketches of Swiss scenery and manners, 1825-1826, London: R. B. Seeley & W. Burnside 1829 (384-387: "Flora of the Chain of the Stockhorn. Canton of Berne";
+387-388: "Additional Flora of the opposite Chain of the Thurnen")`
+
+- [ ] **Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere** (P1036000):
+  - Error Message: **`Invalid work id: Helen Bothman: "C J La Trobe: Jolimont Plantsman", in: LA TROBEANA 21 (2022), Nr. 1, S. 6-18. (should be R-ID, or M-ID)`**
+  - Causing raw value: `Helen Bothman: "C J La Trobe: Jolimont Plantsman", in: LA TROBEANA 21 (2022), Nr. 1, S. 6-18.`
+
+- [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P1036000):
+  - Error Message: **`Invalid work id: Corinna Erckenbrecht: "German Moravian missionaries on western Cape York Peninsula and their perception of the local Aboriginal people and languages", in: Nicolas Peterson; Anna Kenny (Hg.), GERMAN ETHNOGRAPHY IN AUSTRALIA, Canberra, Australia: Australian National University Press (ANU) 2017, S. 137-165. (should be R-ID, or M-ID)`**
+  - Causing raw value: `Corinna Erckenbrecht: "German Moravian missionaries on western Cape York Peninsula and their perception of the local Aboriginal people and languages", in: Nicolas Peterson; Anna Kenny (Hg.), GERMAN ETHNOGRAPHY IN AUSTRALIA, Canberra, Australia: Australian National University Press (ANU) 2017, S. 137-165.`
+
+### P1036500
+
+- [ ] **Wirkungsorte** (P1036500):
+  - Error Message: **`Expected 4 parts, got 1: Südafrika (Visitation)`**
+  - Causing raw value: `Südafrika (Visitation)`
+
+- [ ] **Botanik - Druckwerke der Person** (P1036500):
+  - Error Message: **`LiteratureID must start with 'R': Christian Ignatius Latrobe: Des Evangelischen Predigers C. I. Latrobe Tagebuch einer Besuch-Reise nach Süd-Afrika in den Jahren 1815 und 1816 : nebst einigen Nachrichten von den zur Mission der Brüder-Gemeine gehörigen Niederlassungen am Vorgebirge der guten Hoffnung ; Mit einem Titelkupfer / Aus dem Englischen übersetzt, für Deutsche Leser bearbeitet und mit einigen Anmerkungen versehen von Friedrich Hesse, evang. Prediger, hg. v. Hesse, Friedrich, Halle ; Berlin: Buchhandlung des Hallischen Waisenhauses 1820 (S. 319-336: "Anhang. Systematische Benennungen einiger in diesem Tagebuche erwähnten Capischen Thiere und Pflanzen, nebst kurzen zur Naturgeschichte derselben gehörigen Bemerkungen"; S. 337-353: "Von der Verpflanzung Europäischer und sndrer ausländischen Gewächse, nach dem Vorgebierge der guten Hoffnung in Süd=Afrika").`**
+  - Causing raw value: `Christian Ignatius Latrobe: [Tagebuch einer Besuchs-Reise nach Süd-Afrika in den Jahren 1815 und 1816] Des Evangelischen Predigers C. I. Latrobe Tagebuch einer Besuch-Reise nach Süd-Afrika in den Jahren 1815 und 1816 : nebst einigen Nachrichten von den zur Mission der Brüder-Gemeine gehörigen Niederlassungen am Vorgebirge der guten Hoffnung ; Mit einem Titelkupfer / Aus dem Englischen übersetzt, für Deutsche Leser bearbeitet und mit einigen Anmerkungen versehen von Friedrich Hesse, evang. Prediger, hg. v. Hesse, Friedrich, Halle ; Berlin: Buchhandlung des Hallischen Waisenhauses 1820 (S. 319-336: "Anhang. Systematische Benennungen einiger in diesem Tagebuche erwähnten Capischen Thiere und Pflanzen, nebst kurzen zur Naturgeschichte derselben gehörigen Bemerkungen"; S. 337-353: "Von der Verpflanzung Europäischer und sndrer ausländischen Gewächse, nach dem Vorgebierge der guten Hoffnung in Süd=Afrika").`
+
 ### P1040000
 
 - [ ] **Links - Bionomia** (P1040000):
@@ -3146,13 +3095,19 @@ Neudietendorf, Apotheker_
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
 
-### P1035500
+### P1044000
 
-- [ ] **Wirkungsorte** (P1035500):
+- [ ] **Herrnhuter Lebenslauf** (P1044000):
+  - Error Message: **`Invalid work id: https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/lehman-emma-augusta/27587?item=48722 (should be R-ID, or M-ID)`**
+  - Causing raw value: `https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/lehman-emma-augusta/27587?item=48722`
+
+### P1045000
+
+- [ ] **Wirkungsorte** (P1045000):
   - Error Message: **`Expected 4 parts, got 1: Elim (Südafrika) -- Missionar`**
   - Causing raw value: `Elim (Südafrika)  -- Missionar {R0003600}`
 
-- [ ] **Herrnhuter Lebenslauf** (P1035500):
+- [ ] **Herrnhuter Lebenslauf** (P1045000):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
 
@@ -3248,10 +3203,6 @@ ab 1889 Superintendet der LAbrador-Mission`
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
 
-- [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P1090000):
-  - Error Message: **`Invalid work id: Meier, G. 1997, S. 182 (should be R-ID, or M-ID)`**
-  - Causing raw value: `Meier, G. 1997, S. 182`
-
 ### P1095000
 
 - [ ] **Zugehörigkeit Herrnhuter Brüdergemeine** (P1095000):
@@ -3266,15 +3217,11 @@ ab 1889 Superintendet der LAbrador-Mission`
 
 - [ ] **Geburt - Ort** (P1100000):
   - Error Message: **`LocationID must start with 'L': Oberhem`**
-  - Causing raw value: `Oberhem`
+  - Causing raw value: `Oberhem {R0009000}`
 
 - [ ] **Wirkungsorte** (P1100000):
   - Error Message: **`Expected 4 parts, got 1: Suriname`**
   - Causing raw value: `Suriname`
-
-- [ ] **Herrnhuter Lebenslauf** (P1100000):
-  - Error Message: **`Invalid work id: https://collections.mun.ca/digital/collection/nachrichten/id/56706/rec/3 (should be R-ID, or M-ID)`**
-  - Causing raw value: `https://collections.mun.ca/digital/collection/nachrichten/id/56706/rec/3`
 
 - [ ] **Botanik - Druckwerke der Person** (P1100000):
   - Error Message: **`LiteratureID must start with 'R': Be r i c h t des Bruders Menze von seinen Besuchenauf den Plantagen an der Suriname im Jahr 1856 https://collections.mun.ca/digital/collection/nachrichten/id/69517/rec/2`**
@@ -3282,6 +3229,10 @@ ab 1889 Superintendet der LAbrador-Mission`
 auf den Plantagen an der Suriname im Jahr 1856 https://collections.mun.ca/digital/collection/nachrichten/id/69517/rec/2`
 
 ### P1110000
+
+- [ ] **Wirkungsorte** (P1110000):
+  - Error Message: **`Expected 4 parts, got 1: Gnadenfeld`**
+  - Causing raw value: `Gnadenfeld {R0009800}`
 
 - [ ] **Herrnhuter Lebenslauf** (P1110000):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
@@ -3294,8 +3245,8 @@ auf den Plantagen an der Suriname im Jahr 1856 https://collections.mun.ca/digita
   - Causing raw value: `nein (2025-06-19)`
 
 - [ ] **Wirkungsorte** (P1120000):
-  - Error Message: **`Expected 4 parts, got 1: Labrador`**
-  - Causing raw value: `Labrador`
+  - Error Message: **`Invalid Reference Document value: Pringle 1991 (should be URL, R-ID, or M-ID)`**
+  - Causing raw value: `Labrador {Pringle 1991}`
 
 - [ ] **Herrnhuter Lebenslauf** (P1120000):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
@@ -3348,11 +3299,55 @@ auf den Plantagen an der Suriname im Jahr 1856 https://collections.mun.ca/digita
   - Error Message: **`Invalid work id: Biographien sächsischer Botaniker Hardtke et al 2004 (should be R-ID, or M-ID)`**
   - Causing raw value: `Biographien sächsischer Botaniker Hardtke et al 2004`
 
+### P1145000
+
+- [ ] **Geburt - Ort** (P1145000):
+  - Error Message: **`LocationID must start with 'L': Genf`**
+  - Causing raw value: `Genf {R0009800}`
+
+- [ ] **Wirkungsorte** (P1145000):
+  - Error Message: **`Expected 4 parts, got 3: Gnadenfeld ; Knabenanstalt; Lehrer`**
+  - Causing raw value: `Gnadenfeld ; Knabenanstalt; Lehrer {R0009800} `
+  - Full field: _Gnadenfeld ; Knabenanstalt; Lehrer {R0009800} |
+Gnadenfeld; ; {R0009800}_
+
+- [ ] **Wirkungsorte** (P1145000):
+  - Error Message: **`Expected 4 parts, got 3: Gnadenfeld; ;`**
+  - Causing raw value: `Gnadenfeld; ; {R0009800}`
+  - Full field: _Gnadenfeld ; Knabenanstalt; Lehrer {R0009800} |
+Gnadenfeld; ; {R0009800}_
+
+- [ ] **Herrnhuter Lebenslauf** (P1145000):
+  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
+  - Causing raw value: `offen`
+
+- [ ] **Kontakt - Mit Herrnhutern** (P1145000):
+  - Error Message: **`PersonID must start with 'P': Max Wetschky`**
+  - Causing raw value: `Max Wetschky {R0009800} `
+  - Full field: _Max Wetschky {R0009800} |
+Wilhelm Kölbing {R0009800}_
+
+- [ ] **Kontakt - Mit Herrnhutern** (P1145000):
+  - Error Message: **`PersonID must start with 'P': Wilhelm Kölbing`**
+  - Causing raw value: `Wilhelm Kölbing {R0009800}`
+  - Full field: _Max Wetschky {R0009800} |
+Wilhelm Kölbing {R0009800}_
+
 ### P1150000
 
 - [ ] **Geburt - Ort** (P1150000):
   - Error Message: **`LocationID must start with 'L': Gröditz bei Bautzen`**
-  - Causing raw value: `Gröditz bei Bautzen`
+  - Causing raw value: `Gröditz bei Bautzen {R0010000}`
+
+- [ ] **Wirkungsorte** (P1150000):
+  - Error Message: **`Expected 4 parts, got 3: 1850/1854;;`**
+  - Causing raw value: ` 1850/1854;; {R0012000} `
+  - Full field: _1832/1844; L1500000; Schuhmacherei; {R0012000} |1844/1849; L2260000; Missionsstation; Missionar {R0012000} | 1850/1854;; {R0012000} | 1857/1861; L0850000; Missionsstation; Missionar; | 1861/1869; L1101500; Missionsstation; Missionar {R0012000} | 1869/1875; L1500000;; {R0012000}_
+
+- [ ] **Wirkungsorte** (P1150000):
+  - Error Message: **`Expected 4 parts, got 5: 1857/1861; L0850000; Missionsstation; Missionar;`**
+  - Causing raw value: ` 1857/1861; L0850000; Missionsstation; Missionar; `
+  - Full field: _1832/1844; L1500000; Schuhmacherei; {R0012000} |1844/1849; L2260000; Missionsstation; Missionar {R0012000} | 1850/1854;; {R0012000} | 1857/1861; L0850000; Missionsstation; Missionar; | 1861/1869; L1101500; Missionsstation; Missionar {R0012000} | 1869/1875; L1500000;; {R0012000}_
 
 - [ ] **Herrnhuter Lebenslauf** (P1150000):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
@@ -3415,6 +3410,10 @@ Mechthild Opel; Wolfgang Opel: Weil ich ein Inuk bin. Johann August Miertsching.
   - Causing raw value: `Erstlingsarbeit mit 16 Jahren veröffentlicht
 gefolt von neuen Veröffentlichungen fast
 jedes folgende Jahr`
+
+- [ ] **Wichtige Werke der Person ohne botanischen Kontext** (P1180000):
+  - Error Message: **`Invalid work id: Liste in R0011500 (should be R-ID, or M-ID)`**
+  - Causing raw value: `Liste in R0011500`
 
 ### P1190000
 
@@ -3512,7 +3511,8 @@ Bethlehem (Pennsylvania) 1741-1758`
 
 - [ ] **Herrnhuter Lebenslauf** (P1225000):
   - Error Message: **`Invalid work id: ja (should be R-ID, or M-ID)`**
-  - Causing raw value: `ja {http://bdhp.moravian.edu/personal_papers/memoirs/dnitschmann/dnitschmann.html}`
+  - Causing raw value: `ja {http://bdhp.moravian.edu/personal_papers/memoirs/dnitschmann/dnitschmann.html} `
+  - Full field: _ja {http://bdhp.moravian.edu/personal_papers/memoirs/dnitschmann/dnitschmann.html} | R0013100_
 
 - [ ] **Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere** (P1225000):
   - Error Message: **`Invalid work id: Inventarium Herrschaftsgarten 1734 (should be R-ID, or M-ID)`**
@@ -3588,6 +3588,10 @@ KIndermann 2018_
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
 
+- [ ] **Kontakt - Mit Herrnhutern** (P1250000):
+  - Error Message: **`PersonID must start with 'P': Jäschke`**
+  - Causing raw value: `Jäschke {https://www.gbif.org/occurrence/5281299343}`
+
 ### P1260000
 
 - [ ] **Geburt - Ort** (P1260000):
@@ -3613,24 +3617,6 @@ KIndermann 2018_
 - [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P1260000):
   - Error Message: **`Invalid work id: James S. Pringle: "Contributions by Moravian missionaries to the knowledge of the flora of Labrador", in: CANADIAN HORTICULTURAL HISTORY an interdisciplinary journal / HISTOIRE DE L' HORTICULTURE AU CANADA revue interdisciplinaire 2 (1991), Nr. 4, S. 187-222. (should be R-ID, or M-ID)`**
   - Causing raw value: `James S. Pringle: "Contributions by Moravian missionaries to the knowledge of the flora of Labrador", in: CANADIAN HORTICULTURAL HISTORY an interdisciplinary journal / HISTOIRE DE L' HORTICULTURE AU CANADA revue interdisciplinaire 2 (1991), Nr. 4, S. 187-222.`
-
-### P1270000
-
-- [ ] **Geburt - Ort** (P1270000):
-  - Error Message: **`LocationID must start with 'L': Hamburg`**
-  - Causing raw value: `Hamburg`
-
-- [ ] **Tod - Datum** (P1270000):
-  - Error Message: **`Invalid ISO8601-2_Date format: 1841-?-?`**
-  - Causing raw value: `1841-?-?`
-
-- [ ] **Tod - Ort** (P1270000):
-  - Error Message: **`LocationID must start with 'L': Herrnhut`**
-  - Causing raw value: `Herrnhut`
-
-- [ ] **Herrnhuter Lebenslauf** (P1270000):
-  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
-  - Causing raw value: `offen`
 
 ### P1280000
 
@@ -3665,11 +3651,6 @@ u. übergebenen africanischen Sachen mit 20 Nummern, darunter Samen`
 
 ### P1290000
 
-- [ ] **Links - Bionomia** (P1290000):
-  - Error Message: **`URL is not valid: https://de.bionomia.net/Q21606799Ist er das?`**
-  - Causing raw value: `https://de.bionomia.net/Q21606799
-Ist er das?`
-
 - [ ] **Wirkungsorte** (P1290000):
   - Error Message: **`Expected 4 parts, got 1: Suriname -- Missionar, Barby`**
   - Causing raw value: `Suriname -- Missionar, Barby`
@@ -3684,6 +3665,10 @@ Ist er das?`
 
 ### P1310000
 
+- [ ] **Geburt - Datum** (P1310000):
+  - Error Message: **`Invalid Reference Document value: Meier, Herrnhuter Beiträge zur Erforschung Ladakhs (1997), S. 182 (should be URL, R-ID, or M-ID)`**
+  - Causing raw value: `1838 {Meier, Herrnhuter Beiträge zur Erforschung Ladakhs (1997), S. 182}`
+
 - [ ] **Wirkungsorte** (P1310000):
   - Error Message: **`Expected 4 parts, got 1: Himalayamission`**
   - Causing raw value: `Himalayamission {R0003600}`
@@ -3695,6 +3680,116 @@ Ist er das?`
 - [ ] **Botanik - Druckwerke der Person** (P1310000):
   - Error Message: **`LiteratureID must start with 'R': F. Redslob: "Die Himalaya-Landschaften Rupschu und Ladak / Reiseskizzen von Missionar F. Redslob", in: Mitteilungen der Geographischen Gesellschaft für Thüringen zu Jena 4 (1886), S. 1-8.`**
   - Causing raw value: `F. Redslob: "Die Himalaya-Landschaften Rupschu und Ladak / Reiseskizzen von Missionar F. Redslob", in: Mitteilungen der Geographischen Gesellschaft für Thüringen zu Jena 4 (1886), S. 1-8.`
+
+### P1320000
+
+- [ ] **Wirkungsorte** (P1320000):
+  - Error Message: **`Expected 4 parts, got 1: ab 1818 Niesky, Pädagogium Niesky`**
+  - Causing raw value: `ab 1818 Niesky, Pädagogium Niesky `
+  - Full field: _ab 1818 Niesky, Pädagogium Niesky |
+theolog. Seminar Gnadenfeldt |
+1834 - 1857 Nordamerika |
+ab 1857 Europa als Mitgliededer Unitäts-Aeltestenconferenz im Missionsdepartement |
+1857 Visitation Karibik|
+1861 Visitation Labrador |
+1869 Bischof und Präses der Generalsynode|
+1876 Visitation Labrador |_
+
+- [ ] **Wirkungsorte** (P1320000):
+  - Error Message: **`Expected 4 parts, got 1: theolog. Seminar Gnadenfeldt`**
+  - Causing raw value: `theolog. Seminar Gnadenfeldt `
+  - Full field: _ab 1818 Niesky, Pädagogium Niesky |
+theolog. Seminar Gnadenfeldt |
+1834 - 1857 Nordamerika |
+ab 1857 Europa als Mitgliededer Unitäts-Aeltestenconferenz im Missionsdepartement |
+1857 Visitation Karibik|
+1861 Visitation Labrador |
+1869 Bischof und Präses der Generalsynode|
+1876 Visitation Labrador |_
+
+- [ ] **Wirkungsorte** (P1320000):
+  - Error Message: **`Expected 4 parts, got 1: 1834 - 1857 Nordamerika`**
+  - Causing raw value: `1834 - 1857 Nordamerika `
+  - Full field: _ab 1818 Niesky, Pädagogium Niesky |
+theolog. Seminar Gnadenfeldt |
+1834 - 1857 Nordamerika |
+ab 1857 Europa als Mitgliededer Unitäts-Aeltestenconferenz im Missionsdepartement |
+1857 Visitation Karibik|
+1861 Visitation Labrador |
+1869 Bischof und Präses der Generalsynode|
+1876 Visitation Labrador |_
+
+- [ ] **Wirkungsorte** (P1320000):
+  - Error Message: **`Expected 4 parts, got 1: ab 1857 Europa als Mitgliededer Unitäts-Aeltestenconferenz im Missionsdepartement`**
+  - Causing raw value: `ab 1857 Europa als Mitgliededer Unitäts-Aeltestenconferenz im Missionsdepartement `
+  - Full field: _ab 1818 Niesky, Pädagogium Niesky |
+theolog. Seminar Gnadenfeldt |
+1834 - 1857 Nordamerika |
+ab 1857 Europa als Mitgliededer Unitäts-Aeltestenconferenz im Missionsdepartement |
+1857 Visitation Karibik|
+1861 Visitation Labrador |
+1869 Bischof und Präses der Generalsynode|
+1876 Visitation Labrador |_
+
+- [ ] **Wirkungsorte** (P1320000):
+  - Error Message: **`Expected 4 parts, got 1: 1857 Visitation Karibik`**
+  - Causing raw value: `1857 Visitation Karibik`
+  - Full field: _ab 1818 Niesky, Pädagogium Niesky |
+theolog. Seminar Gnadenfeldt |
+1834 - 1857 Nordamerika |
+ab 1857 Europa als Mitgliededer Unitäts-Aeltestenconferenz im Missionsdepartement |
+1857 Visitation Karibik|
+1861 Visitation Labrador |
+1869 Bischof und Präses der Generalsynode|
+1876 Visitation Labrador |_
+
+- [ ] **Wirkungsorte** (P1320000):
+  - Error Message: **`Expected 4 parts, got 1: 1861 Visitation Labrador`**
+  - Causing raw value: `1861 Visitation Labrador `
+  - Full field: _ab 1818 Niesky, Pädagogium Niesky |
+theolog. Seminar Gnadenfeldt |
+1834 - 1857 Nordamerika |
+ab 1857 Europa als Mitgliededer Unitäts-Aeltestenconferenz im Missionsdepartement |
+1857 Visitation Karibik|
+1861 Visitation Labrador |
+1869 Bischof und Präses der Generalsynode|
+1876 Visitation Labrador |_
+
+- [ ] **Wirkungsorte** (P1320000):
+  - Error Message: **`Expected 4 parts, got 1: 1869 Bischof und Präses der Generalsynode`**
+  - Causing raw value: `1869 Bischof und Präses der Generalsynode`
+  - Full field: _ab 1818 Niesky, Pädagogium Niesky |
+theolog. Seminar Gnadenfeldt |
+1834 - 1857 Nordamerika |
+ab 1857 Europa als Mitgliededer Unitäts-Aeltestenconferenz im Missionsdepartement |
+1857 Visitation Karibik|
+1861 Visitation Labrador |
+1869 Bischof und Präses der Generalsynode|
+1876 Visitation Labrador |_
+
+- [ ] **Wirkungsorte** (P1320000):
+  - Error Message: **`Expected 4 parts, got 1: 1876 Visitation Labrador`**
+  - Causing raw value: `1876 Visitation Labrador `
+  - Full field: _ab 1818 Niesky, Pädagogium Niesky |
+theolog. Seminar Gnadenfeldt |
+1834 - 1857 Nordamerika |
+ab 1857 Europa als Mitgliededer Unitäts-Aeltestenconferenz im Missionsdepartement |
+1857 Visitation Karibik|
+1861 Visitation Labrador |
+1869 Bischof und Präses der Generalsynode|
+1876 Visitation Labrador |_
+
+- [ ] **Kontakt - Mit Nicht-Herrnhutern** (P1320000):
+  - Error Message: **`PersonID must start with 'P': Reinhold Gundermann`**
+  - Causing raw value: `Reinhold Gundermann {R0008200} `
+  - Full field: _Reinhold Gundermann {R0008200} |
+Adolf Bastian {R0008300}_
+
+- [ ] **Kontakt - Mit Nicht-Herrnhutern** (P1320000):
+  - Error Message: **`PersonID must start with 'P': Adolf Bastian`**
+  - Causing raw value: `Adolf Bastian {R0008300}`
+  - Full field: _Reinhold Gundermann {R0008200} |
+Adolf Bastian {R0008300}_
 
 ### P1330000
 
@@ -3729,10 +3824,6 @@ Ist er das?`
 - [ ] **Wirkungsorte** (P1350000):
   - Error Message: **`Expected 4 parts, got 1: Nordamerika`**
   - Causing raw value: `Nordamerika`
-
-- [ ] **Herrnhuter Lebenslauf** (P1350000):
-  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
-  - Causing raw value: `offen`
 
 - [ ] **Botanik - Manuskripte der Person** (P1350000):
   - Error Message: **`ManuscriptID must start with 'M': Reuter, Philip Christian Gottlieb: Der UpLand Gartten, 1759, pen and ink on paper. Moravian Church Archives, Northern Province, Bethlehem 0239 (1759)`**
@@ -3774,7 +3865,7 @@ Bynum, Flora Ann L.; Reuter, Philip Christian Gottlieb: Cultivated plants of the
 
 - [ ] **Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere** (P1350000):
   - Error Message: **`Invalid work id: Flora Ann L. Bynum; Philip Christian Gottlieb Reuter: "Appandix 7: Late Eighteenth Century Plan List 1979].", in: , Cultural Lanscape Report. National park service, Thomas Stone national historic site, , S. 135-140. (should be R-ID, or M-ID)`**
-  - Causing raw value: `Flora Ann L. Bynum; Philip Christian Gottlieb Reuter: "Appandix 7: Late Eighteenth Century Plan List [Reuter, Philip Christian Gottlieb: Cultivated plants of the Wachovia tract in North Carolina, 1759-1764 : Christian Gottlieb Reuter's lists of plants grown at Bethabara, in the vegetable garden, the medical garden, and in the fields, hg. v. Bynum, Flora Ann L., Winston-Salem, N.C.: [Old Salem, Inc.] 1979].", in: , Cultural Lanscape Report. National park service, Thomas Stone national historic site, , S. 135-140.`
+  - Causing raw value: `Flora Ann L. Bynum; Philip Christian Gottlieb Reuter: "Appandix 7: Late Eighteenth Century Plan List [Reuter, Philip Christian Gottlieb: Cultivated plants of the Wachovia tract in North Carolina, 1759-1764 : Christian Gottlieb Reuter's lists of plants grown at Bethabara, in the vegetable garden, the medical garden, and in the fields, hg. v. Bynum, Flora Ann L., Winston-Salem, N.C.: [Old Salem, Inc.] 1979].", in: , Cultural Lanscape Report. National park service, Thomas Stone national historic site, , S. 135-140. `
 
 - [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P1350000):
   - Error Message: **`Invalid work id: Troyer 2009 (should be R-ID, or M-ID)`**
@@ -3907,6 +3998,11 @@ Matthias Schönhofer: Letters from an American Botanist: The Correspondences of 
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
 
+- [ ] **Kontakt - Mit Herrnhutern** (P1390000):
+  - Error Message: **`Invalid format for PersonID: P0090000 ("In 1855, having decided to become a missionary, he gave up collecting and entrusted his specimens to Rudolph Roser, who eventually took them to Germany.")`**
+  - Causing raw value: ` P0090000 ("In 1855, having decided to become a missionary, he [Leopold Richard Baur] gave up collecting and entrusted his specimens to Rudolph Roser, who eventually took them to Germany.") {https://plants.jstor.org/stable/10.5555/al.ap.person.bm000031005}`
+  - Full field: _P0910000 | P0090000 ("In 1855, having decided to become a missionary, he [Leopold Richard Baur] gave up collecting and entrusted his specimens to Rudolph Roser, who eventually took them to Germany.") {https://plants.jstor.org/stable/10.5555/al.ap.person.bm000031005}_
+
 - [ ] **Botanik - Druckwerke der Person** (P1390000):
   - Error Message: **`LiteratureID must start with 'R': https://www.s2a3.org.za/bio/Biograph_final.php?serial=2398`**
   - Causing raw value: `https://www.s2a3.org.za/bio/Biograph_final.php?serial=2398`
@@ -3916,8 +4012,8 @@ https://www.s2a3.org.za/bio/Biograph_final.php?serial=2398_
 ### P1400000
 
 - [ ] **Links - Bionomia** (P1400000):
-  - Error Message: **`URL is not valid: nein (2024-12-15)`**
-  - Causing raw value: `nein (2024-12-15)`
+  - Error Message: **`URL is not valid: anlegen, wenn wikidata`**
+  - Causing raw value: `anlegen, wenn wikidata`
 
 - [ ] **Geburt - Ort** (P1400000):
   - Error Message: **`LocationID must start with 'L': Sarepta`**
@@ -3935,6 +4031,10 @@ https://www.s2a3.org.za/bio/Biograph_final.php?serial=2398_
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
 
+- [ ] **Botanik - Beitrag zu Sammlungen (Objektnachweis)** (P1400000):
+  - Error Message: **`CollectionID must start with 'C': https://www.gbif.org/occurrence/2250584142 ?`**
+  - Causing raw value: `https://www.gbif.org/occurrence/2250584142 ?`
+
 - [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P1400000):
   - Error Message: **`Invalid work id: Richard Träger: "Notizen über den Sareptaner Naturalien-Sammler Rückbeil", in: ders., "Trägermappe" , Herrnhut: Archiv der Herrnhuter Brüdergemeine. (should be R-ID, or M-ID)`**
   - Causing raw value: `Richard Träger: "Notizen über den Sareptaner Naturalien-Sammler Rückbeil", in: ders., "Trägermappe" [UA. IV/612], Herrnhut: Archiv der Herrnhuter Brüdergemeine. `
@@ -3947,8 +4047,8 @@ als Ornithologe Ludwig Gebhardt: Die Ornithologen Mitteleuropas Haut und Ergänz
 ### P1410000
 
 - [ ] **Links - Bionomia** (P1410000):
-  - Error Message: **`URL is not valid: nein (2024-12-15)`**
-  - Causing raw value: `nein (2024-12-15)`
+  - Error Message: **`URL is not valid: anlegen, wenn wikidata`**
+  - Causing raw value: `anlegen, wenn wikidata`
 
 - [ ] **Geburt - Ort** (P1410000):
   - Error Message: **`LocationID must start with 'L': Sarepta`**
@@ -3965,8 +4065,8 @@ als Ornithologe Ludwig Gebhardt: Die Ornithologen Mitteleuropas Haut und Ergänz
 ### P1420000
 
 - [ ] **Links - Bionomia** (P1420000):
-  - Error Message: **`URL is not valid: nein (2024-12-15)`**
-  - Causing raw value: `nein (2024-12-15)`
+  - Error Message: **`URL is not valid: anlegen, wenn wikidata`**
+  - Causing raw value: `anlegen, wenn wikidata`
 
 - [ ] **Geburt - Ort** (P1420000):
   - Error Message: **`LocationID must start with 'L': Sarepta`**
@@ -4027,6 +4127,18 @@ als Ornithologe Ludwig Gebhardt: Die Ornithologen Mitteleuropas Haut und Ergänz
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
 
+- [ ] **Kontakt - Mit Herrnhutern** (P1440000):
+  - Error Message: **`PersonID must start with 'P': Bossart (Siehe email Rollmann vom 2.6.2026 an Sarah)`**
+  - Causing raw value: `Bossart (Siehe email Rollmann vom 2.6.2026 an Sarah) `
+  - Full field: _Bossart (Siehe email Rollmann vom 2.6.2026 an Sarah) |
+Banks_
+
+- [ ] **Kontakt - Mit Herrnhutern** (P1440000):
+  - Error Message: **`PersonID must start with 'P': Banks`**
+  - Causing raw value: `Banks`
+  - Full field: _Bossart (Siehe email Rollmann vom 2.6.2026 an Sarah) |
+Banks_
+
 - [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P1440000):
   - Error Message: **`Invalid work id: Kurzbio in: Thea Olsthoorn: Die Erkundungsreisen der Herrnhuter Missionare nach Labrador (1752-1770). Kommunikation mit Menschen einer nicht-schriftlichen Kultur, Hildesheim 2010. (should be R-ID, or M-ID)`**
   - Causing raw value: `Kurzbio in: Thea Olsthoorn: Die Erkundungsreisen der Herrnhuter Missionare nach Labrador (1752-1770). Kommunikation mit Menschen einer nicht-schriftlichen Kultur, Hildesheim 2010. `
@@ -4066,9 +4178,9 @@ zur Botanik: Jacques Cayouette; Stephen J. Darbyshire: "Taxa Described by Steude
 
 ### P1470000
 
-- [ ] **Links - Bionomia** (P1470000):
-  - Error Message: **`URL is not valid: nein (2024-12-15)`**
-  - Causing raw value: `nein (2024-12-15)`
+- [ ] **Tod - Datum** (P1470000):
+  - Error Message: **`Invalid Reference Document value: R001110 (should be URL, R-ID, or M-ID)`**
+  - Causing raw value: `1885 {R001110}`
 
 - [ ] **Wirkungsorte** (P1470000):
   - Error Message: **`Expected 4 parts, got 1: Umánaq (Grönland) -- Missionar`**
@@ -4078,19 +4190,11 @@ zur Botanik: Jacques Cayouette; Stephen J. Darbyshire: "Taxa Described by Steude
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
 
-- [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P1470000):
-  - Error Message: **`Invalid work id: R0001400 Morten P. Porsild: "On some herbaria from Greenland and Labrador collected by the Moravian brethren", in: Meddelelser om Grønland 93 (1935), Nr. 3, S. 84-94, 86. (should be R-ID, or M-ID)`**
-  - Causing raw value: `R0001400 Morten P. [Petersen] Porsild: "On some herbaria from Greenland and Labrador collected by the Moravian brethren", in: Meddelelser om Grønland [Medd. om Gronland] 93 (1935), Nr. 3, S. 84-94, 86.`
+- [ ] **Botanik - Beitrag zu Sammlungen (Objektnachweis)** (P1470000):
+  - Error Message: **`CollectionID must start with 'C': https://www.gbif.org/occurrence/3335968511 ?`**
+  - Causing raw value: `https://www.gbif.org/occurrence/3335968511 ?`
 
 ### P1480000
-
-- [ ] **Geburt - Ort** (P1480000):
-  - Error Message: **`LocationID must start with 'L': Benk (bei Bayreuth)`**
-  - Causing raw value: `Benk (bei Bayreuth)`
-
-- [ ] **Tod - Ort** (P1480000):
-  - Error Message: **`LocationID must start with 'L': Barby`**
-  - Causing raw value: `Barby`
 
 - [ ] **Wirkungsorte** (P1480000):
   - Error Message: **`Expected 4 parts, got 1: Barby, Seminar -- Professur -- ?`**
@@ -4098,7 +4202,12 @@ zur Botanik: Jacques Cayouette; Stephen J. Darbyshire: "Taxa Described by Steude
 
 - [ ] **Herrnhuter Lebenslauf** (P1480000):
   - Error Message: **`Invalid work id: UAH GN.A.232 http://digital.slub-dresden.de/id1789505143/477 (should be R-ID, or M-ID)`**
-  - Causing raw value: `UAH GN.A.232 http://digital.slub-dresden.de/id1789505143/477`
+  - Causing raw value: ` UAH GN.A.232 http://digital.slub-dresden.de/id1789505143/477`
+  - Full field: _R0012900 | UAH GN.A.232 http://digital.slub-dresden.de/id1789505143/477_
+
+- [ ] **Botanik - Beitrag zu Sammlungen (Literaturnachweis)** (P1480000):
+  - Error Message: **`CollectionID must start with 'C': c-barby`**
+  - Causing raw value: `c-barby {R0005100}`
 
 - [ ] **Botanik - Druckwerke der Person** (P1480000):
   - Error Message: **`LiteratureID must start with 'R': 1763 (Manuskript)/1775 (erster Druck):Flora von Barby`**
@@ -4402,6 +4511,13 @@ Prof. Hermann Bumeister im Halle, Schwiegersohn und wichtigster entomologischer 
   - Full field: _P0650000 (Belege in C-HAL) |
 Prof. Hermann Bumeister im Halle, Schwiegersohn und wichtigster entomologischer Partner {https://www.wikidata.org/wiki/Q28731149}_
 
+### P1505500
+
+- [ ] **Angehörige - Geschwister** (P1505500):
+  - Error Message: **`Invalid format for PersonID: P022000`**
+  - Causing raw value: `P022000 [Johann Christian Breutel] `
+  - Full field: _P022000 [Johann Christian Breutel] | P0215000 [Georg Samuel Breutel]_
+
 ### P1510000
 
 - [ ] **Geburt - Ort** (P1510000):
@@ -4482,10 +4598,6 @@ Hugh S. Torrens: "The Moravian minister Rev. Henry Steinhauer (1782-1818); his w
   - Error Message: **`URL is not valid: nein (2024-12-16)`**
   - Causing raw value: `nein (2024-12-16)`
 
-- [ ] **Geburt - Ort** (P1540000):
-  - Error Message: **`LocationID must start with 'L': Paramaribo`**
-  - Causing raw value: `Paramaribo`
-
 - [ ] **Tod - Ort** (P1540000):
   - Error Message: **`LocationID must start with 'L': gef. In Ostfrankreich`**
   - Causing raw value: `gef. In Ostfrankreich`
@@ -4522,6 +4634,14 @@ Hugh S. Torrens: "The Moravian minister Rev. Henry Steinhauer (1782-1818); his w
 
 ### P1560000
 
+- [ ] **Geburt - Ort** (P1560000):
+  - Error Message: **`LocationID must start with 'L': Gleina`**
+  - Causing raw value: `Gleina`
+
+- [ ] **Tod - Ort** (P1560000):
+  - Error Message: **`LocationID must start with 'L': Trachenberge (Dresden)`**
+  - Causing raw value: `Trachenberge (Dresden)`
+
 - [ ] **Herrnhuter Lebenslauf** (P1560000):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
@@ -4532,18 +4652,6 @@ Hugh S. Torrens: "The Moravian minister Rev. Henry Steinhauer (1782-1818); his w
   - Error Message: **`URL is not valid: nein (2024-12-16)`**
   - Causing raw value: `nein (2024-12-16)`
 
-- [ ] **Geburt - Ort** (P1570000):
-  - Error Message: **`LocationID must start with 'L': Weimar`**
-  - Causing raw value: `Weimar`
-
-- [ ] **Tod - Ort** (P1570000):
-  - Error Message: **`LocationID must start with 'L': Herrnhut`**
-  - Causing raw value: `Herrnhut`
-
-- [ ] **Herrnhuter Lebenslauf** (P1570000):
-  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
-  - Causing raw value: `offen`
-
 - [ ] **Kontakt - Mit Herrnhutern** (P1570000):
   - Error Message: **`PersonID must start with 'P': Albertini`**
   - Causing raw value: `Albertini {R0001500}`
@@ -4553,10 +4661,6 @@ Hugh S. Torrens: "The Moravian minister Rev. Henry Steinhauer (1782-1818); his w
 - [ ] **Geburt - Ort** (P1589000):
   - Error Message: **`LocationID must start with 'L': Neuwied`**
   - Causing raw value: `Neuwied {R0001200}`
-
-- [ ] **Tod - Ort** (P1589000):
-  - Error Message: **`LocationID must start with 'L': Akunnaat/Lichtenfels (Grönland)`**
-  - Causing raw value: `Akunnaat/Lichtenfels (Grönland) {R0001200}`
 
 - [ ] **Wirkungsorte** (P1589000):
   - Error Message: **`Expected 4 parts, got 1: Grönland -- Missionar`**
@@ -4577,7 +4681,7 @@ Hugh S. Torrens: "The Moravian minister Rev. Henry Steinhauer (1782-1818); his w
 - [ ] **Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere** (P1589000):
   - Error Message: **`Invalid work id: MS in Sammlung Fürst Stolberg, Hirzenhain: Grönländische Pflanzen, gesammelt von dem Mefrionas Tietzen zu Lichtenfels in Grönland, Sporleder, Friedrich Wilhelm *1787-1875* - (should be R-ID, or M-ID)`**
   - Causing raw value: `MS in Sammlung Fürst Stolberg, Hirzenhain: Grönländische Pflanzen, gesammelt von dem Mefrionas Tietzen zu Lichtenfels in Grönland, Sporleder, Friedrich Wilhelm *1787-1875* - [o.J.] {https://kxp.k10plus.de/DB=9.1005/PPNSET?PPN=83529028X}`
-  - Full field: _MS in Sammlung Fürst Stolberg, Hirzenhain: Grönländische Pflanzen, gesammelt von dem Mefrionas Tietzen zu Lichtenfels in Grönland, Sporleder, Friedrich Wilhelm *1787-1875* - [o.J.] {https://kxp.k10plus.de/DB=9.1005/PPNSET?PPN=83529028X}| R0002000 | R0002100_
+  - Full field: _R0011100|MS in Sammlung Fürst Stolberg, Hirzenhain: Grönländische Pflanzen, gesammelt von dem Mefrionas Tietzen zu Lichtenfels in Grönland, Sporleder, Friedrich Wilhelm *1787-1875* - [o.J.] {https://kxp.k10plus.de/DB=9.1005/PPNSET?PPN=83529028X}| R0002000 | R0002100_
 
 - [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P1589000):
   - Error Message: **`Invalid work id: R0001400 Morten P. Porsild: "On some herbaria from Greenland and Labrador collected by the Moravian brethren", in: Meddelelser om Grønland 93 (1935), Nr. 3, S. 84-94, 85 (should be R-ID, or M-ID)`**
@@ -4717,7 +4821,8 @@ Hugh S. Torrens: "The Moravian minister Rev. Henry Steinhauer (1782-1818); his w
 
 - [ ] **Botanik - Beitrag zu Sammlungen (Objektnachweis)** (P1600000):
   - Error Message: **`CollectionID must start with 'C': GLM (111869?)`**
-  - Causing raw value: `GLM (111869?)`
+  - Causing raw value: `GLM (111869?) `
+  - Full field: _GLM (111869?) | C-GOET {https://hdl.handle.net/21.11107/record_DE-MUS-069321_GOET040920}_
 
 - [ ] **Botanik - Druckwerke der Person** (P1600000):
   - Error Message: **`LiteratureID must start with 'R': Nachlass Thust mit umfassenden botanischen Manuskripten im UA: UA NB.VI. 63.b.Thust, Gustav Adolf: I Flora Sarepta’s und II. Meterologische Beobachtungen Sarepta, o.O., o.J. 365 S., okt. vgl. UA NB VI. 185`**
@@ -4857,10 +4962,6 @@ Nachlass Uttendörfer im Unitätsarchiv "Lebenserinnerungen" von 668 Seiten._
 
 ### P1651000
 
-- [ ] **Links - Wikidata** (P1651000):
-  - Error Message: **`URL is not valid: ?`**
-  - Causing raw value: `?`
-
 - [ ] **Wirkungsorte** (P1651000):
   - Error Message: **`Expected 4 parts, got 1: Labrador 1858 / Grönland 1859?`**
   - Causing raw value: `Labrador 1858 / Grönland 1859?`
@@ -4875,9 +4976,15 @@ Nachlass Uttendörfer im Unitätsarchiv "Lebenserinnerungen" von 668 Seiten._
 
 ### P1660000
 
-- [ ] **Herrnhuter Lebenslauf** (P1660000):
-  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
-  - Causing raw value: `offen`
+- [ ] **Wirkungsorte** (P1660000):
+  - Error Message: **`Expected 4 parts, got 1: ...`**
+  - Causing raw value: ` ... `
+  - Full field: _1753/1754; L2000000; Pflegeanstalt für kleine Kinder; Schüler {R0011200} | 1754/1763; L0500000; Knäbchenanstalt; Schüler {R0011200} | ... | 1772/1775; L0200000; Seminar; Student {R0011200} | 1775/1778; L2250000; Unitäts-Knabenanstalt; {R0011200} | 1778; L0200000;; {R0011200} | 1779/; L0500000; ..._
+
+- [ ] **Wirkungsorte** (P1660000):
+  - Error Message: **`Expected 4 parts, got 3: 1779/; L0500000; ...`**
+  - Causing raw value: ` 1779/; L0500000; ...`
+  - Full field: _1753/1754; L2000000; Pflegeanstalt für kleine Kinder; Schüler {R0011200} | 1754/1763; L0500000; Knäbchenanstalt; Schüler {R0011200} | ... | 1772/1775; L0200000; Seminar; Student {R0011200} | 1775/1778; L2250000; Unitäts-Knabenanstalt; {R0011200} | 1778; L0200000;; {R0011200} | 1779/; L0500000; ..._
 
 - [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P1660000):
   - Error Message: **`Invalid work id: Troyer 2009 (should be R-ID, or M-ID)`**
@@ -4907,21 +5014,24 @@ Nachlass Uttendörfer im Unitätsarchiv "Lebenserinnerungen" von 668 Seiten._
 
 ### P1680000
 
-- [ ] **Links - Bionomia** (P1680000):
-  - Error Message: **`URL is not valid: nein (2024-12-17)`**
-  - Causing raw value: `nein (2024-12-17)`
+- [ ] **Wirkungsorte** (P1680000):
+  - Error Message: **`Expected 4 parts, got 1: nach Lebenslauf auflisten`**
+  - Causing raw value: `nach Lebenslauf auflisten `
+  - Full field: _nach Lebenslauf auflisten |
+Labrador 1869 (laut Herbarbeleg DR087272); Matthäus Warmow war allerdings Missionar in Grönland laut den Verzeichnissen in NadB; in R0009200 Bericht Reise Cumberland Inlet_
 
 - [ ] **Wirkungsorte** (P1680000):
-  - Error Message: **`Expected 4 parts, got 1: Labrador 1869`**
-  - Causing raw value: `Labrador 1869`
+  - Error Message: **`Expected 4 parts, got 3: Labrador 1869 (laut Herbarbeleg DR087272); Matthäus Warmow war allerdings Missionar in Grönland laut den Verzeichnissen in NadB; in R0009200 Bericht Reise Cumberland Inlet`**
+  - Causing raw value: `Labrador 1869 (laut Herbarbeleg DR087272); Matthäus Warmow war allerdings Missionar in Grönland laut den Verzeichnissen in NadB; in R0009200 Bericht Reise Cumberland Inlet`
+  - Full field: _nach Lebenslauf auflisten |
+Labrador 1869 (laut Herbarbeleg DR087272); Matthäus Warmow war allerdings Missionar in Grönland laut den Verzeichnissen in NadB; in R0009200 Bericht Reise Cumberland Inlet_
 
-- [ ] **Herrnhuter Lebenslauf** (P1680000):
-  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
-  - Causing raw value: `offen`
+### P1683000
 
-- [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P1680000):
-  - Error Message: **`Invalid work id: Periodical accounts, vol. 22: 112 (should be R-ID, or M-ID)`**
-  - Causing raw value: `Periodical accounts, vol. 22: 112`
+- [ ] **Wirkungsorte** (P1683000):
+  - Error Message: **`Expected 4 parts, got 1: Hopedale, Nain, Zoar,`**
+  - Causing raw value: `Hopedale, Nain, Zoar, `
+  - Full field: _Hopedale, Nain, Zoar, | 1878/1886; L2260000;; {R0010200}_
 
 ### P1690000
 
@@ -4946,61 +5056,37 @@ Nachlass Uttendörfer im Unitätsarchiv "Lebenserinnerungen" von 668 Seiten._
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
 
-- [ ] **Botanik - Druckwerke der Person** (P1690000):
-  - Error Message: **`LiteratureID must start with 'R': Paul Heuser; Samuel Weiz: "Einiges über Labrador und seine Flora. — Oesterr. Bot. Z. 9: 315–323.", in: Österreichische Botanische Zeitschrift 9 (1859), S. 315-323`**
-  - Causing raw value: `Paul Heuser; Samuel Weiz: "Einiges über Labrador und seine Flora. — Oesterr. Bot. Z. 9: 315–323.", in: Österreichische Botanische Zeitschrift 9 (1859), S. 315-323 `
-
-- [ ] **Botanik - Druckwerke der Person** (P1690000):
-  - Error Message: **`LiteratureID must start with 'R': G. Neumeyer; Samuel Weiz: Verzeichniss der nach Missionar S. Weiz in Labrador vorkommenden Thiere. in ‘Die internationale Polarforschung 1882–1883. Die Deutschen Expeditionen und ihre Ergebnisse’, Band I, Anhang, Geschichtlicher Theil und in einem Anhange mehrere einzelne Abhandlungen physikalischen und sonstigen Inhalts, Berlin: Verlag von A. Asher & Co. 1891.`**
-  - Causing raw value: ` 
-G. Neumeyer; Samuel Weiz: Verzeichniss der nach Missionar S. Weiz in Labrador vorkommenden Thiere. in ‘Die internationale Polarforschung 1882–1883. Die Deutschen Expeditionen und ihre Ergebnisse’, Band I, Anhang, Geschichtlicher Theil und in einem Anhange mehrere einzelne Abhandlungen physikalischen und sonstigen Inhalts, Berlin: Verlag von A. Asher & Co. 1891.`
-
-- [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P1690000):
-  - Error Message: **`Invalid work id: James S. Pringle: "Contributions by Moravian missionaries to the knowledge of the flora of Labrador", in: CANADIAN HORTICULTURAL HISTORY an interdisciplinary journal / HISTOIRE DE L' HORTICULTURE AU CANADA revue interdisciplinaire 2 (1991), Nr. 4, S. 187-222. (should be R-ID, or M-ID)`**
-  - Causing raw value: `James S. Pringle: "Contributions by Moravian missionaries to the knowledge of the flora of Labrador", in: CANADIAN HORTICULTURAL HISTORY an interdisciplinary journal / HISTOIRE DE L' HORTICULTURE AU CANADA revue interdisciplinaire 2 (1991), Nr. 4, S. 187-222. `
-
-- [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P1690000):
-  - Error Message: **`Invalid work id: Jacques Cayouette: "Contribution des moraves à la bryologie du Labrador", in: Carnets de bryologie 3 (2013), S. 1-12. (should be R-ID, or M-ID)`**
-  - Causing raw value: `Jacques Cayouette: "Contribution des moraves à la bryologie du Labrador", in: Carnets de bryologie 3 (2013), S. 1-12. `
-
-- [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P1690000):
-  - Error Message: **`Invalid work id: Jacques Cayouette; Stephen J. Darbyshire: "Taxa Described by Steudel from the Labrador Plants Collected by the Moravian Missionary Albrecht and Distributed by Hohenacker", in: Taxon 43 (1994), Nr. 2, S. 169-180. (should be R-ID, or M-ID)`**
-  - Causing raw value: `Jacques Cayouette; Stephen J. Darbyshire: "Taxa Described by Steudel from the Labrador Plants Collected by the Moravian Missionary Albrecht and Distributed by Hohenacker", in: Taxon 43 (1994), Nr. 2, S. 169-180. `
-
-- [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P1690000):
-  - Error Message: **`Invalid work id: Gaston R. Demarée; Astrid E. J. Ogilvie: "The Moravian missionaries at the Labrador coast and their centuries-long contribution to instrumental meteorological observations", in: Climatic change 91 (2008), S. 423-450. (should be R-ID, or M-ID)`**
-  - Causing raw value: `Gaston R. Demarée; Astrid E. J. Ogilvie: "The Moravian missionaries at the Labrador coast and their centuries-long contribution to instrumental meteorological observations", in: Climatic change 91 (2008), S. 423-450. `
-
-- [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P1690000):
-  - Error Message: **`Invalid work id: Martin Engelhardt; Siegmund Seybold: Die Sammler von Farn- und Blütenpflanzen des Herbariums des staatlichen Museums für Naturkunde in Stuttgart (STU), 2009. (should be R-ID, or M-ID)`**
-  - Causing raw value: `Martin Engelhardt; Siegmund Seybold: Die Sammler von Farn- und Blütenpflanzen des Herbariums des staatlichen Museums für Naturkunde in Stuttgart (STU),  2009. `
-
-- [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P1690000):
-  - Error Message: **`Invalid work id: Heinrich Göppert: "Herr Geh. Rath Professor Dr. Göppert legte eine reichhaltige und wohlerhaltene Sammlung (70 Spezies) von Pflanzen aus Labrador vor, gesammell im Jahre 1857 von Herrn Missionar Samuel Weiz. Diese Sammlung ist verkäuflich.", in: Jahresbericht der Schlesischen Gesellschaft für Vaterländische Kultur 36 (1858), S. 61. (should be R-ID, or M-ID)`**
-  - Causing raw value: `Heinrich Göppert: "Herr Geh. Rath Professor Dr. Göppert legte eine reichhaltige und wohlerhaltene Sammlung (70  Spezies) von Pflanzen aus Labrador vor, gesammell im Jahre 1857 von Herrn Missionar Samuel Weiz. Diese Sammlung ist verkäuflich.", in: Jahresbericht der Schlesischen Gesellschaft für Vaterländische Kultur 36 (1858), S. 61.`
-
-- [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P1690000):
-  - Error Message: **`Invalid work id: Paul Heuser; Samuel Weiz: "Einiges über Labrador und seine Flora", in: Österreichische Botanische Zeitschrift 9 (1859), S. 315-323. (should be R-ID, or M-ID)`**
-  - Causing raw value: ` 
-Paul Heuser; Samuel Weiz: "Einiges über Labrador und seine Flora", in: Österreichische Botanische Zeitschrift 9 (1859), S. 315-323. `
-
-- [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P1690000):
-  - Error Message: **`Invalid work id: G. Neumeyer; Samuel Weiz: Verzeichniss der nach Missionar S. Weiz in Labrador vorkommenden Thiere. in ‘Die internationale Polarforschung 1882–1883. Die Deutschen Expeditionen und ihre Ergebnisse’, Band I, Anhang, Geschichtlicher Theil und in einem Anhange mehrere einzelne Abhandlungen physikalischen und sonstigen Inhalts, Berlin: Verlag von A. Asher & Co. 1891. (should be R-ID, or M-ID)`**
-  - Causing raw value: `G. Neumeyer; Samuel Weiz: Verzeichniss der nach Missionar S. Weiz in Labrador vorkommenden Thiere. in ‘Die internationale Polarforschung 1882–1883. Die Deutschen Expeditionen und ihre Ergebnisse’, Band I, Anhang, Geschichtlicher Theil und in einem Anhange mehrere einzelne Abhandlungen physikalischen und sonstigen Inhalts, Berlin: Verlag von A. Asher & Co. 1891. `
-
 ### P1700000
 
-- [ ] **Geburt - Ort** (P1700000):
-  - Error Message: **`LocationID must start with 'L': Herrnhut`**
-  - Causing raw value: `Herrnhut`
+- [ ] **Wirkungsorte** (P1700000):
+  - Error Message: **`Expected 4 parts, got 3: 1833/1840; L1101000; Knabenanstalt, Lehrer`**
+  - Causing raw value: ` 1833/1840; L1101000; Knabenanstalt, Lehrer {M0036000} `
 
-- [ ] **Tod - Ort** (P1700000):
-  - Error Message: **`LocationID must start with 'L': Herrnhut`**
-  - Causing raw value: `Herrnhut`
+- [ ] **Wirkungsorte** (P1700000):
+  - Error Message: **`Invalid format for LocationID: L0960000 L0300000`**
+  - Causing raw value: ` 1841; L0960000 L0300000; Universität; Student {M0036000} `
 
-- [ ] **Herrnhuter Lebenslauf** (P1700000):
-  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
-  - Causing raw value: `offen`
+- [ ] **Kontakt - Mit Herrnhutern** (P1700000):
+  - Error Message: **`PersonID must start with 'P': Rudolf Kölbing`**
+  - Causing raw value: `Rudolf Kölbing {R0009800} `
+  - Full field: _Rudolf Kölbing {R0009800} | 
+F.W. Kölbing {R0009800} |
+Hasse, Ernst Reichel, Christian Gottfried Wetschky und Gustav Wetschky {R0009800}_
+
+- [ ] **Kontakt - Mit Herrnhutern** (P1700000):
+  - Error Message: **`PersonID must start with 'P': F.W. Kölbing`**
+  - Causing raw value: ` 
+F.W. Kölbing {R0009800} `
+  - Full field: _Rudolf Kölbing {R0009800} | 
+F.W. Kölbing {R0009800} |
+Hasse, Ernst Reichel, Christian Gottfried Wetschky und Gustav Wetschky {R0009800}_
+
+- [ ] **Kontakt - Mit Herrnhutern** (P1700000):
+  - Error Message: **`PersonID must start with 'P': Hasse, Ernst Reichel, Christian Gottfried Wetschky und Gustav Wetschky`**
+  - Causing raw value: `Hasse, Ernst Reichel, Christian Gottfried Wetschky und Gustav Wetschky {R0009800}`
+  - Full field: _Rudolf Kölbing {R0009800} | 
+F.W. Kölbing {R0009800} |
+Hasse, Ernst Reichel, Christian Gottfried Wetschky und Gustav Wetschky {R0009800}_
 
 - [ ] **Kontakt - Mit Nicht-Herrnhutern** (P1700000):
   - Error Message: **`PersonID must start with 'P': Rudolf von Uechtritz (GLM 164640)`**
@@ -5104,21 +5190,83 @@ Volker Otte: "Exotische Flechten aus der Sammlungstätigkeit der Herrnhuter Brü
 
 ### P1710000
 
+- [ ] **Zugehörigkeit Herrnhuter Brüdergemeine** (P1710000):
+  - Error Message: **`Provided string is not in codelist: ja`**
+  - Causing raw value: `ja`
+
 - [ ] **Geburt - Ort** (P1710000):
   - Error Message: **`LocationID must start with 'L': Gnadenfeld`**
   - Causing raw value: `Gnadenfeld`
-
-- [ ] **Tod - Datum** (P1710000):
-  - Error Message: **`Invalid ISO8601-2_Date format: 1927-01-26 00:00:00`**
-  - Causing raw value: `1927-01-26 00:00:00`
 
 - [ ] **Tod - Ort** (P1710000):
   - Error Message: **`LocationID must start with 'L': Gnadenfeld`**
   - Causing raw value: `Gnadenfeld`
 
+- [ ] **Wirkungsorte** (P1710000):
+  - Error Message: **`Expected 4 parts, got 2: Gnadenfeld; Apotheker`**
+  - Causing raw value: `Gnadenfeld; Apotheker  {R0009800}`
+
 - [ ] **Herrnhuter Lebenslauf** (P1710000):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
+
+### P1715000
+
+- [ ] **Zugehörigkeit Herrnhuter Brüdergemeine** (P1715000):
+  - Error Message: **`Provided string is not in codelist: ja`**
+  - Causing raw value: `ja`
+
+- [ ] **Wirkungsorte** (P1715000):
+  - Error Message: **`Expected 4 parts, got 2: Gnadenfeld; Apotheker`**
+  - Causing raw value: `Gnadenfeld; Apotheker  {R0009800}`
+
+- [ ] **Herrnhuter Lebenslauf** (P1715000):
+  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
+  - Causing raw value: `offen`
+
+- [ ] **Kontakt - Mit Herrnhutern** (P1715000):
+  - Error Message: **`PersonID must start with 'P': Rudolf Kölbing`**
+  - Causing raw value: `Rudolf Kölbing {R0009800} `
+  - Full field: _Rudolf Kölbing {R0009800} | 
+Gustav Wetschky {R0009800}_
+
+- [ ] **Kontakt - Mit Herrnhutern** (P1715000):
+  - Error Message: **`PersonID must start with 'P': Gustav Wetschky`**
+  - Causing raw value: ` 
+Gustav Wetschky {R0009800}`
+  - Full field: _Rudolf Kölbing {R0009800} | 
+Gustav Wetschky {R0009800}_
+
+### P1715500
+
+- [ ] **Angehörige - Anmerkungen** (P1715500):
+  - Error Message: **`Invalid Reference Document value: R0009800} |Vater von P171000 {R0009800 (should be URL, R-ID, or M-ID)`**
+  - Causing raw value: `Sohn von P1715000 {R0009800} |
+Vater von P171000 {R0009800}`
+
+- [ ] **Zugehörigkeit Herrnhuter Brüdergemeine** (P1715500):
+  - Error Message: **`Provided string is not in codelist: ja`**
+  - Causing raw value: `ja`
+
+- [ ] **Wirkungsorte** (P1715500):
+  - Error Message: **`Expected 4 parts, got 1: Gnadenfeld Apotheker`**
+  - Causing raw value: `Gnadenfeld Apotheker {R0009800}`
+
+- [ ] **Herrnhuter Lebenslauf** (P1715500):
+  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
+  - Causing raw value: `offen`
+
+- [ ] **Kontakt - Mit Herrnhutern** (P1715500):
+  - Error Message: **`PersonID must start with 'P': Rudolf Kölbing`**
+  - Causing raw value: `Rudolf Kölbing {R0009800} `
+  - Full field: _Rudolf Kölbing {R0009800} |
+Christian Gottfried Wetschky  {R0009800}_
+
+- [ ] **Kontakt - Mit Herrnhutern** (P1715500):
+  - Error Message: **`PersonID must start with 'P': Christian Gottfried Wetschky`**
+  - Causing raw value: `Christian Gottfried Wetschky  {R0009800}`
+  - Full field: _Rudolf Kölbing {R0009800} |
+Christian Gottfried Wetschky  {R0009800}_
 
 ### P1720000
 
@@ -5135,7 +5283,7 @@ Volker Otte: "Exotische Flechten aus der Sammlungstätigkeit der Herrnhuter Brü
   - Causing raw value: `Juli 1899 Belege aus dem Riesengebierge `
   - Full field: _Juli 1899 Belege aus dem Riesengebierge |
 1899-1905; L2250000; Lehrerseminar (Schüler) {R0003500} | 
-1905-1912; Königsfeld; Knabenanstalt (Lehrer) {R0003500} | 
+1905-1912; L1550000; Knabenanstalt (Lehrer) {R0003500} | 
 1912-1948; L1850000; Lateinschule (Lehrer) {R0003500} |
 ab 1912 L1500000 [Kleinwelka]?_
 
@@ -5144,17 +5292,17 @@ ab 1912 L1500000 [Kleinwelka]?_
   - Causing raw value: `1899-1905; L2250000; Lehrerseminar (Schüler) {R0003500} `
   - Full field: _Juli 1899 Belege aus dem Riesengebierge |
 1899-1905; L2250000; Lehrerseminar (Schüler) {R0003500} | 
-1905-1912; Königsfeld; Knabenanstalt (Lehrer) {R0003500} | 
+1905-1912; L1550000; Knabenanstalt (Lehrer) {R0003500} | 
 1912-1948; L1850000; Lateinschule (Lehrer) {R0003500} |
 ab 1912 L1500000 [Kleinwelka]?_
 
 - [ ] **Wirkungsorte** (P1720000):
-  - Error Message: **`Expected 4 parts, got 3: 1905-1912; Königsfeld; Knabenanstalt (Lehrer)`**
+  - Error Message: **`Expected 4 parts, got 3: 1905-1912; L1550000; Knabenanstalt (Lehrer)`**
   - Causing raw value: ` 
-1905-1912; Königsfeld; Knabenanstalt (Lehrer) {R0003500} `
+1905-1912; L1550000; Knabenanstalt (Lehrer) {R0003500} `
   - Full field: _Juli 1899 Belege aus dem Riesengebierge |
 1899-1905; L2250000; Lehrerseminar (Schüler) {R0003500} | 
-1905-1912; Königsfeld; Knabenanstalt (Lehrer) {R0003500} | 
+1905-1912; L1550000; Knabenanstalt (Lehrer) {R0003500} | 
 1912-1948; L1850000; Lateinschule (Lehrer) {R0003500} |
 ab 1912 L1500000 [Kleinwelka]?_
 
@@ -5164,7 +5312,7 @@ ab 1912 L1500000 [Kleinwelka]?_
 1912-1948; L1850000; Lateinschule (Lehrer) {R0003500} `
   - Full field: _Juli 1899 Belege aus dem Riesengebierge |
 1899-1905; L2250000; Lehrerseminar (Schüler) {R0003500} | 
-1905-1912; Königsfeld; Knabenanstalt (Lehrer) {R0003500} | 
+1905-1912; L1550000; Knabenanstalt (Lehrer) {R0003500} | 
 1912-1948; L1850000; Lateinschule (Lehrer) {R0003500} |
 ab 1912 L1500000 [Kleinwelka]?_
 
@@ -5173,13 +5321,18 @@ ab 1912 L1500000 [Kleinwelka]?_
   - Causing raw value: `ab 1912 L1500000 [Kleinwelka]?`
   - Full field: _Juli 1899 Belege aus dem Riesengebierge |
 1899-1905; L2250000; Lehrerseminar (Schüler) {R0003500} | 
-1905-1912; Königsfeld; Knabenanstalt (Lehrer) {R0003500} | 
+1905-1912; L1550000; Knabenanstalt (Lehrer) {R0003500} | 
 1912-1948; L1850000; Lateinschule (Lehrer) {R0003500} |
 ab 1912 L1500000 [Kleinwelka]?_
 
 - [ ] **Herrnhuter Lebenslauf** (P1720000):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
+
+- [ ] **Kontakt - Mit Herrnhutern** (P1720000):
+  - Error Message: **`PersonID must start with 'P': F.W. Kölbing`**
+  - Causing raw value: `F.W. Kölbing {R0009800} `
+  - Full field: _F.W. Kölbing {R0009800} |_
 
 - [ ] **Botanik - Foki** (P1720000):
   - Error Message: **`Invalid Reference Document value: Becker 2005 (should be URL, R-ID, or M-ID)`**
@@ -5241,6 +5394,10 @@ Die Feldtagebücher erst nach 1920. Ob im Nachlass direkte Zeugnisse seiner Herr
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
 
+- [ ] **Kontakt - Mit Herrnhutern** (P1730000):
+  - Error Message: **`PersonID must start with 'P': Hasse, Ernst Reichel, Christian Gottfried Wetschky Eduard Wenck`**
+  - Causing raw value: `Hasse, Ernst Reichel, Christian Gottfried Wetschky Eduard Wenck {R0009800}`
+
 - [ ] **Botanik - Druckwerke der Person** (P1730000):
   - Error Message: **`LiteratureID must start with 'R': WOLLE, J., AND A. L. HUEBNER. 1839. Catalogue of botanicalspecimens collected by J. Wolle and A. L. Huebner during theyear 1837 in the vicinity of Bethlehem and other parts ofNorthampton County, Pennsylvania, in the order as they werefound in bloom. Am. J. Sci. 37:310–320.`**
   - Causing raw value: `WOLLE, J., AND A. L. HUEBNER. 1839. Catalogue of botanical
@@ -5280,17 +5437,21 @@ per plate." Troyer 2009,4`
 
 ### P1750000
 
-- [ ] **Geburt - Ort** (P1750000):
-  - Error Message: **`LocationID must start with 'L': Old Sarepta`**
-  - Causing raw value: `Old Sarepta`
+- [ ] **Wirkungsorte** (P1750000):
+  - Error Message: **`LocationID must start with 'L': Antigua`**
+  - Causing raw value: ` 1844/1847;  Antigua;; {R0009100} `
 
-- [ ] **Tod - Ort** (P1750000):
-  - Error Message: **`LocationID must start with 'L': Berthelsdorf`**
-  - Causing raw value: `Berthelsdorf`
+- [ ] **Wirkungsorte** (P1750000):
+  - Error Message: **`LocationID must start with 'L': Honduras?`**
+  - Causing raw value: ` 1855; Honduras?;; {R0009100} `
 
-- [ ] **Herrnhuter Lebenslauf** (P1750000):
-  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
-  - Causing raw value: `offen`
+- [ ] **Wirkungsorte** (P1750000):
+  - Error Message: **`Invalid Reference Document value: 0009100 (should be URL, R-ID, or M-ID)`**
+  - Causing raw value: ` 1858; Nordamerika;; {0009100} `
+
+- [ ] **Wirkungsorte** (P1750000):
+  - Error Message: **`Cannot parse as date or period: '1858-1864'`**
+  - Causing raw value: `1858-1864;L0400000;; {R0009100}`
 
 ### P1760000
 
@@ -5364,6 +5525,12 @@ kalmückischen Sprache`
 - [ ] **Archiv** (M0007000):
   - Error Message: **`ArchiveID must start with 'A': P0980000`**
   - Causing raw value: `P0980000`
+
+### M0035000
+
+- [ ] **Archiv** (M0035000):
+  - Error Message: **`ArchiveID must start with 'A': Stadtmuseum Bautzen`**
+  - Causing raw value: `Stadtmuseum Bautzen`
 
 ## Orte
 

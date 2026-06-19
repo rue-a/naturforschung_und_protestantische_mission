@@ -562,5 +562,125 @@
     "factgrid": null,
     "bionomia": null,
     "saebi": null
+  },
+  "Q139961776": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q16943781": {
+    "gnd": "101131262X",
+    "factgrid": null,
+    "bionomia": "Q16943781",
+    "saebi": null
+  },
+  "Q140042768": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q140030552": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q140030552",
+    "saebi": null
+  },
+  "Q1065260": {
+    "gnd": "117606030",
+    "factgrid": null,
+    "bionomia": "Q1065260",
+    "saebi": null
+  },
+  "Q2965351": {
+    "gnd": "100611354",
+    "factgrid": "Q378756",
+    "bionomia": "Q2965351",
+    "saebi": null
+  },
+  "Q98316236": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q98316236",
+    "saebi": null
+  },
+  "Q16062483": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q597175": {
+    "gnd": "11758567X",
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q138684804": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q140030797": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q140010285": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q140010285",
+    "saebi": null
+  },
+  "Q162688": {
+    "gnd": "118795449",
+    "factgrid": "Q889419",
+    "bionomia": "Q162688",
+    "saebi": null
+  },
+  "Q139847900": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q139847900",
+    "saebi": null
+  },
+  "Q140010073": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q140009970": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q140009838": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q139846714": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": null,
+    "saebi": null
+  },
+  "Q139710148": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q139710148",
+    "saebi": null
+  },
+  "Q139846701": {
+    "gnd": null,
+    "factgrid": null,
+    "bionomia": "Q139846701",
+    "saebi": null
   }
 }

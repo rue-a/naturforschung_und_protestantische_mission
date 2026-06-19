@@ -337,5 +337,221 @@
     "start": null,
     "end": null,
     "founder": null
+  },
+  "Q1630": {
+    "coordinates": {
+      "lat": 53.55,
+      "lon": 9.9333
+    },
+    "start": "1535-01-01T00:00:00Z",
+    "end": null,
+    "founder": null
+  },
+  "Q817781": {
+    "coordinates": {
+      "lat": 50.0,
+      "lon": 11.6
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q1003342": {
+    "coordinates": {
+      "lat": -34.591666666,
+      "lon": 19.758333333
+    },
+    "start": "1824-01-01T00:00:00Z",
+    "end": null,
+    "founder": null
+  },
+  "Q5508369": {
+    "coordinates": {
+      "lat": 53.7837,
+      "lon": -1.6648
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q688045": {
+    "coordinates": {
+      "lat": 51.975833333,
+      "lon": 11.779444444
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q1501295": {
+    "coordinates": {
+      "lat": -34.033333333,
+      "lon": 19.55
+    },
+    "start": "1738-01-01T00:00:00Z",
+    "end": null,
+    "founder": null
+  },
+  "Q10780": {
+    "coordinates": {
+      "lat": 51.2383379,
+      "lon": 12.7287511
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q686804": {
+    "coordinates": {
+      "lat": 53.25,
+      "lon": 12.316666666
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q9920": {
+    "coordinates": {
+      "lat": 52.380277777,
+      "lon": 4.640555555
+    },
+    "start": "1185-01-01T00:00:00Z",
+    "end": null,
+    "founder": null
+  },
+  "Q156768": {
+    "coordinates": {
+      "lat": 51.094444444,
+      "lon": 14.666666666
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q29785958": {
+    "coordinates": {
+      "lat": 47.0169,
+      "lon": 7.02565
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q989427": {
+    "coordinates": {
+      "lat": 53.671944444,
+      "lon": 15.119166666
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q1338339": {
+    "coordinates": {
+      "lat": 48.5294,
+      "lon": 9.3075
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q157190": {
+    "coordinates": {
+      "lat": 51.803333333,
+      "lon": 15.716944444
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q2009818": {
+    "coordinates": {
+      "lat": 51.3819,
+      "lon": 7.76778
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q3001": {
+    "coordinates": {
+      "lat": 5.866666666,
+      "lon": -55.166666666
+    },
+    "start": "1613-01-01T00:00:00Z",
+    "end": null,
+    "founder": null
+  },
+  "Q1085": {
+    "coordinates": {
+      "lat": 50.0875,
+      "lon": 14.421388888
+    },
+    "start": "0800-01-01T00:00:00Z",
+    "end": null,
+    "founder": null
+  },
+  "Q995872": {
+    "coordinates": {
+      "lat": 51.786388888,
+      "lon": 16.6675
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q2258838": {
+    "coordinates": {
+      "lat": 50.653,
+      "lon": 13.0542
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q656": {
+    "coordinates": {
+      "lat": 59.95,
+      "lon": 30.316666666
+    },
+    "start": "1703-05-27T00:00:00Z",
+    "end": null,
+    "founder": "Peter der Große"
+  },
+  "Q2613269": {
+    "coordinates": {
+      "lat": 57.115277777,
+      "lon": 9.063611111
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q574768": {
+    "coordinates": {
+      "lat": 51.81667,
+      "lon": 14.18333
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q33527010": {
+    "coordinates": {
+      "lat": 52.09,
+      "lon": 5.23333
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q71": {
+    "coordinates": {
+      "lat": 46.2,
+      "lon": 6.15
+    },
+    "start": null,
+    "end": null,
+    "founder": null
   }
 }
