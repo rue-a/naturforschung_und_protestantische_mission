@@ -68,8 +68,8 @@ Vorname(n) der Person. Verschiedene Schreibweisen eines Namens sind durch `/` (o
 ### Name - Titel
 *String*
 
-Etwaige Titel der Personen (abgekürzt).
-- `Dr.`
+Namenszusätze der Personen. 
+- `Dr.`, `Junior`, `Professor`, `der Ältere`
 
 ### Name - Anmerkungen
 *String*
