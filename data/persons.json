@@ -19,10 +19,7 @@
         "label": "Johann Baptist von",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [
@@ -867,10 +864,7 @@
         "label": "Louise Friederike Wilhemine von",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -985,10 +979,7 @@
         "label": "Carl Gottfried",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -1482,10 +1473,7 @@
         "label": "Christian Gotthold",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": "Am Ende (UA, Dienerblätter A-Bl, S. 68-69)"
     },
     "member_of_moravians": [],
@@ -1697,10 +1685,7 @@
         "label": "Johann Heinrich",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -1870,10 +1855,7 @@
         "label": "Christian Julius",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -1969,10 +1951,7 @@
         "label": "Gustav Eduard",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -2018,7 +1997,7 @@
         {
           "id": "P0041000",
           "label": "Maria Dorothee Emilie Baer",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135313974",
           "source": null
         }
       ],
@@ -2053,7 +2032,7 @@
     },
     "links": {
       "wikidata": {
-        "label": null,
+        "label": "https://www.wikidata.org/wiki/Q135313956",
         "source": null
       },
       "gnd": {
@@ -2136,10 +2115,7 @@
         "label": "Maria Dorothee Emilie",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": "genannt Marie"
     },
     "member_of_moravians": [
@@ -2200,25 +2176,25 @@
         {
           "id": "P0222000",
           "label": "Carl Julius Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135294676",
           "source": null
         },
         {
           "id": "P0223000",
           "label": "Francis William Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135294861",
           "source": null
         },
         {
           "id": "P0224000",
           "label": "Johannes Emil Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135294826",
           "source": null
         },
         {
           "id": "P0225000",
           "label": "John William Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135314033",
           "source": null
         }
       ],
@@ -2226,7 +2202,7 @@
         {
           "id": "P0040750",
           "label": "Gustav Eduard Baer",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135313956",
           "source": null
         }
       ],
@@ -2268,7 +2244,7 @@
     },
     "links": {
       "wikidata": {
-        "label": null,
+        "label": "https://www.wikidata.org/wiki/Q135313974",
         "source": null
       },
       "gnd": {
@@ -2353,13 +2329,16 @@
         "label": "William Gustav",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
-    "member_of_moravians": [],
+    "member_of_moravians": [
+      {
+        "code": "ja-a",
+        "label": "qua Geburt und Erziehung, in einer Herrnhuter Gemeinschaft bzw. von Herrnhuter Eltern geboren und aufgewachsen",
+        "source": null
+      }
+    ],
     "birth": {
       "date": {
         "label": "17. April 1867",
@@ -2583,10 +2562,7 @@
         "label": "Christian Trauelsen",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -2705,10 +2681,7 @@
         "label": null,
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -2818,10 +2791,7 @@
         "label": "Walter Theodor",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -3008,10 +2978,7 @@
         "label": "Leopold Richard",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -3358,10 +3325,7 @@
         "label": "Abraham Reincke",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -3457,10 +3421,7 @@
         "label": "Johann Christian",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -3565,10 +3526,7 @@
         "label": "Alexander",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -3850,10 +3808,7 @@
         "label": "Hermann Otto",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -3946,10 +3901,7 @@
         "label": "R.",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": "nicht! Rudolf Adelbert Becker, der gest. 1836-02-06 im Kindeslter, UA, R.22.159.02"
     },
     "member_of_moravians": [],
@@ -4054,10 +4006,7 @@
         "label": "John William",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": "fälschlich Berbeek in R0006700"
     },
     "member_of_moravians": [],
@@ -4237,10 +4186,7 @@
         "label": "Jacob van",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -4345,10 +4291,7 @@
         "label": "Johann Jakob Bossart",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": "auch Jacob"
     },
     "member_of_moravians": [
@@ -5004,10 +4947,7 @@
         "label": "Johnn Heinrich Theodor",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -5133,10 +5073,7 @@
         "label": "Maximilian",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -5237,10 +5174,7 @@
         "label": "Franz Peter",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -5356,10 +5290,7 @@
         "label": "Christopher",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -5481,10 +5412,7 @@
         "label": "Georg Samuel",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -5608,10 +5536,7 @@
         "label": "Johann Christian",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [
@@ -5718,7 +5643,7 @@
         {
           "id": "P0221000",
           "label": "Anna Sophia Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q125843987",
           "source": null
         }
       ],
@@ -5726,31 +5651,31 @@
         {
           "id": "P0222000",
           "label": "Carl Julius Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135294676",
           "source": null
         },
         {
           "id": "P0223000",
           "label": "Francis William Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135294861",
           "source": null
         },
         {
           "id": "P0224000",
           "label": "Johannes Emil Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135294826",
           "source": null
         },
         {
           "id": "P0225000",
           "label": "John William Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135314033",
           "source": null
         },
         {
           "id": "P0041000",
           "label": "Maria Dorothee Emilie Baer",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135313974",
           "source": null
         }
       ],
@@ -6677,10 +6602,12 @@
         "label": "Anna Paulina",
         "source": null
       },
-      "title": {
-        "label": "Breutel",
-        "source": null
-      },
+      "affixes": [
+        {
+          "label": "Breutel",
+          "source": null
+        }
+      ],
       "notes": null
     },
     "member_of_moravians": [],
@@ -6732,7 +6659,7 @@
         {
           "id": "P0222000",
           "label": "Carl Julius Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135294676",
           "source": null
         }
       ],
@@ -6852,10 +6779,12 @@
         "label": "Anna Sophia/Sophie",
         "source": null
       },
-      "title": {
-        "label": "Breutel",
-        "source": null
-      },
+      "affixes": [
+        {
+          "label": "Breutel",
+          "source": null
+        }
+      ],
       "notes": "genannt Sophie"
     },
     "member_of_moravians": [
@@ -6950,31 +6879,31 @@
         {
           "id": "P0222000",
           "label": "Carl Julius Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135294676",
           "source": null
         },
         {
           "id": "P0223000",
           "label": "Francis William Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135294861",
           "source": null
         },
         {
           "id": "P0224000",
           "label": "Johannes Emil Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135294826",
           "source": null
         },
         {
           "id": "P0225000",
           "label": "John William Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135314033",
           "source": null
         },
         {
           "id": "P0041000",
           "label": "Maria Dorothee Emilie Baer",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135313974",
           "source": null
         }
       ],
@@ -7008,7 +6937,7 @@
     },
     "links": {
       "wikidata": {
-        "label": null,
+        "label": "https://www.wikidata.org/wiki/Q125843987",
         "source": null
       },
       "gnd": {
@@ -7098,10 +7027,12 @@
         "label": "Carl Julius",
         "source": null
       },
-      "title": {
-        "label": "Breutel",
-        "source": null
-      },
+      "affixes": [
+        {
+          "label": "Breutel",
+          "source": null
+        }
+      ],
       "notes": "genannt Julius"
     },
     "member_of_moravians": [
@@ -7162,25 +7093,25 @@
         {
           "id": "P0223000",
           "label": "Francis William Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135294861",
           "source": null
         },
         {
           "id": "P0224000",
           "label": "Johannes Emil Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135294826",
           "source": null
         },
         {
           "id": "P0225000",
           "label": "John William Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135314033",
           "source": null
         },
         {
           "id": "P0041000",
           "label": "Maria Dorothee Emilie Baer",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135313974",
           "source": null
         }
       ],
@@ -7188,7 +7119,7 @@
         {
           "id": "P0225000",
           "label": "John William Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135314033",
           "source": null
         }
       ],
@@ -7223,7 +7154,7 @@
     },
     "links": {
       "wikidata": {
-        "label": null,
+        "label": "https://www.wikidata.org/wiki/Q135294676",
         "source": null
       },
       "gnd": {
@@ -7308,10 +7239,12 @@
         "label": "Francis William",
         "source": null
       },
-      "title": {
-        "label": "Breutel",
-        "source": null
-      },
+      "affixes": [
+        {
+          "label": "Breutel",
+          "source": null
+        }
+      ],
       "notes": null
     },
     "member_of_moravians": [],
@@ -7365,25 +7298,25 @@
         {
           "id": "P0222000",
           "label": "Carl Julius Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135294676",
           "source": null
         },
         {
           "id": "P0224000",
           "label": "Johannes Emil Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135294826",
           "source": null
         },
         {
           "id": "P0225000",
           "label": "John William Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135314033",
           "source": null
         },
         {
           "id": "P0041000",
           "label": "Maria Dorothee Emilie Baer",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135313974",
           "source": null
         }
       ],
@@ -7419,7 +7352,7 @@
     },
     "links": {
       "wikidata": {
-        "label": null,
+        "label": "https://www.wikidata.org/wiki/Q135294861",
         "source": null
       },
       "gnd": {
@@ -7502,10 +7435,12 @@
         "label": "Johannes Emil",
         "source": null
       },
-      "title": {
-        "label": "Breutel",
-        "source": null
-      },
+      "affixes": [
+        {
+          "label": "Breutel",
+          "source": null
+        }
+      ],
       "notes": "genannt Emil"
     },
     "member_of_moravians": [
@@ -7559,25 +7494,25 @@
         {
           "id": "P0222000",
           "label": "Carl Julius Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135294676",
           "source": null
         },
         {
           "id": "P0223000",
           "label": "Francis William Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135294861",
           "source": null
         },
         {
           "id": "P0225000",
           "label": "John William Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135314033",
           "source": null
         },
         {
           "id": "P0041000",
           "label": "Maria Dorothee Emilie Baer",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135313974",
           "source": null
         }
       ],
@@ -7613,7 +7548,7 @@
     },
     "links": {
       "wikidata": {
-        "label": null,
+        "label": "https://www.wikidata.org/wiki/Q135294826",
         "source": null
       },
       "gnd": {
@@ -7680,10 +7615,12 @@
         "label": "John William",
         "source": null
       },
-      "title": {
-        "label": "Breutel",
-        "source": null
-      },
+      "affixes": [
+        {
+          "label": "Breutel",
+          "source": null
+        }
+      ],
       "notes": null
     },
     "member_of_moravians": [],
@@ -7742,25 +7679,25 @@
         {
           "id": "P0222000",
           "label": "Carl Julius Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135294676",
           "source": null
         },
         {
           "id": "P0223000",
           "label": "Francis William Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135294861",
           "source": null
         },
         {
           "id": "P0224000",
           "label": "Johannes Emil Breutel",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135294826",
           "source": null
         },
         {
           "id": "P0041000",
           "label": "Maria Dorothee Emilie Baer",
-          "link": null,
+          "link": "https://www.wikidata.org/wiki/Q135313974",
           "source": null
         }
       ],
@@ -7796,7 +7733,7 @@
     },
     "links": {
       "wikidata": {
-        "label": null,
+        "label": "https://www.wikidata.org/wiki/Q135314033",
         "source": null
       },
       "gnd": {
@@ -7881,10 +7818,7 @@
         "label": "Carl Gustav",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -7981,10 +7915,7 @@
         "label": "Martin",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -8089,10 +8020,7 @@
         "label": "Christian Friedrich",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -8253,10 +8181,7 @@
         "label": "Hugo Theodor",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -8453,10 +8378,7 @@
         "label": "David",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -8655,10 +8577,7 @@
         "label": "Paul",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -8759,10 +8678,7 @@
         "label": "Johann Gottfried",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -8913,10 +8829,7 @@
         "label": "Pierre Frederich",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -9744,16 +9657,13 @@
         "label": "Gustav Heinrich",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1794?",
+        "label": "1794 (unsicher)",
         "source": {
           "type": "Druck",
           "id": "R0000400",
@@ -9930,10 +9840,7 @@
         "label": "Christian Friedrich",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -10310,10 +10217,7 @@
         "label": "Heinrich Alfred",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -10419,10 +10323,7 @@
         "label": "Alexander",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -10527,10 +10428,7 @@
         "label": "Johann Michael",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -10730,10 +10628,7 @@
         "label": "August Ferdinand",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -10880,10 +10775,7 @@
         "label": "Friedrich",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -11126,10 +11018,7 @@
         "label": "Christian Renatus (jun.)",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -11230,10 +11119,7 @@
         "label": "Theodor",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -11334,10 +11220,7 @@
         "label": "Johan",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -11479,10 +11362,7 @@
         "label": "Sofie",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -11590,10 +11470,7 @@
         "label": "Maren",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -11701,10 +11578,12 @@
         "label": "August Herrmann",
         "source": null
       },
-      "title": {
-        "label": "Dr.",
-        "source": null
-      },
+      "affixes": [
+        {
+          "label": "Dr.",
+          "source": null
+        }
+      ],
       "notes": null
     },
     "member_of_moravians": [],
@@ -11859,10 +11738,7 @@
         "label": null,
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -11975,10 +11851,7 @@
         "label": "Gottfried August",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -12075,10 +11948,7 @@
         "label": "Jakob Friedrich",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -12179,10 +12049,7 @@
         "label": "Eugene Alexander",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -12294,10 +12161,7 @@
         "label": "John",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -12398,10 +12262,7 @@
         "label": "Anna Rosina",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -12512,10 +12373,7 @@
         "label": "Georg Ludwig",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -12616,10 +12474,7 @@
         "label": null,
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -12724,10 +12579,7 @@
         "label": "Alexander",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -12836,10 +12688,7 @@
         "label": "Dr. August Leopold",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -12945,10 +12794,7 @@
         "label": "Ludwig Ferdinand",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -13049,10 +12895,7 @@
         "label": "Constantin/Konstantin Theodor",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -13158,10 +13001,7 @@
         "label": "Zacharias",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -13261,10 +13101,7 @@
         "label": "Carl Heinrich",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -13645,10 +13482,7 @@
         "label": "Paulus",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -13758,10 +13592,7 @@
         "label": "Gustav Rudolf",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -13916,10 +13747,7 @@
         "label": "Joseph Friedrich",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -14023,10 +13851,7 @@
         "label": "Georg Ernst Ludwig",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -14146,10 +13971,7 @@
         "label": "Christian Friedrich",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -14250,10 +14072,7 @@
         "label": "Christian Theodor",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -14357,10 +14176,7 @@
         "label": "Wilhelm",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -14463,7 +14279,7 @@
     },
     "links": {
       "wikidata": {
-        "label": null,
+        "label": "https://www.wikidata.org/wiki/Q129901281",
         "source": null
       },
       "gnd": {
@@ -14511,10 +14327,7 @@
         "label": "Johann Gottfried",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -14617,10 +14430,7 @@
         "label": "(Lars ?)",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -14725,10 +14535,7 @@
         "label": "Johannes Heinrich",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -14825,10 +14632,7 @@
         "label": "Eugenius",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -14976,10 +14780,7 @@
         "label": "Alexander Cossart",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -15046,7 +14847,7 @@
     },
     "links": {
       "wikidata": {
-        "label": null,
+        "label": "https://www.wikidata.org/wiki/Q4719095",
         "source": null
       },
       "gnd": {
@@ -15058,7 +14859,7 @@
         "source": null
       },
       "bionomia": {
-        "label": null,
+        "label": "https://bionomia.net/Q4719095",
         "source": null
       },
       "saebi": {
@@ -15094,10 +14895,7 @@
         "label": "Jens",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -15149,7 +14947,184 @@
         "notes": null
       }
     },
-    "places_of_effect": [],
+    "places_of_effect": [
+      {
+        "temporal": {
+          "label": "1758–1762"
+        },
+        "location": {
+          "id": "L0100000",
+          "label": "Akunnaat",
+          "link": "https://www.wikidata.org/wiki/Q423740"
+        },
+        "institution": {
+          "label": "Missionsstation"
+        },
+        "occupation": {
+          "label": "Missionar"
+        },
+        "source": {
+          "type": "Druck",
+          "id": "R0012300",
+          "label": "Jens Haven u.a.: Lebenslauf des Bruders Jens Haven, ersten Missionars der Brüder-Gemeine in Labrador, heimgegangen in Herrnhut den 16. April 1796, in NadB 18446), S. 900-925",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1844no06.pdf"
+        }
+      },
+      {
+        "temporal": {
+          "label": "1763–1764"
+        },
+        "location": {
+          "id": "L1120000",
+          "label": "Herrnhut",
+          "link": "https://www.wikidata.org/wiki/Q165140"
+        },
+        "institution": {
+          "label": null
+        },
+        "occupation": {
+          "label": null
+        },
+        "source": {
+          "type": "Druck",
+          "id": "R0012300",
+          "label": "Jens Haven u.a.: Lebenslauf des Bruders Jens Haven, ersten Missionars der Brüder-Gemeine in Labrador, heimgegangen in Herrnhut den 16. April 1796, in NadB 18446), S. 900-925",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1844no06.pdf"
+        }
+      },
+      {
+        "temporal": {
+          "label": "1764"
+        },
+        "location": {
+          "id": "L1710000",
+          "label": "London",
+          "link": "https://www.wikidata.org/wiki/Q84"
+        },
+        "institution": {
+          "label": null
+        },
+        "occupation": {
+          "label": null
+        },
+        "source": {
+          "type": "Druck",
+          "id": "R0012300",
+          "label": "Jens Haven u.a.: Lebenslauf des Bruders Jens Haven, ersten Missionars der Brüder-Gemeine in Labrador, heimgegangen in Herrnhut den 16. April 1796, in NadB 18446), S. 900-925",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1844no06.pdf"
+        }
+      },
+      {
+        "temporal": {
+          "label": "1771–1777"
+        },
+        "location": {
+          "id": "L2100000",
+          "label": "Nain",
+          "link": "https://www.wikidata.org/wiki/Q3335210"
+        },
+        "institution": {
+          "label": "Missionsstation"
+        },
+        "occupation": {
+          "label": "Missionar"
+        },
+        "source": {
+          "type": "Druck",
+          "id": "R0012300",
+          "label": "Jens Haven u.a.: Lebenslauf des Bruders Jens Haven, ersten Missionars der Brüder-Gemeine in Labrador, heimgegangen in Herrnhut den 16. April 1796, in NadB 18446), S. 900-925",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1844no06.pdf"
+        }
+      },
+      {
+        "temporal": {
+          "label": "1777–1778"
+        },
+        "location": {
+          "id": "L2250000",
+          "label": "Niesky",
+          "link": "https://www.wikidata.org/wiki/Q165160"
+        },
+        "institution": {
+          "label": null
+        },
+        "occupation": {
+          "label": null
+        },
+        "source": {
+          "type": "Druck",
+          "id": "R0012300",
+          "label": "Jens Haven u.a.: Lebenslauf des Bruders Jens Haven, ersten Missionars der Brüder-Gemeine in Labrador, heimgegangen in Herrnhut den 16. April 1796, in NadB 18446), S. 900-925",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1844no06.pdf"
+        }
+      },
+      {
+        "temporal": {
+          "label": "1778"
+        },
+        "location": {
+          "id": "L2260000",
+          "label": "Okak",
+          "link": "https://www.wikidata.org/wiki/Q7081733"
+        },
+        "institution": {
+          "label": "Missionsstation"
+        },
+        "occupation": {
+          "label": "Missionar"
+        },
+        "source": {
+          "type": "Druck",
+          "id": "R0012300",
+          "label": "Jens Haven u.a.: Lebenslauf des Bruders Jens Haven, ersten Missionars der Brüder-Gemeine in Labrador, heimgegangen in Herrnhut den 16. April 1796, in NadB 18446), S. 900-925",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1844no06.pdf"
+        }
+      },
+      {
+        "temporal": {
+          "label": null
+        },
+        "location": {
+          "id": "L1200000",
+          "label": "Hopedal",
+          "link": "https://www.wikidata.org/wiki/Q11338369"
+        },
+        "institution": {
+          "label": "Missionsstation"
+        },
+        "occupation": {
+          "label": "Missionar"
+        },
+        "source": {
+          "type": "Druck",
+          "id": "R0012300",
+          "label": "Jens Haven u.a.: Lebenslauf des Bruders Jens Haven, ersten Missionars der Brüder-Gemeine in Labrador, heimgegangen in Herrnhut den 16. April 1796, in NadB 18446), S. 900-925",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1844no06.pdf"
+        }
+      },
+      {
+        "temporal": {
+          "label": "1784–1796"
+        },
+        "location": {
+          "id": "L1120000",
+          "label": "Herrnhut",
+          "link": "https://www.wikidata.org/wiki/Q165140"
+        },
+        "institution": {
+          "label": null
+        },
+        "occupation": {
+          "label": null
+        },
+        "source": {
+          "type": "Druck",
+          "id": "R0012300",
+          "label": "Jens Haven u.a.: Lebenslauf des Bruders Jens Haven, ersten Missionars der Brüder-Gemeine in Labrador, heimgegangen in Herrnhut den 16. April 1796, in NadB 18446), S. 900-925",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1844no06.pdf"
+        }
+      }
+    ],
     "moravian_curriculum_vitae": [
       {
         "id": "R0012300",
@@ -15267,6 +15242,182 @@
             "location_wikidata": "https://www.wikidata.org/wiki/Q165140",
             "place_name": "Herrnhut"
           }
+        },
+        {
+          "type": "Feature",
+          "featureType": "place_of_effect",
+          "time": {
+            "interval": [
+              "1758",
+              "1762"
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -50.41,
+              63.05
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q423740",
+            "place_name": "Akunnaat",
+            "institution": "Missionsstation",
+            "occupation": "Missionar"
+          }
+        },
+        {
+          "type": "Feature",
+          "featureType": "place_of_effect",
+          "time": {
+            "interval": [
+              "1763",
+              "1764"
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              14.741666666,
+              51.016666666
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q165140",
+            "place_name": "Herrnhut",
+            "institution": null,
+            "occupation": null
+          }
+        },
+        {
+          "type": "Feature",
+          "featureType": "place_of_effect",
+          "time": {
+            "date": "1764"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.1275,
+              51.507222222
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q84",
+            "place_name": "London",
+            "institution": null,
+            "occupation": null
+          }
+        },
+        {
+          "type": "Feature",
+          "featureType": "place_of_effect",
+          "time": {
+            "interval": [
+              "1771",
+              "1777"
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -61.6928,
+              56.5422
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q3335210",
+            "place_name": "Nain",
+            "institution": "Missionsstation",
+            "occupation": "Missionar"
+          }
+        },
+        {
+          "type": "Feature",
+          "featureType": "place_of_effect",
+          "time": {
+            "interval": [
+              "1777",
+              "1778"
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              14.83,
+              51.289722222
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q165160",
+            "place_name": "Niesky",
+            "institution": null,
+            "occupation": null
+          }
+        },
+        {
+          "type": "Feature",
+          "featureType": "place_of_effect",
+          "time": {
+            "interval": [
+              "1778",
+              ".."
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -61.98425,
+              57.562389
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q7081733",
+            "place_name": "Okak",
+            "institution": "Missionsstation",
+            "occupation": "Missionar"
+          }
+        },
+        {
+          "type": "Feature",
+          "featureType": "place_of_effect",
+          "time": null,
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -60.203188888,
+              55.467372222
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q11338369",
+            "place_name": "Hopedal",
+            "institution": "Missionsstation",
+            "occupation": "Missionar"
+          }
+        },
+        {
+          "type": "Feature",
+          "featureType": "place_of_effect",
+          "time": {
+            "interval": [
+              "1784",
+              "1796"
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              14.741666666,
+              51.016666666
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q165140",
+            "place_name": "Herrnhut",
+            "institution": null,
+            "occupation": null
+          }
         }
       ]
     }
@@ -15291,10 +15442,7 @@
         "label": "John G. E.",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -15415,10 +15563,7 @@
         "label": "August Oswald Constantin",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -15538,10 +15683,7 @@
         "label": "Christian Benedic(k)t/Benedickt",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -15682,10 +15824,7 @@
         "label": "Christian Gottlieb",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -15817,10 +15956,7 @@
         "label": "Johann Georg",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -15949,10 +16085,7 @@
         "label": "Andreas Gustav/Handrij Gustaw",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -16053,10 +16186,7 @@
         "label": "Richard Paul",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -16195,10 +16325,7 @@
         "label": "Paul Hugo Adalbert",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -16334,7 +16461,7 @@
           {
             "id": "R0009800",
             "label": "Carl Schubert: \"Die Flora von Gnadenfeld\", in: Der Oberschlesier 14 (1932), Nr. 6, S. 353-356.",
-            "link": null,
+            "link": "https://sbc.org.pl/de/dlibra/publication/15703",
             "source": null
           }
         ]
@@ -16396,10 +16523,7 @@
         "label": "August Wilhelm",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -16413,7 +16537,7 @@
     },
     "death": {
       "date": {
-        "label": "2796?",
+        "label": "2796 (unsicher)",
         "source": null,
         "notes": null
       },
@@ -16538,10 +16662,7 @@
         "label": "Benjamin",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -16659,10 +16780,7 @@
         "label": "Anton Benjamin",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -16763,10 +16881,7 @@
         "label": "Carl August",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -16911,10 +17026,7 @@
         "label": "Francis Raymond",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -17022,10 +17134,7 @@
         "label": "H.",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -17135,10 +17244,7 @@
         "label": "Wilhelm",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -17286,10 +17392,7 @@
         "label": "Philipp",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": "Philip"
     },
     "member_of_moravians": [],
@@ -17367,7 +17470,10 @@
         "label": null,
         "source": null
       },
-      "bionomia": null,
+      "bionomia": {
+        "label": "https://bionomia.net/Q21165260",
+        "source": null
+      },
       "saebi": {
         "label": null,
         "source": null
@@ -17401,10 +17507,7 @@
         "label": "Lewis",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -17509,10 +17612,7 @@
         "label": "Samuel Renatus",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -17624,10 +17724,7 @@
         "label": "Abraham Lewis",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -17739,10 +17836,7 @@
         "label": "Christian Gottlieb",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -17878,10 +17972,7 @@
         "label": "Johann Heinrich",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -17986,10 +18077,7 @@
         "label": "Heinrich August",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -18259,10 +18347,7 @@
         "label": "Christian Frederick",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -18374,10 +18459,7 @@
         "label": "Carl Gotthelf",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -18392,7 +18474,18 @@
         },
         "notes": null
       },
-      "location": null
+      "location": {
+        "id": "L0810000",
+        "label": "Ebersdorf",
+        "link": "https://www.wikidata.org/wiki/Q1279755",
+        "source": {
+          "type": "Druck",
+          "id": "R0014000",
+          "label": "Carl Gotthelf Kern: Lebenslauf des verwitweten Bruders Carl Gotthelf Kern, heimgegangen in Herrnhut am 3. Mai 1899, in MadB 1899, S. 291-301",
+          "link": null
+        },
+        "notes": null
+      }
     },
     "death": {
       "date": {
@@ -18418,7 +18511,30 @@
         "notes": null
       }
     },
-    "places_of_effect": [],
+    "places_of_effect": [
+      {
+        "temporal": {
+          "label": "1874–1876"
+        },
+        "location": {
+          "id": "L1120000",
+          "label": "Herrnhut",
+          "link": "https://www.wikidata.org/wiki/Q165140"
+        },
+        "institution": {
+          "label": null
+        },
+        "occupation": {
+          "label": null
+        },
+        "source": {
+          "type": "Druck",
+          "id": "R0014000",
+          "label": "Carl Gotthelf Kern: Lebenslauf des verwitweten Bruders Carl Gotthelf Kern, heimgegangen in Herrnhut am 3. Mai 1899, in MadB 1899, S. 291-301",
+          "link": null
+        }
+      }
+    ],
     "moravian_curriculum_vitae": [
       {
         "id": "R0014000",
@@ -18503,6 +18619,24 @@
       "features": [
         {
           "type": "Feature",
+          "featureType": "birth",
+          "time": {
+            "date": "1817-05-15"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              14.6819,
+              51.0783
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q1279755",
+            "place_name": "Ebersdorf"
+          }
+        },
+        {
+          "type": "Feature",
           "featureType": "death",
           "time": {
             "date": "1899-05-03"
@@ -18517,6 +18651,29 @@
           "properties": {
             "location_wikidata": "https://www.wikidata.org/wiki/Q165140",
             "place_name": "Herrnhut"
+          }
+        },
+        {
+          "type": "Feature",
+          "featureType": "place_of_effect",
+          "time": {
+            "interval": [
+              "1874",
+              "1876"
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              14.741666666,
+              51.016666666
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q165140",
+            "place_name": "Herrnhut",
+            "institution": null,
+            "occupation": null
           }
         }
       ]
@@ -18542,10 +18699,7 @@
         "label": "Otto Bernhard",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -18649,10 +18803,7 @@
         "label": "Johann Gottfried",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -18756,10 +18907,7 @@
         "label": "Samuel Petrus",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -18873,10 +19021,7 @@
         "label": "Charles",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -18982,10 +19127,7 @@
         "label": "Heinrich August",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -19110,10 +19252,7 @@
         "label": "Kaspar",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": "auch Koegel |Henry A. Koegel wirkte 1875 in Grönland in Lichtenau (https://dai.mun.ca/PDFs/cns_tools/TheMissionaryManualandDirectory1875.pdf, S. 15)"
     },
     "member_of_moravians": [],
@@ -19351,10 +19490,7 @@
         "label": "Johannes",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -19486,10 +19622,7 @@
         "label": "?",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": "Henry A. Koegel wirkte 1875 in Grönland in Lichtenau (https://dai.mun.ca/PDFs/cns_tools/TheMissionaryManualandDirectory1875.pdf, S. 15)"
     },
     "member_of_moravians": [],
@@ -19607,10 +19740,7 @@
         "label": "Benjamin Gottlieb",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -19817,10 +19947,7 @@
         "label": "Friedrich Wilhelm",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -19897,7 +20024,7 @@
             "type": "Druck",
             "id": "R0009800",
             "label": "Carl Schubert: \"Die Flora von Gnadenfeld\", in: Der Oberschlesier 14 (1932), Nr. 6, S. 353-356.",
-            "link": null
+            "link": "https://sbc.org.pl/de/dlibra/publication/15703"
           }
         }
       ],
@@ -20012,10 +20139,7 @@
         "label": "Heinrich August",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -20116,10 +20240,7 @@
         "label": "Carl Rudolph/Rudolf",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -20202,7 +20323,7 @@
             "type": "Druck",
             "id": "R0009800",
             "label": "Carl Schubert: \"Die Flora von Gnadenfeld\", in: Der Oberschlesier 14 (1932), Nr. 6, S. 353-356.",
-            "link": null
+            "link": "https://sbc.org.pl/de/dlibra/publication/15703"
           }
         }
       ],
@@ -20317,10 +20438,7 @@
         "label": "J. F. (eventuell Friedrich Ludwig)",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -20421,10 +20539,7 @@
         "label": "Johannes Theodor",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -20438,7 +20553,7 @@
     },
     "death": {
       "date": {
-        "label": "6789?",
+        "label": "6789 (unsicher)",
         "source": null,
         "notes": null
       },
@@ -20525,10 +20640,7 @@
         "label": "Herbert Alexander",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -20625,10 +20737,7 @@
         "label": "Heinrich",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -20740,10 +20849,7 @@
         "label": "Herbert",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -20841,10 +20947,7 @@
         "label": "Volkhardt",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -20949,10 +21052,7 @@
         "label": "Samuel Gottlieb",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -21113,10 +21213,7 @@
         "label": "C. F.",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -21226,10 +21323,7 @@
         "label": "Ferdinand",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -21541,10 +21635,7 @@
         "label": "Johann Friedrich Wilhelm",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -21656,10 +21747,7 @@
         "label": "Wilhelm Theodor",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -21764,10 +21852,7 @@
         "label": "Christian Theodor",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -21876,10 +21961,7 @@
         "label": "Franz",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -21999,10 +22081,7 @@
         "label": "Charles Joseph",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -22124,10 +22203,7 @@
         "label": "Christian Ignatius",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -22242,10 +22318,7 @@
         "label": "Christian Friedrich",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -22350,35 +22423,77 @@
         "label": "Emma Augusta",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": null,
-        "source": null,
+        "label": "28. August 1841",
+        "source": {
+          "type": "Manuskript",
+          "id": "M0043000",
+          "label": "Lehman, Emma Augusta",
+          "link": "https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/lehman-emma-augusta/27587",
+          "signature": "Lehman, Emma Augusta",
+          "archive": "Moravian Archives Southern Province"
+        },
         "notes": null
       },
       "location": {
+        "id": "L0315000",
+        "label": "Bethania",
+        "link": "https://www.wikidata.org/wiki/Q831168",
+        "source": {
+          "type": "Manuskript",
+          "id": "M0043000",
+          "label": "Lehman, Emma Augusta",
+          "link": "https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/lehman-emma-augusta/27587",
+          "signature": "Lehman, Emma Augusta",
+          "archive": "Moravian Archives Southern Province"
+        },
         "notes": null
       }
     },
     "death": {
       "date": {
-        "label": null,
-        "source": null,
+        "label": "6. November 1922",
+        "source": {
+          "type": "Manuskript",
+          "id": "M0043000",
+          "label": "Lehman, Emma Augusta",
+          "link": "https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/lehman-emma-augusta/27587",
+          "signature": "Lehman, Emma Augusta",
+          "archive": "Moravian Archives Southern Province"
+        },
         "notes": null
       },
       "location": {
+        "id": "L2270000",
+        "label": "Salem",
+        "link": null,
+        "source": {
+          "type": "Manuskript",
+          "id": "M0043000",
+          "label": "Lehman, Emma Augusta",
+          "link": "https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/lehman-emma-augusta/27587",
+          "signature": "Lehman, Emma Augusta",
+          "archive": "Moravian Archives Southern Province"
+        },
         "notes": null
       }
     },
     "places_of_effect": [],
-    "moravian_curriculum_vitae": [],
+    "moravian_curriculum_vitae": [
+      {
+        "id": "M0043000",
+        "label": "Lehman, Emma Augusta",
+        "link": "https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/lehman-emma-augusta/27587",
+        "signature": "Lehman, Emma Augusta",
+        "archive": "Moravian Archives Southern Province",
+        "source": null
+      }
+    ],
     "relatives": {
       "siblings": [],
       "spouses": [],
@@ -22392,7 +22507,19 @@
     "botany": {
       "focuses": [],
       "contribution_to_collections": {
-        "object_evidence": [],
+        "object_evidence": [
+          {
+            "id": "C-BPI",
+            "label": "Herbarium U.S. National Fungus Collections",
+            "link": null,
+            "nybg_herbarium_code": "BPI",
+            "holding_institutions": [],
+            "source": {
+              "type": "Web",
+              "label": "https://mycoportal.org/portal/collections/individual/index.php?occid=1193446"
+            }
+          }
+        ],
         "database_evidence": [],
         "literature_evidence": [],
         "notes": "https://cdm15321.contentdm.oclc.org/digital/collection/p16188coll10/search"
@@ -22438,7 +22565,26 @@
       "conformsTo": [
         "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
       ],
-      "features": []
+      "features": [
+        {
+          "type": "Feature",
+          "featureType": "birth",
+          "time": {
+            "date": "1841-08-28"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -80.33811,
+              36.18236
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q831168",
+            "place_name": "Bethania"
+          }
+        }
+      ]
     }
   },
   {
@@ -22461,10 +22607,7 @@
         "label": "Ernst",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -22582,10 +22725,7 @@
         "label": "Johannes",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -22723,10 +22863,7 @@
         "label": "Johann Christlieb",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -22831,10 +22968,7 @@
         "label": "Carl Albert",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -22968,25 +23102,43 @@
         "label": "Philipp Leopold",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
     "birth": {
       "date": {
         "label": "5. November 1815",
-        "source": null,
+        "source": {
+          "type": "Druck",
+          "id": "R0014100",
+          "label": "Leopold Martin & Paul Martin: , in Die Praxis der Naturgeschichte: ein vollständiges Lehrbuch über das Sammeln lebender und todter Naturkörper; deren Beobachtung, Erhaltung und Pflege im freien und gefangenen Zustand; Konservation, Präparation und Aufstellung in Sammlungen, Weimar 1886, 3. Auflage.",
+          "link": null
+        },
         "notes": null
       },
-      "location": null
+      "location": {
+        "id": "L1000000",
+        "label": "Gnadenberg",
+        "link": "https://www.wikidata.org/wiki/Q65162110",
+        "source": {
+          "type": "Druck",
+          "id": "R0014100",
+          "label": "Leopold Martin & Paul Martin: , in Die Praxis der Naturgeschichte: ein vollständiges Lehrbuch über das Sammeln lebender und todter Naturkörper; deren Beobachtung, Erhaltung und Pflege im freien und gefangenen Zustand; Konservation, Präparation und Aufstellung in Sammlungen, Weimar 1886, 3. Auflage.",
+          "link": null
+        },
+        "notes": null
+      }
     },
     "death": {
       "date": {
         "label": "7. März 1885",
-        "source": null,
+        "source": {
+          "type": "Druck",
+          "id": "R0014100",
+          "label": "Leopold Martin & Paul Martin: , in Die Praxis der Naturgeschichte: ein vollständiges Lehrbuch über das Sammeln lebender und todter Naturkörper; deren Beobachtung, Erhaltung und Pflege im freien und gefangenen Zustand; Konservation, Präparation und Aufstellung in Sammlungen, Weimar 1886, 3. Auflage.",
+          "link": null
+        },
         "notes": null
       },
       "location": null
@@ -23052,7 +23204,26 @@
       "conformsTo": [
         "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
       ],
-      "features": []
+      "features": [
+        {
+          "type": "Feature",
+          "featureType": "birth",
+          "time": {
+            "date": "1815-11-05"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              15.615833,
+              51.259167
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q65162110",
+            "place_name": "Gnadenberg"
+          }
+        }
+      ]
     }
   },
   {
@@ -23075,10 +23246,7 @@
         "label": "Carl Rudolf",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -23188,10 +23356,7 @@
         "label": "Johann Friedrich",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -23299,10 +23464,7 @@
         "label": "Johannes Gottfried",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -23462,10 +23624,7 @@
         "label": "Adolf",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -23504,7 +23663,16 @@
     "botany": {
       "focuses": [],
       "contribution_to_collections": {
-        "object_evidence": [],
+        "object_evidence": [
+          {
+            "id": "C-DR (https://dr.jacq.org/DR055236)",
+            "label": "[fallback value: C-DR (https://dr.jacq.org/DR055236)]",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
+          }
+        ],
         "database_evidence": [],
         "literature_evidence": [],
         "notes": null
@@ -23518,7 +23686,7 @@
           {
             "id": "R0009800",
             "label": "Carl Schubert: \"Die Flora von Gnadenfeld\", in: Der Oberschlesier 14 (1932), Nr. 6, S. 353-356.",
-            "link": null,
+            "link": "https://sbc.org.pl/de/dlibra/publication/15703",
             "source": null
           }
         ]
@@ -23580,10 +23748,7 @@
         "label": "Ferdinand",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": "in Pringle 1991 wird nur ein Jonathan Mentzel genannt"
     },
     "member_of_moravians": [],
@@ -23688,10 +23853,7 @@
         "label": "A.",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -23799,10 +23961,7 @@
         "label": "Johann Rudolf",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -23895,10 +24054,7 @@
         "label": "Jean Marc Antoine",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -23909,7 +24065,7 @@
           "type": "Druck",
           "id": "R0009800",
           "label": "Carl Schubert: \"Die Flora von Gnadenfeld\", in: Der Oberschlesier 14 (1932), Nr. 6, S. 353-356.",
-          "link": null
+          "link": "https://sbc.org.pl/de/dlibra/publication/15703"
         },
         "notes": null
       },
@@ -24014,10 +24170,7 @@
         "label": "Johann (Jan) August",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -24356,10 +24509,12 @@
         "label": null,
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": [
+        {
+          "label": null,
+          "source": null
+        }
+      ],
       "notes": null
     },
     "member_of_moravians": [],
@@ -24491,10 +24646,7 @@
         "label": "Heinrich Benno",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -24615,10 +24767,7 @@
         "label": "Albert",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -24723,10 +24872,7 @@
         "label": "R. (?)",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -24831,10 +24977,7 @@
         "label": "Heinrich Ferdinand",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -24943,10 +25086,7 @@
         "label": "Fritz",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -25046,10 +25186,7 @@
         "label": "David",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -25165,10 +25302,7 @@
         "label": "Christian Georg Andreas",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -25269,10 +25403,7 @@
         "label": "Christian Johann",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -25373,10 +25504,7 @@
         "label": "Friedrich Eugen",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -25478,10 +25606,7 @@
         "label": "Walter Whatley",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -25598,10 +25723,7 @@
         "label": "Johannes Renatus",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -25777,10 +25899,7 @@
         "label": "Christian Jacob",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -25879,10 +25998,7 @@
         "label": "Christian",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -25990,10 +26106,7 @@
         "label": "Friedich",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -26104,10 +26217,7 @@
         "label": "Levin Theodor",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -26294,10 +26404,7 @@
         "label": "Ernst Friedrich",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -26477,10 +26584,7 @@
         "label": "Wilhelm",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -26588,10 +26692,7 @@
         "label": "Philipp Christian Gottlieb",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -26735,10 +26836,7 @@
         "label": "Johann Karl August",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -26882,10 +26980,7 @@
         "label": "Samuel",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": "R0003600 \"Sam Ribbach\""
     },
     "member_of_moravians": [],
@@ -27000,10 +27095,7 @@
         "label": "Alfred",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -27105,10 +27197,7 @@
         "label": "August",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -27213,10 +27302,7 @@
         "label": "Augustin Gottlob",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -27317,10 +27403,7 @@
         "label": "Rudolph Ferdinand",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -27462,10 +27545,7 @@
         "label": "Friedrich Wilhelm",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -27567,10 +27647,7 @@
         "label": "Wilhelm Eugen",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -27673,10 +27750,7 @@
         "label": "Wilhelm Albert",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -27779,10 +27853,7 @@
         "label": "Friedrich Ernst Daniel",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -27895,10 +27966,7 @@
         "label": "Christian Andreas/Andrew",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -28052,10 +28120,7 @@
         "label": "Christian",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -28160,10 +28225,7 @@
         "label": "J.G.",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -28276,10 +28338,7 @@
         "label": "Immanuel Gottlieb",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -28401,10 +28460,7 @@
         "label": "Friedrich Adam",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -28582,6 +28638,114 @@
     }
   },
   {
+    "id": "P1480500",
+    "visible": null,
+    "name": {
+      "preferred": {
+        "label": "Franz Eccarius Schramm",
+        "source": null
+      },
+      "surname": {
+        "label": "Schramm",
+        "source": null
+      },
+      "birth_name": {
+        "label": null,
+        "source": null
+      },
+      "given_name": {
+        "label": "Franz Eccarius",
+        "source": null
+      },
+      "affixes": null,
+      "notes": null
+    },
+    "member_of_moravians": [],
+    "birth": {
+      "date": {
+        "label": "1873",
+        "source": null,
+        "notes": null
+      },
+      "location": {
+        "notes": null
+      }
+    },
+    "death": {
+      "date": {
+        "label": "1949",
+        "source": null,
+        "notes": null
+      },
+      "location": {
+        "notes": null
+      }
+    },
+    "places_of_effect": [],
+    "moravian_curriculum_vitae": [],
+    "relatives": {
+      "siblings": [],
+      "spouses": [],
+      "children": [],
+      "notes": null
+    },
+    "contact": {
+      "with_moravians": [],
+      "with_non_moravians": []
+    },
+    "botany": {
+      "focuses": [],
+      "contribution_to_collections": {
+        "object_evidence": [],
+        "database_evidence": [],
+        "literature_evidence": [],
+        "notes": null
+      },
+      "works": {
+        "manuscripts": [],
+        "printed": []
+      },
+      "citations": {
+        "in_botanical_works_by_others": []
+      }
+    },
+    "works": {
+      "without_botanical_context": []
+    },
+    "citations": {
+      "in_non_botanical_works_by_others": []
+    },
+    "links": {
+      "wikidata": {
+        "label": "https://www.wikidata.org/wiki/Q131450162",
+        "source": null
+      },
+      "gnd": {
+        "label": null,
+        "source": null
+      },
+      "factgrid": {
+        "label": null,
+        "source": null
+      },
+      "bionomia": {
+        "label": "https://bionomia.net/Q131450162",
+        "source": null
+      },
+      "saebi": {
+        "label": null,
+        "source": null
+      }
+    },
+    "life_trajectory": {
+      "type": "FeatureCollection",
+      "conformsTo": [
+        "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
+      ],
+      "features": []
+    }
+  },
+  {
     "id": "P1485000",
     "visible": false,
     "name": {
@@ -28601,10 +28765,7 @@
         "label": "Johann Chrostian Daniel",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": "seit 1791 Edler von Schreber |auch: Johann Christian Daniel von Schreber"
     },
     "member_of_moravians": [],
@@ -28708,10 +28869,7 @@
         "label": "Wilhelm Theodor",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": "Wilhelm Schulze"
     },
     "member_of_moravians": [],
@@ -28774,7 +28932,7 @@
           {
             "id": "R0009800",
             "label": "Carl Schubert: \"Die Flora von Gnadenfeld\", in: Der Oberschlesier 14 (1932), Nr. 6, S. 353-356.",
-            "link": null,
+            "link": "https://sbc.org.pl/de/dlibra/publication/15703",
             "source": null
           }
         ]
@@ -28836,10 +28994,7 @@
         "label": "Ludwig David von",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -28964,10 +29119,7 @@
         "label": "Michael Christian",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -29091,10 +29243,7 @@
         "label": "Margarethe Sophia",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -29212,10 +29361,7 @@
         "label": "Martin/Mjertyn",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -29353,10 +29499,7 @@
         "label": "Adolph/Adolf Gottlieb",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -29475,10 +29618,7 @@
         "label": "Henry",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -29600,10 +29740,7 @@
         "label": "Daniel",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -29716,10 +29853,7 @@
         "label": "Johannes Wilhelm",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -29884,10 +30018,7 @@
         "label": "Adolf Ferdinand",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -29901,7 +30032,7 @@
     },
     "death": {
       "date": {
-        "label": "6570?",
+        "label": "6570 (unsicher)",
         "source": null,
         "notes": null
       },
@@ -30007,10 +30138,7 @@
         "label": "Friedrich August Ludwig",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -30114,10 +30242,12 @@
         "label": "Johann Friedrich Ferdinand",
         "source": null
       },
-      "title": {
-        "label": "Dr.",
-        "source": null
-      },
+      "affixes": [
+        {
+          "label": "Dr.",
+          "source": null
+        }
+      ],
       "notes": null
     },
     "member_of_moravians": [],
@@ -30276,10 +30406,7 @@
         "label": "Johann Friedrich David",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [
@@ -30496,10 +30623,7 @@
         "label": null,
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -30600,10 +30724,7 @@
         "label": "Franz Ferdinand/Francis F.",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [
@@ -30823,10 +30944,7 @@
         "label": "Heinrich Gottlieb",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -31039,10 +31157,7 @@
         "label": "Gustav Adolf",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -31167,10 +31282,12 @@
         "label": "Ernst Friedrich",
         "source": null
       },
-      "title": {
-        "label": "Dr.",
-        "source": null
-      },
+      "affixes": [
+        {
+          "label": "Dr.",
+          "source": null
+        }
+      ],
       "notes": null
     },
     "member_of_moravians": [],
@@ -31276,10 +31393,7 @@
         "label": "Bertram",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -31380,10 +31494,7 @@
         "label": "Kuno",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -31489,10 +31600,7 @@
         "label": "Otto",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -31631,10 +31739,7 @@
         "label": "August Gotthold",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -31742,10 +31847,7 @@
         "label": "John William",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": "fälschlich \"Berbeek\" in R0006700 |in GND fälschlich als Jacob Wilhelm Verbeek"
     },
     "member_of_moravians": [],
@@ -31977,10 +32079,7 @@
         "label": "J.",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -32093,10 +32192,7 @@
         "label": "Jacob",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -32500,10 +32596,7 @@
         "label": "Mare Jerémie",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -32607,10 +32700,7 @@
         "label": "Matthäus",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -32850,10 +32940,7 @@
         "label": "Friedrich Thomas",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -33094,10 +33181,7 @@
         "label": "Auguste",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -33222,10 +33306,7 @@
         "label": "Charlotte Friederike",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -33350,10 +33431,7 @@
         "label": "Samuel",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -33595,10 +33673,7 @@
         "label": "Eduard",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -33948,7 +34023,7 @@
           {
             "id": "R0009800",
             "label": "Carl Schubert: \"Die Flora von Gnadenfeld\", in: Der Oberschlesier 14 (1932), Nr. 6, S. 353-356.",
-            "link": null,
+            "link": "https://sbc.org.pl/de/dlibra/publication/15703",
             "source": null
           }
         ]
@@ -34231,10 +34306,7 @@
         "label": "Max",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -34253,7 +34325,7 @@
           "type": "Druck",
           "id": "R0009800",
           "label": "Carl Schubert: \"Die Flora von Gnadenfeld\", in: Der Oberschlesier 14 (1932), Nr. 6, S. 353-356.",
-          "link": null
+          "link": "https://sbc.org.pl/de/dlibra/publication/15703"
         },
         "notes": null
       },
@@ -34369,10 +34441,7 @@
         "label": "Christian Gottfried",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -34416,7 +34485,7 @@
             "type": "Druck",
             "id": "R0009800",
             "label": "Carl Schubert: \"Die Flora von Gnadenfeld\", in: Der Oberschlesier 14 (1932), Nr. 6, S. 353-356.",
-            "link": null
+            "link": "https://sbc.org.pl/de/dlibra/publication/15703"
           }
         }
       ],
@@ -34490,10 +34559,7 @@
         "label": "Gustav",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -34601,10 +34667,7 @@
         "label": "Gottfried David",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -34741,10 +34804,7 @@
         "label": "Christian Jacob",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -34875,10 +34935,7 @@
         "label": "Francis",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -34989,10 +35046,7 @@
         "label": "Heinrich Rudolf",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -35721,10 +35775,7 @@
         "label": "Christian Carl",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -35899,10 +35950,7 @@
         "label": "Dr. Herrmann Adolf",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -36004,10 +36052,7 @@
         "label": "Heinrich August",
         "source": null
       },
-      "title": {
-        "label": null,
-        "source": null
-      },
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],

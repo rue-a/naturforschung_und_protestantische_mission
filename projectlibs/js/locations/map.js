@@ -9,15 +9,15 @@ const LOC_ASSETS = "../assets";
 const LABEL_MIN_ZOOM = 7;
 
 /**
- * Marker style based on a normalised importance value t ∈ [0, 1].
+ * Marker style based on a normalised events value t ∈ [0, 1].
  * Radius scales with √t from 4 to 14 px.
- * Hue interpolates from 210° (blue) → 20° (orange-red) as importance rises.
- * Zero-importance locations are rendered in a neutral grey.
+ * Hue interpolates from 210° (blue) → 20° (orange-red) as events rises.
+ * Zero-events locations are rendered in a neutral grey.
  * @param {number} score
  * @param {number} maxScore
  * @returns {{ radius: number, fillColor: string, color: string, labelColor: string }}
  */
-function _importanceMarkerStyle(score, maxScore) {
+function _eventsMarkerStyle(score, maxScore) {
 	if (score === 0 || maxScore === 0) {
 		return {
 			radius: 4,
@@ -141,7 +141,7 @@ function updateLabels(markers, show) {
  */
 function buildSidebarContent(props, featureId) {
 	const name = props.name ?? featureId;
-	const imp = props.importance ?? {};
+	const imp = props.events ?? {};
 	const births = imp.births ?? [];
 	const deaths = imp.deaths ?? [];
 	const poe = imp.places_of_effect ?? [];

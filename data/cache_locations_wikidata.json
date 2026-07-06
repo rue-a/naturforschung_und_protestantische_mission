@@ -553,5 +553,32 @@
     "start": null,
     "end": null,
     "founder": null
+  },
+  "Q831168": {
+    "coordinates": {
+      "lat": 36.18236,
+      "lon": -80.33811
+    },
+    "start": "1759-01-01T00:00:00Z",
+    "end": null,
+    "founder": null
+  },
+  "Q1279755": {
+    "coordinates": {
+      "lat": 51.0783,
+      "lon": 14.6819
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q84": {
+    "coordinates": {
+      "lat": 51.507222222,
+      "lon": -0.1275
+    },
+    "start": "0047-01-01T00:00:00Z",
+    "end": null,
+    "founder": null
   }
 }

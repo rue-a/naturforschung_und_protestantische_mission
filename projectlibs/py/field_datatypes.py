@@ -21,19 +21,36 @@ _DE_MONTHS = [
 
 def _fmt_date(val: str) -> str:
     """Format an ISO 8601-2 date string into German notation."""
-    parts = str(val).split("-")
+
+    # ISO 8601-2 qualifier markers: ? (uncertain), ~ (approximate), % (both)
+    raw = str(val)
+    has_question = "?" in raw
+    has_tilde = "~" in raw
+    has_percent = "%" in raw
+
+    if has_percent or (has_question and has_tilde):
+        qualifier = " (geschätzt und unsicher)"
+    elif has_tilde:
+        qualifier = " (geschätzt)"
+    elif has_question:
+        qualifier = " (unsicher)"
+    else:
+        qualifier = ""
+
+    cleaned = raw.replace("?", "").replace("~", "").replace("%", "")
+    parts = cleaned.split("-")
     try:
         if len(parts) == 3:
             m = int(parts[1])
             if 1 <= m <= 12:
-                return f"{int(parts[2])}. {_DE_MONTHS[m]} {parts[0]}"
+                return f"{int(parts[2])}. {_DE_MONTHS[m]} {parts[0]}{qualifier}"
         elif len(parts) == 2:
             m = int(parts[1])
             if 1 <= m <= 12:
-                return f"{_DE_MONTHS[m]} {parts[0]}"
+                return f"{_DE_MONTHS[m]} {parts[0]}{qualifier}"
     except (ValueError, IndexError):
         pass
-    return val
+    return f"{cleaned}{qualifier}"
 
 
 def clean_field(raw: str) -> str:
@@ -269,8 +286,12 @@ class ISO8601_2_Temporal(AttestableDatatype):
         """Return a human-readable German representation."""
 
     @abstractmethod
-    def iso_string(self) -> str | None:
-        """Return a machine readable ISO8601 string"""
+    def iso8601_1_string(self) -> str | None:
+        """Return a machine readable ISO8601-1 string"""
+    
+    @abstractmethod
+    def iso8601_2_string(self) -> str | None:
+        """Return a machine readable ISO8601-2 string"""
 
 
 class ISO8601_2_Date(ISO8601_2_Temporal):
@@ -286,7 +307,13 @@ class ISO8601_2_Date(ISO8601_2_Temporal):
         d = getattr(self, "date", None)
         return _fmt_date(d) if d else None
 
-    def iso_string(self) -> str | None:
+    def iso8601_1_string(self) -> str | None:
+        d =getattr(self, "date", None)
+        if not d: return None
+        d_truncated = d.replace("?", "").replace("~", "").replace("%", "")
+        return d_truncated
+
+    def iso8601_2_string(self) -> str | None:
         return getattr(self, "date", None)
 
     def to_dict(self, registry=None) -> dict:
@@ -309,8 +336,8 @@ class ISO8601_2_Period(ISO8601_2_Temporal):
             self.end = ISO8601_2_Date(end)
 
     def formatted(self) -> str | None:
-        start = getattr(getattr(self, "start", None), "date", None)
-        end = getattr(getattr(self, "end", None), "date", None)
+        start = getattr(self, "start", None)
+        end = getattr(self, "end", None)
         if start and end:
             return f"{_fmt_date(start)}–{_fmt_date(end)}"
         if start:
@@ -319,9 +346,18 @@ class ISO8601_2_Period(ISO8601_2_Temporal):
             return _fmt_date(end)
         return None
 
-    def iso_string(self) -> str | None:
-        start = getattr(getattr(self, "start", None), "date", None)
-        end = getattr(getattr(self, "end", None), "date", None)
+    def iso8601_1_string(self) -> str | None:
+        start = getattr(self, "start", None)
+        if start: start=start.iso8601_1_string()
+        end = getattr(self, "end", None)
+        if end: end = end.iso8601_1_string()
+        if start or end:
+            return f"{start or ''}/{end or ''}"
+        return None
+    
+    def iso8601_2_string(self) -> str | None:
+        start = getattr(self, "start", None)
+        end = getattr(self, "end", None)
         if start or end:
             return f"{start or ''}/{end or ''}"
         return None

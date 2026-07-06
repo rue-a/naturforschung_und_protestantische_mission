@@ -36,12 +36,12 @@ function setLocationIdInUrl(id) {
 }
 
 /**
- * Total importance score for a location: sum of persons born, died, or active there.
+ * Total events score for a location: sum of persons born, died, or active there.
  * @param {object} props  — feature.properties
  * @returns {number}
  */
-function _importanceScore(props) {
-	const imp = props.importance ?? {};
+function _eventsScore(props) {
+	const imp = props.events ?? {};
 	return (
 		(imp.births?.length ?? 0) +
 		(imp.deaths?.length ?? 0) +

@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 	const featureCollection = await loadLocations(LOCATIONS_DATA_URL);
 	const features = featureCollection.features ?? [];
 
-	const maxScore = Math.max(0, ...features.map((f) => _importanceScore(f.properties ?? {})));
+	const maxScore = Math.max(0, ...features.map((f) => _eventsScore(f.properties ?? {})));
 
 	const map = initMap();
 	const sidebar = document.getElementById("loc-sidebar");
@@ -25,8 +25,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 		if (!feature.geometry?.coordinates) continue;
 
 		const props = feature.properties ?? {};
-		const score = _importanceScore(props);
-		const markerStyle = _importanceMarkerStyle(score, maxScore);
+		const score = _eventsScore(props);
+		const markerStyle = _eventsMarkerStyle(score, maxScore);
 		const { marker, origStyle } = createMarker(feature, markerStyle);
 
 		marker.on("click", (e) => {

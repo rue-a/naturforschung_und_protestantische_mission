@@ -89,8 +89,8 @@ class HerrnhutPerson(HerrnhutObject):
         self.name.given_name = self._parse_field(
             "Name - Vorname(n)", input_data["Name - Vorname(n)"], String
         )
-        self.name.title = self._parse_field(
-            "Name - Titel", input_data["Name - Titel"], String
+        self.name.affixes = self._parse_list_field(
+            "Name - Namenszusatz", input_data["Name - Namenszusatz"], String
         )
         self.name.notes = self._parse_field(
             "Name - Anmerkungen", input_data["Name - Anmerkungen"], String
@@ -336,7 +336,7 @@ class HerrnhutPerson(HerrnhutObject):
                 "given_name": self.name.given_name.to_dict(r)
                 if self.name.given_name
                 else None,
-                "title": self.name.title.to_dict(r) if self.name.title else None,
+                "affixes": [affix.to_dict(r) for affix in self.name.affixes] if self.name.affixes else None,
                 "notes": getattr(self.name.notes, "value", None),
             },
             "member_of_moravians": [
@@ -667,7 +667,7 @@ class HerrnhutLocation(HerrnhutObject):
         }
 
     @classmethod
-    def compute_importance(cls, persons: dict) -> dict[str, dict]:
+    def compute_events(cls, persons: dict) -> dict[str, dict]:
         """Return per-location person lists derived from all persons.
 
         For every HerrnhutPerson, three event types are tracked per location:
@@ -698,7 +698,8 @@ class HerrnhutLocation(HerrnhutObject):
                 result[birth_id]["births"].append(
                     {
                         **base,
-                        "date": date_obj.iso_string() if date_obj else None,
+                        "date": date_obj.iso8601_2_string() if date_obj else None,
+                        "date_label": date_obj.formatted() if date_obj else None,
                     }
                 )
                 seen_births[birth_id].add(pid)
@@ -711,7 +712,8 @@ class HerrnhutLocation(HerrnhutObject):
                 result[death_id]["deaths"].append(
                     {
                         **base,
-                        "date": date_obj.iso_string() if date_obj else None,
+                        "date": date_obj.iso8601_2_string() if date_obj else None,
+                        "date_label": date_obj.formatted() if date_obj else None,
                     }
                 )
                 seen_deaths[death_id].add(pid)
@@ -721,7 +723,12 @@ class HerrnhutLocation(HerrnhutObject):
                 if not place:
                     continue
                 temporal = (
-                    poe.temporal.iso_string()
+                    poe.temporal.iso8601_2_string()
+                    if getattr(poe, "temporal", None)
+                    else None
+                )
+                temporal_label = (
+                    poe.temporal.formatted()
                     if getattr(poe, "temporal", None)
                     else None
                 )
@@ -733,6 +740,7 @@ class HerrnhutLocation(HerrnhutObject):
                         {
                             **base,
                             "temporal": temporal,
+                            "temporal_label": temporal_label,
                             "institution": institution,
                             "occupation": occupation,
                         }
@@ -743,13 +751,13 @@ class HerrnhutLocation(HerrnhutObject):
 
     @classmethod
     def to_feature_collection(cls, locations: dict, registry, persons: dict) -> dict:
-        """Serialize all locations as a JSON-FG FeatureCollection with importance."""
-        importance = cls.compute_importance(persons)
+        """Serialize all locations as a JSON-FG FeatureCollection with events."""
+        events = cls.compute_events(persons)
         _zero = {"births": [], "deaths": [], "places_of_effect": []}
         features = []
         for loc in locations.values():
             feature = loc.to_dict(registry)
-            feature["properties"]["importance"] = importance.get(feature["id"], _zero)
+            feature["properties"]["events"] = events.get(feature["id"], _zero)
             features.append(feature)
         return {
             "type": "FeatureCollection",

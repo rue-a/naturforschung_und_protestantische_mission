@@ -215,10 +215,6 @@ UA NB.VI. 63,nr.2, S. 93`
 
 ### P0050000
 
-- [ ] **Zugehörigkeit Herrnhuter Brüdergemeine** (P0050000):
-  - Error Message: **`Provided string is not in codelist: ja`**
-  - Causing raw value: `ja`
-
 - [ ] **Wirkungsorte** (P0050000):
   - Error Message: **`LocationID must start with 'L': Niesky`**
   - Causing raw value: `; Niesky;; {R0006500} `
@@ -1776,6 +1772,10 @@ Naturgeschichte der Saigaantilope`
   - Error Message: **`Invalid work id: NEIN (should be R-ID, or M-ID)`**
   - Causing raw value: `NEIN`
 
+- [ ] **Kontakt - Mit Herrnhutern** (P0570000):
+  - Error Message: **`PersonID must start with 'P': sein Schwager war`**
+  - Causing raw value: `sein Schwager war `
+
 - [ ] **Erwähnungen der Person in Werken ohne botanischen Kontext durch Andere** (P0570000):
   - Error Message: **`Invalid work id: T. Küster: Register zur Flora von Herrnhut und Umgebung von Wilhelm Schultze, 1902, UA.NB.VI.63.nr.2, S. 93 (should be R-ID, or M-ID)`**
   - Causing raw value: `T. Küster: Register zur Flora von Herrnhut und Umgebung von Wilhelm Schultze, 1902, UA.NB.VI.63.nr.2, S. 93 `
@@ -1854,12 +1854,6 @@ Barber: Flora der Oberlausitz (1898) `
 - [ ] **Herrnhuter Lebenslauf** (P0615000):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
-
-### P0620000
-
-- [ ] **Wirkungsorte** (P0620000):
-  - Error Message: **`Expected 4 parts, got 1: Labrador`**
-  - Causing raw value: `Labrador`
 
 ### P0630000
 
@@ -2272,10 +2266,6 @@ Im Funkenachlass DD |_
 
 ### P0760000
 
-- [ ] **Links - Bionomia** (P0760000):
-  - Error Message: **`URL is not valid: einige Belege unter seinem Namen eingegeben, er aber wohl nur Überträger?`**
-  - Causing raw value: `einige Belege unter seinem Namen eingegeben, er aber wohl nur Überträger?`
-
 - [ ] **Herrnhuter Lebenslauf** (P0760000):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
   - Causing raw value: `offen`
@@ -2430,9 +2420,10 @@ Matthias Schönhofer: Letters from an American Botanist: The Correspondences of 
   - Error Message: **`Provided string is not in codelist: ja`**
   - Causing raw value: `ja`
 
-- [ ] **Geburt - Ort** (P0835000):
-  - Error Message: **`LocationID must start with 'L': Ebersdorf bei Löbau`**
-  - Causing raw value: `Ebersdorf bei Löbau {R0014000}`
+- [ ] **Wirkungsorte** (P0835000):
+  - Error Message: **`Invalid format for LocationID: L1200000/L1110000/L2100000`**
+  - Causing raw value: `1850/1874; L1200000/L1110000/L2100000; Missionsstation; Missionar {R0014000} `
+  - Full field: _1850/1874; L1200000/L1110000/L2100000; Missionsstation; Missionar {R0014000} | 1874/1876; L1120000; ; {R0014000} |_
 
 - [ ] **Botanik - Beitrag zu Sammlungen (Objektnachweis)** (P0835000):
   - Error Message: **`Invalid Reference Document value: https://data.nhm.ac.uk/object/abba5040-0f30-436f-9d0b-a8364f63db07/1780304495491} C-K {http://specimens.kew.org/Herbarium/K006106805 (should be URL, R-ID, or M-ID)`**
@@ -3033,6 +3024,10 @@ Neudietendorf, Apotheker_
   - Causing raw value: `England
 Australien`
 
+- [ ] **Herrnhuter Lebenslauf** (P1036000):
+  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
+  - Causing raw value: `offen`
+
 - [ ] **Kontakt - Mit Herrnhutern** (P1036000):
   - Error Message: **`PersonID must start with 'P': Steinhauer, H.`**
   - Causing raw value: `Steinhauer, H. `
@@ -3074,12 +3069,26 @@ Christian Ignatius Latrobe (Vater)_
 ### P1036500
 
 - [ ] **Wirkungsorte** (P1036500):
-  - Error Message: **`Expected 4 parts, got 1: Südafrika (Visitation)`**
-  - Causing raw value: `Südafrika (Visitation)`
+  - Error Message: **`Expected 4 parts, got 1: LondonSüdafrika (Visitation)`**
+  - Causing raw value: `London
+Südafrika (Visitation)`
+
+- [ ] **Herrnhuter Lebenslauf** (P1036500):
+  - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**
+  - Causing raw value: `offen`
+
+- [ ] **Kontakt - Mit Herrnhutern** (P1036500):
+  - Error Message: **`PersonID must start with 'P': Hänsel, Johann Gottfried`**
+  - Causing raw value: `Hänsel, Johann Gottfried `
+  - Full field: _Hänsel, Johann Gottfried |_
 
 - [ ] **Botanik - Druckwerke der Person** (P1036500):
   - Error Message: **`LiteratureID must start with 'R': Christian Ignatius Latrobe: Des Evangelischen Predigers C. I. Latrobe Tagebuch einer Besuch-Reise nach Süd-Afrika in den Jahren 1815 und 1816 : nebst einigen Nachrichten von den zur Mission der Brüder-Gemeine gehörigen Niederlassungen am Vorgebirge der guten Hoffnung ; Mit einem Titelkupfer / Aus dem Englischen übersetzt, für Deutsche Leser bearbeitet und mit einigen Anmerkungen versehen von Friedrich Hesse, evang. Prediger, hg. v. Hesse, Friedrich, Halle ; Berlin: Buchhandlung des Hallischen Waisenhauses 1820 (S. 319-336: "Anhang. Systematische Benennungen einiger in diesem Tagebuche erwähnten Capischen Thiere und Pflanzen, nebst kurzen zur Naturgeschichte derselben gehörigen Bemerkungen"; S. 337-353: "Von der Verpflanzung Europäischer und sndrer ausländischen Gewächse, nach dem Vorgebierge der guten Hoffnung in Süd=Afrika").`**
-  - Causing raw value: `Christian Ignatius Latrobe: [Tagebuch einer Besuchs-Reise nach Süd-Afrika in den Jahren 1815 und 1816] Des Evangelischen Predigers C. I. Latrobe Tagebuch einer Besuch-Reise nach Süd-Afrika in den Jahren 1815 und 1816 : nebst einigen Nachrichten von den zur Mission der Brüder-Gemeine gehörigen Niederlassungen am Vorgebirge der guten Hoffnung ; Mit einem Titelkupfer / Aus dem Englischen übersetzt, für Deutsche Leser bearbeitet und mit einigen Anmerkungen versehen von Friedrich Hesse, evang. Prediger, hg. v. Hesse, Friedrich, Halle ; Berlin: Buchhandlung des Hallischen Waisenhauses 1820 (S. 319-336: "Anhang. Systematische Benennungen einiger in diesem Tagebuche erwähnten Capischen Thiere und Pflanzen, nebst kurzen zur Naturgeschichte derselben gehörigen Bemerkungen"; S. 337-353: "Von der Verpflanzung Europäischer und sndrer ausländischen Gewächse, nach dem Vorgebierge der guten Hoffnung in Süd=Afrika").`
+  - Causing raw value: `Christian Ignatius Latrobe: [Tagebuch einer Besuchs-Reise nach Süd-Afrika in den Jahren 1815 und 1816] Des Evangelischen Predigers C. I. Latrobe Tagebuch einer Besuch-Reise nach Süd-Afrika in den Jahren 1815 und 1816 : nebst einigen Nachrichten von den zur Mission der Brüder-Gemeine gehörigen Niederlassungen am Vorgebirge der guten Hoffnung ; Mit einem Titelkupfer / Aus dem Englischen übersetzt, für Deutsche Leser bearbeitet und mit einigen Anmerkungen versehen von Friedrich Hesse, evang. Prediger, hg. v. Hesse, Friedrich, Halle ; Berlin: Buchhandlung des Hallischen Waisenhauses 1820 (S. 319-336: "Anhang. Systematische Benennungen einiger in diesem Tagebuche erwähnten Capischen Thiere und Pflanzen, nebst kurzen zur Naturgeschichte derselben gehörigen Bemerkungen"; S. 337-353: "Von der Verpflanzung Europäischer und sndrer ausländischen Gewächse, nach dem Vorgebierge der guten Hoffnung in Süd=Afrika"). `
+
+- [ ] **Botanik - Druckwerke der Person** (P1036500):
+  - Error Message: **`LiteratureID must start with 'R': Johann Gottfried Hänsel: Letters on the Nicobar Islands, their natural Productions, and the Manners, Customs, and Superstitions of the Natives; With an Account of an Attempt made by the Church of the United Brethren, to convert them to Christianity. Admitted by the Rev. John Gottfried Haensel, (the only surviving Missionary) to the Rev. C. I. Latrobe, hg. v. Latrobe, Christian Ignatius, London: PRINTED FOR THE EDITOR, NO. 10, NEVIL'S COURT, FETTER LANE, BY W. M'DOWALL, PEMBERTON ROW 1812.`**
+  - Causing raw value: `Johann Gottfried Hänsel: Letters on the Nicobar Islands, their natural Productions, and the Manners, Customs, and Superstitions of the Natives; With an Account of an Attempt made by the Church of the United Brethren, to convert them to Christianity. Admitted by the Rev. John Gottfried Haensel, (the only surviving Missionary) to the Rev. C. I. Latrobe, hg. v. Latrobe, Christian Ignatius, London: PRINTED FOR THE EDITOR, NO. 10, NEVIL'S COURT, FETTER LANE, BY W. M'DOWALL, PEMBERTON ROW 1812. `
 
 ### P1040000
 
@@ -3097,9 +3106,15 @@ Christian Ignatius Latrobe (Vater)_
 
 ### P1044000
 
-- [ ] **Herrnhuter Lebenslauf** (P1044000):
-  - Error Message: **`Invalid work id: https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/lehman-emma-augusta/27587?item=48722 (should be R-ID, or M-ID)`**
-  - Causing raw value: `https://moravianarchivesdigital.quartexcollections.com/Documents/Detail/lehman-emma-augusta/27587?item=48722`
+- [ ] **Wirkungsorte** (P1044000):
+  - Error Message: **`Expected 4 parts, got 5: 1864-1916; L2270000; Salem Academy; Lehrerin;`**
+  - Causing raw value: `1864-1916; L2270000; Salem Academy; Lehrerin; {M0043000} `
+  - Full field: _1864-1916; L2270000; Salem Academy; Lehrerin; {M0043000} | 1916-1922;  L2270000;; {M0043000} _
+
+- [ ] **Wirkungsorte** (P1044000):
+  - Error Message: **`Cannot parse as date or period: '1916-1922'`**
+  - Causing raw value: ` 1916-1922;  L2270000;; {M0043000} `
+  - Full field: _1864-1916; L2270000; Salem Academy; Lehrerin; {M0043000} | 1916-1922;  L2270000;; {M0043000} _
 
 ### P1045000
 
@@ -3172,10 +3187,6 @@ ab 1889 Superintendet der LAbrador-Mission`
   - Causing raw value: `offen`
 
 ### P1080000
-
-- [ ] **Geburt - Ort** (P1080000):
-  - Error Message: **`LocationID must start with 'L': Gnadenberg`**
-  - Causing raw value: `Gnadenberg`
 
 - [ ] **Tod - Ort** (P1080000):
   - Error Message: **`LocationID must start with 'L': Stuttgard`**
@@ -4214,6 +4225,20 @@ zur Botanik: Jacques Cayouette; Stephen J. Darbyshire: "Taxa Described by Steude
   - Causing raw value: `1763 (Manuskript)/1775 (erster Druck):
 Flora von Barby`
 
+### P1480500
+
+- [ ] **Übernahme in Personenlexikon** (P1480500):
+  - Error Message: **`Provided string is not in codelist: offen/Kontrolle --> Anmerkung SW: im Findbuch UA gibt es eine Personalakte und einen LL zu einem Franz Eccarius Schramm`**
+  - Causing raw value: `offen/Kontrolle --> Anmerkung SW: im Findbuch UA gibt es eine Personalakte und einen LL zu einem Franz Eccarius Schramm`
+
+- [ ] **Zugehörigkeit Herrnhuter Brüdergemeine** (P1480500):
+  - Error Message: **`Provided string is not in codelist: offen muß geklärt werden!!`**
+  - Causing raw value: `offen muß geklärt werden!!`
+
+- [ ] **Botanik - Erwähnungen der Person in Werken mit botanischen Kontext durch Andere** (P1480500):
+  - Error Message: **`Invalid work id: Carlos Ossenbach: "ORCHIDS AND ORCHIDOLOGY IN CENTRAL AMERICA. 500 YEARS OF HISTORY", in: Lankesteriana 9 (2009), Nr. 1-2, S. 1-268, S. 173: "One of the few collections of Orchidaceae that we know from Nicaragua during this period is that of Franz Eccarius Schramm (1873-1949), a missionary of the Moravian Evangelical Church who in 1924 collected the type of Campylocentrum sullivannii Fawc. & Rendle (Schramm s.n., Costa de los Mosquitos)." (should be R-ID, or M-ID)`**
+  - Causing raw value: `Carlos Ossenbach: "ORCHIDS AND ORCHIDOLOGY IN CENTRAL AMERICA. 500 YEARS OF HISTORY", in: Lankesteriana 9 (2009), Nr. 1-2, S. 1-268, S. 173: "One of the few collections of Orchidaceae that we know from Nicaragua during this period is that of Franz Eccarius Schramm (1873-1949), a missionary of the Moravian Evangelical Church who in 1924 collected the type of Campylocentrum sullivannii Fawc. & Rendle (Schramm s.n., Costa de los Mosquitos)."`
+
 ### P1485000
 
 - [ ] **Zugehörigkeit Herrnhuter Brüdergemeine** (P1485000):
@@ -5049,8 +5074,8 @@ Labrador 1869 (laut Herbarbeleg DR087272); Matthäus Warmow war allerdings Missi
   - Causing raw value: `Herrnhut`
 
 - [ ] **Wirkungsorte** (P1690000):
-  - Error Message: **`Expected 4 parts, got 1: Labrador`**
-  - Causing raw value: `Labrador`
+  - Error Message: **`LocationID must start with 'L': Okak`**
+  - Causing raw value: `; Okak; Missionsstation; Missionar {R0010300}`
 
 - [ ] **Herrnhuter Lebenslauf** (P1690000):
   - Error Message: **`Invalid work id: offen (should be R-ID, or M-ID)`**

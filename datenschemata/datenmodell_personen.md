@@ -65,11 +65,17 @@ Vorname(n) der Person. Verschiedene Schreibweisen eines Namens sind durch `/` (o
 - `August Herrmann`
 - `Constantin/Konstantin Theodor`
 
-### Name - Titel
-*String*
+### Name - Namenszusatz
+*List of String*
 
-Namenszusätze der Personen. 
-- `Dr.`, `Junior`, `Professor`, `der Ältere`
+Etwaige Namenszusätze der Personen. Einschließlich aber nicht ausschließlich folgender möglicher Werte: `auf der`, `Baron von`, `Baronin von`, `D'`, `da`, `Da`, `de`, `De`, `de la`, `del`, `Del`, `di`, `Di`, `dos`, `Edle von`, `Edler von`, `El`, `Freifrau`, `Freifrau von`, `Freiherr`, `Freiherr von`, `Graf`, `Graf von`, `Gräfin`, `Gräfin von`, `jun.`, `La`, `Le`, `Lo`, `Mc`, `O'`, `Prinz von`, `Prinzessin von`, `sen.`, `van`, `van den`, `van der`, `vom`, `von`, `von der`, `zur`, `Al`.
+
+- `Dr.`
+- `Dr. | junior`
+- `von`
+- `Junior`
+- `Professor`
+- `der Ältere`
 
 ### Name - Anmerkungen
 *String*
@@ -102,13 +108,13 @@ Freitextfeld für Anmerkungen in Bezug auf die Angehörigen, z.B. Gründe für m
 
 | Code        | Beschreibung                                                                                                   |
 | ----------- | -------------------------------------------------------------------------------------------------------------- |
-| `ja-a`     | qua Geburt und Erziehung, in einer Herrnhuter Gemeinschaft bzw. von Herrnhuter Eltern geboren und aufgewachsen |
-| `ja-b`     | als Erwachsene aufgenommen, z.B. Konvertitien oder Missionierte |
-| `ja-c`     | Übernahme von kirchlichen Ämtern innerhalb der Brüdergemeine                                   |
-| `ja-d`     | Übernahme von Ämtern im Erziehungswesen der Brüdergemeine                                  |
-| `nein-a`   | ausgetreten                                                                                       |
-| `nein-b`   | aber wichtig im Netzwerk                                                                                       |
-| `nein-c`   | um Verwechslung auszuschließen                                                                                 |
+| `ja-a`      | qua Geburt und Erziehung, in einer Herrnhuter Gemeinschaft bzw. von Herrnhuter Eltern geboren und aufgewachsen |
+| `ja-b`      | als Erwachsene aufgenommen, z.B. Konvertitien oder Missionierte                                                |
+| `ja-c`      | Übernahme von kirchlichen Ämtern innerhalb der Brüdergemeine                                                   |
+| `ja-d`      | Übernahme von Ämtern im Erziehungswesen der Brüdergemeine                                                      |
+| `nein-a`    | ausgetreten                                                                                                    |
+| `nein-b`    | aber wichtig im Netzwerk                                                                                       |
+| `nein-c`    | um Verwechslung auszuschließen                                                                                 |
 | `unbekannt` | Zugehörigkeit kann nicht ausgeschlossen werden.                                                                |
 - `ja-a`
 - `nein-a | nein-b`
