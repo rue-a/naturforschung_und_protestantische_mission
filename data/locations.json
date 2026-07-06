@@ -40,7 +40,7 @@
               "name": "Johann Friedrich David Tietzen",
               "wikidata": "https://www.wikidata.org/wiki/Q137537242",
               "date": "1858-09-23",
-              "date_label": "23. September 1858"
+              "date_formatted": "23. September 1858"
             }
           ],
           "places_of_effect": [
@@ -49,7 +49,7 @@
               "name": "Jens Haven",
               "wikidata": "https://www.wikidata.org/wiki/Q15229504",
               "temporal": "1758/1762",
-              "temporal_label": "1758–1762",
+              "temporal_formatted": "1758–1762",
               "institution": "Missionsstation",
               "occupation": "Missionar"
             }
@@ -114,7 +114,7 @@
               "name": "Eduard Wenck",
               "wikidata": "https://www.wikidata.org/wiki/Q130386109",
               "temporal": "1848/1855",
-              "temporal_label": "1848–1855",
+              "temporal_formatted": "1848–1855",
               "institution": null,
               "occupation": null
             }
@@ -148,14 +148,14 @@
               "name": "Johann Jakob Bossart",
               "wikidata": "https://www.wikidata.org/wiki/Q55874791",
               "date": "1789-11-13",
-              "date_label": "13. November 1789"
+              "date_formatted": "13. November 1789"
             },
             {
               "id": "P1480000",
               "name": "Friedrich Adam Scholler",
               "wikidata": "https://www.wikidata.org/wiki/Q3087686",
               "date": "1785-04-03",
-              "date_label": "3. April 1785"
+              "date_formatted": "3. April 1785"
             }
           ],
           "places_of_effect": [
@@ -164,7 +164,7 @@
               "name": "Johann Baptist von Albertini",
               "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "temporal": "1785/1788",
-              "temporal_label": "1785–1788",
+              "temporal_formatted": "1785–1788",
               "institution": "Seminar",
               "occupation": "Schüler"
             },
@@ -173,7 +173,7 @@
               "name": "Johann Baptist von Albertini",
               "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "temporal": "1789/1796",
-              "temporal_label": "1789–1796",
+              "temporal_formatted": "1789–1796",
               "institution": "Pädagogium",
               "occupation": "Lehrer"
             },
@@ -182,7 +182,7 @@
               "name": "Johann Jakob Bossart",
               "wikidata": "https://www.wikidata.org/wiki/Q55874791",
               "temporal": "1749/1750",
-              "temporal_label": "1749–1750",
+              "temporal_formatted": "1749–1750",
               "institution": "Seminar",
               "occupation": null
             },
@@ -191,7 +191,7 @@
               "name": "Johann Jakob Bossart",
               "wikidata": "https://www.wikidata.org/wiki/Q55874791",
               "temporal": "1764/1766",
-              "temporal_label": "1764–1766",
+              "temporal_formatted": "1764–1766",
               "institution": null,
               "occupation": null
             },
@@ -200,7 +200,7 @@
               "name": "Johann Jakob Bossart",
               "wikidata": "https://www.wikidata.org/wiki/Q55874791",
               "temporal": "1766/1789",
-              "temporal_label": "1766–1789",
+              "temporal_formatted": "1766–1789",
               "institution": "Seminar",
               "occupation": "Lehrer u. Vorsteher"
             },
@@ -209,7 +209,7 @@
               "name": "Pierre Frederich Curie",
               "wikidata": "https://www.wikidata.org/wiki/Q21509659",
               "temporal": "1790/1795",
-              "temporal_label": "1790–1795",
+              "temporal_formatted": "1790–1795",
               "institution": "Padagogium",
               "occupation": null
             },
@@ -218,7 +218,7 @@
               "name": "Pierre Frederich Curie",
               "wikidata": "https://www.wikidata.org/wiki/Q21509659",
               "temporal": "1801",
-              "temporal_label": "1801",
+              "temporal_formatted": "1801",
               "institution": "Pädagogium",
               "occupation": "Lehrer"
             },
@@ -227,7 +227,7 @@
               "name": "Jacob van Vleck",
               "wikidata": "https://www.wikidata.org/wiki/Q102036028",
               "temporal": "1772/1775",
-              "temporal_label": "1772–1775",
+              "temporal_formatted": "1772–1775",
               "institution": "Seminar",
               "occupation": "Student"
             },
@@ -236,7 +236,7 @@
               "name": "Jacob van Vleck",
               "wikidata": "https://www.wikidata.org/wiki/Q102036028",
               "temporal": "1778",
-              "temporal_label": "1778",
+              "temporal_formatted": "1778",
               "institution": null,
               "occupation": null
             }
@@ -269,14 +269,14 @@
               "name": "Johann Jakob Bossart",
               "wikidata": "https://www.wikidata.org/wiki/Q55874791",
               "date": "1721-04-17",
-              "date_label": "17. April 1721"
+              "date_formatted": "17. April 1721"
             },
             {
               "id": "P0225000",
               "name": "Anna Pauline Breutel",
               "wikidata": null,
               "date": "1836-03-28",
-              "date_label": "28. März 1836"
+              "date_formatted": "28. März 1836"
             }
           ],
           "deaths": [],
@@ -286,7 +286,7 @@
               "name": "Johann Jakob Bossart",
               "wikidata": "https://www.wikidata.org/wiki/Q55874791",
               "temporal": "1736/1739",
-              "temporal_label": "1736–1739",
+              "temporal_formatted": "1736–1739",
               "institution": "Universität",
               "occupation": "Student"
             }
@@ -319,7 +319,7 @@
               "name": "Friedrich Adam Scholler",
               "wikidata": "https://www.wikidata.org/wiki/Q3087686",
               "date": "1718-12-26",
-              "date_label": "26. Dezember 1718"
+              "date_formatted": "26. Dezember 1718"
             }
           ],
           "deaths": [],
@@ -357,7 +357,7 @@
               "name": "Emma Augusta Lehman",
               "wikidata": "https://www.wikidata.org/wiki/Q98316236",
               "date": "1841-08-28",
-              "date_label": "28. August 1841"
+              "date_formatted": "28. August 1841"
             }
           ],
           "deaths": [],
@@ -384,7 +384,7 @@
               "name": "Carl Heinrich Götz",
               "wikidata": "https://www.wikidata.org/wiki/Q140042768",
               "date": "1819-04-01",
-              "date_label": "1. April 1819"
+              "date_formatted": "1. April 1819"
             }
           ],
           "deaths": [],
@@ -412,7 +412,7 @@
               "name": "Dr. August Herrmann Francke",
               "wikidata": "https://www.wikidata.org/wiki/Q2870936",
               "date": "1930-02-16",
-              "date_label": "16. Februar 1930"
+              "date_formatted": "16. Februar 1930"
             }
           ],
           "places_of_effect": []
@@ -449,14 +449,14 @@
               "name": "Maria Dorothee Emilie Baer",
               "wikidata": "https://www.wikidata.org/wiki/Q135313974",
               "date": "1835-11-24",
-              "date_label": "24. November 1835"
+              "date_formatted": "24. November 1835"
             },
             {
               "id": "P0224000",
               "name": "Johannes Emil Breutel",
               "wikidata": "https://www.wikidata.org/wiki/Q135294826",
               "date": "1833-05-17",
-              "date_label": "17. Mai 1833"
+              "date_formatted": "17. Mai 1833"
             }
           ],
           "deaths": [
@@ -465,42 +465,42 @@
               "name": "Johann Baptist von Albertini",
               "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "date": "1831-12-06",
-              "date_label": "6. Dezember 1831"
+              "date_formatted": "6. Dezember 1831"
             },
             {
               "id": "P0300000",
               "name": "Pierre Frederich Curie",
               "wikidata": "https://www.wikidata.org/wiki/Q21509659",
               "date": "1855-02-10",
-              "date_label": "10. Februar 1855"
+              "date_formatted": "10. Februar 1855"
             },
             {
               "id": "P0890000",
               "name": "Friedrich Wilhelm Kölbing",
               "wikidata": "http://www.wikidata.org/entity/Q21517694",
               "date": "1850-05-24",
-              "date_label": "24. Mai 1850"
+              "date_formatted": "24. Mai 1850"
             },
             {
               "id": "P1320000",
               "name": "Levin Theodor Reichel",
               "wikidata": "https://www.wikidata.org/wiki/Q55127660",
               "date": "1878-05-23",
-              "date_label": "23. Mai 1878"
+              "date_formatted": "23. Mai 1878"
             },
             {
               "id": "P1330000",
               "name": "Ernst Friedrich Reichel",
               "wikidata": "https://www.wikidata.org/wiki/Q139581040",
               "date": "1878-06-19",
-              "date_label": "19. Juni 1878"
+              "date_formatted": "19. Juni 1878"
             },
             {
               "id": "P1750000",
               "name": "Heinrich Rudolf Wullschlägel",
               "wikidata": "https://www.wikidata.org/wiki/Q205828",
               "date": "1864-03-29",
-              "date_label": "29. März 1864"
+              "date_formatted": "29. März 1864"
             }
           ],
           "places_of_effect": [
@@ -509,7 +509,7 @@
               "name": "Johann Baptist von Albertini",
               "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "temporal": "1821",
-              "temporal_label": "1821",
+              "temporal_formatted": "1821",
               "institution": null,
               "occupation": "Mitglied Ältestenkonferenz"
             },
@@ -518,7 +518,7 @@
               "name": "Pierre Frederich Curie",
               "wikidata": "https://www.wikidata.org/wiki/Q21509659",
               "temporal": "1825/1855",
-              "temporal_label": "1825–1855",
+              "temporal_formatted": "1825–1855",
               "institution": null,
               "occupation": null
             },
@@ -527,7 +527,7 @@
               "name": "Heinrich Rudolf Wullschlägel",
               "wikidata": "https://www.wikidata.org/wiki/Q205828",
               "temporal": "1855/1858",
-              "temporal_label": "1855–1858",
+              "temporal_formatted": "1855–1858",
               "institution": null,
               "occupation": null
             }
@@ -565,14 +565,14 @@
               "name": "Christian Friedrich Denke",
               "wikidata": "https://www.wikidata.org/wiki/Q124060542",
               "date": "1775-09-08",
-              "date_label": "8. September 1775"
+              "date_formatted": "8. September 1775"
             },
             {
               "id": "P1320000",
               "name": "Levin Theodor Reichel",
               "wikidata": "https://www.wikidata.org/wiki/Q55127660",
               "date": "1812-03-04",
-              "date_label": "4. März 1812"
+              "date_formatted": "4. März 1812"
             }
           ],
           "deaths": [
@@ -581,7 +581,7 @@
               "name": "Jacob van Vleck",
               "wikidata": "https://www.wikidata.org/wiki/Q102036028",
               "date": "1831-07-03",
-              "date_label": "3. Juli 1831"
+              "date_formatted": "3. Juli 1831"
             }
           ],
           "places_of_effect": [
@@ -590,7 +590,7 @@
               "name": "Jacob van Vleck",
               "wikidata": "https://www.wikidata.org/wiki/Q102036028",
               "temporal": "1754/1763",
-              "temporal_label": "1754–1763",
+              "temporal_formatted": "1754–1763",
               "institution": "Knäbchenanstalt",
               "occupation": "Schüler"
             }
@@ -623,7 +623,7 @@
               "name": "Kaspar Kögel",
               "wikidata": "https://www.wikidata.org/wiki/Q139512822",
               "date": "1801-12-15",
-              "date_label": "15. Dezember 1801"
+              "date_formatted": "15. Dezember 1801"
             }
           ],
           "deaths": [],
@@ -710,7 +710,7 @@
               "name": "Franz Ferdinand Thrän",
               "wikidata": "https://www.wikidata.org/wiki/Q138779638",
               "date": "1791-07-08",
-              "date_label": "8. Juli 1791"
+              "date_formatted": "8. Juli 1791"
             }
           ],
           "deaths": [],
@@ -720,7 +720,7 @@
               "name": "Christian Gotthold Amende",
               "wikidata": null,
               "temporal": "1853/1879",
-              "temporal_label": "1853–1879",
+              "temporal_formatted": "1853–1879",
               "institution": null,
               "occupation": "(UA, Dienerblätter A-Bl, S. 68-69)"
             },
@@ -729,7 +729,7 @@
               "name": "Heinrich Rudolf Wullschlägel",
               "wikidata": "https://www.wikidata.org/wiki/Q205828",
               "temporal": "1829/1831",
-              "temporal_label": "1829–1831",
+              "temporal_formatted": "1829–1831",
               "institution": "Pädagogium",
               "occupation": "Lehrer"
             }
@@ -767,7 +767,7 @@
               "name": "Carl Gotthelf Kern",
               "wikidata": "https://www.wikidata.org/wiki/Q140030552",
               "date": "1817-05-15",
-              "date_label": "15. Mai 1817"
+              "date_formatted": "15. Mai 1817"
             }
           ],
           "deaths": [],
@@ -845,7 +845,7 @@
               "name": "Heinrich Rudolf Wullschlägel",
               "wikidata": "https://www.wikidata.org/wiki/Q205828",
               "temporal": "1847/1849",
-              "temporal_label": "1847–1849",
+              "temporal_formatted": "1847–1849",
               "institution": null,
               "occupation": null
             }
@@ -897,7 +897,7 @@
               "name": "Anna Sophia Breutel",
               "wikidata": "https://www.wikidata.org/wiki/Q125843987",
               "date": "1797-05-04",
-              "date_label": "4. Mai 1797"
+              "date_formatted": "4. Mai 1797"
             }
           ],
           "deaths": [],
@@ -957,7 +957,7 @@
               "name": "Eduard Wenck",
               "wikidata": "https://www.wikidata.org/wiki/Q130386109",
               "temporal": "1846/1848",
-              "temporal_label": "1846–1848",
+              "temporal_formatted": "1846–1848",
               "institution": null,
               "occupation": null
             }
@@ -999,7 +999,7 @@
               "name": "Philipp Leopold Martin",
               "wikidata": "https://www.wikidata.org/wiki/Q1640263",
               "date": "1815-11-05",
-              "date_label": "5. November 1815"
+              "date_formatted": "5. November 1815"
             }
           ],
           "deaths": [
@@ -1008,7 +1008,7 @@
               "name": "David Cranz",
               "wikidata": "https://www.wikidata.org/wiki/Q89872",
               "date": "1777-06-06",
-              "date_label": "6. Juni 1777"
+              "date_formatted": "6. Juni 1777"
             }
           ],
           "places_of_effect": [
@@ -1017,7 +1017,7 @@
               "name": "Johann Baptist von Albertini",
               "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "temporal": "1814",
-              "temporal_label": "1814",
+              "temporal_formatted": "1814",
               "institution": "Mädchenanstalt",
               "occupation": "Prediger, Lehrer"
             }
@@ -1067,7 +1067,7 @@
               "name": "Dr. August Herrmann Francke",
               "wikidata": "https://www.wikidata.org/wiki/Q2870936",
               "date": "1870-11-05",
-              "date_label": "5. November 1870"
+              "date_formatted": "5. November 1870"
             }
           ],
           "deaths": [],
@@ -1077,7 +1077,7 @@
               "name": "Johann Baptist von Albertini",
               "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "temporal": "1818",
-              "temporal_label": "1818",
+              "temporal_formatted": "1818",
               "institution": null,
               "occupation": "Prediger"
             },
@@ -1086,7 +1086,7 @@
               "name": "Ferdinand Kruth",
               "wikidata": "https://www.wikidata.org/wiki/Q139580407",
               "temporal": "1826",
-              "temporal_label": "1826",
+              "temporal_formatted": "1826",
               "institution": null,
               "occupation": null
             }
@@ -1124,7 +1124,7 @@
               "name": "Carl Heinrich Götz",
               "wikidata": "https://www.wikidata.org/wiki/Q140042768",
               "temporal": "1839",
-              "temporal_label": "1839",
+              "temporal_formatted": "1839",
               "institution": "Seminarium",
               "occupation": "Schüler"
             },
@@ -1133,7 +1133,7 @@
               "name": "Carl Heinrich Götz",
               "wikidata": "https://www.wikidata.org/wiki/Q140042768",
               "temporal": "1846",
-              "temporal_label": "1846",
+              "temporal_formatted": "1846",
               "institution": "Seminarium",
               "occupation": "Lehrer"
             },
@@ -1142,7 +1142,7 @@
               "name": "Eduard Wenck",
               "wikidata": "https://www.wikidata.org/wiki/Q130386109",
               "temporal": "1831/1833",
-              "temporal_label": "1831–1833",
+              "temporal_formatted": "1831–1833",
               "institution": "Theologisches Seminar",
               "occupation": "Student"
             },
@@ -1151,7 +1151,7 @@
               "name": "Heinrich Rudolf Wullschlägel",
               "wikidata": "https://www.wikidata.org/wiki/Q205828",
               "temporal": "1824/1826",
-              "temporal_label": "1824–1826",
+              "temporal_formatted": "1824–1826",
               "institution": "Seminar",
               "occupation": "Schüler"
             }
@@ -1195,7 +1195,7 @@
               "name": "Carl Rudolph Kölbing",
               "wikidata": "https://www.wikidata.org/wiki/Q55853813",
               "date": "1860-12-28",
-              "date_label": "28. Dezember 1860"
+              "date_formatted": "28. Dezember 1860"
             }
           ],
           "places_of_effect": [
@@ -1204,7 +1204,7 @@
               "name": "Johann (Jan) August Miertsching",
               "wikidata": "https://www.wikidata.org/wiki/Q29073400",
               "temporal": "1861/1869",
-              "temporal_label": "1861–1869",
+              "temporal_formatted": "1861–1869",
               "institution": "Missionsstation",
               "occupation": "Missionar"
             }
@@ -1256,7 +1256,7 @@
               "name": "Carl Gottfried Albrecht",
               "wikidata": "https://www.wikidata.org/wiki/Q132170167",
               "date": "1800",
-              "date_label": "1800"
+              "date_formatted": "1800"
             }
           ],
           "deaths": [],
@@ -1291,7 +1291,7 @@
               "name": "Johann Jakob Bossart",
               "wikidata": "https://www.wikidata.org/wiki/Q55874791",
               "temporal": "1750/1760",
-              "temporal_label": "1750–1760",
+              "temporal_formatted": "1750–1760",
               "institution": "Pädagogium",
               "occupation": "Lehrer"
             }
@@ -1349,7 +1349,7 @@
               "name": "Johann Gottfried Cunow",
               "wikidata": "https://www.wikidata.org/wiki/Q116215976",
               "date": "1758-01-04",
-              "date_label": "4. Januar 1758"
+              "date_formatted": "4. Januar 1758"
             }
           ],
           "deaths": [],
@@ -1376,7 +1376,7 @@
               "name": "Johannes Renatus Plitt",
               "wikidata": "https://www.wikidata.org/wiki/Q94819125",
               "date": "1778-01-13",
-              "date_label": "13. Januar 1778"
+              "date_formatted": "13. Januar 1778"
             }
           ],
           "deaths": [],
@@ -1499,28 +1499,28 @@
               "name": "Johann Heinrich Andresen",
               "wikidata": "https://www.wikidata.org/wiki/Q136230382",
               "date": "1761-05-19",
-              "date_label": "19. Mai 1761"
+              "date_formatted": "19. Mai 1761"
             },
             {
               "id": "P0050000",
               "name": "William Gustav Baer",
               "wikidata": "https://www.wikidata.org/wiki/Q55010392",
               "date": "1867-04-17",
-              "date_label": "17. April 1867"
+              "date_formatted": "17. April 1867"
             },
             {
               "id": "P0260000",
               "name": "Hugo Theodor Christoph",
               "wikidata": "https://www.wikidata.org/wiki/Q3814258",
               "date": "1831-04-16",
-              "date_label": "16. April 1831"
+              "date_formatted": "16. April 1831"
             },
             {
               "id": "P1700000",
               "name": "Eduard Wenck",
               "wikidata": "https://www.wikidata.org/wiki/Q130386109",
               "date": "1811-09-01",
-              "date_label": "1. September 1811"
+              "date_formatted": "1. September 1811"
             }
           ],
           "deaths": [
@@ -1529,70 +1529,70 @@
               "name": "Johann Heinrich Theodor Bourquin",
               "wikidata": null,
               "date": "5465",
-              "date_label": "5465"
+              "date_formatted": "5465"
             },
             {
               "id": "P0610000",
               "name": "Eugenius Hartwig",
               "wikidata": null,
               "date": "1879-12-28",
-              "date_label": "28. Dezember 1879"
+              "date_formatted": "28. Dezember 1879"
             },
             {
               "id": "P0620000",
               "name": "Jens Haven",
               "wikidata": "https://www.wikidata.org/wiki/Q15229504",
               "date": "1796-04-16",
-              "date_label": "16. April 1796"
+              "date_formatted": "16. April 1796"
             },
             {
               "id": "P0730000",
               "name": "Carl August Hirt",
               "wikidata": "https://www.wikidata.org/wiki/Q130358368",
               "date": "1878-05-16",
-              "date_label": "16. Mai 1878"
+              "date_formatted": "16. Mai 1878"
             },
             {
               "id": "P0820000",
               "name": "Heinrich August Jäschke",
               "wikidata": "http://www.wikidata.org/entity/Q64653",
               "date": "1883-09-24",
-              "date_label": "24. September 1883"
+              "date_formatted": "24. September 1883"
             },
             {
               "id": "P0835000",
               "name": "Carl Gotthelf Kern",
               "wikidata": "https://www.wikidata.org/wiki/Q140030552",
               "date": "1899-05-03",
-              "date_label": "3. Mai 1899"
+              "date_formatted": "3. Mai 1899"
             },
             {
               "id": "P1270000",
               "name": "Johannes Renatus Plitt",
               "wikidata": "https://www.wikidata.org/wiki/Q94819125",
               "date": "1841-07-29",
-              "date_label": "29. Juli 1841"
+              "date_formatted": "29. Juli 1841"
             },
             {
               "id": "P1506000",
               "name": "Martin Starick",
               "wikidata": "https://www.wikidata.org/wiki/Q139847900",
               "date": "1921-11-11",
-              "date_label": "11. November 1921"
+              "date_formatted": "11. November 1921"
             },
             {
               "id": "P1570000",
               "name": "Dr. Johann Friedrich Ferdinand Thalacker",
               "wikidata": "https://www.wikidata.org/wiki/Q140009970",
               "date": "1842-03-26",
-              "date_label": "26. März 1842"
+              "date_formatted": "26. März 1842"
             },
             {
               "id": "P1700000",
               "name": "Eduard Wenck",
               "wikidata": "https://www.wikidata.org/wiki/Q130386109",
               "date": "1896-03-22",
-              "date_label": "22. März 1896"
+              "date_formatted": "22. März 1896"
             }
           ],
           "places_of_effect": [
@@ -1601,7 +1601,7 @@
               "name": "Christian Gotthold Amende",
               "wikidata": null,
               "temporal": "1818/1853",
-              "temporal_label": "1818–1853",
+              "temporal_formatted": "1818–1853",
               "institution": null,
               "occupation": "(UA, Dienerblätter A-Bl, S. 68-69)"
             },
@@ -1610,7 +1610,7 @@
               "name": "Christian Gotthold Amende",
               "wikidata": null,
               "temporal": "1879/1899",
-              "temporal_label": "1879–1899",
+              "temporal_formatted": "1879–1899",
               "institution": null,
               "occupation": "(UA, Dienerblätter A-Bl, S. 68-69)"
             },
@@ -1619,7 +1619,7 @@
               "name": "Pierre Frederich Curie",
               "wikidata": "https://www.wikidata.org/wiki/Q21509659",
               "temporal": "1811",
-              "temporal_label": "1811",
+              "temporal_formatted": "1811",
               "institution": null,
               "occupation": null
             },
@@ -1628,7 +1628,7 @@
               "name": "Carl Heinrich Götz",
               "wikidata": "https://www.wikidata.org/wiki/Q140042768",
               "temporal": "1832",
-              "temporal_label": "1832",
+              "temporal_formatted": "1832",
               "institution": "Apotheke",
               "occupation": "Lehrling"
             },
@@ -1637,7 +1637,7 @@
               "name": "Jens Haven",
               "wikidata": "https://www.wikidata.org/wiki/Q15229504",
               "temporal": "1763/1764",
-              "temporal_label": "1763–1764",
+              "temporal_formatted": "1763–1764",
               "institution": null,
               "occupation": null
             },
@@ -1646,7 +1646,7 @@
               "name": "Jens Haven",
               "wikidata": "https://www.wikidata.org/wiki/Q15229504",
               "temporal": "1784/1796",
-              "temporal_label": "1784–1796",
+              "temporal_formatted": "1784–1796",
               "institution": null,
               "occupation": null
             },
@@ -1655,7 +1655,7 @@
               "name": "Carl Gotthelf Kern",
               "wikidata": "https://www.wikidata.org/wiki/Q140030552",
               "temporal": "1874/1876",
-              "temporal_label": "1874–1876",
+              "temporal_formatted": "1874–1876",
               "institution": null,
               "occupation": null
             },
@@ -1664,7 +1664,7 @@
               "name": "Eduard Wenck",
               "wikidata": "https://www.wikidata.org/wiki/Q130386109",
               "temporal": "1840/1841",
-              "temporal_label": "1840–1841",
+              "temporal_formatted": "1840–1841",
               "institution": "Ortsschule",
               "occupation": "Lehrer"
             },
@@ -1673,7 +1673,7 @@
               "name": "Eduard Wenck",
               "wikidata": "https://www.wikidata.org/wiki/Q130386109",
               "temporal": "1879/1896",
-              "temporal_label": "1879–1896",
+              "temporal_formatted": "1879–1896",
               "institution": null,
               "occupation": "{M0036000}"
             },
@@ -1682,7 +1682,7 @@
               "name": "Heinrich Rudolf Wullschlägel",
               "wikidata": "https://www.wikidata.org/wiki/Q205828",
               "temporal": "1831/1834",
-              "temporal_label": "1831–1834",
+              "temporal_formatted": "1831–1834",
               "institution": "Pädagogium",
               "occupation": "Lehrer"
             }
@@ -1709,7 +1709,7 @@
               "name": "Christian Friedrich Burkhardt",
               "wikidata": "https://www.wikidata.org/wiki/Q21506687",
               "date": "1785-01-06",
-              "date_label": "6. Januar 1785"
+              "date_formatted": "6. Januar 1785"
             }
           ],
           "deaths": [],
@@ -1748,7 +1748,7 @@
               "name": "Ferdinand Kruth",
               "wikidata": "https://www.wikidata.org/wiki/Q139580407",
               "date": "1863-12-31",
-              "date_label": "31. Dezember 1863"
+              "date_formatted": "31. Dezember 1863"
             }
           ],
           "places_of_effect": [
@@ -1757,7 +1757,7 @@
               "name": "Carl Gottfried Albrecht",
               "wikidata": "https://www.wikidata.org/wiki/Q132170167",
               "temporal": "1845/1852",
-              "temporal_label": "1845–1852",
+              "temporal_formatted": "1845–1852",
               "institution": "Missionar",
               "occupation": null
             },
@@ -1766,7 +1766,7 @@
               "name": "Jens Haven",
               "wikidata": "https://www.wikidata.org/wiki/Q15229504",
               "temporal": null,
-              "temporal_label": null,
+              "temporal_formatted": null,
               "institution": "Missionsstation",
               "occupation": "Missionar"
             },
@@ -1775,7 +1775,7 @@
               "name": "Ferdinand Kruth",
               "wikidata": "https://www.wikidata.org/wiki/Q139580407",
               "temporal": "1847",
-              "temporal_label": "1847",
+              "temporal_formatted": "1847",
               "institution": null,
               "occupation": "Missionar"
             }
@@ -1818,7 +1818,7 @@
               "name": "Gustav Rudolf Gysin",
               "wikidata": null,
               "date": "1889-10-08",
-              "date_label": "8. Oktober 1889"
+              "date_formatted": "8. Oktober 1889"
             }
           ],
           "places_of_effect": []
@@ -1869,14 +1869,14 @@
               "name": "Walter Theodor Bau",
               "wikidata": "https://www.wikidata.org/wiki/Q14193477",
               "date": "1888-01-29",
-              "date_label": "29. Januar 1888"
+              "date_formatted": "29. Januar 1888"
             },
             {
               "id": "P0800000",
               "name": "Christian Gottlieb Hüffel",
               "wikidata": "https://www.wikidata.org/wiki/Q112117739",
               "date": "1762",
-              "date_label": "1762"
+              "date_formatted": "1762"
             }
           ],
           "deaths": [
@@ -1885,28 +1885,28 @@
               "name": "Johann Michael Eberle",
               "wikidata": "https://www.wikidata.org/wiki/Q139961776",
               "date": "1859-01-16",
-              "date_label": "16. Januar 1859"
+              "date_formatted": "16. Januar 1859"
             },
             {
               "id": "P1100000",
               "name": "Johannes Gottfried Menze",
               "wikidata": "https://www.wikidata.org/wiki/Q134451423",
               "date": "1890-01-17",
-              "date_label": "17. Januar 1890"
+              "date_formatted": "17. Januar 1890"
             },
             {
               "id": "P1150000",
               "name": "Johann (Jan) August Miertsching",
               "wikidata": "https://www.wikidata.org/wiki/Q29073400",
               "date": "1875-03-30",
-              "date_label": "30. März 1875"
+              "date_formatted": "30. März 1875"
             },
             {
               "id": "P1680000",
               "name": "Matthäus Warmow",
               "wikidata": "https://www.wikidata.org/wiki/Q139710148",
               "date": "1898-03-20",
-              "date_label": "20. März 1898"
+              "date_formatted": "20. März 1898"
             }
           ],
           "places_of_effect": [
@@ -1915,7 +1915,7 @@
               "name": "Carl Gottfried Albrecht",
               "wikidata": "https://www.wikidata.org/wiki/Q132170167",
               "temporal": "1865/1888",
-              "temporal_label": "1865–1888",
+              "temporal_formatted": "1865–1888",
               "institution": null,
               "occupation": "(UA, Dienerblätter A-Bl, S. 53))"
             },
@@ -1924,7 +1924,7 @@
               "name": "Pierre Frederich Curie",
               "wikidata": "https://www.wikidata.org/wiki/Q21509659",
               "temporal": "1803",
-              "temporal_label": "1803",
+              "temporal_formatted": "1803",
               "institution": "Knabenanstalt",
               "occupation": "Lehrer"
             },
@@ -1933,7 +1933,7 @@
               "name": "Johann (Jan) August Miertsching",
               "wikidata": "https://www.wikidata.org/wiki/Q29073400",
               "temporal": "1832/1844",
-              "temporal_label": "1832–1844",
+              "temporal_formatted": "1832–1844",
               "institution": "Schuhmacherei",
               "occupation": null
             },
@@ -1942,7 +1942,7 @@
               "name": "Johann (Jan) August Miertsching",
               "wikidata": "https://www.wikidata.org/wiki/Q29073400",
               "temporal": "1869/1875",
-              "temporal_label": "1869–1875",
+              "temporal_formatted": "1869–1875",
               "institution": null,
               "occupation": null
             }
@@ -1980,7 +1980,7 @@
               "name": "Friedrich Thomas Weiler",
               "wikidata": "https://www.wikidata.org/wiki/Q139846701",
               "date": "1832-08-14",
-              "date_label": "14. August 1832"
+              "date_formatted": "14. August 1832"
             }
           ],
           "deaths": [
@@ -1989,7 +1989,7 @@
               "name": "Walter Theodor Bau",
               "wikidata": "https://www.wikidata.org/wiki/Q14193477",
               "date": "1967-06-09",
-              "date_label": "9. Juni 1967"
+              "date_formatted": "9. Juni 1967"
             }
           ],
           "places_of_effect": [
@@ -1998,7 +1998,7 @@
               "name": "Carl Heinrich Götz",
               "wikidata": "https://www.wikidata.org/wiki/Q140042768",
               "temporal": "1841/1842",
-              "temporal_label": "1841–1842",
+              "temporal_formatted": "1841–1842",
               "institution": "Knabenanstalt",
               "occupation": "Lehrer"
             }
@@ -2062,7 +2062,7 @@
               "name": "Kaspar Kögel",
               "wikidata": "https://www.wikidata.org/wiki/Q139512822",
               "date": "1862-10-19",
-              "date_label": "19. Oktober 1862"
+              "date_formatted": "19. Oktober 1862"
             }
           ],
           "places_of_effect": []
@@ -2103,7 +2103,7 @@
               "name": "Gustav Eduard Baer",
               "wikidata": "https://www.wikidata.org/wiki/Q135313956",
               "date": "1823-06-03",
-              "date_label": "3. Juni 1823"
+              "date_formatted": "3. Juni 1823"
             }
           ],
           "deaths": [],
@@ -2143,7 +2143,7 @@
               "name": "Jens Haven",
               "wikidata": "https://www.wikidata.org/wiki/Q15229504",
               "temporal": "1764",
-              "temporal_label": "1764",
+              "temporal_formatted": "1764",
               "institution": null,
               "occupation": null
             }
@@ -2172,7 +2172,7 @@
               "name": "Johann Jakob Bossart",
               "wikidata": "https://www.wikidata.org/wiki/Q55874791",
               "temporal": "1747/1749",
-              "temporal_label": "1747–1749",
+              "temporal_formatted": "1747–1749",
               "institution": "Seminar",
               "occupation": "Lehrer"
             }
@@ -2206,7 +2206,7 @@
               "name": "Gottfried David Wiemann",
               "wikidata": "https://www.wikidata.org/wiki/Q61037266",
               "date": null,
-              "date_label": null
+              "date_formatted": null
             }
           ],
           "places_of_effect": []
@@ -2239,7 +2239,7 @@
               "name": "John William Verbeek",
               "wikidata": "https://www.wikidata.org/wiki/Q139269295",
               "date": "1895-05-17",
-              "date_label": "17. Mai 1895"
+              "date_formatted": "17. Mai 1895"
             }
           ],
           "places_of_effect": []
@@ -2296,14 +2296,14 @@
               "name": "John William Verbeek",
               "wikidata": "https://www.wikidata.org/wiki/Q139269295",
               "date": "1823-02-10",
-              "date_label": "10. Februar 1823"
+              "date_formatted": "10. Februar 1823"
             },
             {
               "id": "P0300000",
               "name": "Pierre Frederich Curie",
               "wikidata": "https://www.wikidata.org/wiki/Q21509659",
               "date": "1777-06-28",
-              "date_label": "28. Juni 1777"
+              "date_formatted": "28. Juni 1777"
             }
           ],
           "deaths": [],
@@ -2313,7 +2313,7 @@
               "name": "Anna Sophia Breutel",
               "wikidata": "https://www.wikidata.org/wiki/Q125843987",
               "temporal": "1822/1823",
-              "temporal_label": "1822–1823",
+              "temporal_formatted": "1822–1823",
               "institution": "Töchterpension",
               "occupation": "Lehrerin"
             },
@@ -2322,7 +2322,7 @@
               "name": "Pierre Frederich Curie",
               "wikidata": "https://www.wikidata.org/wiki/Q21509659",
               "temporal": "1812/1821",
-              "temporal_label": "1812–1821",
+              "temporal_formatted": "1812–1821",
               "institution": "Mädchenanstalt",
               "occupation": "Inspektor"
             }
@@ -2360,7 +2360,7 @@
               "name": "David Cranz",
               "wikidata": "https://www.wikidata.org/wiki/Q89872",
               "date": "1723-02-03",
-              "date_label": "3. Februar 1723"
+              "date_formatted": "3. Februar 1723"
             }
           ],
           "deaths": [],
@@ -2400,7 +2400,7 @@
               "name": "Jacob van Vleck",
               "wikidata": "https://www.wikidata.org/wiki/Q102036028",
               "temporal": "1753/1754",
-              "temporal_label": "1753–1754",
+              "temporal_formatted": "1753–1754",
               "institution": "Pflegeanstalt für kleine Kinder",
               "occupation": "Schüler"
             }
@@ -2440,7 +2440,7 @@
               "name": "Carl Gottfried Albrecht",
               "wikidata": "https://www.wikidata.org/wiki/Q132170167",
               "temporal": "1835/1838",
-              "temporal_label": "1835–1838",
+              "temporal_formatted": "1835–1838",
               "institution": "Missionar",
               "occupation": null
             },
@@ -2449,7 +2449,7 @@
               "name": "Jens Haven",
               "wikidata": "https://www.wikidata.org/wiki/Q15229504",
               "temporal": "1771/1777",
-              "temporal_label": "1771–1777",
+              "temporal_formatted": "1771–1777",
               "institution": "Missionsstation",
               "occupation": "Missionar"
             }
@@ -2482,7 +2482,7 @@
               "name": "Heinrich Gottlieb Thrän",
               "wikidata": "https://www.wikidata.org/wiki/Q140009838",
               "date": "1788-09-25",
-              "date_label": "25. September 1788"
+              "date_formatted": "25. September 1788"
             }
           ],
           "deaths": [
@@ -2491,7 +2491,7 @@
               "name": "Heinrich Gottlieb Thrän",
               "wikidata": "https://www.wikidata.org/wiki/Q140009838",
               "date": "1827-12-08",
-              "date_label": "8. Dezember 1827"
+              "date_formatted": "8. Dezember 1827"
             }
           ],
           "places_of_effect": [
@@ -2500,7 +2500,7 @@
               "name": "Eduard Wenck",
               "wikidata": "https://www.wikidata.org/wiki/Q130386109",
               "temporal": "1855/1869",
-              "temporal_label": "1855–1869",
+              "temporal_formatted": "1855–1869",
               "institution": null,
               "occupation": null
             },
@@ -2509,7 +2509,7 @@
               "name": "Heinrich Rudolf Wullschlägel",
               "wikidata": "https://www.wikidata.org/wiki/Q205828",
               "temporal": "1834/1843",
-              "temporal_label": "1834–1843",
+              "temporal_formatted": "1834–1843",
               "institution": "N.N.",
               "occupation": "N.N."
             }
@@ -2542,7 +2542,7 @@
               "name": "Johann Michael Eberle",
               "wikidata": "https://www.wikidata.org/wiki/Q139961776",
               "date": "1773-10-18",
-              "date_label": "18. Oktober 1773"
+              "date_formatted": "18. Oktober 1773"
             }
           ],
           "deaths": [],
@@ -2635,14 +2635,14 @@
               "name": "Johann Baptist von Albertini",
               "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "date": "1769-02-17",
-              "date_label": "17. Februar 1769"
+              "date_formatted": "17. Februar 1769"
             },
             {
               "id": "P0890000",
               "name": "Friedrich Wilhelm Kölbing",
               "wikidata": "http://www.wikidata.org/entity/Q21517694",
               "date": "1803-09-04",
-              "date_label": "4. September 1803"
+              "date_formatted": "4. September 1803"
             }
           ],
           "deaths": [],
@@ -2652,7 +2652,7 @@
               "name": "Johann Baptist von Albertini",
               "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "temporal": "1773/1782",
-              "temporal_label": "1773–1782",
+              "temporal_formatted": "1773–1782",
               "institution": "Knabenanstalt",
               "occupation": "Schüler"
             },
@@ -2661,7 +2661,7 @@
               "name": "Johann Jakob Bossart",
               "wikidata": "https://www.wikidata.org/wiki/Q55874791",
               "temporal": "1760/1764",
-              "temporal_label": "1760–1764",
+              "temporal_formatted": "1760–1764",
               "institution": "Knabenanstalt",
               "occupation": "Inspektor"
             },
@@ -2670,7 +2670,7 @@
               "name": "Pierre Frederich Curie",
               "wikidata": "https://www.wikidata.org/wiki/Q21509659",
               "temporal": "1785/1790",
-              "temporal_label": "1785–1790",
+              "temporal_formatted": "1785–1790",
               "institution": "Knabenanstalt",
               "occupation": null
             },
@@ -2679,7 +2679,7 @@
               "name": "Heinrich Rudolf Wullschlägel",
               "wikidata": "https://www.wikidata.org/wiki/Q205828",
               "temporal": "1843/1844",
-              "temporal_label": "1843–1844",
+              "temporal_formatted": "1843–1844",
               "institution": null,
               "occupation": null
             }
@@ -2706,7 +2706,7 @@
               "name": "Jacob van Vleck",
               "wikidata": "https://www.wikidata.org/wiki/Q102036028",
               "date": "1751-03-24",
-              "date_label": "24. März 1751"
+              "date_formatted": "24. März 1751"
             }
           ],
           "deaths": [],
@@ -2739,35 +2739,35 @@
               "name": "Carl Julius Breutel",
               "wikidata": "https://www.wikidata.org/wiki/Q135294676",
               "date": "1826-08-06",
-              "date_label": "6. August 1826"
+              "date_formatted": "6. August 1826"
             },
             {
               "id": "P0223000",
               "name": "Francis William Breutel",
               "wikidata": "https://www.wikidata.org/wiki/Q135294861",
               "date": "1830-07-24",
-              "date_label": "24. Juli 1830"
+              "date_formatted": "24. Juli 1830"
             },
             {
               "id": "P0225000",
               "name": "John William Breutel",
               "wikidata": "https://www.wikidata.org/wiki/Q135314033",
               "date": "1828-11-11",
-              "date_label": "11. November 1828"
+              "date_formatted": "11. November 1828"
             },
             {
               "id": "P0910000",
               "name": "Carl Rudolph Kölbing",
               "wikidata": "https://www.wikidata.org/wiki/Q55853813",
               "date": "1810-07-02",
-              "date_label": "2. Juli 1810"
+              "date_formatted": "2. Juli 1810"
             },
             {
               "id": "P1330000",
               "name": "Ernst Friedrich Reichel",
               "wikidata": "https://www.wikidata.org/wiki/Q139581040",
               "date": "1806-10-11",
-              "date_label": "11. Oktober 1806"
+              "date_formatted": "11. Oktober 1806"
             }
           ],
           "deaths": [
@@ -2776,49 +2776,49 @@
               "name": "Johann Heinrich Andresen",
               "wikidata": "https://www.wikidata.org/wiki/Q136230382",
               "date": "1815-06-21",
-              "date_label": "21. Juni 1815"
+              "date_formatted": "21. Juni 1815"
             },
             {
               "id": "P0040750",
               "name": "Gustav Eduard Baer",
               "wikidata": "https://www.wikidata.org/wiki/Q135313956",
               "date": null,
-              "date_label": null
+              "date_formatted": null
             },
             {
               "id": "P0041000",
               "name": "Maria Dorothee Emilie Baer",
               "wikidata": "https://www.wikidata.org/wiki/Q135313974",
               "date": "1914-05-19",
-              "date_label": "19. Mai 1914"
+              "date_formatted": "19. Mai 1914"
             },
             {
               "id": "P0225000",
               "name": "Anna Pauline Breutel",
               "wikidata": null,
               "date": "1897-10-28",
-              "date_label": "28. Oktober 1897"
+              "date_formatted": "28. Oktober 1897"
             },
             {
               "id": "P0222000",
               "name": "Carl Julius Breutel",
               "wikidata": "https://www.wikidata.org/wiki/Q135294676",
               "date": "1899-05-30",
-              "date_label": "30. Mai 1899"
+              "date_formatted": "30. Mai 1899"
             },
             {
               "id": "P0223000",
               "name": "Francis William Breutel",
               "wikidata": "https://www.wikidata.org/wiki/Q135294861",
               "date": null,
-              "date_label": null
+              "date_formatted": null
             },
             {
               "id": "P1595000",
               "name": "Franz Ferdinand Thrän",
               "wikidata": "https://www.wikidata.org/wiki/Q138779638",
               "date": "1866-12-01",
-              "date_label": "1. Dezember 1866"
+              "date_formatted": "1. Dezember 1866"
             }
           ],
           "places_of_effect": [
@@ -2827,7 +2827,7 @@
               "name": "Johann Baptist von Albertini",
               "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "temporal": "1782/1785",
-              "temporal_label": "1782–1785",
+              "temporal_formatted": "1782–1785",
               "institution": "Pädagogium",
               "occupation": "Schüler"
             },
@@ -2836,7 +2836,7 @@
               "name": "Johann Baptist von Albertini",
               "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "temporal": "1788/1789",
-              "temporal_label": "1788–1789",
+              "temporal_formatted": "1788–1789",
               "institution": "Kinderanstalt",
               "occupation": "Lehrer"
             },
@@ -2845,7 +2845,7 @@
               "name": "Johann Baptist von Albertini",
               "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "temporal": "1796/1808",
-              "temporal_label": "1796–1808",
+              "temporal_formatted": "1796–1808",
               "institution": "Seminar",
               "occupation": "Dozent, Inspektor, Prediger"
             },
@@ -2854,7 +2854,7 @@
               "name": "Pierre Frederich Curie",
               "wikidata": "https://www.wikidata.org/wiki/Q21509659",
               "temporal": "1795/1798",
-              "temporal_label": "1795–1798",
+              "temporal_formatted": "1795–1798",
               "institution": "Seminar",
               "occupation": null
             },
@@ -2863,7 +2863,7 @@
               "name": "Pierre Frederich Curie",
               "wikidata": "https://www.wikidata.org/wiki/Q21509659",
               "temporal": "1798",
-              "temporal_label": "1798",
+              "temporal_formatted": "1798",
               "institution": "Knabenanstalt",
               "occupation": "Lehrer"
             },
@@ -2872,7 +2872,7 @@
               "name": "Pierre Frederich Curie",
               "wikidata": "https://www.wikidata.org/wiki/Q21509659",
               "temporal": "1804",
-              "temporal_label": "1804",
+              "temporal_formatted": "1804",
               "institution": "Seminar",
               "occupation": "Lehrer"
             },
@@ -2881,7 +2881,7 @@
               "name": "Pierre Frederich Curie",
               "wikidata": "https://www.wikidata.org/wiki/Q21509659",
               "temporal": "1808",
-              "temporal_label": "1808",
+              "temporal_formatted": "1808",
               "institution": null,
               "occupation": "Lehrer"
             },
@@ -2890,7 +2890,7 @@
               "name": "Pierre Frederich Curie",
               "wikidata": "https://www.wikidata.org/wiki/Q21509659",
               "temporal": "1821/1825",
-              "temporal_label": "1821–1825",
+              "temporal_formatted": "1821–1825",
               "institution": null,
               "occupation": null
             },
@@ -2899,7 +2899,7 @@
               "name": "Carl Heinrich Götz",
               "wikidata": "https://www.wikidata.org/wiki/Q140042768",
               "temporal": "1833/1839",
-              "temporal_label": "1833–1839",
+              "temporal_formatted": "1833–1839",
               "institution": "Pädagogium",
               "occupation": "Schüler"
             },
@@ -2908,7 +2908,7 @@
               "name": "Carl Heinrich Götz",
               "wikidata": "https://www.wikidata.org/wiki/Q140042768",
               "temporal": "1842/1846",
-              "temporal_label": "1842–1846",
+              "temporal_formatted": "1842–1846",
               "institution": "Pädagogium",
               "occupation": "Lehrer"
             },
@@ -2917,7 +2917,7 @@
               "name": "Jens Haven",
               "wikidata": "https://www.wikidata.org/wiki/Q15229504",
               "temporal": "1777/1778",
-              "temporal_label": "1777–1778",
+              "temporal_formatted": "1777–1778",
               "institution": null,
               "occupation": null
             },
@@ -2926,7 +2926,7 @@
               "name": "Jacob van Vleck",
               "wikidata": "https://www.wikidata.org/wiki/Q102036028",
               "temporal": "1775/1778",
-              "temporal_label": "1775–1778",
+              "temporal_formatted": "1775–1778",
               "institution": "Unitäts-Knabenanstalt",
               "occupation": null
             },
@@ -2935,7 +2935,7 @@
               "name": "Eduard Wenck",
               "wikidata": "https://www.wikidata.org/wiki/Q130386109",
               "temporal": "1817/1831",
-              "temporal_label": "1817–1831",
+              "temporal_formatted": "1817–1831",
               "institution": "Pädagogium",
               "occupation": "Schüler"
             },
@@ -2944,7 +2944,7 @@
               "name": "Heinrich Rudolf Wullschlägel",
               "wikidata": "https://www.wikidata.org/wiki/Q205828",
               "temporal": "1822/1824",
-              "temporal_label": "1822–1824",
+              "temporal_formatted": "1822–1824",
               "institution": "Pädagogium",
               "occupation": "Schüler"
             },
@@ -2953,7 +2953,7 @@
               "name": "Heinrich Rudolf Wullschlägel",
               "wikidata": "https://www.wikidata.org/wiki/Q205828",
               "temporal": "1826/1829",
-              "temporal_label": "1826–1829",
+              "temporal_formatted": "1826–1829",
               "institution": "Pädagogium",
               "occupation": "Lehrer"
             }
@@ -2992,7 +2992,7 @@
               "name": "Benjamin Gottlieb Kohlmeister",
               "wikidata": "https://www.wikidata.org/wiki/Q105946962",
               "date": "1844-06-03",
-              "date_label": "3. Juni 1844"
+              "date_formatted": "3. Juni 1844"
             }
           ],
           "places_of_effect": []
@@ -3060,7 +3060,7 @@
               "name": "Friedrich Thomas Weiler",
               "wikidata": "https://www.wikidata.org/wiki/Q139846701",
               "date": "1886-04-16",
-              "date_label": "16. April 1886"
+              "date_formatted": "16. April 1886"
             }
           ],
           "places_of_effect": [
@@ -3069,7 +3069,7 @@
               "name": "Carl Gottfried Albrecht",
               "wikidata": "https://www.wikidata.org/wiki/Q132170167",
               "temporal": "1852/1864",
-              "temporal_label": "1852–1864",
+              "temporal_formatted": "1852–1864",
               "institution": "Missionar",
               "occupation": null
             },
@@ -3078,7 +3078,7 @@
               "name": "Jens Haven",
               "wikidata": "https://www.wikidata.org/wiki/Q15229504",
               "temporal": "1778/",
-              "temporal_label": "1778",
+              "temporal_formatted": "1778",
               "institution": "Missionsstation",
               "occupation": "Missionar"
             },
@@ -3087,7 +3087,7 @@
               "name": "Johann (Jan) August Miertsching",
               "wikidata": "https://www.wikidata.org/wiki/Q29073400",
               "temporal": "1844/1849",
-              "temporal_label": "1844–1849",
+              "temporal_formatted": "1844–1849",
               "institution": "Missionsstation",
               "occupation": "Missionar"
             },
@@ -3096,7 +3096,7 @@
               "name": "Friedrich Thomas Weiler",
               "wikidata": "https://www.wikidata.org/wiki/Q139846701",
               "temporal": "1878/1886",
-              "temporal_label": "1878–1886",
+              "temporal_formatted": "1878–1886",
               "institution": null,
               "occupation": null
             }
@@ -3134,7 +3134,7 @@
               "name": "Johannes Wilhelm Stolz",
               "wikidata": "https://www.wikidata.org/wiki/Q140010073",
               "date": "1881-01-25",
-              "date_label": "25. Januar 1881"
+              "date_formatted": "25. Januar 1881"
             }
           ],
           "deaths": [],
@@ -3144,7 +3144,7 @@
               "name": "Heinrich Rudolf Wullschlägel",
               "wikidata": "https://www.wikidata.org/wiki/Q205828",
               "temporal": "1849/1855",
-              "temporal_label": "1849–1855",
+              "temporal_formatted": "1849–1855",
               "institution": null,
               "occupation": null
             }
@@ -3183,7 +3183,7 @@
               "name": "Johannes Emil Breutel",
               "wikidata": "https://www.wikidata.org/wiki/Q135294826",
               "date": null,
-              "date_label": null
+              "date_formatted": null
             }
           ],
           "places_of_effect": []
@@ -3220,7 +3220,7 @@
               "name": "Benjamin Gottlieb Kohlmeister",
               "wikidata": "https://www.wikidata.org/wiki/Q105946962",
               "date": "1756-02-06",
-              "date_label": "6. Februar 1756"
+              "date_formatted": "6. Februar 1756"
             }
           ],
           "deaths": [],
@@ -3248,21 +3248,21 @@
               "name": "Christian Friedrich Denke",
               "wikidata": "https://www.wikidata.org/wiki/Q124060542",
               "date": "1838-01-12",
-              "date_label": "12. Januar 1838"
+              "date_formatted": "12. Januar 1838"
             },
             {
               "id": "P1044000",
               "name": "Emma Augusta Lehman",
               "wikidata": "https://www.wikidata.org/wiki/Q98316236",
               "date": "1922-11-06",
-              "date_label": "6. November 1922"
+              "date_formatted": "6. November 1922"
             },
             {
               "id": "P1350000",
               "name": "Philipp Christian Gottlieb Reuter",
               "wikidata": "https://www.wikidata.org/wiki/Q138684804",
               "date": "1777-12-30",
-              "date_label": "30. Dezember 1777"
+              "date_formatted": "30. Dezember 1777"
             }
           ],
           "places_of_effect": [
@@ -3271,7 +3271,7 @@
               "name": "Gustav Heinrich Dahlman",
               "wikidata": "https://www.wikidata.org/wiki/Q138682285",
               "temporal": "1799/1806",
-              "temporal_label": "1799–1806",
+              "temporal_formatted": "1799–1806",
               "institution": null,
               "occupation": null
             }
@@ -3298,7 +3298,7 @@
               "name": "Heinrich Rudolf Wullschlägel",
               "wikidata": "https://www.wikidata.org/wiki/Q205828",
               "date": "1805-02-01",
-              "date_label": "1. Februar 1805"
+              "date_formatted": "1. Februar 1805"
             }
           ],
           "deaths": [],
@@ -3308,7 +3308,7 @@
               "name": "Heinrich Rudolf Wullschlägel",
               "wikidata": "https://www.wikidata.org/wiki/Q205828",
               "temporal": "1805/1822",
-              "temporal_label": "1805–1822",
+              "temporal_formatted": "1805–1822",
               "institution": null,
               "occupation": "{R0009100}"
             }
@@ -3422,7 +3422,7 @@
               "name": "Ferdinand Kruth",
               "wikidata": "https://www.wikidata.org/wiki/Q139580407",
               "date": "1804-06-12",
-              "date_label": "12. Juni 1804"
+              "date_formatted": "12. Juni 1804"
             }
           ],
           "deaths": [],
@@ -3496,7 +3496,7 @@
               "name": "Hugo Theodor Christoph",
               "wikidata": "https://www.wikidata.org/wiki/Q3814258",
               "date": "1894-11-06",
-              "date_label": "6. November 1894"
+              "date_formatted": "6. November 1894"
             }
           ],
           "places_of_effect": []
@@ -3529,7 +3529,7 @@
               "name": "William Gustav Baer",
               "wikidata": "https://www.wikidata.org/wiki/Q55010392",
               "date": "1934-09-16",
-              "date_label": "16. September 1934"
+              "date_formatted": "16. September 1934"
             }
           ],
           "places_of_effect": []
@@ -3566,7 +3566,7 @@
               "name": "Jens Haven",
               "wikidata": "https://www.wikidata.org/wiki/Q15229504",
               "date": "1724-06-23",
-              "date_label": "23. Juni 1724"
+              "date_formatted": "23. Juni 1724"
             }
           ],
           "deaths": [],
@@ -3593,7 +3593,7 @@
               "name": "Dr. Johann Friedrich Ferdinand Thalacker",
               "wikidata": "https://www.wikidata.org/wiki/Q140009970",
               "date": "1776-09-08",
-              "date_label": "8. September 1776"
+              "date_formatted": "8. September 1776"
             }
           ],
           "deaths": [],
@@ -3631,7 +3631,7 @@
               "name": "Johann Christian Breutel",
               "wikidata": "https://www.wikidata.org/wiki/Q21415674",
               "date": "1788-01-21",
-              "date_label": "21. Januar 1788"
+              "date_formatted": "21. Januar 1788"
             }
           ],
           "deaths": [],
@@ -3664,7 +3664,7 @@
               "name": "Matthäus Warmow",
               "wikidata": "https://www.wikidata.org/wiki/Q139710148",
               "date": "1818-01-18",
-              "date_label": "18. Januar 1818"
+              "date_formatted": "18. Januar 1818"
             }
           ],
           "deaths": [],
@@ -3699,7 +3699,7 @@
               "name": "Eduard Wenck",
               "wikidata": "https://www.wikidata.org/wiki/Q130386109",
               "temporal": "1841/1846",
-              "temporal_label": "1841–1846",
+              "temporal_formatted": "1841–1846",
               "institution": null,
               "occupation": null
             },
@@ -3708,7 +3708,7 @@
               "name": "Eduard Wenck",
               "wikidata": "https://www.wikidata.org/wiki/Q130386109",
               "temporal": "1869/1879",
-              "temporal_label": "1869–1879",
+              "temporal_formatted": "1869–1879",
               "institution": null,
               "occupation": "{M0036000}"
             }

@@ -157,7 +157,7 @@ function buildSidebarContent(props, featureId) {
 		html += `<section><h4>Geburten</h4><ul>`;
 		for (const b of births) {
 			html += `<li><span class="loc-person-name">${_esc(b.name)}${_herrnhutPersonIconHtml(b.id)}${_wikidataIconHtml(b.wikidata)}</span>`;
-			if (b.date) html += `<span class="loc-person-meta">${_esc(b.date)}</span>`;
+			if (b.date_formatted) html += `<span class="loc-person-meta">${_esc(b.date_formatted)}</span>`;
 			html += `</li>`;
 		}
 		html += `</ul></section>`;
@@ -166,7 +166,7 @@ function buildSidebarContent(props, featureId) {
 		html += `<section><h4>Todesfälle</h4><ul>`;
 		for (const d of deaths) {
 			html += `<li><span class="loc-person-name">${_esc(d.name)}${_herrnhutPersonIconHtml(d.id)}${_wikidataIconHtml(d.wikidata)}</span>`;
-			if (d.date) html += `<span class="loc-person-meta">${_esc(d.date)}</span>`;
+			if (d.date_formatted) html += `<span class="loc-person-meta">${_esc(d.date_formatted)}</span>`;
 			html += `</li>`;
 		}
 		html += `</ul></section>`;
@@ -180,7 +180,7 @@ function buildSidebarContent(props, featureId) {
 				indexById[p.id] = byPerson.length;
 				byPerson.push({ id: p.id, name: p.name, wikidata: p.wikidata, stints: [] });
 			}
-			const parts = [p.temporal, p.institution, p.occupation].filter(Boolean);
+			const parts = [p.temporal_formatted, p.institution, p.occupation].filter(Boolean);
 			if (parts.length) byPerson[indexById[p.id]].stints.push(parts.join(" · "));
 		}
 		html += `<section><h4>Wirkende Personen</h4><ul class="loc-poe-list">`;

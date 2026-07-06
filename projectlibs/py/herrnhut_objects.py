@@ -699,7 +699,7 @@ class HerrnhutLocation(HerrnhutObject):
                     {
                         **base,
                         "date": date_obj.iso8601_2_string() if date_obj else None,
-                        "date_label": date_obj.formatted() if date_obj else None,
+                        "date_formatted": date_obj.formatted() if date_obj else None,
                     }
                 )
                 seen_births[birth_id].add(pid)
@@ -713,7 +713,7 @@ class HerrnhutLocation(HerrnhutObject):
                     {
                         **base,
                         "date": date_obj.iso8601_2_string() if date_obj else None,
-                        "date_label": date_obj.formatted() if date_obj else None,
+                        "date_formatted": date_obj.formatted() if date_obj else None,
                     }
                 )
                 seen_deaths[death_id].add(pid)
@@ -740,7 +740,7 @@ class HerrnhutLocation(HerrnhutObject):
                         {
                             **base,
                             "temporal": temporal,
-                            "temporal_label": temporal_label,
+                            "temporal_formatted": temporal_label,
                             "institution": institution,
                             "occupation": occupation,
                         }
