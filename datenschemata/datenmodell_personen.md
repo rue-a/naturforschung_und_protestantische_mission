@@ -43,10 +43,10 @@ Dient der Darstellung, z.B. auf der Website.
 ### Name - Nachname(n)
 *String*
 
-Nachname(n) der Person inkl. Adels-/Namenszusatz. Verschiedene Schreibweisen eines Namens sind durch `/` (ohne umgebende Leerzeichen) anzuzeigen, wobei die relevanteste Schreibweise vorn stehen sollte. Abkürzungen sind erlaubt (auch als relevanteste Schreibweise).
-- `von Albertini`
+Nachname(n) der Person ohne Namenszusätze. Verschiedene Schreibweisen eines Namens sind durch `/` (ohne umgebende Leerzeichen) anzuzeigen, wobei die relevanteste Schreibweise vorn stehen sollte. Abkürzungen sind erlaubt (auch als relevanteste Schreibweise).
+- `Albertini`
 - `Becker`
-- `von Brinkmann/Brinckmann`
+- `Brinkmann/Brinckmann`
 - `Francke`
 - `Glitsch`
 
@@ -67,18 +67,9 @@ Vorname(n) der Person. Verschiedene Schreibweisen eines Namens sind durch `/` (o
 
 ### Name - Namenszusatz
 *List of String*
-<<<<<<< HEAD
 
 Etwaige Namenszusätze der Personen. Einschließlich aber nicht ausschließlich folgender möglicher Werte: `auf der`, `Baron von`, `Baronin von`, `D'`, `da`, `Da`, `de`, `De`, `de la`, `del`, `Del`, `di`, `Di`, `dos`, `Edle von`, `Edler von`, `El`, `Freifrau`, `Freifrau von`, `Freiherr`, `Freiherr von`, `Graf`, `Graf von`, `Gräfin`, `Gräfin von`, `jun.`, `La`, `Le`, `Lo`, `Mc`, `O'`, `Prinz von`, `Prinzessin von`, `sen.`, `van`, `van den`, `van der`, `vom`, `von`, `von der`, `zur`, `Al`.
 
-=======
-
-Etwaige Namenszusätze der Personen. Einschließlich aber nicht ausschließlich folgender möglicher Werte: `auf der`, `Baron von`, `Baronin von`, `D'`, `da`, `Da`, `de`, `De`, `de la`, `del`, `Del`, `di`, `Di`, `dos`, `Edle von`, `Edler von`, `El`, `Freifrau`, `Freifrau von`, `Freiherr`, `Freiherr von`, `Graf`, `Graf von`, `Gräfin`, `Gräfin von`, `jun.`, `La`, `Le`, `Lo`, `Mc`, `O'`, `Prinz von`, `Prinzessin von`, `sen.`, `van`, `van den`, `van der`, `vom`, `von`, `von der`, `zur`, `Al`.
-
-- `Dr.`
-- `Dr. | junior`
-- `von`
->>>>>>> 8f0b339 (Update name field to include name suffixes as a list of strings)
 
 ### Name - Anmerkungen
 *String*
