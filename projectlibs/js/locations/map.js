@@ -72,19 +72,19 @@ function _herrnhutPersonIconHtml(id) {
 }
 
 /**
- * Initialise the Leaflet map with the CartoDB light basemap.
+ * Initialise the Leaflet map with the Esri "Light Gray Canvas" basemap
+ * (free, no API key required, light theme, no place labels).
  * @returns {L.Map}
  */
 function initMap() {
 	const map = L.map("map");
 	L.tileLayer(
-		"https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png",
+		"https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",
 		{
 			attribution:
 				'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors ' +
-				'&copy; <a href="https://carto.com/">CartoDB</a>',
-			subdomains: "abcd",
-			maxZoom: 19,
+				'&copy; <a href="https://www.esri.com/">Esri</a>',
+			maxZoom: 16,
 		}
 	).addTo(map);
 	return map;

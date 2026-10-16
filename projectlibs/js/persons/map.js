@@ -28,13 +28,12 @@ function _initMap() {
 	}
 	_trajectoryMap = L.map("trajectory-map");
 	L.tileLayer(
-		"https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+		"https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",
 		{
 			attribution:
 				'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors ' +
-				'&copy; <a href="https://carto.com/">CartoDB</a>',
-			subdomains: "abcd",
-			maxZoom: 19,
+				'&copy; <a href="https://www.esri.com/">Esri</a>',
+			maxZoom: 16,
 		}
 	).addTo(_trajectoryMap);
 	return _trajectoryMap;

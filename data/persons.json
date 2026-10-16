@@ -4168,7 +4168,7 @@
   },
   {
     "id": "P0160000",
-    "visible": true,
+    "visible": null,
     "name": {
       "preferred": {
         "label": "Jacob van Bleck",
@@ -4258,6 +4258,256 @@
         "source": null
       },
       "bionomia": null,
+      "saebi": {
+        "label": null,
+        "source": null
+      }
+    },
+    "life_trajectory": {
+      "type": "FeatureCollection",
+      "conformsTo": [
+        "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
+      ],
+      "features": []
+    }
+  },
+  {
+    "id": "P0165000",
+    "visible": true,
+    "name": {
+      "preferred": {
+        "label": "Jacob Blitt",
+        "source": null
+      },
+      "surname": {
+        "label": "Blitt",
+        "source": null
+      },
+      "birth_name": {
+        "label": null,
+        "source": null
+      },
+      "given_name": {
+        "label": "Jacob",
+        "source": null
+      },
+      "affixes": null,
+      "notes": null
+    },
+    "member_of_moravians": [],
+    "birth": {
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": null
+      },
+      "location": {
+        "notes": null
+      }
+    },
+    "death": {
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": null
+      },
+      "location": {
+        "notes": null
+      }
+    },
+    "places_of_effect": [],
+    "moravian_curriculum_vitae": [],
+    "relatives": {
+      "siblings": [],
+      "spouses": [],
+      "children": [],
+      "notes": null
+    },
+    "contact": {
+      "with_moravians": [],
+      "with_non_moravians": []
+    },
+    "botany": {
+      "focuses": [],
+      "contribution_to_collections": {
+        "object_evidence": [],
+        "database_evidence": [],
+        "literature_evidence": [],
+        "notes": null
+      },
+      "works": {
+        "manuscripts": [],
+        "printed": []
+      },
+      "citations": {
+        "in_botanical_works_by_others": []
+      }
+    },
+    "works": {
+      "without_botanical_context": []
+    },
+    "citations": {
+      "in_non_botanical_works_by_others": [
+        {
+          "id": "M0051000",
+          "label": "[fallback value: M0051000]",
+          "link": null,
+          "signature": "48.1",
+          "archive": "Het Utrechts Archief - The Utrecht Archives",
+          "source": null
+        }
+      ]
+    },
+    "links": {
+      "wikidata": {
+        "label": null,
+        "source": null
+      },
+      "gnd": {
+        "label": null,
+        "source": null
+      },
+      "factgrid": {
+        "label": null,
+        "source": null
+      },
+      "bionomia": {
+        "label": null,
+        "source": null
+      },
+      "saebi": {
+        "label": null,
+        "source": null
+      }
+    },
+    "life_trajectory": {
+      "type": "FeatureCollection",
+      "conformsTo": [
+        "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
+      ],
+      "features": []
+    }
+  },
+  {
+    "id": "P0165500",
+    "visible": null,
+    "name": {
+      "preferred": {
+        "label": "Catharina Borck",
+        "source": null
+      },
+      "surname": {
+        "label": "Borck",
+        "source": null
+      },
+      "birth_name": {
+        "label": null,
+        "source": null
+      },
+      "given_name": {
+        "label": "Catharina",
+        "source": null
+      },
+      "affixes": null,
+      "notes": null
+    },
+    "member_of_moravians": [],
+    "birth": {
+      "date": {
+        "label": "1761",
+        "source": {
+          "type": "Druck",
+          "id": "R0015600",
+          "label": "Dagmar Freist: \"'A very warm Surinam kiss' Staying connected, getting engaged - interlacing social sites of the Moravian diaspora\", in: dies.; Susanne Lachenicht (Hg.), Connecting Worlds and People: Early modern diasporas, New York: Routledge 2017, S. 62-80.",
+          "link": null
+        },
+        "notes": null
+      },
+      "location": null
+    },
+    "death": {
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": null
+      },
+      "location": {
+        "notes": null
+      }
+    },
+    "places_of_effect": [],
+    "moravian_curriculum_vitae": [],
+    "relatives": {
+      "siblings": [],
+      "spouses": [],
+      "children": [],
+      "notes": null
+    },
+    "contact": {
+      "with_moravians": [],
+      "with_non_moravians": []
+    },
+    "botany": {
+      "focuses": [
+        {
+          "label": "unklar; Zudendung von (frischen?) Beeren aus Suriname nach Chrstiansfeld, eigentlich zu Essen, als exotischer Geschmack",
+          "source": null
+        }
+      ],
+      "contribution_to_collections": {
+        "object_evidence": [],
+        "database_evidence": [],
+        "literature_evidence": [],
+        "notes": null
+      },
+      "works": {
+        "manuscripts": [],
+        "printed": []
+      },
+      "citations": {
+        "in_botanical_works_by_others": []
+      }
+    },
+    "works": {
+      "without_botanical_context": [
+        {
+          "id": "M0052000",
+          "label": "Catharina Borck to Johannel inChristiansfeld, 28 February 1795",
+          "link": null,
+          "signature": "30-374",
+          "archive": "The National Archives London: High Court of Admiralty",
+          "archive_abbreviation": "TNA HCA",
+          "source": null
+        }
+      ]
+    },
+    "citations": {
+      "in_non_botanical_works_by_others": [
+        {
+          "id": "R0015600",
+          "label": "Dagmar Freist: \"'A very warm Surinam kiss' Staying connected, getting engaged - interlacing social sites of the Moravian diaspora\", in: dies.; Susanne Lachenicht (Hg.), Connecting Worlds and People: Early modern diasporas, New York: Routledge 2017, S. 62-80.",
+          "link": null,
+          "source": null
+        }
+      ]
+    },
+    "links": {
+      "wikidata": {
+        "label": null,
+        "source": null
+      },
+      "gnd": {
+        "label": null,
+        "source": null
+      },
+      "factgrid": {
+        "label": null,
+        "source": null
+      },
+      "bionomia": {
+        "label": null,
+        "source": null
+      },
       "saebi": {
         "label": null,
         "source": null
@@ -4960,11 +5210,7 @@
       "location": null
     },
     "death": {
-      "date": {
-        "label": "5465",
-        "source": null,
-        "notes": null
-      },
+      "date": null,
       "location": {
         "id": "L1120000",
         "label": "Herrnhut",
@@ -5009,7 +5255,7 @@
     },
     "links": {
       "wikidata": {
-        "label": null,
+        "label": "https://www.wikidata.org/wiki/Q141747130",
         "source": null
       },
       "gnd": {
@@ -5031,26 +5277,7 @@
       "conformsTo": [
         "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
       ],
-      "features": [
-        {
-          "type": "Feature",
-          "featureType": "death",
-          "time": {
-            "date": "5465"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              14.741666666,
-              51.016666666
-            ]
-          },
-          "properties": {
-            "location_wikidata": "https://www.wikidata.org/wiki/Q165140",
-            "place_name": "Herrnhut"
-          }
-        }
-      ]
+      "features": []
     }
   },
   {
@@ -5193,9 +5420,9 @@
         "notes": null
       },
       "location": {
-        "id": "L0000400",
-        "label": "[fallback value: L0000400]",
-        "link": null,
+        "id": "L0400000",
+        "label": "Berthelsdorf",
+        "link": "https://www.wikidata.org/wiki/Q502553",
         "source": null,
         "notes": null
       }
@@ -5267,7 +5494,26 @@
       "conformsTo": [
         "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
       ],
-      "features": []
+      "features": [
+        {
+          "type": "Feature",
+          "featureType": "death",
+          "time": {
+            "date": "1872-08-15"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              14.758333333,
+              51.027777777
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q502553",
+            "place_name": "Berthelsdorf"
+          }
+        }
+      ]
     }
   },
   {
@@ -5423,10 +5669,14 @@
           "type": "Web",
           "label": "https://homepage.ruhr-uni-bochum.de/raphael.dammer/pafg443.htm#41082"
         },
-        "notes": null
+        "notes": "Geburtsjahr von EBGS-Archief bestätigt"
       },
       "location": {
-        "notes": null
+        "id": "L2500000",
+        "label": "Weißenburg in Bayern",
+        "link": "https://www.wikidata.org/wiki/Q44500",
+        "source": null,
+        "notes": "Geburtsort von EBGS-Archief mitgeteilt"
       }
     },
     "death": {
@@ -5513,7 +5763,26 @@
       "conformsTo": [
         "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
       ],
-      "features": []
+      "features": [
+        {
+          "type": "Feature",
+          "featureType": "birth",
+          "time": {
+            "date": "1778-09-12"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              10.971944444,
+              49.030555555
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q44500",
+            "place_name": "Weißenburg in Bayern"
+          }
+        }
+      ]
     }
   },
   {
@@ -5682,7 +5951,36 @@
       "notes": null
     },
     "contact": {
-      "with_moravians": [],
+      "with_moravians": [
+        {
+          "id": "P0227000",
+          "label": "J. G. Brey",
+          "link": null,
+          "source": {
+            "type": "Manuskript",
+            "id": "M0047000",
+            "label": "Begleitschreiben J. G. Breys zu Johann Christian Breutels Schreiben an Georg Gottfried Cunow über seinen Wunsch zum Dienst unter den Heiden",
+            "link": null,
+            "signature": "R.15.A.17.g.1.16._01",
+            "archive": "Unitätsarchiv Herrnhut",
+            "archive_abbreviation": "UA"
+          }
+        },
+        {
+          "id": "P0290000",
+          "label": "Johann Gottfried Cunow",
+          "link": "https://www.wikidata.org/wiki/Q116215976",
+          "source": {
+            "type": "Manuskript",
+            "id": "M0048000",
+            "label": "Brief von Johann Christian Breutel an Georg Gottfried Cunow über seinen Wunsch zum Dienst unter den Heiden",
+            "link": null,
+            "signature": "R.15.A.17.g.1.16.a_01-03",
+            "archive": "Unitätsarchiv Herrnhut",
+            "archive_abbreviation": "UA"
+          }
+        }
+      ],
       "with_non_moravians": []
     },
     "botany": {
@@ -6583,7 +6881,7 @@
     }
   },
   {
-    "id": "P0225000",
+    "id": "P0226000",
     "visible": false,
     "name": {
       "preferred": {
@@ -6602,12 +6900,7 @@
         "label": "Anna Paulina",
         "source": null
       },
-      "affixes": [
-        {
-          "label": "Breutel",
-          "source": null
-        }
-      ],
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -6779,12 +7072,7 @@
         "label": "Anna Sophia/Sophie",
         "source": null
       },
-      "affixes": [
-        {
-          "label": "Breutel",
-          "source": null
-        }
-      ],
+      "affixes": null,
       "notes": "genannt Sophie"
     },
     "member_of_moravians": [
@@ -7027,12 +7315,7 @@
         "label": "Carl Julius",
         "source": null
       },
-      "affixes": [
-        {
-          "label": "Breutel",
-          "source": null
-        }
-      ],
+      "affixes": null,
       "notes": "genannt Julius"
     },
     "member_of_moravians": [
@@ -7117,9 +7400,9 @@
       ],
       "spouses": [
         {
-          "id": "P0225000",
-          "label": "John William Breutel",
-          "link": "https://www.wikidata.org/wiki/Q135314033",
+          "id": "P0226000",
+          "label": "Anna Pauline Breutel",
+          "link": null,
           "source": null
         }
       ],
@@ -7239,12 +7522,7 @@
         "label": "Francis William",
         "source": null
       },
-      "affixes": [
-        {
-          "label": "Breutel",
-          "source": null
-        }
-      ],
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -7435,12 +7713,7 @@
         "label": "Johannes Emil",
         "source": null
       },
-      "affixes": [
-        {
-          "label": "Breutel",
-          "source": null
-        }
-      ],
+      "affixes": null,
       "notes": "genannt Emil"
     },
     "member_of_moravians": [
@@ -7615,12 +7888,7 @@
         "label": "John William",
         "source": null
       },
-      "affixes": [
-        {
-          "label": "Breutel",
-          "source": null
-        }
-      ],
+      "affixes": null,
       "notes": null
     },
     "member_of_moravians": [],
@@ -7796,6 +8064,114 @@
           }
         }
       ]
+    }
+  },
+  {
+    "id": "P0227000",
+    "visible": false,
+    "name": {
+      "preferred": {
+        "label": "J. G. Brey",
+        "source": null
+      },
+      "surname": {
+        "label": "Brey",
+        "source": null
+      },
+      "birth_name": {
+        "label": null,
+        "source": null
+      },
+      "given_name": {
+        "label": "J. G.",
+        "source": null
+      },
+      "affixes": null,
+      "notes": null
+    },
+    "member_of_moravians": [],
+    "birth": {
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": null
+      },
+      "location": {
+        "notes": null
+      }
+    },
+    "death": {
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": null
+      },
+      "location": {
+        "notes": null
+      }
+    },
+    "places_of_effect": [],
+    "moravian_curriculum_vitae": [],
+    "relatives": {
+      "siblings": [],
+      "spouses": [],
+      "children": [],
+      "notes": null
+    },
+    "contact": {
+      "with_moravians": [],
+      "with_non_moravians": []
+    },
+    "botany": {
+      "focuses": [],
+      "contribution_to_collections": {
+        "object_evidence": [],
+        "database_evidence": [],
+        "literature_evidence": [],
+        "notes": null
+      },
+      "works": {
+        "manuscripts": [],
+        "printed": []
+      },
+      "citations": {
+        "in_botanical_works_by_others": []
+      }
+    },
+    "works": {
+      "without_botanical_context": []
+    },
+    "citations": {
+      "in_non_botanical_works_by_others": []
+    },
+    "links": {
+      "wikidata": {
+        "label": null,
+        "source": null
+      },
+      "gnd": {
+        "label": null,
+        "source": null
+      },
+      "factgrid": {
+        "label": null,
+        "source": null
+      },
+      "bionomia": {
+        "label": null,
+        "source": null
+      },
+      "saebi": {
+        "label": null,
+        "source": null
+      }
+    },
+    "life_trajectory": {
+      "type": "FeatureCollection",
+      "conformsTo": [
+        "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
+      ],
+      "features": []
     }
   },
   {
@@ -8735,7 +9111,14 @@
       "notes": null
     },
     "contact": {
-      "with_moravians": [],
+      "with_moravians": [
+        {
+          "id": "P0220000",
+          "label": "Johann Christian Breutel",
+          "link": "https://www.wikidata.org/wiki/Q21415674",
+          "source": null
+        }
+      ],
       "with_non_moravians": []
     },
     "botany": {
@@ -10126,6 +10509,13 @@
             "signature": "Mss.B.M891",
             "archive": "Library American Philosophical Society",
             "archive_abbreviation": "APS",
+            "source": null
+          },
+          {
+            "id": "M0056000",
+            "label": "Samuel Kramsch: Flora Nazarethana Spontanea Collecta, 1787-1788; 108 p. Contains an Index and Supplement by Christian Denke, 1797-1799.",
+            "link": null,
+            "archive": "Archiv of the Academy of Natural Sciences of Drexel University Philadelphia PA 19103 USA",
             "source": null
           }
         ],
@@ -12168,7 +12558,12 @@
     "birth": {
       "date": {
         "label": "16. Juni 1760",
-        "source": null,
+        "source": {
+          "type": "Druck",
+          "id": "R0014800",
+          "label": "John Gambold: Lebenslauf des am 7ten November 1827 zu Oochgelogy in Nordamerika heimgegangenen verheiratheten Bruders John Gambold, in NadB 1826, Heft 6, S. 1026-1034",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1829no06.pdf"
+        },
         "notes": null
       },
       "location": null
@@ -12176,13 +12571,25 @@
     "death": {
       "date": {
         "label": "7. November 1827",
-        "source": null,
+        "source": {
+          "type": "Druck",
+          "id": "R0014800",
+          "label": "John Gambold: Lebenslauf des am 7ten November 1827 zu Oochgelogy in Nordamerika heimgegangenen verheiratheten Bruders John Gambold, in NadB 1826, Heft 6, S. 1026-1034",
+          "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1829no06.pdf"
+        },
         "notes": null
       },
       "location": null
     },
     "places_of_effect": [],
-    "moravian_curriculum_vitae": [],
+    "moravian_curriculum_vitae": [
+      {
+        "id": "R0014800",
+        "label": "John Gambold: Lebenslauf des am 7ten November 1827 zu Oochgelogy in Nordamerika heimgegangenen verheiratheten Bruders John Gambold, in NadB 1826, Heft 6, S. 1026-1034",
+        "link": "https://dai.mun.ca/pdfs/nachrichten/NachrichtenausderBruderGemeine1829no06.pdf",
+        "source": null
+      }
+    ],
     "relatives": {
       "siblings": [],
       "spouses": [],
@@ -12546,6 +12953,123 @@
         "source": null
       },
       "bionomia": null,
+      "saebi": {
+        "label": null,
+        "source": null
+      }
+    },
+    "life_trajectory": {
+      "type": "FeatureCollection",
+      "conformsTo": [
+        "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
+      ],
+      "features": []
+    }
+  },
+  {
+    "id": "P0485000",
+    "visible": true,
+    "name": {
+      "preferred": {
+        "label": "Wilhelm Christian Genth",
+        "source": null
+      },
+      "surname": {
+        "label": "Gent",
+        "source": null
+      },
+      "birth_name": {
+        "label": null,
+        "source": null
+      },
+      "given_name": {
+        "label": "Wilhelm Christian",
+        "source": null
+      },
+      "affixes": null,
+      "notes": null
+    },
+    "member_of_moravians": [],
+    "birth": {
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": null
+      },
+      "location": {
+        "notes": null
+      }
+    },
+    "death": {
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": null
+      },
+      "location": {
+        "notes": null
+      }
+    },
+    "places_of_effect": [],
+    "moravian_curriculum_vitae": [],
+    "relatives": {
+      "siblings": [],
+      "spouses": [],
+      "children": [],
+      "notes": null
+    },
+    "contact": {
+      "with_moravians": [],
+      "with_non_moravians": []
+    },
+    "botany": {
+      "focuses": [],
+      "contribution_to_collections": {
+        "object_evidence": [],
+        "database_evidence": [],
+        "literature_evidence": [],
+        "notes": null
+      },
+      "works": {
+        "manuscripts": [],
+        "printed": []
+      },
+      "citations": {
+        "in_botanical_works_by_others": []
+      }
+    },
+    "works": {
+      "without_botanical_context": []
+    },
+    "citations": {
+      "in_non_botanical_works_by_others": [
+        {
+          "id": "M0051000",
+          "label": "[fallback value: M0051000]",
+          "link": null,
+          "signature": "48.1",
+          "archive": "Het Utrechts Archief - The Utrecht Archives",
+          "source": null
+        }
+      ]
+    },
+    "links": {
+      "wikidata": {
+        "label": null,
+        "source": null
+      },
+      "gnd": {
+        "label": null,
+        "source": null
+      },
+      "factgrid": {
+        "label": null,
+        "source": null
+      },
+      "bionomia": {
+        "label": null,
+        "source": null
+      },
       "saebi": {
         "label": null,
         "source": null
@@ -15962,26 +16486,61 @@
     "member_of_moravians": [],
     "birth": {
       "date": {
-        "label": "1791",
-        "source": null,
+        "label": "11. Februar 1792",
+        "source": {
+          "type": "Druck",
+          "id": "R0015000",
+          "label": "Johann Georg Herzberg u.a.: MEMOIR of Brother John George Herzberg, who departed this life at Nisky, Prussia, April 15th, 1864, in Periodical Accounts 1866-1868, vol. 26, S. 42-47.",
+          "link": "https://collections.mun.ca/digital/collection/cns_permorv/id/14738"
+        },
         "notes": null
       },
       "location": {
+        "id": "L1101600",
+        "label": "Göttingen",
+        "link": "https://www.wikidata.org/wiki/Q3033",
+        "source": {
+          "type": "Druck",
+          "id": "R0015000",
+          "label": "Johann Georg Herzberg u.a.: MEMOIR of Brother John George Herzberg, who departed this life at Nisky, Prussia, April 15th, 1864, in Periodical Accounts 1866-1868, vol. 26, S. 42-47.",
+          "link": "https://collections.mun.ca/digital/collection/cns_permorv/id/14738"
+        },
         "notes": null
       }
     },
     "death": {
       "date": {
-        "label": "1864",
-        "source": null,
+        "label": "15. April 1864",
+        "source": {
+          "type": "Druck",
+          "id": "R0015000",
+          "label": "Johann Georg Herzberg u.a.: MEMOIR of Brother John George Herzberg, who departed this life at Nisky, Prussia, April 15th, 1864, in Periodical Accounts 1866-1868, vol. 26, S. 42-47.",
+          "link": "https://collections.mun.ca/digital/collection/cns_permorv/id/14738"
+        },
         "notes": null
       },
       "location": {
+        "id": "L2250000",
+        "label": "Niesky",
+        "link": "https://www.wikidata.org/wiki/Q165160",
+        "source": {
+          "type": "Druck",
+          "id": "R0015000",
+          "label": "Johann Georg Herzberg u.a.: MEMOIR of Brother John George Herzberg, who departed this life at Nisky, Prussia, April 15th, 1864, in Periodical Accounts 1866-1868, vol. 26, S. 42-47.",
+          "link": "https://collections.mun.ca/digital/collection/cns_permorv/id/14738"
+        },
         "notes": null
       }
     },
     "places_of_effect": [],
-    "moravian_curriculum_vitae": [],
+    "moravian_curriculum_vitae": [
+      {
+        "id": "R0015000",
+        "label": "Johann Georg Herzberg u.a.: MEMOIR of Brother John George Herzberg, who departed this life at Nisky, Prussia, April 15th, 1864, in Periodical Accounts 1866-1868, vol. 26, S. 42-47.",
+        "link": "https://collections.mun.ca/digital/collection/cns_permorv/id/14738",
+        "source": null
+      }
+    ],
     "relatives": {
       "siblings": [],
       "spouses": [],
@@ -16015,6 +16574,19 @@
             "nybg_herbarium_code": null,
             "holding_institutions": [],
             "source": null
+          },
+          {
+            "id": "C-PRC",
+            "label": "Herbarium PRC",
+            "link": null,
+            "nybg_herbarium_code": "PRC",
+            "holding_institutions": [
+              "Charles University, Prague"
+            ],
+            "source": {
+              "type": "Web",
+              "label": "https://prc.jacq.org/PRC403550"
+            }
           }
         ],
         "database_evidence": [],
@@ -16026,7 +16598,20 @@
         "printed": []
       },
       "citations": {
-        "in_botanical_works_by_others": []
+        "in_botanical_works_by_others": [
+          {
+            "id": "R0014900",
+            "label": "Ernesti Meyer : De Plantis Labradoricis Libri Tres, Lipsiae: Leopoldi Vossi 1830.",
+            "link": "https://dai.mun.ca/PDFs/cns/De_Plantis_Labradoricis.pdf",
+            "source": null
+          },
+          {
+            "id": "R0000600",
+            "label": "James Pringle: Contributions by Moravian missionaries to the knowledge of the flora of Labrador. Canadian Horticultural History. 2(4) (1991): 187–222.",
+            "link": "https://www.biodiversitylibrary.org/item/123823#page/5/mode/1up",
+            "source": null
+          }
+        ]
       }
     },
     "works": {
@@ -16062,7 +16647,26 @@
       "conformsTo": [
         "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
       ],
-      "features": []
+      "features": [
+        {
+          "type": "Feature",
+          "featureType": "death",
+          "time": {
+            "date": "1864-04-15"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              14.83,
+              51.289722222
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q165160",
+            "place_name": "Niesky"
+          }
+        }
+      ]
     }
   },
   {
@@ -16092,25 +16696,64 @@
     "birth": {
       "date": {
         "label": "14. August 1831",
-        "source": null,
+        "source": {
+          "type": "Druck",
+          "id": "R0008900",
+          "label": "Hugh F. Glen; Gerrit Germishuizen (Hg.): Botanical Exploration of southern Africa, edition 2. Strelitzia 26, Pretoria: South African National Biodiversity Institute 2010.",
+          "link": null
+        },
         "notes": null
       },
-      "location": null
+      "location": {
+        "id": "L0305000",
+        "label": "Bautzen",
+        "link": "https://www.wikidata.org/wiki/Q14835",
+        "source": {
+          "type": "Druck",
+          "id": "R0008900",
+          "label": "Hugh F. Glen; Gerrit Germishuizen (Hg.): Botanical Exploration of southern Africa, edition 2. Strelitzia 26, Pretoria: South African National Biodiversity Institute 2010.",
+          "link": null
+        },
+        "notes": null
+      }
     },
     "death": {
       "date": {
-        "label": "1918",
-        "source": null,
+        "label": "10. Februar 1918",
+        "source": {
+          "type": "Druck",
+          "id": "R0008900",
+          "label": "Hugh F. Glen; Gerrit Germishuizen (Hg.): Botanical Exploration of southern Africa, edition 2. Strelitzia 26, Pretoria: South African National Biodiversity Institute 2010.",
+          "link": null
+        },
         "notes": null
       },
-      "location": null
+      "location": {
+        "id": "L1120000",
+        "label": "Herrnhut",
+        "link": "https://www.wikidata.org/wiki/Q165140",
+        "source": {
+          "type": "Druck",
+          "id": "R0008900",
+          "label": "Hugh F. Glen; Gerrit Germishuizen (Hg.): Botanical Exploration of southern Africa, edition 2. Strelitzia 26, Pretoria: South African National Biodiversity Institute 2010.",
+          "link": null
+        },
+        "notes": null
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
     "relatives": {
       "siblings": [],
       "spouses": [],
-      "children": [],
+      "children": [
+        {
+          "id": "P0680000",
+          "label": "Richard Paul Hettasch",
+          "link": "https://www.wikidata.org/wiki/Q135024644",
+          "source": null
+        }
+      ],
       "notes": null
     },
     "contact": {
@@ -16120,17 +16763,33 @@
     "botany": {
       "focuses": [],
       "contribution_to_collections": {
-        "object_evidence": [],
+        "object_evidence": [
+          {
+            "id": "C-rps",
+            "label": "Royal Physical Society, London",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": null
+          }
+        ],
         "database_evidence": [],
         "literature_evidence": [],
-        "notes": null
+        "notes": "Fotos liegen vor"
       },
       "works": {
         "manuscripts": [],
         "printed": []
       },
       "citations": {
-        "in_botanical_works_by_others": []
+        "in_botanical_works_by_others": [
+          {
+            "id": "R0015100",
+            "label": "Edward Morell Holmes: Catalogue of the medicinal plants in the museum of the Pharmaceutical Society of Great Britain, London : Pharmaceutical Society of Great Britain 1896",
+            "link": "https://archive.org/details/b21468722",
+            "source": null
+          }
+        ]
       }
     },
     "works": {
@@ -16141,7 +16800,7 @@
     },
     "links": {
       "wikidata": {
-        "label": null,
+        "label": "https://www.wikidata.org/wiki/Q123419918",
         "source": null
       },
       "gnd": {
@@ -16163,7 +16822,44 @@
       "conformsTo": [
         "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
       ],
-      "features": []
+      "features": [
+        {
+          "type": "Feature",
+          "featureType": "birth",
+          "time": {
+            "date": "1831-08-14"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              14.423888888,
+              51.181388888
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q14835",
+            "place_name": "Bautzen"
+          }
+        },
+        {
+          "type": "Feature",
+          "featureType": "death",
+          "time": {
+            "date": "1918-02-10"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              14.741666666,
+              51.016666666
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q165140",
+            "place_name": "Herrnhut"
+          }
+        }
+      ]
     }
   },
   {
@@ -16193,18 +16889,50 @@
     "birth": {
       "date": {
         "label": "9. August 1873",
-        "source": null,
+        "source": {
+          "type": "Druck",
+          "id": "R0000600",
+          "label": "James Pringle: Contributions by Moravian missionaries to the knowledge of the flora of Labrador. Canadian Horticultural History. 2(4) (1991): 187–222.",
+          "link": "https://www.biodiversitylibrary.org/item/123823#page/5/mode/1up"
+        },
         "notes": null
       },
-      "location": null
+      "location": {
+        "id": "L0700000",
+        "label": "Clarkson",
+        "link": "https://www.wikidata.org/wiki/Q13034496",
+        "source": {
+          "type": "Druck",
+          "id": "R0000600",
+          "label": "James Pringle: Contributions by Moravian missionaries to the knowledge of the flora of Labrador. Canadian Horticultural History. 2(4) (1991): 187–222.",
+          "link": "https://www.biodiversitylibrary.org/item/123823#page/5/mode/1up"
+        },
+        "notes": null
+      }
     },
     "death": {
       "date": {
-        "label": "1949",
-        "source": null,
+        "label": "18. Februar 1949",
+        "source": {
+          "type": "Druck",
+          "id": "R0000600",
+          "label": "James Pringle: Contributions by Moravian missionaries to the knowledge of the flora of Labrador. Canadian Horticultural History. 2(4) (1991): 187–222.",
+          "link": "https://www.biodiversitylibrary.org/item/123823#page/5/mode/1up"
+        },
         "notes": null
       },
-      "location": null
+      "location": {
+        "id": "L2000000",
+        "label": "Nazareth",
+        "link": "https://www.wikidata.org/wiki/Q1022937",
+        "source": {
+          "type": "Druck",
+          "id": "R0000600",
+          "label": "James Pringle: Contributions by Moravian missionaries to the knowledge of the flora of Labrador. Canadian Horticultural History. 2(4) (1991): 187–222.",
+          "link": "https://www.biodiversitylibrary.org/item/123823#page/5/mode/1up"
+        },
+        "notes": null
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -16265,6 +16993,12 @@
             "label": "Jacques Cayouette, Stephen J. Darbyshire: Taxa described by Steudel from the Labrador plants collected by the Moravian missionary Albrecht and distributed by Hohenacker in: Taxon 43 (1994): 169-180.",
             "link": "https://doi.org/10.2307/1222875",
             "source": null
+          },
+          {
+            "id": "R0000600",
+            "label": "James Pringle: Contributions by Moravian missionaries to the knowledge of the flora of Labrador. Canadian Horticultural History. 2(4) (1991): 187–222.",
+            "link": "https://www.biodiversitylibrary.org/item/123823#page/5/mode/1up",
+            "source": null
           }
         ]
       }
@@ -16302,7 +17036,26 @@
       "conformsTo": [
         "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
       ],
-      "features": []
+      "features": [
+        {
+          "type": "Feature",
+          "featureType": "death",
+          "time": {
+            "date": "1949-02-18"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -75.30962,
+              40.74038
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q1022937",
+            "place_name": "Nazareth"
+          }
+        }
+      ]
     }
   },
   {
@@ -16610,7 +17363,14 @@
       "without_botanical_context": []
     },
     "citations": {
-      "in_non_botanical_works_by_others": []
+      "in_non_botanical_works_by_others": [
+        {
+          "id": "R0014500",
+          "label": "Gerhard Heyde: 50 Jahre unter Tibetern - Lebensbild des Wilhelm und der Maria Heyde, Verlag der Missionsbuchhandlung Herrnhut, 1921",
+          "link": "http://digital.slub-dresden.de/id1777275903",
+          "source": null
+        }
+      ]
     },
     "links": {
       "wikidata": {
@@ -17004,6 +17764,141 @@
           }
         }
       ]
+    }
+  },
+  {
+    "id": "P0735000",
+    "visible": true,
+    "name": {
+      "preferred": {
+        "label": "Marie Auguste Hlawatscheck",
+        "source": null
+      },
+      "surname": {
+        "label": "Hlawatscheck",
+        "source": null
+      },
+      "birth_name": {
+        "label": "Schmiedecke",
+        "source": null
+      },
+      "given_name": {
+        "label": "Marie Auguste",
+        "source": null
+      },
+      "affixes": null,
+      "notes": "In R0015200 wird eine Mrs. Hlawatschek als Sammlerin erwähnt. Diese wird auch in R0000600 aufgeführt mit den Initialen \"M. A.\". Dort wird auch ausgeführt, dass ihr Mädchenname wohl Schmiedecke war. In NadB 1873, S. 895 wird die Ankunft einer ledigen Schwester Marie Auguste Schmiedecke aufgeführt."
+    },
+    "member_of_moravians": [],
+    "birth": {
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": null
+      },
+      "location": {
+        "notes": null
+      }
+    },
+    "death": {
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": null
+      },
+      "location": {
+        "notes": null
+      }
+    },
+    "places_of_effect": [],
+    "moravian_curriculum_vitae": [],
+    "relatives": {
+      "siblings": [],
+      "spouses": [],
+      "children": [],
+      "notes": null
+    },
+    "contact": {
+      "with_moravians": [],
+      "with_non_moravians": []
+    },
+    "botany": {
+      "focuses": [],
+      "contribution_to_collections": {
+        "object_evidence": [
+          {
+            "id": "C-GH",
+            "label": "Gray Herbarium",
+            "link": null,
+            "nybg_herbarium_code": "GH",
+            "holding_institutions": [
+              "Harvard University"
+            ],
+            "source": {
+              "type": "Web",
+              "label": "http://data.huh.harvard.edu/b84f512b-ab71-4d90-b954-3cb14e11243e"
+            }
+          }
+        ],
+        "database_evidence": [],
+        "literature_evidence": [],
+        "notes": null
+      },
+      "works": {
+        "manuscripts": [],
+        "printed": []
+      },
+      "citations": {
+        "in_botanical_works_by_others": [
+          {
+            "id": "R0000600",
+            "label": "James Pringle: Contributions by Moravian missionaries to the knowledge of the flora of Labrador. Canadian Horticultural History. 2(4) (1991): 187–222.",
+            "link": "https://www.biodiversitylibrary.org/item/123823#page/5/mode/1up",
+            "source": null
+          },
+          {
+            "id": "R0015200",
+            "label": "Merritt Lyndon Fernald & Jewell David Sornborger: Some recent additions to the Labrador flora, in The Ottawa Naturalist, Volume 13, pages 89–107, 1899",
+            "link": "https://catalog.hathitrust.org/Record/100426928",
+            "source": null
+          }
+        ]
+      }
+    },
+    "works": {
+      "without_botanical_context": []
+    },
+    "citations": {
+      "in_non_botanical_works_by_others": []
+    },
+    "links": {
+      "wikidata": {
+        "label": null,
+        "source": null
+      },
+      "gnd": {
+        "label": null,
+        "source": null
+      },
+      "factgrid": {
+        "label": null,
+        "source": null
+      },
+      "bionomia": {
+        "label": null,
+        "source": null
+      },
+      "saebi": {
+        "label": null,
+        "source": null
+      }
+    },
+    "life_trajectory": {
+      "type": "FeatureCollection",
+      "conformsTo": [
+        "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
+      ],
+      "features": []
     }
   },
   {
@@ -17779,6 +18674,12 @@
             "label": "James R. Troyer: \"Early American Moravian Botanists in North Carolina and elsewhere \", in: Journal of the North Carolina Academy of Science 125 (2009), Nr. 1, S. 1-6.",
             "link": null,
             "source": null
+          },
+          {
+            "id": "R0014700",
+            "label": "Kummer, John G.: Catalogue of Botanical Specimens collected by J. WOLLE and A. L. HUEBENER, during the year 1837, in the vicinity of Bethlehem and other parts of Northampton County, Pennsylvania, in the order as they were found in bloom\". American Journal of Science and Arts. 37: 310–320, 1839",
+            "link": "http://www.biodiversitylibrary.org/page/30843748",
+            "source": null
           }
         ]
       }
@@ -18190,7 +19091,8 @@
             "nybg_herbarium_code": null,
             "holding_institutions": [],
             "source": null
-          }
+          },
+          null
         ],
         "database_evidence": [],
         "literature_evidence": [
@@ -19069,6 +19971,121 @@
       },
       "citations": {
         "in_botanical_works_by_others": []
+      }
+    },
+    "works": {
+      "without_botanical_context": []
+    },
+    "citations": {
+      "in_non_botanical_works_by_others": []
+    },
+    "links": {
+      "wikidata": {
+        "label": null,
+        "source": null
+      },
+      "gnd": {
+        "label": null,
+        "source": null
+      },
+      "factgrid": {
+        "label": null,
+        "source": null
+      },
+      "bionomia": {
+        "label": null,
+        "source": null
+      },
+      "saebi": {
+        "label": null,
+        "source": null
+      }
+    },
+    "life_trajectory": {
+      "type": "FeatureCollection",
+      "conformsTo": [
+        "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
+      ],
+      "features": []
+    }
+  },
+  {
+    "id": "P0875000",
+    "visible": true,
+    "name": {
+      "preferred": {
+        "label": "Georg Friedrich Knauss",
+        "source": null
+      },
+      "surname": {
+        "label": "Knauss",
+        "source": null
+      },
+      "birth_name": {
+        "label": "Georg Friedrich",
+        "source": null
+      },
+      "given_name": {
+        "label": null,
+        "source": null
+      },
+      "affixes": null,
+      "notes": null
+    },
+    "member_of_moravians": [],
+    "birth": {
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": null
+      },
+      "location": {
+        "notes": null
+      }
+    },
+    "death": {
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": null
+      },
+      "location": {
+        "notes": null
+      }
+    },
+    "places_of_effect": [],
+    "moravian_curriculum_vitae": [],
+    "relatives": {
+      "siblings": [],
+      "spouses": [],
+      "children": [],
+      "notes": null
+    },
+    "contact": {
+      "with_moravians": [],
+      "with_non_moravians": []
+    },
+    "botany": {
+      "focuses": [],
+      "contribution_to_collections": {
+        "object_evidence": [],
+        "database_evidence": [],
+        "literature_evidence": [],
+        "notes": null
+      },
+      "works": {
+        "manuscripts": [],
+        "printed": []
+      },
+      "citations": {
+        "in_botanical_works_by_others": [
+          {
+            "id": "R0000600",
+            "label": "James Pringle: Contributions by Moravian missionaries to the knowledge of the flora of Labrador. Canadian Horticultural History. 2(4) (1991): 187–222.",
+            "link": "https://www.biodiversitylibrary.org/item/123823#page/5/mode/1up",
+            "source": null
+          }
+        ]
       }
     },
     "works": {
@@ -20870,7 +21887,19 @@
       "notes": null
     },
     "contact": {
-      "with_moravians": [],
+      "with_moravians": [
+        {
+          "id": "P1640000",
+          "label": "Otto Uttendörfer",
+          "link": "https://www.wikidata.org/wiki/Q124737",
+          "source": {
+            "type": "Druck",
+            "id": "R0015500",
+            "label": "Hans Stamm: Otto Uttendörfer und seine Arbeitsgemeinschaft zur Erforschung der Ernährungsbiologie bei Greifvögeln und Eulen 2001",
+            "link": null
+          }
+        }
+      ],
       "with_non_moravians": []
     },
     "botany": {
@@ -21135,6 +22164,13 @@
             "label": "Brief von Samuel Kramsch an Humphry Marshall, 20.02.1790",
             "link": "https://quod.lib.umich.edu/m/marshallfam/marshallfam.0002.005",
             "archive": "University of Michigan Library",
+            "source": null
+          },
+          {
+            "id": "M0056000",
+            "label": "Samuel Kramsch: Flora Nazarethana Spontanea Collecta, 1787-1788; 108 p. Contains an Index and Supplement by Christian Denke, 1797-1799.",
+            "link": null,
+            "archive": "Archiv of the Academy of Natural Sciences of Drexel University Philadelphia PA 19103 USA",
             "source": null
           }
         ],
@@ -21926,6 +22962,114 @@
       },
       "bionomia": {
         "label": "https://bionomia.net/Q94929619",
+        "source": null
+      },
+      "saebi": {
+        "label": null,
+        "source": null
+      }
+    },
+    "life_trajectory": {
+      "type": "FeatureCollection",
+      "conformsTo": [
+        "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
+      ],
+      "features": []
+    }
+  },
+  {
+    "id": "P1034000",
+    "visible": true,
+    "name": {
+      "preferred": {
+        "label": "Thomas Langballe",
+        "source": null
+      },
+      "surname": {
+        "label": null,
+        "source": null
+      },
+      "birth_name": {
+        "label": null,
+        "source": null
+      },
+      "given_name": {
+        "label": null,
+        "source": null
+      },
+      "affixes": null,
+      "notes": null
+    },
+    "member_of_moravians": [],
+    "birth": {
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": null
+      },
+      "location": {
+        "notes": null
+      }
+    },
+    "death": {
+      "date": {
+        "label": null,
+        "source": null,
+        "notes": null
+      },
+      "location": {
+        "notes": null
+      }
+    },
+    "places_of_effect": [],
+    "moravian_curriculum_vitae": [],
+    "relatives": {
+      "siblings": [],
+      "spouses": [],
+      "children": [],
+      "notes": null
+    },
+    "contact": {
+      "with_moravians": [],
+      "with_non_moravians": []
+    },
+    "botany": {
+      "focuses": [],
+      "contribution_to_collections": {
+        "object_evidence": [],
+        "database_evidence": [],
+        "literature_evidence": [],
+        "notes": null
+      },
+      "works": {
+        "manuscripts": [],
+        "printed": []
+      },
+      "citations": {
+        "in_botanical_works_by_others": []
+      }
+    },
+    "works": {
+      "without_botanical_context": []
+    },
+    "citations": {
+      "in_non_botanical_works_by_others": []
+    },
+    "links": {
+      "wikidata": {
+        "label": "https://www.wikidata.org/wiki/Q58624420",
+        "source": null
+      },
+      "gnd": {
+        "label": null,
+        "source": null
+      },
+      "factgrid": {
+        "label": null,
+        "source": null
+      },
+      "bionomia": {
+        "label": "https://bionomia.net/Q58624420",
         "source": null
       },
       "saebi": {
@@ -22793,6 +23937,19 @@
               "type": "Web",
               "label": "https://data.nhm.ac.uk/object/c3834867-9678-4066-923d-74f63f400780/1780304495491"
             }
+          },
+          {
+            "id": "C-GLM",
+            "label": "Herbarium Senckenbergianum Görlitz",
+            "link": "https://www.senckenberg.de/en/collection/locations/",
+            "nybg_herbarium_code": "GLM",
+            "holding_institutions": [
+              "Senckenberg Gesellschaft für Naturforschung: Senckenberg Museum für Naturkunde Görlitz"
+            ],
+            "source": {
+              "type": "Web",
+              "label": "https://id.senckenberg.de/object/sesam-1461706"
+            }
           }
         ],
         "database_evidence": [],
@@ -22804,7 +23961,14 @@
         "printed": []
       },
       "citations": {
-        "in_botanical_works_by_others": []
+        "in_botanical_works_by_others": [
+          {
+            "id": "R0000600",
+            "label": "James Pringle: Contributions by Moravian missionaries to the knowledge of the flora of Labrador. Canadian Horticultural History. 2(4) (1991): 187–222.",
+            "link": "https://www.biodiversitylibrary.org/item/123823#page/5/mode/1up",
+            "source": null
+          }
+        ]
       }
     },
     "works": {
@@ -24009,7 +25173,7 @@
     },
     "links": {
       "wikidata": {
-        "label": null,
+        "label": "https://www.wikidata.org/wiki/Q1448938",
         "source": null
       },
       "gnd": {
@@ -25091,13 +26255,21 @@
     },
     "member_of_moravians": [],
     "birth": {
-      "date": null,
+      "date": {
+        "label": "4. Januar 1941",
+        "source": null,
+        "notes": null
+      },
       "location": {
         "notes": null
       }
     },
     "death": {
-      "date": null,
+      "date": {
+        "label": "13. September 2023",
+        "source": null,
+        "notes": null
+      },
       "location": {
         "notes": null
       }
@@ -26775,6 +27947,12 @@
       "citations": {
         "in_botanical_works_by_others": [
           {
+            "id": "R0015700",
+            "label": "Robert A. Browne; Jeffrey LaVoie: \"Arboreal Species Richness in Piedmont North Carolina 1764–1996\", in: Castanea 69 (2004), Nr. sp2, S. 206-210.",
+            "link": "https://bioone.org/journalArticle/Download?urlId=10.2179%2F0008-7475%282004%29sp2%5B206%3AASRIPN%5D2.0.CO%3B2",
+            "source": null
+          },
+          {
             "id": "R0000400",
             "label": "James R. Troyer: \"Early American Moravian Botanists in North Carolina and elsewhere \", in: Journal of the North Carolina Academy of Science 125 (2009), Nr. 1, S. 1-6.",
             "link": null,
@@ -28001,7 +29179,17 @@
       }
     },
     "places_of_effect": [],
-    "moravian_curriculum_vitae": [],
+    "moravian_curriculum_vitae": [
+      {
+        "id": "M0050000",
+        "label": "Lebenslauf Christian Andreas Schloezer",
+        "link": null,
+        "signature": "GN.A.145",
+        "archive": "Unitätsarchiv Herrnhut",
+        "archive_abbreviation": "UA",
+        "source": null
+      }
+    ],
     "relatives": {
       "siblings": [],
       "spouses": [],
@@ -28561,7 +29749,14 @@
         "printed": []
       },
       "citations": {
-        "in_botanical_works_by_others": []
+        "in_botanical_works_by_others": [
+          {
+            "id": "R0015400",
+            "label": "Ludwig Schneider: Flora von Magdeburg mit Einschluß der Florengebiete von Bernburg und Zerbst, nebst einem Abriß der allgemeinen Botanik als einleitender Teil. Zweiter Theil: Beschreibung der Gefäßpflanzen. Springer-Verlag Berlin Heidelberg GmbH 1877, S. 1-353",
+            "link": null,
+            "source": null
+          }
+        ]
       }
     },
     "works": {
@@ -28975,6 +30170,110 @@
     }
   },
   {
+    "id": "P1495000",
+    "visible": true,
+    "name": {
+      "preferred": {
+        "label": "Theopilius Schumann",
+        "source": null
+      },
+      "surname": {
+        "label": "Schumann",
+        "source": null
+      },
+      "birth_name": {
+        "label": null,
+        "source": null
+      },
+      "given_name": {
+        "label": "Theopilius Salomo",
+        "source": null
+      },
+      "affixes": null,
+      "notes": null
+    },
+    "member_of_moravians": [],
+    "birth": {
+      "date": {
+        "label": "1. Juli 1700",
+        "source": null,
+        "notes": null
+      },
+      "location": null
+    },
+    "death": {
+      "date": {
+        "label": "6. Oktober 1760",
+        "source": null,
+        "notes": null
+      },
+      "location": null
+    },
+    "places_of_effect": [],
+    "moravian_curriculum_vitae": [],
+    "relatives": {
+      "siblings": [],
+      "spouses": [],
+      "children": [],
+      "notes": null
+    },
+    "contact": {
+      "with_moravians": [],
+      "with_non_moravians": []
+    },
+    "botany": {
+      "focuses": [],
+      "contribution_to_collections": {
+        "object_evidence": [],
+        "database_evidence": [],
+        "literature_evidence": [],
+        "notes": null
+      },
+      "works": {
+        "manuscripts": [],
+        "printed": []
+      },
+      "citations": {
+        "in_botanical_works_by_others": []
+      }
+    },
+    "works": {
+      "without_botanical_context": []
+    },
+    "citations": {
+      "in_non_botanical_works_by_others": []
+    },
+    "links": {
+      "wikidata": {
+        "label": "https://nl.wikipedia.org/wiki/Theophilus_Salomo_Schumann",
+        "source": null
+      },
+      "gnd": {
+        "label": "https://d-nb.info/gnd/138347301",
+        "source": null
+      },
+      "factgrid": {
+        "label": null,
+        "source": null
+      },
+      "bionomia": {
+        "label": null,
+        "source": null
+      },
+      "saebi": {
+        "label": null,
+        "source": null
+      }
+    },
+    "life_trajectory": {
+      "type": "FeatureCollection",
+      "conformsTo": [
+        "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
+      ],
+      "features": []
+    }
+  },
+  {
     "id": "P1500000",
     "visible": true,
     "name": {
@@ -29029,7 +30328,7 @@
     "botany": {
       "focuses": [
         {
-          "label": "Fungologe – gilt als Begründer der Pilzwissenschaft in Nordamerika, Mooskenner, Beschrieb weitere 200 Pflanzenarten in Nordamerika erstmalig",
+          "label": "Fungologe – gilt als Begründer der Pilzwissenschaft in Nordamerika und Mooskenner, Beschrieb weitere 200 Pflanzenarten in Nordamerika erstmalig",
           "source": null
         }
       ],
@@ -29160,7 +30459,7 @@
     "botany": {
       "focuses": [
         {
-          "label": "wohl marginal in Botanik bekannt als Entomologe",
+          "label": "wohl marginal in Botanik, bekannt als Entomologe",
           "source": null
         }
       ],
@@ -29559,7 +30858,14 @@
         "printed": []
       },
       "citations": {
-        "in_botanical_works_by_others": []
+        "in_botanical_works_by_others": [
+          {
+            "id": "R0015200",
+            "label": "Merritt Lyndon Fernald & Jewell David Sornborger: Some recent additions to the Labrador flora, in The Ottawa Naturalist, Volume 13, pages 89–107, 1899",
+            "link": "https://catalog.hathitrust.org/Record/100426928",
+            "source": null
+          }
+        ]
       }
     },
     "works": {
@@ -29921,7 +31227,11 @@
     "botany": {
       "focuses": [
         {
-          "label": "Ornis der damaligen Oberlausitz (1911), Flora und Geologie von Hiddensee, Rüsselkäfer, Beiträge zur Wirbeltierfauna der Oberlausitz",
+          "label": "Ornis der damaligen Oberlausitz (1911)",
+          "source": null
+        },
+        {
+          "label": "Flora und Geologie von Hiddensee, Rüsselkäfer, Beiträge zur Wirbeltierfauna der Oberlausitz",
           "source": null
         }
       ],
@@ -30025,18 +31335,50 @@
     "birth": {
       "date": {
         "label": "17. Januar 1871",
-        "source": null,
+        "source": {
+          "type": "Druck",
+          "id": "R0014600",
+          "label": "Nachruf auf Adolf Stolz, in Notizblatt des Königl. botanischen Gartens und Museums zu Berlin, Bd. 7, Nr. 66 (Oct. 1, 1918), pp. 281-285",
+          "link": "https://www.jstor.org/stable/3994540"
+        },
         "notes": null
       },
-      "location": null
+      "location": {
+        "id": "L0860000",
+        "label": "Enon",
+        "link": "https://www.wikidata.org/wiki/Q5379390",
+        "source": {
+          "type": "Druck",
+          "id": "R0014600",
+          "label": "Nachruf auf Adolf Stolz, in Notizblatt des Königl. botanischen Gartens und Museums zu Berlin, Bd. 7, Nr. 66 (Oct. 1, 1918), pp. 281-285",
+          "link": "https://www.jstor.org/stable/3994540"
+        },
+        "notes": null
+      }
     },
     "death": {
       "date": {
-        "label": "6570 (unsicher)",
-        "source": null,
+        "label": "25. Dezember 1917",
+        "source": {
+          "type": "Druck",
+          "id": "R0014600",
+          "label": "Nachruf auf Adolf Stolz, in Notizblatt des Königl. botanischen Gartens und Museums zu Berlin, Bd. 7, Nr. 66 (Oct. 1, 1918), pp. 281-285",
+          "link": "https://www.jstor.org/stable/3994540"
+        },
         "notes": null
       },
-      "location": null
+      "location": {
+        "id": "L2455000",
+        "label": "Vust",
+        "link": "https://www.wikidata.org/wiki/Q2613269",
+        "source": {
+          "type": "Druck",
+          "id": "R0014600",
+          "label": "Nachruf auf Adolf Stolz, in Notizblatt des Königl. botanischen Gartens und Museums zu Berlin, Bd. 7, Nr. 66 (Oct. 1, 1918), pp. 281-285",
+          "link": "https://www.jstor.org/stable/3994540"
+        },
+        "notes": null
+      }
     },
     "places_of_effect": [],
     "moravian_curriculum_vitae": [],
@@ -30057,7 +31399,7 @@
           "source": null
         },
         {
-          "label": "Personalakte Stolz, Sign. MD (F) 831, Unitätsarchiv Herrnhut.",
+          "label": "Personalakte Stolz, Sign. MD (F) 831, Unitätsarchiv Herrnhut",
           "source": null
         }
       ],
@@ -30115,7 +31457,26 @@
       "conformsTo": [
         "http://www.opengis.net/spec/json-fg-1/0.2/conf/core"
       ],
-      "features": []
+      "features": [
+        {
+          "type": "Feature",
+          "featureType": "death",
+          "time": {
+            "date": "1917-12-25"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              9.063611111,
+              57.115277777
+            ]
+          },
+          "properties": {
+            "location_wikidata": "https://www.wikidata.org/wiki/Q2613269",
+            "place_name": "Vust"
+          }
+        }
+      ]
     }
   },
   {
@@ -31650,6 +33011,17 @@
             "id": "R0006300",
             "label": "W. Baer & O. Uttendörfer: Auf den Spuren gefiederter Räuber. Studien zweier Waldpolizisten, In: Ornithologische Monatsschrift, 22, 1897, S. 77–92",
             "link": "https://www.zobodat.at/pdf/Ornithologische-Monatsschrift_22_0077-0092.pdf"
+          }
+        },
+        {
+          "id": "P0960000",
+          "label": "Herbert Kramer",
+          "link": null,
+          "source": {
+            "type": "Druck",
+            "id": "R0015500",
+            "label": "Hans Stamm: Otto Uttendörfer und seine Arbeitsgemeinschaft zur Erforschung der Ernährungsbiologie bei Greifvögeln und Eulen 2001",
+            "link": null
           }
         }
       ],
@@ -34002,6 +35374,17 @@
               "Senckenberg Gesellschaft für Naturforschung: Senckenberg Museum für Naturkunde Görlitz"
             ],
             "source": null
+          },
+          {
+            "id": "C-leiner",
+            "label": "Herbarium Leiner",
+            "link": null,
+            "nybg_herbarium_code": null,
+            "holding_institutions": [],
+            "source": {
+              "type": "Web",
+              "label": "https://gbif.org/occurrence/415998406"
+            }
           }
         ],
         "database_evidence": [],
@@ -34857,7 +36240,15 @@
         "notes": null
       },
       "works": {
-        "manuscripts": [],
+        "manuscripts": [
+          {
+            "id": "M0046000",
+            "label": "Christian Jacob Wolle and John Torrey correspondence, 1838",
+            "link": "https://www.biodiversitylibrary.org/bibliography/159180",
+            "archive": "New York Botanical Garden Archives",
+            "source": null
+          }
+        ],
         "printed": []
       },
       "citations": {
@@ -34874,6 +36265,12 @@
             "id": "R0000400",
             "label": "James R. Troyer: \"Early American Moravian Botanists in North Carolina and elsewhere \", in: Journal of the North Carolina Academy of Science 125 (2009), Nr. 1, S. 1-6.",
             "link": null,
+            "source": null
+          },
+          {
+            "id": "R0014700",
+            "label": "Kummer, John G.: Catalogue of Botanical Specimens collected by J. WOLLE and A. L. HUEBENER, during the year 1837, in the vicinity of Bethlehem and other parts of Northampton County, Pennsylvania, in the order as they were found in bloom\". American Journal of Science and Arts. 37: 310–320, 1839",
+            "link": "http://www.biodiversitylibrary.org/page/30843748",
             "source": null
           }
         ]

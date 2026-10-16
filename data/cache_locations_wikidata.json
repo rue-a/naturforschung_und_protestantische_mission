@@ -580,5 +580,23 @@
     "start": "0047-01-01T00:00:00Z",
     "end": null,
     "founder": null
+  },
+  "Q14835": {
+    "coordinates": {
+      "lat": 51.181388888,
+      "lon": 14.423888888
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q3806": {
+    "coordinates": {
+      "lat": 48.52,
+      "lon": 9.055555555
+    },
+    "start": "1078-01-01T00:00:00Z",
+    "end": null,
+    "founder": null
   }
 }

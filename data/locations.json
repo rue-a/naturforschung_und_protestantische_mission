@@ -272,7 +272,7 @@
               "date_formatted": "17. April 1721"
             },
             {
-              "id": "P0225000",
+              "id": "P0226000",
               "name": "Anna Pauline Breutel",
               "wikidata": null,
               "date": "1836-03-28",
@@ -291,6 +291,39 @@
               "occupation": "Student"
             }
           ]
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L0305000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.423888888,
+          51.181388888
+        ]
+      },
+      "properties": {
+        "name": "Bautzen",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q14835",
+        "description": null,
+        "founder": null,
+        "events": {
+          "births": [
+            {
+              "id": "P0670000",
+              "name": "Andreas Gustav Hettasch",
+              "wikidata": "https://www.wikidata.org/wiki/Q123419918",
+              "date": "1831-08-14",
+              "date_formatted": "14. August 1831"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": []
         }
       }
     },
@@ -466,6 +499,13 @@
               "wikidata": "https://www.wikidata.org/wiki/Q62241",
               "date": "1831-12-06",
               "date_formatted": "6. Dezember 1831"
+            },
+            {
+              "id": "P0200000",
+              "name": "Franz Peter Brahts",
+              "wikidata": null,
+              "date": "1872-08-15",
+              "date_formatted": "15. August 1872"
             },
             {
               "id": "P0300000",
@@ -668,13 +708,21 @@
       "time": null,
       "geometry": null,
       "properties": {
-        "name": null,
+        "name": "Clarkson",
         "variants": [],
-        "wikidata": null,
-        "description": null,
+        "wikidata": "https://www.wikidata.org/wiki/Q13034496",
+        "description": "South Africa",
         "founder": null,
         "events": {
-          "births": [],
+          "births": [
+            {
+              "id": "P0680000",
+              "name": "Richard Paul Hettasch",
+              "wikidata": "https://www.wikidata.org/wiki/Q135024644",
+              "date": "1873-08-09",
+              "date_formatted": "9. August 1873"
+            }
+          ],
           "deaths": [],
           "places_of_effect": []
         }
@@ -800,6 +848,33 @@
         "founder": null,
         "events": {
           "births": [],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L0860000",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Enon",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q5379390",
+        "description": null,
+        "founder": null,
+        "events": {
+          "births": [
+            {
+              "id": "P1550000",
+              "name": "Adolf Ferdinand Stolz",
+              "wikidata": "https://www.wikidata.org/wiki/Q21609893",
+              "date": "1871-01-17",
+              "date_formatted": "17. Januar 1871"
+            }
+          ],
           "deaths": [],
           "places_of_effect": []
         }
@@ -1214,6 +1289,33 @@
     },
     {
       "type": "Feature",
+      "id": "L1101600",
+      "featureType": "HerrnhutLocation",
+      "time": null,
+      "geometry": null,
+      "properties": {
+        "name": "Göttingen",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q3033",
+        "description": null,
+        "founder": null,
+        "events": {
+          "births": [
+            {
+              "id": "P0660000",
+              "name": "Johann Georg Herzberg",
+              "wikidata": "https://www.wikidata.org/wiki/Q134510287",
+              "date": "1792-02-11",
+              "date_formatted": "11. Februar 1792"
+            }
+          ],
+          "deaths": [],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
       "id": "L1102000",
       "featureType": "HerrnhutLocation",
       "time": null,
@@ -1527,9 +1629,9 @@
             {
               "id": "P0180000",
               "name": "Johann Heinrich Theodor Bourquin",
-              "wikidata": null,
-              "date": "5465",
-              "date_formatted": "5465"
+              "wikidata": "https://www.wikidata.org/wiki/Q141747130",
+              "date": null,
+              "date_formatted": null
             },
             {
               "id": "P0610000",
@@ -1544,6 +1646,13 @@
               "wikidata": "https://www.wikidata.org/wiki/Q15229504",
               "date": "1796-04-16",
               "date_formatted": "16. April 1796"
+            },
+            {
+              "id": "P0670000",
+              "name": "Andreas Gustav Hettasch",
+              "wikidata": "https://www.wikidata.org/wiki/Q123419918",
+              "date": "1918-02-10",
+              "date_formatted": "10. Februar 1918"
             },
             {
               "id": "P0730000",
@@ -2393,7 +2502,15 @@
         "founder": null,
         "events": {
           "births": [],
-          "deaths": [],
+          "deaths": [
+            {
+              "id": "P0680000",
+              "name": "Richard Paul Hettasch",
+              "wikidata": "https://www.wikidata.org/wiki/Q135024644",
+              "date": "1949-02-18",
+              "date_formatted": "18. Februar 1949"
+            }
+          ],
           "places_of_effect": [
             {
               "id": "P1660000",
@@ -2793,7 +2910,7 @@
               "date_formatted": "19. Mai 1914"
             },
             {
-              "id": "P0225000",
+              "id": "P0226000",
               "name": "Anna Pauline Breutel",
               "wikidata": null,
               "date": "1897-10-28",
@@ -2812,6 +2929,20 @@
               "wikidata": "https://www.wikidata.org/wiki/Q135294861",
               "date": null,
               "date_formatted": null
+            },
+            {
+              "id": "P0225000",
+              "name": "John William Breutel",
+              "wikidata": "https://www.wikidata.org/wiki/Q135314033",
+              "date": "1829-03-29",
+              "date_formatted": "29. März 1829"
+            },
+            {
+              "id": "P0660000",
+              "name": "Johann Georg Herzberg",
+              "wikidata": "https://www.wikidata.org/wiki/Q134510287",
+              "date": "1864-04-15",
+              "date_formatted": "15. April 1864"
             },
             {
               "id": "P1595000",
@@ -3540,6 +3671,52 @@
       "type": "Feature",
       "id": "L2455000",
       "featureType": "HerrnhutLocation",
+      "time": {
+        "interval": [
+          "1078-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.055555555,
+          48.52
+        ]
+      },
+      "properties": {
+        "name": "Tübingen",
+        "variants": [],
+        "wikidata": "https://www.wikidata.org/wiki/Q3806",
+        "description": null,
+        "founder": null,
+        "events": {
+          "births": [
+            {
+              "id": "P0620000",
+              "name": "Jens Haven",
+              "wikidata": "https://www.wikidata.org/wiki/Q15229504",
+              "date": "1724-06-23",
+              "date_formatted": "23. Juni 1724"
+            }
+          ],
+          "deaths": [
+            {
+              "id": "P1550000",
+              "name": "Adolf Ferdinand Stolz",
+              "wikidata": "https://www.wikidata.org/wiki/Q21609893",
+              "date": "1917-12-25",
+              "date_formatted": "25. Dezember 1917"
+            }
+          ],
+          "places_of_effect": []
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "L2455000",
+      "featureType": "HerrnhutLocation",
       "time": null,
       "geometry": {
         "type": "Point",
@@ -3569,7 +3746,15 @@
               "date_formatted": "23. Juni 1724"
             }
           ],
-          "deaths": [],
+          "deaths": [
+            {
+              "id": "P1550000",
+              "name": "Adolf Ferdinand Stolz",
+              "wikidata": "https://www.wikidata.org/wiki/Q21609893",
+              "date": "1917-12-25",
+              "date_formatted": "25. Dezember 1917"
+            }
+          ],
           "places_of_effect": []
         }
       }
@@ -3626,6 +3811,13 @@
         "founder": null,
         "events": {
           "births": [
+            {
+              "id": "P0215000",
+              "name": "Georg Samuel Breutel",
+              "wikidata": null,
+              "date": "1778-09-12",
+              "date_formatted": "12. September 1778"
+            },
             {
               "id": "P0220000",
               "name": "Johann Christian Breutel",
