@@ -329,8 +329,8 @@ function _buildCollectionsSection(person) {
 	const contrib = person.botany?.contribution_to_collections ?? {};
 	const groups = [
 		["Objektnachweis", "Der Beitrag zu den aufgeführten Sammlungen wird verifiziert durch ein nachweislich von der Person gesammeltes Objekt, welches Teil der entsprechenden Sammlung ist.", contrib.object_evidence ?? []],
-		["Datenbanknachweis", "Der Beitrag zu den aufgeführten Sammlungen wird verifiziert durch eine Angabe über einen Beitrag zur entsprechenden in einer Sammlungsdatenbank.", contrib.database_evidence ?? []],
-		["Literaturnachweis", "Der Beitrag zu den aufgeführten Sammlungen wird verifiziert durch eine Angabe über einen Beitrag zur entsprechenden in der Literatur.", contrib.literature_evidence ?? []],
+		["Datenbanknachweis", "Der Beitrag zu den aufgeführten Sammlungen wird verifiziert durch eine Angabe über einen Beitrag der entsprechenden Person in einer Sammlungsdatenbank.", contrib.database_evidence ?? []],
+		["Literaturnachweis", "Der Beitrag zu den aufgeführten Sammlungen wird verifiziert durch eine Angabe über einen Beitrag der entsprechenden Person in der Literatur.", contrib.literature_evidence ?? []],
 	];
 	const sec = _contentSection("Sammlungsbeiträge");
 	const hasAny = groups.some(([, , list]) => list.length > 0);
@@ -368,7 +368,7 @@ function _buildCollectionsSection(person) {
 				a.href = c.link;
 				a.target = "_blank";
 				a.rel = "noopener noreferrer";
-				a.className = "collection-link";
+				a.className = "open-link-arrow";
 				a.textContent = "\u2197";
 				a.setAttribute("aria-label", "Webseite öffnen");
 				li.appendChild(a);
@@ -485,16 +485,25 @@ function _workList(items) {
 	const ul = document.createElement("ul");
 	ul.className = "works-list";
 	for (const item of items) {
+		if (!item) { continue }
 		const li = document.createElement("li");
+
+		if (item.source) {
+			li.appendChild(_sourcedText(item.label, item.source))
+		}
+		else {
+			const span = li.appendChild(document.createElement("span"))
+			span.textContent = item.label
+		}
 		if (item.link) {
 			const a = document.createElement("a");
 			a.href = item.link;
 			a.target = "_blank";
 			a.rel = "noopener noreferrer";
-			a.textContent = item.label;
+			a.className = "open-link-arrow";
+			a.textContent = "\u2197";
+			a.setAttribute("aria-label", "Webseite öffnen");
 			li.appendChild(a);
-		} else {
-			li.appendChild(_sourcedText(item.label, item.source));
 		}
 		ul.appendChild(li);
 	}

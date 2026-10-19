@@ -339,7 +339,7 @@ li.selected .person-list-id {
 	font-size: var(--font-size-xs);
 }
 
-.collection-link {
+.open-link-arrow {
 	display: inline-block;
 	margin-left: 0.35em;
 	font-size: 0.8em;
@@ -349,7 +349,7 @@ li.selected .person-list-id {
 	line-height: 1;
 }
 
-.collection-link:hover {
+.open-link-arrow:hover {
 	opacity: 1;
 }
 
