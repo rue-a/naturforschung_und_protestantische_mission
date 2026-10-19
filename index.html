@@ -8,7 +8,56 @@
 	<link rel="stylesheet" href="css/base.css" />
 	<style>
 		.landing {
+			max-width: 62rem;
+			margin: 0 auto;
 			padding: var(--space-xl) var(--space-lg);
+		}
+
+		.landing-hero {
+			background: var(--color-surface);
+			border: 1px solid var(--color-border);
+			border-radius: var(--radius);
+			padding: var(--space-xl);
+			margin-bottom: var(--space-lg);
+		}
+
+		.landing-lead {
+			font-size: var(--font-size-lg);
+			max-width: 50rem;
+			margin-bottom: var(--space-lg);
+		}
+
+		.landing-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+			gap: var(--space-md);
+		}
+
+		.landing-card {
+			background: var(--color-surface);
+			border: 1px solid var(--color-border);
+			border-radius: var(--radius);
+			padding: var(--space-lg);
+		}
+
+		.landing-card h2 {
+			font-size: var(--font-size-lg);
+		}
+
+		.landing-card p,
+		.landing-card li {
+			color: var(--color-text);
+		}
+
+		.inline-herrnhut-icon {
+			height: 1em;
+			vertical-align: text-bottom;
+			margin: 0 0.15em;
+		}
+
+		.inline-source-red {
+			color: #8b1e1e;
+			font-weight: 600;
 		}
 	</style>
 </head>
@@ -25,7 +74,50 @@
 	</header>
 
 	<main class="landing">
-		<h1>Naturforschung und protestantische Mission</h1>
+		<section class="landing-hero">
+			<h1>Naturforschung und protestantische Mission</h1>
+			<p class="landing-lead">
+				Diese Website dokumentiert Personen, Orte, Sammlungen und Werke welche im <b><a
+						href="https://tu-dresden.de/mn/biologie/botanik/forschung/herrnhut">BMFTR-Verbundprojekt
+						Naturforschung & protestantische Mission</a></b> erfasst wurden.
+				Sie macht sichtbar, welche Menschen beteiligt waren, wo sie wirkten und welche Beziehungen zwischen
+				Orten, Texten und Sammlungen bestehen.
+			</p>
+			<p>
+
+				Viele Angaben sind mit Quellen versehen und führen bei Bedarf zu weiteren Referenzen.
+			</p>
+		</section>
+
+		<section class="landing-grid" aria-label="So funktioniert die Website">
+			<article class="landing-card">
+				<h2>Personenregister</h2>
+				<p>
+					Im Personenregister finden Sie einzelne Lebensläufe, Beziehungen, Wirkungsorte, botanische Arbeiten
+					und Quellenhinweise.
+				</p>
+			</article>
+
+			<article class="landing-card">
+				<h2>Orte</h2>
+				<p>
+					Die Ortsansicht zeigt Orte mit zugeordneten Personen und Ereignissen. So lässt sich nachvollziehen,
+					wo Geburt, Tod oder Tätigkeit einer Person verortet sind.
+				</p>
+			</article>
+
+			<article class="landing-card">
+				<h2>Quellen und interne Verknüpfungen</h2>
+				<p>
+					<span class="inline-source-red">Rot</span> dargestellte Informationen sind durch eine
+					Quelle belegt, welche sich per
+					Klick anzeigen lässt. Das kleine
+					<img class="inline-herrnhut-icon" src="assets/herrnhut_logo256x256.png"
+						alt="Herrnhut-Symbol" />-Symbol
+					markiert interne Webeiten-Links.
+				</p>
+			</article>
+		</section>
 	</main>
 
 	<footer class="site-footer"></footer>
