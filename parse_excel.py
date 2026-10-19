@@ -51,7 +51,7 @@ def load_excel_sheet(file_name, sheet_name):
 def write_errors(file_path: str, all_errors: dict):
     with open(file_path, "w", encoding="utf-8") as f:
         f.write("# Parsing Errors\n")
-        f.write(f"Generated: {datetime.now().isoformat(timespec='seconds')}\n")
+        f.write(f"Generated: **{datetime.now().strftime('%b %d, %Y, %H:%M')}**\n")
         for sheet_name, sheet_errors in all_errors.items():
             if not sheet_errors:
                 continue
@@ -66,9 +66,9 @@ def write_errors(file_path: str, all_errors: dict):
                     f.write(f"\n- [ ] Error in **{column}**:\n")
                     f.write(f"  - *Row*: {entity_id}\n")
                     f.write(f"  - *Error Message*: **{message}**\n")
-                    f.write(f"  - *Causing value*: `{causing}`\n")
+                    f.write(f"  - *Causing value*: **`{causing}`**\n")
                     if causing.strip() != full_raw.strip() and len(full_raw) < 400:
-                        f.write(f"  - Full field: _{full_raw}_\n")
+                        f.write(f"  - Full field: `{full_raw}`\n")
 
 
 def load_objects(sheet_name: str, constructor, all_errors: dict, test_ids=None) -> dict:

@@ -1,5 +1,6 @@
 import re
 from abc import ABC, abstractmethod
+
 from validators import url
 
 _DE_MONTHS = [
@@ -63,8 +64,20 @@ def clean_field(raw: str) -> str:
     # remove all newlines
     raw = raw.replace("\n", "")
 
-    # remove square brackets and their content
-    raw = re.sub(r"\[.*?\]", "", raw)
+    # remove square bracket notes, including nested brackets
+    cleaned_chars = []
+    bracket_depth = 0
+    for ch in raw:
+        if ch == "[":
+            bracket_depth += 1
+            continue
+        if ch == "]":
+            if bracket_depth > 0:
+                bracket_depth -= 1
+            continue
+        if bracket_depth == 0:
+            cleaned_chars.append(ch)
+    raw = "".join(cleaned_chars)
 
     # collapse multiple spaces elsewhere
     raw = re.sub(r"\s+", " ", raw)
@@ -288,7 +301,7 @@ class ISO8601_2_Temporal(AttestableDatatype):
     @abstractmethod
     def iso8601_1_string(self) -> str | None:
         """Return a machine readable ISO8601-1 string"""
-    
+
     @abstractmethod
     def iso8601_2_string(self) -> str | None:
         """Return a machine readable ISO8601-2 string"""
@@ -308,8 +321,9 @@ class ISO8601_2_Date(ISO8601_2_Temporal):
         return _fmt_date(d) if d else None
 
     def iso8601_1_string(self) -> str | None:
-        d =getattr(self, "date", None)
-        if not d: return None
+        d = getattr(self, "date", None)
+        if not d:
+            return None
         d_truncated = d.replace("?", "").replace("~", "").replace("%", "")
         return d_truncated
 
@@ -348,13 +362,15 @@ class ISO8601_2_Period(ISO8601_2_Temporal):
 
     def iso8601_1_string(self) -> str | None:
         start = getattr(self, "start", None)
-        if start: start=start.iso8601_1_string()
+        if start:
+            start = start.iso8601_1_string()
         end = getattr(self, "end", None)
-        if end: end = end.iso8601_1_string()
+        if end:
+            end = end.iso8601_1_string()
         if start or end:
             return f"{start or ''}/{end or ''}"
         return None
-    
+
     def iso8601_2_string(self) -> str | None:
         start = getattr(self, "start", None)
         end = getattr(self, "end", None)

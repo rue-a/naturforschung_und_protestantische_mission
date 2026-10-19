@@ -525,6 +525,40 @@
             "source": null
           },
           {
+            "id": "M0004700",
+            "label": "J.B.v. Albertini: Vorwort. In: : Flora Nieskiensis, o.O., 1815",
+            "link": null,
+            "signature": "Cim.II.22",
+            "archive": "Unitätsarchiv Herrnhut",
+            "archive_abbreviation": "UA",
+            "source": null
+          },
+          {
+            "id": "M0004900",
+            "label": "J.B.v. Albertini: Flora Montis Gratiarum , o.O, 1814-1817",
+            "link": null,
+            "signature": "Cim.II.14",
+            "archive": "Unitätsarchiv Herrnhut",
+            "archive_abbreviation": "UA",
+            "source": null
+          },
+          {
+            "id": "M0005000",
+            "label": "J.B.v. Albertini: Flora Montis Gratiarum , o.O, 1814-1817, 28.11.1819",
+            "link": null,
+            "archive": "Schlesische Gesellschaft für vaterländische Kultur (Breslau - heute Universität Wrocław)",
+            "source": null
+          },
+          {
+            "id": "M0005100",
+            "label": "J.B.v. Albertini: Adnota ad Floram Montis Gratiarum , o.O, 1814ff",
+            "link": null,
+            "signature": "Cim.II.15",
+            "archive": "Unitätsarchiv Herrnhut",
+            "archive_abbreviation": "UA",
+            "source": null
+          },
+          {
             "id": "M0005300",
             "label": "J.B.v. Albertini: Flora Gnadenfreisensis, o.O.,",
             "link": null,
@@ -532,7 +566,27 @@
             "archive": "Unitätsarchiv Herrnhut",
             "archive_abbreviation": "UA",
             "source": null
-          }
+          },
+          {
+            "id": "M0005200",
+            "label": ": Albertini’s Flora Gnadenfrei’s . in: : Res Botanicae, o.O.,",
+            "link": null,
+            "signature": "NB.VI.185.7",
+            "archive": "Unitätsarchiv Herrnhut",
+            "archive_abbreviation": "UA",
+            "source": null
+          },
+          {
+            "id": "M0005400",
+            "label": ": Flora Albertini Gnadenfreyensis (Verändert nach Cur. 4. Aufl. 1840.), o.O.,",
+            "link": null,
+            "signature": "NB.VI.185.8",
+            "archive": "Unitätsarchiv Herrnhut",
+            "archive_abbreviation": "UA",
+            "source": null
+          },
+          null,
+          null
         ],
         "printed": [
           {
