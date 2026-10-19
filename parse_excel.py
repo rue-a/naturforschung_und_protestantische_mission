@@ -1,15 +1,18 @@
 # %%
+from datetime import datetime
 import json
+
 import pandas as pd
+
+from projectlibs.py.helpers.registry import Registry
 from projectlibs.py.herrnhut_objects import (
-    HerrnhutPerson,
     HerrnhutArchive,
-    HerrnhutManuscript,
+    HerrnhutCollection,
     HerrnhutLiterature,
     HerrnhutLocation,
-    HerrnhutCollection,
+    HerrnhutManuscript,
+    HerrnhutPerson,
 )
-from projectlibs.py.helpers.registry import Registry
 
 EXCEL_FILE = "data/Herrnhuter NaturkundlerInnen.xlsx"
 
@@ -48,6 +51,7 @@ def load_excel_sheet(file_name, sheet_name):
 def write_errors(file_path: str, all_errors: dict):
     with open(file_path, "w", encoding="utf-8") as f:
         f.write("# Parsing Errors\n")
+        f.write(f"Generated: {datetime.now().isoformat(timespec='seconds')}\n")
         for sheet_name, sheet_errors in all_errors.items():
             if not sheet_errors:
                 continue
