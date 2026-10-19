@@ -59,7 +59,9 @@ def write_errors(file_path: str, all_errors: dict):
                         full_raw = full_raw.replace("\n\n", "\n")
                     full_raw = full_raw.strip("\n")
                     causing = causing.strip("\n")
-                    f.write(f"\n- [ ] **{column}** ({entity_id}):\n")
+                    f.write(
+                        f"\n- [ ] Error in Col: **{column}** and row with ID {entity_id}:\n"
+                    )
                     f.write(f"  - Error Message: **`{message}`**\n")
                     f.write(f"  - Causing raw value: `{causing}`\n")
                     if causing.strip() != full_raw.strip() and len(full_raw) < 400:

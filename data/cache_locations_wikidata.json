@@ -598,5 +598,32 @@
     "start": "1078-01-01T00:00:00Z",
     "end": null,
     "founder": null
+  },
+  "Q13034496": {
+    "coordinates": {
+      "lat": -34.01,
+      "lon": 24.341
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q5379390": {
+    "coordinates": {
+      "lat": -33.398,
+      "lon": 25.545
+    },
+    "start": null,
+    "end": null,
+    "founder": null
+  },
+  "Q3033": {
+    "coordinates": {
+      "lat": 51.533888888,
+      "lon": 9.935555555
+    },
+    "start": "0953-01-01T00:00:00Z",
+    "end": null,
+    "founder": null
   }
 }

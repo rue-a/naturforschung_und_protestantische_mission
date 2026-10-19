@@ -706,7 +706,13 @@
       "id": "L0700000",
       "featureType": "HerrnhutLocation",
       "time": null,
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.341,
+          -34.01
+        ]
+      },
       "properties": {
         "name": "Clarkson",
         "variants": [],
@@ -858,7 +864,13 @@
       "id": "L0860000",
       "featureType": "HerrnhutLocation",
       "time": null,
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.545,
+          -33.398
+        ]
+      },
       "properties": {
         "name": "Enon",
         "variants": [],
@@ -1291,8 +1303,19 @@
       "type": "Feature",
       "id": "L1101600",
       "featureType": "HerrnhutLocation",
-      "time": null,
-      "geometry": null,
+      "time": {
+        "interval": [
+          "0953-01-01",
+          ".."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.935555555,
+          51.533888888
+        ]
+      },
       "properties": {
         "name": "Göttingen",
         "variants": [],
